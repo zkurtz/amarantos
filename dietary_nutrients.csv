@@ -1,0 +1,62 @@
+supplement,main_effect,5%_lower_bound,95%_upper_bound
+Coffee (moderate),Reduced all-cause mortality; neuroprotection,0.85,0.96
+Green Tea,Cardiovascular protection; cancer risk reduction,0.82,0.98
+Omega-3 Fatty Acids (EPA/DHA),Cardiovascular health; anti-inflammatory,0.88,0.99
+Vitamin D (adequate levels),Bone health; immune function; mortality reduction,0.86,0.98
+Creatine,Muscle preservation; cognitive enhancement,0.90,1.02
+Magnesium,Cardiovascular; metabolic health; sleep quality,0.84,0.96
+Fiber (dietary),Gut health; cardiovascular; cancer prevention,0.78,0.92
+Olive Oil (extra virgin),Cardiovascular protection; anti-inflammatory,0.82,0.94
+Berberine,Glucose regulation; lipid metabolism,0.85,0.98
+Curcumin/Turmeric,Anti-inflammatory; antioxidant,0.88,1.02
+Resveratrol,Sirtuin activation; cardiovascular (modest evidence),0.92,1.05
+NAD+ Precursors (NMN/NR),Cellular energy; DNA repair (emerging),0.88,1.08
+Sulforaphane (Broccoli Sprouts),Nrf2 activation; detoxification; cancer prevention,0.85,0.98
+Quercetin,Senolytic potential; anti-inflammatory,0.90,1.04
+Fisetin,Senolytic; neuroprotection (emerging),0.88,1.06
+Spermidine,Autophagy induction; cardiovascular,0.82,0.96
+CoQ10,Mitochondrial function; heart health,0.88,1.02
+Alpha-Lipoic Acid,Antioxidant; glucose metabolism,0.90,1.04
+Astaxanthin,Potent antioxidant; skin/eye health,0.88,1.03
+Taurine,Cardiovascular; longevity (animal data strong),0.84,0.98
+Glycine,Sleep quality; collagen synthesis; longevity,0.86,0.99
+Collagen Peptides,Skin/joint health; gut integrity,0.92,1.03
+Probiotics (general),Gut microbiome; immune modulation,0.88,1.02
+Zinc (adequate),Immune function; wound healing,0.88,0.99
+Selenium (adequate),Thyroid function; antioxidant; cancer prevention,0.86,1.02
+Melatonin,Sleep regulation; antioxidant; immune,0.90,1.02
+Ashwagandha,Stress adaptation; cortisol reduction,0.90,1.04
+Lion's Mane Mushroom,Neuroprotection; NGF stimulation,0.90,1.05
+Rhodiola Rosea,Adaptogen; fatigue reduction; stress,0.92,1.04
+Blueberries,Cognitive function; cardiovascular; antioxidant,0.84,0.96
+Dark Chocolate (high cacao),Cardiovascular; mood; flavanol benefits,0.88,0.98
+Walnuts,Cardiovascular; cognitive; omega-3 (ALA),0.84,0.96
+Almonds,Cardiovascular; blood sugar regulation,0.86,0.97
+Garlic,Cardiovascular; immune; antimicrobial,0.85,0.97
+Ginger,Anti-inflammatory; digestive; nausea relief,0.90,1.02
+Pomegranate,Cardiovascular; urolithin A production,0.86,0.98
+Equol (from soy isoflavones),Hormonal balance; cardiovascular (producer-dependent),0.88,1.04
+Fermented Foods,Gut microbiome diversity; immune function,0.86,0.98
+Leafy Greens (spinach/kale),Nitric oxide; bone health; nutrient density,0.82,0.94
+Cruciferous Vegetables,Cancer prevention; detoxification,0.80,0.93
+Fatty Fish (salmon/sardines),Cardiovascular; cognitive; omega-3,0.82,0.94
+Avocado,Cardiovascular; nutrient absorption,0.88,0.98
+Nuts (mixed),Cardiovascular; metabolic health,0.84,0.95
+Seeds (chia/flax),Fiber; omega-3 (ALA); lignans,0.86,0.97
+Tomatoes (lycopene),Prostate health; cardiovascular; antioxidant,0.88,0.98
+Mushrooms (various),Immune modulation; vitamin D; ergothioneine,0.88,0.98
+Apple Cider Vinegar,Blood sugar modulation (modest evidence),0.94,1.04
+Spirulina,Antioxidant; lipid modulation; protein,0.90,1.03
+Chlorella,Detoxification; immune; nutrient density,0.92,1.04
+B-Vitamins Complex,Energy metabolism; neurological function,0.90,1.00
+Vitamin K2,Bone health; cardiovascular calcification prevention,0.86,0.98
+Vitamin C,Antioxidant; immune; collagen synthesis,0.90,1.00
+Vitamin E,Antioxidant (mixed evidence; dose-dependent),0.92,1.06
+Iron (adequate; not excess),Oxygen transport; energy (excess harmful),0.88,1.08
+Calcium (adequate),Bone health (excess may be harmful),0.90,1.06
+Potassium (adequate),Blood pressure; cardiovascular,0.86,0.96
+Choline,Liver health; cognitive; methylation,0.90,1.02
+Betaine (TMG),Methylation support; homocysteine reduction,0.90,1.03
+Carnitine (L-Carnitine),Mitochondrial function; energy metabolism,0.92,1.04
+MCT Oil,Ketone production; cognitive (modest evidence),0.94,1.04
+Cacao Flavanols,Cardiovascular; cognitive; blood flow,0.86,0.97

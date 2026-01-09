@@ -15,6 +15,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
     { name = "numpy", version = "2.4.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+    { name = "pre-commit" },
 ]
 
 [package.dev-dependencies]
@@ -31,6 +32,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.3.1" },
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "numpy", specifier = ">=2.2.6" },
+    { name = "pre-commit", specifier = ">=4.0.1" },
 ]
 
 [package.metadata.requires-dev]

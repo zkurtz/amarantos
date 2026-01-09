@@ -142,10 +142,7 @@ class PubMedSearcher:
 
     def _fetch_details(self, pmids: list[str]) -> list[dict[str, str | None]]:
         """Fetch detailed information for a list of PMIDs."""
-        fetch_url = (
-            f"{self.BASE_URL}/efetch.fcgi?"
-            f"db=pubmed&id={','.join(pmids)}&retmode=xml&email={self.email}"
-        )
+        fetch_url = f"{self.BASE_URL}/efetch.fcgi?" f"db=pubmed&id={','.join(pmids)}&retmode=xml&email={self.email}"
 
         try:
             with urllib.request.urlopen(fetch_url, timeout=30) as response:

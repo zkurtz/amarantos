@@ -1,39 +1,30 @@
 #!/usr/bin/env python3
-"""
-Dietary Nutrient Health Impact Estimation Tool
+"""Dietary Nutrient Health Impact Estimation Tool.
 
-This script provides tools to:
+This module provides tools to:
 1. Search PubMed for meta-analyses on dietary compounds
 2. Extract and parse effect sizes from literature
 3. Visualize the current estimates
 4. Update estimates based on new evidence
 
 Usage:
-    python derive_nutrient_estimates.py --search "coffee mortality"
-    python derive_nutrient_estimates.py --visualize
-    python derive_nutrient_estimates.py --validate
+    uv run python -m amarantos.diet.cli search "coffee mortality"
+    uv run python -m amarantos.diet.cli visualize
+    uv run python -m amarantos.diet.cli validate
 """
 
-import argparse
 import csv
 import json
 import re
-import sys
 import urllib.parse
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional
 from xml.etree import ElementTree
 
-# Optional imports for visualization
-try:
-    import matplotlib.pyplot as plt
-    import numpy as np
-
-    HAS_PLOTTING = True
-except ImportError:
-    HAS_PLOTTING = False
+import click
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 @dataclass
@@ -71,8 +62,15 @@ class NutrientEstimate:
         return self.lower_bound > 1.0
 
 
-def load_estimates(csv_path: str = "dietary_nutrients.csv") -> list[NutrientEstimate]:
+def get_default_csv_path() -> Path:
+    """Get the default path to the CSV file."""
+    return Path(__file__).parent / "dietary_nutrients.csv"
+
+
+def load_estimates(csv_path: Path | None = None) -> list[NutrientEstimate]:
     """Load nutrient estimates from CSV file."""
+    if csv_path is None:
+        csv_path = get_default_csv_path()
     estimates = []
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -88,15 +86,13 @@ def load_estimates(csv_path: str = "dietary_nutrients.csv") -> list[NutrientEsti
     return estimates
 
 
-def save_estimates(
-    estimates: list[NutrientEstimate], csv_path: str = "dietary_nutrients.csv"
-) -> None:
+def save_estimates(estimates: list[NutrientEstimate], csv_path: Path | None = None) -> None:
     """Save nutrient estimates to CSV file."""
+    if csv_path is None:
+        csv_path = get_default_csv_path()
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        writer.writerow(
-            ["supplement", "main_effect", "5%_lower_bound", "95%_upper_bound"]
-        )
+        writer.writerow(["supplement", "main_effect", "5%_lower_bound", "95%_upper_bound"])
         for e in estimates:
             writer.writerow([e.supplement, e.main_effect, e.lower_bound, e.upper_bound])
 
@@ -107,13 +103,11 @@ class PubMedSearcher:
     BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
     def __init__(self, email: str = "researcher@example.com"):
+        """Initialize the searcher with an email for NCBI API."""
         self.email = email
 
-    def search(
-        self, query: str, max_results: int = 10
-    ) -> list[dict[str, Optional[str]]]:
-        """
-        Search PubMed for articles matching the query.
+    def search(self, query: str, max_results: int = 10) -> list[dict[str, str | None]]:
+        """Search PubMed for articles matching the query.
 
         Args:
             query: Search terms (e.g., "coffee mortality meta-analysis")
@@ -137,7 +131,7 @@ class PubMedSearcher:
                 data = json.loads(response.read().decode())
                 pmids = data.get("esearchresult", {}).get("idlist", [])
         except (urllib.error.URLError, json.JSONDecodeError) as e:
-            print(f"Search error: {e}")
+            click.echo(f"Search error: {e}", err=True)
             return []
 
         if not pmids:
@@ -146,7 +140,7 @@ class PubMedSearcher:
         # Fetch article details
         return self._fetch_details(pmids)
 
-    def _fetch_details(self, pmids: list[str]) -> list[dict[str, Optional[str]]]:
+    def _fetch_details(self, pmids: list[str]) -> list[dict[str, str | None]]:
         """Fetch detailed information for a list of PMIDs."""
         fetch_url = (
             f"{self.BASE_URL}/efetch.fcgi?"
@@ -157,12 +151,12 @@ class PubMedSearcher:
             with urllib.request.urlopen(fetch_url, timeout=30) as response:
                 xml_data = response.read().decode()
         except urllib.error.URLError as e:
-            print(f"Fetch error: {e}")
+            click.echo(f"Fetch error: {e}", err=True)
             return []
 
         return self._parse_xml(xml_data)
 
-    def _parse_xml(self, xml_data: str) -> list[dict[str, Optional[str]]]:
+    def _parse_xml(self, xml_data: str) -> list[dict[str, str | None]]:
         """Parse PubMed XML response into article dictionaries."""
         articles = []
         try:
@@ -178,17 +172,13 @@ class PubMedSearcher:
                     {
                         "pmid": pmid_elem.text if pmid_elem is not None else None,
                         "title": title_elem.text if title_elem is not None else None,
-                        "abstract": (
-                            abstract_elem.text if abstract_elem is not None else None
-                        ),
+                        "abstract": abstract_elem.text if abstract_elem is not None else None,
                         "year": year_elem.text if year_elem is not None else None,
-                        "journal": (
-                            journal_elem.text if journal_elem is not None else None
-                        ),
+                        "journal": journal_elem.text if journal_elem is not None else None,
                     }
                 )
         except ElementTree.ParseError as e:
-            print(f"XML parse error: {e}")
+            click.echo(f"XML parse error: {e}", err=True)
 
         return articles
 
@@ -208,9 +198,8 @@ class EffectSizeExtractor:
         r"pooled\s+(?:HR|RR|OR)\s+(?:of\s+)?(\d+\.?\d*)",
     ]
 
-    def extract(self, text: str) -> list[dict[str, float]]:
-        """
-        Extract effect sizes from text.
+    def extract(self, text: str) -> list[dict[str, float | None]]:
+        """Extract effect sizes from text.
 
         Returns list of dicts with keys: 'estimate', 'lower', 'upper'
         """
@@ -249,13 +238,8 @@ class EffectSizeExtractor:
         return results
 
 
-def visualize_estimates(estimates: list[NutrientEstimate]) -> None:
+def visualize_estimates(estimates: list[NutrientEstimate], output_path: Path | None = None) -> None:
     """Create a forest plot visualization of the estimates."""
-    if not HAS_PLOTTING:
-        print("Visualization requires matplotlib and numpy.")
-        print("Install with: pip install matplotlib numpy")
-        return
-
     # Sort by point estimate
     sorted_estimates = sorted(estimates, key=lambda x: x.point_estimate)
 
@@ -285,52 +269,55 @@ def visualize_estimates(estimates: list[NutrientEstimate]) -> None:
     ax.legend(loc="upper right")
 
     plt.tight_layout()
-    plt.savefig("dietary_nutrients_forest_plot.png", dpi=150, bbox_inches="tight")
-    print("Saved visualization to: dietary_nutrients_forest_plot.png")
+
+    if output_path is None:
+        output_path = Path.cwd() / "dietary_nutrients_forest_plot.png"
+    plt.savefig(output_path, dpi=150, bbox_inches="tight")
+    click.echo(f"Saved visualization to: {output_path}")
     plt.show()
 
 
 def validate_estimates(estimates: list[NutrientEstimate]) -> None:
     """Validate estimates and report statistics."""
-    print("\n" + "=" * 60)
-    print("DIETARY NUTRIENTS ESTIMATE VALIDATION")
-    print("=" * 60)
+    click.echo("\n" + "=" * 60)
+    click.echo("DIETARY NUTRIENTS ESTIMATE VALIDATION")
+    click.echo("=" * 60)
 
-    print(f"\nTotal compounds: {len(estimates)}")
+    click.echo(f"\nTotal compounds: {len(estimates)}")
 
     beneficial = [e for e in estimates if e.is_beneficial]
     uncertain = [e for e in estimates if e.is_uncertain]
     harmful = [e for e in estimates if e.is_harmful]
 
-    print(f"\nClassification:")
-    print(f"  Clearly beneficial (95% CI < 1.0): {len(beneficial)}")
-    print(f"  Uncertain (CI crosses 1.0):        {len(uncertain)}")
-    print(f"  Potentially harmful (5% CI > 1.0): {len(harmful)}")
+    click.echo("\nClassification:")
+    click.echo(f"  Clearly beneficial (95% CI < 1.0): {len(beneficial)}")
+    click.echo(f"  Uncertain (CI crosses 1.0):        {len(uncertain)}")
+    click.echo(f"  Potentially harmful (5% CI > 1.0): {len(harmful)}")
 
-    print("\n" + "-" * 60)
-    print("TOP 10 MOST BENEFICIAL (by point estimate)")
-    print("-" * 60)
+    click.echo("\n" + "-" * 60)
+    click.echo("TOP 10 MOST BENEFICIAL (by point estimate)")
+    click.echo("-" * 60)
     sorted_by_benefit = sorted(estimates, key=lambda x: x.point_estimate)
     for i, e in enumerate(sorted_by_benefit[:10], 1):
-        print(f"{i:2}. {e.supplement[:35]:<35} {e.point_estimate:.3f} ({e.lower_bound:.2f}-{e.upper_bound:.2f})")
+        click.echo(f"{i:2}. {e.supplement[:35]:<35} {e.point_estimate:.3f} ({e.lower_bound:.2f}-{e.upper_bound:.2f})")
 
-    print("\n" + "-" * 60)
-    print("COMPOUNDS WITH UNCERTAIN EVIDENCE")
-    print("-" * 60)
+    click.echo("\n" + "-" * 60)
+    click.echo("COMPOUNDS WITH UNCERTAIN EVIDENCE")
+    click.echo("-" * 60)
     for e in uncertain:
-        print(f"  - {e.supplement[:40]:<40} ({e.lower_bound:.2f}-{e.upper_bound:.2f})")
+        click.echo(f"  - {e.supplement[:40]:<40} ({e.lower_bound:.2f}-{e.upper_bound:.2f})")
 
-    print("\n" + "-" * 60)
-    print("WIDEST CONFIDENCE INTERVALS (most uncertain)")
-    print("-" * 60)
+    click.echo("\n" + "-" * 60)
+    click.echo("WIDEST CONFIDENCE INTERVALS (most uncertain)")
+    click.echo("-" * 60)
     sorted_by_width = sorted(estimates, key=lambda x: x.uncertainty_width, reverse=True)
     for e in sorted_by_width[:10]:
-        print(f"  - {e.supplement[:35]:<35} width: {e.uncertainty_width:.3f}")
+        click.echo(f"  - {e.supplement[:35]:<35} width: {e.uncertainty_width:.3f}")
 
     # Check for logical issues
-    print("\n" + "-" * 60)
-    print("DATA QUALITY CHECKS")
-    print("-" * 60)
+    click.echo("\n" + "-" * 60)
+    click.echo("DATA QUALITY CHECKS")
+    click.echo("-" * 60)
 
     issues = []
     for e in estimates:
@@ -342,17 +329,17 @@ def validate_estimates(estimates: list[NutrientEstimate]) -> None:
             issues.append(f"{e.supplement}: unusually high upper bound ({e.upper_bound})")
 
     if issues:
-        print("Issues found:")
+        click.echo("Issues found:")
         for issue in issues:
-            print(f"  WARNING: {issue}")
+            click.echo(f"  WARNING: {issue}")
     else:
-        print("No data quality issues found.")
+        click.echo("No data quality issues found.")
 
 
 def search_literature(query: str, verbose: bool = True) -> None:
     """Search PubMed for meta-analyses related to a query."""
-    print(f"\nSearching PubMed for: {query}")
-    print("-" * 50)
+    click.echo(f"\nSearching PubMed for: {query}")
+    click.echo("-" * 50)
 
     searcher = PubMedSearcher()
     extractor = EffectSizeExtractor()
@@ -360,81 +347,80 @@ def search_literature(query: str, verbose: bool = True) -> None:
     articles = searcher.search(query, max_results=5)
 
     if not articles:
-        print("No results found.")
+        click.echo("No results found.")
         return
 
     for article in articles:
-        print(f"\nPMID: {article['pmid']}")
-        print(f"Year: {article['year']}")
-        print(f"Journal: {article['journal']}")
-        print(f"Title: {article['title']}")
+        click.echo(f"\nPMID: {article['pmid']}")
+        click.echo(f"Year: {article['year']}")
+        click.echo(f"Journal: {article['journal']}")
+        click.echo(f"Title: {article['title']}")
 
         if article["abstract"]:
             # Try to extract effect sizes
             effects = extractor.extract(article["abstract"])
             if effects:
-                print("Extracted effect sizes:")
+                click.echo("Extracted effect sizes:")
                 for effect in effects:
                     if effect["lower"] and effect["upper"]:
-                        print(
+                        click.echo(
                             f"  RR/HR: {effect['estimate']:.2f} "
                             f"(95% CI: {effect['lower']:.2f}-{effect['upper']:.2f})"
                         )
                     else:
-                        print(f"  RR/HR: {effect['estimate']:.2f}")
+                        click.echo(f"  RR/HR: {effect['estimate']:.2f}")
 
             if verbose:
-                print(f"Abstract: {article['abstract'][:500]}...")
+                abstract_text = article["abstract"]
+                if abstract_text and len(abstract_text) > 500:
+                    abstract_text = abstract_text[:500] + "..."
+                click.echo(f"Abstract: {abstract_text}")
 
-        print("-" * 50)
+        click.echo("-" * 50)
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Dietary Nutrient Health Impact Estimation Tool"
-    )
-    parser.add_argument(
-        "--search", type=str, help="Search PubMed for meta-analyses on a compound"
-    )
-    parser.add_argument(
-        "--visualize", action="store_true", help="Generate forest plot visualization"
-    )
-    parser.add_argument(
-        "--validate", action="store_true", help="Validate and summarize estimates"
-    )
-    parser.add_argument(
-        "--csv", type=str, default="dietary_nutrients.csv", help="Path to CSV file"
-    )
+@click.group()
+def cli() -> None:
+    """Dietary Nutrient Health Impact Estimation Tool."""
+    pass
 
-    args = parser.parse_args()
 
-    # Resolve path relative to script location
-    script_dir = Path(__file__).parent
-    csv_path = script_dir / args.csv
+@cli.command()
+@click.argument("query")
+@click.option("--verbose/--no-verbose", default=True, help="Show full abstracts")
+def search(query: str, verbose: bool) -> None:
+    """Search PubMed for meta-analyses on a compound.
 
-    if args.search:
-        search_literature(args.search)
-    elif args.visualize:
-        estimates = load_estimates(csv_path)
-        visualize_estimates(estimates)
-    elif args.validate:
-        estimates = load_estimates(csv_path)
-        validate_estimates(estimates)
-    else:
-        # Default: run validation
-        print("Dietary Nutrient Estimation Tool")
-        print("=" * 40)
-        print("\nUsage:")
-        print("  --search QUERY   Search PubMed for meta-analyses")
-        print("  --visualize      Generate forest plot")
-        print("  --validate       Validate and summarize data")
-        print("\nExample:")
-        print('  python derive_nutrient_estimates.py --search "omega-3 mortality"')
-        print("  python derive_nutrient_estimates.py --visualize")
+    Example: uv run python -m amarantos.diet.cli search "omega-3 mortality"
+    """
+    search_literature(query, verbose=verbose)
 
-        if csv_path.exists():
-            print(f"\nLoaded {len(load_estimates(csv_path))} compounds from {csv_path}")
+
+@cli.command()
+@click.option("--output", "-o", type=click.Path(), help="Output file path for the plot")
+def visualize(output: str | None) -> None:
+    """Generate a forest plot visualization of all estimates."""
+    estimates = load_estimates()
+    output_path = Path(output) if output else None
+    visualize_estimates(estimates, output_path)
+
+
+@cli.command()
+def validate() -> None:
+    """Validate and summarize the nutrient estimates."""
+    estimates = load_estimates()
+    validate_estimates(estimates)
+
+
+@cli.command()
+def list_compounds() -> None:
+    """List all compounds in the database."""
+    estimates = load_estimates()
+    click.echo(f"\nDietary compounds in database ({len(estimates)} total):\n")
+    for e in sorted(estimates, key=lambda x: x.supplement.lower()):
+        status = "✓" if e.is_beneficial else ("?" if e.is_uncertain else "✗")
+        click.echo(f"  {status} {e.supplement}")
 
 
 if __name__ == "__main__":
-    main()
+    cli()

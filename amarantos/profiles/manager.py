@@ -32,6 +32,17 @@ class ProfileManager:
         """
         return self.profiles_dir / f"{profile_name}.json"
 
+    def get_profile_path(self, profile_name: str) -> Path:
+        """Get the path for a profile file (public API).
+
+        Args:
+            profile_name: Name of the profile
+
+        Returns:
+            Path to the profile JSON file
+        """
+        return self._get_profile_path(profile_name)
+
     def create(self, profile_name: str, profile: UserProfile) -> None:
         """Create a new profile.
 

@@ -52,7 +52,7 @@ def create(name: str, from_template: bool) -> None:
         manager.create(name, profile)
         click.echo(f"Created profile: {name}")
         click.echo(f"Completeness: {profile.completeness()}%")
-        click.echo(f"\nProfile saved to: {manager._get_profile_path(name)}")
+        click.echo(f"\nProfile saved to: {manager.get_profile_path(name)}")
         click.echo("\nTip: Edit the JSON file directly or use 'update' command to add information.")
     except FileExistsError as e:
         click.echo(f"Error: {e}", err=True)

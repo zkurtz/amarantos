@@ -184,9 +184,9 @@ class UserProfile(BaseModel):
         # Goals
         if self.goals:
             total_fields += 2  # primary, secondary
-            if self.goals.primary:
+            if self.goals.primary and len(self.goals.primary) > 0:
                 filled_fields += 1
-            if self.goals.secondary:
+            if self.goals.secondary and len(self.goals.secondary) > 0:
                 filled_fields += 1
         else:
             total_fields += 2

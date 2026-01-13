@@ -1,0 +1,7 @@
+domain: diet
+name: Cacao Flavanols
+effects:
+- outcome: Relative risk of cardiovascular events; 200-900mg flavanols/day vs
+    low intake
+  mean: 0.915
+  std: 0.0281

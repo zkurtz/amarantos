@@ -1,0 +1,6 @@
+domain: diet
+name: Green Tea
+effects:
+- outcome: Relative risk of cardiovascular mortality; 3+ cups/day vs <1 cup/day
+  mean: 0.9
+  std: 0.0408

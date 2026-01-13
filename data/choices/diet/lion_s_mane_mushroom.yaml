@@ -1,0 +1,7 @@
+domain: diet
+name: Lion's Mane Mushroom
+effects:
+- outcome: Relative improvement in cognitive scores; 500-3000mg/day; no direct
+    mortality data; NGF mechanism
+  mean: 0.975
+  std: 0.0383

@@ -1,0 +1,7 @@
+domain: diet
+name: Spirulina
+effects:
+- outcome: Relative risk of dyslipidemia; 1-8g/day supplementation vs placebo;
+    mortality extrapolated
+  mean: 0.965
+  std: 0.0332

@@ -1,0 +1,7 @@
+domain: diet
+name: Melatonin
+effects:
+- outcome: Relative risk of sleep-related mortality factors; 0.5-5mg/day
+    supplementation; indirect mortality evidence
+  mean: 0.96
+  std: 0.0306

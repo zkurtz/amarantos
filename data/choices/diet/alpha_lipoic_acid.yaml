@@ -1,0 +1,7 @@
+domain: diet
+name: Alpha-Lipoic Acid
+effects:
+- outcome: Relative risk of diabetic complications; 300-600mg/day
+    supplementation vs placebo
+  mean: 0.97
+  std: 0.0357

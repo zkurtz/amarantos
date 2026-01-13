@@ -1,0 +1,7 @@
+domain: diet
+name: Olive Oil (extra virgin)
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; >7g/day vs minimal
+    consumption
+  mean: 0.88
+  std: 0.0306

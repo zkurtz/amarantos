@@ -1,0 +1,7 @@
+domain: diet
+name: Curcumin/Turmeric
+effects:
+- outcome: Relative risk of inflammatory disease outcomes; 500-2000mg/day
+    standardized extract vs placebo
+  mean: 0.95
+  std: 0.0357

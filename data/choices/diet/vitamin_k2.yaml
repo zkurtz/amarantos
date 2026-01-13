@@ -1,0 +1,7 @@
+domain: diet
+name: Vitamin K2
+effects:
+- outcome: Relative risk of cardiovascular calcification; 90-360mcg/day MK-7 vs
+    placebo
+  mean: 0.92
+  std: 0.0306

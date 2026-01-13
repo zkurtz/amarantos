@@ -1,0 +1,7 @@
+domain: diet
+name: Potassium (adequate)
+effects:
+- outcome: Relative risk of stroke; highest vs lowest intake quintile;
+    3500-4700mg/day target
+  mean: 0.91
+  std: 0.0255

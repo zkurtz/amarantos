@@ -1,0 +1,7 @@
+domain: diet
+name: CoQ10
+effects:
+- outcome: Relative risk of major cardiovascular events; 100-300mg/day
+    supplementation in heart failure patients
+  mean: 0.95
+  std: 0.0357

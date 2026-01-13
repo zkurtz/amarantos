@@ -1,0 +1,7 @@
+domain: diet
+name: Seeds (chia/flax)
+effects:
+- outcome: Relative risk of cardiovascular disease; 1-2 tbsp/day vs
+    non-consumers; ALA omega-3 source
+  mean: 0.915
+  std: 0.0281

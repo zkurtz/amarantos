@@ -1,0 +1,7 @@
+domain: diet
+name: Omega-3 Fatty Acids (EPA/DHA)
+effects:
+- outcome: Hazard ratio for major cardiovascular events; 1g+/day supplementation
+    vs placebo
+  mean: 0.935
+  std: 0.0281

@@ -1,0 +1,7 @@
+domain: diet
+name: Probiotics (general)
+effects:
+- outcome: Relative risk of infections and inflammatory conditions; daily
+    supplementation vs placebo
+  mean: 0.95
+  std: 0.0357

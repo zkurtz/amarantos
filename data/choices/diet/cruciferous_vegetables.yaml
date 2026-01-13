@@ -1,0 +1,7 @@
+domain: diet
+name: Cruciferous Vegetables
+effects:
+- outcome: Relative risk of cancer incidence; 3+ servings/week vs <1
+    serving/week
+  mean: 0.865
+  std: 0.0332

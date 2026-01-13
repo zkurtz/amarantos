@@ -1,0 +1,7 @@
+domain: diet
+name: Astaxanthin
+effects:
+- outcome: Relative risk of oxidative stress markers; 4-12mg/day
+    supplementation; mortality data extrapolated from biomarkers
+  mean: 0.955
+  std: 0.0383

@@ -1,0 +1,7 @@
+domain: diet
+name: Resveratrol
+effects:
+- outcome: Hazard ratio for cardiovascular events; supplementation vs placebo
+    (human RCT data limited)
+  mean: 0.985
+  std: 0.0332

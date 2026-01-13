@@ -1,0 +1,7 @@
+domain: diet
+name: Quercetin
+effects:
+- outcome: Relative risk of cardiovascular events; high dietary intake vs low;
+    senolytic effects in preclinical models
+  mean: 0.97
+  std: 0.0357

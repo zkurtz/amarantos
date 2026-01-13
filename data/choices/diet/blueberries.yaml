@@ -1,0 +1,7 @@
+domain: diet
+name: Blueberries
+effects:
+- outcome: Relative risk of cardiovascular disease; 1+ servings/day vs <1
+    serving/week
+  mean: 0.9
+  std: 0.0306

@@ -1,0 +1,7 @@
+domain: diet
+name: Magnesium
+effects:
+- outcome: Relative risk of cardiovascular disease; highest vs lowest dietary
+    intake quintile
+  mean: 0.9
+  std: 0.0306

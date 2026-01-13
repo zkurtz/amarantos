@@ -1,0 +1,6 @@
+domain: diet
+name: Fiber (dietary)
+effects:
+- outcome: Hazard ratio for all-cause mortality; per 10g/day increase in intake
+  mean: 0.85
+  std: 0.0357

@@ -1,0 +1,7 @@
+domain: diet
+name: Tomatoes (lycopene)
+effects:
+- outcome: Relative risk of prostate cancer; highest vs lowest lycopene intake
+    quintile
+  mean: 0.93
+  std: 0.0255

@@ -1,0 +1,7 @@
+domain: diet
+name: Almonds
+effects:
+- outcome: Relative risk of cardiovascular disease; 1oz (28g)/day vs
+    non-consumers
+  mean: 0.915
+  std: 0.0281

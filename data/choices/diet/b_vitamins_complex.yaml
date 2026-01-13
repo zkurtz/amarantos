@@ -1,0 +1,7 @@
+domain: diet
+name: B-Vitamins Complex
+effects:
+- outcome: Relative risk of cardiovascular events; adequate intake vs
+    deficiency; homocysteine pathway
+  mean: 0.95
+  std: 0.0255

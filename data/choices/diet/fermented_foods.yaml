@@ -1,0 +1,7 @@
+domain: diet
+name: Fermented Foods
+effects:
+- outcome: Relative risk of all-cause mortality; regular consumption (daily) vs
+    rare consumption
+  mean: 0.92
+  std: 0.0306

@@ -1,0 +1,6 @@
+domain: diet
+name: Walnuts
+effects:
+- outcome: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers
+  mean: 0.9
+  std: 0.0306

@@ -1,18 +1,43 @@
-"""Pydantic schemas for intervention data."""
+"""Schemas for choice data."""
 
+import re
 from pathlib import Path
 
+import attrs
 import dummio.yaml
-from pydantic import BaseModel
+
+DATA_DIR = Path(__file__).parent.parent.parent / "data"
+CHOICES_DIR = DATA_DIR / "choices"
+
+# 95% CI uses 1.96 standard deviations
+Z_95 = 1.96
 
 
-class EffectEstimate(BaseModel):
-    """A health effect estimate with confidence bounds."""
+def _name_to_filename(name: str) -> str:
+    """Convert a choice name to a valid filename."""
+    clean = name.lower()
+    clean = re.sub(r"\s*\([^)]*\)", "", clean)  # Remove parentheses content
+    clean = re.sub(r"[^a-z0-9]+", "_", clean)  # Replace non-alphanumeric with _
+    return clean.strip("_") + ".yaml"
+
+
+@attrs.frozen
+class Effect:
+    """A Gaussian-distributed health effect estimate."""
 
     outcome: str
-    estimate: float
-    ci_lower: float
-    ci_upper: float
+    mean: float
+    std: float
+
+    @property
+    def ci_lower(self) -> float:
+        """Lower bound of 95% confidence interval."""
+        return self.mean - Z_95 * self.std
+
+    @property
+    def ci_upper(self) -> float:
+        """Upper bound of 95% confidence interval."""
+        return self.mean + Z_95 * self.std
 
     @property
     def is_beneficial(self) -> bool:
@@ -29,26 +54,40 @@ class EffectEstimate(BaseModel):
         """Effect is uncertain if CI crosses 1.0."""
         return self.ci_lower < 1.0 < self.ci_upper
 
-    @property
-    def uncertainty_width(self) -> float:
-        """Width of the confidence interval."""
-        return self.ci_upper - self.ci_lower
 
+@attrs.frozen
+class Choice:
+    """A wellness choice with effect estimates."""
 
-class Intervention(BaseModel):
-    """A wellness intervention with effect estimates."""
-
-    id: str
     domain: str
     name: str
-    effects: list[EffectEstimate]
+    effects: tuple[Effect, ...]
+    annual_cost: float | None = None
+    literature: list[str] | None = None
+
+    @property
+    def path(self) -> Path:
+        """Default path for this choice."""
+        return CHOICES_DIR / self.domain / _name_to_filename(self.name)
 
     @classmethod
-    def load(cls, path: Path) -> "Intervention":
-        """Load an intervention from a YAML file."""
+    def load(cls, path: Path) -> "Choice":
+        """Load a choice from a YAML file."""
         data = dummio.yaml.load(filepath=path)
+        data["effects"] = tuple(Effect(**e) for e in data["effects"])
         return cls(**data)
 
-    def save(self, path: Path) -> None:
-        """Save this intervention to a YAML file."""
-        dummio.yaml.save(self.model_dump(), filepath=path)
+    def save(self, path: Path | None = None) -> None:
+        """Save this choice to a YAML file."""
+        if path is None:
+            path = self.path
+        data = {
+            "domain": self.domain,
+            "name": self.name,
+            "effects": [attrs.asdict(e) for e in self.effects],
+        }
+        if self.annual_cost is not None:
+            data["annual_cost"] = self.annual_cost
+        if self.literature is not None:
+            data["literature"] = self.literature
+        dummio.yaml.save(data, filepath=path)

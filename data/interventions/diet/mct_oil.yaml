@@ -1,9 +1,0 @@
-id: diet.mct_oil
-domain: diet
-name: MCT Oil
-effects:
-- outcome: Relative improvement in ketone/cognitive markers; 15-30mL/day; no
-    direct mortality data
-  estimate: 0.989
-  ci_lower: 0.94
-  ci_upper: 1.04

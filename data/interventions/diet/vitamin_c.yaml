@@ -1,9 +1,0 @@
-id: diet.vitamin_c
-domain: diet
-name: Vitamin C
-effects:
-- outcome: Relative risk of all-cause mortality; adequate intake (>100mg/day) vs
-    deficient; diminishing returns at high doses
-  estimate: 0.949
-  ci_lower: 0.9
-  ci_upper: 1.0

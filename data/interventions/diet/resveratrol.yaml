@@ -1,9 +1,0 @@
-id: diet.resveratrol
-domain: diet
-name: Resveratrol
-effects:
-- outcome: Hazard ratio for cardiovascular events; supplementation vs placebo
-    (human RCT data limited)
-  estimate: 0.983
-  ci_lower: 0.92
-  ci_upper: 1.05

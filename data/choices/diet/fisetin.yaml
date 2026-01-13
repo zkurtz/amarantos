@@ -1,0 +1,7 @@
+domain: diet
+name: Fisetin
+effects:
+- outcome: Projected hazard ratio based on senolytic mechanism; human longevity
+    trials ongoing
+  mean: 0.97
+  std: 0.0459

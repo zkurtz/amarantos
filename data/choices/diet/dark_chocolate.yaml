@@ -1,0 +1,7 @@
+domain: diet
+name: Dark Chocolate (high cacao)
+effects:
+- outcome: Relative risk of cardiovascular events; 20-30g/day high-cacao (>70%)
+    vs non-consumers
+  mean: 0.93
+  std: 0.0255

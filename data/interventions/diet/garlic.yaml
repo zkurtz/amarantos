@@ -1,9 +1,0 @@
-id: diet.garlic
-domain: diet
-name: Garlic
-effects:
-- outcome: Relative risk of cardiovascular events; regular consumption (1+
-    cloves/day) vs rare consumption
-  estimate: 0.908
-  ci_lower: 0.85
-  ci_upper: 0.97

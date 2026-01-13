@@ -1,8 +1,0 @@
-id: diet.coffee
-domain: diet
-name: Coffee (moderate)
-effects:
-- outcome: Hazard ratio for all-cause mortality; 3-4 cups/day vs non-drinkers
-  estimate: 0.903
-  ci_lower: 0.85
-  ci_upper: 0.96

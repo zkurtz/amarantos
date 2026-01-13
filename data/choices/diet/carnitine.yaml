@@ -1,0 +1,7 @@
+domain: diet
+name: Carnitine (L-Carnitine)
+effects:
+- outcome: Relative risk of cardiovascular events; 500-2000mg/day
+    supplementation in cardiac patients
+  mean: 0.98
+  std: 0.0306

@@ -1,9 +1,0 @@
-id: diet.selenium
-domain: diet
-name: Selenium (adequate)
-effects:
-- outcome: Relative risk of cancer incidence; adequate (55-200mcg/day) vs
-    deficient; U-shaped curve
-  estimate: 0.937
-  ci_lower: 0.86
-  ci_upper: 1.02

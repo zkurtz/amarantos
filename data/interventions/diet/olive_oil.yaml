@@ -1,9 +1,0 @@
-id: diet.olive_oil
-domain: diet
-name: Olive Oil (extra virgin)
-effects:
-- outcome: Hazard ratio for cardiovascular mortality; >7g/day vs minimal
-    consumption
-  estimate: 0.878
-  ci_lower: 0.82
-  ci_upper: 0.94

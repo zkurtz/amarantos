@@ -1,9 +1,0 @@
-id: diet.nad_precursors
-domain: diet
-name: NAD+ Precursors (NMN/NR)
-effects:
-- outcome: Projected hazard ratio for aging-related mortality; based on
-    biomarker improvements; human longevity data pending
-  estimate: 0.975
-  ci_lower: 0.88
-  ci_upper: 1.08

@@ -1,9 +1,0 @@
-id: diet.leafy_greens
-domain: diet
-name: Leafy Greens (spinach/kale)
-effects:
-- outcome: Hazard ratio for cardiovascular mortality; 1+ servings/day vs <1
-    serving/week
-  estimate: 0.878
-  ci_lower: 0.82
-  ci_upper: 0.94

@@ -1,0 +1,7 @@
+domain: diet
+name: Vitamin D (adequate levels)
+effects:
+- outcome: Hazard ratio for all-cause mortality; sufficient (>30ng/mL) vs
+    deficient (<20ng/mL) serum levels
+  mean: 0.92
+  std: 0.0306

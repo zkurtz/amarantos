@@ -1,0 +1,7 @@
+domain: diet
+name: Apple Cider Vinegar
+effects:
+- outcome: Relative change in postprandial glucose; 1-2 tbsp before meals;
+    minimal mortality evidence
+  mean: 0.99
+  std: 0.0255

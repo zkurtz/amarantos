@@ -1,0 +1,7 @@
+domain: diet
+name: Taurine
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; highest vs lowest serum
+    levels; strong animal longevity data
+  mean: 0.91
+  std: 0.0357

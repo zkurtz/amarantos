@@ -1,9 +1,0 @@
-id: diet.calcium
-domain: diet
-name: Calcium (adequate)
-effects:
-- outcome: Relative risk of all-cause mortality; 700-1000mg/day optimal;
-    >1400mg/day may increase CVD risk
-  estimate: 0.977
-  ci_lower: 0.9
-  ci_upper: 1.06

@@ -1,9 +1,0 @@
-id: diet.b_vitamins_complex
-domain: diet
-name: B-Vitamins Complex
-effects:
-- outcome: Relative risk of cardiovascular events; adequate intake vs
-    deficiency; homocysteine pathway
-  estimate: 0.949
-  ci_lower: 0.9
-  ci_upper: 1.0

@@ -1,9 +1,0 @@
-id: diet.carnitine
-domain: diet
-name: Carnitine (L-Carnitine)
-effects:
-- outcome: Relative risk of cardiovascular events; 500-2000mg/day
-    supplementation in cardiac patients
-  estimate: 0.978
-  ci_lower: 0.92
-  ci_upper: 1.04

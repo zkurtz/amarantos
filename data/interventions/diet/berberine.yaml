@@ -1,9 +1,0 @@
-id: diet.berberine
-domain: diet
-name: Berberine
-effects:
-- outcome: Relative risk of cardiovascular events; 500-1500mg/day in metabolic
-    syndrome patients vs control
-  estimate: 0.913
-  ci_lower: 0.85
-  ci_upper: 0.98

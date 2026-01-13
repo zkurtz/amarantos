@@ -1,9 +1,0 @@
-id: diet.zinc
-domain: diet
-name: Zinc (adequate)
-effects:
-- outcome: Hazard ratio for all-cause mortality; adequate (8-11mg/day) vs
-    deficient intake
-  estimate: 0.933
-  ci_lower: 0.88
-  ci_upper: 0.99

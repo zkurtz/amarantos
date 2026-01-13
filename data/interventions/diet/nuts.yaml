@@ -1,8 +1,0 @@
-id: diet.nuts
-domain: diet
-name: Nuts (mixed)
-effects:
-- outcome: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers
-  estimate: 0.893
-  ci_lower: 0.84
-  ci_upper: 0.95

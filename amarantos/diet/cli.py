@@ -25,8 +25,8 @@ import click
 import matplotlib.pyplot as plt
 import numpy as np
 
-from amarantos.core.loaders import load_all_interventions
-from amarantos.core.schemas import Intervention
+from amarantos.core.loaders import load_all_choices
+from amarantos.core.schemas import Choice
 
 
 class PubMedSearcher:
@@ -167,30 +167,30 @@ class EffectSizeExtractor:
         return results
 
 
-def visualize_estimates(interventions: list[Intervention], output_path: Path | None = None) -> None:
+def visualize_estimates(choices: list[Choice], output_path: Path | None = None) -> None:
     """Create a forest plot visualization of the estimates."""
-    # Sort by point estimate (using first effect)
-    sorted_interventions = sorted(interventions, key=lambda x: x.effects[0].estimate)
+    # Sort by mean effect (using first effect)
+    sorted_choices = sorted(choices, key=lambda x: x.effects[0].mean)
 
-    fig, ax = plt.subplots(figsize=(12, max(8, len(sorted_interventions) * 0.25)))
+    fig, ax = plt.subplots(figsize=(12, max(8, len(sorted_choices) * 0.25)))
 
-    y_positions = np.arange(len(sorted_interventions))
+    y_positions = np.arange(len(sorted_choices))
 
     # Plot confidence intervals
-    for i, intervention in enumerate(sorted_interventions):
-        effect = intervention.effects[0]
+    for i, choice in enumerate(sorted_choices):
+        effect = choice.effects[0]
         color = "green" if effect.is_beneficial else ("red" if effect.is_harmful else "gray")
         ax.hlines(y=i, xmin=effect.ci_lower, xmax=effect.ci_upper, color=color, alpha=0.6)
-        ax.scatter(effect.estimate, i, color=color, s=50, zorder=5)
+        ax.scatter(effect.mean, i, color=color, s=50, zorder=5)
 
     # Reference line at 1.0
     ax.axvline(x=1.0, color="black", linestyle="--", alpha=0.5, label="No effect")
 
     # Labels
     ax.set_yticks(y_positions)
-    ax.set_yticklabels([i.name for i in sorted_interventions], fontsize=8)
+    ax.set_yticklabels([c.name for c in sorted_choices], fontsize=8)
     ax.set_xlabel("Relative Risk / Hazard Ratio")
-    ax.set_title("Dietary Compounds: Estimated Health Impact\n(90% Confidence Intervals)")
+    ax.set_title("Dietary Compounds: Estimated Health Impact\n(95% Confidence Intervals)")
 
     # Add legend
     ax.scatter([], [], color="green", label="Beneficial (95% CI < 1.0)")
@@ -207,17 +207,17 @@ def visualize_estimates(interventions: list[Intervention], output_path: Path | N
     plt.show()
 
 
-def validate_estimates(interventions: list[Intervention]) -> None:
+def validate_estimates(choices: list[Choice]) -> None:
     """Validate estimates and report statistics."""
     click.echo("\n" + "=" * 60)
     click.echo("DIETARY NUTRIENTS ESTIMATE VALIDATION")
     click.echo("=" * 60)
 
-    click.echo(f"\nTotal compounds: {len(interventions)}")
+    click.echo(f"\nTotal compounds: {len(choices)}")
 
-    beneficial = [i for i in interventions if i.effects[0].is_beneficial]
-    uncertain = [i for i in interventions if i.effects[0].is_uncertain]
-    harmful = [i for i in interventions if i.effects[0].is_harmful]
+    beneficial = [c for c in choices if c.effects[0].is_beneficial]
+    uncertain = [c for c in choices if c.effects[0].is_uncertain]
+    harmful = [c for c in choices if c.effects[0].is_harmful]
 
     click.echo("\nClassification:")
     click.echo(f"  Clearly beneficial (95% CI < 1.0): {len(beneficial)}")
@@ -225,28 +225,28 @@ def validate_estimates(interventions: list[Intervention]) -> None:
     click.echo(f"  Potentially harmful (5% CI > 1.0): {len(harmful)}")
 
     click.echo("\n" + "-" * 60)
-    click.echo("TOP 10 MOST BENEFICIAL (by point estimate)")
+    click.echo("TOP 10 MOST BENEFICIAL (by mean effect)")
     click.echo("-" * 60)
-    sorted_by_benefit = sorted(interventions, key=lambda x: x.effects[0].estimate)
-    for idx, intervention in enumerate(sorted_by_benefit[:10], 1):
-        effect = intervention.effects[0]
-        name = intervention.name[:35]
-        click.echo(f"{idx:2}. {name:<35} {effect.estimate:.3f} ({effect.ci_lower:.2f}-{effect.ci_upper:.2f})")
+    sorted_by_benefit = sorted(choices, key=lambda x: x.effects[0].mean)
+    for idx, choice in enumerate(sorted_by_benefit[:10], 1):
+        effect = choice.effects[0]
+        name = choice.name[:35]
+        click.echo(f"{idx:2}. {name:<35} {effect.mean:.3f} ({effect.ci_lower:.2f}-{effect.ci_upper:.2f})")
 
     click.echo("\n" + "-" * 60)
     click.echo("COMPOUNDS WITH UNCERTAIN EVIDENCE")
     click.echo("-" * 60)
-    for intervention in uncertain:
-        effect = intervention.effects[0]
-        click.echo(f"  - {intervention.name[:40]:<40} ({effect.ci_lower:.2f}-{effect.ci_upper:.2f})")
+    for choice in uncertain:
+        effect = choice.effects[0]
+        click.echo(f"  - {choice.name[:40]:<40} ({effect.ci_lower:.2f}-{effect.ci_upper:.2f})")
 
     click.echo("\n" + "-" * 60)
-    click.echo("WIDEST CONFIDENCE INTERVALS (most uncertain)")
+    click.echo("HIGHEST UNCERTAINTY (by std)")
     click.echo("-" * 60)
-    sorted_by_width = sorted(interventions, key=lambda x: x.effects[0].uncertainty_width, reverse=True)
-    for intervention in sorted_by_width[:10]:
-        effect = intervention.effects[0]
-        click.echo(f"  - {intervention.name[:35]:<35} width: {effect.uncertainty_width:.3f}")
+    sorted_by_std = sorted(choices, key=lambda x: x.effects[0].std, reverse=True)
+    for choice in sorted_by_std[:10]:
+        effect = choice.effects[0]
+        click.echo(f"  - {choice.name[:35]:<35} std: {effect.std:.4f}")
 
     # Check for logical issues
     click.echo("\n" + "-" * 60)
@@ -254,14 +254,14 @@ def validate_estimates(interventions: list[Intervention]) -> None:
     click.echo("-" * 60)
 
     issues = []
-    for intervention in interventions:
-        effect = intervention.effects[0]
-        if effect.ci_lower >= effect.ci_upper:
-            issues.append(f"{intervention.name}: lower bound >= upper bound")
+    for choice in choices:
+        effect = choice.effects[0]
+        if effect.std <= 0:
+            issues.append(f"{choice.name}: non-positive std ({effect.std})")
         if effect.ci_lower < 0.5:
-            issues.append(f"{intervention.name}: unusually low lower bound ({effect.ci_lower})")
+            issues.append(f"{choice.name}: unusually low CI lower bound ({effect.ci_lower:.2f})")
         if effect.ci_upper > 1.5:
-            issues.append(f"{intervention.name}: unusually high upper bound ({effect.ci_upper})")
+            issues.append(f"{choice.name}: unusually high CI upper bound ({effect.ci_upper:.2f})")
 
     if issues:
         click.echo("Issues found:")
@@ -335,27 +335,27 @@ def search(query: str, verbose: bool) -> None:
 @click.option("--output", "-o", type=click.Path(), help="Output file path for the plot")
 def visualize(output: str | None) -> None:
     """Generate a forest plot visualization of all estimates."""
-    interventions = load_all_interventions("diet")
+    choices = load_all_choices("diet")
     output_path = Path(output) if output else None
-    visualize_estimates(interventions, output_path)
+    visualize_estimates(choices, output_path)
 
 
 @cli.command()
 def validate() -> None:
     """Validate and summarize the nutrient estimates."""
-    interventions = load_all_interventions("diet")
-    validate_estimates(interventions)
+    choices = load_all_choices("diet")
+    validate_estimates(choices)
 
 
 @cli.command()
 def list_compounds() -> None:
     """List all compounds in the database."""
-    interventions = load_all_interventions("diet")
-    click.echo(f"\nDietary compounds in database ({len(interventions)} total):\n")
-    for intervention in sorted(interventions, key=lambda x: x.name.lower()):
-        effect = intervention.effects[0]
+    choices = load_all_choices("diet")
+    click.echo(f"\nDietary compounds in database ({len(choices)} total):\n")
+    for choice in sorted(choices, key=lambda x: x.name.lower()):
+        effect = choice.effects[0]
         status = "+" if effect.is_beneficial else ("?" if effect.is_uncertain else "-")
-        click.echo(f"  {status} {intervention.name}")
+        click.echo(f"  {status} {choice.name}")
 
 
 if __name__ == "__main__":

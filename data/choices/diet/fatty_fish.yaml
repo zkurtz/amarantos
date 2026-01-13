@@ -1,0 +1,7 @@
+domain: diet
+name: Fatty Fish (salmon/sardines)
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; 2+ servings/week vs <1
+    serving/month
+  mean: 0.88
+  std: 0.0306

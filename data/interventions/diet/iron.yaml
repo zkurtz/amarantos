@@ -1,9 +1,0 @@
-id: diet.iron
-domain: diet
-name: Iron (adequate; not excess)
-effects:
-- outcome: Hazard ratio for all-cause mortality; adequate vs deficient; excess
-    iron (ferritin >300) increases risk
-  estimate: 0.975
-  ci_lower: 0.88
-  ci_upper: 1.08

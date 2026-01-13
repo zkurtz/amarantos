@@ -1,0 +1,7 @@
+domain: diet
+name: Collagen Peptides
+effects:
+- outcome: Relative improvement in joint/skin outcomes; 5-15g/day
+    supplementation; no direct mortality data
+  mean: 0.975
+  std: 0.0281

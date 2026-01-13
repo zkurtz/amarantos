@@ -1,9 +1,0 @@
-id: diet.almonds
-domain: diet
-name: Almonds
-effects:
-- outcome: Relative risk of cardiovascular disease; 1oz (28g)/day vs
-    non-consumers
-  estimate: 0.913
-  ci_lower: 0.86
-  ci_upper: 0.97

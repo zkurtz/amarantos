@@ -1,9 +1,0 @@
-id: diet.melatonin
-domain: diet
-name: Melatonin
-effects:
-- outcome: Relative risk of sleep-related mortality factors; 0.5-5mg/day
-    supplementation; indirect mortality evidence
-  estimate: 0.958
-  ci_lower: 0.9
-  ci_upper: 1.02

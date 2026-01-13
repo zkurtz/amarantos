@@ -1,0 +1,7 @@
+domain: diet
+name: Spermidine
+effects:
+- outcome: Hazard ratio for all-cause mortality; highest vs lowest dietary
+    intake tertile
+  mean: 0.89
+  std: 0.0357

@@ -1,0 +1,7 @@
+domain: diet
+name: Zinc (adequate)
+effects:
+- outcome: Hazard ratio for all-cause mortality; adequate (8-11mg/day) vs
+    deficient intake
+  mean: 0.935
+  std: 0.0281

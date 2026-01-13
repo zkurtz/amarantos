@@ -1,0 +1,6 @@
+domain: diet
+name: Coffee (moderate)
+effects:
+- outcome: Hazard ratio for all-cause mortality; 3-4 cups/day vs non-drinkers
+  mean: 0.905
+  std: 0.0281

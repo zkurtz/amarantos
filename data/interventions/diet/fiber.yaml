@@ -1,8 +1,0 @@
-id: diet.fiber
-domain: diet
-name: Fiber (dietary)
-effects:
-- outcome: Hazard ratio for all-cause mortality; per 10g/day increase in intake
-  estimate: 0.847
-  ci_lower: 0.78
-  ci_upper: 0.92

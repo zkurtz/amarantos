@@ -1,26 +1,13 @@
-"""Load intervention data from YAML files."""
+"""Load choice data from YAML files."""
 
-from pathlib import Path
-
-from amarantos.core.schemas import Intervention
-
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
-INTERVENTIONS_DIR = DATA_DIR / "interventions"
+from amarantos.core.schemas import CHOICES_DIR, Choice
 
 
-def load_all_interventions(domain: str | None = None) -> list[Intervention]:
-    """Load all interventions, optionally filtered by domain."""
-    interventions = []
-
+def load_all_choices(domain: str | None = None) -> list[Choice]:
+    """Load all choices, optionally filtered by domain."""
     if domain:
-        domain_dir = INTERVENTIONS_DIR / domain
-        if domain_dir.exists():
-            for path in sorted(domain_dir.glob("*.yaml")):
-                interventions.append(Intervention.load(path))
+        paths = sorted((CHOICES_DIR / domain).glob("*.yaml"))
     else:
-        for domain_dir in sorted(INTERVENTIONS_DIR.iterdir()):
-            if domain_dir.is_dir():
-                for path in sorted(domain_dir.glob("*.yaml")):
-                    interventions.append(Intervention.load(path))
+        paths = sorted(CHOICES_DIR.glob("**/*.yaml"))
 
-    return interventions
+    return [Choice.load(path) for path in paths]

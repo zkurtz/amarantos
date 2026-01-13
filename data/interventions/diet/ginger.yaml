@@ -1,9 +1,0 @@
-id: diet.ginger
-domain: diet
-name: Ginger
-effects:
-- outcome: Relative risk of inflammatory markers; 1-3g/day; mortality
-    extrapolated from anti-inflammatory effects
-  estimate: 0.958
-  ci_lower: 0.9
-  ci_upper: 1.02

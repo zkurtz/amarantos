@@ -1,0 +1,7 @@
+domain: diet
+name: Sulforaphane (Broccoli Sprouts)
+effects:
+- outcome: Relative risk of cancer incidence; regular cruciferous intake vs low
+    intake; Nrf2 pathway activation
+  mean: 0.915
+  std: 0.0332

@@ -1,8 +1,0 @@
-id: diet.walnuts
-domain: diet
-name: Walnuts
-effects:
-- outcome: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers
-  estimate: 0.898
-  ci_lower: 0.84
-  ci_upper: 0.96

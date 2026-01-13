@@ -1,5 +1,8 @@
 """Pydantic schemas for intervention data."""
 
+from pathlib import Path
+
+import dummio.yaml
 from pydantic import BaseModel
 
 
@@ -39,3 +42,13 @@ class Intervention(BaseModel):
     domain: str
     name: str
     effects: list[EffectEstimate]
+
+    @classmethod
+    def load(cls, path: Path) -> "Intervention":
+        """Load an intervention from a YAML file."""
+        data = dummio.yaml.load(filepath=path)
+        return cls(**data)
+
+    def save(self, path: Path) -> None:
+        """Save this intervention to a YAML file."""
+        dummio.yaml.save(self.model_dump(), filepath=path)

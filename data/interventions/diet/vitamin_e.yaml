@@ -1,0 +1,9 @@
+id: diet.vitamin_e
+domain: diet
+name: Vitamin E
+effects:
+- outcome: Relative risk of all-cause mortality; 400IU+/day supplementation may
+    increase risk; dose-dependent
+  estimate: 0.988
+  ci_lower: 0.92
+  ci_upper: 1.06

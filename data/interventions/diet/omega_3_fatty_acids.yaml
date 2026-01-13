@@ -1,0 +1,9 @@
+id: diet.omega_3_fatty_acids
+domain: diet
+name: Omega-3 Fatty Acids (EPA/DHA)
+effects:
+- outcome: Hazard ratio for major cardiovascular events; 1g+/day supplementation
+    vs placebo
+  estimate: 0.933
+  ci_lower: 0.88
+  ci_upper: 0.99

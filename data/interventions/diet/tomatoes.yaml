@@ -1,0 +1,9 @@
+id: diet.tomatoes
+domain: diet
+name: Tomatoes (lycopene)
+effects:
+- outcome: Relative risk of prostate cancer; highest vs lowest lycopene intake
+    quintile
+  estimate: 0.929
+  ci_lower: 0.88
+  ci_upper: 0.98

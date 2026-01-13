@@ -1,0 +1,9 @@
+id: diet.probiotics
+domain: diet
+name: Probiotics (general)
+effects:
+- outcome: Relative risk of infections and inflammatory conditions; daily
+    supplementation vs placebo
+  estimate: 0.947
+  ci_lower: 0.88
+  ci_upper: 1.02

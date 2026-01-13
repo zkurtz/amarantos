@@ -1,0 +1,8 @@
+id: diet.green_tea
+domain: diet
+name: Green Tea
+effects:
+- outcome: Relative risk of cardiovascular mortality; 3+ cups/day vs <1 cup/day
+  estimate: 0.896
+  ci_lower: 0.82
+  ci_upper: 0.98

@@ -1,0 +1,9 @@
+id: diet.quercetin
+domain: diet
+name: Quercetin
+effects:
+- outcome: Relative risk of cardiovascular events; high dietary intake vs low;
+    senolytic effects in preclinical models
+  estimate: 0.967
+  ci_lower: 0.9
+  ci_upper: 1.04

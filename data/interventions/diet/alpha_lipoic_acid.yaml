@@ -1,0 +1,9 @@
+id: diet.alpha_lipoic_acid
+domain: diet
+name: Alpha-Lipoic Acid
+effects:
+- outcome: Relative risk of diabetic complications; 300-600mg/day
+    supplementation vs placebo
+  estimate: 0.967
+  ci_lower: 0.9
+  ci_upper: 1.04

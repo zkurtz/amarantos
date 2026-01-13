@@ -1,0 +1,9 @@
+id: diet.ashwagandha
+domain: diet
+name: Ashwagandha
+effects:
+- outcome: Relative reduction in cortisol/stress biomarkers; 300-600mg/day
+    KSM-66 extract; mortality data extrapolated
+  estimate: 0.967
+  ci_lower: 0.9
+  ci_upper: 1.04

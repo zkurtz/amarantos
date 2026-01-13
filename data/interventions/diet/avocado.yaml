@@ -1,0 +1,9 @@
+id: diet.avocado
+domain: diet
+name: Avocado
+effects:
+- outcome: Hazard ratio for cardiovascular disease; 2+ servings/week vs <1
+    serving/month
+  estimate: 0.929
+  ci_lower: 0.88
+  ci_upper: 0.98

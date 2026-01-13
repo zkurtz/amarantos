@@ -1,0 +1,9 @@
+id: diet.chlorella
+domain: diet
+name: Chlorella
+effects:
+- outcome: Relative improvement in immune markers; 5-10g/day supplementation; no
+    direct mortality data
+  estimate: 0.978
+  ci_lower: 0.92
+  ci_upper: 1.04

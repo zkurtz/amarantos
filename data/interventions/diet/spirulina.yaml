@@ -1,0 +1,9 @@
+id: diet.spirulina
+domain: diet
+name: Spirulina
+effects:
+- outcome: Relative risk of dyslipidemia; 1-8g/day supplementation vs placebo;
+    mortality extrapolated
+  estimate: 0.963
+  ci_lower: 0.9
+  ci_upper: 1.03

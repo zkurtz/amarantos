@@ -1,0 +1,9 @@
+id: diet.mushrooms
+domain: diet
+name: Mushrooms (various)
+effects:
+- outcome: Relative risk of all-cause mortality; 18g+/day vs non-consumers
+    (pooled analysis)
+  estimate: 0.929
+  ci_lower: 0.88
+  ci_upper: 0.98

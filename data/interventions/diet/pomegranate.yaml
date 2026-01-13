@@ -1,0 +1,9 @@
+id: diet.pomegranate
+domain: diet
+name: Pomegranate
+effects:
+- outcome: Relative risk of cardiovascular disease markers; 240mL juice or
+    extract daily vs control
+  estimate: 0.918
+  ci_lower: 0.86
+  ci_upper: 0.98

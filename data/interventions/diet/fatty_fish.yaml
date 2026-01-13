@@ -1,0 +1,9 @@
+id: diet.fatty_fish
+domain: diet
+name: Fatty Fish (salmon/sardines)
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; 2+ servings/week vs <1
+    serving/month
+  estimate: 0.878
+  ci_lower: 0.82
+  ci_upper: 0.94

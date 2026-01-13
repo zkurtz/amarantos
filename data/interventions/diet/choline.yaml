@@ -1,0 +1,9 @@
+id: diet.choline
+domain: diet
+name: Choline
+effects:
+- outcome: Relative risk of cardiovascular events; adequate intake
+    (425-550mg/day) vs deficient
+  estimate: 0.958
+  ci_lower: 0.9
+  ci_upper: 1.02

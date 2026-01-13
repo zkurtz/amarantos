@@ -1,0 +1,9 @@
+id: diet.spermidine
+domain: diet
+name: Spermidine
+effects:
+- outcome: Hazard ratio for all-cause mortality; highest vs lowest dietary
+    intake tertile
+  estimate: 0.887
+  ci_lower: 0.82
+  ci_upper: 0.96

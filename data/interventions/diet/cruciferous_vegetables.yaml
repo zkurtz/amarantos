@@ -1,0 +1,9 @@
+id: diet.cruciferous_vegetables
+domain: diet
+name: Cruciferous Vegetables
+effects:
+- outcome: Relative risk of cancer incidence; 3+ servings/week vs <1
+    serving/week
+  estimate: 0.863
+  ci_lower: 0.8
+  ci_upper: 0.93

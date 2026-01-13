@@ -1,0 +1,9 @@
+id: diet.blueberries
+domain: diet
+name: Blueberries
+effects:
+- outcome: Relative risk of cardiovascular disease; 1+ servings/day vs <1
+    serving/week
+  estimate: 0.898
+  ci_lower: 0.84
+  ci_upper: 0.96

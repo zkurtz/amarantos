@@ -1,0 +1,9 @@
+id: diet.fermented_foods
+domain: diet
+name: Fermented Foods
+effects:
+- outcome: Relative risk of all-cause mortality; regular consumption (daily) vs
+    rare consumption
+  estimate: 0.918
+  ci_lower: 0.86
+  ci_upper: 0.98

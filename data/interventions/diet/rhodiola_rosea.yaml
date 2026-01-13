@@ -1,0 +1,9 @@
+id: diet.rhodiola_rosea
+domain: diet
+name: Rhodiola Rosea
+effects:
+- outcome: Relative reduction in fatigue/stress scores; 200-600mg/day
+    standardized extract; no mortality data
+  estimate: 0.978
+  ci_lower: 0.92
+  ci_upper: 1.04

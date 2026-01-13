@@ -1,0 +1,9 @@
+id: diet.creatine
+domain: diet
+name: Creatine
+effects:
+- outcome: Relative risk of mortality (limited data); 3-5g/day supplementation;
+    primary evidence from muscle/cognitive endpoints
+  estimate: 0.958
+  ci_lower: 0.9
+  ci_upper: 1.02

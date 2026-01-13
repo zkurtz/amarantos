@@ -1,0 +1,9 @@
+id: diet.equol
+domain: diet
+name: Equol (from soy isoflavones)
+effects:
+- outcome: Relative risk of cardiovascular disease; equol producers only;
+    25-50mg isoflavones/day
+  estimate: 0.957
+  ci_lower: 0.88
+  ci_upper: 1.04

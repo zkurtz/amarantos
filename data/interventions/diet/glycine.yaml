@@ -1,0 +1,9 @@
+id: diet.glycine
+domain: diet
+name: Glycine
+effects:
+- outcome: Relative risk of metabolic disease; 3-5g/day supplementation;
+    mortality extrapolated from biomarker improvements
+  estimate: 0.923
+  ci_lower: 0.86
+  ci_upper: 0.99

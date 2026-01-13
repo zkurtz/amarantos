@@ -1,0 +1,9 @@
+id: diet.taurine
+domain: diet
+name: Taurine
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; highest vs lowest serum
+    levels; strong animal longevity data
+  estimate: 0.907
+  ci_lower: 0.84
+  ci_upper: 0.98

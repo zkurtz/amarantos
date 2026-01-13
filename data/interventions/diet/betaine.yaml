@@ -1,0 +1,9 @@
+id: diet.betaine
+domain: diet
+name: Betaine (TMG)
+effects:
+- outcome: Relative risk of cardiovascular events; 500-2000mg/day; homocysteine
+    reduction mechanism
+  estimate: 0.963
+  ci_lower: 0.9
+  ci_upper: 1.03

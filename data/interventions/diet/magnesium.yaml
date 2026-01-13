@@ -1,0 +1,9 @@
+id: diet.magnesium
+domain: diet
+name: Magnesium
+effects:
+- outcome: Relative risk of cardiovascular disease; highest vs lowest dietary
+    intake quintile
+  estimate: 0.898
+  ci_lower: 0.84
+  ci_upper: 0.96

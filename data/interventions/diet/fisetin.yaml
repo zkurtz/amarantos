@@ -1,0 +1,9 @@
+id: diet.fisetin
+domain: diet
+name: Fisetin
+effects:
+- outcome: Projected hazard ratio based on senolytic mechanism; human longevity
+    trials ongoing
+  estimate: 0.966
+  ci_lower: 0.88
+  ci_upper: 1.06

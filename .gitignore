@@ -213,4 +213,4 @@ __marimo__/
 .DS_Store
 
 # Amarantos - User profiles (contain personal data)
-profiles/
+/profiles/

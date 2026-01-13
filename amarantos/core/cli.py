@@ -10,6 +10,7 @@ Usage:
 import click
 
 from amarantos.core.loaders import load_all_choices
+from amarantos.core.schemas import Choice
 
 
 @click.group()
@@ -40,7 +41,7 @@ def list(domain: str | None) -> None:
         click.echo(f"\nAll interventions ({len(choices)} total):\n")
 
     # Group by domain
-    by_domain: dict[str, list] = {}
+    by_domain: dict[str, list[Choice]] = {}
     for choice in choices:
         if choice.domain not in by_domain:
             by_domain[choice.domain] = []

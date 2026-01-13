@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Core CLI for amarantos wellness interventions.
 
 Usage:

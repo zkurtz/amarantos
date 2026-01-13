@@ -54,7 +54,7 @@ def test_user_profile_completeness_partial():
     )
 
     completeness = profile.completeness()
-    # 3 out of 12 fields filled (age + primary goals + secondary goals (empty but counted))
+    # 2 out of 12 fields filled (age + primary goals with values)
     assert 0.0 < completeness < 100.0
 
 

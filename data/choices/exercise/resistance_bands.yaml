@@ -1,0 +1,12 @@
+domain: exercise
+name: Resistance Bands Training
+effects:
+- outcome: Hazard ratio for functional decline in older adults; resistance band
+    training 2-3x/week vs sedentary
+  mean: 0.82
+  std: 0.0408
+literature:
+- 'Meta-analysis: Elastic resistance training improves muscle strength and reduces
+    functional decline by ~18% (HR: 0.82, 95% CI: 0.74-0.90)'
+- 'Lopes et al. J Aging Phys Act 2019 - Resistance bands in older adults'
+- 'Accessible, low-cost alternative to weight training with similar benefits'

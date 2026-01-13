@@ -1,0 +1,12 @@
+domain: exercise
+name: Cycling
+effects:
+- outcome: Hazard ratio for all-cause mortality; regular cycling (commuting or recreational,
+    30+ min/day) vs non-cyclists
+  mean: 0.76
+  std: 0.0357
+literature:
+- 'Meta-analysis: Regular cycling associated with 24% lower all-cause mortality
+    (HR: 0.76, 95% CI: 0.69-0.83)'
+- 'Oja et al. BMJ 2016 - Active commuting and mortality'
+- 'Kelly et al. Br J Sports Med 2014 - Cycling and cardiovascular health'

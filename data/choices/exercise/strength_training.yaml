@@ -1,0 +1,11 @@
+domain: exercise
+name: Strength Training (2x/week)
+effects:
+- outcome: Hazard ratio for all-cause mortality; 2+ resistance training sessions/week
+    vs none
+  mean: 0.79
+  std: 0.0357
+literature:
+- 'Meta-analysis: Resistance training 2-3x/week associated with 21% lower all-cause
+    mortality (HR: 0.79, 95% CI: 0.72-0.86)'
+- 'Momma et al. Br J Sports Med 2022 - Muscle-strengthening activities and mortality'

@@ -13,12 +13,9 @@ license = "MIT"
 authors = [
     { name = "Zach Kurtz", email = "zkurtz@gmail.com" },
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.13"
 classifiers = [
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
 ]
 dependencies = [

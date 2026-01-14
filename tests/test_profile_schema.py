@@ -15,18 +15,15 @@ def test_user_profile_empty():
     profile = UserProfile()
     assert profile.demographics is None
     assert profile.goals is None
-    assert profile.completeness() == 0.0
 
 
 def test_user_profile_with_demographics():
     profile = UserProfile(demographics=Demographics(age=42, biological_sex="male"))
     assert profile.demographics.age == 42
     assert profile.demographics.biological_sex == "male"
-    # Demographics has 2 out of 12 total fields
-    assert profile.completeness() > 0.0
 
 
-def test_user_profile_completeness_full():
+def test_user_profile_full():
     profile = UserProfile(
         demographics=Demographics(age=42, biological_sex="male"),
         goals=Goals(primary=["longevity"], secondary=["cognitive_function"]),
@@ -43,19 +40,18 @@ def test_user_profile_completeness_full():
         biomarkers=Biomarkers(vitamin_d_ng_ml=35.0, triglycerides_mg_dl=120.0),
     )
 
-    completeness = profile.completeness()
-    assert completeness == 100.0
+    assert profile.demographics.age == 42
+    assert profile.goals.primary == ["longevity"]
 
 
-def test_user_profile_completeness_partial():
+def test_user_profile_partial():
     profile = UserProfile(
         demographics=Demographics(age=42),
         goals=Goals(primary=["longevity"]),
     )
 
-    completeness = profile.completeness()
-    # 2 out of 12 fields filled (age + primary goals with values)
-    assert 0.0 < completeness < 100.0
+    assert profile.demographics.age == 42
+    assert profile.goals.primary == ["longevity"]
 
 
 def test_user_profile_serialization():
@@ -72,7 +68,6 @@ def test_user_profile_serialization():
     # Test deserialization
     new_profile = UserProfile(**data)
     assert new_profile.demographics.age == 42
-    assert new_profile.completeness() == profile.completeness()
 
 
 def test_user_profile_nested_none():

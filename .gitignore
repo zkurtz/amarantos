@@ -211,6 +211,3 @@ __marimo__/
 
 # OS files
 .DS_Store
-
-# Amarantos - User profiles (contain personal data)
-/profiles/

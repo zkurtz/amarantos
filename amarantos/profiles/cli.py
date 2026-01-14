@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
 """User Profile Management CLI.
 
-This module provides commands to manage user profiles for personalized
-wellness recommendations.
+Simple commands to manage user profiles for personalized wellness recommendations.
 
 Usage:
     python -m amarantos.profiles.cli create <name>
     python -m amarantos.profiles.cli list
     python -m amarantos.profiles.cli show <name>
-    python -m amarantos.profiles.cli delete <name>
 """
 
 import json
+import sys
 from pathlib import Path
 
-import click
 import dummio.yaml
 
 from amarantos.core.schemas import UserProfile
@@ -24,170 +22,81 @@ from amarantos.profiles.manager import ProfileManager
 DEFAULT_PROFILE_PATH = Path(__file__).parent.parent.parent / "data" / "defaults" / "generic_human.yaml"
 
 
-@click.group()
-def cli() -> None:
-    """User Profile Management Tool."""
-    pass
-
-
-@cli.command()
-@click.argument("name")
-@click.option("--from-template", is_flag=True, help="Create from default template")
-def create(name: str, from_template: bool) -> None:
-    """Create a new user profile.
-
-    NAME: Name for the new profile
-    """
+def create_profile(name: str) -> None:
+    """Create a new user profile."""
     manager = ProfileManager()
 
     try:
-        if from_template and DEFAULT_PROFILE_PATH.exists():
-            # Load from template
+        if DEFAULT_PROFILE_PATH.exists():
             template_data = dummio.yaml.load(filepath=DEFAULT_PROFILE_PATH)
             profile = UserProfile(**template_data)
         else:
-            # Create empty profile
             profile = UserProfile()
 
         manager.create(name, profile)
-        click.echo(f"Created profile: {name}")
-        click.echo(f"Completeness: {profile.completeness()}%")
-        click.echo(f"\nProfile saved to: {manager.get_profile_path(name)}")
-        click.echo("\nTip: Edit the JSON file directly or use 'update' command to add information.")
+        print(f"Created profile: {name}")
+        print(f"Profile saved to: {manager.get_profile_path(name)}")
     except FileExistsError as e:
-        click.echo(f"Error: {e}", err=True)
-        raise SystemExit(1)
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
-@cli.command()
-def list() -> None:
+def list_profiles() -> None:
     """List all user profiles."""
     manager = ProfileManager()
     profiles = manager.list()
 
     if not profiles:
-        click.echo("No profiles found.")
-        click.echo("\nTip: Create a profile with 'create <name>'")
+        print("No profiles found.")
         return
 
-    click.echo(f"\nFound {len(profiles)} profile(s):\n")
+    print(f"\nFound {len(profiles)} profile(s):")
     for profile_name in profiles:
-        try:
-            profile = manager.read(profile_name)
-            completeness = profile.completeness()
-            click.echo(f"  • {profile_name:<20} Completeness: {completeness:>5.1f}%")
-        except Exception:
-            click.echo(f"  • {profile_name:<20} (error reading)")
+        print(f"  • {profile_name}")
 
 
-@cli.command()
-@click.argument("name")
-def show(name: str) -> None:
-    """Display a user profile.
-
-    NAME: Name of the profile to display
-    """
+def show_profile(name: str) -> None:
+    """Display a user profile."""
     manager = ProfileManager()
 
     try:
         profile = manager.read(name)
-        click.echo(f"\nProfile: {name}")
-        click.echo("=" * 60)
-        click.echo(f"Completeness: {profile.completeness()}%")
-        click.echo("\nProfile Data:")
-        click.echo(json.dumps(profile.model_dump(), indent=2))
+        print(f"\nProfile: {name}")
+        print("=" * 60)
+        print(json.dumps(profile.model_dump(), indent=2))
     except FileNotFoundError as e:
-        click.echo(f"Error: {e}", err=True)
-        raise SystemExit(1)
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
 
 
-@cli.command()
-@click.argument("name")
-@click.confirmation_option(prompt="Are you sure you want to delete this profile?")
-def delete(name: str) -> None:
-    """Delete a user profile.
+def main() -> None:
+    """Main entry point for CLI."""
+    if len(sys.argv) < 2:
+        print("Usage: python -m amarantos.profiles.cli <command> [args]")
+        print("\nCommands:")
+        print("  create <name>  - Create a new profile")
+        print("  list          - List all profiles")
+        print("  show <name>   - Display a profile")
+        sys.exit(1)
 
-    NAME: Name of the profile to delete
-    """
-    manager = ProfileManager()
+    command = sys.argv[1]
 
-    try:
-        manager.delete(name)
-        click.echo(f"Deleted profile: {name}")
-    except FileNotFoundError as e:
-        click.echo(f"Error: {e}", err=True)
-        raise SystemExit(1)
-
-
-@cli.command()
-@click.argument("name")
-@click.argument("profile_file", type=click.Path(exists=True))
-def update(name: str, profile_file: str) -> None:
-    """Update a profile from a JSON file.
-
-    NAME: Name of the profile to update
-    PROFILE_FILE: Path to JSON file with profile data
-    """
-    manager = ProfileManager()
-
-    try:
-        with open(profile_file) as f:
-            data = json.load(f)
-
-        profile = UserProfile(**data)
-        manager.update(name, profile)
-
-        click.echo(f"Updated profile: {name}")
-        click.echo(f"Completeness: {profile.completeness()}%")
-    except FileNotFoundError as e:
-        click.echo(f"Error: {e}", err=True)
-        raise SystemExit(1)
-    except json.JSONDecodeError as e:
-        click.echo(f"Error: Invalid JSON in {profile_file}: {e}", err=True)
-        raise SystemExit(1)
-
-
-@cli.command()
-@click.argument("name")
-def completeness(name: str) -> None:
-    """Show profile completeness indicator.
-
-    NAME: Name of the profile
-    """
-    manager = ProfileManager()
-
-    try:
-        profile = manager.read(name)
-        completeness_pct = profile.completeness()
-
-        click.echo(f"\nProfile: {name}")
-        click.echo("=" * 60)
-        click.echo(f"Completeness: {completeness_pct}%")
-
-        # Visual progress bar
-        bar_width = 40
-        filled = int(bar_width * completeness_pct / 100)
-        bar = "█" * filled + "░" * (bar_width - filled)
-        click.echo(f"[{bar}] {completeness_pct}%")
-
-        # Breakdown by section
-        click.echo("\nBreakdown:")
-        sections = {
-            "Demographics": profile.demographics is not None,
-            "Goals": profile.goals is not None,
-            "Risk Factors": profile.risk_factors is not None,
-            "Current Behaviors": profile.current_behaviors is not None,
-            "Biomarkers": profile.biomarkers is not None,
-        }
-
-        for section, has_data in sections.items():
-            status = "✓" if has_data else "✗"
-            click.echo(f"  {status} {section}")
-
-    except FileNotFoundError as e:
-        click.echo(f"Error: {e}", err=True)
-        raise SystemExit(1)
+    if command == "create":
+        if len(sys.argv) < 3:
+            print("Error: create requires a profile name", file=sys.stderr)
+            sys.exit(1)
+        create_profile(sys.argv[2])
+    elif command == "list":
+        list_profiles()
+    elif command == "show":
+        if len(sys.argv) < 3:
+            print("Error: show requires a profile name", file=sys.stderr)
+            sys.exit(1)
+        show_profile(sys.argv[2])
+    else:
+        print(f"Error: Unknown command '{command}'", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    cli()
+    main()

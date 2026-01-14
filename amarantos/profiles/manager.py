@@ -6,7 +6,7 @@ from pathlib import Path
 from amarantos.core.schemas import UserProfile
 
 # Profile storage directory
-PROFILES_DIR = Path.cwd() / "profiles"
+PROFILES_DIR = Path.home() / ".cache" / "amarantos" / "profiles"
 
 
 class ProfileManager:
@@ -16,7 +16,7 @@ class ProfileManager:
         """Initialize the profile manager.
 
         Args:
-            profiles_dir: Directory to store profiles. Defaults to ./profiles
+            profiles_dir: Directory to store profiles. Defaults to ~/.cache/amarantos/profiles
         """
         self.profiles_dir = profiles_dir or PROFILES_DIR
         self.profiles_dir.mkdir(parents=True, exist_ok=True)

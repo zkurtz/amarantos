@@ -93,78 +93,21 @@ class Choice:
         dummio.yaml.save(data, filepath=path)
 
 
-# User Profile Models
+# User Model
 
 
 @attrs.frozen
-class Demographics:
-    """User demographic information."""
+class User:
+    """User attributes for personalized recommendations."""
 
+    is_male: bool | None = None
     age: int | None = None
-    biological_sex: str | None = None
-
-
-@attrs.frozen
-class Goals:
-    """User health goals."""
-
-    primary: tuple[str, ...] = ()
-    secondary: tuple[str, ...] = ()
-
-
-@attrs.frozen
-class RiskLevel:
-    """Risk factor level."""
-
-    level: str | None = None
-
-
-@attrs.frozen
-class RiskFactors:
-    """User risk factors."""
-
-    cardiovascular: RiskLevel | None = None
-    metabolic: RiskLevel | None = None
-    cognitive: RiskLevel | None = None
-
-
-@attrs.frozen
-class Diet:
-    """Dietary behaviors."""
-
-    fatty_fish_servings_per_week: int | None = None
-
-
-@attrs.frozen
-class Exercise:
-    """Exercise behaviors."""
-
-    cardio_minutes_per_week: int | None = None
-
-
-@attrs.frozen
-class CurrentBehaviors:
-    """User current behaviors."""
-
-    diet: Diet | None = None
-    exercise: Exercise | None = None
-    sleep_hours_per_night: float | None = None
-
-
-@attrs.frozen
-class Biomarkers:
-    """User biomarkers."""
-
-    vitamin_d_ng_ml: float | None = None
-    triglycerides_mg_dl: float | None = None
-
-
-@attrs.frozen
-class UserProfile:
-    """User profile for personalized recommendations."""
-
-    demographics: Demographics | None = None
-    goals: Goals | None = None
-    risk_factors: RiskFactors | None = None
-    current_behaviors: CurrentBehaviors | None = None
-    biomarkers: Biomarkers | None = None
+    height_cm: float | None = None
+    body_fat_pct: float | None = None
+    blood_pressure_systolic: int | None = None
+    is_vegan: bool | None = None
+    is_vegetarian: bool | None = None
+    diet_quality_pctl: float | None = None
+    exercise_cardio_pctl: float | None = None
+    exercise_resistance_pctl: float | None = None
+    sleep_hours: float | None = None

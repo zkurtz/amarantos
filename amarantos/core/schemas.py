@@ -5,7 +5,6 @@ from pathlib import Path
 
 import attrs
 import dummio.yaml
-from pydantic import BaseModel, Field
 
 DATA_DIR = Path(__file__).parent.parent.parent / "data"
 CHOICES_DIR = DATA_DIR / "choices"
@@ -97,27 +96,31 @@ class Choice:
 # User Profile Models
 
 
-class Demographics(BaseModel):
+@attrs.frozen
+class Demographics:
     """User demographic information."""
 
     age: int | None = None
     biological_sex: str | None = None
 
 
-class Goals(BaseModel):
+@attrs.frozen
+class Goals:
     """User health goals."""
 
-    primary: list[str] = Field(default_factory=list)
-    secondary: list[str] = Field(default_factory=list)
+    primary: tuple[str, ...] = ()
+    secondary: tuple[str, ...] = ()
 
 
-class RiskLevel(BaseModel):
+@attrs.frozen
+class RiskLevel:
     """Risk factor level."""
 
     level: str | None = None
 
 
-class RiskFactors(BaseModel):
+@attrs.frozen
+class RiskFactors:
     """User risk factors."""
 
     cardiovascular: RiskLevel | None = None
@@ -125,19 +128,22 @@ class RiskFactors(BaseModel):
     cognitive: RiskLevel | None = None
 
 
-class Diet(BaseModel):
+@attrs.frozen
+class Diet:
     """Dietary behaviors."""
 
     fatty_fish_servings_per_week: int | None = None
 
 
-class Exercise(BaseModel):
+@attrs.frozen
+class Exercise:
     """Exercise behaviors."""
 
     cardio_minutes_per_week: int | None = None
 
 
-class CurrentBehaviors(BaseModel):
+@attrs.frozen
+class CurrentBehaviors:
     """User current behaviors."""
 
     diet: Diet | None = None
@@ -145,14 +151,16 @@ class CurrentBehaviors(BaseModel):
     sleep_hours_per_night: float | None = None
 
 
-class Biomarkers(BaseModel):
+@attrs.frozen
+class Biomarkers:
     """User biomarkers."""
 
     vitamin_d_ng_ml: float | None = None
     triglycerides_mg_dl: float | None = None
 
 
-class UserProfile(BaseModel):
+@attrs.frozen
+class UserProfile:
     """User profile for personalized recommendations."""
 
     demographics: Demographics | None = None

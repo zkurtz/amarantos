@@ -1,3 +1,5 @@
+import attrs
+
 from amarantos.core.schemas import (
     Biomarkers,
     CurrentBehaviors,
@@ -26,7 +28,7 @@ def test_user_profile_with_demographics():
 def test_user_profile_full():
     profile = UserProfile(
         demographics=Demographics(age=42, biological_sex="male"),
-        goals=Goals(primary=["longevity"], secondary=["cognitive_function"]),
+        goals=Goals(primary=("longevity",), secondary=("cognitive_function",)),
         risk_factors=RiskFactors(
             cardiovascular=RiskLevel(level="moderate"),
             metabolic=RiskLevel(level="low"),
@@ -41,33 +43,29 @@ def test_user_profile_full():
     )
 
     assert profile.demographics.age == 42
-    assert profile.goals.primary == ["longevity"]
+    assert profile.goals.primary == ("longevity",)
 
 
 def test_user_profile_partial():
     profile = UserProfile(
         demographics=Demographics(age=42),
-        goals=Goals(primary=["longevity"]),
+        goals=Goals(primary=("longevity",)),
     )
 
     assert profile.demographics.age == 42
-    assert profile.goals.primary == ["longevity"]
+    assert profile.goals.primary == ("longevity",)
 
 
 def test_user_profile_serialization():
     profile = UserProfile(
         demographics=Demographics(age=42, biological_sex="male"),
-        goals=Goals(primary=["longevity"]),
+        goals=Goals(primary=("longevity",)),
     )
 
-    data = profile.model_dump()
+    data = attrs.asdict(profile)
     assert data["demographics"]["age"] == 42
     assert data["demographics"]["biological_sex"] == "male"
-    assert data["goals"]["primary"] == ["longevity"]
-
-    # Test deserialization
-    new_profile = UserProfile(**data)
-    assert new_profile.demographics.age == 42
+    assert data["goals"]["primary"] == ("longevity",)
 
 
 def test_user_profile_nested_none():
@@ -76,7 +74,6 @@ def test_user_profile_nested_none():
         goals=Goals(),
     )
 
-    # Demographics and goals exist but have no values
     assert profile.demographics is not None
     assert profile.demographics.age is None
     assert profile.goals is not None

@@ -18,14 +18,14 @@ def cli() -> None:
     pass
 
 
-@cli.command()
+@cli.command("list")
 @click.option(
     "--domain",
     "-d",
     type=str,
     help="Filter by domain (e.g., 'diet', 'exercise')",
 )
-def list(domain: str | None) -> None:
+def list_choices(domain: str | None) -> None:
     """List all wellness interventions.
 
     Example:

@@ -93,9 +93,6 @@ class Choice:
         dummio.yaml.save(data, filepath=path)
 
 
-# User Model
-
-
 @attrs.frozen
 class User:
     """User attributes for personalized recommendations."""

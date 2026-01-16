@@ -15,11 +15,9 @@ authors = [
 ]
 requires-python = ">=3.13"
 classifiers = [
-    "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.13",
 ]
 dependencies = [
-  "attrs>=25.4.0",
+  "attrs>=25.4",
   "click>=8.3.1",
   "dummio>=1.10.2",
   "matplotlib>=3.10.8",

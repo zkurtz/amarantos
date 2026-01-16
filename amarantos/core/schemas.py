@@ -1,4 +1,4 @@
-"""Schemas for choice data."""
+"""Schemas for choice data and user profiles."""
 
 import re
 from pathlib import Path
@@ -91,3 +91,20 @@ class Choice:
         if self.literature is not None:
             data["literature"] = self.literature
         dummio.yaml.save(data, filepath=path)
+
+
+@attrs.frozen
+class User:
+    """User attributes for personalized recommendations."""
+
+    is_male: bool | None = None
+    age: int | None = None
+    height_cm: float | None = None
+    body_fat_pct: float | None = None
+    blood_pressure_systolic: int | None = None
+    is_vegan: bool | None = None
+    is_vegetarian: bool | None = None
+    diet_quality_pctl: float | None = None
+    exercise_cardio_pctl: float | None = None
+    exercise_resistance_pctl: float | None = None
+    sleep_hours: float | None = None

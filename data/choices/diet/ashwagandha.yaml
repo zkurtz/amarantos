@@ -1,7 +1,32 @@
 domain: diet
-name: Ashwagandha
+name: Ashwagandha (300-600mg/day)
+summary: |
+  Adaptogenic herb with significant anxiolytic effects. Meta-analyses show
+  large reductions in stress/anxiety scales (SMD ~1.5) and cortisol levels.
+  No mortality data. Generally safe short-term; long-term safety less studied.
+  Evidence quality is low-moderate due to small trials and heterogeneity.
 effects:
-- outcome: Relative reduction in cortisol/stress biomarkers; 300-600mg/day
-    KSM-66 extract; mortality data extrapolated
-  mean: 0.97
-  std: 0.0357
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality studies. Reduces cortisol and stress markers which are
+      associated with chronic disease, but causal link to mortality unproven.
+      Centered at null with small uncertainty band reflecting theoretical
+      benefit via stress reduction.
+    mean: 1.0
+    std: 0.1
+  - outcome: Years of delayed aging
+    evidence: |
+      No epigenetic clock studies. Reduces cortisol and oxidative stress markers.
+      Some animal studies suggest lifespan effects. Human aging data absent.
+      Speculative.
+    mean: 0.0
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 15 RCTs, n=873. Significant reductions in anxiety
+      (SMD -1.55) and stress (SMD -1.75). Also reduces cortisol levels.
+      Causal evidence from RCTs but low certainty due to heterogeneity.
+      Akhgarjand 2022 (https://pubmed.ncbi.nlm.nih.gov/36017529/). BJPsych 2025
+      (https://pmc.ncbi.nlm.nih.gov/articles/PMC12242034/).
+    mean: 0.8
+    std: 0.3

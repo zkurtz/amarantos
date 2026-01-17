@@ -1,6 +1,10 @@
 # Amarantos
 
-Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντος) is Greek for "unfading" or "immortal" and is the root of *amaranth*—a flower known for retaining its color even when dried.
+Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντος) is Greek for "unfading" or "immortal" and is the root of *amaranth*—a flower known for retaining its color even dried.
+
+> **Warning: AI-Generated Content**
+>
+> This repository was generated with AI assistance and has not been thoroughly vetted by a human. References, claims, and code may contain errors or inaccuracies. Please double-check all information against primary sources and exercise critical judgment. Treat this as a starting point for careful research, not a definitive resource.
 
 ## Awesome Longevity Resources
 

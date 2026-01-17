@@ -10,16 +10,16 @@ Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντ
 
 ```bash
 # List all wellness interventions
-python -m amarantos.core.list
+python -m amarantos.list
 
 # List interventions filtered by domain
-python -m amarantos.core.list --domain exercise
+python -m amarantos.list --domain exercise
 
-# Calculate ROI of wellness choices (uses sensible defaults)
-python -m amarantos.core.roi
+# Rank choices by 30th percentile lifespan impact
+python -m amarantos.rank
 
-# Calculate ROI with custom valuations
-python -m amarantos.core.roi -h 75 -s 2000 -y 150000
+# Show only top/bottom 5
+python -m amarantos.rank -n 5
 ```
 
 ## Awesome Longevity Resources

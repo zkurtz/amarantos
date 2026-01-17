@@ -1,8 +1,8 @@
 """CLI to list wellness interventions.
 
 Usage:
-    python -m amarantos.core.list
-    python -m amarantos.core.list --domain exercise
+    python -m amarantos.list
+    python -m amarantos.list --domain exercise
 """
 
 import click

@@ -1,63 +1,14 @@
-"""Core CLI for amarantos wellness interventions.
+"""CLI to calculate ROI of wellness choices.
 
 Usage:
-    python -m amarantos.core.cli list
-    python -m amarantos.core.cli list --domain exercise
-    python -m amarantos.core.cli list --domain diet
+    python -m amarantos.core.roi
+    python -m amarantos.core.roi -h 75 -s 2000 -y 150000
 """
 
 import click
 
 from amarantos.core.loaders import load_all_choices
 from amarantos.core.schemas import Choice, Effect, Outcome
-
-
-@click.group()
-def cli() -> None:
-    """Amarantos wellness interventions CLI."""
-    pass
-
-
-@cli.command("list")
-@click.option(
-    "--domain",
-    "-d",
-    type=str,
-    help="Filter by domain (e.g., 'diet', 'exercise')",
-)
-def list_choices(domain: str | None) -> None:
-    """List all wellness interventions.
-
-    Example:
-        python -m amarantos.core.cli list
-        python -m amarantos.core.cli list --domain exercise
-    """
-    choices = load_all_choices(domain)
-
-    if domain:
-        click.echo(f"\n{domain.capitalize()} interventions ({len(choices)} total):\n")
-    else:
-        click.echo(f"\nAll interventions ({len(choices)} total):\n")
-
-    # Group by domain
-    by_domain: dict[str, list[Choice]] = {}
-    for choice in choices:
-        if choice.domain not in by_domain:
-            by_domain[choice.domain] = []
-        by_domain[choice.domain].append(choice)
-
-    # Print grouped by domain
-    for domain_name in sorted(by_domain.keys()):
-        domain_choices = by_domain[domain_name]
-        click.echo(f"[{domain_name.upper()}] ({len(domain_choices)} interventions)")
-        for choice in sorted(domain_choices, key=lambda x: x.name.lower()):
-            effect = choice.effects[0]
-            status = "✓" if effect.is_beneficial else ("?" if effect.is_uncertain else "✗")
-            click.echo(
-                f"  {status} {choice.name:<50} "
-                f"Effect: {effect.mean:.3f} (CI: {effect.ci_lower:.2f}-{effect.ci_upper:.2f})"
-            )
-        click.echo()
 
 
 def get_effect_by_outcome(choice: Choice, outcome: Outcome) -> Effect | None:
@@ -68,38 +19,37 @@ def get_effect_by_outcome(choice: Choice, outcome: Outcome) -> Effect | None:
     return None
 
 
-@cli.command("roi")
+@click.command()
 @click.option(
     "-h",
     "--dollars-per-hour",
     type=float,
-    required=True,
+    default=50.0,
+    show_default=True,
     help="Value of your time in dollars per hour",
 )
 @click.option(
     "-s",
     "--dollars-per-subjective-improvement",
     type=float,
-    required=True,
+    default=1000.0,
+    show_default=True,
     help="Value per subjective wellbeing unit in dollars",
 )
 @click.option(
     "-y",
     "--dollars-per-year",
     type=float,
-    required=True,
+    default=100000.0,
+    show_default=True,
     help="Value per life-year in dollars",
 )
-def roi(
+def main(
     dollars_per_hour: float,
     dollars_per_subjective_improvement: float,
     dollars_per_year: float,
 ) -> None:
-    """Calculate annual net value (ROI) of each wellness choice.
-
-    Example:
-        python -m amarantos.core.cli roi -h 50 -s 1000 -y 100000
-    """
+    """Calculate annual net value (ROI) of each wellness choice."""
     choices = load_all_choices()
 
     results: list[tuple[str, float]] = []
@@ -141,4 +91,4 @@ def roi(
 
 
 if __name__ == "__main__":
-    cli()
+    main()

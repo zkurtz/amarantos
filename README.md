@@ -6,6 +6,22 @@ Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντ
 >
 > This repository was generated with AI assistance and has not been thoroughly vetted by a human. References, claims, and code may contain errors or inaccuracies. Please double-check all information against primary sources and exercise critical judgment. Treat this as a starting point for careful research, not a definitive resource.
 
+## CLI Commands
+
+```bash
+# List all wellness interventions
+python -m amarantos.core.list
+
+# List interventions filtered by domain
+python -m amarantos.core.list --domain exercise
+
+# Calculate ROI of wellness choices (uses sensible defaults)
+python -m amarantos.core.roi
+
+# Calculate ROI with custom valuations
+python -m amarantos.core.roi -h 75 -s 2000 -y 150000
+```
+
 ## Awesome Longevity Resources
 
 A curated list of products, tools, and resources for personal wellness and longevity.

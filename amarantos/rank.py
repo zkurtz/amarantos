@@ -1,9 +1,4 @@
-"""CLI to rank wellness choices by conservative lifespan impact estimate.
-
-Usage:
-    python -m amarantos.rank
-    python -m amarantos.rank -n 5
-"""
+"""CLI to rank wellness choices by conservative lifespan impact estimate."""
 
 import click
 
@@ -33,13 +28,26 @@ def percentile_30(effect: Effect) -> float:
     "--num-top-bottom",
     type=int,
     default=None,
-    help="Show only top N and bottom N choices (default: show all)",
+    help="Show only top N and bottom N choices",
 )
-def main(num_top_bottom: int | None) -> None:
+@click.option(
+    "-d",
+    "--domain",
+    type=str,
+    default=None,
+    help="Filter by domain (e.g., 'diet', 'exercise')",
+)
+@click.option(
+    "--maxd",
+    type=int,
+    default=None,
+    help="Show only top N choices from each domain",
+)
+def main(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> None:
     """Rank wellness choices by 30th percentile lifespan impact."""
-    choices = load_all_choices()
+    choices = load_all_choices(domain)
 
-    results: list[tuple[str, float, float, float]] = []
+    results: list[tuple[str, str, float, float, float]] = []
     for choice in choices:
         aging_effect = get_effect_by_outcome(choice, Outcome.DELAYED_AGING)
         if aging_effect:
@@ -47,6 +55,7 @@ def main(num_top_bottom: int | None) -> None:
             results.append(
                 (
                     choice.name,
+                    choice.domain,
                     p30,
                     choice.specification.annual_cost_usd,
                     choice.specification.annual_cost_h,
@@ -54,7 +63,18 @@ def main(num_top_bottom: int | None) -> None:
             )
 
     # Sort by 30th percentile descending
-    results.sort(key=lambda x: x[1], reverse=True)
+    results.sort(key=lambda x: x[2], reverse=True)
+
+    # Apply maxd filter if specified
+    if maxd is not None:
+        domain_counts: dict[str, int] = {}
+        filtered: list[tuple[str, str, float, float, float]] = []
+        for item in results:
+            d = item[1]
+            domain_counts[d] = domain_counts.get(d, 0) + 1
+            if domain_counts[d] <= maxd:
+                filtered.append(item)
+        results = filtered
 
     # Header
     click.echo()
@@ -62,18 +82,16 @@ def main(num_top_bottom: int | None) -> None:
     click.echo("-" * 74)
 
     if num_top_bottom is None:
-        # Show all
-        for name, p30, cost_usd, cost_h in results:
+        for name, _, p30, cost_usd, cost_h in results:
             click.echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
     else:
-        # Show top N
         click.echo(f"TOP {num_top_bottom}:")
-        for name, p30, cost_usd, cost_h in results[:num_top_bottom]:
+        for name, _, p30, cost_usd, cost_h in results[:num_top_bottom]:
             click.echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
 
         click.echo()
         click.echo(f"BOTTOM {num_top_bottom}:")
-        for name, p30, cost_usd, cost_h in results[-num_top_bottom:]:
+        for name, _, p30, cost_usd, cost_h in results[-num_top_bottom:]:
             click.echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
 
     click.echo()

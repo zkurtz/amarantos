@@ -9,17 +9,17 @@ Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντ
 ## CLI Commands
 
 ```bash
-# List all wellness interventions
-amarantos list
+# Rank all choices by 30th percentile lifespan impact
+amarantos
 
-# List interventions filtered by domain
-amarantos list --domain exercise
-
-# Rank choices by 30th percentile lifespan impact
-amarantos rank
+# Filter by domain
+amarantos --domain exercise
 
 # Show only top/bottom 5
-amarantos rank -n 5
+amarantos -n 5
+
+# Show top 3 from each domain
+amarantos --maxd 3
 ```
 
 ## Awesome Longevity Resources

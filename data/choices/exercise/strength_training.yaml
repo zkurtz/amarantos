@@ -1,11 +1,33 @@
 domain: exercise
-name: Strength Training (2x/week)
+name: Strength Training (2x/week, ~60 min total)
+summary: |
+  Regular resistance training (2x/week, ~60 min total) is associated with
+  ~20% lower all-cause mortality and significant antidepressant effects.
+  Dose-response is U-shaped: maximum benefit around 60 min/week with
+  diminishing returns above 130 min/week. Strong RCT evidence for mood benefits.
 effects:
-- outcome: Hazard ratio for all-cause mortality; 2+ resistance training sessions/week
-    vs none
-  mean: 0.79
-  std: 0.0357
-literature:
-- 'Meta-analysis: Resistance training 2-3x/week associated with 21% lower all-cause
-    mortality (HR: 0.79, 95% CI: 0.72-0.86)'
-- 'Momma et al. Br J Sports Med 2022 - Muscle-strengthening activities and mortality'
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 11 studies, n=370,256. Any RT vs none: HR 0.79
+      (95% CI: 0.69-0.91). U-shaped dose-response: max benefit ~60 min/week
+      (RR 0.73). Mostly cohort studies; associative evidence. Saeidifard 2019
+      (https://pubmed.ncbi.nlm.nih.gov/31104484/). Shailendra 2022
+      (https://pubmed.ncbi.nlm.nih.gov/35599175/).
+    mean: 0.79
+    std: 0.056
+  - outcome: Years of delayed aging
+    evidence: |
+      Limited direct evidence on biological age markers. RT preserves muscle
+      mass, bone density, functional capacity. Some telomere maintenance data.
+      Extrapolated from mortality: 21% reduction ~ 2-3 years. Moderate
+      confidence given strong mechanistic plausibility.
+    mean: 2.0
+    std: 1.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      JAMA Psychiatry meta-analysis of 33 RCTs, n=1,877. RT vs control:
+      SMD -0.66 (95% CI: -0.48 to -0.83) for depression. NNT=4. Causal
+      evidence from RCTs. Effects independent of strength gains. Gordon 2018
+      (https://pubmed.ncbi.nlm.nih.gov/29800984/).
+    mean: 0.7
+    std: 0.2

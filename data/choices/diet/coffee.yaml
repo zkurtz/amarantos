@@ -1,6 +1,32 @@
 domain: diet
-name: Coffee (moderate)
+name: Coffee (moderate, 3-4 cups/day)
+summary: |
+  Moderate coffee consumption (3-4 cups/day) is associated with 15-20% lower
+  all-cause mortality and reduced depression risk. Effects are observational
+  with possible healthy user bias. Morning consumption may be more protective
+  than all-day drinking.
 effects:
-- outcome: Hazard ratio for all-cause mortality; 3-4 cups/day vs non-drinkers
-  mean: 0.905
-  std: 0.0281
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 40 cohort studies, n=3.8M. HR 0.83 (95% CI: 0.79-0.88)
+      for 3-4 cups/day vs non-drinkers. Associative evidence; healthy user
+      bias possible. Poole 2017 (https://pubmed.ncbi.nlm.nih.gov/29167102/).
+      Morning timing more protective per Eur Heart J 2024
+      (https://academic.oup.com/eurheartj/article/46/8/749/7928425).
+    mean: 0.83
+    std: 0.023
+  - outcome: Years of delayed aging
+    evidence: |
+      No direct epigenetic clock studies. Extrapolated from mortality reduction:
+      ~17% lower mortality roughly corresponds to 1-2 years using Gompertz
+      assumptions. Speculative estimate with high uncertainty.
+    mean: 1.0
+    std: 1.0
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 12 cohort studies, n=346,913. High vs low consumption:
+      RR 0.76 for depression. 8% lower risk per cup/day up to ~4 cups.
+      Associative evidence. Wang 2016
+      (https://pubmed.ncbi.nlm.nih.gov/26339067/).
+    mean: 0.3
+    std: 0.2

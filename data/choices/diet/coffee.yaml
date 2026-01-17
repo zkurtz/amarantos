@@ -1,6 +1,33 @@
 domain: diet
-name: Coffee (moderate)
+name: Coffee (moderate, 3-4 cups/day)
 effects:
-- outcome: Hazard ratio for all-cause mortality; 3-4 cups/day vs non-drinkers
-  mean: 0.905
-  std: 0.0281
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 40 prospective cohort studies (Poole et al. 2017).
+      3-4 cups/day vs non-drinkers: HR 0.83 (95% CI: 0.79-0.88) for all-cause mortality.
+      n=3.8 million participants across studies.
+      Associative evidence; healthy user bias and residual confounding possible.
+      Morning coffee timing may be more protective than all-day consumption (Eur Heart J 2024).
+    mean: 0.83
+    std: 0.023
+  - outcome: Years of delayed aging
+    evidence: |
+      No direct epigenetic clock studies for coffee consumption found.
+      Extrapolated from mortality reduction: ~17% lower mortality roughly corresponds
+      to 1-2 years of delayed aging using Gompertz mortality curve assumptions.
+      Speculative estimate with high uncertainty.
+    mean: 1.0
+    std: 1.0
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 12 cohort studies (Wang et al. 2016, n=346,913).
+      High vs low consumption: RR 0.76 for depression.
+      Dose-response: 8% lower depression risk per cup/day up to ~4 cups.
+      Associative evidence. Acute mood effects from caffeine well-established.
+      Effect may be partially confounded by social context of coffee consumption.
+    mean: 0.3
+    std: 0.2
+literature:
+  - "Poole et al. BMJ 2017 - Coffee consumption and health: umbrella review"
+  - "Wang et al. Aust N Z J Psychiatry 2016 - Coffee and caffeine consumption and depression"
+  - "European Heart Journal 2024 - Coffee drinking timing and mortality"

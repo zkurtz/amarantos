@@ -1,7 +1,41 @@
 domain: diet
-name: Omega-3 Fatty Acids (EPA/DHA)
+name: Omega-3 Fatty Acids (EPA/DHA, 1g+/day)
 effects:
-- outcome: Hazard ratio for major cardiovascular events; 1g+/day supplementation
-    vs placebo
-  mean: 0.935
-  std: 0.0281
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 42 RCTs, n=176,253 (Mattumpuram et al. 2025).
+      Omega-3 supplementation vs placebo:
+      - CV mortality: significant reduction (p=0.02)
+      - All-cause mortality: NOT significant
+      - MI: HR ~0.92 (significant)
+      EPA monotherapy more effective than EPA+DHA combination.
+      Causal evidence from RCTs, but effect on all-cause mortality null.
+      Moderate dose (0.8-1.2g) most effective for MACE reduction.
+      Note: increased risk of atrial fibrillation observed.
+    mean: 0.96
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      No direct epigenetic clock studies for omega-3 supplementation found.
+      Some evidence for reduced inflammation markers (CRP, IL-6).
+      Telomere studies inconclusive.
+      Cannot extrapolate from mortality since all-cause effect is null.
+      Highly speculative; centered at zero with large uncertainty.
+    mean: 0.0
+    std: 1.0
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 26 RCTs, n=2,160 (Liao et al. 2019, Transl Psychiatry).
+      Omega-3 vs placebo for depression: SMD -0.28 (p=0.004).
+      Small but significant effect.
+      EPA-rich formulations more effective than DHA-dominant.
+      Causal evidence from RCTs.
+      More effective as adjunctive therapy than standalone treatment.
+      Methodological heterogeneity across trials limits confidence.
+    mean: 0.25
+    std: 0.15
+literature:
+  - "Mattumpuram et al. Clin Transl Discov 2025 - Omega-3 and CVD meta-analysis"
+  - "Liao et al. Transl Psychiatry 2019 - Efficacy of omega-3 PUFAs in depression"
+  - "Hu et al. JAHA 2019 - Marine omega-3 and cardiovascular disease"
+  - "VITAL trial - Omega-3 supplementation in primary prevention"

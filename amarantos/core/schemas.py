@@ -44,9 +44,9 @@ class Effect:
     """
 
     outcome: Outcome
-    evidence: str
     mean: float
     std: float
+    evidence: str = ""
 
     @property
     def ci_lower(self) -> float:

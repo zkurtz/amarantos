@@ -1,11 +1,37 @@
 domain: exercise
-name: Strength Training (2x/week)
+name: Strength Training (2x/week, ~60 min total)
 effects:
-- outcome: Hazard ratio for all-cause mortality; 2+ resistance training sessions/week
-    vs none
-  mean: 0.79
-  std: 0.0357
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 11 studies, n=370,256 (Saeidifard et al. 2019).
+      Any resistance training vs none: HR 0.79 (95% CI: 0.69-0.91), 21% lower mortality.
+      Dose-response meta-analysis shows U-shaped curve: maximum benefit ~60 min/week
+      (RR 0.73), diminishing returns above 130 min/week.
+      Mostly cohort studies; associative evidence with possible healthy user bias.
+      One RCT included; borderline CVD mortality reduction (HR 0.83, CI: 0.67-1.03).
+    mean: 0.79
+    std: 0.056
+  - outcome: Years of delayed aging
+    evidence: |
+      Limited direct evidence on biological age markers.
+      Resistance training preserves muscle mass, bone density, and functional capacity.
+      Some studies show improved telomere length maintenance with exercise.
+      Extrapolated from mortality: 21% reduction roughly corresponds to 2-3 years.
+      Moderate confidence given strong mechanistic plausibility.
+    mean: 2.0
+    std: 1.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      JAMA Psychiatry meta-analysis of 33 RCTs, n=1,877 (Gordon et al. 2018).
+      Resistance training vs control: SMD -0.66 (95% CI: -0.48 to -0.83) for depression.
+      Number needed to treat = 4.
+      Causal evidence from RCTs.
+      Effects independent of health status or strength gains.
+      Young people show larger effects (Hedge's g = -1.06).
+    mean: 0.7
+    std: 0.2
 literature:
-- 'Meta-analysis: Resistance training 2-3x/week associated with 21% lower all-cause
-    mortality (HR: 0.79, 95% CI: 0.72-0.86)'
-- 'Momma et al. Br J Sports Med 2022 - Muscle-strengthening activities and mortality'
+  - "Saeidifard et al. Mayo Clin Proc 2019 - Resistance training and mortality"
+  - "Shailendra et al. Am J Prev Med 2022 - Resistance training and mortality meta-analysis"
+  - "Gordon et al. JAMA Psychiatry 2018 - Resistance exercise and depressive symptoms"
+  - "Momma et al. Br J Sports Med 2022 - Muscle-strengthening activities and mortality"

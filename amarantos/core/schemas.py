@@ -81,8 +81,8 @@ class Choice:
     domain: str
     name: str
     effects: tuple[Effect, ...]
+    summary: str = ""
     annual_cost: float | None = None
-    literature: list[str] | None = None
 
     @property
     def path(self) -> Path:
@@ -94,6 +94,7 @@ class Choice:
         """Load a choice from a YAML file."""
         data = dummio.yaml.load(filepath=path)
         data["effects"] = tuple(Effect(**e) for e in data["effects"])
+        data.pop("literature", None)  # Remove legacy field if present
         return cls(**data)
 
     def save(self, path: Path | None = None) -> None:
@@ -105,10 +106,10 @@ class Choice:
             "name": self.name,
             "effects": [attrs.asdict(e) for e in self.effects],
         }
+        if self.summary:
+            data["summary"] = self.summary
         if self.annual_cost is not None:
             data["annual_cost"] = self.annual_cost
-        if self.literature is not None:
-            data["literature"] = self.literature
         dummio.yaml.save(data, filepath=path)
 
 

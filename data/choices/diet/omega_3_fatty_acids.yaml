@@ -1,41 +1,34 @@
 domain: diet
 name: Omega-3 Fatty Acids (EPA/DHA, 1g+/day)
+summary: |
+  Omega-3 supplementation (1g+/day) reduces CV mortality and MI risk but has
+  null effect on all-cause mortality in RCTs. Small antidepressant effect
+  (SMD -0.28). EPA monotherapy more effective than EPA+DHA. Note: may increase
+  atrial fibrillation risk. Mixed evidence overall.
 effects:
   - outcome: Relative mortality risk
     evidence: |
-      Meta-analysis of 42 RCTs, n=176,253 (Mattumpuram et al. 2025).
-      Omega-3 supplementation vs placebo:
-      - CV mortality: significant reduction (p=0.02)
-      - All-cause mortality: NOT significant
-      - MI: HR ~0.92 (significant)
-      EPA monotherapy more effective than EPA+DHA combination.
-      Causal evidence from RCTs, but effect on all-cause mortality null.
-      Moderate dose (0.8-1.2g) most effective for MACE reduction.
-      Note: increased risk of atrial fibrillation observed.
+      Meta-analysis of 42 RCTs, n=176,253. CV mortality reduced (p=0.02) but
+      all-cause mortality NOT significant. MI: HR ~0.92. EPA > EPA+DHA combo.
+      Moderate dose (0.8-1.2g) optimal for MACE. Causal evidence from RCTs.
+      Increased AFib risk noted. Mattumpuram 2025
+      (https://onlinelibrary.wiley.com/doi/10.1002/ctd2.70094). Hu 2019
+      (https://www.ahajournals.org/doi/10.1161/JAHA.119.013543).
     mean: 0.96
     std: 0.04
   - outcome: Years of delayed aging
     evidence: |
-      No direct epigenetic clock studies for omega-3 supplementation found.
-      Some evidence for reduced inflammation markers (CRP, IL-6).
-      Telomere studies inconclusive.
-      Cannot extrapolate from mortality since all-cause effect is null.
-      Highly speculative; centered at zero with large uncertainty.
+      No direct epigenetic clock studies. Some reduced inflammation markers
+      (CRP, IL-6). Telomere studies inconclusive. Cannot extrapolate from
+      mortality since all-cause effect is null. Highly speculative; centered
+      at zero with large uncertainty.
     mean: 0.0
     std: 1.0
   - outcome: Subjective wellbeing - number of just-noticeable differences
     evidence: |
-      Meta-analysis of 26 RCTs, n=2,160 (Liao et al. 2019, Transl Psychiatry).
-      Omega-3 vs placebo for depression: SMD -0.28 (p=0.004).
-      Small but significant effect.
-      EPA-rich formulations more effective than DHA-dominant.
-      Causal evidence from RCTs.
-      More effective as adjunctive therapy than standalone treatment.
-      Methodological heterogeneity across trials limits confidence.
+      Meta-analysis of 26 RCTs, n=2,160. SMD -0.28 (p=0.004) for depression.
+      Small but significant. EPA-rich > DHA-dominant. Causal evidence. More
+      effective as adjunct than standalone. Liao 2019
+      (https://www.nature.com/articles/s41398-019-0515-5).
     mean: 0.25
     std: 0.15
-literature:
-  - "Mattumpuram et al. Clin Transl Discov 2025 - Omega-3 and CVD meta-analysis"
-  - "Liao et al. Transl Psychiatry 2019 - Efficacy of omega-3 PUFAs in depression"
-  - "Hu et al. JAHA 2019 - Marine omega-3 and cardiovascular disease"
-  - "VITAL trial - Omega-3 supplementation in primary prevention"

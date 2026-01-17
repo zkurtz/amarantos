@@ -81,6 +81,20 @@ Example for an outcome with no direct evidence:
   std: 1.0
 ```
 
+## Reference Format
+
+All references in `summary` and `evidence` fields should follow this format:
+
+```
+Terse description. Author Year (https://full-url-to-source).
+```
+
+Examples:
+- `Meta-analysis of 40 cohorts. Poole 2017 (https://pubmed.ncbi.nlm.nih.gov/29167102/).`
+- `RCT, n=1,877. Gordon 2018 (https://pubmed.ncbi.nlm.nih.gov/29800984/).`
+
+**Always include the full URL** - this enables verification and follow-up reading.
+
 ## Tools for Evidence Gathering
 
 - **PubMed**: Search for meta-analyses with `[intervention] meta-analysis mortality`
@@ -97,3 +111,4 @@ Before finalizing an effect estimate:
 - [ ] Is causal vs. associative distinguished?
 - [ ] Is uncertainty appropriately sized?
 - [ ] Are limitations acknowledged?
+- [ ] Do all references include full URLs?

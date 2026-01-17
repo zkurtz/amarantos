@@ -12,33 +12,32 @@ How to add a new intervention to `data/choices/`.
 ```yaml
 domain: diet  # or "exercise", etc.
 name: Intervention Name (dosage/frequency)
+summary: |
+  High-level description of the intervention and its potential benefits/harms.
+  Include key caveats. Keep to 3-5 lines.
 effects:
   - outcome: Relative mortality risk
     evidence: |
-      [Source type]: [Study description]
-      [Sample size if available]
-      [Causal/Associative] evidence.
-      [Key limitations or confounders]
+      [Source type]: [Study description]. [Sample size]. [Causal/Associative].
+      [Key limitations]. Author Year (https://full-url-to-source).
     mean: 0.85
     std: 0.03
 
   - outcome: Years of delayed aging
     evidence: |
-      [How this was estimated - direct or extrapolated]
-      [Uncertainty acknowledgment]
+      [How estimated - direct or extrapolated]. [Uncertainty acknowledgment].
+      Author Year (https://url) if applicable.
     mean: 0.5
     std: 0.5
 
   - outcome: Subjective wellbeing - number of just-noticeable differences
     evidence: |
-      [Source or reasoning]
+      [Source or reasoning]. Author Year (https://url).
     mean: 0.2
     std: 0.3
-
-literature:
-  - "Author et al. Journal Year - Title"
-  - "Another source"
 ```
+
+**Note:** All references must include full URLs in parentheses.
 
 ## Step-by-Step Process
 
@@ -116,9 +115,9 @@ Before committing:
 ```yaml
 - outcome: Relative mortality risk
   evidence: |
-    Meta-analysis of 40 cohort studies (Poole et al. 2017, n=3.8M).
-    HR 0.83 (95% CI: 0.79-0.88) for 3-4 cups/day vs non-drinkers.
-    Associative evidence; healthy user bias possible.
+    Meta-analysis of 40 cohort studies, n=3.8M. HR 0.83 (95% CI: 0.79-0.88)
+    for 3-4 cups/day vs non-drinkers. Associative evidence; healthy user
+    bias possible. Poole 2017 (https://pubmed.ncbi.nlm.nih.gov/29167102/).
   mean: 0.83
   std: 0.023
 ```
@@ -128,9 +127,8 @@ Before committing:
 ```yaml
 - outcome: Years of delayed aging
   evidence: |
-    No direct epigenetic clock studies found.
-    Extrapolated from mortality reduction assuming Gompertz curve.
-    Highly speculative estimate.
+    No direct epigenetic clock studies found. Extrapolated from mortality
+    reduction assuming Gompertz curve. Highly speculative estimate.
   mean: 0.3
   std: 1.0
 ```
@@ -139,7 +137,7 @@ Before committing:
 
 ```yaml
 - outcome: Relative mortality risk
-  evidence: "Reduces mortality"  # Too vague!
+  evidence: "Reduces mortality"  # Too vague! No URL!
   mean: 0.7
   std: 0.01  # Overconfident!
 ```

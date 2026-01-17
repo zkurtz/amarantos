@@ -1,7 +1,33 @@
 domain: diet
-name: Creatine
+name: Creatine Monohydrate (3-5g/day)
+summary: |
+  Well-studied ergogenic aid. Meta-analyses show cognitive benefits: improved
+  memory (SMD 0.31) and attention, especially in older adults. Enhances muscle
+  strength and lean mass with exercise. No mortality RCTs. Safe for long-term
+  use (up to 2 years studied). May benefit brain health via enhanced cellular
+  energy.
 effects:
-- outcome: Relative risk of mortality (limited data); 3-5g/day supplementation;
-    primary evidence from muscle/cognitive endpoints
-  mean: 0.96
-  std: 0.0306
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs. Improves muscle strength and functional capacity in
+      older adults, which is associated with lower mortality risk. May preserve
+      brain function. Indirect evidence only. Extrapolated estimate with high
+      uncertainty.
+    mean: 0.97
+    std: 0.10
+  - outcome: Years of delayed aging
+    evidence: |
+      Supports muscle mass preservation (sarcopenia prevention). 2024 meta-analysis
+      shows cognitive benefits including memory (SMD 0.31).
+      (https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/). May protect brain
+      during metabolic stress. No epigenetic clock data. Moderate confidence
+      for functional aging.
+    mean: 0.5
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Enhanced exercise capacity and strength gains may improve physical
+      self-efficacy. Cognitive benefits may improve mental clarity. Some
+      evidence for mood benefits. Small positive effect likely.
+    mean: 0.3
+    std: 0.3

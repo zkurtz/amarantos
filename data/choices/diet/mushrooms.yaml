@@ -1,7 +1,33 @@
 domain: diet
-name: Mushrooms (various)
+name: Mushrooms (18g+/day)
+summary: |
+  Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis of
+  cohorts (n=602K): 6% lower all-cause mortality with consumption. 34% lower
+  cancer risk in meta-analysis of 17 studies. Benefits for breast cancer most
+  consistent. Ergothioneine associated with 14% lower CVD mortality. Evidence
+  quality moderate for mortality; cancer evidence has limitations.
 effects:
-- outcome: Relative risk of all-cause mortality; 18g+/day vs non-consumers
-    (pooled analysis)
-  mean: 0.93
-  std: 0.0255
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of prospective cohorts (n=601,893): mushroom consumption
+      associated with RR 0.94 (95% CI: 0.91-0.98) for all-cause mortality.
+      (https://nutritionj.biomedcentral.com/articles/10.1186/s12937-021-00738-w).
+      NHANES: HR 0.84 (95% CI: 0.74-0.95) for mushroom consumers.
+      Ergothioneine metabolite associated with HR 0.86 for mortality.
+      Associative evidence.
+    mean: 0.92
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      Ergothioneine may protect against oxidative stress and age-related
+      decline. Associated with healthy dietary patterns. No epigenetic clock
+      studies. Speculative.
+    mean: 0.4
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      No direct mood RCTs. Part of healthy dietary patterns. Some medicinal
+      mushrooms (different from culinary) have adaptogenic properties.
+      Indirect evidence only.
+    mean: 0.1
+    std: 0.3

@@ -1,7 +1,32 @@
 domain: diet
-name: Blueberries
+name: Blueberries (1+ servings/day)
+summary: |
+  Among the most evidence-backed fruits for cardiovascular health. Associated
+  with ~21% lower all-cause mortality and 32% lower MI risk in cohorts.
+  Anthocyanins improve endothelial function (FMD +1.5%). RCTs show reduced BP
+  and LDL. Rich in polyphenols and antioxidants. Strong observational evidence;
+  moderate RCT support.
 effects:
-- outcome: Relative risk of cardiovascular disease; 1+ servings/day vs <1
-    serving/week
-  mean: 0.9
-  std: 0.0306
+  - outcome: Relative mortality risk
+    evidence: |
+      NHANES cohort: blueberry consumers vs non: HR 0.79 (95% CI: 0.66-0.95)
+      for all-cause mortality. Meta-analysis of anthocyanin intake: RR 0.89
+      for CVD, 32% lower MI risk. Cassidy 2013
+      (https://jn.nutrition.org/article/S0022-3166(24)00021-X/pdf). Associative
+      evidence; healthy user bias possible.
+    mean: 0.85
+    std: 0.05
+  - outcome: Years of delayed aging
+    evidence: |
+      Anthocyanins may protect against cognitive decline. Some studies show
+      improved memory in older adults. No epigenetic clock data. Extrapolated
+      from mortality and cognitive benefits. Moderate confidence.
+    mean: 1.0
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      RCTs show improved cognitive function and mood in older adults with
+      blueberry supplementation. Krikorian 2020 showed memory benefits.
+      Limited direct mood data. Small positive effect plausible.
+    mean: 0.2
+    std: 0.2

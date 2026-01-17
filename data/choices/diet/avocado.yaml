@@ -1,7 +1,28 @@
 domain: diet
-name: Avocado
+name: Avocado (2+ servings/week)
+summary: |
+  Associated with 16% lower CVD risk and 21% lower CHD risk in large cohorts.
+  Rich in monounsaturated fats, fiber, potassium. RCTs show modest LDL reduction
+  (~4-9mg/dL). No direct mortality trials. Evidence quality low-moderate due to
+  observational designs and small RCTs.
 effects:
-- outcome: Hazard ratio for cardiovascular disease; 2+ servings/week vs <1
-    serving/month
-  mean: 0.93
-  std: 0.0255
+  - outcome: Relative mortality risk
+    evidence: |
+      Prospective cohort, n=110,487 over 30 years. ≥2 servings/week vs rarely:
+      HR 0.84 (95% CI: 0.75-0.95) for CVD, HR 0.79 for CHD. Associative evidence.
+      Pacheco 2022 (https://pubmed.ncbi.nlm.nih.gov/35352568/). No all-cause
+      mortality data; estimate based on CVD reduction.
+    mean: 0.92
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      No epigenetic clock studies. Rich in antioxidants and healthy fats.
+      Extrapolated from CVD risk reduction. Speculative.
+    mean: 0.5
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      No direct mood RCTs for avocado. Contains folate and healthy fats linked
+      to brain health. Insufficient evidence for effect estimate.
+    mean: 0.0
+    std: 0.3

@@ -1,7 +1,32 @@
 domain: diet
-name: MCT Oil
+name: MCT Oil (15-30mL/day)
+summary: |
+  Medium-chain triglycerides rapidly converted to ketones, providing alternative
+  brain fuel. Meta-analysis shows mild ketosis and possible cognitive improvement
+  in MCI/AD patients. May enhance working memory in older adults. No mortality
+  data. GI side effects common. May increase triglycerides in some. Evidence
+  quality low for cognition; no CVD data.
 effects:
-- outcome: Relative improvement in ketone/cognitive markers; 15-30mL/day; no
-    direct mortality data
-  mean: 0.99
-  std: 0.0255
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs. May increase plasma triglycerides in some individuals,
+      which could be harmful for CVD. No cardiovascular outcomes studied.
+      Coconut oil (high MCT) used widely without major adverse events. Centered
+      at null with uncertainty.
+    mean: 1.0
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      May support brain energy metabolism in aging. Meta-analysis shows
+      cognitive benefits in MCI/AD. (https://pmc.ncbi.nlm.nih.gov/articles/PMC7050425/).
+      2022 review: may enhance working memory in non-demented older adults.
+      (https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-022-03521-6).
+      Speculative for healthy aging.
+    mean: 0.2
+    std: 0.7
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      May improve mental clarity via ketones. GI side effects (nausea, cramping)
+      common and may reduce wellbeing. Net effect uncertain.
+    mean: 0.0
+    std: 0.3

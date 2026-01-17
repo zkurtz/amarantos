@@ -1,12 +1,32 @@
 domain: exercise
-name: Resistance Bands Training
+name: Resistance Bands (2-3x/week)
+summary: |
+  Elastic resistance training provides similar strength gains to free weights at
+  lower cost and joint stress. Meta-analyses show improved muscle strength and
+  reduced functional decline in older adults. Accessible for home use and
+  rehabilitation. Comparable benefits to traditional resistance training for
+  muscle mass and metabolic health. Evidence quality moderate.
 effects:
-- outcome: Hazard ratio for functional decline in older adults; resistance band
-    training 2-3x/week vs sedentary
-  mean: 0.82
-  std: 0.0408
-literature:
-- 'Meta-analysis: Elastic resistance training improves muscle strength and reduces
-    functional decline by ~18% (HR: 0.82, 95% CI: 0.74-0.90)'
-- 'Lopes et al. J Aging Phys Act 2019 - Resistance bands in older adults'
-- 'Accessible, low-cost alternative to weight training with similar benefits'
+  - outcome: Relative mortality risk
+    evidence: |
+      No direct mortality studies for resistance bands specifically. Meta-
+      analyses of resistance training show 21-27% lower all-cause mortality.
+      Elastic resistance produces similar strength gains to traditional
+      resistance. (https://pubmed.ncbi.nlm.nih.gov/30125562/). Extrapolated
+      from resistance training literature.
+    mean: 0.83
+    std: 0.06
+  - outcome: Years of delayed aging
+    evidence: |
+      Resistance training prevents sarcopenia and functional decline. Elastic
+      resistance effective for muscle strength in older adults. Preserves
+      mobility and independence. Moderate confidence.
+    mean: 0.8
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Strength training associated with improved self-efficacy and functional
+      capacity. Accessible format may improve adherence. Joint-friendly.
+      Small positive effect plausible.
+    mean: 0.2
+    std: 0.3

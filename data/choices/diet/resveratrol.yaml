@@ -1,7 +1,32 @@
 domain: diet
-name: Resveratrol
+name: Resveratrol (150-500mg/day)
+summary: |
+  Polyphenol found in red grapes with extensive preclinical longevity data.
+  Human RCTs show mixed results: some BP reduction, inconsistent effects on
+  lipids and inflammation. High doses (≥1000mg/day) may increase LDL. Conflicting
+  findings possibly due to gut microbiome variation. No mortality RCTs.
+  Translation from animal to human disappointing. Evidence quality low.
 effects:
-- outcome: Hazard ratio for cardiovascular events; supplementation vs placebo
-    (human RCT data limited)
-  mean: 0.985
-  std: 0.0332
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs. Meta-analysis shows some BP reduction and anti-
+      inflammatory effects in CVD patients.
+      (https://pubmed.ncbi.nlm.nih.gov/35905799/). High doses associated with
+      increased LDL/TC. Inconsistent effects across trials.
+      (https://www.mdpi.com/1422-0067/25/2/747). Clinical evidence does not
+      support clear benefit. Centered at null.
+    mean: 1.0
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      Strong preclinical evidence for lifespan extension via SIRT1 activation.
+      Human translation limited. No epigenetic clock studies show benefit.
+      Speculative for human aging.
+    mean: 0.0
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      No direct mood RCTs. May improve cognitive function in some populations.
+      Limited evidence. Uncertain effect.
+    mean: 0.0
+    std: 0.3

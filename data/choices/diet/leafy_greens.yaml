@@ -1,7 +1,32 @@
 domain: diet
-name: Leafy Greens (spinach/kale)
+name: Leafy Greens (1+ servings/day)
+summary: |
+  Spinach, kale, arugula, lettuce rich in nitrates, vitamins, and fiber. NHS/HPFS:
+  each serving associated with 11% lower CVD risk. Danish cohort (n=53,150):
+  nitrate intake up to 60mg/day (≈1 cup) associated with lower IHD, stroke, PAD,
+  and HF. Among strongest vegetable-CVD associations. Evidence quality high.
 effects:
-- outcome: Hazard ratio for cardiovascular mortality; 1+ servings/day vs <1
-    serving/week
-  mean: 0.88
-  std: 0.0306
+  - outcome: Relative mortality risk
+    evidence: |
+      2017 meta-analysis: green leafy vegetables inversely associated with CVD
+      and all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/28338764/).
+      NHS/HPFS combined: each serving associated with 11% lower CVD risk.
+      (https://pmc.ncbi.nlm.nih.gov/articles/PMC8756059/). Danish cohort:
+      vegetable nitrate intake associated with lower CVD events.
+      (https://link.springer.com/article/10.1007/s10654-021-00747-3).
+      Associative evidence; consistent.
+    mean: 0.88
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      Nitrates improve vascular function and may slow cognitive decline. Rich
+      in antioxidants and folate. Associated with healthy aging. No epigenetic
+      clock studies. Strong biological plausibility.
+    mean: 0.8
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Part of healthy dietary patterns associated with better mood. Nitrates
+      may improve exercise performance and energy. Indirect evidence only.
+    mean: 0.1
+    std: 0.3

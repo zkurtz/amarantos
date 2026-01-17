@@ -1,34 +1,40 @@
 domain: social
-name: Pet Ownership (especially dogs)
-summary: |
-  Companion animals, particularly dogs. Swedish registry (n=3.4M): dog
-  ownership associated with 24% lower CVD mortality in single households.
-  Benefits may include physical activity (dog walking), social facilitation,
-  stress reduction. Cat ownership shows weaker/null associations. Evidence
-  quality moderate; significant healthy user bias concerns.
+name: Pet Ownership
+specification:
+  duration_h: 1.0
+  weekly_freq: 7
+  annual_cost_h: 400
+  annual_cost_usd: 2000
+  description: "Recommended: especially dogs. Companion animals, particularly dogs.
+    Swedish registry (n=3.4M): dog\nownership associated with 24% lower CVD mortality
+    in single households.\nBenefits may include physical activity (dog walking), social
+    facilitation,\nstress reduction. Cat ownership shows weaker/null associations.
+    Evidence\nquality moderate; significant healthy user bias concerns."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Swedish registry (n=3.4M, 12y): dog ownership HR 0.76 for CVD mortality
-      in single-person households. (https://pubmed.ncbi.nlm.nih.gov/29150611/).
-      Meta-analysis: dog ownership HR 0.76 for CVD mortality, HR 0.87 for
-      all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/31592726/).
-      Significant healthy user bias; healthier people may get dogs.
-    mean: 0.90
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Dog owners have higher physical activity levels. Pet interaction
-      reduces cortisol and stress markers. No direct aging studies.
-      Benefits likely mediated through activity and stress reduction.
-      Speculative.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Pet owners report companionship, reduced loneliness, and daily
-      structure. Dog walking provides social interactions. Grief at pet
-      loss can be significant. Net positive effect for most owners.
-      Small-moderate positive effect.
-    mean: 0.4
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Swedish registry (n=3.4M, 12y): dog ownership HR 0.76 for CVD mortality
+    in single-person households. (https://pubmed.ncbi.nlm.nih.gov/29150611/).
+    Meta-analysis: dog ownership HR 0.76 for CVD mortality, HR 0.87 for
+    all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/31592726/).
+    Significant healthy user bias; healthier people may get dogs.
+  mean: 0.90
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Dog owners have higher physical activity levels. Pet interaction
+    reduces cortisol and stress markers. No direct aging studies.
+    Benefits likely mediated through activity and stress reduction.
+    Speculative.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Pet owners report companionship, reduced loneliness, and daily
+    structure. Dog walking provides social interactions. Grief at pet
+    loss can be significant. Net positive effect for most owners.
+    Small-moderate positive effect.
+  mean: 0.4
+  std: 0.3
+summary: "Companion animals, particularly dogs. Swedish registry (n=3.4M): dog\nownership
+  associated with 24% lower CVD mortality in single households."

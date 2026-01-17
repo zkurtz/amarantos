@@ -1,33 +1,39 @@
 domain: diet
-name: Fatty Fish (2+ servings/week)
-summary: |
-  Salmon, sardines, mackerel rich in omega-3 (EPA/DHA). Meta-analysis of 25
-  cohorts (n=2M): 9% lower CVD mortality, 4% reduction per 20g/day. RCTs of
-  omega-3 supplements show reduced cardiovascular mortality. Benefits more
-  consistent for fish intake than supplements. Evidence quality high for
-  observational; RCTs mixed.
+name: Fatty Fish
+specification:
+  duration_h: 0.3
+  weekly_freq: 3
+  annual_cost_h: 50
+  annual_cost_usd: 500
+  description: "Recommended: 2+ servings/week. Salmon, sardines, mackerel rich in
+    omega-3 (EPA/DHA). Meta-analysis of 25\ncohorts (n=2M): 9% lower CVD mortality,
+    4% reduction per 20g/day. RCTs of\nomega-3 supplements show reduced cardiovascular
+    mortality. Benefits more\nconsistent for fish intake than supplements. Evidence
+    quality high for\nobservational; RCTs mixed."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of 25 cohorts (n=2,027,512): fish consumption associated
-      with 9% lower CVD mortality (RR 0.91, 95% CI: 0.85-0.98). Marine n-3
-      PUFA intake: RR 0.87 for CVD mortality.
-      (https://www.mdpi.com/2072-6643/13/7/2342). 2021 meta-analysis of 38 RCTs:
-      omega-3 reduced cardiovascular mortality.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/). Associative and
-      causal evidence.
-    mean: 0.91
-    std: 0.04
-  - outcome: Years of delayed aging
-    evidence: |
-      Omega-3s reduce inflammation and may protect telomere length. Associated
-      with slower cognitive decline. No epigenetic clock studies for fish
-      specifically. Moderate confidence.
-    mean: 0.7
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Omega-3s show modest benefits for depression in meta-analyses. May
-      improve brain health. Small positive effect plausible.
-    mean: 0.2
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 25 cohorts (n=2,027,512): fish consumption associated
+    with 9% lower CVD mortality (RR 0.91, 95% CI: 0.85-0.98). Marine n-3
+    PUFA intake: RR 0.87 for CVD mortality.
+    (https://www.mdpi.com/2072-6643/13/7/2342). 2021 meta-analysis of 38 RCTs:
+    omega-3 reduced cardiovascular mortality.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/). Associative and
+    causal evidence.
+  mean: 0.91
+  std: 0.04
+- outcome: Years of delayed aging
+  evidence: |
+    Omega-3s reduce inflammation and may protect telomere length. Associated
+    with slower cognitive decline. No epigenetic clock studies for fish
+    specifically. Moderate confidence.
+  mean: 0.7
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Omega-3s show modest benefits for depression in meta-analyses. May
+    improve brain health. Small positive effect plausible.
+  mean: 0.2
+  std: 0.3
+summary: "Salmon, sardines, mackerel rich in omega-3 (EPA/DHA). Meta-analysis of 25\n\
+  cohorts (n=2M): 9% lower CVD mortality, 4% reduction per 20g/day."

@@ -1,33 +1,40 @@
 domain: mind
-name: Cognitive Training (brain training, learning new skills)
-summary: |
-  Includes computerized brain training, learning new languages, musical
-  instruments, or complex skills. Meta-analyses: limited transfer to
-  real-world cognition from brain games. However, education and cognitive
-  engagement associated with lower dementia risk in observational studies.
-  Learning complex skills may be more beneficial than narrow training.
-  Evidence quality low-moderate; transfer effects debated.
+name: Cognitive Training
+specification:
+  duration_h: 0.33
+  weekly_freq: 5
+  annual_cost_h: 100
+  annual_cost_usd: 200
+  description: "Recommended: brain training, learning new skills. Includes computerized
+    brain training, learning new languages, musical\ninstruments, or complex skills.
+    Meta-analyses: limited transfer to\nreal-world cognition from brain games. However,
+    education and cognitive\nengagement associated with lower dementia risk in observational
+    studies.\nLearning complex skills may be more beneficial than narrow training.\n\
+    Evidence quality low-moderate; transfer effects debated."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      ACTIVE trial: cognitive training associated with reduced dementia
-      incidence at 10 years (HR 0.71). (https://pubmed.ncbi.nlm.nih.gov/28426831/).
-      Higher education associated with lower mortality. Cognitive engagement
-      may reduce dementia-related mortality. Indirect evidence.
-    mean: 0.95
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Cognitive reserve hypothesis: higher lifetime cognitive engagement
-      delays dementia symptoms. Meta-analysis: cognitively stimulating
-      activities associated with 30-50% reduced dementia risk.
-      (https://pubmed.ncbi.nlm.nih.gov/25631611/). Associative evidence.
-    mean: 0.5
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Learning new skills provides sense of mastery and purpose. Flow
-      states during skill acquisition associated with wellbeing. Social
-      component of classes adds benefit. Small-moderate positive effect.
-    mean: 0.3
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    ACTIVE trial: cognitive training associated with reduced dementia
+    incidence at 10 years (HR 0.71). (https://pubmed.ncbi.nlm.nih.gov/28426831/).
+    Higher education associated with lower mortality. Cognitive engagement
+    may reduce dementia-related mortality. Indirect evidence.
+  mean: 0.95
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Cognitive reserve hypothesis: higher lifetime cognitive engagement
+    delays dementia symptoms. Meta-analysis: cognitively stimulating
+    activities associated with 30-50% reduced dementia risk.
+    (https://pubmed.ncbi.nlm.nih.gov/25631611/). Associative evidence.
+  mean: 0.5
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Learning new skills provides sense of mastery and purpose. Flow
+    states during skill acquisition associated with wellbeing. Social
+    component of classes adds benefit. Small-moderate positive effect.
+  mean: 0.3
+  std: 0.3
+summary: "Includes computerized brain training, learning new languages, musical\n\
+  instruments, or complex skills. Meta-analyses: limited transfer to\nreal-world cognition
+  from brain games."

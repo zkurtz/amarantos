@@ -1,31 +1,38 @@
 domain: diet
-name: Vitamin D (1000-4000 IU/day to sufficiency)
-summary: |
-  Essential hormone-like vitamin; deficiency common. Meta-analysis of RCTs:
-  daily supplementation reduces cancer mortality by 12% (not incidence). All-cause
-  mortality reduced 6% with >5 years follow-up. No effect on CVD mortality.
-  Daily dosing more effective than intermittent bolus. Target serum 30-50ng/mL.
-  Evidence quality moderate for cancer mortality; high for bone health.
+name: Vitamin D
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 50
+  description: "Recommended: 1000-4000 IU/day to sufficiency. Essential hormone-like
+    vitamin; deficiency common. Meta-analysis of RCTs:\ndaily supplementation reduces
+    cancer mortality by 12% (not incidence). All-cause\nmortality reduced 6% with
+    >5 years follow-up. No effect on CVD mortality.\nDaily dosing more effective than
+    intermittent bolus. Target serum 30-50ng/mL.\nEvidence quality moderate for cancer
+    mortality; high for bone health."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of RCTs: cancer mortality RR 0.87 (95% CI: 0.79-0.96) with
-      daily dosing. (https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext).
-      All-cause mortality RR 0.94 with >3 years follow-up.
-      (https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/413032).
-      CVD mortality NS. Benefit requires daily dosing, sufficient duration.
-    mean: 0.92
-    std: 0.04
-  - outcome: Years of delayed aging
-    evidence: |
-      Vitamin D receptors throughout body. Deficiency associated with frailty
-      and cognitive decline. May support muscle function. No epigenetic clock
-      studies specific to supplementation. Moderate confidence.
-    mean: 0.5
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Deficiency associated with depression. Meta-analyses show modest benefits
-      for mood in deficient individuals. No clear benefit in replete individuals.
-    mean: 0.2
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of RCTs: cancer mortality RR 0.87 (95% CI: 0.79-0.96) with
+    daily dosing. (https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext).
+    All-cause mortality RR 0.94 with >3 years follow-up.
+    (https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/413032).
+    CVD mortality NS. Benefit requires daily dosing, sufficient duration.
+  mean: 0.92
+  std: 0.04
+- outcome: Years of delayed aging
+  evidence: |
+    Vitamin D receptors throughout body. Deficiency associated with frailty
+    and cognitive decline. May support muscle function. No epigenetic clock
+    studies specific to supplementation. Moderate confidence.
+  mean: 0.5
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Deficiency associated with depression. Meta-analyses show modest benefits
+    for mood in deficient individuals. No clear benefit in replete individuals.
+  mean: 0.2
+  std: 0.3
+summary: "Essential hormone-like vitamin; deficiency common. Meta-analysis of RCTs:\n\
+  daily supplementation reduces cancer mortality by 12% (not incidence)."

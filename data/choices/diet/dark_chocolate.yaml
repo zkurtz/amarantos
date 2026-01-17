@@ -1,32 +1,39 @@
 domain: diet
-name: Dark Chocolate (20-30g/day, >70% cacao)
-summary: |
-  High-cacao chocolate provides flavanols with cardiovascular benefits. Meta-
-  analysis of 21 cohorts (n=908,390): 13% lower CVD mortality, 16% lower heart
-  disease mortality at highest intake. Optimal at <100g/week; higher intake may
-  negate benefits due to sugar. Mendelian randomization supports hypertension
-  reduction. Evidence quality moderate.
+name: Dark Chocolate
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 20-30g/day, >70% cacao. High-cacao chocolate provides
+    flavanols with cardiovascular benefits. Meta-\nanalysis of 21 cohorts (n=908,390):
+    13% lower CVD mortality, 16% lower heart\ndisease mortality at highest intake.
+    Optimal at <100g/week; higher intake may\nnegate benefits due to sugar. Mendelian
+    randomization supports hypertension\nreduction. Evidence quality moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Zhao 2022 updated meta-analysis of 21 cohorts (n=908,390): 13% lower CVD
-      mortality, 16% lower heart disease mortality, 12% lower cancer mortality
-      for highest vs lowest consumption. (https://pubmed.ncbi.nlm.nih.gov/35460393/).
-      Post-MI cohort: 66% reduction in cardiac mortality for 2x/week consumption.
-      Associative evidence; dose-response non-linear.
-    mean: 0.90
-    std: 0.04
-  - outcome: Years of delayed aging
-    evidence: |
-      Flavanols improve vascular function and may protect cognitive function.
-      No epigenetic clock studies. Extrapolated from CVD risk reduction and
-      cognitive benefits. Speculative.
-    mean: 0.5
-    std: 0.7
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Chocolate consumption associated with improved mood in observational
-      studies. Contains theobromine and phenylethylamine. May enhance pleasure
-      via palatability. Small positive effect plausible.
-    mean: 0.3
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Zhao 2022 updated meta-analysis of 21 cohorts (n=908,390): 13% lower CVD
+    mortality, 16% lower heart disease mortality, 12% lower cancer mortality
+    for highest vs lowest consumption. (https://pubmed.ncbi.nlm.nih.gov/35460393/).
+    Post-MI cohort: 66% reduction in cardiac mortality for 2x/week consumption.
+    Associative evidence; dose-response non-linear.
+  mean: 0.90
+  std: 0.04
+- outcome: Years of delayed aging
+  evidence: |
+    Flavanols improve vascular function and may protect cognitive function.
+    No epigenetic clock studies. Extrapolated from CVD risk reduction and
+    cognitive benefits. Speculative.
+  mean: 0.5
+  std: 0.7
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Chocolate consumption associated with improved mood in observational
+    studies. Contains theobromine and phenylethylamine. May enhance pleasure
+    via palatability. Small positive effect plausible.
+  mean: 0.3
+  std: 0.3
+summary: "High-cacao chocolate provides flavanols with cardiovascular benefits. Meta-\n\
+  analysis of 21 cohorts (n=908,390): 13% lower CVD mortality, 16% lower heart\ndisease
+  mortality at highest intake."

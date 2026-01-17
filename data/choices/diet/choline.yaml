@@ -1,34 +1,41 @@
 domain: diet
-name: Choline (adequate intake 425-550mg/day)
-summary: |
-  Essential nutrient for cell membranes, neurotransmitters, and methylation.
-  Deficiency linked to NAFLD and cognitive issues. However, 2024 meta-analysis
-  found HIGHER choline intake associated with increased all-cause and CVD mortality,
-  possibly via TMAO production. Aim for adequate intake from food; supplementation
-  may be harmful. U-shaped risk curve likely.
+name: Choline
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: adequate intake 425-550mg/day. Essential nutrient for
+    cell membranes, neurotransmitters, and methylation.\nDeficiency linked to NAFLD
+    and cognitive issues. However, 2024 meta-analysis\nfound HIGHER choline intake
+    associated with increased all-cause and CVD mortality,\npossibly via TMAO production.
+    Aim for adequate intake from food; supplementation\nmay be harmful. U-shaped risk
+    curve likely."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      2024 dose-response meta-analysis of 6 cohorts (n=482,778): each 100mg/day
-      increase associated with 6% higher all-cause mortality (RR 1.06, 95% CI:
-      1.03-1.10) and 11% higher CVD mortality (RR 1.11, 95% CI: 1.06-1.16).
-      (https://www.sciencedirect.com/science/article/abs/pii/S0271531724001143).
-      TMAO pathway may mediate increased risk. Associative evidence; optimal
-      intake may be adequate (not high) levels.
-    mean: 1.0
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Important for brain health and preventing cognitive decline. Framingham
-      study linked higher choline to better cognitive performance.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC3252552/). May protect against
-      dementia but high intake risks offset benefits. Uncertain net effect.
-    mean: 0.0
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Precursor to acetylcholine; may support memory and cognitive function.
-      Deficiency causes fatigue and cognitive issues. Citicoline shows cognitive
-      benefits in disease states. Effect in healthy individuals unclear.
-    mean: 0.0
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    2024 dose-response meta-analysis of 6 cohorts (n=482,778): each 100mg/day
+    increase associated with 6% higher all-cause mortality (RR 1.06, 95% CI:
+    1.03-1.10) and 11% higher CVD mortality (RR 1.11, 95% CI: 1.06-1.16).
+    (https://www.sciencedirect.com/science/article/abs/pii/S0271531724001143).
+    TMAO pathway may mediate increased risk. Associative evidence; optimal
+    intake may be adequate (not high) levels.
+  mean: 1.0
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Important for brain health and preventing cognitive decline. Framingham
+    study linked higher choline to better cognitive performance.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC3252552/). May protect against
+    dementia but high intake risks offset benefits. Uncertain net effect.
+  mean: 0.0
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Precursor to acetylcholine; may support memory and cognitive function.
+    Deficiency causes fatigue and cognitive issues. Citicoline shows cognitive
+    benefits in disease states. Effect in healthy individuals unclear.
+  mean: 0.0
+  std: 0.3
+summary: Essential nutrient for cell membranes, neurotransmitters, and
+  methylation. Deficiency linked to NAFLD and cognitive issues.

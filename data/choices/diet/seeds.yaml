@@ -1,33 +1,39 @@
 domain: diet
-name: Seeds - Chia/Flax (1-2 tbsp/day)
-summary: |
-  Rich in ALA omega-3, fiber, and lignans. Meta-analysis of chia: reduced TG
-  (-9-13mg/dL), LDL (-5mg/dL), SBP (-3mmHg). Flax: 0-18% LDL reduction in studies.
-  ALA conversion to EPA/DHA is low (5-8% EPA, 0.5% DHA). NHS: highest ALA intake
-  associated with 40% lower sudden cardiac death. Evidence quality moderate;
-  direct mortality data limited.
+name: Seeds - Chia/Flax
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 1-2 tbsp/day. Rich in ALA omega-3, fiber, and lignans.
+    Meta-analysis of chia: reduced TG\n(-9-13mg/dL), LDL (-5mg/dL), SBP (-3mmHg).
+    Flax: 0-18% LDL reduction in studies.\nALA conversion to EPA/DHA is low (5-8%
+    EPA, 0.5% DHA). NHS: highest ALA intake\nassociated with 40% lower sudden cardiac
+    death. Evidence quality moderate;\ndirect mortality data limited."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No direct mortality RCTs. Nurses' Health Study: highest ALA intake
-      associated with 40% lower sudden cardiac death. Chinese cohort: highest
-      ALA intake 17% lower CVD mortality.
-      (https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/).
-      Meta-analysis of chia: reduced TG, LDL, SBP.
-      (https://www.sciencedirect.com/science/article/abs/pii/S1098882324001011).
-      Associative evidence.
-    mean: 0.92
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      High fiber content supports gut health and may reduce inflammation.
-      Lignans (flax) have antioxidant properties. No epigenetic clock studies.
-      Moderate confidence.
-    mean: 0.4
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      High fiber may improve digestion and regularity. Omega-3s support brain
-      health. Limited direct mood data. Small positive effect plausible.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No direct mortality RCTs. Nurses' Health Study: highest ALA intake
+    associated with 40% lower sudden cardiac death. Chinese cohort: highest
+    ALA intake 17% lower CVD mortality.
+    (https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/).
+    Meta-analysis of chia: reduced TG, LDL, SBP.
+    (https://www.sciencedirect.com/science/article/abs/pii/S1098882324001011).
+    Associative evidence.
+  mean: 0.92
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    High fiber content supports gut health and may reduce inflammation.
+    Lignans (flax) have antioxidant properties. No epigenetic clock studies.
+    Moderate confidence.
+  mean: 0.4
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    High fiber may improve digestion and regularity. Omega-3s support brain
+    health. Limited direct mood data. Small positive effect plausible.
+  mean: 0.1
+  std: 0.3
+summary: "Rich in ALA omega-3, fiber, and lignans. Meta-analysis of chia: reduced
+  TG\n(-9-13mg/dL), LDL (-5mg/dL), SBP (-3mmHg)."

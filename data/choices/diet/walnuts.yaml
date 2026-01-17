@@ -1,5 +1,11 @@
 domain: diet
 name: Walnuts
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: ''
 effects:
 - outcome: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers
   mean: 0.9

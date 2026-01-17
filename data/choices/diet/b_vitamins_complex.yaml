@@ -1,32 +1,39 @@
 domain: diet
-name: B-Vitamins Complex (B6, B12, Folate)
-summary: |
-  Despite lowering homocysteine (a CVD risk marker), RCTs show NO reduction in
-  cardiovascular events or mortality. Meta-analysis of 24 RCTs (n=57,952) found
-  null effect on MACE, MI, stroke, or death. May benefit stroke prevention
-  marginally. Deficiency should be corrected but supplementation in replete
-  individuals appears ineffective for CVD prevention.
+name: B-Vitamins Complex
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: B6, B12, Folate. Despite lowering homocysteine (a CVD
+    risk marker), RCTs show NO reduction in\ncardiovascular events or mortality. Meta-analysis
+    of 24 RCTs (n=57,952) found\nnull effect on MACE, MI, stroke, or death. May benefit
+    stroke prevention\nmarginally. Deficiency should be corrected but supplementation
+    in replete\nindividuals appears ineffective for CVD prevention."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of 24 RCTs, n=57,952. B vitamins vs placebo: RR 1.01
-      (95% CI: 0.97-1.05) for total mortality. No benefit for MACE, MI, or
-      cardiac death. Causal evidence from RCTs. Huang 2014
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC4169527/). HOPE-2 trial
-      (https://www.nejm.org/doi/full/10.1056/NEJMoa060900).
-    mean: 1.0
-    std: 0.02
-  - outcome: Years of delayed aging
-    evidence: |
-      No evidence that B vitamin supplementation slows aging in replete
-      individuals. Deficiency accelerates cognitive decline. No epigenetic
-      clock data for supplementation.
-    mean: 0.0
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      B12 deficiency causes fatigue and neurological symptoms. Supplementation
-      in deficient individuals improves symptoms. No benefit shown for mood in
-      replete individuals in RCTs.
-    mean: 0.0
-    std: 0.2
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 24 RCTs, n=57,952. B vitamins vs placebo: RR 1.01
+    (95% CI: 0.97-1.05) for total mortality. No benefit for MACE, MI, or
+    cardiac death. Causal evidence from RCTs. Huang 2014
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC4169527/). HOPE-2 trial
+    (https://www.nejm.org/doi/full/10.1056/NEJMoa060900).
+  mean: 1.0
+  std: 0.02
+- outcome: Years of delayed aging
+  evidence: |
+    No evidence that B vitamin supplementation slows aging in replete
+    individuals. Deficiency accelerates cognitive decline. No epigenetic
+    clock data for supplementation.
+  mean: 0.0
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    B12 deficiency causes fatigue and neurological symptoms. Supplementation
+    in deficient individuals improves symptoms. No benefit shown for mood in
+    replete individuals in RCTs.
+  mean: 0.0
+  std: 0.2
+summary: "Despite lowering homocysteine (a CVD risk marker), RCTs show NO reduction
+  in\ncardiovascular events or mortality. Meta-analysis of 24 RCTs (n=57,952) found\n\
+  null effect on MACE, MI, stroke, or death."

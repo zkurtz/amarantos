@@ -1,5 +1,11 @@
 domain: diet
-name: Tomatoes (lycopene)
+name: Tomatoes
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: 'Recommended: lycopene.'
 effects:
 - outcome: Relative risk of prostate cancer; highest vs lowest lycopene intake
     quintile

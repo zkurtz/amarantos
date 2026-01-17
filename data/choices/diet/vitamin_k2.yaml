@@ -1,5 +1,11 @@
 domain: diet
 name: Vitamin K2
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: ''
 effects:
 - outcome: Relative risk of cardiovascular calcification; 90-360mcg/day MK-7 vs
     placebo

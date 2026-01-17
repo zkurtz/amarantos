@@ -1,33 +1,39 @@
 domain: diet
-name: Creatine Monohydrate (3-5g/day)
-summary: |
-  Well-studied ergogenic aid. Meta-analyses show cognitive benefits: improved
-  memory (SMD 0.31) and attention, especially in older adults. Enhances muscle
-  strength and lean mass with exercise. No mortality RCTs. Safe for long-term
-  use (up to 2 years studied). May benefit brain health via enhanced cellular
-  energy.
+name: Creatine Monohydrate
+specification:
+  duration_h: 0.002
+  weekly_freq: 7
+  annual_cost_h: 6
+  annual_cost_usd: 80
+  description: "Recommended: 3-5g/day. Well-studied ergogenic aid. Meta-analyses show
+    cognitive benefits: improved\nmemory (SMD 0.31) and attention, especially in older
+    adults. Enhances muscle\nstrength and lean mass with exercise. No mortality RCTs.
+    Safe for long-term\nuse (up to 2 years studied). May benefit brain health via
+    enhanced cellular\nenergy."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Improves muscle strength and functional capacity in
-      older adults, which is associated with lower mortality risk. May preserve
-      brain function. Indirect evidence only. Extrapolated estimate with high
-      uncertainty.
-    mean: 0.97
-    std: 0.10
-  - outcome: Years of delayed aging
-    evidence: |
-      Supports muscle mass preservation (sarcopenia prevention). 2024 meta-analysis
-      shows cognitive benefits including memory (SMD 0.31).
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/). May protect brain
-      during metabolic stress. No epigenetic clock data. Moderate confidence
-      for functional aging.
-    mean: 0.5
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Enhanced exercise capacity and strength gains may improve physical
-      self-efficacy. Cognitive benefits may improve mental clarity. Some
-      evidence for mood benefits. Small positive effect likely.
-    mean: 0.3
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Improves muscle strength and functional capacity in
+    older adults, which is associated with lower mortality risk. May preserve
+    brain function. Indirect evidence only. Extrapolated estimate with high
+    uncertainty.
+  mean: 0.97
+  std: 0.10
+- outcome: Years of delayed aging
+  evidence: |
+    Supports muscle mass preservation (sarcopenia prevention). 2024 meta-analysis
+    shows cognitive benefits including memory (SMD 0.31).
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/). May protect brain
+    during metabolic stress. No epigenetic clock data. Moderate confidence
+    for functional aging.
+  mean: 0.5
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Enhanced exercise capacity and strength gains may improve physical
+    self-efficacy. Cognitive benefits may improve mental clarity. Some
+    evidence for mood benefits. Small positive effect likely.
+  mean: 0.3
+  std: 0.3
+summary: "Well-studied ergogenic aid. Meta-analyses show cognitive benefits: improved\n\
+  memory (SMD 0.31) and attention, especially in older adults."

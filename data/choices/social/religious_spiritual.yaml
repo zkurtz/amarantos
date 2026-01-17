@@ -1,33 +1,40 @@
 domain: social
-name: Religious/Spiritual Practice (regular attendance/engagement)
-summary: |
-  Regular religious service attendance or spiritual practice. Meta-analyses:
-  weekly attendance associated with 20-30% lower mortality. Mechanisms include
-  social support, health behaviors (less smoking/drinking), coping resources,
-  and community. Benefits may be largely social rather than spiritual per se.
-  Evidence quality moderate; confounding and selection effects possible.
+name: Religious/Spiritual Practice
+specification:
+  duration_h: 1.5
+  weekly_freq: 1
+  annual_cost_h: 100
+  annual_cost_usd: 200
+  description: "Recommended: regular attendance/engagement. Regular religious service
+    attendance or spiritual practice. Meta-analyses:\nweekly attendance associated
+    with 20-30% lower mortality. Mechanisms include\nsocial support, health behaviors
+    (less smoking/drinking), coping resources,\nand community. Benefits may be largely
+    social rather than spiritual per se.\nEvidence quality moderate; confounding and
+    selection effects possible."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of 42 studies (n=125,826): regular religious attendance
-      HR 0.82 for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/10816119/).
-      Nurses Health Study (n=74,534): weekly attendance HR 0.67 over 16 years.
-      (https://pubmed.ncbi.nlm.nih.gov/27479346/). Benefits confounded with
-      social connection, health behaviors, education.
-    mean: 0.82
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Regular attendees have lower inflammation markers and better health
-      behaviors. Social support may buffer against chronic stress. No
-      direct epigenetic studies. Moderate indirect evidence.
-    mean: 0.6
-    std: 0.7
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Religious/spiritual individuals report higher life satisfaction and
-      meaning in surveys. Provides community, coping resources, and
-      existential framework. Benefits may depend on fit with beliefs.
-      Moderate positive effect.
-    mean: 0.5
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 42 studies (n=125,826): regular religious attendance
+    HR 0.82 for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/10816119/).
+    Nurses Health Study (n=74,534): weekly attendance HR 0.67 over 16 years.
+    (https://pubmed.ncbi.nlm.nih.gov/27479346/). Benefits confounded with
+    social connection, health behaviors, education.
+  mean: 0.82
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Regular attendees have lower inflammation markers and better health
+    behaviors. Social support may buffer against chronic stress. No
+    direct epigenetic studies. Moderate indirect evidence.
+  mean: 0.6
+  std: 0.7
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Religious/spiritual individuals report higher life satisfaction and
+    meaning in surveys. Provides community, coping resources, and
+    existential framework. Benefits may depend on fit with beliefs.
+    Moderate positive effect.
+  mean: 0.5
+  std: 0.3
+summary: "Regular religious service attendance or spiritual practice. Meta-analyses:\n\
+  weekly attendance associated with 20-30% lower mortality."

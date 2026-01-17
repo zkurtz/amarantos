@@ -1,32 +1,38 @@
 domain: pharmaceutical
-name: Statins (primary prevention in elevated risk)
-summary: |
-  HMG-CoA reductase inhibitors for cholesterol reduction. Strong evidence for
-  secondary prevention. Primary prevention: meta-analyses show 14% all-cause
-  mortality reduction in elevated CVD risk. Benefits depend on baseline risk.
-  Side effects: myalgias (mostly nocebo), rare rhabdomyolysis. Evidence quality
-  high; among best-studied medications.
+name: Statins
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 200
+  description: "Recommended: primary prevention in elevated risk. HMG-CoA reductase
+    inhibitors for cholesterol reduction. Strong evidence for\nsecondary prevention.
+    Primary prevention: meta-analyses show 14% all-cause\nmortality reduction in elevated
+    CVD risk. Benefits depend on baseline risk.\nSide effects: myalgias (mostly nocebo),
+    rare rhabdomyolysis. Evidence quality\nhigh; among best-studied medications."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      CTT meta-analysis (26 trials, n=170,000): per 1 mmol/L LDL reduction,
-      10% lower all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/22607822/).
-      Primary prevention meta-analysis: HR 0.86 for all-cause mortality in
-      elevated risk individuals. (https://pubmed.ncbi.nlm.nih.gov/22368587/).
-      Benefits proportional to baseline CVD risk. High-quality causal evidence.
-    mean: 0.88
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Statins reduce vascular aging and atherosclerosis progression.
-      Anti-inflammatory effects (reduced CRP). No direct biological aging
-      data. Benefits primarily through CVD risk reduction.
-    mean: 0.4
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Myalgia reported by 5-10% but largely nocebo effect in blinded trials
-      (same rate as placebo). Most people tolerate well. Daily pill burden.
-      Generally neutral for wellbeing with appropriate patient selection.
-    mean: 0.0
-    std: 0.2
+- outcome: Relative mortality risk
+  evidence: |
+    CTT meta-analysis (26 trials, n=170,000): per 1 mmol/L LDL reduction,
+    10% lower all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/22607822/).
+    Primary prevention meta-analysis: HR 0.86 for all-cause mortality in
+    elevated risk individuals. (https://pubmed.ncbi.nlm.nih.gov/22368587/).
+    Benefits proportional to baseline CVD risk. High-quality causal evidence.
+  mean: 0.88
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Statins reduce vascular aging and atherosclerosis progression.
+    Anti-inflammatory effects (reduced CRP). No direct biological aging
+    data. Benefits primarily through CVD risk reduction.
+  mean: 0.4
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Myalgia reported by 5-10% but largely nocebo effect in blinded trials
+    (same rate as placebo). Most people tolerate well. Daily pill burden.
+    Generally neutral for wellbeing with appropriate patient selection.
+  mean: 0.0
+  std: 0.2
+summary: "HMG-CoA reductase inhibitors for cholesterol reduction. Strong evidence
+  for\nsecondary prevention."

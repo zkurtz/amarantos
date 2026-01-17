@@ -1,33 +1,39 @@
 domain: diet
-name: Potassium (3500-4700mg/day from food)
-summary: |
-  Essential mineral; most adults under-consume. Meta-analysis: reduces SBP by
-  3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP). 24%
-  lower stroke risk with higher intake. U-shaped relationship suggests optimal
-  range; excessive intake may increase BP. WHO recommends ≥3.5g/day. Dietary
-  sources preferred. Evidence quality high.
+name: Potassium
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 3500-4700mg/day from food. Essential mineral; most adults
+    under-consume. Meta-analysis: reduces SBP by\n3.5mmHg, DBP by 2mmHg; greater effect
+    in hypertensives (-7mmHg SBP). 24%\nlower stroke risk with higher intake. U-shaped
+    relationship suggests optimal\nrange; excessive intake may increase BP. WHO recommends
+    ≥3.5g/day. Dietary\nsources preferred. Evidence quality high."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Systematic review and meta-analysis: higher potassium intake associated
-      with 24% lower stroke risk (RR 0.76). CVD risk reduction NS in some
-      analyses. (https://pubmed.ncbi.nlm.nih.gov/23558164/). Salt substitute
-      trial showed reduced CV mortality with potassium-enriched salt. U-shaped
-      dose-response suggests optimal intake range.
-      (https://www.ahajournals.org/doi/10.1161/JAHA.119.015719). Dietary
-      sources preferred.
-    mean: 0.92
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Supports vascular function and may protect against cognitive decline
-      via BP reduction. No epigenetic clock studies. Associated with healthy
-      dietary patterns. Speculative.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Deficiency causes fatigue and muscle weakness. Adequate intake supports
-      muscle function and energy. Limited direct mood data.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Systematic review and meta-analysis: higher potassium intake associated
+    with 24% lower stroke risk (RR 0.76). CVD risk reduction NS in some
+    analyses. (https://pubmed.ncbi.nlm.nih.gov/23558164/). Salt substitute
+    trial showed reduced CV mortality with potassium-enriched salt. U-shaped
+    dose-response suggests optimal intake range.
+    (https://www.ahajournals.org/doi/10.1161/JAHA.119.015719). Dietary
+    sources preferred.
+  mean: 0.92
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Supports vascular function and may protect against cognitive decline
+    via BP reduction. No epigenetic clock studies. Associated with healthy
+    dietary patterns. Speculative.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Deficiency causes fatigue and muscle weakness. Adequate intake supports
+    muscle function and energy. Limited direct mood data.
+  mean: 0.1
+  std: 0.3
+summary: "Essential mineral; most adults under-consume. Meta-analysis: reduces SBP
+  by\n3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP)."

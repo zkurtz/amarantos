@@ -1,7 +1,33 @@
 domain: diet
-name: Calcium (adequate)
+name: Calcium (700-1000mg/day)
+summary: |
+  Essential mineral for bone health. Supplementation controversial for CVD: some
+  meta-analyses show 15% increased CVD risk (Kim 2021), others show null effect.
+  Dietary calcium preferred over supplements. High doses (>1400mg/day) may
+  increase CVD risk. Evidence mixed; no mortality benefit from supplementation
+  in replete individuals.
 effects:
-- outcome: Relative risk of all-cause mortality; 700-1000mg/day optimal;
-    >1400mg/day may increase CVD risk
-  mean: 0.98
-  std: 0.0408
+  - outcome: Relative mortality risk
+    evidence: |
+      Kim 2021 meta-analysis of 13 RCTs (n=43,178): calcium supplements increased
+      CVD risk (RR 1.15, 95% CI: 1.06-1.25) and CHD risk (RR 1.16, 95% CI: 1.05-1.28).
+      (https://pubmed.ncbi.nlm.nih.gov/33530332/). However, 2023 Calcium Trialists
+      meta-analysis of 11 trials found no significant association with MI, stroke,
+      or mortality. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10111600/).
+      Conflicting causal evidence; centered at null with uncertainty.
+    mean: 1.0
+    std: 0.06
+  - outcome: Years of delayed aging
+    evidence: |
+      No epigenetic clock studies. Adequate calcium important for bone health
+      and preventing osteoporosis-related morbidity. No evidence for anti-aging
+      effects beyond deficiency correction. Speculative.
+    mean: 0.0
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      No direct mood RCTs. Deficiency may cause muscle cramps and fatigue.
+      Supplementation in replete individuals unlikely to affect wellbeing.
+      No evidence for effect.
+    mean: 0.0
+    std: 0.2

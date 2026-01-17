@@ -1,7 +1,32 @@
 domain: diet
-name: Ginger
+name: Ginger (1-3g/day)
+summary: |
+  Root with anti-inflammatory and antioxidant properties. Meta-analyses show
+  significant reduction in CRP, TNF-α, and oxidative stress markers. Improves
+  lipid profile and glycemic control. Effects more pronounced with >80 days
+  supplementation. No mortality RCTs. Evidence quality moderate for inflammatory
+  markers; high heterogeneity in studies.
 effects:
-- outcome: Relative risk of inflammatory markers; 1-3g/day; mortality
-    extrapolated from anti-inflammatory effects
-  mean: 0.96
-  std: 0.0306
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs. Meta-analysis shows ginger reduces CRP, TNF-α, and
+      IL-6 significantly. (https://pubmed.ncbi.nlm.nih.gov/32763761/). Umbrella
+      review confirms benefits for inflammatory indices, BP, lipids, and
+      glycemic control. (https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1619655/full).
+      Theoretical CVD benefit via inflammation reduction. Extrapolated estimate.
+    mean: 0.96
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      Reduces inflammatory markers associated with inflammaging. Antioxidant
+      properties. No epigenetic clock studies. Limited human aging data.
+      Speculative.
+    mean: 0.2
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Effective for nausea and may improve digestion. Limited mood data.
+      Anti-inflammatory effects may reduce chronic discomfort. Small positive
+      effect plausible.
+    mean: 0.1
+    std: 0.3

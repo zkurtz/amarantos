@@ -1,6 +1,33 @@
 domain: diet
-name: Fiber (dietary)
+name: Dietary Fiber (25-30g/day)
+summary: |
+  Among the most evidence-backed dietary interventions. 2023 meta-analysis of
+  64 studies (n=3.5M): 23% lower all-cause mortality, 26% lower CVD mortality,
+  22% lower cancer mortality for highest intake. Insoluble fiber and whole grain
+  sources most effective. Dose-response steeper below 15g/day. Evidence quality
+  high.
 effects:
-- outcome: Hazard ratio for all-cause mortality; per 10g/day increase in intake
-  mean: 0.85
-  std: 0.0357
+  - outcome: Relative mortality risk
+    evidence: |
+      2023 meta-analysis of 64 studies (n=3,512,828): highest vs lowest fiber
+      intake: HR 0.77 for all-cause, HR 0.74 for CVD, HR 0.78 for cancer
+      mortality. (https://pubmed.ncbi.nlm.nih.gov/38011755/). Dose-response
+      meta-analysis: per 10g/day increase: RR 0.90 for all-cause, 0.87 for CVD.
+      (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1153165/full).
+      Fiber from nuts/seeds: 43% lower CVD mortality. Associative evidence;
+      highly consistent.
+    mean: 0.82
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      Supports gut microbiome health. May reduce inflammation and improve
+      metabolic markers. Associated with healthy aging patterns. No epigenetic
+      clock studies. Strong biological plausibility.
+    mean: 1.0
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Improved gut health may enhance mood via gut-brain axis. Reduces
+      constipation and GI discomfort. Indirect evidence only.
+    mean: 0.1
+    std: 0.3

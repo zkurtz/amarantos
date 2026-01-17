@@ -1,7 +1,31 @@
 domain: diet
-name: Rhodiola Rosea
+name: Rhodiola Rosea (200-600mg/day)
+summary: |
+  Adaptogenic herb approved by EMA for stress-related symptoms. Systematic review
+  of 11 RCTs suggests benefits for physical/mental fatigue, but methodological
+  flaws limit conclusions. May improve attention and reduce burnout. Effects via
+  modulating neurotransmitters (dopamine, serotonin). No mortality data. Evidence
+  quality low; heterogeneous study designs.
 effects:
-- outcome: Relative reduction in fatigue/stress scores; 200-600mg/day
-    standardized extract; no mortality data
-  mean: 0.98
-  std: 0.0306
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality or cardiovascular studies. Adaptogenic mechanisms may
+      reduce stress-related health impacts indirectly. Purely speculative
+      for mortality effect.
+    mean: 1.0
+    std: 0.10
+  - outcome: Years of delayed aging
+    evidence: |
+      Anti-inflammatory and antioxidant properties. May protect against
+      stress-induced aging. No human longevity studies. Speculative.
+    mean: 0.0
+    std: 0.7
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Systematic review of 11 RCTs suggests benefits for fatigue and stress.
+      (https://pmc.ncbi.nlm.nih.gov/articles/PMC3541197/). RCT: improved
+      attention and reduced burnout scores.
+      (https://pmc.ncbi.nlm.nih.gov/articles/PMC9228580/). Methodological
+      limitations. Moderate positive effect possible.
+    mean: 0.4
+    std: 0.4

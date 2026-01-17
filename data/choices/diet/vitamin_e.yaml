@@ -1,7 +1,32 @@
 domain: diet
-name: Vitamin E
+name: Vitamin E (avoid high-dose supplementation)
+summary: |
+  Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found
+  high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality.
+  HOPE trial: no CVD prevention, may increase heart failure. Large RCTs show
+  no benefit for cancer or CVD. Dietary sources (nuts, seeds, oils) sufficient
+  for most. Supplementation not recommended. Evidence quality high for harm.
 effects:
-- outcome: Relative risk of all-cause mortality; 400IU+/day supplementation may
-    increase risk; dose-dependent
-  mean: 0.99
-  std: 0.0357
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis of 19 RCTs (n=135,967): high-dose (≥400 IU/day) associated
+      with increased all-cause mortality in dose-dependent manner.
+      (https://www.acpjournals.org/doi/10.7326/0003-4819-142-1-200501040-00110).
+      HOPE trial: no CVD benefit, may increase heart failure risk.
+      (https://www.nejm.org/doi/full/10.1056/NEJM200001203420302). Do not
+      supplement with high doses.
+    mean: 1.02
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      Antioxidant effects not translated to human longevity benefits. RCTs
+      show no anti-aging effects. May interfere with beneficial oxidative
+      signaling. No benefit from supplementation.
+    mean: 0.0
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      No mood benefits demonstrated. High doses may cause GI distress. No
+      evidence for positive effect; possible negative.
+    mean: 0.0
+    std: 0.2

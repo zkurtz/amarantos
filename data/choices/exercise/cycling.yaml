@@ -1,12 +1,35 @@
 domain: exercise
-name: Cycling
+name: Cycling (30+ min/day)
+summary: |
+  Among the best-studied exercises for mortality reduction. Meta-analysis of
+  cohorts: 23% lower all-cause mortality, 24% lower CVD mortality with regular
+  cycling. UK Biobank: 20% lower all-cause mortality vs car commuters. Dose-
+  response linear for all-cause; U-shaped for CVD (~130min/week optimal). Low
+  joint impact. Benefits independent of air pollution exposure. Evidence quality
+  high.
 effects:
-- outcome: Hazard ratio for all-cause mortality; regular cycling (commuting or recreational,
-    30+ min/day) vs non-cyclists
-  mean: 0.76
-  std: 0.0357
-literature:
-- 'Meta-analysis: Regular cycling associated with 24% lower all-cause mortality
-    (HR: 0.76, 95% CI: 0.69-0.83)'
-- 'Oja et al. BMJ 2016 - Active commuting and mortality'
-- 'Kelly et al. Br J Sports Med 2014 - Cycling and cardiovascular health'
+  - outcome: Relative mortality risk
+    evidence: |
+      2021 dose-response meta-analysis: RR 0.77 (95% CI: 0.67-0.88) for highest
+      vs lowest cycling. 9% reduction per 5 MET-h/week increase.
+      (https://pubmed.ncbi.nlm.nih.gov/33774807/). UK Census cohort: HR 0.80
+      for all-cause, HR 0.76 for CVD mortality in bike commuters.
+      (https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext).
+      Associative evidence; highly consistent.
+    mean: 0.78
+    std: 0.04
+  - outcome: Years of delayed aging
+    evidence: |
+      Cardiorespiratory fitness gain associated with biological age reduction.
+      Low-impact preserves joint health. Regular cyclists show slower functional
+      decline. No epigenetic clock studies specific to cycling. Strong
+      biological plausibility.
+    mean: 1.5
+    std: 0.7
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Outdoor cycling associated with improved mood and stress reduction.
+      Active commuting associated with better mental health outcomes. May
+      enhance social connections. Moderate positive effect likely.
+    mean: 0.4
+    std: 0.3

@@ -1,7 +1,33 @@
 domain: diet
-name: Iron (adequate; not excess)
+name: Iron (adequate, not excess)
+summary: |
+  Essential mineral; both deficiency and excess harmful. In heart failure with
+  iron deficiency, IV iron reduces hospitalizations but not mortality. Excess
+  iron (ferritin >300) associated with increased CVD and cancer risk via
+  oxidative stress. Heme iron intake associated with 7% increased CVD risk per
+  1mg/day. Optimal: maintain adequate without excess.
 effects:
-- outcome: Hazard ratio for all-cause mortality; adequate vs deficient; excess
-    iron (ferritin >300) increases risk
-  mean: 0.98
-  std: 0.051
+  - outcome: Relative mortality risk
+    evidence: |
+      2025 Nature Medicine meta-analysis of 6 RCTs (n=7,175) in HF: IV iron
+      reduced HF hospitalizations (RR 0.72) but not mortality (RR 0.90 NS).
+      (https://www.nature.com/articles/s41591-025-03671-1). Heme iron dose-
+      response meta-analysis: RR 1.07 per 1mg/day for CVD.
+      (https://pubmed.ncbi.nlm.nih.gov/25439662/). Excess iron increases
+      cancer risk. Centered at null; both deficiency and excess harmful.
+    mean: 1.0
+    std: 0.05
+  - outcome: Years of delayed aging
+    evidence: |
+      Iron accumulation associated with accelerated aging in animal models.
+      Excess iron causes oxidative damage. No benefit from supplementation
+      in replete individuals. Speculative.
+    mean: 0.0
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Deficiency causes fatigue and cognitive impairment. Supplementation in
+      deficient individuals improves energy. No benefit in replete individuals.
+      Effect depends on baseline status.
+    mean: 0.0
+    std: 0.3

@@ -1,12 +1,34 @@
 domain: exercise
-name: NEAT (Non-Exercise Activity Thermogenesis)
+name: NEAT (standing, fidgeting, daily movement)
+summary: |
+  Non-exercise activity thermogenesis: energy from daily activities excluding
+  formal exercise. Standing increases expenditure 10-20% above sitting; walking
+  100-200%. NEAT ranges from 15% to 50% of total daily expenditure. Sedentary
+  behavior independently associated with CVD mortality even with exercise.
+  Standing/walking improves insulin sensitivity better than equivalent cycling.
+  Evidence quality moderate.
 effects:
-- outcome: Hazard ratio for metabolic syndrome; high NEAT (standing, fidgeting,
-    daily movement) vs low NEAT
-  mean: 0.78
-  std: 0.0459
-literature:
-- 'Meta-analysis: High non-exercise daily activity reduces metabolic syndrome risk
-    by ~22% (HR: 0.78, 95% CI: 0.69-0.87)'
-- 'Levine JA. Diabetes 2007 - NEAT and obesity'
-- 'Standing desks, taking stairs, active commuting, household chores'
+  - outcome: Relative mortality risk
+    evidence: |
+      Canadian cohort: dose-response between sitting time and all-cause/CVD
+      mortality independent of exercise. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/).
+      Standing/walking of longer duration improves insulin action and lipids
+      more than equivalent-energy cycling.
+      (https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003).
+      Reducing sedentary time associated with reduced metabolic syndrome, CVD
+      events, and mortality. Associative evidence.
+    mean: 0.82
+    std: 0.06
+  - outcome: Years of delayed aging
+    evidence: |
+      Prolonged sitting associated with accelerated biological aging. Breaking
+      up sitting time improves metabolic markers. May support joint mobility
+      and reduce sarcopenia risk. Moderate confidence.
+    mean: 0.5
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Standing desks associated with improved energy and reduced back pain.
+      Regular movement breaks improve alertness. Small positive effect plausible.
+    mean: 0.2
+    std: 0.3

@@ -27,6 +27,7 @@ dependencies = [
 ]
 
 urls.Repository = "https://github.com/zkurtz/amarantos"
+scripts.amarantos = "amarantos.cli:cli"
 
 [dependency-groups]
 dev = [

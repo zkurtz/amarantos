@@ -10,16 +10,16 @@ Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντ
 
 ```bash
 # List all wellness interventions
-python -m amarantos.list
+amarantos list
 
 # List interventions filtered by domain
-python -m amarantos.list --domain exercise
+amarantos list --domain exercise
 
 # Rank choices by 30th percentile lifespan impact
-python -m amarantos.rank
+amarantos rank
 
 # Show only top/bottom 5
-python -m amarantos.rank -n 5
+amarantos rank -n 5
 ```
 
 ## Awesome Longevity Resources

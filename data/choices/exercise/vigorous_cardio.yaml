@@ -1,0 +1,11 @@
+domain: exercise
+name: Vigorous Cardio (75 min/week)
+effects:
+- outcome: Hazard ratio for cardiovascular mortality; 75+ min/week vigorous-intensity
+    aerobic activity vs inactive
+  mean: 0.65
+  std: 0.0408
+literature:
+- 'Meta-analysis: Vigorous aerobic exercise associated with ~35% reduction in CV
+    mortality (HR: 0.65, 95% CI: 0.57-0.73)'
+- 'Lear et al. Lancet 2017 - PURE study on physical activity'

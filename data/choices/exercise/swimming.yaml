@@ -1,0 +1,12 @@
+domain: exercise
+name: Swimming
+effects:
+- outcome: Hazard ratio for all-cause mortality; regular swimming (2+ times/week)
+    vs non-swimmers
+  mean: 0.72
+  std: 0.0408
+literature:
+- 'Meta-analysis: Regular swimming associated with 28% lower all-cause mortality
+    (HR: 0.72, 95% CI: 0.64-0.80)'
+- 'Zhao et al. Int J Aquatic Res Educ 2014 - Swimming and mortality'
+- 'Low-impact cardio suitable for all ages and joint conditions'

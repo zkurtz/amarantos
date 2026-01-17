@@ -37,6 +37,9 @@ dev = [
   "ty==0.0.4",
 ]
 
+[tool.hatch.build.targets.wheel]
+packages = [ "amarantos" ]
+
 [tool.uv]
 package = true
 

@@ -1,0 +1,11 @@
+domain: exercise
+name: Walking (10k steps/day)
+effects:
+- outcome: Hazard ratio for all-cause mortality; 10,000+ steps/day vs <4,000 steps/day
+  mean: 0.54
+  std: 0.0408
+literature:
+- 'Meta-analysis: 10,000 steps/day associated with ~46% lower mortality (HR: 0.54,
+    95% CI: 0.46-0.62)'
+- 'Paluch et al. JAMA 2022 - Daily steps and all-cause mortality'
+- 'Optimal benefits plateau around 8,000-10,000 steps/day for adults <60 years'

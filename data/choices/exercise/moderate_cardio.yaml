@@ -1,0 +1,11 @@
+domain: exercise
+name: Moderate Cardio (150 min/week)
+effects:
+- outcome: Hazard ratio for all-cause mortality; 150+ min/week moderate-intensity
+    aerobic activity vs inactive
+  mean: 0.69
+  std: 0.0357
+literature:
+- 'Meta-analysis: Moderate-intensity aerobic exercise reduces all-cause mortality
+    by ~31% (HR: 0.69, 95% CI: 0.63-0.75)'
+- 'WHO Physical Activity Guidelines 2020'

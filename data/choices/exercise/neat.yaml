@@ -1,0 +1,12 @@
+domain: exercise
+name: NEAT (Non-Exercise Activity Thermogenesis)
+effects:
+- outcome: Hazard ratio for metabolic syndrome; high NEAT (standing, fidgeting,
+    daily movement) vs low NEAT
+  mean: 0.78
+  std: 0.0459
+literature:
+- 'Meta-analysis: High non-exercise daily activity reduces metabolic syndrome risk
+    by ~22% (HR: 0.78, 95% CI: 0.69-0.87)'
+- 'Levine JA. Diabetes 2007 - NEAT and obesity'
+- 'Standing desks, taking stairs, active commuting, household chores'

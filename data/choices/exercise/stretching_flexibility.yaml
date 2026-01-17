@@ -1,0 +1,12 @@
+domain: exercise
+name: Stretching/Flexibility Training
+effects:
+- outcome: Hazard ratio for all-cause mortality; regular flexibility training (3+
+    sessions/week) vs none
+  mean: 0.87
+  std: 0.0408
+literature:
+- 'Observational study: Regular stretching/flexibility training associated with
+    13% lower mortality (HR: 0.87, 95% CI: 0.79-0.95)'
+- 'Araújo et al. Scand J Med Sci Sports 2015 - Flexibility and mortality'
+- 'Includes yoga, tai chi, and dedicated stretching routines'

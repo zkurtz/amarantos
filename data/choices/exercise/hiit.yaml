@@ -1,0 +1,11 @@
+domain: exercise
+name: HIIT (High-Intensity Interval Training)
+effects:
+- outcome: Relative risk for cardiovascular disease events; regular HIIT vs sedentary
+  mean: 0.71
+  std: 0.0408
+literature:
+- 'Meta-analysis: HIIT reduces cardiovascular disease risk by ~29% (RR: 0.71, 95%
+    CI: 0.63-0.79)'
+- 'Weston et al. Br J Sports Med 2014 - HIIT for cardiometabolic health'
+- 'Typically 20-30 min sessions, 2-3x/week with alternating high/low intensity intervals'

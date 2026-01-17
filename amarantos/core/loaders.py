@@ -1,6 +1,6 @@
 """Load choice data from YAML files."""
 
-import click
+from click import ClickException, confirm, echo, prompt
 
 from amarantos.core.schemas import CHOICES_DIR, Choice
 
@@ -19,7 +19,7 @@ def find_choice_by_name(name: str) -> Choice:
     """Find a choice by name.
 
     Exact matches (case-insensitive) are returned directly. For partial matches,
-    prompts the user to confirm. Raises click.ClickException if no match found.
+    prompts the user to confirm. Raises ClickException if no match found.
     """
     choices = load_all_choices()
     name_lower = name.lower()
@@ -40,20 +40,20 @@ def find_choice_by_name(name: str) -> Choice:
             candidates.append(choice)
 
     if not candidates:
-        raise click.ClickException(f"No choice found matching '{name}'")
+        raise ClickException(f"No choice found matching '{name}'")
 
     if len(candidates) == 1:
-        if click.confirm(f"Did you mean '{candidates[0].name}'?"):
+        if confirm(f"Did you mean '{candidates[0].name}'?"):
             return candidates[0]
-        raise click.ClickException(f"No choice found matching '{name}'")
+        raise ClickException(f"No choice found matching '{name}'")
 
     # Multiple candidates - let user pick
-    click.echo("Did you mean one of these?")
+    echo("Did you mean one of these?")
     for i, candidate in enumerate(candidates, 1):
-        click.echo(f"  {i}. {candidate.name}")
+        echo(f"  {i}. {candidate.name}")
 
-    selection = click.prompt("Enter number", type=int, default=1)
+    selection = prompt("Enter number", type=int, default=1)
     if 1 <= selection <= len(candidates):
         return candidates[selection - 1]
 
-    raise click.ClickException("Invalid selection")
+    raise ClickException("Invalid selection")

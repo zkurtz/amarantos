@@ -7,6 +7,7 @@ specification:
   annual_cost_usd: 100
   description: ''
 effects:
-- outcome: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers
+- outcome: Relative mortality risk
   mean: 0.9
   std: 0.0306
+  evidence: Hazard ratio for all-cause mortality; 1oz (28g)/day vs non-consumers

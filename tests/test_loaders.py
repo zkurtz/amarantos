@@ -1,4 +1,5 @@
 from amarantos.core.loaders import load_all_choices
+from amarantos.core.schemas import Outcome
 
 
 def test_load_all_choices():
@@ -42,3 +43,22 @@ def test_load_all_choices_by_domain():
         assert (
             choice.domain == test_domain
         ), f"Choice {choice.name} has domain {choice.domain}, expected '{test_domain}'"
+
+
+def test_effect_outcome_is_enum():
+    """Test that effect.outcome is an Outcome enum, not a string.
+
+    This is a regression test for a bug where YAML loading returned strings
+    instead of Outcome enums, causing `effect.outcome.value` to fail.
+    """
+    choices = load_all_choices()
+    assert len(choices) > 0
+
+    for choice in choices:
+        for effect in choice.effects:
+            # Verify outcome is an Outcome enum instance
+            assert isinstance(effect.outcome, Outcome), (
+                f"Effect outcome in {choice.name} is {type(effect.outcome).__name__}, " f"expected Outcome enum"
+            )
+            # Verify .value works (this was the original bug)
+            assert isinstance(effect.outcome.value, str)

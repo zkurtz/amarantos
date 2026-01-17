@@ -25,10 +25,37 @@ def percentile_30(effect: Effect) -> float:
     return effect.mean + Z_30 * effect.std
 
 
-@click.group()
-def main() -> None:
+@click.group(invoke_without_command=True)
+@click.option(
+    "-n",
+    "--num-top-bottom",
+    type=int,
+    default=None,
+    help="Show only top N and bottom N choices",
+)
+@click.option(
+    "-d",
+    "--domain",
+    type=str,
+    default=None,
+    help="Filter by domain (e.g., 'diet', 'exercise')",
+)
+@click.option(
+    "--maxd",
+    type=int,
+    default=None,
+    help="Show only top N choices from each domain",
+)
+@click.pass_context
+def main(
+    ctx: click.Context,
+    num_top_bottom: int | None,
+    domain: str | None,
+    maxd: int | None,
+) -> None:
     """Amarantos: Rank and explore wellness choices."""
-    pass
+    if ctx.invoked_subcommand is None:
+        ctx.invoke(rank, num_top_bottom=num_top_bottom, domain=domain, maxd=maxd)
 
 
 @main.command()

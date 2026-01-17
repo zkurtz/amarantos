@@ -131,7 +131,7 @@ def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> No
             echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
 
     echo()
-    echo("P30: conservative (30th %ile) estimate of delayed aging, based on uncertainty in the evidence")
+    echo("P30: conservative (30th percentile) estimate of the *average* years of life extension")
     echo("$/year, hours/year: annual cost of the intervention")
 
 

@@ -28,27 +28,22 @@ amarantos describe cycling
 ### Example
 
 ```
-$ amarantos -n 6 --maxd 2
+$ amarantos --maxd 1
 
 Choice                                    P30 (years)       $/year   hours/year
 ------------------------------------------------------------------------------
-TOP 6:
 Moderate Cardio                                 +1.63          200          120
-Vigorous Cardio                                 +1.63          200          100
 Caloric Restriction                             +1.08         -500            0
 Strong Social Connections                       +1.08          500          350
 Finnish Sauna                                   +1.08         1200          150
 Almonds                                         +0.98          100          100
-
-BOTTOM 6:
+Rapamycin                                       +0.87          500            2
+Optimal Sleep Duration                          +0.69            0            0
+Cognitive Training                              +0.19          200          100
 Nature Exposure                                 +0.14          100          100
-Air Quality Optimization                        +0.09          300            5
-Infrared Sauna                                  +0.08          800          120
 Alcohol Abstinence or Minimal Intake            +0.04         -500            0
-Optimized Caffeine Timing                       +0.04            0            0
-Meditation Practice                             -0.01          100          130
 
-P30: conservative (30th %ile) estimate of delayed aging, based on uncertainty in the evidence
+P30: conservative (30th percentile) estimate of the *average* years of life extension
 $/year, hours/year: annual cost of the intervention
 ```
 

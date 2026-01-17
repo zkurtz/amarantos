@@ -87,23 +87,25 @@ def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> No
 
     # Header
     echo()
-    echo(f"{'Choice':<40} {'P30 (years)':>12} {'$/year':>10} {'h/year':>10}")
-    echo("-" * 74)
+    echo(f"{'Choice':<40} {'P30 (years)':>12} {'$/year':>12} {'hours/year':>12}")
+    echo("-" * 78)
 
     if num_top_bottom is None:
         for name, _, p30, cost_usd, cost_h in results:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
+            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
     else:
         echo(f"TOP {num_top_bottom}:")
         for name, _, p30, cost_usd, cost_h in results[:num_top_bottom]:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
+            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
 
         echo()
         echo(f"BOTTOM {num_top_bottom}:")
         for name, _, p30, cost_usd, cost_h in results[-num_top_bottom:]:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>10.0f}")
+            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
 
     echo()
+    echo("P30: conservative (30th %ile) estimate of delayed aging, based on uncertainty in the evidence")
+    echo("$/year, hours/year: annual cost of the intervention")
 
 
 @main.command()

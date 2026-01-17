@@ -4,7 +4,7 @@ requires-python = ">=3.13"
 
 [[package]]
 name = "amarantos"
-version = "0.1.0"
+version = "0.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "attrs" },
@@ -27,7 +27,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "attrs", specifier = ">=25.4.0" },
+    { name = "attrs", specifier = ">=25.4" },
     { name = "click", specifier = ">=8.3.1" },
     { name = "dummio", specifier = ">=1.10.2" },
     { name = "matplotlib", specifier = ">=3.10.8" },

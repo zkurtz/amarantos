@@ -30,6 +30,13 @@ class Outcome(StrEnum):
     SUBJECTIVE_WELLBEING = "Subjective wellbeing - number of just-noticeable differences"
 
 
+def _to_outcome(value: Outcome | str) -> Outcome:
+    """Convert string to Outcome enum."""
+    if isinstance(value, Outcome):
+        return value
+    return Outcome(value)
+
+
 @attrs.frozen
 class Effect:
     """A Gaussian-distributed health effect estimate.
@@ -43,7 +50,7 @@ class Effect:
         std: The standard deviation of the effect estimate.
     """
 
-    outcome: Outcome
+    outcome: Outcome = attrs.field(converter=_to_outcome)
     mean: float
     std: float
     evidence: str = ""

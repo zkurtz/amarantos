@@ -7,7 +7,7 @@ specification:
   annual_cost_usd: 100
   description: ''
 effects:
-- outcome: Relative risk of all-cause mortality; adequate intake (>100mg/day) vs
-    deficient; diminishing returns at high doses
+- outcome: Relative mortality risk
   mean: 0.95
   std: 0.0255
+  evidence: Relative risk of all-cause mortality; adequate intake (>100mg/day) vs deficient; diminishing returns at high doses

@@ -20,75 +20,37 @@ amarantos -n 5
 
 # Show top 3 from each domain
 amarantos --maxd 3
+
+# Describe a specific choice
+amarantos describe cycling
 ```
 
-## Awesome Longevity Resources
+### Example
 
-A curated list of products, tools, and resources for personal wellness and longevity.
+```
+$ amarantos --maxd 1
 
-### Knowledge & Research
+Choice                                    P30 (years)       $/year   hours/year
+------------------------------------------------------------------------------
+Moderate Cardio                                 +1.63          200          120
+Caloric Restriction                             +1.08         -500            0
+Strong Social Connections                       +1.08          500          350
+Finnish Sauna                                   +1.08         1200          150
+Almonds                                         +0.98          100          100
+Rapamycin                                       +0.87          500            2
+Optimal Sleep Duration                          +0.69            0            0
+Cognitive Training                              +0.19          200          100
+Nature Exposure                                 +0.14          100          100
+Alcohol Abstinence or Minimal Intake            +0.04         -500            0
 
-- [Examine.com](https://examine.com/) - Evidence-based supplement and nutrition information
-- [Peter Attia's The Drive](https://peterattiamd.com/) - Longevity-focused podcast and resources
-- [FoundMyFitness](https://www.foundmyfitness.com/) - Dr. Rhonda Patrick's research on nutrition and aging
-- [Fight Aging!](https://www.fightaging.org/) - Long-running blog covering aging research news
-- [LongevityWiki](https://longevitywiki.org/) - Community-curated longevity information
-- [Longevity Protocols](https://longevity-protocols.com/) - Personal project with AI-analyzed interventions (not peer-reviewed)
-- [Bryan Johnson's Blueprint](https://blueprint.bryanjohnson.com/) - Detailed self-experimentation protocol (note: sells supplements)
+P30: conservative (30th percentile) estimate of the *average* years of life extension
+$/year, hours/year: annual cost of the intervention
+```
 
-### Scientific Databases & Journals
+See also: [External Resources](resources/README.md)
 
-- [DrugAge Database](https://genomics.senescence.info/drugs/) - Database of aging-related drugs
-- [Human Ageing Genomic Resources](https://genomics.senescence.info/) - Databases on aging-related genes
-- [GeroScience](https://www.springer.com/journal/11357) - Peer-reviewed aging research journal
-
-### Communities & DAOs
-
-- [r/longevity](https://www.reddit.com/r/longevity/) - Reddit community for longevity research
-- [VitaDAO](https://www.vitadao.com/) - Decentralized collective funding longevity research
-- [LessWrong Longevity Tag](https://www.lesswrong.com/tag/life-extension) - Rationalist perspectives on life extension
-
-### GitHub Repos & Awesome Lists
-
-- [awesome-longevity (atilatech)](https://github.com/atilatech/awesome-longevity) - Comprehensive longevity resources list
-- [awesome-longevity (Rejuve)](https://github.com/Rejuve/awesome-longevity) - Therapeutics, regenerative medicine, medical AI
-- [awesome-longevity-information](https://github.com/Laurentiu-Andronache/awesome-longevity-information) - Curated healthspan extension resources
-- [longevityTools](https://github.com/tgirke/longevityTools) - R package for longevity research analysis
-- [Longevity Genie](https://github.com/longevity-genie) - Open-source AI tools for longevity research
-
-### Tracking & Measurement
-
-- [Oura Ring](https://ouraring.com/) - Sleep and activity tracking
-- [Levels](https://www.levels.com/) - Continuous glucose monitoring
-- [InsideTracker](https://www.insidetracker.com/) - Blood biomarker analysis
-- [WHOOP](https://www.whoop.com/) - Strain and recovery monitoring
-
-### Academic & Research Institutions
-
-- [National Institute on Aging (NIA)](https://www.nia.nih.gov/) - NIH's primary aging research arm
-- [Buck Institute for Research on Aging](https://www.buckinstitute.org/) - Leading independent aging research institute
-- [Lifespan Research Institute (formerly SENS)](https://www.sens.org/) - Nonprofit focused on damage-repair approaches to aging
-- [Altos Labs](https://www.altoslabs.com/) - Well-funded cellular reprogramming research
-- [Calico Labs](https://www.calicolabs.com/) - Google/Alphabet's aging research company
-- [Stanford Center on Longevity](https://longevity.stanford.edu/) - Interdisciplinary longevity research
-- [American Federation for Aging Research (AFAR)](https://www.afar.org/) - Funds aging research and education
-
-## Software Tools
-
-### Installating amarantos
-
-TODO: get on pypi.
+## Installation
 
 ```bash
 uv add amarantos
 ```
-
-## Usage
-
-```python
-import amarantos
-
-amarantos.hello()
-```
-
-TODO: build something!

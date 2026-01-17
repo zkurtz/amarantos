@@ -1,35 +1,42 @@
 domain: diet
-name: CoQ10 (100-300mg/day)
-summary: |
-  Mitochondrial cofactor essential for ATP production. Strong RCT evidence in
-  heart failure: 36% reduced mortality (2024 meta-analysis), Q-SYMBIO trial
-  showed 42% reduction in all-cause mortality. Reduces BP modestly. In general
-  population, no mortality benefit observed. Benefits primarily in cardiac
-  patients and older adults with declining CoQ10 levels.
+name: CoQ10
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 200
+  description: "Recommended: 100-300mg/day. Mitochondrial cofactor essential for ATP
+    production. Strong RCT evidence in\nheart failure: 36% reduced mortality (2024
+    meta-analysis), Q-SYMBIO trial\nshowed 42% reduction in all-cause mortality. Reduces
+    BP modestly. In general\npopulation, no mortality benefit observed. Benefits primarily
+    in cardiac\npatients and older adults with declining CoQ10 levels."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      2024 meta-analysis of 33 RCTs in heart failure: RR 0.64 (95% CI: 0.48-0.85)
-      for all-cause mortality, moderate GRADE quality.
-      (https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z).
-      Q-SYMBIO trial: 42% reduction in all-cause mortality, 43% reduction in MACE.
-      (https://www.jacc.org/doi/10.1016/j.jchf.2014.06.008). 2025 NHANES cohort:
-      no association in general population (HR 1.00).
-      (https://onlinelibrary.wiley.com/doi/10.1002/mnfr.70019). Causal evidence
-      strong in HF patients only.
-    mean: 0.95
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      CoQ10 levels decline with age. Supports mitochondrial function. Animal
-      studies suggest lifespan benefits. No human epigenetic clock studies.
-      May slow age-related decline in cellular energy. Speculative.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      May reduce fatigue, especially in those with mitochondrial dysfunction
-      or statin-induced myopathy. Limited mood RCT data. Small energy
-      improvement plausible in older adults.
-    mean: 0.2
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    2024 meta-analysis of 33 RCTs in heart failure: RR 0.64 (95% CI: 0.48-0.85)
+    for all-cause mortality, moderate GRADE quality.
+    (https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z).
+    Q-SYMBIO trial: 42% reduction in all-cause mortality, 43% reduction in MACE.
+    (https://www.jacc.org/doi/10.1016/j.jchf.2014.06.008). 2025 NHANES cohort:
+    no association in general population (HR 1.00).
+    (https://onlinelibrary.wiley.com/doi/10.1002/mnfr.70019). Causal evidence
+    strong in HF patients only.
+  mean: 0.95
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    CoQ10 levels decline with age. Supports mitochondrial function. Animal
+    studies suggest lifespan benefits. No human epigenetic clock studies.
+    May slow age-related decline in cellular energy. Speculative.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    May reduce fatigue, especially in those with mitochondrial dysfunction
+    or statin-induced myopathy. Limited mood RCT data. Small energy
+    improvement plausible in older adults.
+  mean: 0.2
+  std: 0.3
+summary: "Mitochondrial cofactor essential for ATP production. Strong RCT evidence
+  in\nheart failure: 36% reduced mortality (2024 meta-analysis), Q-SYMBIO trial\n\
+  showed 42% reduction in all-cause mortality."

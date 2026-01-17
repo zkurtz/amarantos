@@ -1,35 +1,42 @@
 domain: diet
-name: Spermidine (dietary, ~10-20mg/day from food)
-summary: |
-  Polyamine that induces autophagy, a key longevity mechanism. NHANES cohort:
-  highest intake associated with lower all-cause and CVD mortality. Bruneck Study:
-  ~40% lower heart failure risk with highest intake. Extends lifespan in yeast,
-  flies, mice. 2024 Nature Cell Biology: essential for fasting-mediated autophagy.
-  Found in aged cheese, mushrooms, legumes, whole grains. Evidence quality moderate.
+name: Spermidine
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 200
+  description: "Recommended: dietary, ~10-20mg/day from food. Polyamine that induces
+    autophagy, a key longevity mechanism. NHANES cohort:\nhighest intake associated
+    with lower all-cause and CVD mortality. Bruneck Study:\n~40% lower heart failure
+    risk with highest intake. Extends lifespan in yeast,\nflies, mice. 2024 Nature
+    Cell Biology: essential for fasting-mediated autophagy.\nFound in aged cheese,
+    mushrooms, legumes, whole grains. Evidence quality moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      NHANES analysis (n=23,894): higher dietary spermidine associated with
-      reduced CVD and all-cause mortality.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC9554131/). Bruneck Study:
-      ~40% lower heart failure risk with high intake. Independent cohort
-      (n=1,770): confirmed mortality association.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC6287690/). Associative evidence.
-    mean: 0.88
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Primary mechanism is autophagy induction. 2024 Nature Cell Biology:
-      spermidine essential for fasting-induced autophagy and lifespan extension.
-      (https://www.nature.com/articles/s41556-024-01468-x). Extends lifespan in
-      multiple species. Cardioprotective in mice.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC5806691/). Strong mechanistic
-      rationale.
-    mean: 1.0
-    std: 0.7
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      May improve cognitive function via autophagy. No direct mood RCTs.
-      Part of healthy dietary patterns. Indirect evidence only.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    NHANES analysis (n=23,894): higher dietary spermidine associated with
+    reduced CVD and all-cause mortality.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC9554131/). Bruneck Study:
+    ~40% lower heart failure risk with high intake. Independent cohort
+    (n=1,770): confirmed mortality association.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC6287690/). Associative evidence.
+  mean: 0.88
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Primary mechanism is autophagy induction. 2024 Nature Cell Biology:
+    spermidine essential for fasting-induced autophagy and lifespan extension.
+    (https://www.nature.com/articles/s41556-024-01468-x). Extends lifespan in
+    multiple species. Cardioprotective in mice.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC5806691/). Strong mechanistic
+    rationale.
+  mean: 1.0
+  std: 0.7
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    May improve cognitive function via autophagy. No direct mood RCTs.
+    Part of healthy dietary patterns. Indirect evidence only.
+  mean: 0.1
+  std: 0.3
+summary: "Polyamine that induces autophagy, a key longevity mechanism. NHANES cohort:\n\
+  highest intake associated with lower all-cause and CVD mortality."

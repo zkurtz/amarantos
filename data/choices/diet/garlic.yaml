@@ -1,32 +1,39 @@
 domain: diet
-name: Garlic (1+ cloves/day or aged extract)
-summary: |
-  Allium vegetable with cardiovascular benefits. Meta-analyses show significant
-  BP reduction: -8.3mmHg SBP, -5.5mmHg DBP in hypertensives, comparable to
-  medications. Estimated 16-40% CVD risk reduction from BP effects. Aged garlic
-  extract well-studied. Benefits strongest in hypertensives. Evidence quality
-  moderate for BP; no direct mortality RCTs.
+name: Garlic
+specification:
+  duration_h: 0.02
+  weekly_freq: 7
+  annual_cost_h: 10
+  annual_cost_usd: 50
+  description: "Recommended: 1+ cloves/day or aged extract. Allium vegetable with
+    cardiovascular benefits. Meta-analyses show significant\nBP reduction: -8.3mmHg
+    SBP, -5.5mmHg DBP in hypertensives, comparable to\nmedications. Estimated 16-40%
+    CVD risk reduction from BP effects. Aged garlic\nextract well-studied. Benefits
+    strongest in hypertensives. Evidence quality\nmoderate for BP; no direct mortality
+    RCTs."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Meta-analysis of 12 trials (n=553): garlic reduces
-      SBP by 8.3mmHg and DBP by 5.5mmHg in hypertensives.
-      (https://jn.nutrition.org/article/S0022-3166(23)00519-9/fulltext).
-      Estimated 16-40% CVD risk reduction from BP reduction alone.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC8031974/). Causal evidence
-      for BP; mortality extrapolated.
-    mean: 0.92
-    std: 0.06
-  - outcome: Years of delayed aging
-    evidence: |
-      Contains sulfur compounds with antioxidant properties. May reduce
-      oxidative stress and improve vascular function. No epigenetic clock
-      studies. Speculative.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      No direct mood RCTs. May cause GI discomfort and bad breath in some.
-      Immune support claims not well substantiated for wellbeing. Uncertain.
-    mean: 0.0
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Meta-analysis of 12 trials (n=553): garlic reduces
+    SBP by 8.3mmHg and DBP by 5.5mmHg in hypertensives.
+    (https://jn.nutrition.org/article/S0022-3166(23)00519-9/fulltext).
+    Estimated 16-40% CVD risk reduction from BP reduction alone.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC8031974/). Causal evidence
+    for BP; mortality extrapolated.
+  mean: 0.92
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    Contains sulfur compounds with antioxidant properties. May reduce
+    oxidative stress and improve vascular function. No epigenetic clock
+    studies. Speculative.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    No direct mood RCTs. May cause GI discomfort and bad breath in some.
+    Immune support claims not well substantiated for wellbeing. Uncertain.
+  mean: 0.0
+  std: 0.3
+summary: "Allium vegetable with cardiovascular benefits. Meta-analyses show significant\n\
+  BP reduction: -8.3mmHg SBP, -5.5mmHg DBP in hypertensives, comparable to\nmedications."

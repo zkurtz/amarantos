@@ -1,31 +1,37 @@
 domain: diet
-name: Betaine/TMG (2-6g/day)
-summary: |
-  Effectively lowers homocysteine by ~12% but RCTs show NO reduction in CVD
-  events. Doses ≥4g/day increase LDL cholesterol, potentially offsetting any
-  benefit. Lower doses (<4g/day) may lower homocysteine without adverse lipid
-  effects. Overall, no proven cardiovascular or mortality benefit despite
-  homocysteine lowering.
+name: Betaine/TMG
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 2-6g/day. Effectively lowers homocysteine by ~12% but
+    RCTs show NO reduction in CVD\nevents. Doses ≥4g/day increase LDL cholesterol,
+    potentially offsetting any\nbenefit. Lower doses (<4g/day) may lower homocysteine
+    without adverse lipid\neffects. Overall, no proven cardiovascular or mortality
+    benefit despite\nhomocysteine lowering."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Meta-analysis shows 4-6g/day lowers homocysteine by
-      1.23μmol/L (~12%). Olthof 2005
-      (https://pubmed.ncbi.nlm.nih.gov/15916468/). However, homocysteine-
-      lowering interventions (B vitamins) failed to reduce CVD events in trials.
-      Higher doses raise LDL. Schwab 2021
-      (https://pubmed.ncbi.nlm.nih.gov/33764214/). Centered at null.
-    mean: 1.0
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Methyl donor involved in cellular metabolism. No aging studies in humans.
-      Theoretical benefit via homocysteine pathway unproven. Speculative.
-    mean: 0.0
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      No mood or wellbeing RCTs. Sometimes taken with NMN/NR for methylation
-      support. No direct evidence for subjective benefit.
-    mean: 0.0
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Meta-analysis shows 4-6g/day lowers homocysteine by
+    1.23μmol/L (~12%). Olthof 2005
+    (https://pubmed.ncbi.nlm.nih.gov/15916468/). However, homocysteine-
+    lowering interventions (B vitamins) failed to reduce CVD events in trials.
+    Higher doses raise LDL. Schwab 2021
+    (https://pubmed.ncbi.nlm.nih.gov/33764214/). Centered at null.
+  mean: 1.0
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Methyl donor involved in cellular metabolism. No aging studies in humans.
+    Theoretical benefit via homocysteine pathway unproven. Speculative.
+  mean: 0.0
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    No mood or wellbeing RCTs. Sometimes taken with NMN/NR for methylation
+    support. No direct evidence for subjective benefit.
+  mean: 0.0
+  std: 0.3
+summary: "Effectively lowers homocysteine by ~12% but RCTs show NO reduction in CVD\n\
+  events. Doses ≥4g/day increase LDL cholesterol, potentially offsetting any\nbenefit."

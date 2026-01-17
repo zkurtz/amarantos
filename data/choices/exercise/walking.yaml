@@ -1,34 +1,41 @@
 domain: exercise
-name: Walking (8,000-10,000 steps/day)
-summary: |
-  Most accessible exercise. 2022 Lancet meta-analysis (15 cohorts): 10,000 steps
-  associated with ~50% lower mortality vs <4,000 steps. 2023 meta-analysis: each
-  1,000-step increase = 15% lower mortality. Optimal at ~8,700 steps for mortality
-  reduction. 7,000 steps/day achieves most benefit with diminishing returns above.
-  No equipment needed. Evidence quality very high.
+name: Walking
+specification:
+  duration_h: 0.5
+  weekly_freq: 5
+  annual_cost_h: 150
+  annual_cost_usd: 100
+  description: "Recommended: 8,000-10,000 steps/day. Most accessible exercise. 2022
+    Lancet meta-analysis (15 cohorts): 10,000 steps\nassociated with ~50% lower mortality
+    vs <4,000 steps. 2023 meta-analysis: each\n1,000-step increase = 15% lower mortality.
+    Optimal at ~8,700 steps for mortality\nreduction. 7,000 steps/day achieves most
+    benefit with diminishing returns above.\nNo equipment needed. Evidence quality
+    very high."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Paluch 2022 meta-analysis (15 cohorts): ~50% lower mortality at 10,000
-      vs <4,000 steps. (https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978/).
-      2023 meta-analysis (n=226,889): each 1,000-step increase = 15% lower
-      all-cause mortality, 500 steps = 7% lower CVD mortality. Optimal at
-      8,763 steps (HR 0.40). (https://www.jacc.org/doi/10.1016/j.jacc.2023.07.029).
-      Associative evidence; highly consistent.
-    mean: 0.55
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Regular walking prevents functional decline and sarcopenia. Associated
-      with slower cognitive decline in older adults. Low-impact preserves
-      joint health. Strong biological plausibility.
-    mean: 1.5
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Walking associated with improved mood and reduced anxiety in meta-
-      analyses. Nature walks particularly beneficial. Social walking groups
-      enhance effect. Accessible for all fitness levels. Moderate positive
-      effect.
-    mean: 0.4
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Paluch 2022 meta-analysis (15 cohorts): ~50% lower mortality at 10,000
+    vs <4,000 steps. (https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978/).
+    2023 meta-analysis (n=226,889): each 1,000-step increase = 15% lower
+    all-cause mortality, 500 steps = 7% lower CVD mortality. Optimal at
+    8,763 steps (HR 0.40). (https://www.jacc.org/doi/10.1016/j.jacc.2023.07.029).
+    Associative evidence; highly consistent.
+  mean: 0.55
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Regular walking prevents functional decline and sarcopenia. Associated
+    with slower cognitive decline in older adults. Low-impact preserves
+    joint health. Strong biological plausibility.
+  mean: 1.5
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Walking associated with improved mood and reduced anxiety in meta-
+    analyses. Nature walks particularly beneficial. Social walking groups
+    enhance effect. Accessible for all fitness levels. Moderate positive
+    effect.
+  mean: 0.4
+  std: 0.3
+summary: "Most accessible exercise. 2022 Lancet meta-analysis (15 cohorts): 10,000
+  steps\nassociated with ~50% lower mortality vs <4,000 steps."

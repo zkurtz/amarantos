@@ -1,32 +1,39 @@
 domain: diet
-name: Selenium (55-200mcg/day, adequate)
-summary: |
-  Trace mineral essential for antioxidant defense. Meta-analysis of 43 RCTs:
-  selenium alone shows NO effect on CVD, cancer, or all-cause mortality. However,
-  when part of antioxidant mixtures, associated with 23% lower CVD mortality and
-  10% lower all-cause mortality. U-shaped risk curve; both deficiency and excess
-  harmful. Excess may increase prostate cancer mortality. Evidence mixed.
+name: Selenium
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 55-200mcg/day, adequate. Trace mineral essential for
+    antioxidant defense. Meta-analysis of 43 RCTs:\nselenium alone shows NO effect
+    on CVD, cancer, or all-cause mortality. However,\nwhen part of antioxidant mixtures,
+    associated with 23% lower CVD mortality and\n10% lower all-cause mortality. U-shaped
+    risk curve; both deficiency and excess\nharmful. Excess may increase prostate
+    cancer mortality. Evidence mixed."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Jenkins 2020 meta-analysis of 43 RCTs: selenium alone NS for mortality.
-      When selenium part of antioxidant mix: RR 0.77 for CVD mortality, RR 0.90
-      for all-cause mortality. (https://pmc.ncbi.nlm.nih.gov/articles/PMC7727482/).
-      Cochrane review: NS effects on CVD/all-cause mortality.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC7433291/). U-shaped curve.
-    mean: 1.0
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Essential for selenoproteins involved in antioxidant defense. Deficiency
-      accelerates aging. No benefit from supplementation in replete individuals.
-      No epigenetic clock studies. Speculative.
-    mean: 0.0
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Deficiency causes fatigue and thyroid dysfunction. Supplementation in
-      deficient individuals may improve energy. No benefit in replete
-      individuals.
-    mean: 0.0
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Jenkins 2020 meta-analysis of 43 RCTs: selenium alone NS for mortality.
+    When selenium part of antioxidant mix: RR 0.77 for CVD mortality, RR 0.90
+    for all-cause mortality. (https://pmc.ncbi.nlm.nih.gov/articles/PMC7727482/).
+    Cochrane review: NS effects on CVD/all-cause mortality.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC7433291/). U-shaped curve.
+  mean: 1.0
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Essential for selenoproteins involved in antioxidant defense. Deficiency
+    accelerates aging. No benefit from supplementation in replete individuals.
+    No epigenetic clock studies. Speculative.
+  mean: 0.0
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Deficiency causes fatigue and thyroid dysfunction. Supplementation in
+    deficient individuals may improve energy. No benefit in replete
+    individuals.
+  mean: 0.0
+  std: 0.3
+summary: "Trace mineral essential for antioxidant defense. Meta-analysis of 43 RCTs:\n\
+  selenium alone shows NO effect on CVD, cancer, or all-cause mortality."

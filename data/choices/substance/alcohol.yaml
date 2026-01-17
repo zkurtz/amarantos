@@ -1,34 +1,40 @@
 domain: substance
-name: Alcohol Abstinence or Minimal Intake (<1 drink/day)
-summary: |
-  Alcohol's J-curve for mortality now disputed. Large Mendelian randomization
-  studies: no safe level for overall health. Previous "protective" effects
-  likely confounded by sick quitters and healthy drinker bias. GBD 2020:
-  alcohol is leading risk factor for 15-49 age group. Light drinking may
-  have small CVD benefit but increases cancer risk. Evidence quality high.
+name: Alcohol Abstinence or Minimal Intake
+specification:
+  duration_h: 0.0
+  weekly_freq: 7
+  annual_cost_h: 0
+  annual_cost_usd: -500
+  description: "Recommended: <1 drink/day. Alcohol's J-curve for mortality now disputed.
+    Large Mendelian randomization\nstudies: no safe level for overall health. Previous
+    \"protective\" effects\nlikely confounded by sick quitters and healthy drinker
+    bias. GBD 2020:\nalcohol is leading risk factor for 15-49 age group. Light drinking
+    may\nhave small CVD benefit but increases cancer risk. Evidence quality high."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Global Burden of Disease 2020: alcohol attributable to 2.8M deaths/year,
-      leading risk factor ages 15-49. (https://pubmed.ncbi.nlm.nih.gov/30146330/).
-      Mendelian randomization: no J-curve; any alcohol increases BP and stroke
-      risk. (https://pubmed.ncbi.nlm.nih.gov/29955838/). Light drinking may
-      have small CVD benefit (HR 0.90) but net effect unclear given cancer risk.
-    mean: 0.95
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Alcohol accelerates epigenetic aging in dose-dependent manner.
-      (https://pubmed.ncbi.nlm.nih.gov/36698148/). Liver aging, brain
-      volume reduction. Abstinence or minimal intake optimal for aging.
-      Strong evidence for accelerated aging with regular use.
-    mean: 0.3
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Social drinking provides relaxation and social facilitation. However,
-      alcohol is depressant; heavy use worsens mental health. Abstinence
-      often improves sleep and mood. Individual variation high. For
-      abstinence/minimal: small net positive after adjustment period.
-    mean: 0.2
-    std: 0.4
+- outcome: Relative mortality risk
+  evidence: |
+    Global Burden of Disease 2020: alcohol attributable to 2.8M deaths/year,
+    leading risk factor ages 15-49. (https://pubmed.ncbi.nlm.nih.gov/30146330/).
+    Mendelian randomization: no J-curve; any alcohol increases BP and stroke
+    risk. (https://pubmed.ncbi.nlm.nih.gov/29955838/). Light drinking may
+    have small CVD benefit (HR 0.90) but net effect unclear given cancer risk.
+  mean: 0.95
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Alcohol accelerates epigenetic aging in dose-dependent manner.
+    (https://pubmed.ncbi.nlm.nih.gov/36698148/). Liver aging, brain
+    volume reduction. Abstinence or minimal intake optimal for aging.
+    Strong evidence for accelerated aging with regular use.
+  mean: 0.3
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Social drinking provides relaxation and social facilitation. However,
+    alcohol is depressant; heavy use worsens mental health. Abstinence
+    often improves sleep and mood. Individual variation high. For
+    abstinence/minimal: small net positive after adjustment period.
+  mean: 0.2
+  std: 0.4
+summary: "Alcohol's J-curve for mortality now disputed. Large Mendelian randomization\n\
+  studies: no safe level for overall health."

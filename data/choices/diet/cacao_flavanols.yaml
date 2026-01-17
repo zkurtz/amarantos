@@ -1,33 +1,40 @@
 domain: diet
-name: Cacao Flavanols (200-900mg/day)
-summary: |
-  Cocoa flavanols improve cardiometabolic markers in RCTs: reduce BP, improve
-  endothelial function (FMD), and modestly lower LDL. Large cohort studies show
-  13-16% lower CVD mortality with chocolate consumption. Mechanisms include nitric
-  oxide activation and antioxidant effects. Evidence quality moderate; optimal
-  dose not established.
+name: Cacao Flavanols
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 200-900mg/day. Cocoa flavanols improve cardiometabolic
+    markers in RCTs: reduce BP, improve\nendothelial function (FMD), and modestly
+    lower LDL. Large cohort studies show\n13-16% lower CVD mortality with chocolate
+    consumption. Mechanisms include nitric\noxide activation and antioxidant effects.
+    Evidence quality moderate; optimal\ndose not established."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Zhao 2022 meta-analysis of 19 cohort studies (n=878,990): highest vs lowest
-      chocolate intake: 13% lower CVD mortality, 16% lower heart disease mortality,
-      12% lower cancer mortality. Dose-response non-linear.
-      (https://pubmed.ncbi.nlm.nih.gov/35460393/). Associative evidence; potential
-      healthy user bias. 2024 RCT meta-analysis confirms improved cardiometabolic
-      markers. (https://pubmed.ncbi.nlm.nih.gov/38931273/).
-    mean: 0.87
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      No epigenetic clock studies. Flavanols improve vascular function and may
-      protect cognitive function. COSMOS trial showed cognitive benefits in older
-      adults. Extrapolated from CVD risk reduction. Speculative.
-    mean: 0.5
-    std: 0.8
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      RCTs show improved mood and reduced fatigue with cocoa flavanols. May
-      enhance cerebral blood flow. Small positive effect plausible. Limited
-      direct wellbeing RCT data.
-    mean: 0.3
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Zhao 2022 meta-analysis of 19 cohort studies (n=878,990): highest vs lowest
+    chocolate intake: 13% lower CVD mortality, 16% lower heart disease mortality,
+    12% lower cancer mortality. Dose-response non-linear.
+    (https://pubmed.ncbi.nlm.nih.gov/35460393/). Associative evidence; potential
+    healthy user bias. 2024 RCT meta-analysis confirms improved cardiometabolic
+    markers. (https://pubmed.ncbi.nlm.nih.gov/38931273/).
+  mean: 0.87
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    No epigenetic clock studies. Flavanols improve vascular function and may
+    protect cognitive function. COSMOS trial showed cognitive benefits in older
+    adults. Extrapolated from CVD risk reduction. Speculative.
+  mean: 0.5
+  std: 0.8
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    RCTs show improved mood and reduced fatigue with cocoa flavanols. May
+    enhance cerebral blood flow. Small positive effect plausible. Limited
+    direct wellbeing RCT data.
+  mean: 0.3
+  std: 0.3
+summary: "Cocoa flavanols improve cardiometabolic markers in RCTs: reduce BP, improve\n\
+  endothelial function (FMD), and modestly lower LDL. Large cohort studies show\n\
+  13-16% lower CVD mortality with chocolate consumption."

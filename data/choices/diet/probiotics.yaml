@@ -1,32 +1,39 @@
 domain: diet
-name: Probiotics (daily, ≥10¹⁰ CFU)
-summary: |
-  Live microorganisms that modulate gut microbiome. Meta-analyses show reduced
-  body weight, BMI, waist circumference, and improved lipid profiles in
-  overweight/obese. May lower BP, glucose, and inflammatory markers (TNF-α). No
-  direct mortality RCTs. Benefits most pronounced in those with elevated baseline
-  cardiometabolic risk. Strain-specific effects. Evidence quality moderate.
+name: Probiotics
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 200
+  description: "Recommended: daily, ≥10¹⁰ CFU. Live microorganisms that modulate gut
+    microbiome. Meta-analyses show reduced\nbody weight, BMI, waist circumference,
+    and improved lipid profiles in\noverweight/obese. May lower BP, glucose, and inflammatory
+    markers (TNF-α). No\ndirect mortality RCTs. Benefits most pronounced in those
+    with elevated baseline\ncardiometabolic risk. Strain-specific effects. Evidence
+    quality moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Meta-analysis of 26 RCTs (n=1,720) in overweight/obese:
-      reduced weight (-0.7kg), BMI, waist circumference, TNF-α, insulin, TC, LDL.
-      (https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198).
-      Effects require ≥10¹⁰ CFU for ≥8 weeks. Theoretical CVD benefit via risk
-      factor improvement; extrapolated estimate.
-    mean: 0.96
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Gut microbiome composition changes with aging. Probiotics may improve
-      microbial diversity and reduce inflammation. No epigenetic clock studies.
-      Speculative.
-    mean: 0.2
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Gut-brain axis research suggests microbiome affects mood. Some strains
-      (psychobiotics) show anxiolytic effects in RCTs. Limited but growing
-      evidence. Small positive effect plausible.
-    mean: 0.2
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Meta-analysis of 26 RCTs (n=1,720) in overweight/obese:
+    reduced weight (-0.7kg), BMI, waist circumference, TNF-α, insulin, TC, LDL.
+    (https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198).
+    Effects require ≥10¹⁰ CFU for ≥8 weeks. Theoretical CVD benefit via risk
+    factor improvement; extrapolated estimate.
+  mean: 0.96
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Gut microbiome composition changes with aging. Probiotics may improve
+    microbial diversity and reduce inflammation. No epigenetic clock studies.
+    Speculative.
+  mean: 0.2
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Gut-brain axis research suggests microbiome affects mood. Some strains
+    (psychobiotics) show anxiolytic effects in RCTs. Limited but growing
+    evidence. Small positive effect plausible.
+  mean: 0.2
+  std: 0.3
+summary: "Live microorganisms that modulate gut microbiome. Meta-analyses show reduced\n\
+  body weight, BMI, waist circumference, and improved lipid profiles in\noverweight/obese."

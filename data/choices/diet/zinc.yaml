@@ -1,33 +1,40 @@
 domain: diet
-name: Zinc (8-11mg/day, adequate)
-summary: |
-  Essential trace mineral for immune function and antioxidant defense. Meta-
-  analysis of 75 RCTs shows reduced TG, TC, FBG, CRP, IL-6. NHANES: higher
-  intake associated with 21% lower CVD risk. All-cause mortality reduction NS
-  in meta-analyses. Deficiency common in elderly and vegetarians. Both deficiency
-  and excess harmful. Evidence quality moderate for CVD risk factors.
+name: Zinc
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 30
+  description: "Recommended: 8-11mg/day, adequate. Essential trace mineral for immune
+    function and antioxidant defense. Meta-\nanalysis of 75 RCTs shows reduced TG,
+    TC, FBG, CRP, IL-6. NHANES: higher\nintake associated with 21% lower CVD risk.
+    All-cause mortality reduction NS\nin meta-analyses. Deficiency common in elderly
+    and vegetarians. Both deficiency\nand excess harmful. Evidence quality moderate
+    for CVD risk factors."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Umbrella review: zinc supplementation NS for all-cause mortality in
-      general population. (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full).
-      NHANES: higher dietary zinc associated with CVD risk reduction (OR 0.79).
-      (https://www.sciencedirect.com/science/article/pii/S2211335524002456).
-      Heart failure patients with low zinc have higher mortality. Dietary
-      adequate intake preferred.
-    mean: 0.96
-    std: 0.06
-  - outcome: Years of delayed aging
-    evidence: |
-      Essential for immune function and DNA repair. Deficiency accelerates
-      immunosenescence. Low-dose long-term supplementation may benefit older
-      adults. No epigenetic clock studies. Moderate confidence.
-    mean: 0.2
-    std: 0.5
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Deficiency causes fatigue and impaired cognitive function. Supports
-      immune function (reduced infection duration). Supplementation in
-      replete individuals unlikely to improve wellbeing.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Umbrella review: zinc supplementation NS for all-cause mortality in
+    general population. (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full).
+    NHANES: higher dietary zinc associated with CVD risk reduction (OR 0.79).
+    (https://www.sciencedirect.com/science/article/pii/S2211335524002456).
+    Heart failure patients with low zinc have higher mortality. Dietary
+    adequate intake preferred.
+  mean: 0.96
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    Essential for immune function and DNA repair. Deficiency accelerates
+    immunosenescence. Low-dose long-term supplementation may benefit older
+    adults. No epigenetic clock studies. Moderate confidence.
+  mean: 0.2
+  std: 0.5
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Deficiency causes fatigue and impaired cognitive function. Supports
+    immune function (reduced infection duration). Supplementation in
+    replete individuals unlikely to improve wellbeing.
+  mean: 0.1
+  std: 0.3
+summary: "Essential trace mineral for immune function and antioxidant defense. Meta-\n\
+  analysis of 75 RCTs shows reduced TG, TC, FBG, CRP, IL-6."

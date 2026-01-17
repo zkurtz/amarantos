@@ -75,14 +75,39 @@ class Effect:
 
 
 @attrs.frozen
+class Specification:
+    """Detailed specification of a wellness choice.
+
+    Attributes:
+        duration_h: Average duration of one session of the activity in hours.
+            For running, ~0.5. For taking a pill, ~0.001.
+        weekly_freq: How many times per week on average. Running might be 4,
+            taking a pill might be 7, fasting might be 1.
+        annual_cost_h: Total annual time cost including preparation, cleanup,
+            and actually doing the activity. Sleep optimization should count
+            bedtime ritual plus extra sleep time.
+        annual_cost_usd: Total annual dollar cost excluding time. For running,
+            maybe $100 for shoes.
+        description: Plain english description of the choice noting common
+            variations in implementation and citing evidence where available.
+    """
+
+    duration_h: float
+    weekly_freq: float
+    annual_cost_h: float
+    annual_cost_usd: float
+    description: str = ""
+
+
+@attrs.frozen
 class Choice:
     """A wellness choice with effect estimates."""
 
     domain: str
     name: str
     effects: tuple[Effect, ...]
+    specification: Specification
     summary: str = ""
-    annual_cost: float | None = None
 
     @property
     def path(self) -> Path:
@@ -94,7 +119,9 @@ class Choice:
         """Load a choice from a YAML file."""
         data = dummio.yaml.load(filepath=path)
         data["effects"] = tuple(Effect(**e) for e in data["effects"])
+        data["specification"] = Specification(**data["specification"])
         data.pop("literature", None)  # Remove legacy field if present
+        data.pop("annual_cost", None)  # Remove legacy field if present
         return cls(**data)
 
     def save(self, path: Path | None = None) -> None:
@@ -104,12 +131,11 @@ class Choice:
         data = {
             "domain": self.domain,
             "name": self.name,
+            "specification": attrs.asdict(self.specification),
             "effects": [attrs.asdict(e) for e in self.effects],
         }
         if self.summary:
             data["summary"] = self.summary
-        if self.annual_cost is not None:
-            data["annual_cost"] = self.annual_cost
         dummio.yaml.save(data, filepath=path)
 
 

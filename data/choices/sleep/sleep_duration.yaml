@@ -1,35 +1,41 @@
 domain: sleep
-name: Optimal Sleep Duration (7-8 hours/night)
-summary: |
-  Sleep duration shows U-shaped mortality relationship. Meta-analyses consistently
-  find 7-8 hours optimal for adults. UK Biobank (n=498,277): both short (<6h) and
-  long (>8h) sleep associated with higher mortality. Short sleep HR 1.12, long
-  sleep HR 1.30. Affects CVD, metabolic health, cognitive function. Evidence
-  quality high from large prospective cohorts.
+name: Optimal Sleep Duration
+specification:
+  duration_h: 0.0
+  weekly_freq: 7
+  annual_cost_h: 0
+  annual_cost_usd: 0
+  description: "Recommended: 7-8 hours/night. Sleep duration shows U-shaped mortality
+    relationship. Meta-analyses consistently\nfind 7-8 hours optimal for adults. UK
+    Biobank (n=498,277): both short (<6h) and\nlong (>8h) sleep associated with higher
+    mortality. Short sleep HR 1.12, long\nsleep HR 1.30. Affects CVD, metabolic health,
+    cognitive function. Evidence\nquality high from large prospective cohorts."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of 1.3M participants: U-shaped curve with nadir at 7h.
-      Short sleep (<6h) HR 1.12 (95% CI: 1.06-1.18), long sleep (>8h) HR 1.30
-      (95% CI: 1.22-1.38). (https://pubmed.ncbi.nlm.nih.gov/20469800/). UK
-      Biobank (n=498,277): similar findings. Note: long sleep may be marker
-      of illness rather than causal. Strong associative evidence.
-    mean: 0.88
-    std: 0.04
-  - outcome: Years of delayed aging
-    evidence: |
-      Chronic sleep deprivation accelerates biological aging. Short sleep
-      associated with shorter telomeres, increased epigenetic age. Sleep
-      is primary time for glymphatic clearance (brain waste removal).
-      Meta-analysis: poor sleep associated with cognitive decline and
-      dementia risk. Moderate-strong evidence.
-    mean: 1.0
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Sleep deprivation consistently impairs mood, cognitive function, and
-      daily functioning in experimental studies. Meta-analysis: sleep
-      interventions improve wellbeing measures. Strong causal evidence
-      from RCTs. Large positive effect.
-    mean: 0.8
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 1.3M participants: U-shaped curve with nadir at 7h.
+    Short sleep (<6h) HR 1.12 (95% CI: 1.06-1.18), long sleep (>8h) HR 1.30
+    (95% CI: 1.22-1.38). (https://pubmed.ncbi.nlm.nih.gov/20469800/). UK
+    Biobank (n=498,277): similar findings. Note: long sleep may be marker
+    of illness rather than causal. Strong associative evidence.
+  mean: 0.88
+  std: 0.04
+- outcome: Years of delayed aging
+  evidence: |
+    Chronic sleep deprivation accelerates biological aging. Short sleep
+    associated with shorter telomeres, increased epigenetic age. Sleep
+    is primary time for glymphatic clearance (brain waste removal).
+    Meta-analysis: poor sleep associated with cognitive decline and
+    dementia risk. Moderate-strong evidence.
+  mean: 1.0
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Sleep deprivation consistently impairs mood, cognitive function, and
+    daily functioning in experimental studies. Meta-analysis: sleep
+    interventions improve wellbeing measures. Strong causal evidence
+    from RCTs. Large positive effect.
+  mean: 0.8
+  std: 0.3
+summary: "Sleep duration shows U-shaped mortality relationship. Meta-analyses consistently\n\
+  find 7-8 hours optimal for adults."

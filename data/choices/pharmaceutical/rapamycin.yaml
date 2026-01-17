@@ -1,34 +1,41 @@
 domain: pharmaceutical
-name: Rapamycin (low-dose, intermittent)
-summary: |
-  mTOR inhibitor with most robust lifespan extension in animal models (9-14%
-  in mice). Used in transplant medicine. Low-dose/intermittent protocols
-  studied for longevity. CAUTION: immunosuppressant, off-label use, limited
-  human longevity data. Pearl trial (n=150) and RAAR trial ongoing. Evidence
-  quality low for longevity; extrapolated from animals and transplant data.
+name: Rapamycin
+specification:
+  duration_h: 0.001
+  weekly_freq: 1
+  annual_cost_h: 2
+  annual_cost_usd: 500
+  description: "Recommended: low-dose, intermittent. mTOR inhibitor with most robust
+    lifespan extension in animal models (9-14%\nin mice). Used in transplant medicine.
+    Low-dose/intermittent protocols\nstudied for longevity. CAUTION: immunosuppressant,
+    off-label use, limited\nhuman longevity data. Pearl trial (n=150) and RAAR trial
+    ongoing. Evidence\nquality low for longevity; extrapolated from animals and transplant
+    data."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No human longevity RCTs completed. Mouse studies: 9-14% lifespan
-      extension even when started late-life. (https://pubmed.ncbi.nlm.nih.gov/19587680/).
-      Transplant patients on rapalogs have mixed mortality (high-dose).
-      CAUTION: immunosuppression at high doses. Highly speculative for
-      healthy humans. Large uncertainty.
-    mean: 0.90
-    std: 0.18
-  - outcome: Years of delayed aging
-    evidence: |
-      mTOR inhibition slows aging in multiple model organisms. Rapalogs
-      improve immune function in elderly in short trials.
-      (https://pubmed.ncbi.nlm.nih.gov/25540326/). Most consistent
-      pharmacological lifespan extension in animals. Promising but very
-      uncertain in humans.
-    mean: 1.5
-    std: 1.2
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Side effects at immunosuppressive doses: mouth sores, infections,
-      metabolic effects. Low-dose may be better tolerated. Limited
-      quality of life data. Uncertainty about side effect burden.
-    mean: -0.1
-    std: 0.4
+- outcome: Relative mortality risk
+  evidence: |
+    No human longevity RCTs completed. Mouse studies: 9-14% lifespan
+    extension even when started late-life. (https://pubmed.ncbi.nlm.nih.gov/19587680/).
+    Transplant patients on rapalogs have mixed mortality (high-dose).
+    CAUTION: immunosuppression at high doses. Highly speculative for
+    healthy humans. Large uncertainty.
+  mean: 0.90
+  std: 0.18
+- outcome: Years of delayed aging
+  evidence: |
+    mTOR inhibition slows aging in multiple model organisms. Rapalogs
+    improve immune function in elderly in short trials.
+    (https://pubmed.ncbi.nlm.nih.gov/25540326/). Most consistent
+    pharmacological lifespan extension in animals. Promising but very
+    uncertain in humans.
+  mean: 1.5
+  std: 1.2
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Side effects at immunosuppressive doses: mouth sores, infections,
+    metabolic effects. Low-dose may be better tolerated. Limited
+    quality of life data. Uncertainty about side effect burden.
+  mean: -0.1
+  std: 0.4
+summary: "mTOR inhibitor with most robust lifespan extension in animal models (9-14%\n\
+  in mice). Used in transplant medicine."

@@ -1,32 +1,39 @@
 domain: diet
-name: Spirulina (1-8g/day)
-summary: |
-  Blue-green algae with strong meta-analysis support for cardiometabolic benefits.
-  2025 meta-analysis of 35 RCTs: reduces TG (-15mg/dL), TC (-12mg/dL), LDL (-8mg/dL),
-  SBP (-4mmHg), DBP (-3mmHg), weight (-1.8kg). A 2mmHg DBP reduction associated
-  with 17% lower hypertension prevalence. Rich in protein and phycocyanin. No
-  mortality RCTs. Evidence quality moderate-high.
+name: Spirulina
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 1-8g/day. Blue-green algae with strong meta-analysis
+    support for cardiometabolic benefits.\n2025 meta-analysis of 35 RCTs: reduces
+    TG (-15mg/dL), TC (-12mg/dL), LDL (-8mg/dL),\nSBP (-4mmHg), DBP (-3mmHg), weight
+    (-1.8kg). A 2mmHg DBP reduction associated\nwith 17% lower hypertension prevalence.
+    Rich in protein and phycocyanin. No\nmortality RCTs. Evidence quality moderate-high."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. 2025 meta-analysis of 35 RCTs shows improved glucose,
-      lipids, BP, weight, and inflammation.
-      (https://www.sciencedirect.com/science/article/pii/S0965229925001189).
-      2mmHg DBP reduction associated with 6% lower CHD risk and 15% lower stroke
-      risk. (https://pmc.ncbi.nlm.nih.gov/articles/PMC12245695/). Extrapolated
-      estimate.
-    mean: 0.94
-    std: 0.06
-  - outcome: Years of delayed aging
-    evidence: |
-      Rich in antioxidants (phycocyanin) with anti-inflammatory effects. May
-      support cellular health. No epigenetic clock studies. Speculative.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      May improve energy via high protein and B12 content. Some report
-      improved vitality. Limited direct mood data. Small positive effect
-      plausible.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. 2025 meta-analysis of 35 RCTs shows improved glucose,
+    lipids, BP, weight, and inflammation.
+    (https://www.sciencedirect.com/science/article/pii/S0965229925001189).
+    2mmHg DBP reduction associated with 6% lower CHD risk and 15% lower stroke
+    risk. (https://pmc.ncbi.nlm.nih.gov/articles/PMC12245695/). Extrapolated
+    estimate.
+  mean: 0.94
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    Rich in antioxidants (phycocyanin) with anti-inflammatory effects. May
+    support cellular health. No epigenetic clock studies. Speculative.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    May improve energy via high protein and B12 content. Some report
+    improved vitality. Limited direct mood data. Small positive effect
+    plausible.
+  mean: 0.1
+  std: 0.3
+summary: "Blue-green algae with strong meta-analysis support for cardiometabolic benefits.
+  2025 meta-analysis of 35 RCTs: reduces TG (-15mg/dL), TC (-12mg/dL), LDL (-8mg/dL),\n\
+  SBP (-4mmHg), DBP (-3mmHg), weight (-1.8kg)."

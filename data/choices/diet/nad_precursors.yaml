@@ -1,34 +1,42 @@
 domain: diet
-name: NAD+ Precursors (NMN/NR, 250-1000mg/day)
-summary: |
-  Nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) boost NAD+
-  levels reliably. Meta-analyses show elevated blood NAD+ but limited functional
-  benefits in RCTs. No improvement in muscle mass/sarcopenia in older adults.
-  Some cognitive trials show reduced epigenetic age but no cognitive improvement.
-  Evidence quality low; promising preclinical data not yet translated to humans.
+name: NAD+ Precursors
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: NMN/NR, 250-1000mg/day. Nicotinamide mononucleotide (NMN)
+    and nicotinamide riboside (NR) boost NAD+\nlevels reliably. Meta-analyses show
+    elevated blood NAD+ but limited functional\nbenefits in RCTs. No improvement in
+    muscle mass/sarcopenia in older adults.\nSome cognitive trials show reduced epigenetic
+    age but no cognitive improvement.\nEvidence quality low; promising preclinical
+    data not yet translated to humans."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Meta-analysis of 12 RCTs (n=513): NMN raises NAD+ but
-      most clinical outcomes NS vs control. Risk of bias concerns in most
-      studies. (https://pubmed.ncbi.nlm.nih.gov/39116016/). Meta-analysis:
-      NMN/NR show minimal benefits for sarcopenia.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC12022230/). Highly speculative
-      estimate.
-    mean: 0.98
-    std: 0.12
-  - outcome: Years of delayed aging
-    evidence: |
-      NR trial in MCI: reduced epigenetic age (PhenoAge, GrimAge) but no
-      cognitive improvement. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10828186/).
-      Benefits may be limited to those with suboptimal baseline NAD+. Promising
-      but unproven in humans. High uncertainty.
-    mean: 0.5
-    std: 1.2
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Select improvements in gait speed and grip strength in some trials.
-      Energy benefits reported anecdotally. Limited RCT evidence. Small
-      positive effect possible.
-    mean: 0.1
-    std: 0.4
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Meta-analysis of 12 RCTs (n=513): NMN raises NAD+ but
+    most clinical outcomes NS vs control. Risk of bias concerns in most
+    studies. (https://pubmed.ncbi.nlm.nih.gov/39116016/). Meta-analysis:
+    NMN/NR show minimal benefits for sarcopenia.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC12022230/). Highly speculative
+    estimate.
+  mean: 0.98
+  std: 0.12
+- outcome: Years of delayed aging
+  evidence: |
+    NR trial in MCI: reduced epigenetic age (PhenoAge, GrimAge) but no
+    cognitive improvement. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10828186/).
+    Benefits may be limited to those with suboptimal baseline NAD+. Promising
+    but unproven in humans. High uncertainty.
+  mean: 0.5
+  std: 1.2
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Select improvements in gait speed and grip strength in some trials.
+    Energy benefits reported anecdotally. Limited RCT evidence. Small
+    positive effect possible.
+  mean: 0.1
+  std: 0.4
+summary: "Nicotinamide mononucleotide (NMN) and nicotinamide riboside (NR) boost NAD+\n\
+  levels reliably. Meta-analyses show elevated blood NAD+ but limited functional\n\
+  benefits in RCTs."

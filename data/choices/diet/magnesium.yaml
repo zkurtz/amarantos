@@ -1,34 +1,41 @@
 domain: diet
-name: Magnesium (300-400mg/day)
-summary: |
-  Essential mineral involved in 300+ enzymatic reactions. Dietary intake
-  associated with 6% lower all-cause mortality per 100mg/day; supplementation
-  reduces BP by 2-3mmHg (RCTs). Greater benefits in hypertensives and those with
-  hypomagnesemia (-7.7mmHg SBP). Many adults deficient. Dietary sources preferred.
-  Evidence quality moderate.
+name: Magnesium
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 60
+  description: "Recommended: 300-400mg/day. Essential mineral involved in 300+ enzymatic
+    reactions. Dietary intake\nassociated with 6% lower all-cause mortality per 100mg/day;
+    supplementation\nreduces BP by 2-3mmHg (RCTs). Greater benefits in hypertensives
+    and those with\nhypomagnesemia (-7.7mmHg SBP). Many adults deficient. Dietary
+    sources preferred.\nEvidence quality moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Dose-response meta-analysis: each 100mg/day dietary magnesium associated
-      with 6% lower all-cause mortality and 5% lower cancer mortality.
-      (https://pubmed.ncbi.nlm.nih.gov/33684200/). Supplementation not shown
-      to reduce mortality in RCTs. 2024 umbrella meta-analysis: supplementation
-      reduces SBP by -1.25mmHg, DBP by -1.40mmHg.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC11401110/). Dietary benefits;
-      supplementation for BP only.
-    mean: 0.94
-    std: 0.05
-  - outcome: Years of delayed aging
-    evidence: |
-      Involved in DNA repair and cellular energy production. Deficiency
-      associated with accelerated aging. May support mitochondrial function.
-      No epigenetic clock studies. Moderate confidence.
-    mean: 0.3
-    std: 0.6
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Deficiency causes fatigue, muscle cramps, and anxiety. Supplementation
-      may improve sleep and reduce anxiety in deficient individuals. Limited
-      RCT evidence in replete individuals.
-    mean: 0.2
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Dose-response meta-analysis: each 100mg/day dietary magnesium associated
+    with 6% lower all-cause mortality and 5% lower cancer mortality.
+    (https://pubmed.ncbi.nlm.nih.gov/33684200/). Supplementation not shown
+    to reduce mortality in RCTs. 2024 umbrella meta-analysis: supplementation
+    reduces SBP by -1.25mmHg, DBP by -1.40mmHg.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC11401110/). Dietary benefits;
+    supplementation for BP only.
+  mean: 0.94
+  std: 0.05
+- outcome: Years of delayed aging
+  evidence: |
+    Involved in DNA repair and cellular energy production. Deficiency
+    associated with accelerated aging. May support mitochondrial function.
+    No epigenetic clock studies. Moderate confidence.
+  mean: 0.3
+  std: 0.6
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Deficiency causes fatigue, muscle cramps, and anxiety. Supplementation
+    may improve sleep and reduce anxiety in deficient individuals. Limited
+    RCT evidence in replete individuals.
+  mean: 0.2
+  std: 0.3
+summary: "Essential mineral involved in 300+ enzymatic reactions. Dietary intake\n\
+  associated with 6% lower all-cause mortality per 100mg/day; supplementation\nreduces
+  BP by 2-3mmHg (RCTs)."

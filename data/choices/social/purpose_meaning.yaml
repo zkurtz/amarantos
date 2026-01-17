@@ -1,34 +1,41 @@
 domain: social
-name: Sense of Purpose (ikigai, meaningful work/activities)
-summary: |
-  Having a sense of purpose, meaning, or reason for living (ikigai in Japanese).
-  Prospective studies: strong purpose associated with 20% lower mortality.
-  Japanese cohort (n=43,000): lacking ikigai associated with higher CVD
-  mortality. Mechanisms may include better health behaviors, stress resilience,
-  and social engagement. Evidence quality moderate; associative.
+name: Sense of Purpose
+specification:
+  duration_h: 0.5
+  weekly_freq: 7
+  annual_cost_h: 200
+  annual_cost_usd: 0
+  description: "Recommended: ikigai, meaningful work/activities. Having a sense of
+    purpose, meaning, or reason for living (ikigai in Japanese).\nProspective studies:
+    strong purpose associated with 20% lower mortality.\nJapanese cohort (n=43,000):
+    lacking ikigai associated with higher CVD\nmortality. Mechanisms may include better
+    health behaviors, stress resilience,\nand social engagement. Evidence quality
+    moderate; associative."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      Meta-analysis of 10 prospective studies (n=136,265): high purpose in
-      life HR 0.83 (95% CI: 0.75-0.91) for all-cause mortality.
-      (https://pubmed.ncbi.nlm.nih.gov/26630073/). Japanese cohort
-      (n=43,391): lacking ikigai associated with higher CVD and external
-      cause mortality. (https://pubmed.ncbi.nlm.nih.gov/18596247/).
-      Consistent associative evidence.
-    mean: 0.83
-    std: 0.06
-  - outcome: Years of delayed aging
-    evidence: |
-      Purpose associated with reduced inflammation, better metabolic health,
-      and possibly slower cognitive decline. May promote health behaviors.
-      No direct epigenetic aging studies. Moderate indirect evidence.
-    mean: 0.8
-    std: 0.7
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Eudaimonic wellbeing (meaning/purpose) associated with life satisfaction
-      independent of hedonic pleasure. Retirement without purpose associated
-      with decline. Finding meaning buffers against stress. Moderate-large
-      positive effect.
-    mean: 0.7
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 10 prospective studies (n=136,265): high purpose in
+    life HR 0.83 (95% CI: 0.75-0.91) for all-cause mortality.
+    (https://pubmed.ncbi.nlm.nih.gov/26630073/). Japanese cohort
+    (n=43,391): lacking ikigai associated with higher CVD and external
+    cause mortality. (https://pubmed.ncbi.nlm.nih.gov/18596247/).
+    Consistent associative evidence.
+  mean: 0.83
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    Purpose associated with reduced inflammation, better metabolic health,
+    and possibly slower cognitive decline. May promote health behaviors.
+    No direct epigenetic aging studies. Moderate indirect evidence.
+  mean: 0.8
+  std: 0.7
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Eudaimonic wellbeing (meaning/purpose) associated with life satisfaction
+    independent of hedonic pleasure. Retirement without purpose associated
+    with decline. Finding meaning buffers against stress. Moderate-large
+    positive effect.
+  mean: 0.7
+  std: 0.3
+summary: 'Having a sense of purpose, meaning, or reason for living (ikigai in Japanese).
+  Prospective studies: strong purpose associated with 20% lower mortality.'

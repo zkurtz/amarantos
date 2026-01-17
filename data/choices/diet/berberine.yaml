@@ -1,31 +1,38 @@
 domain: diet
-name: Berberine (500-1500mg/day)
-summary: |
-  Plant alkaloid with significant effects on metabolic markers: reduces LDL
-  (~0.5mmol/L), triglycerides, fasting glucose, and waist circumference. No
-  mortality RCTs. Improves 78% of CVD outcomes and 92% of T2DM outcomes in
-  meta-analyses. Generally safe; GI side effects common. Evidence quality is
-  low-moderate.
+name: Berberine
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 100
+  description: "Recommended: 500-1500mg/day. Plant alkaloid with significant effects
+    on metabolic markers: reduces LDL\n(~0.5mmol/L), triglycerides, fasting glucose,
+    and waist circumference. No\nmortality RCTs. Improves 78% of CVD outcomes and
+    92% of T2DM outcomes in\nmeta-analyses. Generally safe; GI side effects common.
+    Evidence quality is\nlow-moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. Meta-analysis of 44 RCTs (n=4,606) shows improved
-      lipids and glucose. Dong 2023
-      (https://www.sciencedirect.com/science/article/abs/pii/S0944711323000740).
-      Theoretical CVD benefit via metabolic improvements. Extrapolated estimate
-      with high uncertainty.
-    mean: 0.95
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      Activates AMPK pathway linked to longevity in animal models. Reduces
-      inflammation markers. No human aging studies. Speculative.
-    mean: 0.0
-    std: 0.8
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      No direct mood RCTs. May improve energy via glucose regulation in
-      diabetics. GI side effects (nausea, constipation) may reduce wellbeing
-      in some. Net effect uncertain.
-    mean: 0.0
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. Meta-analysis of 44 RCTs (n=4,606) shows improved
+    lipids and glucose. Dong 2023
+    (https://www.sciencedirect.com/science/article/abs/pii/S0944711323000740).
+    Theoretical CVD benefit via metabolic improvements. Extrapolated estimate
+    with high uncertainty.
+  mean: 0.95
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    Activates AMPK pathway linked to longevity in animal models. Reduces
+    inflammation markers. No human aging studies. Speculative.
+  mean: 0.0
+  std: 0.8
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    No direct mood RCTs. May improve energy via glucose regulation in
+    diabetics. GI side effects (nausea, constipation) may reduce wellbeing
+    in some. Net effect uncertain.
+  mean: 0.0
+  std: 0.3
+summary: "Plant alkaloid with significant effects on metabolic markers: reduces LDL\n\
+  (~0.5mmol/L), triglycerides, fasting glucose, and waist circumference. No\nmortality
+  RCTs."

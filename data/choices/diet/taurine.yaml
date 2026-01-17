@@ -1,33 +1,40 @@
 domain: diet
-name: Taurine (500-3000mg/day)
-summary: |
-  Sulfur amino acid with strong 2023 Science paper showing lifespan extension
-  in mice/monkeys and healthspan benefits. Meta-analyses show reduced BP, fasting
-  glucose, and TG in humans. 2025 NIH study questions taurine as aging biomarker.
-  Declines with age; supplementation may restore levels. Found in meat, fish,
-  dairy. Evidence quality moderate; human longevity data pending.
+name: Taurine
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 60
+  description: "Recommended: 500-3000mg/day. Sulfur amino acid with strong 2023 Science
+    paper showing lifespan extension\nin mice/monkeys and healthspan benefits. Meta-analyses
+    show reduced BP, fasting\nglucose, and TG in humans. 2025 NIH study questions
+    taurine as aging biomarker.\nDeclines with age; supplementation may restore levels.
+    Found in meat, fish,\ndairy. Evidence quality moderate; human longevity data pending."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No mortality RCTs. 2023 Science: taurine supplementation extended lifespan
-      in mice and healthspan in monkeys. (https://www.science.org/doi/10.1126/science.abn9257).
-      2024 meta-analysis of 25 RCTs: reduced BP, FBG, TG in humans.
-      (https://pmc.ncbi.nlm.nih.gov/articles/PMC11325608/). Promising but human
-      longevity trials needed. Extrapolated estimate.
-    mean: 0.94
-    std: 0.08
-  - outcome: Years of delayed aging
-    evidence: |
-      2023 Science: reduced cellular senescence, protected telomeres, improved
-      mitochondrial function in animals. Extended C. elegans lifespan 10-23%.
-      2025 NIH study: taurine unlikely to be good aging biomarker in humans.
-      (https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker).
-      High uncertainty.
-    mean: 0.5
-    std: 1.0
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      May support cardiovascular and brain function. Found in energy drinks
-      (though effects may be caffeine-driven). Limited direct mood RCT data.
-    mean: 0.1
-    std: 0.3
+- outcome: Relative mortality risk
+  evidence: |
+    No mortality RCTs. 2023 Science: taurine supplementation extended lifespan
+    in mice and healthspan in monkeys. (https://www.science.org/doi/10.1126/science.abn9257).
+    2024 meta-analysis of 25 RCTs: reduced BP, FBG, TG in humans.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC11325608/). Promising but human
+    longevity trials needed. Extrapolated estimate.
+  mean: 0.94
+  std: 0.08
+- outcome: Years of delayed aging
+  evidence: |
+    2023 Science: reduced cellular senescence, protected telomeres, improved
+    mitochondrial function in animals. Extended C. elegans lifespan 10-23%.
+    2025 NIH study: taurine unlikely to be good aging biomarker in humans.
+    (https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker).
+    High uncertainty.
+  mean: 0.5
+  std: 1.0
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    May support cardiovascular and brain function. Found in energy drinks
+    (though effects may be caffeine-driven). Limited direct mood RCT data.
+  mean: 0.1
+  std: 0.3
+summary: "Sulfur amino acid with strong 2023 Science paper showing lifespan extension\n\
+  in mice/monkeys and healthspan benefits. Meta-analyses show reduced BP, fasting\n\
+  glucose, and TG in humans."

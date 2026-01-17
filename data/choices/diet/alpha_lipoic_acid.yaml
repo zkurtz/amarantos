@@ -1,33 +1,39 @@
 domain: diet
-name: Alpha Lipoic Acid (300-600mg/day)
-summary: |
-  Antioxidant with modest benefits for glycemic control and diabetic neuropathy.
-  No mortality data from large trials. Small weight loss effect (~1.3kg). May
-  reduce inflammatory markers. Generally well-tolerated. Evidence quality is low
-  to moderate.
+name: Alpha Lipoic Acid
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: "Recommended: 300-600mg/day. Antioxidant with modest benefits for glycemic
+    control and diabetic neuropathy.\nNo mortality data from large trials. Small weight
+    loss effect (~1.3kg). May\nreduce inflammatory markers. Generally well-tolerated.
+    Evidence quality is low\nto moderate."
 effects:
-  - outcome: Relative mortality risk
-    evidence: |
-      No large-scale mortality trials. One small COVID-19 RCT (n=17) showed
-      non-significant trend toward lower 30-day mortality (37.5% vs 77.8%, p=0.09).
-      Cannot draw conclusions from this. Zhong 2021
-      (https://www.frontiersin.org/articles/10.3389/fmed.2021.566609/full).
-      Centered at null with large uncertainty.
-    mean: 1.0
-    std: 0.15
-  - outcome: Years of delayed aging
-    evidence: |
-      Antioxidant properties theoretically relevant to aging. Reduces some
-      inflammatory markers. No epigenetic clock or biological age studies.
-      Animal studies show lifespan extension but human translation uncertain.
-      Highly speculative.
-    mean: 0.0
-    std: 1.0
-  - outcome: Subjective wellbeing - number of just-noticeable differences
-    evidence: |
-      Improves diabetic neuropathy symptoms (pain, burning). Meta-analysis of
-      9 RCTs shows benefit for neuropathy. Soliman 2024
-      (https://www.explorationpub.com/Journals/ent/Article/1004125). Indirect
-      wellbeing benefit through symptom relief in diabetics only.
-    mean: 0.1
-    std: 0.2
+- outcome: Relative mortality risk
+  evidence: |
+    No large-scale mortality trials. One small COVID-19 RCT (n=17) showed
+    non-significant trend toward lower 30-day mortality (37.5% vs 77.8%, p=0.09).
+    Cannot draw conclusions from this. Zhong 2021
+    (https://www.frontiersin.org/articles/10.3389/fmed.2021.566609/full).
+    Centered at null with large uncertainty.
+  mean: 1.0
+  std: 0.15
+- outcome: Years of delayed aging
+  evidence: |
+    Antioxidant properties theoretically relevant to aging. Reduces some
+    inflammatory markers. No epigenetic clock or biological age studies.
+    Animal studies show lifespan extension but human translation uncertain.
+    Highly speculative.
+  mean: 0.0
+  std: 1.0
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Improves diabetic neuropathy symptoms (pain, burning). Meta-analysis of
+    9 RCTs shows benefit for neuropathy. Soliman 2024
+    (https://www.explorationpub.com/Journals/ent/Article/1004125). Indirect
+    wellbeing benefit through symptom relief in diabetics only.
+  mean: 0.1
+  std: 0.2
+summary: Antioxidant with modest benefits for glycemic control and diabetic
+  neuropathy. No mortality data from large trials.

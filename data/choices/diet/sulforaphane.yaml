@@ -1,5 +1,11 @@
 domain: diet
-name: Sulforaphane (Broccoli Sprouts)
+name: Sulforaphane
+specification:
+  duration_h: 0.001
+  weekly_freq: 7
+  annual_cost_h: 5
+  annual_cost_usd: 120
+  description: 'Recommended: Broccoli Sprouts.'
 effects:
 - outcome: Relative risk of cancer incidence; regular cruciferous intake vs low
     intake; Nrf2 pathway activation

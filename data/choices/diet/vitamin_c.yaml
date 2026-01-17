@@ -1,5 +1,11 @@
 domain: diet
 name: Vitamin C
+specification:
+  duration_h: 0.5
+  weekly_freq: 3
+  annual_cost_h: 100
+  annual_cost_usd: 100
+  description: ''
 effects:
 - outcome: Relative risk of all-cause mortality; adequate intake (>100mg/day) vs
     deficient; diminishing returns at high doses

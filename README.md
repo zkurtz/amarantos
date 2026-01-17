@@ -2,8 +2,6 @@
 
 Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντος) is Greek for "unfading" or "immortal" and is the root of *amaranth*—a flower known for retaining its color even when dried.
 
-Amarantos includes a mix of documentation, awesome lists, and software (python-based) tooling to lighten your wellness journey.
-
 ## Awesome Longevity Resources
 
 A curated list of products, tools, and resources for personal wellness and longevity.
@@ -41,7 +39,7 @@ A curated list of products, tools, and resources for personal wellness and longe
 ### Tracking & Measurement
 
 - [Oura Ring](https://ouraring.com/) - Sleep and activity tracking
-- [Levels](https://www.levels.com/) - Continuous glucose monitoring  
+- [Levels](https://www.levels.com/) - Continuous glucose monitoring
 - [InsideTracker](https://www.insidetracker.com/) - Blood biomarker analysis
 - [WHOOP](https://www.whoop.com/) - Strain and recovery monitoring
 

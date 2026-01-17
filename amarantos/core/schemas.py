@@ -1,6 +1,7 @@
 """Schemas for choice data and user profiles."""
 
 import re
+from enum import StrEnum
 from pathlib import Path
 
 import attrs
@@ -21,11 +22,29 @@ def _name_to_filename(name: str) -> str:
     return clean.strip("_") + ".yaml"
 
 
+class Outcome(StrEnum):
+    """Health outcomes that can be measured -- at least in principle -- on a continuous scale."""
+
+    RELATIVE_MORTALITY_RISK = "Relative mortality risk"
+    DELAYED_AGING = "Years of delayed aging"
+    SUBJECTIVE_WELLBEING = "Subjective wellbeing - number of just-noticeable differences"
+
+
 @attrs.frozen
 class Effect:
-    """A Gaussian-distributed health effect estimate."""
+    """A Gaussian-distributed health effect estimate.
 
-    outcome: str
+    Attributes:
+        outcome: The health outcome being measured.
+        evidence: A summary of the evidence supporting this effect. Open-ended, but ideally includes things such as
+            the nature of the studies, sample sizes, and any relevant statistical measures, or first-principles
+            reasoning.
+        mean: The mean effect estimate.
+        std: The standard deviation of the effect estimate.
+    """
+
+    outcome: Outcome
+    evidence: str
     mean: float
     std: float
 

@@ -1,0 +1,31 @@
+domain: mind
+name: Gratitude Practice (journaling, reflection)
+summary: |
+  Regular gratitude exercises including journaling, counting blessings, and
+  gratitude letters. Meta-analysis of 38 RCTs: small but significant effects
+  on wellbeing (d=0.31). May improve sleep quality and reduce depression
+  symptoms. Simple intervention with low time cost. No mortality data.
+  Evidence quality moderate from RCTs.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      No direct mortality studies. Positive affect associated with lower
+      CVD risk in observational studies. Gratitude may improve health
+      behaviors. Effect on mortality highly speculative.
+    mean: 1.0
+    std: 0.10
+  - outcome: Years of delayed aging
+    evidence: |
+      Positive psychological states associated with reduced inflammation
+      in observational studies. No direct aging data. Speculative.
+    mean: 0.1
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 38 RCTs (n=6,139): gratitude interventions improve
+      wellbeing (d=0.31), life satisfaction, and positive affect.
+      (https://pubmed.ncbi.nlm.nih.gov/33475509/). May improve sleep
+      quality. Effects smaller in clinical populations. Small-moderate
+      positive effect.
+    mean: 0.4
+    std: 0.2

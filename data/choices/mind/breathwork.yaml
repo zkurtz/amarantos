@@ -1,0 +1,32 @@
+domain: mind
+name: Breathwork Practice (slow breathing, box breathing)
+summary: |
+  Deliberate breathing techniques including slow breathing (5-6 breaths/min),
+  box breathing, and resonance breathing. Activates parasympathetic nervous
+  system, reduces HRV, lowers BP. Meta-analysis: reduces anxiety comparable
+  to relaxation techniques. Less studied than meditation. Evidence quality
+  low-moderate; mostly small studies.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      No direct mortality studies. Slow breathing reduces blood pressure
+      by 3-4 mmHg in meta-analysis. (https://pubmed.ncbi.nlm.nih.gov/31875792/).
+      Improves HRV, a marker of autonomic health. Effect on mortality
+      extrapolated from physiological improvements. Highly speculative.
+    mean: 0.98
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      Improved HRV associated with lower biological age. Parasympathetic
+      activation may reduce chronic stress burden. No direct aging studies.
+      Speculative extrapolation from stress physiology.
+    mean: 0.1
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis: slow breathing reduces anxiety with moderate effect
+      (d=0.35). (https://pubmed.ncbi.nlm.nih.gov/32209269/). Acute stress
+      reduction well-documented. Can be practiced anywhere. Small-moderate
+      positive effect.
+    mean: 0.3
+    std: 0.3

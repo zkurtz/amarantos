@@ -1,0 +1,32 @@
+domain: thermal
+name: Cold Exposure (cold showers, ice baths)
+summary: |
+  Deliberate cold exposure via showers (30sec-3min) or immersion (10-15°C).
+  2025 meta-analysis: may reduce stress and improve sleep quality with limited
+  evidence; little support for mood or immunity claims. Enhances parasympathetic
+  activity. May reduce adipose tissue and improve insulin sensitivity. CAUTION:
+  contraindicated in CVD. Evidence quality low; mostly small studies.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs. 2025 PLOS One meta-analysis (11 studies, n=3,177):
+      limited evidence for health benefits. (https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317615).
+      May reduce insulin resistance and body fat. CAUTION: contraindicated
+      in cardiovascular disease. (https://www.heart.org/en/news/2022/12/09/youre-not-a-polar-bear-the-plunge-into-cold-water-comes-with-risks).
+      Centered at null with uncertainty.
+    mean: 1.0
+    std: 0.10
+  - outcome: Years of delayed aging
+    evidence: |
+      Cold exposure activates brown adipose tissue and may improve metabolic
+      health. Hormetic stress may enhance resilience. Limited human longevity
+      data. Speculative.
+    mean: 0.2
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Anecdotal reports of improved alertness and mood. Meta-analysis found
+      little evidence for mood benefits. May improve stress tolerance.
+      Effects variable between individuals. Small effect uncertain.
+    mean: 0.2
+    std: 0.4

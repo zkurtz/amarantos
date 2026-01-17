@@ -1,0 +1,34 @@
+domain: mind
+name: Meditation Practice (20+ min/day)
+summary: |
+  Regular meditation includes mindfulness, transcendental, and focused attention
+  practices. Meta-analyses show reduced anxiety, depression, and stress. May
+  lower blood pressure (3-5 mmHg). Limited direct mortality data. Improves
+  emotional regulation and attention. Effects comparable to first-line
+  treatments for anxiety. Evidence quality moderate from RCTs.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      No large mortality RCTs. TM practitioners showed reduced CVD mortality
+      in small trial (n=201). (https://pubmed.ncbi.nlm.nih.gov/23149426/).
+      Meta-analysis: meditation reduces BP by 3-5 mmHg, comparable to lifestyle
+      interventions. (https://pubmed.ncbi.nlm.nih.gov/28384004/). Effect on
+      mortality extrapolated from CVD risk factor improvements. Speculative.
+    mean: 0.95
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      Small studies suggest meditation may slow epigenetic aging and preserve
+      telomere length. (https://pubmed.ncbi.nlm.nih.gov/23092711/). Reduces
+      chronic stress and inflammation markers. Limited and mixed evidence.
+      Plausible but speculative.
+    mean: 0.3
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Meta-analysis of 47 RCTs (n=3,515): moderate effect on anxiety (d=0.38),
+      depression (d=0.30), and stress (d=0.33). (https://pubmed.ncbi.nlm.nih.gov/24395196/).
+      Effects comparable to CBT for anxiety. Improves emotional regulation
+      and life satisfaction. Moderate-large positive effect.
+    mean: 0.6
+    std: 0.3

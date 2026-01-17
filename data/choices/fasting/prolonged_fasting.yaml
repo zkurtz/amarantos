@@ -1,0 +1,33 @@
+domain: fasting
+name: Prolonged Fasting (3-5 day water fast, periodic)
+summary: |
+  Extended fasting periods of 3-5 days, typically water-only, done periodically
+  (1-4x/year). Profoundly activates autophagy and stem cell regeneration in
+  animal models. Fasting-mimicking diet (FMD) RCTs show improved biomarkers.
+  CAUTION: medical supervision recommended. Limited human longevity data.
+  Evidence quality low; mostly mechanistic and FMD surrogate data.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      No mortality RCTs for prolonged fasting. FMD trial (n=100): improved
+      CVD risk factors, reduced IGF-1, lower inflammation markers.
+      (https://pubmed.ncbi.nlm.nih.gov/28202779/). CAUTION: risks include
+      electrolyte imbalance, refeeding syndrome if not done properly.
+      Speculative mortality benefit with notable risks.
+    mean: 0.92
+    std: 0.15
+  - outcome: Years of delayed aging
+    evidence: |
+      Strongest autophagy activation of fasting interventions. Animal studies:
+      periodic prolonged fasting extends lifespan. FMD reduces biological
+      age markers in humans. (https://pubmed.ncbi.nlm.nih.gov/35148523/).
+      Promising but limited human data. High uncertainty.
+    mean: 0.8
+    std: 1.0
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Fasting period: significant hunger, fatigue, cognitive fog (days 1-2).
+      Many report mental clarity days 3-5 (ketosis). Post-fast: improved
+      relationship with food, appreciation for eating. Net effect variable.
+    mean: 0.0
+    std: 0.5

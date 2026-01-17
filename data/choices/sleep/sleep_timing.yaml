@@ -1,0 +1,34 @@
+domain: sleep
+name: Consistent Sleep Timing (regular schedule, earlier chronotype)
+summary: |
+  Sleep timing regularity and chronotype affect health outcomes. UK Biobank
+  (n=433,268): evening chronotype associated with 10% higher mortality vs
+  morning type. Sleep irregularity (>60min variability) linked to metabolic
+  dysfunction and CVD risk. Circadian alignment may be as important as
+  duration. Evidence quality moderate from large cohorts.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      UK Biobank (n=433,268): evening chronotype HR 1.10 (95% CI: 1.02-1.18)
+      vs morning type for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/29669607/).
+      Sleep irregularity associated with metabolic syndrome and CVD risk.
+      (https://pubmed.ncbi.nlm.nih.gov/31672995/). Shift work associated
+      with increased mortality. Associative evidence; confounding possible.
+    mean: 0.92
+    std: 0.05
+  - outcome: Years of delayed aging
+    evidence: |
+      Circadian disruption accelerates cellular aging in animal models.
+      Shift workers show accelerated cognitive decline. Regular sleep
+      timing supports hormonal regulation and repair processes.
+      Limited direct human aging data. Moderate confidence.
+    mean: 0.5
+    std: 0.6
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Evening types report higher rates of depression and anxiety.
+      Social jet lag (weekend-weekday mismatch) associated with worse
+      mood and cognitive performance. Circadian alignment improves
+      daytime alertness. Moderate positive effect.
+    mean: 0.4
+    std: 0.3

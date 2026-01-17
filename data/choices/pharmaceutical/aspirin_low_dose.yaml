@@ -1,0 +1,33 @@
+domain: pharmaceutical
+name: Low-Dose Aspirin (81-100mg daily)
+summary: |
+  Once standard primary prevention, now more nuanced. ASPREE trial (n=19,114,
+  age 70+): no CVD benefit, increased bleeding. Benefits clearer for secondary
+  prevention. May reduce colorectal cancer (NNT ~200 over 10-20 years).
+  CAUTION: bleeding risk increases with age. Guidelines now recommend against
+  routine primary prevention in elderly. Evidence quality high.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      ASPREE trial (n=19,114, age≥70, healthy): HR 1.14 for all-cause
+      mortality with aspirin. (https://pubmed.ncbi.nlm.nih.gov/30221596/).
+      Meta-analysis for primary prevention: no mortality benefit (HR 0.94,
+      CI: 0.88-1.01), significant bleeding increase.
+      (https://pubmed.ncbi.nlm.nih.gov/30676625/). May reduce CRC mortality
+      long-term. Complex risk-benefit; population-dependent.
+    mean: 1.0
+    std: 0.06
+  - outcome: Years of delayed aging
+    evidence: |
+      No direct aging benefits. Anti-inflammatory effects theoretically
+      relevant. ASPREE showed possible cognitive harm in elderly. Not
+      recommended for aging prevention. Centered at null.
+    mean: 0.0
+    std: 0.3
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Generally well-tolerated. GI discomfort in some. Increased bruising.
+      Peace of mind for some users; anxiety about bleeding for others.
+      Essentially neutral for wellbeing.
+    mean: 0.0
+    std: 0.2

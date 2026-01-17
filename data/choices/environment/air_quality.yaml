@@ -1,0 +1,35 @@
+domain: environment
+name: Air Quality Optimization (HEPA filtration, low-pollution living)
+summary: |
+  Within first-world variation range: indoor air filtration, choosing lower
+  pollution neighborhoods, avoiding high-traffic areas. PM2.5 strongly
+  associated with mortality even at levels below WHO guidelines. HEPA filters
+  reduce indoor particles by 50-70%. Moving from moderate to low pollution
+  areas shows measurable benefit. Evidence quality high for air pollution
+  effects; moderate for intervention effectiveness.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis: 10 μg/m³ increase in PM2.5 associated with 6-8% higher
+      mortality. (https://pubmed.ncbi.nlm.nih.gov/25260911/). Effects persist
+      below WHO guidelines. Within first-world range (5-25 μg/m³), moving
+      from high to low exposure meaningful. HEPA filter RCTs show reduced
+      BP and inflammation markers. (https://pubmed.ncbi.nlm.nih.gov/26178426/).
+    mean: 0.95
+    std: 0.05
+  - outcome: Years of delayed aging
+    evidence: |
+      Air pollution associated with accelerated epigenetic aging and
+      shorter telomeres. (https://pubmed.ncbi.nlm.nih.gov/26133619/).
+      PM2.5 exposure linked to cognitive decline. Reducing exposure
+      may slow these processes. Moderate evidence.
+    mean: 0.3
+    std: 0.4
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Air pollution associated with reduced cognitive performance and
+      increased depression symptoms. Cleaner air improves respiratory
+      comfort. HEPA filters reduce allergy symptoms. Small positive
+      effect within first-world variation range.
+    mean: 0.2
+    std: 0.2

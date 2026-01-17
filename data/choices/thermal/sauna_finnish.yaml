@@ -1,0 +1,34 @@
+domain: thermal
+name: Finnish Sauna (4-7x/week, 15-20min)
+summary: |
+  Best-studied heat therapy with strong mortality data. Finnish cohort (n=2,315):
+  4-7x/week sauna associated with 40% lower all-cause mortality, 50% lower CVD
+  mortality, 63% lower sudden cardiac death vs 1x/week. Effects persist after
+  adjustment for exercise and risk factors. Improves endothelial function, lowers
+  BP. Evidence quality high from large prospective cohorts.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      Kuopio cohort (n=2,315, 20.7y follow-up): 4-7x/week vs 1x/week: HR 0.60
+      for all-cause mortality, HR 0.50 for CVD mortality, HR 0.37 for sudden
+      cardiac death. (https://pubmed.ncbi.nlm.nih.gov/25705824/). Extended
+      cohort including women (n=1,688): linear decrease in CVD mortality with
+      frequency. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6262976/).
+      Associative evidence; highly consistent.
+    mean: 0.65
+    std: 0.06
+  - outcome: Years of delayed aging
+    evidence: |
+      Heat shock proteins induced by sauna may protect against protein
+      aggregation. Improves vascular function and reduces inflammation.
+      Associated with lower dementia risk. No epigenetic clock studies.
+      Strong biological plausibility.
+    mean: 1.5
+    std: 0.8
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Sauna associated with improved mood and relaxation. May improve sleep
+      quality. Social component in traditional Finnish culture. Moderate
+      positive effect likely.
+    mean: 0.4
+    std: 0.3

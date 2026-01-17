@@ -1,0 +1,33 @@
+domain: sleep
+name: Strategic Napping (<30min, early afternoon)
+summary: |
+  Napping shows complex dose-response. Meta-analysis: naps >60min associated
+  with 30% higher mortality, likely marker of poor nocturnal sleep or illness.
+  Short naps (<30min) may be neutral or slightly beneficial. Afternoon timing
+  aligns with circadian dip. Benefits may depend on context (siesta cultures,
+  sleep debt). Evidence quality low-moderate; confounding concerns.
+effects:
+  - outcome: Relative mortality risk
+    evidence: |
+      Meta-analysis (n=313,651): napping >60min HR 1.30 (95% CI: 1.10-1.54)
+      for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/32741032/).
+      Short naps (<30min) showed no significant mortality association.
+      Long naps may indicate underlying health issues or poor nocturnal
+      sleep. Associative evidence with significant confounding concerns.
+    mean: 1.0
+    std: 0.08
+  - outcome: Years of delayed aging
+    evidence: |
+      Brief naps may support memory consolidation and cognitive function.
+      No direct aging data. Long naps associated with cognitive decline
+      in observational studies (possibly reverse causation). Uncertain.
+    mean: 0.1
+    std: 0.5
+  - outcome: Subjective wellbeing - number of just-noticeable differences
+    evidence: |
+      Short naps improve alertness and performance in experimental studies.
+      May reduce afternoon fatigue. Benefits depend on individual sleep
+      need and nocturnal sleep quality. Small positive effect for
+      short naps in sleep-deprived individuals.
+    mean: 0.2
+    std: 0.3

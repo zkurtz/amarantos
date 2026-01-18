@@ -18,8 +18,8 @@ effects:
   mean: 0.92
   std: 0.10
   evidence: |
-    No mortality RCTs. Meta-analysis: similar metabolic improvements to
-    continuous caloric restriction. (https://pubmed.ncbi.nlm.nih.gov/28459931/).
+    No mortality RCTs. Meta-analysis of 18 RCTs: similar weight loss and metabolic
+    improvements to continuous caloric restriction. (https://pubmed.ncbi.nlm.nih.gov/33293678/).
     Ramadan fasting observational studies show mixed results. Effect on
     mortality extrapolated from metabolic benefits. Speculative.
 - outcome: Years of delayed aging
@@ -27,8 +27,9 @@ effects:
   std: 0.7
   evidence: |
     Periodic fasting activates autophagy, reduces IGF-1, and may promote
-    cellular renewal. Animal models show lifespan benefits. Human aging
-    data very limited. Mechanistically promising. Speculative.
+    cellular renewal. (https://pubmed.ncbi.nlm.nih.gov/35310455/). Animal
+    models show lifespan benefits. Human aging data very limited.
+    Mechanistically promising. Speculative.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.0
   std: 0.4

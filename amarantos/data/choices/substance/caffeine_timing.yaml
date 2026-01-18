@@ -14,8 +14,8 @@ specification:
 effects:
 - outcome: Relative mortality risk
   evidence: |
-    Meta-analysis: 3-4 cups coffee/day associated with 12-15% lower
-    all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/28391017/).
+    Meta-analysis: 3-4 cups coffee/day associated with 15% lower
+    all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/31055709/).
     Benefits persist for decaf (polyphenols). Caffeine timing primarily
     affects sleep; sleep affects mortality. Optimal timing supports
     mortality benefit through sleep protection.

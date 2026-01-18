@@ -19,9 +19,9 @@ effects:
   std: 0.06
   evidence: |
     No direct mortality studies for resistance bands specifically. Meta-
-    analyses of resistance training show 21-27% lower all-cause mortality.
+    analysis of resistance training shows 21% lower all-cause mortality.
     Elastic resistance produces similar strength gains to traditional
-    resistance. (https://pubmed.ncbi.nlm.nih.gov/30125562/). Extrapolated
+    resistance. (https://pubmed.ncbi.nlm.nih.gov/31104484/). Extrapolated
     from resistance training literature.
 - outcome: Years of delayed aging
   mean: 0.8

@@ -19,8 +19,8 @@ effects:
   std: 0.12
   evidence: |
     CALERIE trial (n=218, 2 years): 15% CR improved cardiometabolic markers,
-    reduced inflammation (CRP -47%), oxidative stress.
-    (https://pubmed.ncbi.nlm.nih.gov/30291126/). Animal CR extends lifespan
+    reduced inflammation (CRP), oxidative stress.
+    (https://pubmed.ncbi.nlm.nih.gov/31303390/). Animal CR extends lifespan
     20-50%. Okinawan centenarians historically ate ~80% of typical calories.
     Strong mechanistic basis; limited human mortality data.
 - outcome: Years of delayed aging
@@ -28,7 +28,7 @@ effects:
   std: 0.8
   evidence: |
     CALERIE: CR slowed biological aging (~2-3% pace of aging reduction).
-    (https://pubmed.ncbi.nlm.nih.gov/36749879/). Strong evidence in animal
+    (https://pubmed.ncbi.nlm.nih.gov/37118425/). Strong evidence in animal
     models for slowed aging. Best-studied longevity intervention.
     Moderate-high confidence for aging delay.
 - outcome: Subjective wellbeing - number of just-noticeable differences
@@ -36,6 +36,6 @@ effects:
   std: 0.4
   evidence: |
     CALERIE: sustained CR group reported improved mood and quality of life
-    despite chronic mild hunger. (https://pubmed.ncbi.nlm.nih.gov/26839473/).
+    despite chronic mild hunger. (https://pubmed.ncbi.nlm.nih.gov/27136347/).
     Requires strong motivation. Long-term adherence difficult. Cold
     intolerance and reduced energy common. Mixed individual effects.

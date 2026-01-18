@@ -28,9 +28,9 @@ effects:
   std: 0.6
   evidence: |
     Cognitive reserve hypothesis: higher lifetime cognitive engagement
-    delays dementia symptoms. Meta-analysis: cognitively stimulating
-    activities associated with 30-50% reduced dementia risk.
-    (https://pubmed.ncbi.nlm.nih.gov/25631611/). Associative evidence.
+    delays dementia symptoms. NEJM study: cognitively stimulating leisure
+    activities associated with reduced dementia risk.
+    (https://pubmed.ncbi.nlm.nih.gov/12815136/). Associative evidence.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.3
   std: 0.3

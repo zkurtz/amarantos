@@ -7,7 +7,7 @@ from pathlib import Path
 import attrs
 import dummio.yaml
 
-DATA_DIR = Path(__file__).parent.parent.parent / "data"
+DATA_DIR = Path(__file__).parent.parent / "data"
 CHOICES_DIR = DATA_DIR / "choices"
 
 # 95% CI uses 1.96 standard deviations

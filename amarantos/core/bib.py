@@ -2,6 +2,7 @@
 
 from enum import StrEnum
 from pathlib import Path
+from typing import Self
 
 import attrs
 import dummio.yaml
@@ -92,11 +93,12 @@ class Reference:
         authors: Tuple of author names.
         year: Publication year.
         reference_type: Type of publication.
+        keywords: 10-30 words sorted by relevance to longevity/wellness.
+        claims: Tuple of claims extracted from this reference.
         journal: Journal name (for articles).
         doi: Digital Object Identifier.
         pmid: PubMed ID.
         url: Direct URL to the resource.
-        claims: Tuple of claims extracted from this reference.
         abstract: Optional abstract text.
     """
 
@@ -105,6 +107,7 @@ class Reference:
     authors: tuple[str, ...]
     year: int
     reference_type: ReferenceType = attrs.field(converter=_to_reference_type)
+    keywords: tuple[str, ...] = ()
     claims: tuple[Claim, ...] = ()
     journal: str = ""
     volume: str = ""
@@ -135,10 +138,11 @@ class Reference:
         return REFS_DIR / f"{self.id}.yaml"
 
     @classmethod
-    def load(cls, path: Path) -> "Reference":
+    def load(cls, path: Path) -> Self:
         """Load a reference from a YAML file."""
         data = dummio.yaml.load(filepath=path)
         data["authors"] = tuple(data.get("authors", []))
+        data["keywords"] = tuple(data.get("keywords", []))
         data["claims"] = tuple(Claim(**c) for c in data.get("claims", []))
         return cls(**data)
 
@@ -148,6 +152,7 @@ class Reference:
             path = self.path
         data = attrs.asdict(self)
         data["authors"] = list(self.authors)
+        data["keywords"] = list(self.keywords)
         data["claims"] = [attrs.asdict(c) for c in self.claims]
         # Convert enums to strings
         data["reference_type"] = str(self.reference_type)

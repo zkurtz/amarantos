@@ -1,11 +1,20 @@
 """Bibliography schemas for reference management."""
 
+import re
 from enum import StrEnum
 from pathlib import Path
 from typing import Self
 
 import attrs
 import dummio.yaml
+
+# URL validation pattern (basic but catches obvious errors)
+_URL_PATTERN = re.compile(
+    r"^https?://"  # http:// or https://
+    r"(?:[\w-]+\.)+[\w-]+"  # domain
+    r"(?:/[^\s]*)?"  # optional path
+    r"$"
+)
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 REFS_DIR = DATA_DIR / "refs"
@@ -50,6 +59,11 @@ def _to_reference_type(value: ReferenceType | str) -> ReferenceType:
     if isinstance(value, ReferenceType):
         return value
     return ReferenceType(value)
+
+
+def is_valid_url(url: str) -> bool:
+    """Check if a string is a valid URL format."""
+    return bool(_URL_PATTERN.match(url))
 
 
 @attrs.frozen
@@ -107,6 +121,7 @@ class Reference:
     authors: tuple[str, ...]
     year: int
     reference_type: ReferenceType = attrs.field(converter=_to_reference_type)
+    url: str = attrs.field()
     keywords: tuple[str, ...] = ()
     claims: tuple[Claim, ...] = ()
     journal: str = ""
@@ -115,8 +130,15 @@ class Reference:
     pages: str = ""
     doi: str = ""
     pmid: str = ""
-    url: str = ""
     abstract: str = ""
+
+    @url.validator
+    def _validate_url(self, attribute: attrs.Attribute, value: str) -> None:
+        """Validate that url is a properly formatted URL."""
+        if not value:
+            raise ValueError(f"Reference '{self.id}' must have a url")
+        if not is_valid_url(value):
+            raise ValueError(f"Reference '{self.id}' has invalid url: {value}")
 
     @property
     def pubmed_url(self) -> str | None:

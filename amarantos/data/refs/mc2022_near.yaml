@@ -1,5 +1,7 @@
 id: mc2022_near
-title: "Effects of Near-Infrared Light on Well-Being and Health in Human Subjects with Mild Sleep-Related Complaints: A Double-Blind, Randomized, Placebo-Controlled Study"
+title: 'Effects of Near-Infrared Light on Well-Being and Health in Human Subjects
+  with Mild Sleep-Related Complaints: A Double-Blind, Randomized, Placebo-Controlled
+  Study'
 authors:
 - Giménez MC
 - Luxwolda M
@@ -13,13 +15,23 @@ authors:
 - Hut RA
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- being
+- complaints
+- double
+- human
+- infrared
+- light
+- randomized
+- related
+- sleep
+- subjects
 claims: []
-journal: "Biology (Basel)"
-volume: "12"
-issue: "1"
-pages: "60"
-doi: ""
-pmid: ""
+journal: Biology (Basel)
+volume: '12'
+issue: '1'
+pages: '60'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9855677/
-abstract: ""
+abstract: ''

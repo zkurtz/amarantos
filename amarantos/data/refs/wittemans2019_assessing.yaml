@@ -1,5 +1,6 @@
 id: wittemans2019_assessing
-title: "Assessing the causal association of glycine with risk of cardio-metabolic diseases"
+title: Assessing the causal association of glycine with risk of cardio-metabolic
+  diseases
 authors:
 - Wittemans Laura B. L.
 - Lotta Luca A.
@@ -13,13 +14,19 @@ authors:
 - Zeng Lingyao
 year: 2019
 reference_type: Journal article
-keywords: []
+keywords:
+- assessing
+- cardio
+- causal
+- diseases
+- glycine
+- metabolic
 claims: []
-journal: "Nature Communications"
-volume: "10"
-issue: "1"
-pages: ""
-doi: "10.1038/s41467-019-08936-1"
-pmid: ""
+journal: Nature Communications
+volume: '10'
+issue: '1'
+pages: ''
+doi: 10.1038/s41467-019-08936-1
+pmid: ''
 url: https://www.nature.com/articles/s41467-019-08936-1
-abstract: ""
+abstract: ''

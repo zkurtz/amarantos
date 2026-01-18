@@ -1,5 +1,6 @@
 id: xu2024_efficacy
-title: "Efficacy and safety of coenzyme Q10 in heart failure: a meta-analysis of randomized controlled trials"
+title: 'Efficacy and safety of coenzyme Q10 in heart failure: a meta-analysis of randomized
+  controlled trials'
 authors:
 - Xu Jiayi
 - Xiang Luwei
@@ -11,13 +12,24 @@ authors:
 - Gu Zejuan
 year: 2024
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- coenzyme
+- controlled
+- efficacy
+- failure
+- heart
+- meta-analysis
+- randomized
+- safety
+- trials
 claims: []
-journal: "BMC Cardiovascular Disorders"
-volume: "24"
-issue: "1"
-pages: ""
-doi: "10.1186/s12872-024-04232-z"
-pmid: ""
-url: https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z
-abstract: ""
+journal: BMC Cardiovascular Disorders
+volume: '24'
+issue: '1'
+pages: ''
+doi: 10.1186/s12872-024-04232-z
+pmid: ''
+url:
+  https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z
+abstract: ''

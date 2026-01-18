@@ -1,5 +1,7 @@
 id: zhong2022_randomized
-title: "A Randomized, Single-Blind, Group Sequential, Active-Controlled Study to Evaluate the Clinical Efficacy and Safety of α-Lipoic Acid for Critically Ill Patients With Coronavirus Disease 2019 (COVID-19)"
+title: A Randomized, Single-Blind, Group Sequential, Active-Controlled Study to
+  Evaluate the Clinical Efficacy and Safety of α-Lipoic Acid for Critically Ill
+  Patients With Coronavirus Disease 2019 (COVID-19)
 authors:
 - Zhong Ming
 - Sun Aijun
@@ -13,13 +15,23 @@ authors:
 - Yang Wenlong
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- active
+- blind
+- clinical
+- controlled
+- efficacy
+- evaluate
+- group
+- randomized
+- sequential
+- single
 claims: []
-journal: "Frontiers in Medicine"
-volume: "8"
-issue: ""
-pages: ""
-doi: "10.3389/fmed.2021.566609"
-pmid: ""
+journal: Frontiers in Medicine
+volume: '8'
+issue: ''
+pages: ''
+doi: 10.3389/fmed.2021.566609
+pmid: ''
 url: https://www.frontiersin.org/articles/10.3389/fmed.2021.566609/full
-abstract: ""
+abstract: ''

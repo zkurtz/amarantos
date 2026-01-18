@@ -1,5 +1,6 @@
 id: collaborators2012_lowering
-title: "The effects of lowering LDL cholesterol with statin therapy in people at low risk of vascular disease: meta-analysis of individual data from 27 randomised trials"
+title: 'The effects of lowering LDL cholesterol with statin therapy in people at low
+  risk of vascular disease: meta-analysis of individual data from 27 randomised trials'
 authors:
 - Cholesterol Treatment Trialists' (CTT) Collaborators
 - Mihaylova B
@@ -14,13 +15,23 @@ authors:
 - et al.
 year: 2012
 reference_type: Journal article
-keywords: []
+keywords:
+- cholesterol
+- individual
+- lowering
+- meta-analysis
+- people
+- randomised
+- statin
+- therapy
+- trials
+- vascular
 claims: []
-journal: "Lancet"
-volume: "380"
-issue: "9841"
-pages: "581-90"
-doi: ""
-pmid: "22607822"
+journal: Lancet
+volume: '380'
+issue: '9841'
+pages: 581-90
+doi: ''
+pmid: '22607822'
 url: https://pubmed.ncbi.nlm.nih.gov/22607822/
-abstract: ""
+abstract: ''

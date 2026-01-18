@@ -1,5 +1,6 @@
 id: ar2019_metformin
-title: "Metformin inhibits mitochondrial adaptations to aerobic exercise training in older adults"
+title: Metformin inhibits mitochondrial adaptations to aerobic exercise training
+  in older adults
 authors:
 - Konopka AR
 - Laurin JL
@@ -14,13 +15,22 @@ authors:
 - et al.
 year: 2019
 reference_type: Journal article
-keywords: []
+keywords:
+- adaptations
+- aerobic
+- aging
+- exercise
+- inhibits
+- metformin
+- mitochondrial
+- older
+- training
 claims: []
-journal: "Aging Cell"
-volume: "18"
-issue: "1"
-pages: "e12880"
-doi: ""
-pmid: "30548390"
+journal: Aging Cell
+volume: '18'
+issue: '1'
+pages: e12880
+doi: ''
+pmid: '30548390'
 url: https://pubmed.ncbi.nlm.nih.gov/30548390/
-abstract: ""
+abstract: ''

@@ -1,5 +1,6 @@
 id: bhamidipati2019_underreporting
-title: "On the underreporting of health-related quality of life and regulatory approval"
+title: On the underreporting of health-related quality of life and regulatory
+  approval
 authors:
 - Bhamidipati D.
 - Anand S.
@@ -8,13 +9,19 @@ authors:
 - Overman M.J.
 year: 2019
 reference_type: Journal article
-keywords: []
+keywords:
+- approval
+- oncology
+- quality
+- regulatory
+- related
+- underreporting
 claims: []
-journal: "Annals of Oncology"
-volume: "30"
-issue: "4"
-pages: "657-658"
-doi: "10.1093/annonc/mdz033"
-pmid: ""
+journal: Annals of Oncology
+volume: '30'
+issue: '4'
+pages: 657-658
+doi: 10.1093/annonc/mdz033
+pmid: ''
 url: https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext
-abstract: ""
+abstract: ''

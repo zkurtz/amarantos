@@ -1,5 +1,6 @@
 id: dj2020_selenium
-title: "Selenium, antioxidants, cardiovascular disease, and all-cause mortality: a systematic review and meta-analysis of randomized controlled trials"
+title: 'Selenium, antioxidants, cardiovascular disease, and all-cause mortality: a
+  systematic review and meta-analysis of randomized controlled trials'
 authors:
 - Jenkins DJ
 - Kitts D
@@ -13,13 +14,23 @@ authors:
 - Kendall CW
 year: 2020
 reference_type: Journal article
-keywords: []
+keywords:
+- antioxidants
+- cardiovascular
+- cause
+- controlled
+- meta-analysis
+- mortality
+- randomized
+- selenium
+- systematic review
+- trials
 claims: []
-journal: "Am J Clin Nutr"
-volume: "112"
-issue: "6"
-pages: "1642-1652"
-doi: ""
-pmid: ""
+journal: Am J Clin Nutr
+volume: '112'
+issue: '6'
+pages: 1642-1652
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7727482/
-abstract: ""
+abstract: ''

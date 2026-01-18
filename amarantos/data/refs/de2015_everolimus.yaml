@@ -1,5 +1,6 @@
 id: de2015_everolimus
-title: "Everolimus combined with gefitinib in patients with metastatic castration-resistant prostate cancer: Phase 1/2 results and signaling pathway implications"
+title: 'Everolimus combined with gefitinib in patients with metastatic castration-resistant
+  prostate cancer: Phase 1/2 results and signaling pathway implications'
 authors:
 - Rathkopf DE
 - Larson SM
@@ -13,13 +14,23 @@ authors:
 - Scher HI
 year: 2015
 reference_type: Journal article
-keywords: []
+keywords:
+- cancer
+- castration
+- combined
+- everolimus
+- gefitinib
+- metastatic
+- phase
+- prostate
+- resistant
+- results
 claims: []
-journal: "Cancer"
-volume: "121"
-issue: "21"
-pages: "3853-61"
-doi: ""
-pmid: "26178426"
+journal: Cancer
+volume: '121'
+issue: '21'
+pages: 3853-61
+doi: ''
+pmid: '26178426'
 url: https://pubmed.ncbi.nlm.nih.gov/26178426/
-abstract: ""
+abstract: ''

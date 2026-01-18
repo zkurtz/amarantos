@@ -1,5 +1,6 @@
 id: x2011_cruciferous
-title: "Cruciferous vegetable consumption is associated with a reduced risk of total and cardiovascular disease mortality"
+title: Cruciferous vegetable consumption is associated with a reduced risk of
+  total and cardiovascular disease mortality
 authors:
 - Zhang X
 - Shu XO
@@ -12,13 +13,20 @@ authors:
 - Zheng W
 year: 2011
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- consumption
+- cruciferous
+- mortality
+- reduced
+- total
+- vegetable
 claims: []
-journal: "Am J Clin Nutr"
-volume: "94"
-issue: "1"
-pages: "240-246"
-doi: ""
-pmid: ""
+journal: Am J Clin Nutr
+volume: '94'
+issue: '1'
+pages: 240-246
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3127519/
-abstract: ""
+abstract: ''

@@ -1,5 +1,6 @@
 id: mr2005_homocysteine
-title: "Effect of homocysteine-lowering nutrients on blood lipids: results from four randomised, placebo-controlled studies in healthy humans"
+title: 'Effect of homocysteine-lowering nutrients on blood lipids: results from four
+  randomised, placebo-controlled studies in healthy humans'
 authors:
 - Olthof MR
 - van Vliet T
@@ -8,13 +9,23 @@ authors:
 - Katan MB
 year: 2005
 reference_type: Journal article
-keywords: []
+keywords:
+- blood
+- controlled
+- homocysteine
+- lipids
+- lowering
+- nutrient
+- nutrients
+- placebo
+- randomised
+- results
 claims: []
-journal: "PLoS Med"
-volume: "2"
-issue: "5"
-pages: "e135"
-doi: ""
-pmid: "15916468"
+journal: PLoS Med
+volume: '2'
+issue: '5'
+pages: e135
+doi: ''
+pmid: '15916468'
 url: https://pubmed.ncbi.nlm.nih.gov/15916468/
-abstract: ""
+abstract: ''

@@ -1,5 +1,7 @@
 id: patterson2020_associations
-title: "Associations between commute mode and cardiovascular disease, cancer, and all-cause mortality, and cancer incidence, using linked Census data over 25 years in England and Wales: a cohort study"
+title: 'Associations between commute mode and cardiovascular disease, cancer, and
+  all-cause mortality, and cancer incidence, using linked Census data over 25 years
+  in England and Wales: a cohort study'
 authors:
 - Patterson Richard
 - Panter Jenna
@@ -9,13 +11,24 @@ authors:
 - Laverty Anthony A
 year: 2020
 reference_type: Journal article
-keywords: []
+keywords:
+- associations
+- cancer
+- cardiovascular
+- cause
+- cohort
+- commute
+- incidence
+- linked
+- mortality
+- using
 claims: []
-journal: "The Lancet Planetary Health"
-volume: "4"
-issue: "5"
-pages: "e186-e194"
-doi: "10.1016/S2542-5196(20)30079-6"
-pmid: ""
-url: https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext
-abstract: ""
+journal: The Lancet Planetary Health
+volume: '4'
+issue: '5'
+pages: e186-e194
+doi: 10.1016/S2542-5196(20)30079-6
+pmid: ''
+url:
+  https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext
+abstract: ''

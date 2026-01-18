@@ -1,5 +1,5 @@
 id: ck2016_long
-title: "Long-term exposure to air pollution is associated with biological aging"
+title: Long-term exposure to air pollution is associated with biological aging
 authors:
 - Ward-Caviness CK
 - Nwanaji-Enwerem JC
@@ -14,13 +14,18 @@ authors:
 - et al.
 year: 2016
 reference_type: Journal article
-keywords: []
+keywords:
+- air pollution
+- cardiovascular
+- telomeres
+- aging
+- mortality
 claims: []
-journal: "Oncotarget"
-volume: "7"
-issue: "46"
-pages: "74510-74525"
-doi: ""
-pmid: "27793020"
+journal: Oncotarget
+volume: '7'
+issue: '46'
+pages: 74510-74525
+doi: ''
+pmid: '27793020'
 url: https://pubmed.ncbi.nlm.nih.gov/27793020/
-abstract: ""
+abstract: ''

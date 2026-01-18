@@ -1,5 +1,6 @@
 id: m2022_process
-title: "Process-oriented analysis of dominant sources of uncertainty in the land carbon sink"
+title: Process-oriented analysis of dominant sources of uncertainty in the land
+  carbon sink
 authors:
 - O'Sullivan M
 - Friedlingstein P
@@ -14,13 +15,19 @@ authors:
 - et al.
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- carbon
+- dominant
+- oriented
+- process
+- sources
+- uncertainty
 claims: []
-journal: "Nat Commun"
-volume: "13"
-issue: "1"
-pages: "4781"
-doi: ""
-pmid: "35970991"
+journal: Nat Commun
+volume: '13'
+issue: '1'
+pages: '4781'
+doi: ''
+pmid: '35970991'
 url: https://pubmed.ncbi.nlm.nih.gov/35970991/
-abstract: ""
+abstract: ''

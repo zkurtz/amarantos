@@ -1,5 +1,6 @@
 id: dj2020_network
-title: "The network approach to psychopathology: a review of the literature 2008-2018 and an agenda for future research"
+title: 'The network approach to psychopathology: a review of the literature 2008-2018
+  and an agenda for future research'
 authors:
 - Robinaugh DJ
 - Hoekstra RHA
@@ -7,13 +8,20 @@ authors:
 - Borsboom D
 year: 2020
 reference_type: Journal article
-keywords: []
+keywords:
+- agenda
+- approach
+- future
+- literature
+- network
+- psychopathology
+- research
 claims: []
-journal: "Psychol Med"
-volume: "50"
-issue: "3"
-pages: "353-366"
-doi: ""
-pmid: "31875792"
+journal: Psychol Med
+volume: '50'
+issue: '3'
+pages: 353-366
+doi: ''
+pmid: '31875792'
 url: https://pubmed.ncbi.nlm.nih.gov/31875792/
-abstract: ""
+abstract: ''

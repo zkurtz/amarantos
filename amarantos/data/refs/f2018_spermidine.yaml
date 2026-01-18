@@ -1,5 +1,6 @@
 id: f2018_spermidine
-title: "Spermidine: a physiological autophagy inducer acting as an anti-aging vitamin in humans?"
+title: 'Spermidine: a physiological autophagy inducer acting as an anti-aging vitamin
+  in humans?'
 authors:
 - Madeo F
 - Bauer MA
@@ -7,13 +8,21 @@ authors:
 - Kroemer G
 year: 2018
 reference_type: Journal article
-keywords: []
+keywords:
+- acting
+- aging
+- autophagy
+- humans
+- inducer
+- physiological
+- spermidine
+- vitamin
 claims: []
-journal: "Autophagy"
-volume: "15"
-issue: "1"
-pages: "165-168"
-doi: ""
-pmid: ""
+journal: Autophagy
+volume: '15'
+issue: '1'
+pages: 165-168
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6287690/
-abstract: ""
+abstract: ''

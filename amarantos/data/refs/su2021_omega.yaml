@@ -1,5 +1,6 @@
 id: su2021_omega
-title: "Effect of omega-3 fatty acids on cardiovascular outcomes: A systematic review and meta-analysis"
+title: 'Effect of omega-3 fatty acids on cardiovascular outcomes: A systematic review
+  and meta-analysis'
 authors:
 - Khan SU
 - Lone AN
@@ -13,13 +14,20 @@ authors:
 - Boden WE
 year: 2021
 reference_type: Journal article
-keywords: []
+keywords:
+- acids
+- cardiovascular
+- fatty
+- meta-analysis
+- omega
+- outcomes
+- systematic review
 claims: []
-journal: "EClinicalMedicine"
-volume: "38"
-issue: ""
-pages: "100997"
-doi: ""
-pmid: ""
+journal: EClinicalMedicine
+volume: '38'
+issue: ''
+pages: '100997'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/
-abstract: ""
+abstract: ''

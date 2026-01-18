@@ -1,5 +1,6 @@
 id: ishii2025_internal
-title: "Internal ploidy and heritable chromosome fragmentation in Parachlorella kessleri"
+title: Internal ploidy and heritable chromosome fragmentation in Parachlorella
+  kessleri
 authors:
 - Ishii Kotaro
 - Asano Madoka
@@ -12,13 +13,20 @@ authors:
 - Kawano Shigeyuki
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- chromosome
+- fragmentation
+- heritable
+- internal
+- kessleri
+- parachlorella
+- ploidy
 claims: []
-journal: "Algal Research"
-volume: "89"
-issue: ""
-pages: "104047"
-doi: "10.1016/j.algal.2025.104047"
-pmid: ""
+journal: Algal Research
+volume: '89'
+issue: ''
+pages: '104047'
+doi: 10.1016/j.algal.2025.104047
+pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S2211926425003923
-abstract: ""
+abstract: ''

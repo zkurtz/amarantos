@@ -1,5 +1,6 @@
 id: y2025_photobiomodulation
-title: "Effects of photobiomodulation on multiple health outcomes: an umbrella review of randomized clinical trials"
+title: 'Effects of photobiomodulation on multiple health outcomes: an umbrella review
+  of randomized clinical trials'
 authors:
 - Son Y
 - Lee H
@@ -13,13 +14,21 @@ authors:
 - Rahmati M
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- clinical
+- clinical trial
+- multiple
+- outcomes
+- photobiomodulation
+- randomized
+- trials
+- umbrella
 claims: []
-journal: "Syst Rev"
-volume: "14"
-issue: ""
-pages: "160"
-doi: ""
-pmid: ""
+journal: Syst Rev
+volume: '14'
+issue: ''
+pages: '160'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12326686/
-abstract: ""
+abstract: ''

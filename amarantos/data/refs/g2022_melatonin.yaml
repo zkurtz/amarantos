@@ -1,5 +1,6 @@
 id: g2022_melatonin
-title: "Effect of melatonin supplementation on sleep quality: a systematic review and meta-analysis of randomized controlled trials"
+title: 'Effect of melatonin supplementation on sleep quality: a systematic review
+  and meta-analysis of randomized controlled trials'
 authors:
 - Fatemeh G
 - Sajjad M
@@ -9,13 +10,23 @@ authors:
 - Khadijeh M
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- controlled
+- melatonin
+- meta-analysis
+- quality
+- randomized
+- sleep
+- supplement
+- supplementation
+- systematic review
+- trials
 claims: []
-journal: "J Neurol"
-volume: "269"
-issue: "1"
-pages: "205-216"
-doi: ""
-pmid: "33417003"
+journal: J Neurol
+volume: '269'
+issue: '1'
+pages: 205-216
+doi: ''
+pmid: '33417003'
 url: https://pubmed.ncbi.nlm.nih.gov/33417003/
-abstract: ""
+abstract: ''

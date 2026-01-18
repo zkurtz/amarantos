@@ -1,5 +1,6 @@
 id: n2018_exercise
-title: "Non-exercise activity thermogenesis (NEAT): a component of total daily energy expenditure"
+title: 'Non-exercise activity thermogenesis (NEAT): a component of total daily energy
+  expenditure'
 authors:
 - Chung N
 - Park MY
@@ -13,13 +14,22 @@ authors:
 - Lim K
 year: 2018
 reference_type: Journal article
-keywords: []
+keywords:
+- activity
+- component
+- daily
+- energy
+- exercise
+- expenditure
+- nutrition
+- thermogenesis
+- total
 claims: []
-journal: "J Exerc Nutrition Biochem"
-volume: "22"
-issue: "2"
-pages: "23-30"
-doi: ""
-pmid: ""
+journal: J Exerc Nutrition Biochem
+volume: '22'
+issue: '2'
+pages: 23-30
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/
-abstract: ""
+abstract: ''

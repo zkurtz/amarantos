@@ -1,5 +1,5 @@
 id: li2022_zinc
-title: "Zinc Intakes and Health Outcomes: An Umbrella Review"
+title: 'Zinc Intakes and Health Outcomes: An Umbrella Review'
 authors:
 - Li Jin
 - Cao Dehong
@@ -12,13 +12,19 @@ authors:
 - Liu Liangren
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- zinc
+- supplement
+- mortality
+- cardiovascular
+- meta-analysis
 claims: []
-journal: "Frontiers in Nutrition"
-volume: "9"
-issue: ""
-pages: ""
-doi: "10.3389/fnut.2022.798078"
-pmid: ""
-url: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full
-abstract: ""
+journal: Frontiers in Nutrition
+volume: '9'
+issue: ''
+pages: ''
+doi: 10.3389/fnut.2022.798078
+pmid: ''
+url:
+  https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full
+abstract: ''

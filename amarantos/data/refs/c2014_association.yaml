@@ -1,5 +1,6 @@
 id: c2014_association
-title: "Association between B Vitamins Supplementation and Risk of Cardiovascular Outcomes: A Cumulative Meta-Analysis of Randomized Controlled Trials"
+title: 'Association between B Vitamins Supplementation and Risk of Cardiovascular
+  Outcomes: A Cumulative Meta-Analysis of Randomized Controlled Trials'
 authors:
 - Zhang C
 - Wang ZY
@@ -8,13 +9,23 @@ authors:
 - Zhou YH
 year: 2014
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- controlled
+- cumulative
+- meta-analysis
+- outcomes
+- randomized
+- supplement
+- supplementation
+- trials
+- vitamins
 claims: []
-journal: "PLoS One"
-volume: "9"
-issue: "9"
-pages: "e107060"
-doi: ""
-pmid: ""
+journal: PLoS One
+volume: '9'
+issue: '9'
+pages: e107060
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4169527/
-abstract: ""
+abstract: ''

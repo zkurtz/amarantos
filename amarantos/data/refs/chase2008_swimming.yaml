@@ -1,18 +1,23 @@
 id: chase2008_swimming
-title: "Swimming and all-cause mortality risk"
+title: Swimming and all-cause mortality risk
 authors:
 - Chase NL
 - Sui X
 - Blair SN
 year: 2008
 reference_type: Journal article
-keywords: []
+keywords:
+- swimming
+- exercise
+- mortality
+- cardiovascular
+- fitness
 claims: []
-journal: "International Journal of Aquatic Research and Education"
-volume: "2"
-issue: "3"
-pages: ""
-doi: ""
-pmid: ""
+journal: International Journal of Aquatic Research and Education
+volume: '2'
+issue: '3'
+pages: ''
+doi: ''
+pmid: ''
 url: https://scholarworks.bgsu.edu/ijare/vol2/iss3/3/
-abstract: ""
+abstract: ''

@@ -1,5 +1,6 @@
 id: rh2012_stress
-title: "Stress reduction in the secondary prevention of cardiovascular disease: randomized, controlled trial of transcendental meditation and health education in Blacks"
+title: 'Stress reduction in the secondary prevention of cardiovascular disease: randomized,
+  controlled trial of transcendental meditation and health education in Blacks'
 authors:
 - Schneider RH
 - Grim CE
@@ -12,13 +13,23 @@ authors:
 - Alexander CN
 year: 2012
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- controlled
+- meditation
+- prevention
+- randomized
+- reduction
+- secondary
+- stress
+- transcendental
+- trial
 claims: []
-journal: "Circ Cardiovasc Qual Outcomes"
-volume: "5"
-issue: "6"
-pages: "750-8"
-doi: ""
-pmid: "23149426"
+journal: Circ Cardiovasc Qual Outcomes
+volume: '5'
+issue: '6'
+pages: 750-8
+doi: ''
+pmid: '23149426'
 url: https://pubmed.ncbi.nlm.nih.gov/23149426/
-abstract: ""
+abstract: ''

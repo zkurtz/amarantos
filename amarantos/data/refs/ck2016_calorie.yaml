@@ -1,5 +1,6 @@
 id: ck2016_calorie
-title: "Effect of Calorie Restriction on Mood, Quality of Life, Sleep, and Sexual Function in Healthy Nonobese Adults: The CALERIE 2 Randomized Clinical Trial"
+title: 'Effect of Calorie Restriction on Mood, Quality of Life, Sleep, and Sexual
+  Function in Healthy Nonobese Adults: The CALERIE 2 Randomized Clinical Trial'
 authors:
 - Martin CK
 - Bhapkar M
@@ -14,13 +15,23 @@ authors:
 - et al.
 year: 2016
 reference_type: Journal article
-keywords: []
+keywords:
+- calorie
+- clinical trial
+- function
+- healthy
+- quality
+- randomized
+- rest
+- restriction
+- sexual
+- sleep
 claims: []
-journal: "JAMA Intern Med"
-volume: "176"
-issue: "6"
-pages: "743-52"
-doi: ""
-pmid: "27136347"
+journal: JAMA Intern Med
+volume: '176'
+issue: '6'
+pages: 743-52
+doi: ''
+pmid: '27136347'
 url: https://pubmed.ncbi.nlm.nih.gov/27136347/
-abstract: ""
+abstract: ''

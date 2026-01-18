@@ -1,5 +1,6 @@
 id: me2023_randomized
-title: "A randomized placebo-controlled trial of nicotinamide riboside in older adults with mild cognitive impairment"
+title: A randomized placebo-controlled trial of nicotinamide riboside in older
+  adults with mild cognitive impairment
 authors:
 - Orr ME
 - Kotkowski E
@@ -13,13 +14,22 @@ authors:
 - Tan C
 year: 2023
 reference_type: Journal article
-keywords: []
+keywords:
+- cognitive
+- controlled
+- impairment
+- nicotinamide
+- older
+- placebo
+- randomized
+- riboside
+- trial
 claims: []
-journal: "GeroScience"
-volume: "46"
-issue: "1"
-pages: "665-682"
-doi: ""
-pmid: ""
+journal: GeroScience
+volume: '46'
+issue: '1'
+pages: 665-682
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10828186/
-abstract: ""
+abstract: ''

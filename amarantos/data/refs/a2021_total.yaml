@@ -1,5 +1,7 @@
 id: a2021_total
-title: "Total, Dietary, and Supplemental Magnesium Intakes and Risk of All-Cause, Cardiovascular, and Cancer Mortality: A Systematic Review and Dose-Response Meta-Analysis of Prospective Cohort Studies"
+title: 'Total, Dietary, and Supplemental Magnesium Intakes and Risk of All-Cause,
+  Cardiovascular, and Cancer Mortality: A Systematic Review and Dose-Response Meta-Analysis
+  of Prospective Cohort Studies'
 authors:
 - Bagheri A
 - Naghshi S
@@ -8,13 +10,23 @@ authors:
 - Esmaillzadeh A
 year: 2021
 reference_type: Journal article
-keywords: []
+keywords:
+- cancer
+- cardiovascular
+- cohort
+- diet
+- dietary
+- meta-analysis
+- mortality
+- prospective
+- supplement
+- systematic review
 claims: []
-journal: "Adv Nutr"
-volume: "12"
-issue: "4"
-pages: "1196-1210"
-doi: ""
-pmid: "33684200"
+journal: Adv Nutr
+volume: '12'
+issue: '4'
+pages: 1196-1210
+doi: ''
+pmid: '33684200'
 url: https://pubmed.ncbi.nlm.nih.gov/33684200/
-abstract: ""
+abstract: ''

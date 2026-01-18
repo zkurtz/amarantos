@@ -1,5 +1,6 @@
 id: f2024_dietary
-title: "Dietary fiber intake and all-cause and cause-specific mortality: An updated systematic review and meta-analysis of prospective cohort studies"
+title: 'Dietary fiber intake and all-cause and cause-specific mortality: An updated
+  systematic review and meta-analysis of prospective cohort studies'
 authors:
 - Ramezani F
 - Pourghazi F
@@ -11,13 +12,23 @@ authors:
 - Qorbani M
 year: 2024
 reference_type: Journal article
-keywords: []
+keywords:
+- cause
+- cohort
+- diet
+- dietary
+- fiber
+- intake
+- meta-analysis
+- mortality
+- prospective
+- systematic review
 claims: []
-journal: "Clin Nutr"
-volume: "43"
-issue: "1"
-pages: "65-83"
-doi: ""
-pmid: "38011755"
+journal: Clin Nutr
+volume: '43'
+issue: '1'
+pages: 65-83
+doi: ''
+pmid: '38011755'
 url: https://pubmed.ncbi.nlm.nih.gov/38011755/
-abstract: ""
+abstract: ''

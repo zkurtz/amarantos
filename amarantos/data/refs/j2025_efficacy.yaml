@@ -1,18 +1,30 @@
 id: j2025_efficacy
-title: "Efficacy of oral nicotinamide mononucleotide supplementation on glucose and lipid metabolism for adults: a systematic review with meta-analysis on randomized controlled trials"
+title: 'Efficacy of oral nicotinamide mononucleotide supplementation on glucose and
+  lipid metabolism for adults: a systematic review with meta-analysis on randomized
+  controlled trials'
 authors:
 - Zhang J
 - Poon ET
 - Wong SH
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- efficacy
+- food
+- glucose
+- meta-analysis
+- mononucleotide
+- nicotinamide
+- randomized
+- supplement
+- supplementation
+- systematic review
 claims: []
-journal: "Crit Rev Food Sci Nutr"
-volume: "65"
-issue: "22"
-pages: "4382-4400"
-doi: ""
-pmid: "39116016"
+journal: Crit Rev Food Sci Nutr
+volume: '65'
+issue: '22'
+pages: 4382-4400
+doi: ''
+pmid: '39116016'
 url: https://pubmed.ncbi.nlm.nih.gov/39116016/
-abstract: ""
+abstract: ''

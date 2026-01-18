@@ -1,5 +1,5 @@
 id: sy2023_oral
-title: "Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis"
+title: 'Effects of Oral Collagen for Skin Anti-Aging: A Systematic Review and Meta-Analysis'
 authors:
 - Pu SY
 - Huang YL
@@ -10,13 +10,18 @@ authors:
 - Chen C
 year: 2023
 reference_type: Journal article
-keywords: []
+keywords:
+- aging
+- collagen
+- meta-analysis
+- nutrient
+- systematic review
 claims: []
-journal: "Nutrients"
-volume: "15"
-issue: "9"
-pages: "2080"
-doi: ""
-pmid: ""
+journal: Nutrients
+volume: '15'
+issue: '9'
+pages: '2080'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/
-abstract: ""
+abstract: ''

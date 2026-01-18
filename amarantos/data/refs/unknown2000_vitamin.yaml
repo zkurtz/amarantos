@@ -1,16 +1,21 @@
 id: unknown2000_vitamin
-title: "Vitamin E Supplementation and Cardiovascular Events in High-Risk Patients"
+title: Vitamin E Supplementation and Cardiovascular Events in High-Risk Patients
 authors:
 - Unknown
 year: 2000
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- events
+- supplement
+- supplementation
+- vitamin
 claims: []
-journal: "New England Journal of Medicine"
-volume: "342"
-issue: "3"
-pages: "154-160"
-doi: "10.1056/NEJM200001203420302"
-pmid: ""
+journal: New England Journal of Medicine
+volume: '342'
+issue: '3'
+pages: 154-160
+doi: 10.1056/NEJM200001203420302
+pmid: ''
 url: https://www.nejm.org/doi/full/10.1056/NEJM200001203420302
-abstract: ""
+abstract: ''

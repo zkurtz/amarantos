@@ -1,5 +1,5 @@
 id: singh2023_taurine_doi
-title: "Taurine deficiency as a driver of aging"
+title: Taurine deficiency as a driver of aging
 authors:
 - Singh Parminder
 - Gollapalli Kishore
@@ -13,13 +13,18 @@ authors:
 - Riermeier Annett
 year: 2023
 reference_type: Journal article
-keywords: []
+keywords:
+- taurine
+- aging
+- longevity
+- supplement
+- healthspan
 claims: []
-journal: "Science"
-volume: "380"
-issue: "6649"
-pages: ""
-doi: "10.1126/science.abn9257"
-pmid: ""
+journal: Science
+volume: '380'
+issue: '6649'
+pages: ''
+doi: 10.1126/science.abn9257
+pmid: ''
 url: https://www.science.org/doi/10.1126/science.abn9257
-abstract: ""
+abstract: ''

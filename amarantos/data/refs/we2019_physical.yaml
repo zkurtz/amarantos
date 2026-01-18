@@ -1,5 +1,6 @@
 id: we2019_physical
-title: "Physical Activity, All-Cause and Cardiovascular Mortality, and Cardiovascular Disease"
+title: Physical Activity, All-Cause and Cardiovascular Mortality, and
+  Cardiovascular Disease
 authors:
 - Kraus WE
 - Powell KE
@@ -13,13 +14,19 @@ authors:
 - Piercy KL
 year: 2019
 reference_type: Journal article
-keywords: []
+keywords:
+- activity
+- cardiovascular
+- cause
+- mortality
+- physical
+- physical activity
 claims: []
-journal: "Med Sci Sports Exerc"
-volume: "51"
-issue: "6"
-pages: "1270-1281"
-doi: ""
-pmid: ""
+journal: Med Sci Sports Exerc
+volume: '51'
+issue: '6'
+pages: 1270-1281
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6527136/
-abstract: ""
+abstract: ''

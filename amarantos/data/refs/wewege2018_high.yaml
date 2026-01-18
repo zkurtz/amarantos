@@ -1,5 +1,6 @@
 id: wewege2018_high
-title: "High‐Intensity Interval Training for Patients With Cardiovascular Disease—Is It Safe? A Systematic Review"
+title: High‐Intensity Interval Training for Patients With Cardiovascular
+  Disease—Is It Safe? A Systematic Review
 authors:
 - Wewege Michael A.
 - Ahn Dohee
@@ -8,13 +9,19 @@ authors:
 - Keech Andrew
 year: 2018
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- heart
+- intensity
+- interval
+- systematic review
+- training
 claims: []
-journal: "Journal of the American Heart Association"
-volume: "7"
-issue: "21"
-pages: ""
-doi: "10.1161/JAHA.118.009305"
-pmid: ""
+journal: Journal of the American Heart Association
+volume: '7'
+issue: '21'
+pages: ''
+doi: 10.1161/JAHA.118.009305
+pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.118.009305
-abstract: ""
+abstract: ''

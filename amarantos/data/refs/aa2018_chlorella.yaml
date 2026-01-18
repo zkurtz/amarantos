@@ -1,5 +1,6 @@
 id: aa2018_chlorella
-title: "Effect of Chlorella supplementation on cardiovascular risk factors: A meta-analysis of randomized controlled trials"
+title: 'Effect of Chlorella supplementation on cardiovascular risk factors: A meta-analysis
+  of randomized controlled trials'
 authors:
 - Fallah AA
 - Sarmast E
@@ -10,13 +11,22 @@ authors:
 - Jafari T
 year: 2018
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- chlorella
+- controlled
+- factors
+- meta-analysis
+- randomized
+- supplement
+- supplementation
+- trials
 claims: []
-journal: "Clin Nutr"
-volume: "37"
-issue: "6 Pt A"
-pages: "1892-1901"
-doi: ""
-pmid: "29037431"
+journal: Clin Nutr
+volume: '37'
+issue: 6 Pt A
+pages: 1892-1901
+doi: ''
+pmid: '29037431'
 url: https://pubmed.ncbi.nlm.nih.gov/29037431/
-abstract: ""
+abstract: ''

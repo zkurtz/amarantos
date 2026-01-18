@@ -1,5 +1,6 @@
 id: anker2025_intravenous
-title: "Systematic review and meta-analysis of intravenous iron therapy for patients with heart failure and iron deficiency"
+title: Systematic review and meta-analysis of intravenous iron therapy for
+  patients with heart failure and iron deficiency
 authors:
 - Anker Stefan D.
 - Karakas Mahir
@@ -13,13 +14,20 @@ authors:
 - Mulder Hillary
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- deficiency
+- failure
+- heart
+- intravenous
+- meta-analysis
+- systematic review
+- therapy
 claims: []
-journal: "Nature Medicine"
-volume: "31"
-issue: "8"
-pages: "2640-2646"
-doi: "10.1038/s41591-025-03671-1"
-pmid: ""
+journal: Nature Medicine
+volume: '31'
+issue: '8'
+pages: 2640-2646
+doi: 10.1038/s41591-025-03671-1
+pmid: ''
 url: https://www.nature.com/articles/s41591-025-03671-1
-abstract: ""
+abstract: ''

@@ -1,5 +1,6 @@
 id: jm2017_metformin
-title: "Metformin reduces all-cause mortality and diseases of ageing independent of its effect on diabetes control: A systematic review and meta-analysis"
+title: 'Metformin reduces all-cause mortality and diseases of ageing independent of
+  its effect on diabetes control: A systematic review and meta-analysis'
 authors:
 - Campbell JM
 - Bellman SM
@@ -7,13 +8,23 @@ authors:
 - Lisy K
 year: 2017
 reference_type: Journal article
-keywords: []
+keywords:
+- ageing
+- cause
+- diabetes
+- diseases
+- independent
+- meta-analysis
+- metformin
+- mortality
+- reduces
+- systematic review
 claims: []
-journal: "Ageing Res Rev"
-volume: "40"
-issue: ""
-pages: "31-44"
-doi: ""
-pmid: "28802803"
+journal: Ageing Res Rev
+volume: '40'
+issue: ''
+pages: 31-44
+doi: ''
+pmid: '28802803'
 url: https://pubmed.ncbi.nlm.nih.gov/28802803/
-abstract: ""
+abstract: ''

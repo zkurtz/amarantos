@@ -1,5 +1,6 @@
 id: nnadi2025_abstract
-title: "Abstract 4371606: Effect of Long-term Melatonin Supplementation on Incidence of Heart Failure in Patients with Insomnia"
+title: 'Abstract 4371606: Effect of Long-term Melatonin Supplementation on Incidence
+  of Heart Failure in Patients with Insomnia'
 authors:
 - Nnadi Ekenedilichukwu
 - Masara Maureen
@@ -11,13 +12,21 @@ authors:
 - Graham-Hill Suzette
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- abstract
+- failure
+- heart
+- incidence
+- insomnia
+- melatonin
+- supplement
+- supplementation
 claims: []
-journal: "Circulation"
-volume: "152"
-issue: "Suppl_3"
-pages: ""
-doi: "10.1161/circ.152.suppl_3.4371606"
-pmid: ""
+journal: Circulation
+volume: '152'
+issue: Suppl_3
+pages: ''
+doi: 10.1161/circ.152.suppl_3.4371606
+pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/circ.152.suppl_3.4371606
-abstract: ""
+abstract: ''

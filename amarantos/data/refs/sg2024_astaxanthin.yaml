@@ -1,5 +1,8 @@
 id: sg2024_astaxanthin
-title: "The effect of astaxanthin supplementation on inflammatory markers, oxidative stress indices, lipid profile, uric acid level, blood pressure, endothelial function, quality of life, and disease symptoms in heart failure subjects"
+title: The effect of astaxanthin supplementation on inflammatory markers,
+  oxidative stress indices, lipid profile, uric acid level, blood pressure,
+  endothelial function, quality of life, and disease symptoms in heart failure
+  subjects
 authors:
 - Mohammadi SG
 - Feizi A
@@ -9,13 +12,23 @@ authors:
 - Kafeshani M
 year: 2024
 reference_type: Journal article
-keywords: []
+keywords:
+- astaxanthin
+- blood pressure
+- heart
+- indices
+- inflammatory
+- markers
+- oxidative
+- stress
+- supplement
+- supplementation
 claims: []
-journal: "Trials"
-volume: "25"
-issue: ""
-pages: "518"
-doi: ""
-pmid: ""
+journal: Trials
+volume: '25'
+issue: ''
+pages: '518'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11292897/
-abstract: ""
+abstract: ''

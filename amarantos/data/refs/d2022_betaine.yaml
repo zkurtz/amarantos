@@ -1,5 +1,6 @@
 id: d2022_betaine
-title: "Effects of betaine supplementation on cardiovascular markers: A systematic review and Meta-analysis"
+title: 'Effects of betaine supplementation on cardiovascular markers: A systematic
+  review and Meta-analysis'
 authors:
 - Ashtary-Larky D
 - Bagheri R
@@ -12,13 +13,21 @@ authors:
 - Wong A
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- betaine
+- cardiovascular
+- food
+- markers
+- meta-analysis
+- supplement
+- supplementation
+- systematic review
 claims: []
-journal: "Crit Rev Food Sci Nutr"
-volume: "62"
-issue: "23"
-pages: "6516-6533"
-doi: ""
-pmid: "33764214"
+journal: Crit Rev Food Sci Nutr
+volume: '62'
+issue: '23'
+pages: 6516-6533
+doi: ''
+pmid: '33764214'
 url: https://pubmed.ncbi.nlm.nih.gov/33764214/
-abstract: ""
+abstract: ''

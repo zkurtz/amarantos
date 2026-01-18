@@ -1,5 +1,6 @@
 id: s2018_higher
-title: "Higher spermidine intake is linked to lower mortality: a prospective population-based study"
+title: 'Higher spermidine intake is linked to lower mortality: a prospective population-based
+  study'
 authors:
 - Kiechl S
 - Pechlaner R
@@ -14,13 +15,22 @@ authors:
 - et al.
 year: 2018
 reference_type: Journal article
-keywords: []
+keywords:
+- based
+- higher
+- intake
+- linked
+- lower
+- mortality
+- population
+- prospective
+- spermidine
 claims: []
-journal: "Am J Clin Nutr"
-volume: "108"
-issue: "2"
-pages: "371-380"
-doi: ""
-pmid: "29955838"
+journal: Am J Clin Nutr
+volume: '108'
+issue: '2'
+pages: 371-380
+doi: ''
+pmid: '29955838'
 url: https://pubmed.ncbi.nlm.nih.gov/29955838/
-abstract: ""
+abstract: ''

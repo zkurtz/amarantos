@@ -1,5 +1,6 @@
 id: s2000_muscle
-title: "Muscle fibres: applications for the study of the metabolic consequences of enzyme deficiencies in skeletal muscle"
+title: 'Muscle fibres: applications for the study of the metabolic consequences of
+  enzyme deficiencies in skeletal muscle'
 authors:
 - Vielhaber S
 - Kudin A
@@ -8,13 +9,21 @@ authors:
 - Kunz WS
 year: 2000
 reference_type: Journal article
-keywords: []
+keywords:
+- applications
+- consequences
+- deficiencies
+- enzyme
+- fibres
+- metabolic
+- muscle
+- skeletal
 claims: []
-journal: "Biochem Soc Trans"
-volume: "28"
-issue: "2"
-pages: "159-64"
-doi: ""
-pmid: "10816119"
+journal: Biochem Soc Trans
+volume: '28'
+issue: '2'
+pages: 159-64
+doi: ''
+pmid: '10816119'
 url: https://pubmed.ncbi.nlm.nih.gov/10816119/
-abstract: ""
+abstract: ''

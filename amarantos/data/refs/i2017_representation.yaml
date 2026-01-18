@@ -1,5 +1,6 @@
 id: i2017_representation
-title: "Representation and reporting of kidney disease in cerebrovascular disease: A systematic review of randomized controlled trials"
+title: 'Representation and reporting of kidney disease in cerebrovascular disease:
+  A systematic review of randomized controlled trials'
 authors:
 - Konstantinidis I
 - Patel S
@@ -10,13 +11,21 @@ authors:
 - Nadkarni GN
 year: 2017
 reference_type: Journal article
-keywords: []
+keywords:
+- cerebrovascular
+- controlled
+- kidney
+- randomized
+- reporting
+- representation
+- systematic review
+- trials
 claims: []
-journal: "PLoS One"
-volume: "12"
-issue: "4"
-pages: "e0176145"
-doi: ""
-pmid: "28426831"
+journal: PLoS One
+volume: '12'
+issue: '4'
+pages: e0176145
+doi: ''
+pmid: '28426831'
 url: https://pubmed.ncbi.nlm.nih.gov/28426831/
-abstract: ""
+abstract: ''

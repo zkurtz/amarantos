@@ -1,5 +1,6 @@
 id: k2013_selenium
-title: "Selenium supplementation for the primary prevention of cardiovascular disease"
+title: Selenium supplementation for the primary prevention of cardiovascular
+  disease
 authors:
 - Rees K
 - Hartley L
@@ -9,13 +10,19 @@ authors:
 - Stranges S
 year: 2013
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- prevention
+- primary
+- selenium
+- supplement
+- supplementation
 claims: []
-journal: "Cochrane Database Syst Rev"
-volume: "2013"
-issue: "1"
-pages: "CD009671"
-doi: ""
-pmid: ""
+journal: Cochrane Database Syst Rev
+volume: '2013'
+issue: '1'
+pages: CD009671
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7433291/
-abstract: ""
+abstract: ''

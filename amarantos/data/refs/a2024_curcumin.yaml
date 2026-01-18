@@ -1,5 +1,6 @@
 id: a2024_curcumin
-title: "Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis of 103 Randomized Controlled Trials"
+title: 'Curcumin on Human Health: A Comprehensive Systematic Review and Meta-Analysis
+  of 103 Randomized Controlled Trials'
 authors:
 - Jafari A
 - Abbastabar M
@@ -9,13 +10,20 @@ authors:
 - Sepidarkish M
 year: 2024
 reference_type: Journal article
-keywords: []
+keywords:
+- comprehensive
+- controlled
+- curcumin
+- human
+- meta-analysis
+- randomized
+- trials
 claims: []
-journal: "Phytother Res"
-volume: "38"
-issue: "12"
-pages: "6048-6061"
-doi: ""
-pmid: "39478418"
+journal: Phytother Res
+volume: '38'
+issue: '12'
+pages: 6048-6061
+doi: ''
+pmid: '39478418'
 url: https://pubmed.ncbi.nlm.nih.gov/39478418/
-abstract: ""
+abstract: ''

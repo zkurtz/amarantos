@@ -1,5 +1,6 @@
 id: h2022_association
-title: "The association of dietary spermidine with all-cause mortality and CVD mortality: The U.S. National Health and Nutrition Examination Survey, 2003 to 2014"
+title: 'The association of dietary spermidine with all-cause mortality and CVD mortality:
+  The U.S. National Health and Nutrition Examination Survey, 2003 to 2014'
 authors:
 - Wu H
 - Wang J
@@ -13,13 +14,23 @@ authors:
 - Sun C
 year: 2022
 reference_type: Journal article
-keywords: []
+keywords:
+- CVD
+- cause
+- diet
+- dietary
+- examination
+- mortality
+- national
+- nutrition
+- spermidine
+- survey
 claims: []
-journal: "Front Public Health"
-volume: "10"
-issue: ""
-pages: "949170"
-doi: ""
-pmid: ""
+journal: Front Public Health
+volume: '10'
+issue: ''
+pages: '949170'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9554131/
-abstract: ""
+abstract: ''

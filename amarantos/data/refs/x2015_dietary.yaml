@@ -1,5 +1,6 @@
 id: x2015_dietary
-title: "Dietary intake of heme iron and risk of cardiovascular disease: a dose-response meta-analysis of prospective cohort studies"
+title: 'Dietary intake of heme iron and risk of cardiovascular disease: a dose-response
+  meta-analysis of prospective cohort studies'
 authors:
 - Fang X
 - An P
@@ -12,13 +13,22 @@ authors:
 - Wang F
 year: 2015
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- cohort
+- diet
+- dietary
+- intake
+- meta-analysis
+- prospective
+- response
+- studies
 claims: []
-journal: "Nutr Metab Cardiovasc Dis"
-volume: "25"
-issue: "1"
-pages: "24-35"
-doi: ""
-pmid: "25439662"
+journal: Nutr Metab Cardiovasc Dis
+volume: '25'
+issue: '1'
+pages: 24-35
+doi: ''
+pmid: '25439662'
 url: https://pubmed.ncbi.nlm.nih.gov/25439662/
-abstract: ""
+abstract: ''

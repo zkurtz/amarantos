@@ -1,5 +1,7 @@
 id: j2014_fructose
-title: "The effects of fructose-containing sugars on weight, body composition and cardiometabolic risk factors when consumed at up to the 90th percentile population consumption level for fructose"
+title: The effects of fructose-containing sugars on weight, body composition and
+  cardiometabolic risk factors when consumed at up to the 90th percentile
+  population consumption level for fructose
 authors:
 - Lowndes J
 - Sinnett S
@@ -7,13 +9,23 @@ authors:
 - Rippe J
 year: 2014
 reference_type: Journal article
-keywords: []
+keywords:
+- body composition
+- cardiometabolic
+- composition
+- consumed
+- containing
+- factors
+- fructose
+- nutrient
+- sugars
+- weight
 claims: []
-journal: "Nutrients"
-volume: "6"
-issue: "8"
-pages: "3153-68"
-doi: ""
-pmid: "25111121"
+journal: Nutrients
+volume: '6'
+issue: '8'
+pages: 3153-68
+doi: ''
+pmid: '25111121'
 url: https://pubmed.ncbi.nlm.nih.gov/25111121/
-abstract: ""
+abstract: ''

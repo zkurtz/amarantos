@@ -1,5 +1,5 @@
 id: x2023_calcium
-title: "Calcium Supplements and Risk of CVD: A Meta-Analysis of Randomized Trials"
+title: 'Calcium Supplements and Risk of CVD: A Meta-Analysis of Randomized Trials'
 authors:
 - Huo X
 - Clarke R
@@ -13,13 +13,20 @@ authors:
 - Sund R
 year: 2023
 reference_type: Journal article
-keywords: []
+keywords:
+- CVD
+- calcium
+- meta-analysis
+- randomized
+- supplement
+- supplements
+- trials
 claims: []
-journal: "Curr Dev Nutr"
-volume: "7"
-issue: "3"
-pages: "100046"
-doi: ""
-pmid: ""
+journal: Curr Dev Nutr
+volume: '7'
+issue: '3'
+pages: '100046'
+doi: ''
+pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10111600/
-abstract: ""
+abstract: ''

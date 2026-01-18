@@ -1,5 +1,6 @@
 id: a2017_pomegranate
-title: "Effects of pomegranate juice on blood pressure: A systematic review and meta-analysis of randomized controlled trials"
+title: 'Effects of pomegranate juice on blood pressure: A systematic review and meta-analysis
+  of randomized controlled trials'
 authors:
 - Sahebkar A
 - Ferri C
@@ -9,13 +10,23 @@ authors:
 - Grassi D
 year: 2017
 reference_type: Journal article
-keywords: []
+keywords:
+- blood
+- blood pressure
+- controlled
+- juice
+- meta-analysis
+- pomegranate
+- pressure
+- randomized
+- systematic review
+- trials
 claims: []
-journal: "Pharmacol Res"
-volume: "115"
-issue: ""
-pages: "149-161"
-doi: ""
-pmid: "27888156"
+journal: Pharmacol Res
+volume: '115'
+issue: ''
+pages: 149-161
+doi: ''
+pmid: '27888156'
 url: https://pubmed.ncbi.nlm.nih.gov/27888156/
-abstract: ""
+abstract: ''

@@ -1,5 +1,7 @@
 id: ishikawa2025_aromatherapy
-title: "Effect of aromatherapy with peppermint, ginger, and lavender on postoperative nausea severity after oral surgery under general anaesthesia: A single-blind randomized controlled trial"
+title: 'Effect of aromatherapy with peppermint, ginger, and lavender on postoperative
+  nausea severity after oral surgery under general anaesthesia: A single-blind randomized
+  controlled trial'
 authors:
 - Ishikawa Emi
 - Fujisawa Toshiaki
@@ -9,13 +11,23 @@ authors:
 - Kido Kanta
 year: 2025
 reference_type: Journal article
-keywords: []
+keywords:
+- after
+- aromatherapy
+- ginger
+- lavender
+- nausea
+- peppermint
+- postoperative
+- randomized
+- severity
+- surgery
 claims: []
-journal: "Complementary Therapies in Medicine"
-volume: "90"
-issue: ""
-pages: "103169"
-doi: "10.1016/j.ctim.2025.103169"
-pmid: ""
+journal: Complementary Therapies in Medicine
+volume: '90'
+issue: ''
+pages: '103169'
+doi: 10.1016/j.ctim.2025.103169
+pmid: ''
 url: https://www.sciencedirect.com/science/article/pii/S0965229925001189
-abstract: ""
+abstract: ''

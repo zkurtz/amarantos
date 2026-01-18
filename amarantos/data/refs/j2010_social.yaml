@@ -1,18 +1,23 @@
 id: j2010_social
-title: "Social relationships and mortality risk: a meta-analytic review"
+title: 'Social relationships and mortality risk: a meta-analytic review'
 authors:
 - Holt-Lunstad J
 - Smith TB
 - Layton JB
 year: 2010
 reference_type: Journal article
-keywords: []
+keywords:
+- social
+- relationships
+- mortality
+- meta-analysis
+- loneliness
 claims: []
-journal: "PLoS Med"
-volume: "7"
-issue: "7"
-pages: "e1000316"
-doi: ""
-pmid: "20668659"
+journal: PLoS Med
+volume: '7'
+issue: '7'
+pages: e1000316
+doi: ''
+pmid: '20668659'
 url: https://pubmed.ncbi.nlm.nih.gov/20668659/
-abstract: ""
+abstract: ''

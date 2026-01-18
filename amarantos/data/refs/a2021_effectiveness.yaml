@@ -1,5 +1,7 @@
 id: a2021_effectiveness
-title: "Effectiveness of an intermittent fasting diet versus continuous energy restriction on anthropometric measurements, body composition and lipid profile in overweight and obese adults: a meta-analysis"
+title: 'Effectiveness of an intermittent fasting diet versus continuous energy restriction
+  on anthropometric measurements, body composition and lipid profile in overweight
+  and obese adults: a meta-analysis'
 authors:
 - Enríquez Guerrero A
 - San Mauro Martín I
@@ -7,13 +9,23 @@ authors:
 - Camina Martín MA
 year: 2021
 reference_type: Journal article
-keywords: []
+keywords:
+- body composition
+- continuous
+- diet
+- effectiveness
+- fasting
+- intermittent
+- meta-analysis
+- rest
+- versus
+- weight
 claims: []
-journal: "Eur J Clin Nutr"
-volume: "75"
-issue: "7"
-pages: "1024-1039"
-doi: ""
-pmid: "33293678"
+journal: Eur J Clin Nutr
+volume: '75'
+issue: '7'
+pages: 1024-1039
+doi: ''
+pmid: '33293678'
 url: https://pubmed.ncbi.nlm.nih.gov/33293678/
-abstract: ""
+abstract: ''

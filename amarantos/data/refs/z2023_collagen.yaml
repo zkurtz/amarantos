@@ -1,5 +1,6 @@
 id: z2023_collagen
-title: "Effects of collagen peptide supplementation on cardiovascular markers: a systematic review and meta-analysis of randomised, placebo-controlled trials"
+title: 'Effects of collagen peptide supplementation on cardiovascular markers: a systematic
+  review and meta-analysis of randomised, placebo-controlled trials'
 authors:
 - Jalili Z
 - Jalili F
@@ -14,13 +15,23 @@ authors:
 - et al.
 year: 2023
 reference_type: Journal article
-keywords: []
+keywords:
+- cardiovascular
+- collagen
+- markers
+- meta-analysis
+- peptide
+- placebo
+- randomised
+- supplement
+- supplementation
+- systematic review
 claims: []
-journal: "Br J Nutr"
-volume: "129"
-issue: "5"
-pages: "779-794"
-doi: ""
-pmid: "35658958"
+journal: Br J Nutr
+volume: '129'
+issue: '5'
+pages: 779-794
+doi: ''
+pmid: '35658958'
 url: https://pubmed.ncbi.nlm.nih.gov/35658958/
-abstract: ""
+abstract: ''

@@ -1,5 +1,6 @@
 id: n2019_cruciferous
-title: "Cruciferous vegetable intake and mortality in middle-aged adults: A prospective cohort study"
+title: 'Cruciferous vegetable intake and mortality in middle-aged adults: A prospective
+  cohort study'
 authors:
 - Mori N
 - Shimazu T
@@ -14,13 +15,20 @@ authors:
 - et al.
 year: 2019
 reference_type: Journal article
-keywords: []
+keywords:
+- cohort
+- cruciferous
+- intake
+- middle
+- mortality
+- prospective
+- vegetable
 claims: []
-journal: "Clin Nutr"
-volume: "38"
-issue: "2"
-pages: "631-643"
-doi: ""
-pmid: "29739681"
+journal: Clin Nutr
+volume: '38'
+issue: '2'
+pages: 631-643
+doi: ''
+pmid: '29739681'
 url: https://pubmed.ncbi.nlm.nih.gov/29739681/
-abstract: ""
+abstract: ''

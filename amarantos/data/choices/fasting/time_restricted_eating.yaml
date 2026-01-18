@@ -1,5 +1,8 @@
 domain: fasting
 name: Time-Restricted Eating
+summary: "Limiting food intake to 8-10 hour daily window, typically aligning with\n\
+  circadian rhythms. Meta-analysis of 19 RCTs: modest weight loss (1-3 kg),\nimproved
+  insulin sensitivity."
 specification:
   duration_h: 0.0
   weekly_freq: 7
@@ -13,28 +16,25 @@ specification:
     studies."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.95
+  std: 0.10
   evidence: |
     No mortality RCTs. Meta-analysis of 19 RCTs: improves insulin sensitivity,
     reduces BP, promotes weight loss. (https://pubmed.ncbi.nlm.nih.gov/33302500/).
     NHANES observational data: eating window <8h associated with higher CVD
     mortality (contradictory; confounding likely). Effect on mortality unclear.
-  mean: 0.95
-  std: 0.10
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.6
   evidence: |
     Activates autophagy and cellular repair pathways during fasting periods.
     Animal studies show lifespan extension. Human aging data limited.
     Early TRE may improve circadian alignment. Mechanistically plausible.
-  mean: 0.3
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     May simplify eating decisions and improve meal satisfaction. Some
     report improved energy and mental clarity. Others find restriction
     challenging. Variable individual response. Small effect with
     uncertainty in direction.
-  mean: 0.1
-  std: 0.3
-summary: "Limiting food intake to 8-10 hour daily window, typically aligning with\n\
-  circadian rhythms. Meta-analysis of 19 RCTs: modest weight loss (1-3 kg),\nimproved
-  insulin sensitivity."

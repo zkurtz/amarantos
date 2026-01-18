@@ -10,4 +10,5 @@ effects:
 - outcome: Relative mortality risk
   mean: 0.95
   std: 0.0255
-  evidence: Relative risk of all-cause mortality; adequate intake (>100mg/day) vs deficient; diminishing returns at high doses
+  evidence: Relative risk of all-cause mortality; adequate intake (>100mg/day)
+    vs deficient; diminishing returns at high doses

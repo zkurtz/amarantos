@@ -1,5 +1,8 @@
 domain: fasting
 name: Intermittent Fasting
+summary: "Periodic caloric restriction including 5:2 (2 days/week at 500-600 kcal)
+  or\nalternate day fasting. Meta-analyses show similar weight loss to continuous\n\
+  restriction."
 specification:
   duration_h: 0.0
   weekly_freq: 2
@@ -12,28 +15,25 @@ specification:
     with caloric restriction.\nEvidence quality moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.92
+  std: 0.10
   evidence: |
     No mortality RCTs. Meta-analysis: similar metabolic improvements to
     continuous caloric restriction. (https://pubmed.ncbi.nlm.nih.gov/28459931/).
     Ramadan fasting observational studies show mixed results. Effect on
     mortality extrapolated from metabolic benefits. Speculative.
-  mean: 0.92
-  std: 0.10
 - outcome: Years of delayed aging
+  mean: 0.4
+  std: 0.7
   evidence: |
     Periodic fasting activates autophagy, reduces IGF-1, and may promote
     cellular renewal. Animal models show lifespan benefits. Human aging
     data very limited. Mechanistically promising. Speculative.
-  mean: 0.4
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.4
   evidence: |
     On fasting days: hunger, reduced energy, possible irritability.
     Non-fasting days: normal eating freedom. Some report improved
     relationship with food long-term. Adherence challenges for many.
     Mixed effect; individual variation high.
-  mean: 0.0
-  std: 0.4
-summary: "Periodic caloric restriction including 5:2 (2 days/week at 500-600 kcal)
-  or\nalternate day fasting. Meta-analyses show similar weight loss to continuous\n\
-  restriction."

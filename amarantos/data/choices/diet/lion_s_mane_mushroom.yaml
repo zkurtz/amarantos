@@ -1,5 +1,8 @@
 domain: diet
 name: Lion's Mane Mushroom
+summary: "Medicinal mushroom (Hericium erinaceus) that stimulates NGF and BDNF synthesis.
+  RCTs show cognitive improvement in MCI (MMSE +1.17 points); benefits decline\nafter
+  discontinuation."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,28 +15,25 @@ specification:
     effects. Evidence quality low-moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.98
+  std: 0.10
   evidence: |
     No mortality data. Systematic review shows neuroprotective effects and
     cognitive improvement in MCI patients. (https://pmc.ncbi.nlm.nih.gov/articles/PMC12434001/).
     No cardiovascular outcomes studied. Speculative estimate based on
     cognitive preservation hypothesis.
-  mean: 0.98
-  std: 0.10
 - outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.8
   evidence: |
     Stimulates NGF and BDNF, supporting neuronal health. RCT in MCI: improved
     MMSE scores with 16-week supplementation. (https://pubmed.ncbi.nlm.nih.gov/31413233/).
     May protect against cognitive decline. Benefits reversible upon stopping.
     Moderate confidence.
-  mean: 0.5
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.4
   evidence: |
     Pilot studies suggest reduced subjective stress and improved mood in
     some populations. (https://pmc.ncbi.nlm.nih.gov/articles/PMC10675414/).
     Mixed results overall. Small positive effect possible.
-  mean: 0.2
-  std: 0.4
-summary: "Medicinal mushroom (Hericium erinaceus) that stimulates NGF and BDNF synthesis.
-  RCTs show cognitive improvement in MCI (MMSE +1.17 points); benefits decline\nafter
-  discontinuation."

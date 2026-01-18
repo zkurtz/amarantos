@@ -1,0 +1,42 @@
+domain: substance
+name: Optimized Caffeine Timing
+summary: "Caffeine has 5-6 hour half-life; afternoon intake impairs sleep architecture\n\
+  even without subjective awareness. Coffee itself associated with 12-15% lower\n\
+  mortality in observational studies."
+specification:
+  duration_h: 0.0
+  weekly_freq: 7
+  annual_cost_h: 0
+  annual_cost_usd: 0
+  description: "Recommended: morning only, avoid afternoon. Caffeine has 5-6 hour
+    half-life; afternoon intake impairs sleep architecture\neven without subjective
+    awareness. Coffee itself associated with 12-15% lower\nmortality in observational
+    studies. Timing optimization maintains benefits\nwhile protecting sleep. Morning
+    cortisol alignment recommended. Evidence\nquality moderate; coffee benefit strong,
+    timing effects from sleep science."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.88
+  std: 0.05
+  evidence: |
+    Meta-analysis: 3-4 cups coffee/day associated with 12-15% lower
+    all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/28391017/).
+    Benefits persist for decaf (polyphenols). Caffeine timing primarily
+    affects sleep; sleep affects mortality. Optimal timing supports
+    mortality benefit through sleep protection.
+- outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.5
+  evidence: |
+    Coffee consumption associated with longer telomeres in observational
+    studies. Polyphenols have antioxidant effects. Caffeine may enhance
+    autophagy. Sleep disruption from poor timing accelerates aging.
+    Net effect positive with proper timing.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
+  evidence: |
+    Morning caffeine improves alertness and mood. Afternoon caffeine
+    impairs sleep quality, reducing next-day wellbeing. Optimized timing
+    provides alertness benefits without sleep cost. Moderate positive
+    effect with good timing practices.

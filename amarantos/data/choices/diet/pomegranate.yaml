@@ -1,5 +1,7 @@
 domain: diet
 name: Pomegranate
+summary: "Polyphenol-rich fruit with strong antioxidant capacity. Meta-analyses of
+  RCTs\nshow significant BP reduction: -5 to -8mmHg SBP, -2 to -3mmHg DBP."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     quality moderate for BP."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.94
+  std: 0.06
   evidence: |
     No mortality RCTs. 2017 meta-analysis of 8 RCTs: pomegranate juice
     reduced SBP by -4.96mmHg and DBP by -2.01mmHg.
@@ -19,21 +23,17 @@ effects:
     RCTs: SBP -7.87mmHg, DBP -3.23mmHg.
     (https://pubmed.ncbi.nlm.nih.gov/38410857/). Theoretical CVD benefit
     via BP reduction; extrapolated estimate.
-  mean: 0.94
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.7
   evidence: |
     High antioxidant capacity. May improve vascular function. Animal studies
     suggest anti-aging effects. Urolithin A (pomegranate metabolite) shows
     promise for mitophagy. No human epigenetic clock data. Speculative.
-  mean: 0.3
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     May improve exercise performance via nitrate content. Limited mood RCT
     data. Potential sugar content may affect those with metabolic issues.
     Small effect uncertain.
-  mean: 0.1
-  std: 0.3
-summary: "Polyphenol-rich fruit with strong antioxidant capacity. Meta-analyses of
-  RCTs\nshow significant BP reduction: -5 to -8mmHg SBP, -2 to -3mmHg DBP."

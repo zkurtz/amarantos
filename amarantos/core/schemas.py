@@ -135,14 +135,14 @@ class Choice:
         """Save this choice to a YAML file."""
         if path is None:
             path = self.path
-        data = {
+        data: dict = {
             "domain": self.domain,
             "name": self.name,
-            "specification": attrs.asdict(self.specification),
-            "effects": [attrs.asdict(e) for e in self.effects],
         }
         if self.summary:
             data["summary"] = self.summary
+        data["specification"] = attrs.asdict(self.specification)
+        data["effects"] = [{**attrs.asdict(e), "outcome": str(e.outcome)} for e in self.effects]
         dummio.yaml.save(data, filepath=path)
 
 

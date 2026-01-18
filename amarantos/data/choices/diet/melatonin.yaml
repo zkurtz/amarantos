@@ -1,5 +1,7 @@
 domain: diet
 name: Melatonin
+summary: "Hormone regulating circadian rhythm. Meta-analysis shows improved sleep
+  quality\n(PSQI -1.24)."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     use appears safe; long-term safety uncertain.\nEvidence quality low for safety."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.0
+  std: 0.10
   evidence: |
     2025 AHA study (n=130,828): long-term melatonin users had HR 2.09 for
     all-cause mortality vs matched controls. HF incidence HR 1.89.
@@ -19,21 +23,17 @@ effects:
     Authors note association may reflect underlying conditions, not causation.
     Not peer-reviewed. Short-term likely safe; long-term uncertain. Estimate
     reflects uncertainty.
-  mean: 1.0
-  std: 0.10
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.8
   evidence: |
     Antioxidant properties. Supports circadian rhythm which affects aging.
     Animal studies suggest longevity benefits. Safety concerns from 2025
     study add uncertainty. Speculative.
-  mean: 0.0
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.3
+  std: 0.3
   evidence: |
     Meta-analysis of 23 RCTs shows improved sleep quality (PSQI -1.24).
     (https://pubmed.ncbi.nlm.nih.gov/33417003/). Better sleep improves
     daytime functioning. Short-term benefit likely.
-  mean: 0.3
-  std: 0.3
-summary: "Hormone regulating circadian rhythm. Meta-analysis shows improved sleep
-  quality\n(PSQI -1.24)."

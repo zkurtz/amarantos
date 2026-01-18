@@ -1,5 +1,7 @@
 domain: diet
 name: Glycine
+summary: Simplest amino acid, involved in collagen synthesis and glutathione
+  production. Extended lifespan in mice.
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -12,29 +14,27 @@ specification:
     promise in elderly.\nNo mortality RCTs. Evidence mixed."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.0
+  std: 0.08
   evidence: |
     No mortality RCTs. Mendelian randomization (n=230,947): genetically
     elevated glycine associated with reduced SBP and T2DM risk, but NOT
     with CAD. (https://www.nature.com/articles/s41467-019-08936-1). Mouse
     feeding studies showed no effect on atherosclerosis. Observational
     associations may not be causal. Centered at null with uncertainty.
-  mean: 1.0
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.7
   evidence: |
     Extended lifespan in mice. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/).
     Supports glutathione synthesis. GlyNAC combination improved oxidative
     stress and metabolic markers in elderly RCTs.
     (https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2022.852569/full).
     Moderate confidence for functional benefits.
-  mean: 0.5
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     May improve sleep quality at higher doses. Supports collagen for
     joint health. GlyNAC improved cognitive endpoints in elderly. Small
     positive effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: Simplest amino acid, involved in collagen synthesis and glutathione
-  production. Extended lifespan in mice.

@@ -1,5 +1,7 @@
 domain: diet
 name: Omega-3 Fatty Acids
+summary: "Omega-3 supplementation (1g+/day) reduces CV mortality and MI risk but has\n\
+  null effect on all-cause mortality in RCTs. Small antidepressant effect\n(SMD -0.28)."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -11,6 +13,8 @@ specification:
     EPA+DHA. Note: may increase\natrial fibrillation risk. Mixed evidence overall."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.96
+  std: 0.04
   evidence: |
     Meta-analysis of 42 RCTs, n=176,253. CV mortality reduced (p=0.02) but
     all-cause mortality NOT significant. MI: HR ~0.92. EPA > EPA+DHA combo.
@@ -18,23 +22,19 @@ effects:
     Increased AFib risk noted. Mattumpuram 2025
     (https://onlinelibrary.wiley.com/doi/10.1002/ctd2.70094). Hu 2019
     (https://www.ahajournals.org/doi/10.1161/JAHA.119.013543).
-  mean: 0.96
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 1.0
   evidence: |
     No direct epigenetic clock studies. Some reduced inflammation markers
     (CRP, IL-6). Telomere studies inconclusive. Cannot extrapolate from
     mortality since all-cause effect is null. Highly speculative; centered
     at zero with large uncertainty.
-  mean: 0.0
-  std: 1.0
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.25
+  std: 0.15
   evidence: |
     Meta-analysis of 26 RCTs, n=2,160. SMD -0.28 (p=0.004) for depression.
     Small but significant. EPA-rich > DHA-dominant. Causal evidence. More
     effective as adjunct than standalone. Liao 2019
     (https://www.nature.com/articles/s41398-019-0515-5).
-  mean: 0.25
-  std: 0.15
-summary: "Omega-3 supplementation (1g+/day) reduces CV mortality and MI risk but has\n\
-  null effect on all-cause mortality in RCTs. Small antidepressant effect\n(SMD -0.28)."

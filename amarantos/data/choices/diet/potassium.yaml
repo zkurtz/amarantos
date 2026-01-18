@@ -1,5 +1,7 @@
 domain: diet
 name: Potassium
+summary: "Essential mineral; most adults under-consume. Meta-analysis: reduces SBP
+  by\n3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP)."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     ≥3.5g/day. Dietary\nsources preferred. Evidence quality high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.92
+  std: 0.05
   evidence: |
     Systematic review and meta-analysis: higher potassium intake associated
     with 24% lower stroke risk (RR 0.76). CVD risk reduction NS in some
@@ -20,20 +24,16 @@ effects:
     dose-response suggests optimal intake range.
     (https://www.ahajournals.org/doi/10.1161/JAHA.119.015719). Dietary
     sources preferred.
-  mean: 0.92
-  std: 0.05
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.6
   evidence: |
     Supports vascular function and may protect against cognitive decline
     via BP reduction. No epigenetic clock studies. Associated with healthy
     dietary patterns. Speculative.
-  mean: 0.3
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     Deficiency causes fatigue and muscle weakness. Adequate intake supports
     muscle function and energy. Limited direct mood data.
-  mean: 0.1
-  std: 0.3
-summary: "Essential mineral; most adults under-consume. Meta-analysis: reduces SBP
-  by\n3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP)."

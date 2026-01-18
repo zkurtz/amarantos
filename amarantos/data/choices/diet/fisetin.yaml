@@ -1,5 +1,7 @@
 domain: diet
 name: Fisetin
+summary: "Flavonoid senolytic found in strawberries. Extended lifespan 10% in mice
+  by\nclearing senescent cells."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     data. Evidence quality very low; highly\nspeculative but mechanistically promising."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.95
+  std: 0.15
   evidence: |
     No human mortality data. Mouse studies: fisetin extended median and
     maximum lifespan, improved tissue homeostasis.
@@ -19,21 +23,17 @@ effects:
     frailty markers and improved physical function in old mice.
     (https://onlinelibrary.wiley.com/doi/10.1111/acel.70114). Human trials
     ongoing. Highly speculative estimate based on animal data.
-  mean: 0.95
-  std: 0.15
 - outcome: Years of delayed aging
+  mean: 1.0
+  std: 1.5
   evidence: |
     Most potent senolytic among 10 flavonoids tested. Clears senescent cells
     and reduces SASP markers. DQ+Fisetin trials examining epigenetic clocks.
     (https://www.aging-us.com/article/205581/text). Strong mechanistic
     rationale but limited human data. Speculative.
-  mean: 1.0
-  std: 1.5
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.5
   evidence: |
     No human wellbeing data. Reduced frailty in mice may translate to
     improved function. Purely speculative.
-  mean: 0.0
-  std: 0.5
-summary: "Flavonoid senolytic found in strawberries. Extended lifespan 10% in mice
-  by\nclearing senescent cells."

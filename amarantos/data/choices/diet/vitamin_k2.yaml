@@ -10,4 +10,5 @@ effects:
 - outcome: Relative mortality risk
   mean: 0.92
   std: 0.0306
-  evidence: Relative risk of cardiovascular calcification; 90-360mcg/day MK-7 vs placebo
+  evidence: Relative risk of cardiovascular calcification; 90-360mcg/day MK-7 vs
+    placebo

@@ -1,5 +1,7 @@
 domain: diet
 name: Astaxanthin
+summary: "Potent carotenoid antioxidant from algae/seafood. Modest benefits for lipid\n\
+  profile (LDL reduction) and blood pressure."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -11,27 +13,25 @@ specification:
     safety\nprofile than vitamin E. Evidence is preliminary; mostly small trials."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.0
+  std: 0.1
   evidence: |
     No mortality RCTs. Meta-analysis of 17 studies (n=1101) shows improved
     lipid profile. Fassett 2017 (https://pubmed.ncbi.nlm.nih.gov/27924978/).
     Theoretical CVD benefit via lipids/inflammation but unproven for hard
     endpoints. Unlike vitamin E, no signal of harm. Centered at null.
-  mean: 1.0
-  std: 0.1
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.8
   evidence: |
     Strong antioxidant in vitro. Animal studies show benefits. Human aging
     studies absent. Reduces oxidative stress markers. No epigenetic clock
     data. Speculative.
-  mean: 0.0
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     Pilot heart failure study showed improved exercise tolerance (+39m on
     6MWT) and quality of life. Xia 2020
     (https://pmc.ncbi.nlm.nih.gov/articles/PMC11292897/). Limited to HF
     patients. No general population mood data.
-  mean: 0.1
-  std: 0.3
-summary: "Potent carotenoid antioxidant from algae/seafood. Modest benefits for lipid\n\
-  profile (LDL reduction) and blood pressure."

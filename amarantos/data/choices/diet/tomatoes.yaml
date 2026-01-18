@@ -10,4 +10,5 @@ effects:
 - outcome: Relative mortality risk
   mean: 0.93
   std: 0.0255
-  evidence: Relative risk of prostate cancer; highest vs lowest lycopene intake quintile
+  evidence: Relative risk of prostate cancer; highest vs lowest lycopene intake
+    quintile

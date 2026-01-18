@@ -1,5 +1,9 @@
 domain: diet
 name: Equol
+summary: "Gut microbiome metabolite of daidzein (soy isoflavone) with greater estrogenic\n\
+  and antioxidant activity than parent compound. Only 25-30% of Western adults\nare
+  \"equol producers.\" Improves arterial stiffness (11-12% CVD risk reduction\nif
+  sustained)."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,28 +16,24 @@ specification:
     limited to equol producers. Evidence quality low-moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.97
+  std: 0.08
   evidence: |
     Meta-analysis of 23 cohorts (n=330,826): isoflavone intake inversely
     associated with all-cause mortality but NOT CVD mortality specifically.
     RCT shows improved cfPWV in equol producers, equivalent to 11-12% CVD
     risk reduction if sustained. (https://pubmed.ncbi.nlm.nih.gov/26843154/).
     Benefit limited to ~30% who are equol producers. Speculative estimate.
-  mean: 0.97
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.6
   evidence: |
     Estrogenic effects may protect against age-related decline in women.
     Antioxidant properties. No epigenetic clock studies. Limited human
     longevity data. Speculative.
-  mean: 0.0
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.3
   evidence: |
     May reduce menopausal symptoms in equol-producing women. Limited mood
     data. Effect depends on producer status. Uncertain.
-  mean: 0.0
-  std: 0.3
-summary: "Gut microbiome metabolite of daidzein (soy isoflavone) with greater estrogenic\n\
-  and antioxidant activity than parent compound. Only 25-30% of Western adults\nare
-  \"equol producers.\" Improves arterial stiffness (11-12% CVD risk reduction\nif
-  sustained)."

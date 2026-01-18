@@ -1,0 +1,39 @@
+domain: thermal
+name: Infrared Sauna
+summary: "Lower temperature (45-65°C) heat therapy. Meta-analysis of 7 studies in
+  heart\nfailure: improved ejection fraction, reduced BNP."
+specification:
+  duration_h: 0.5
+  weekly_freq: 4
+  annual_cost_h: 120
+  annual_cost_usd: 800
+  description: "Recommended: 3-7x/week, 15-30min. Lower temperature (45-65°C) heat
+    therapy. Meta-analysis of 7 studies in heart\nfailure: improved ejection fraction,
+    reduced BNP. Improves endothelial function.\nLess studied than Finnish sauna for
+    mortality outcomes. Generally safe and\nbetter tolerated than traditional sauna.
+    No effect on cholesterol. Evidence\nquality low-moderate; extrapolated from Finnish
+    sauna and mechanistic studies."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.85
+  std: 0.10
+  evidence: |
+    No direct mortality studies for infrared sauna. Meta-analysis in heart
+    failure (n=491): improved LVEF and reduced BNP with 2-4 weeks therapy.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC6489706/). Far-infrared
+    improves endothelial function similar to Finnish sauna.
+    (https://pmc.ncbi.nlm.nih.gov/articles/PMC2718593/). Extrapolated
+    from Finnish sauna data with higher uncertainty.
+- outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.8
+  evidence: |
+    Similar heat shock protein induction to Finnish sauna. May improve
+    mitochondrial function. Less studied for aging outcomes. Speculative.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.3
+  std: 0.3
+  evidence: |
+    Relaxation and stress reduction similar to Finnish sauna. Better
+    tolerated due to lower temperatures. May improve chronic pain.
+    Small-moderate positive effect likely.

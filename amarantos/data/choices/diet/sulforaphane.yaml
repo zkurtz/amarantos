@@ -10,4 +10,5 @@ effects:
 - outcome: Relative mortality risk
   mean: 0.915
   std: 0.0332
-  evidence: Relative risk of cancer incidence; regular cruciferous intake vs low intake; Nrf2 pathway activation
+  evidence: Relative risk of cancer incidence; regular cruciferous intake vs low
+    intake; Nrf2 pathway activation

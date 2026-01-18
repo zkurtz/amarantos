@@ -1,5 +1,8 @@
 domain: diet
 name: Quercetin
+summary: "Flavonoid with antioxidant and potential senolytic effects. Meta-analyses
+  show\nmodest BP reduction (-3mmHg SBP in hypertensives), reduced LDL and fasting\n\
+  glucose."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -12,6 +15,8 @@ specification:
     No mortality\nRCTs. Evidence quality low-moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.97
+  std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis: SBP reduction -3.19mmHg in hypertensives,
     reduced LDL and total cholesterol.
@@ -19,22 +24,17 @@ effects:
     uncertain effects on most cardiometabolic factors.
     (https://pubmed.ncbi.nlm.nih.gov/37654199/). Theoretical CVD benefit via
     BP/lipid effects; extrapolated estimate.
-  mean: 0.97
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.8
   evidence: |
     Senolytic when combined with dasatinib (D+Q). May clear senescent cells
     and reduce SASP. Q-CABG trial examining effects in cardiac patients.
     (https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.741542/full).
     Single-agent effects uncertain. Moderate uncertainty.
-  mean: 0.3
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.3
   evidence: |
     No direct mood RCTs. May reduce inflammation which affects mood. Part of
     healthy dietary patterns. Indirect evidence only.
-  mean: 0.0
-  std: 0.3
-summary: "Flavonoid with antioxidant and potential senolytic effects. Meta-analyses
-  show\nmodest BP reduction (-3mmHg SBP in hypertensives), reduced LDL and fasting\n\
-  glucose."

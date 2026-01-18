@@ -1,0 +1,42 @@
+domain: social
+name: Strong Social Connections
+summary: "Quality social relationships and community ties. Meta-analysis of 148 studies\n\
+  (n=308,849): strong relationships associated with 50% reduced mortality risk,\n\
+  comparable to smoking cessation."
+specification:
+  duration_h: 2.0
+  weekly_freq: 3
+  annual_cost_h: 350
+  annual_cost_usd: 500
+  description: "Recommended: regular meaningful relationships. Quality social relationships
+    and community ties. Meta-analysis of 148 studies\n(n=308,849): strong relationships
+    associated with 50% reduced mortality risk,\ncomparable to smoking cessation.
+    Loneliness as harmful as smoking 15 cig/day.\nMechanisms include stress buffering,
+    health behaviors, inflammation. Evidence\nquality high from large meta-analyses;
+    associative but highly consistent."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.70
+  std: 0.08
+  evidence: |
+    Meta-analysis of 148 studies (n=308,849): OR 1.50 for survival with
+    strong vs weak relationships. (https://pubmed.ncbi.nlm.nih.gov/20668659/).
+    Loneliness meta-analysis (n=3.4M): HR 1.26 for all-cause mortality.
+    (https://pubmed.ncbi.nlm.nih.gov/25910392/). Effect size comparable
+    to smoking cessation. Highly consistent associative evidence.
+- outcome: Years of delayed aging
+  mean: 1.5
+  std: 0.8
+  evidence: |
+    Social isolation associated with accelerated epigenetic aging and
+    shorter telomeres. Blue Zone populations have strong social structures.
+    Caregiving stress accelerates aging; positive relationships protective.
+    Strong observational evidence.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 1.0
+  std: 0.4
+  evidence: |
+    Social relationships are strongest predictor of happiness in large
+    surveys (Harvard Study of Adult Development, World Happiness Report).
+    Loneliness strongly associated with depression and anxiety.
+    Large positive effect on wellbeing.

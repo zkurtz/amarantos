@@ -1,5 +1,8 @@
 domain: diet
 name: Resveratrol
+summary: "Polyphenol found in red grapes with extensive preclinical longevity data.
+  Human RCTs show mixed results: some BP reduction, inconsistent effects on\nlipids
+  and inflammation."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -13,6 +16,8 @@ specification:
     low."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.0
+  std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis shows some BP reduction and anti-
     inflammatory effects in CVD patients.
@@ -20,21 +25,16 @@ effects:
     increased LDL/TC. Inconsistent effects across trials.
     (https://www.mdpi.com/1422-0067/25/2/747). Clinical evidence does not
     support clear benefit. Centered at null.
-  mean: 1.0
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.8
   evidence: |
     Strong preclinical evidence for lifespan extension via SIRT1 activation.
     Human translation limited. No epigenetic clock studies show benefit.
     Speculative for human aging.
-  mean: 0.0
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.3
   evidence: |
     No direct mood RCTs. May improve cognitive function in some populations.
     Limited evidence. Uncertain effect.
-  mean: 0.0
-  std: 0.3
-summary: "Polyphenol found in red grapes with extensive preclinical longevity data.
-  Human RCTs show mixed results: some BP reduction, inconsistent effects on\nlipids
-  and inflammation."

@@ -132,7 +132,7 @@ class Reference:
     pmid: str = ""
     abstract: str = ""
 
-    @url.validator
+    @url.validator  # type: ignore[attr-defined]
     def _validate_url(self, attribute: attrs.Attribute, value: str) -> None:
         """Validate that url is a properly formatted URL."""
         if not value:

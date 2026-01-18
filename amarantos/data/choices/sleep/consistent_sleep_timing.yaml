@@ -18,10 +18,10 @@ effects:
   mean: 0.92
   std: 0.05
   evidence: |
-    UK Biobank (n=433,268): evening chronotype HR 1.10 (95% CI: 1.02-1.18)
-    vs morning type for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/29669607/).
+    UK Biobank (n=433,268): evening chronotype associated with higher mortality
+    vs morning type. (https://pubmed.ncbi.nlm.nih.gov/29642757/).
     Sleep irregularity associated with metabolic syndrome and CVD risk.
-    (https://pubmed.ncbi.nlm.nih.gov/31672995/). Shift work associated
+    (https://pubmed.ncbi.nlm.nih.gov/32138974/). Shift work associated
     with increased mortality. Associative evidence; confounding possible.
 - outcome: Years of delayed aging
   mean: 0.5

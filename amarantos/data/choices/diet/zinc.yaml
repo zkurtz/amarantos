@@ -1,5 +1,7 @@
 domain: diet
 name: Zinc
+summary: "Essential trace mineral for immune function and antioxidant defense. Meta-\n\
+  analysis of 75 RCTs shows reduced TG, TC, FBG, CRP, IL-6."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -13,6 +15,8 @@ specification:
     for CVD risk factors."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.96
+  std: 0.06
   evidence: |
     Umbrella review: zinc supplementation NS for all-cause mortality in
     general population. (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full).
@@ -20,21 +24,17 @@ effects:
     (https://www.sciencedirect.com/science/article/pii/S2211335524002456).
     Heart failure patients with low zinc have higher mortality. Dietary
     adequate intake preferred.
-  mean: 0.96
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 0.2
+  std: 0.5
   evidence: |
     Essential for immune function and DNA repair. Deficiency accelerates
     immunosenescence. Low-dose long-term supplementation may benefit older
     adults. No epigenetic clock studies. Moderate confidence.
-  mean: 0.2
-  std: 0.5
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     Deficiency causes fatigue and impaired cognitive function. Supports
     immune function (reduced infection duration). Supplementation in
     replete individuals unlikely to improve wellbeing.
-  mean: 0.1
-  std: 0.3
-summary: "Essential trace mineral for immune function and antioxidant defense. Meta-\n\
-  analysis of 75 RCTs shows reduced TG, TC, FBG, CRP, IL-6."

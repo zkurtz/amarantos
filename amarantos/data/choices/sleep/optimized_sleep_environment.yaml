@@ -1,0 +1,41 @@
+domain: sleep
+name: Optimized Sleep Environment
+summary: "Sleep environment optimization includes temperature (17-19°C/63-67°F optimal),\n\
+  darkness (melatonin suppression from light), and noise (<35dB). Light exposure\n\
+  at night associated with obesity and depression in large cohorts."
+specification:
+  duration_h: 0.0
+  weekly_freq: 7
+  annual_cost_h: 10
+  annual_cost_usd: 500
+  description: "Recommended: dark, cool, quiet. Sleep environment optimization includes
+    temperature (17-19°C/63-67°F optimal),\ndarkness (melatonin suppression from light),
+    and noise (<35dB). Light exposure\nat night associated with obesity and depression
+    in large cohorts. Cool\ntemperatures improve sleep quality. Evidence primarily
+    mechanistic and from\nsleep quality studies; limited direct mortality data."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.95
+  std: 0.08
+  evidence: |
+    No direct mortality RCTs for sleep environment. UK Biobank: light
+    exposure at night associated with obesity, depression, and CVD risk
+    factors. (https://pubmed.ncbi.nlm.nih.gov/35970991/). Effect on
+    mortality mediated through sleep quality and metabolic health.
+    Indirect evidence; centered at null with uncertainty.
+- outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.5
+  evidence: |
+    Light at night disrupts circadian rhythms and melatonin production.
+    Melatonin has antioxidant properties. Temperature regulation affects
+    sleep architecture and recovery. Likely supports healthy aging through
+    improved sleep quality. Speculative.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
+  evidence: |
+    Sleep environment interventions consistently improve sleep quality
+    in RCTs. Noise reduction, darkness, and temperature optimization
+    reduce sleep latency and improve sleep efficiency. Better sleep
+    improves daytime functioning. Moderate positive effect.

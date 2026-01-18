@@ -1,5 +1,7 @@
 domain: exercise
 name: Swimming
+summary: "Full-body cardio with minimal joint impact. UK cohort (n=80K): 28% lower
+  all-\ncause mortality, 41% lower CVD mortality vs non-swimmers."
 specification:
   duration_h: 0.75
   weekly_freq: 3
@@ -12,27 +14,25 @@ specification:
     Improves lipid profile and\nBP. Evidence quality moderate-high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.72
+  std: 0.05
   evidence: |
     UK cohort (n=80,306): swimming HR 0.72 (95% CI: 0.65-0.80) for all-cause
     mortality, HR 0.59 (95% CI: 0.46-0.75) for CVD mortality.
     (https://pubmed.ncbi.nlm.nih.gov/27895075/). Swimmers had 53% lower
     all-cause mortality vs sedentary, 49% lower vs runners.
     (https://scholarworks.bgsu.edu/ijare/vol2/iss3/3/). Associative evidence.
-  mean: 0.72
-  std: 0.05
 - outcome: Years of delayed aging
+  mean: 1.5
+  std: 0.6
   evidence: |
     Cardiorespiratory fitness strongly linked to biological aging. Low
     joint impact preserves mobility into older age. May improve flexibility.
     Strong biological plausibility.
-  mean: 1.5
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
   evidence: |
     Swimming associated with improved mental health and stress reduction.
     Water-based exercise particularly beneficial for chronic pain. Social
     component at pools. Moderate positive effect likely.
-  mean: 0.4
-  std: 0.3
-summary: "Full-body cardio with minimal joint impact. UK cohort (n=80K): 28% lower
-  all-\ncause mortality, 41% lower CVD mortality vs non-swimmers."

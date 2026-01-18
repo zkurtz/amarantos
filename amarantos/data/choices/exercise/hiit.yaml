@@ -1,5 +1,7 @@
 domain: exercise
 name: HIIT
+summary: "High-intensity interval training with alternating high/low intensity periods.
+  Meta-analyses show 1.35 mL/kg/min greater VO2peak improvement vs moderate\ncardio."
 specification:
   duration_h: 0.4
   weekly_freq: 2.5
@@ -13,6 +15,8 @@ specification:
     quality moderate-high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.72
+  std: 0.06
   evidence: |
     No direct mortality RCTs. Generation 100 study: 37% lower all-cause
     mortality vs guidelines, 49% lower vs MICT (NS). Each MET fitness
@@ -20,21 +24,17 @@ effects:
     (https://www.ahajournals.org/doi/10.1161/JAHA.118.009305). HIIT vs MICT
     meta-analysis: 1.15-1.78 mL/kg/min greater VO2peak improvement.
     Extrapolated from fitness improvements.
-  mean: 0.72
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 1.0
+  std: 0.7
   evidence: |
     Improves cardiorespiratory fitness more efficiently than MICT. May
     improve mitochondrial function and insulin sensitivity. Some evidence
     for telomere preservation. Moderate confidence.
-  mean: 1.0
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.3
+  std: 0.3
   evidence: |
     Meta-analysis: comparable quality of life effects to MICT. Time-efficient
     may improve adherence. Post-exercise endorphin release. Small positive
     effect likely.
-  mean: 0.3
-  std: 0.3
-summary: "High-intensity interval training with alternating high/low intensity periods.
-  Meta-analyses show 1.35 mL/kg/min greater VO2peak improvement vs moderate\ncardio."

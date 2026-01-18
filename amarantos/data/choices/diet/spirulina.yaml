@@ -1,5 +1,8 @@
 domain: diet
 name: Spirulina
+summary: "Blue-green algae with strong meta-analysis support for cardiometabolic benefits.
+  2025 meta-analysis of 35 RCTs: reduces TG (-15mg/dL), TC (-12mg/dL), LDL (-8mg/dL),\n\
+  SBP (-4mmHg), DBP (-3mmHg), weight (-1.8kg)."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +15,8 @@ specification:
     Rich in protein and phycocyanin. No\nmortality RCTs. Evidence quality moderate-high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.94
+  std: 0.06
   evidence: |
     No mortality RCTs. 2025 meta-analysis of 35 RCTs shows improved glucose,
     lipids, BP, weight, and inflammation.
@@ -19,21 +24,16 @@ effects:
     2mmHg DBP reduction associated with 6% lower CHD risk and 15% lower stroke
     risk. (https://pmc.ncbi.nlm.nih.gov/articles/PMC12245695/). Extrapolated
     estimate.
-  mean: 0.94
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.6
   evidence: |
     Rich in antioxidants (phycocyanin) with anti-inflammatory effects. May
     support cellular health. No epigenetic clock studies. Speculative.
-  mean: 0.3
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     May improve energy via high protein and B12 content. Some report
     improved vitality. Limited direct mood data. Small positive effect
     plausible.
-  mean: 0.1
-  std: 0.3
-summary: "Blue-green algae with strong meta-analysis support for cardiometabolic benefits.
-  2025 meta-analysis of 35 RCTs: reduces TG (-15mg/dL), TC (-12mg/dL), LDL (-8mg/dL),\n\
-  SBP (-4mmHg), DBP (-3mmHg), weight (-1.8kg)."

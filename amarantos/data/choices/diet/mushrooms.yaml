@@ -1,5 +1,7 @@
 domain: diet
 name: Mushrooms
+summary: "Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis
+  of\ncohorts (n=602K): 6% lower all-cause mortality with consumption."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     mortality. Evidence\nquality moderate for mortality; cancer evidence has limitations."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.92
+  std: 0.04
   evidence: |
     Meta-analysis of prospective cohorts (n=601,893): mushroom consumption
     associated with RR 0.94 (95% CI: 0.91-0.98) for all-cause mortality.
@@ -19,21 +23,17 @@ effects:
     NHANES: HR 0.84 (95% CI: 0.74-0.95) for mushroom consumers.
     Ergothioneine metabolite associated with HR 0.86 for mortality.
     Associative evidence.
-  mean: 0.92
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 0.4
+  std: 0.6
   evidence: |
     Ergothioneine may protect against oxidative stress and age-related
     decline. Associated with healthy dietary patterns. No epigenetic clock
     studies. Speculative.
-  mean: 0.4
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     No direct mood RCTs. Part of healthy dietary patterns. Some medicinal
     mushrooms (different from culinary) have adaptogenic properties.
     Indirect evidence only.
-  mean: 0.1
-  std: 0.3
-summary: "Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis
-  of\ncohorts (n=602K): 6% lower all-cause mortality with consumption."

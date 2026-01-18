@@ -1,5 +1,8 @@
 domain: exercise
 name: NEAT
+summary: "Non-exercise activity thermogenesis: energy from daily activities excluding\n\
+  formal exercise. Standing increases expenditure 10-20% above sitting; walking\n\
+  100-200%."
 specification:
   duration_h: 0.0
   weekly_freq: 7
@@ -13,6 +16,8 @@ specification:
     better than equivalent cycling.\nEvidence quality moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.82
+  std: 0.06
   evidence: |
     Canadian cohort: dose-response between sitting time and all-cause/CVD
     mortality independent of exercise. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/).
@@ -21,21 +26,16 @@ effects:
     (https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003).
     Reducing sedentary time associated with reduced metabolic syndrome, CVD
     events, and mortality. Associative evidence.
-  mean: 0.82
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.6
   evidence: |
     Prolonged sitting associated with accelerated biological aging. Breaking
     up sitting time improves metabolic markers. May support joint mobility
     and reduce sarcopenia risk. Moderate confidence.
-  mean: 0.5
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Standing desks associated with improved energy and reduced back pain.
     Regular movement breaks improve alertness. Small positive effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: "Non-exercise activity thermogenesis: energy from daily activities excluding\n\
-  formal exercise. Standing increases expenditure 10-20% above sitting; walking\n\
-  100-200%."

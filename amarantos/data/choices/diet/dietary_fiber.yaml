@@ -1,0 +1,40 @@
+domain: diet
+name: Dietary Fiber
+summary: "Among the most evidence-backed dietary interventions. 2023 meta-analysis
+  of\n64 studies (n=3.5M): 23% lower all-cause mortality, 26% lower CVD mortality,\n\
+  22% lower cancer mortality for highest intake."
+specification:
+  duration_h: 0.002
+  weekly_freq: 7
+  annual_cost_h: 6
+  annual_cost_usd: 100
+  description: "Recommended: 25-30g/day. Among the most evidence-backed dietary interventions.
+    2023 meta-analysis of\n64 studies (n=3.5M): 23% lower all-cause mortality, 26%
+    lower CVD mortality,\n22% lower cancer mortality for highest intake. Insoluble
+    fiber and whole grain\nsources most effective. Dose-response steeper below 15g/day.
+    Evidence quality\nhigh."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.82
+  std: 0.04
+  evidence: |
+    2023 meta-analysis of 64 studies (n=3,512,828): highest vs lowest fiber
+    intake: HR 0.77 for all-cause, HR 0.74 for CVD, HR 0.78 for cancer
+    mortality. (https://pubmed.ncbi.nlm.nih.gov/38011755/). Dose-response
+    meta-analysis: per 10g/day increase: RR 0.90 for all-cause, 0.87 for CVD.
+    (https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1153165/full).
+    Fiber from nuts/seeds: 43% lower CVD mortality. Associative evidence;
+    highly consistent.
+- outcome: Years of delayed aging
+  mean: 1.0
+  std: 0.6
+  evidence: |
+    Supports gut microbiome health. May reduce inflammation and improve
+    metabolic markers. Associated with healthy aging patterns. No epigenetic
+    clock studies. Strong biological plausibility.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
+  evidence: |
+    Improved gut health may enhance mood via gut-brain axis. Reduces
+    constipation and GI discomfort. Indirect evidence only.

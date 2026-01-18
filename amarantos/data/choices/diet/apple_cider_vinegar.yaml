@@ -1,5 +1,7 @@
 domain: diet
 name: Apple Cider Vinegar
+summary: "Modest benefits for blood glucose and lipid control in diabetics. Reduces\n\
+  fasting glucose by ~20mg/dL and HbA1c by ~0.5-1.5%."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -11,26 +13,24 @@ specification:
     enamel. Evidence from\nsmall trials; no long-term outcome studies."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.0
+  std: 0.1
   evidence: |
     No mortality studies exist for ACV. Benefits are on intermediate markers
     (glucose, lipids) which may reduce long-term CVD risk, but this is
     speculative extrapolation. Centered at null with uncertainty reflecting
     possible small benefit via metabolic improvements.
-  mean: 1.0
-  std: 0.1
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.5
   evidence: |
     No aging-specific studies. Acetic acid may activate AMPK pathway linked
     to longevity in animal models. Human translation unknown. Highly
     speculative; large uncertainty.
-  mean: 0.0
-  std: 0.5
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.2
   evidence: |
     No direct mood/wellbeing RCTs. Improved glycemic control may indirectly
     benefit energy levels in diabetics. Sour taste may be aversive for some.
     No evidence for direct mood effects.
-  mean: 0.0
-  std: 0.2
-summary: "Modest benefits for blood glucose and lipid control in diabetics. Reduces\n\
-  fasting glucose by ~20mg/dL and HbA1c by ~0.5-1.5%."

@@ -1,5 +1,7 @@
 domain: diet
 name: Fermented Foods
+summary: "Yogurt, kefir, kimchi, sauerkraut, miso provide live microbes and bioactive\n\
+  compounds. Associated with improved gut microbiome diversity and metabolic\nhealth."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +14,8 @@ specification:
     metabolic markers. Evidence\nquality low-moderate; research field evolving."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.95
+  std: 0.08
   evidence: |
     Limited direct mortality meta-analyses. Fermented dairy associated with
     beneficial health outcomes in observational studies. Gut microbiome
@@ -20,21 +24,17 @@ effects:
     and low pathogen content.
     (https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1045096/full).
     Extrapolated estimate with high uncertainty.
-  mean: 0.95
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.7
   evidence: |
     Gut microbiome health linked to aging. Fermented foods may improve
     microbial diversity and resilience. No epigenetic clock studies.
     Speculative.
-  mean: 0.3
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Gut-brain axis research suggests fermented foods may improve mood via
     microbiome modulation. Limited direct RCT evidence. Small positive
     effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: "Yogurt, kefir, kimchi, sauerkraut, miso provide live microbes and bioactive\n\
-  compounds. Associated with improved gut microbiome diversity and metabolic\nhealth."

@@ -1,5 +1,8 @@
 domain: exercise
 name: Moderate Cardio
+summary: "WHO-recommended baseline: 150-300min/week moderate or 75-150min vigorous.
+  Meta-analyses: 26-31% lower all-cause mortality, 28-38% lower CVD mortality\nat
+  300-600min/week."
 specification:
   duration_h: 0.5
   weekly_freq: 4
@@ -12,6 +15,8 @@ specification:
     to some activity.\nNo upper limit of harm observed. Evidence quality very high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.70
+  std: 0.04
   evidence: |
     AHA 30-year cohort (n=100K+): 300-600min/week moderate activity: 26-31%
     lower all-cause mortality, 28-38% lower CVD mortality.
@@ -19,22 +24,17 @@ effects:
     Cochrane CR meta-analysis: 26% lower CV mortality.
     (https://pmc.ncbi.nlm.nih.gov/articles/PMC6527136/). Causal and
     associative evidence; very robust.
-  mean: 0.70
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 2.0
+  std: 0.7
   evidence: |
     Improves cardiorespiratory fitness strongly linked to biological aging.
     Reduces inflammation and oxidative stress. Associated with slower
     cognitive decline. Strong biological plausibility.
-  mean: 2.0
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.5
+  std: 0.3
   evidence: |
     Exercise consistently associated with improved mood and reduced anxiety/
     depression in meta-analyses. Improved sleep quality. May enhance social
     connections. Moderate-large positive effect.
-  mean: 0.5
-  std: 0.3
-summary: "WHO-recommended baseline: 150-300min/week moderate or 75-150min vigorous.
-  Meta-analyses: 26-31% lower all-cause mortality, 28-38% lower CVD mortality\nat
-  300-600min/week."

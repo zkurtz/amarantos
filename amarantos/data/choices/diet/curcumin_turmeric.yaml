@@ -1,5 +1,7 @@
 domain: diet
 name: Curcumin/Turmeric
+summary: "Polyphenol with potent anti-inflammatory effects. Meta-analysis of 103 RCTs\n\
+  shows significant effects on 55% of outcomes tested."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,27 +14,25 @@ specification:
     Evidence quality moderate;\nsurrogate markers improved but hard endpoints lacking."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.95
+  std: 0.08
   evidence: |
     No mortality RCTs. 2024 comprehensive meta-analysis of 103 RCTs (n=7,216)
     shows significant effects on FBS, CRP, HDL, and weight with high credibility.
     (https://pubmed.ncbi.nlm.nih.gov/39478418/). Reduces inflammatory markers
     and improves ASCVD risk factors. Theoretical CVD benefit. Extrapolated
     estimate.
-  mean: 0.95
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.7
   evidence: |
     Reduces markers of inflammaging (CRP, IL-6, TNF-α). May protect against
     cognitive decline via anti-inflammatory effects. Animal studies suggest
     lifespan benefits. No human epigenetic clock data. Speculative.
-  mean: 0.3
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Meta-analyses show benefits for depression and cognitive function in
     some populations. May reduce joint pain in arthritis. Anti-inflammatory
     effects may improve overall wellbeing. Small positive effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: "Polyphenol with potent anti-inflammatory effects. Meta-analysis of 103 RCTs\n\
-  shows significant effects on 55% of outcomes tested."

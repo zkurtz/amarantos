@@ -1,5 +1,7 @@
 domain: diet
 name: Probiotics
+summary: "Live microorganisms that modulate gut microbiome. Meta-analyses show reduced\n\
+  body weight, BMI, waist circumference, and improved lipid profiles in\noverweight/obese."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -13,27 +15,25 @@ specification:
     quality moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.96
+  std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis of 26 RCTs (n=1,720) in overweight/obese:
     reduced weight (-0.7kg), BMI, waist circumference, TNF-α, insulin, TC, LDL.
     (https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198).
     Effects require ≥10¹⁰ CFU for ≥8 weeks. Theoretical CVD benefit via risk
     factor improvement; extrapolated estimate.
-  mean: 0.96
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.2
+  std: 0.6
   evidence: |
     Gut microbiome composition changes with aging. Probiotics may improve
     microbial diversity and reduce inflammation. No epigenetic clock studies.
     Speculative.
-  mean: 0.2
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Gut-brain axis research suggests microbiome affects mood. Some strains
     (psychobiotics) show anxiolytic effects in RCTs. Limited but growing
     evidence. Small positive effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: "Live microorganisms that modulate gut microbiome. Meta-analyses show reduced\n\
-  body weight, BMI, waist circumference, and improved lipid profiles in\noverweight/obese."

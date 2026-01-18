@@ -1,5 +1,8 @@
 domain: diet
 name: Cruciferous Vegetables
+summary: "Broccoli, kale, cabbage, Brussels sprouts rich in sulforaphane and\nisothiocyanates.
+  Large meta-analyses show inverse association with all-cause\nmortality, CVD mortality,
+  and cancer incidence."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +15,8 @@ specification:
     food\ngroups. Evidence quality high (large cohort studies)."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.88
+  std: 0.04
   evidence: |
     2017 meta-analysis of 95 studies: cruciferous vegetables inversely
     associated with CVD and all-cause mortality.
@@ -21,23 +26,18 @@ effects:
     (n=88,184): higher intake associated with reduced all-cause mortality.
     (https://pubmed.ncbi.nlm.nih.gov/29739681/). Associative evidence;
     consistent across populations.
-  mean: 0.88
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 1.0
+  std: 0.7
   evidence: |
     Sulforaphane activates Nrf2 pathway, reduces oxidative stress and
     inflammation. Animal studies show lifespan benefits. No human epigenetic
     clock data. Strong biological plausibility for anti-aging effects.
     Moderate confidence.
-  mean: 1.0
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     No direct mood RCTs. Part of healthy dietary patterns associated with
     better mood. May reduce inflammation linked to depression. Indirect
     evidence only.
-  mean: 0.1
-  std: 0.3
-summary: "Broccoli, kale, cabbage, Brussels sprouts rich in sulforaphane and\nisothiocyanates.
-  Large meta-analyses show inverse association with all-cause\nmortality, CVD mortality,
-  and cancer incidence."

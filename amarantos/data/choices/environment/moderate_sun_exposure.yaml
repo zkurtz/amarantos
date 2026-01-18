@@ -1,0 +1,41 @@
+domain: environment
+name: Moderate Sun Exposure
+summary: "Balancing vitamin D synthesis and skin cancer risk. Swedish cohort (n=29,518):\n\
+  sun avoidance as harmful as smoking for mortality."
+specification:
+  duration_h: 0.33
+  weekly_freq: 7
+  annual_cost_h: 130
+  annual_cost_usd: 0
+  description: "Recommended: 10-30 min/day, avoiding burns. Balancing vitamin D synthesis
+    and skin cancer risk. Swedish cohort (n=29,518):\nsun avoidance as harmful as
+    smoking for mortality. Vitamin D deficiency\nassociated with multiple diseases.
+    Optimal: regular moderate exposure without\nburning. Latitude, skin type, and
+    season affect needs. Evidence quality\nmoderate; J-shaped relationship with extremes
+    harmful."
+effects:
+- outcome: Relative mortality risk
+  mean: 0.85
+  std: 0.08
+  evidence: |
+    Swedish cohort (n=29,518, 20y): sun avoidance HR 2.0 for all-cause
+    mortality vs highest exposure. (https://pubmed.ncbi.nlm.nih.gov/26992108/).
+    Vitamin D deficiency meta-analysis: HR 1.35 for mortality.
+    (https://pubmed.ncbi.nlm.nih.gov/25111121/). Skin cancer mortality
+    (~2% of skin cancer deaths) much lower than CVD/all-cause risks.
+    Moderate exposure optimal.
+- outcome: Years of delayed aging
+  mean: 0.3
+  std: 0.5
+  evidence: |
+    Vitamin D supports bone health, immune function, muscle strength.
+    Excessive UV exposure accelerates skin aging (photoaging). Balance
+    needed. Moderate exposure supports healthy vitamin D without
+    excessive photoaging. Moderate confidence.
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
+  evidence: |
+    Sunlight exposure improves mood (bright light therapy effective for
+    depression). Regulates circadian rhythms. Outdoor time associated
+    with improved mental health. Moderate positive effect on wellbeing.

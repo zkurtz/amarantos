@@ -1,5 +1,7 @@
 domain: diet
 name: Almonds
+summary: "Regular almond/nut consumption associated with ~20% lower all-cause mortality\n\
+  and cardiovascular disease. Rich in monounsaturated fats, fiber, vitamin E."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -11,27 +13,25 @@ specification:
     of Mediterranean diet\npattern shown to reduce CVD events in PREDIMED trial."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.81
+  std: 0.02
   evidence: |
     Meta-analysis of 20 prospective cohorts, n=467,389. High vs low nut intake:
     RR 0.81 (95% CI: 0.77-0.85) for all-cause mortality. Per 28g/day: RR 0.78
     (95% CI: 0.72-0.84). Associative evidence. Aune 2016
     (https://pubmed.ncbi.nlm.nih.gov/27916000/). Mayhew 2016
     (https://pubmed.ncbi.nlm.nih.gov/26548503/).
-  mean: 0.81
-  std: 0.02
 - outcome: Years of delayed aging
+  mean: 1.5
+  std: 1.0
   evidence: |
     No direct epigenetic clock studies for almonds. Extrapolated from mortality
     reduction: ~19% lower mortality roughly corresponds to 2 years. Nuts contain
     polyphenols with potential senolytic activity. Moderate confidence.
-  mean: 1.5
-  std: 1.0
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     Limited direct evidence on mood. Some studies show nuts reduce inflammation
     markers linked to depression. No RCTs specifically on almonds and mood.
     Speculative estimate centered near zero.
-  mean: 0.1
-  std: 0.3
-summary: "Regular almond/nut consumption associated with ~20% lower all-cause mortality\n\
-  and cardiovascular disease. Rich in monounsaturated fats, fiber, vitamin E."

@@ -1,5 +1,7 @@
 domain: exercise
 name: Vigorous Cardio
+summary: "WHO alternative to moderate cardio: 75-150min vigorous activity. PURE study\n\
+  (n=130K): ~35% reduction in CV mortality."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,28 +14,26 @@ specification:
     No upper limit of harm\nobserved. Evidence quality very high."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.68
+  std: 0.05
   evidence: |
     AHA 30-year cohort: 150-300min/week vigorous activity: 21-23% lower
     all-cause mortality. (https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058162).
     PURE study (n=130K+): vigorous activity ~35% lower CV mortality.
     Greatest benefit from sedentary to any activity. Causal and associative
     evidence.
-  mean: 0.68
-  std: 0.05
 - outcome: Years of delayed aging
+  mean: 2.0
+  std: 0.7
   evidence: |
     Vigorous exercise most efficiently improves VO2max, strongly linked to
     biological aging. May improve mitochondrial function and reduce oxidative
     stress. Associated with slower cognitive decline. Strong biological
     plausibility.
-  mean: 2.0
-  std: 0.7
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
   evidence: |
     Vigorous exercise associated with greater endorphin release ("runner's
     high"). Improved self-efficacy and body image. May enhance sleep quality.
     Moderate positive effect likely.
-  mean: 0.4
-  std: 0.3
-summary: "WHO alternative to moderate cardio: 75-150min vigorous activity. PURE study\n\
-  (n=130K): ~35% reduction in CV mortality."

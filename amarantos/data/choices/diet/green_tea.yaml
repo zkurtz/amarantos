@@ -1,5 +1,8 @@
 domain: diet
 name: Green Tea
+summary: "Rich in catechins (EGCG) with antioxidant and anti-inflammatory effects.
+  Meta-\nanalysis of 38 cohorts (n=2M): 10% lower all-cause mortality, 14% lower CVD\n\
+  mortality for highest intake."
 specification:
   duration_h: 0.1
   weekly_freq: 7
@@ -12,28 +15,25 @@ specification:
     quality moderate for CVD;\ncancer evidence mixed."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.88
+  std: 0.04
   evidence: |
     Meta-analysis of 38 cohorts (n=1,956,549): RR 0.90 (95% CI: 0.86-0.95) for
     all-cause mortality, RR 0.86 (95% CI: 0.79-0.94) for CVD mortality at
     highest intake. (https://www.e-epih.org/journal/view.php?number=1522).
     Three meta-analyses support 18-33% CVD mortality reduction.
     (https://pmc.ncbi.nlm.nih.gov/articles/PMC8189915/). Associative evidence.
-  mean: 0.88
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 0.7
+  std: 0.6
   evidence: |
     EGCG has antioxidant and anti-inflammatory effects. May protect cognitive
     function. Associated with healthy aging in observational studies. No
     epigenetic clock data. Moderate confidence.
-  mean: 0.7
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Contains L-theanine which may reduce anxiety. Caffeine provides alertness.
     Combined effect may improve focus and calm. Limited mood RCT data. Small
     positive effect plausible.
-  mean: 0.2
-  std: 0.3
-summary: "Rich in catechins (EGCG) with antioxidant and anti-inflammatory effects.
-  Meta-\nanalysis of 38 cohorts (n=2M): 10% lower all-cause mortality, 14% lower CVD\n\
-  mortality for highest intake."

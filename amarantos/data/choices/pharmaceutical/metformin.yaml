@@ -1,5 +1,7 @@
 domain: pharmaceutical
 name: Metformin
+summary: "First-line diabetes medication studied for longevity. UK observational:\n\
+  diabetics on metformin had lower mortality than non-diabetic controls."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -12,30 +14,28 @@ specification:
     drug with\nGI side effects. Evidence quality low for non-diabetics; extrapolated."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.90
+  std: 0.12
   evidence: |
     UK CPRD study: diabetics on metformin had 15% lower mortality than
     matched non-diabetic controls. (https://pubmed.ncbi.nlm.nih.gov/25041462/).
     Meta-analysis in diabetics: reduced all-cause mortality vs other
     treatments. (https://pubmed.ncbi.nlm.nih.gov/28881964/). TAME trial
     for non-diabetics ongoing. Extrapolated; uncertain in healthy adults.
-  mean: 0.90
-  std: 0.12
 - outcome: Years of delayed aging
+  mean: 0.8
+  std: 0.8
   evidence: |
     Activates AMPK, reduces IGF-1, mimics caloric restriction pathways.
     C. elegans and mouse studies show lifespan extension. Human biomarker
     studies show improved aging markers. CAUTION: may blunt exercise
     adaptations. (https://pubmed.ncbi.nlm.nih.gov/30548390/). Promising
     mechanistic basis; human aging data limited.
-  mean: 0.8
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: -0.2
+  std: 0.3
   evidence: |
     GI side effects common (nausea, diarrhea) especially initially.
     Extended-release better tolerated. B12 deficiency with long-term use.
     No expected positive wellbeing effects. Small negative effect due
     to side effects.
-  mean: -0.2
-  std: 0.3
-summary: "First-line diabetes medication studied for longevity. UK observational:\n\
-  diabetics on metformin had lower mortality than non-diabetic controls."

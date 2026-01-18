@@ -1,5 +1,7 @@
 domain: diet
 name: Vitamin D
+summary: "Essential hormone-like vitamin; deficiency common. Meta-analysis of RCTs:\n\
+  daily supplementation reduces cancer mortality by 12% (not incidence)."
 specification:
   duration_h: 0.001
   weekly_freq: 7
@@ -13,26 +15,24 @@ specification:
     mortality; high for bone health."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.92
+  std: 0.04
   evidence: |
     Meta-analysis of RCTs: cancer mortality RR 0.87 (95% CI: 0.79-0.96) with
     daily dosing. (https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext).
     All-cause mortality RR 0.94 with >3 years follow-up.
     (https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/413032).
     CVD mortality NS. Benefit requires daily dosing, sufficient duration.
-  mean: 0.92
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.6
   evidence: |
     Vitamin D receptors throughout body. Deficiency associated with frailty
     and cognitive decline. May support muscle function. No epigenetic clock
     studies specific to supplementation. Moderate confidence.
-  mean: 0.5
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.2
+  std: 0.3
   evidence: |
     Deficiency associated with depression. Meta-analyses show modest benefits
     for mood in deficient individuals. No clear benefit in replete individuals.
-  mean: 0.2
-  std: 0.3
-summary: "Essential hormone-like vitamin; deficiency common. Meta-analysis of RCTs:\n\
-  daily supplementation reduces cancer mortality by 12% (not incidence)."

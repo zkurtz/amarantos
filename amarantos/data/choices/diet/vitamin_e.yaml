@@ -1,5 +1,7 @@
 domain: diet
 name: Vitamin E
+summary: "Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found\n\
+  high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -13,6 +15,8 @@ specification:
     quality high for harm."
 effects:
 - outcome: Relative mortality risk
+  mean: 1.02
+  std: 0.04
   evidence: |
     Meta-analysis of 19 RCTs (n=135,967): high-dose (≥400 IU/day) associated
     with increased all-cause mortality in dose-dependent manner.
@@ -20,20 +24,16 @@ effects:
     HOPE trial: no CVD benefit, may increase heart failure risk.
     (https://www.nejm.org/doi/full/10.1056/NEJM200001203420302). Do not
     supplement with high doses.
-  mean: 1.02
-  std: 0.04
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.5
   evidence: |
     Antioxidant effects not translated to human longevity benefits. RCTs
     show no anti-aging effects. May interfere with beneficial oxidative
     signaling. No benefit from supplementation.
-  mean: 0.0
-  std: 0.5
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.0
+  std: 0.2
   evidence: |
     No mood benefits demonstrated. High doses may cause GI distress. No
     evidence for positive effect; possible negative.
-  mean: 0.0
-  std: 0.2
-summary: "Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found\n\
-  high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality."

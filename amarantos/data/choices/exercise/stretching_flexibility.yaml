@@ -1,5 +1,7 @@
 domain: exercise
 name: Stretching/Flexibility
+summary: "Includes yoga, tai chi, and dedicated stretching. Observational studies
+  show\n13% lower all-cause mortality with regular practice."
 specification:
   duration_h: 0.3
   weekly_freq: 4
@@ -12,27 +14,25 @@ specification:
     stiffness. Complements cardio and\nresistance training. Evidence quality low-moderate."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.90
+  std: 0.06
   evidence: |
     Observational study: regular flexibility training HR 0.87 (95% CI:
     0.79-0.95) for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/25559067/).
     Yoga and tai chi meta-analyses show improved BP and CVD risk factors.
     May reduce arterial stiffness. Associative evidence; limited direct
     mortality studies.
-  mean: 0.90
-  std: 0.06
 - outcome: Years of delayed aging
+  mean: 0.5
+  std: 0.6
   evidence: |
     Maintains mobility and range of motion with aging. Reduces fall risk
     in older adults. Yoga associated with reduced inflammation markers.
     May support joint health. Moderate confidence.
-  mean: 0.5
-  std: 0.6
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.4
+  std: 0.3
   evidence: |
     Yoga and tai chi consistently improve mood and reduce anxiety/depression
     in meta-analyses. Mindfulness component enhances stress management.
     Moderate positive effect likely.
-  mean: 0.4
-  std: 0.3
-summary: "Includes yoga, tai chi, and dedicated stretching. Observational studies
-  show\n13% lower all-cause mortality with regular practice."

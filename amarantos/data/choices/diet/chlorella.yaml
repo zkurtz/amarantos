@@ -1,5 +1,8 @@
 domain: diet
 name: Chlorella
+summary: "Green algae rich in chlorophyll, vitamins (B12, D), and protein. Meta-analyses\n\
+  show modest reductions in total cholesterol (~9mg/dL), LDL (~8mg/dL), blood\npressure,
+  and fasting glucose."
 specification:
   duration_h: 0.5
   weekly_freq: 3
@@ -12,6 +15,8 @@ specification:
     study designs."
 effects:
 - outcome: Relative mortality risk
+  mean: 0.97
+  std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis of 19 RCTs (n=797) shows reduced TC
     (-9mg/dL), LDL-C (-8mg/dL), SBP (-4.5mmHg), DBP (-1.6mmHg), and FBG
@@ -19,22 +24,17 @@ effects:
     review confirms lipid benefits with high certainty for TC/LDL.
     (https://www.sciencedirect.com/science/article/abs/pii/S2211926425003923).
     Theoretical CVD benefit; extrapolated estimate.
-  mean: 0.97
-  std: 0.08
 - outcome: Years of delayed aging
+  mean: 0.0
+  std: 0.8
   evidence: |
     Contains growth factors and antioxidants. No human aging studies.
     May support cellular detoxification. Animal studies suggest immune
     benefits. Speculative.
-  mean: 0.0
-  std: 0.8
 - outcome: Subjective wellbeing - number of just-noticeable differences
+  mean: 0.1
+  std: 0.3
   evidence: |
     May improve energy via B12 content. Some studies report improved
     immune markers. Limited direct wellbeing data. GI side effects possible.
     Small effect plausible.
-  mean: 0.1
-  std: 0.3
-summary: "Green algae rich in chlorophyll, vitamins (B12, D), and protein. Meta-analyses\n\
-  show modest reductions in total cholesterol (~9mg/dL), LDL (~8mg/dL), blood\npressure,
-  and fasting glucose."

@@ -41,6 +41,9 @@ dev = [
 [tool.hatch.build.targets.wheel]
 packages = [ "amarantos" ]
 
+[tool.hatch.build.targets.sdist]
+include = [ "amarantos" ]
+
 [tool.uv]
 package = true
 

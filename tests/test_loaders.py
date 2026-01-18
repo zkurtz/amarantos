@@ -62,3 +62,24 @@ def test_effect_outcome_is_enum():
             )
             # Verify .value works (this was the original bug)
             assert isinstance(effect.outcome.value, str)
+
+
+def test_no_duplicate_choice_names():
+    """Test that no two YAML files have the same name field.
+
+    This is a regression test for a bug where duplicate YAML files
+    with identical name fields caused duplicate entries in the output.
+    """
+    choices = load_all_choices()
+    assert len(choices) > 0
+
+    seen_names: dict[str, str] = {}  # name -> first file that had it
+    duplicates: list[str] = []
+
+    for choice in choices:
+        if choice.name in seen_names:
+            duplicates.append(f"Duplicate name '{choice.name}' found in multiple files")
+        else:
+            seen_names[choice.name] = choice.name
+
+    assert not duplicates, "Found duplicate choice names:\n" + "\n".join(duplicates)

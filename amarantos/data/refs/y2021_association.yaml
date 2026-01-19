@@ -26,7 +26,29 @@ keywords:
 - response
 - studies
 - systematic review
-hard_claims: []
+hard_claims:
+- summary: "Highest cycling level associated with 23% lower all-cause mortality risk"
+  choice: cycling
+  evidence_type: Meta-analysis
+  effect_size: 0.77
+  effect_ci_lower: 0.67
+  effect_ci_upper: 0.88
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 478847
+  followup_years: null
+  notes: "9 articles with 17 studies and 27,860 mortality cases; linear dose-response with 9% risk reduction per 5 MET-h/week"
+- summary: "Highest cycling level associated with 24% lower CVD mortality risk"
+  choice: cycling
+  evidence_type: Meta-analysis
+  effect_size: 0.76
+  effect_ci_lower: 0.65
+  effect_ci_upper: 0.89
+  outcome: "cardiovascular disease mortality"
+  population: "general adult population"
+  sample_size: 478847
+  followup_years: null
+  notes: "U-shaped pattern with lowest risk at approximately 15 MET-h/week (~130 min/week moderate intensity)"
 soft_claims: []
 journal: Sports Med
 volume: '51'
@@ -35,4 +57,4 @@ pages: 1439-1448
 doi: ''
 pmid: '33774807'
 url: https://pubmed.ncbi.nlm.nih.gov/33774807/
-summary: ''
+summary: 'Systematic review and dose-response meta-analysis of 9 articles (17 studies, 478,847 participants, 27,860 mortality cases) examining cycling and mortality. Found linear inverse relationship for all-cause mortality (9% reduction per 5 MET-h/week) and U-shaped pattern for CVD mortality with optimal benefit at approximately 15 MET-h/week of cycling.'

@@ -25,7 +25,18 @@ keywords:
 - fasting
 - markers
 - mimicking
-hard_claims: []
+hard_claims:
+- summary: "Three cycles of fasting-mimicking diet reduced body weight, trunk fat, total body fat, blood pressure, triglycerides, total and LDL cholesterol, fasting glucose, IGF-1, and CRP"
+  choice: intermittent_fasting
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "metabolic and cardiovascular risk markers"
+  population: "healthy adults"
+  sample_size: 100
+  followup_years: 0.25
+  notes: "FMD protocol: 5 consecutive days per month for 3 months; 71 completed all cycles; participants at risk showed greater benefits"
 soft_claims: []
 journal: Sci Transl Med
 volume: '9'
@@ -34,4 +45,4 @@ pages: ''
 doi: ''
 pmid: '28202779'
 url: https://pubmed.ncbi.nlm.nih.gov/28202779/
-summary: ''
+summary: 'Randomized controlled trial of 100 healthy participants testing a fasting-mimicking diet (5 consecutive days per month for 3 months). Found significant reductions in body weight, trunk and total body fat, blood pressure, triglycerides, cholesterol, fasting glucose, IGF-1, and CRP. Those with elevated baseline risk factors showed greater improvements. No serious adverse effects reported.'

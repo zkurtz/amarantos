@@ -24,7 +24,11 @@ keywords:
 - supplement
 - supplementation
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Astaxanthin supplementation hypothesized to improve antioxidant capacity, inflammatory markers, and cardiovascular outcomes in heart failure patients"
+  choice: astaxanthin
+  source_type: "expert opinion"
+  notes: "Protocol paper for an 8-week double-blind RCT in 80 heart failure patients (stages C and D) receiving 20 mg astaxanthin daily. First trial to explore astaxanthin in heart failure. Recruitment commenced August 2024. Results not yet available."
 journal: Trials
 volume: '25'
 issue: ''
@@ -32,4 +36,4 @@ pages: '518'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11292897/
-summary: ''
+summary: "Protocol paper for an 8-week double-blind randomized controlled trial of 20 mg daily astaxanthin supplementation in 80 heart failure patients (stages C and D). Primary outcome is total antioxidant capacity; secondary outcomes include inflammatory markers (CRP, TNF-alpha), oxidative stress indices, lipid profile, blood pressure, endothelial function, and quality of life. First trial of its kind in heart failure. Recruitment began August 2024."

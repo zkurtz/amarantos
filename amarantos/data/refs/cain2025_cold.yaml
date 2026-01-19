@@ -16,7 +16,18 @@ keywords:
 - systematic review
 - water
 - wellbeing
-hard_claims: []
+hard_claims:
+- summary: "Cold-water immersion reduces stress levels at 12 hours post-exposure"
+  choice: cold_exposure
+  evidence_type: Meta-analysis
+  effect_size: -1.00
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "stress reduction (SMD at 12h post-exposure)"
+  population: "healthy adults"
+  sample_size: 3177
+  followup_years: null
+  notes: "11 RCTs included; water temperature 7-15C for 30 seconds to 2 hours; also showed improvements in sleep quality and quality of life; acute inflammatory response observed immediately post-exposure"
 soft_claims: []
 journal: PLOS ONE
 volume: '20'
@@ -25,4 +36,4 @@ pages: e0317615
 doi: 10.1371/journal.pone.0317615
 pmid: ''
 url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317615
-summary: ''
+summary: 'Systematic review and meta-analysis of 11 RCTs (n=3,177) examining cold-water immersion effects on health and wellbeing in healthy adults. CWI via cold baths or showers (7-15C) showed time-dependent effects: stress reduction at 12h post-exposure (SMD=-1.00), improvements in sleep quality and quality of life, and acute inflammatory response immediately post-exposure.'

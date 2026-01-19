@@ -11,7 +11,18 @@ keywords:
 - prediabetes
 - glycemic
 - supplement
-hard_claims: []
+hard_claims:
+- summary: "Berberine significantly reduced fasting plasma glucose in patients with prediabetes or diabetes"
+  choice: berberine
+  evidence_type: Meta-analysis
+  effect_size: -0.82
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "fasting plasma glucose reduction (mmol/L)"
+  population: "patients with prediabetes or type 2 diabetes"
+  sample_size: 3048
+  followup_years: null
+  notes: "37 studies included; also reduced HbA1c (-0.63%) and 2-hour postprandial glucose (-1.16 mmol/L); effects stronger in patients with prediabetes/diabetes than other populations; safe with no increased hypoglycemia risk"
 soft_claims: []
 journal: Phytomedicine
 volume: ''
@@ -20,4 +31,4 @@ pages: ''
 doi: 10.1016/j.phymed.2023.154127
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0944711323000740
-summary: ''
+summary: 'Systematic review and meta-analysis of 37 studies (n=3,048) examining berberine for prediabetes and type 2 diabetes. Berberine significantly reduced fasting plasma glucose (WMD -0.82 mmol/L), HbA1c (-0.63%), and 2-hour postprandial glucose (-1.16 mmol/L). Glucose-lowering effects stronger in patients with prediabetes/diabetes. Treatment considered safe with no increased risk of hypoglycemia or serious adverse events.'

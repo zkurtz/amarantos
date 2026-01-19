@@ -26,8 +26,34 @@ keywords:
 - physical
 - supplement
 - supplementation
-hard_claims: []
-soft_claims: []
+hard_claims:
+- summary: "Intermittent fisetin supplementation reduced age-related frailty by approximately 15% in old mice"
+  choice: fisetin
+  evidence_type: Mechanistic/first-principles
+  effect_size: 0.85
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "frailty reduction"
+  population: "aged mice (27 months old, male and female C57BL6/N)"
+  sample_size: null
+  followup_years: null
+  notes: "Animal study; 100mg/kg/day fisetin; intermittent dosing (1 week on - 2 weeks off - 1 week on); no effects in young mice"
+- summary: "Intermittent fisetin supplementation diminished age-related grip strength decline by approximately 30% in old mice"
+  choice: fisetin
+  evidence_type: Mechanistic/first-principles
+  effect_size: 0.70
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "grip strength preservation"
+  population: "aged mice (27 months old)"
+  sample_size: null
+  followup_years: null
+  notes: "Comparable efficacy to genetic clearance of p16+ senescent cells and synthetic senolytic ABT-263"
+soft_claims:
+- summary: "Fisetin treatment ameliorated age-associated shifts in skeletal muscle transcriptome and reduced cellular senescence markers including p21 (Cdkn1a)"
+  choice: fisetin
+  source_type: "research article"
+  notes: "Mechanism involves reduction of cellular senescence and p53 signaling pathways; suggests viable therapeutic approach for age-related physical function decline"
 journal: Aging Cell
 volume: '24'
 issue: '8'
@@ -35,4 +61,4 @@ pages: ''
 doi: 10.1111/acel.70114
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1111/acel.70114
-summary: ''
+summary: "Animal study in aged mice (27 months) examining intermittent oral fisetin supplementation (100mg/kg/day) on physical function and cellular senescence. Found fisetin reduced age-related frailty by ~15% and grip strength decline by ~30%, comparable to genetic senescent cell clearance. Effects mediated through reduced p21 expression and cellular senescence in skeletal muscle."

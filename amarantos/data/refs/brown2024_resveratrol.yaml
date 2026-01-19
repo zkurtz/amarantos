@@ -22,7 +22,19 @@ keywords:
 - systematic review
 - trials
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Resveratrol shows promise for human health across multiple conditions but lacks conclusive clinical evidence for any specific healthcare recommendation"
+  choice: resveratrol
+  source_type: "review"
+  notes: "Systematic review of ~200 clinical trials over 20 years across 24+ indications; generally well-tolerated up to 1g/day; consistently reduces inflammatory markers and improves metabolic dysregulation"
+- summary: "Resveratrol consistently reduces inflammatory markers across clinical trials"
+  choice: resveratrol
+  source_type: "review"
+  notes: "Finding replicated across multiple studies; mechanism involves various anti-inflammatory pathways"
+- summary: "Large, high-quality clinical trials needed to transition resveratrol from supplement to clinical use"
+  choice: resveratrol
+  source_type: "expert opinion"
+  notes: "Review identified gaps including lack of consensus treatment regimens, need for defined biomarkers, and structural limitations (photoisomerization of trans-resveratrol)"
 journal: International Journal of Molecular Sciences
 volume: '25'
 issue: '2'
@@ -30,4 +42,4 @@ pages: '747'
 doi: 10.3390/ijms25020747
 pmid: ''
 url: https://www.mdpi.com/1422-0067/25/2/747
-summary: ''
+summary: "Systematic review compiling nearly 200 clinical trials of resveratrol over 20 years across at least 24 indications including cancer, menopause, diabetes, metabolic syndrome, and cardiovascular disease. Finds resveratrol is generally well-tolerated at doses up to 1g/day and consistently reduces inflammatory markers and improves metabolic dysregulation. However, no conclusive clinical evidence exists to recommend resveratrol for any specific condition, and larger high-quality trials are needed."

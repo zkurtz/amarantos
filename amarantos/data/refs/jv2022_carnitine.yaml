@@ -14,7 +14,29 @@ keywords:
 - friend
 - mendelian
 - randomization
-hard_claims: []
+hard_claims:
+- summary: "Genetically predicted higher L-carnitine associated with increased coronary artery disease risk"
+  choice: l_carnitine
+  evidence_type: Mendelian randomization
+  effect_size: 1.07
+  effect_ci_lower: 1.02
+  effect_ci_upper: 1.11
+  outcome: "coronary artery disease (odds ratio per SD)"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Effect stronger in men (OR 1.09) than women (OR 1.00); also associated with higher triglycerides and lower HDL"
+- summary: "Genetically predicted higher L-carnitine associated with increased heart failure risk"
+  choice: l_carnitine
+  evidence_type: Mendelian randomization
+  effect_size: 1.05
+  effect_ci_lower: 1.01
+  effect_ci_upper: 1.09
+  outcome: "heart failure (odds ratio per SD)"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "No significant associations with ischemic stroke or atrial fibrillation"
 soft_claims: []
 journal: BMC Med
 volume: '20'
@@ -23,4 +45,4 @@ pages: '272'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9434903/
-summary: ''
+summary: 'Mendelian randomization study examining genetically predicted L-carnitine levels and cardiovascular disease risk. Found higher L-carnitine associated with increased coronary artery disease (OR 1.07) and heart failure (OR 1.05) risk, particularly in men. Also associated with adverse lipid profile (higher triglycerides, lower HDL). Results do not support beneficial cardiovascular effects of L-carnitine.'

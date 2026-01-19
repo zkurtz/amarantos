@@ -22,8 +22,23 @@ keywords:
 - meta-analysis
 - systematic review
 - therapy
-hard_claims: []
-soft_claims: []
+hard_claims:
+- summary: "Intravenous iron reduces composite endpoint of recurrent heart failure hospitalizations and cardiovascular mortality at 12 months"
+  choice: iron
+  evidence_type: Meta-analysis
+  effect_size: 0.72
+  effect_ci_lower: 0.55
+  effect_ci_upper: 0.89
+  outcome: "heart failure hospitalizations and cardiovascular mortality"
+  population: "heart failure patients with iron deficiency"
+  sample_size: 7175
+  followup_years: 1.0
+  notes: "RR 0.72 (95% CI: 0.55-0.89) at 12 months; RR 0.81 (95% CI: 0.63-0.97) for complete follow-up; 6 trials (FAIR-HF, CONFIRM-HF, AFFIRM-AHF, IRONMAN, HEART-FID, FAIR-HF2)"
+soft_claims:
+- summary: "Benefits of IV iron were most pronounced in the first year when the highest dose was given"
+  choice: iron
+  source_type: "expert opinion"
+  notes: "Women did not benefit in terms of lower rates of death or hospitalization, requiring further exploration; no significant difference in safety outcomes including all-cause mortality or infections"
 journal: Nature Medicine
 volume: '31'
 issue: '8'
@@ -31,4 +46,4 @@ pages: 2640-2646
 doi: 10.1038/s41591-025-03671-1
 pmid: ''
 url: https://www.nature.com/articles/s41591-025-03671-1
-summary: ''
+summary: 'Systematic review and meta-analysis of 6 trials (FAIR-HF, CONFIRM-HF, AFFIRM-AHF, IRONMAN, HEART-FID, FAIR-HF2) involving 7,175 heart failure patients with iron deficiency examining intravenous iron therapy. Found 28% reduction in recurrent heart failure hospitalizations and cardiovascular mortality at 12 months (RR 0.72). Benefits were particularly strong in the first year with highest iron doses. Notably, women did not benefit from treatment. Confirms Class I guideline recommendations for IV iron in heart failure.'

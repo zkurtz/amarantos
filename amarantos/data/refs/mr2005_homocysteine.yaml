@@ -20,7 +20,29 @@ keywords:
 - placebo
 - randomised
 - results
-hard_claims: []
+hard_claims:
+- summary: "Betaine supplementation (6g/day) increased LDL cholesterol by 0.36 mmol/L while lowering homocysteine"
+  choice: b_vitamins_complex
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "LDL cholesterol increase"
+  population: "healthy adults"
+  sample_size: 151
+  followup_years: 0.12
+  notes: "3 studies combined; also increased triacylglycerol by 0.14 mmol/L; adverse lipid effects may counteract cardiovascular benefits of homocysteine reduction"
+- summary: "Folic acid (0.8mg/day) had no effect on blood lipid concentrations while lowering homocysteine"
+  choice: b_vitamins_complex
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "blood lipid levels"
+  population: "healthy adults"
+  sample_size: 75
+  followup_years: null
+  notes: "2 studies combined; folic acid preferred for homocysteine-lowering due to neutral lipid effects"
 soft_claims: []
 journal: PLoS Med
 volume: '2'
@@ -29,4 +51,4 @@ pages: e135
 doi: ''
 pmid: '15916468'
 url: https://pubmed.ncbi.nlm.nih.gov/15916468/
-summary: ''
+summary: "Four randomized placebo-controlled studies in healthy humans examining homocysteine-lowering nutrients and blood lipids. Betaine (6g/day) increased LDL cholesterol and triacylglycerols, potentially counteracting cardiovascular benefits. Folic acid (0.8mg/day) had no effect on lipids, making it the preferred homocysteine-lowering treatment."

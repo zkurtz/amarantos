@@ -21,7 +21,11 @@ keywords:
 - transantarctic
 - uplift
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "This reference appears to be erroneously included - it is a geology study about the Transantarctic Mountains, not a health intervention study"
+  choice: null
+  source_type: "expert opinion"
+  notes: "Study uses magnetotelluric measurements to investigate mountain uplift mechanisms; not related to longevity or health interventions"
 journal: Nat Commun
 volume: '8'
 issue: '1'
@@ -29,4 +33,4 @@ pages: '1588'
 doi: ''
 pmid: '29150611'
 url: https://pubmed.ncbi.nlm.nih.gov/29150611/
-summary: ''
+summary: 'ERRONEOUSLY INCLUDED REFERENCE: This is a geology study investigating the mechanisms responsible for the elevated terrain of the Transantarctic Mountains using magnetotelluric geophysical measurements. It is not related to health interventions or longevity research.'

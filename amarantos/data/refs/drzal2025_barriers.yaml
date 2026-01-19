@@ -17,7 +17,11 @@ keywords:
 - nutrition
 - students
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "College students' dietary quality is sub-optimal compared to US guidelines, with taste and cost being key barriers to healthy eating"
+  choice: healthy_diet
+  source_type: "Cross-sectional study"
+  notes: "Facilitators include budget-friendly recipes and grocery lists; interventions should address cost, skills, and knowledge"
 journal: Nutrition Research
 volume: '133'
 issue: ''
@@ -25,4 +29,4 @@ pages: 161-171
 doi: 10.1016/j.nutres.2024.06.001
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0271531724001143
-summary: ''
+summary: 'Cross-sectional study assessing dietary intake among college students at Michigan State University. Found that dietary quality was sub-optimal compared to US guidelines, with taste and cost identified as key barriers to healthy eating. Ease, cost, and knowledge were associated with greater healthy food intake.'

@@ -24,7 +24,40 @@ keywords:
 - nutrition
 - prospective
 - systematic review
-hard_claims: []
+hard_claims:
+- summary: "Higher dietary fiber intake associated with 10% lower all-cause mortality"
+  choice: fiber
+  evidence_type: Meta-analysis
+  effect_size: 0.90
+  effect_ci_lower: 0.86
+  effect_ci_upper: 0.93
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 2614294
+  followup_years: null
+  notes: "Dose-response meta-analysis of prospective cohort studies; protective effect relatively constant at daily intake >15g"
+- summary: "Higher dietary fiber intake associated with 13% lower CVD mortality"
+  choice: fiber
+  evidence_type: Meta-analysis
+  effect_size: 0.87
+  effect_ci_lower: 0.84
+  effect_ci_upper: 0.91
+  outcome: "cardiovascular disease mortality"
+  population: "general adult population"
+  sample_size: 2614294
+  followup_years: null
+  notes: "Linear dose-response relationship; significant associations also found for fruit, vegetable, cereal, and soluble fiber"
+- summary: "Higher dietary fiber intake associated with 9% lower cancer mortality"
+  choice: fiber
+  evidence_type: Meta-analysis
+  effect_size: 0.91
+  effect_ci_lower: 0.88
+  effect_ci_upper: 0.93
+  outcome: "cancer mortality"
+  population: "general adult population"
+  sample_size: 2614294
+  followup_years: null
+  notes: "Cereal fiber specifically associated with cancer mortality; no significant association for insoluble fiber"
 soft_claims: []
 journal: Frontiers in Nutrition
 volume: '10'
@@ -32,6 +65,5 @@ issue: ''
 pages: ''
 doi: 10.3389/fnut.2023.1153165
 pmid: ''
-url:
-  https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1153165/full
-summary: ''
+url: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1153165/full
+summary: 'Systematic review and dose-response meta-analysis of prospective cohort studies with over 2.6 million participants examining dietary fiber and mortality. Found higher fiber intake associated with lower all-cause (RR 0.90), CVD (RR 0.87), and cancer mortality (RR 0.91). Protective effect relatively constant at daily intake above 15g. Non-linear relationship for all-cause, linear for others.'

@@ -15,7 +15,29 @@ keywords:
 - Mediterranean diet
 - CVD
 - longevity
-hard_claims: []
+hard_claims:
+- summary: "Walnut consumption (1+ times/week) associated with 13-19% lower risk of total cardiovascular disease"
+  choice: walnuts
+  evidence_type: Prospective cohort study
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "total cardiovascular disease"
+  population: "US health professionals"
+  sample_size: 210836
+  followup_years: null
+  notes: "NHS, NHSII, HPFS cohorts; also 15-23% lower CHD risk"
+- summary: "Total nut consumption (5+ servings/week vs never) associated with 14% lower CVD risk and 20% lower CHD risk"
+  choice: nuts
+  evidence_type: Prospective cohort study
+  effect_size: 0.86
+  effect_ci_lower: 0.79
+  effect_ci_upper: 0.93
+  outcome: "total cardiovascular disease"
+  population: "US health professionals"
+  sample_size: 210836
+  followup_years: null
+  notes: "NHS, NHSII, HPFS cohorts; 5,063,439 person-years; CHD HR 0.80 (95% CI 0.72-0.89)"
 soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '70'
@@ -24,4 +46,4 @@ pages: 2519-2532
 doi: 10.1016/j.jacc.2017.09.035
 pmid: '29145952'
 url: https://pubmed.ncbi.nlm.nih.gov/29145952/
-summary: ''
+summary: 'Prospective cohort study of 210,836 participants from NHS, NHSII, and HPFS with over 5 million person-years follow-up. Walnut consumption (1+ times/week) was associated with 13-19% lower CVD risk and 15-23% lower CHD risk. Total nut consumption (5+ servings/week vs never) associated with 14% lower CVD risk (HR 0.86, 95% CI 0.79-0.93) and 20% lower CHD risk (HR 0.80, 95% CI 0.72-0.89).'

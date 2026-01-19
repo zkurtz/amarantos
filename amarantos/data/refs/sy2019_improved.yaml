@@ -21,7 +21,18 @@ keywords:
 - improved
 - korea
 - population
-hard_claims: []
+hard_claims:
+- summary: "One additional tooth brushing per day associated with 9% lower risk of cardiovascular events"
+  choice: oral_hygiene
+  evidence_type: Prospective cohort study
+  effect_size: 0.91
+  effect_ci_lower: 0.0
+  effect_ci_upper: 0.0
+  outcome: "cardiovascular events"
+  population: "healthy Korean adults aged 40+"
+  sample_size: 247696
+  followup_years: 9.5
+  notes: "14,893 cardiovascular events observed; regular professional dental cleanings reduced CV risk by 14%"
 soft_claims: []
 journal: Eur Heart J
 volume: '40'
@@ -30,4 +41,4 @@ pages: 1138-1145
 doi: ''
 pmid: '30561631'
 url: https://pubmed.ncbi.nlm.nih.gov/30561631/
-summary: ''
+summary: "Population-based prospective cohort study of 247,696 healthy Korean adults aged 40+ with 9.5 years median follow-up. Found that one additional tooth brushing per day was associated with 9% lower cardiovascular risk, and regular professional dental cleanings reduced CV risk by 14%. Improved oral hygiene behaviors attenuated cardiovascular risk from periodontal disease, dental caries, and tooth loss."

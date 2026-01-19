@@ -14,7 +14,29 @@ keywords:
 - supplements
 - daily dosing
 - longevity
-hard_claims: []
+hard_claims:
+- summary: "Vitamin D supplementation significantly reduced cancer mortality"
+  choice: vitamin_d
+  evidence_type: Meta-analysis
+  effect_size: 0.87
+  effect_ci_lower: 0.79
+  effect_ci_upper: 0.96
+  outcome: "cancer mortality"
+  population: "general adult population"
+  sample_size: 0
+  followup_years: 0
+  notes: "5 RCTs with 1,591 cancer deaths. 13% reduction in cancer mortality. Daily dosing showed greater benefit than bolus dosing."
+- summary: "Vitamin D supplementation did not reduce cancer incidence"
+  choice: vitamin_d
+  evidence_type: Meta-analysis
+  effect_size: 0.98
+  effect_ci_lower: 0.93
+  effect_ci_upper: 1.03
+  outcome: "total cancer incidence"
+  population: "general adult population"
+  sample_size: 0
+  followup_years: 0
+  notes: "10 RCTs with 6,537 cancer cases. No significant effect on cancer prevention, only on mortality after cancer develops."
 soft_claims: []
 journal: Annals of Oncology
 volume: '30'
@@ -23,4 +45,4 @@ pages: 733-743
 doi: 10.1093/annonc/mdz059
 pmid: '30796437'
 url: https://pubmed.ncbi.nlm.nih.gov/30796437/
-summary: ''
+summary: "Meta-analysis of randomized controlled trials examining vitamin D supplementation effects on cancer outcomes with 3-10 years follow-up. Found vitamin D significantly reduced cancer mortality by 13% (RR 0.87, 95% CI 0.79-0.96; 5 trials, 1,591 deaths) but did not reduce cancer incidence (RR 0.98, 95% CI 0.93-1.03; 10 trials, 6,537 cases). Daily dosing regimens showed greater mortality benefit than infrequent bolus dosing."

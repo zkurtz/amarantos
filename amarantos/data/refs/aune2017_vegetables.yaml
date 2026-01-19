@@ -17,7 +17,62 @@ keywords:
 - leafy greens
 - meta-analysis
 - longevity
-hard_claims: []
+hard_claims:
+- summary: "Higher fruit and vegetable intake associated with reduced all-cause mortality"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.90
+  effect_ci_lower: 0.87
+  effect_ci_upper: 0.93
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 2000000
+  followup_years: 10.0
+  notes: "Per 200g/day increase; 95 prospective cohort studies included"
+- summary: "Higher fruit and vegetable intake associated with reduced cardiovascular disease risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.92
+  effect_ci_lower: 0.90
+  effect_ci_upper: 0.95
+  outcome: "cardiovascular disease"
+  population: "general adult population"
+  sample_size: 2000000
+  followup_years: 10.0
+  notes: "Per 200g/day increase; reductions observed up to 800g/day"
+- summary: "Higher fruit and vegetable intake associated with reduced total cancer risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.97
+  effect_ci_lower: 0.95
+  effect_ci_upper: 0.99
+  outcome: "total cancer"
+  population: "general adult population"
+  sample_size: 2000000
+  followup_years: 10.0
+  notes: "Per 200g/day increase; reductions observed up to 600g/day"
+- summary: "Higher fruit and vegetable intake associated with reduced coronary heart disease risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.92
+  effect_ci_lower: 0.90
+  effect_ci_upper: 0.94
+  outcome: "coronary heart disease"
+  population: "general adult population"
+  sample_size: 2000000
+  followup_years: 10.0
+  notes: "Per 200g/day increase"
+- summary: "Higher fruit and vegetable intake associated with reduced stroke risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.84
+  effect_ci_lower: 0.76
+  effect_ci_upper: 0.92
+  outcome: "stroke"
+  population: "general adult population"
+  sample_size: 2000000
+  followup_years: 10.0
+  notes: "Per 200g/day increase; leafy greens and cruciferous vegetables showed strongest associations"
 soft_claims: []
 journal: International Journal of Epidemiology
 volume: '46'
@@ -26,4 +81,4 @@ pages: 1029-1056
 doi: 10.1093/ije/dyw319
 pmid: '28338764'
 url: https://pubmed.ncbi.nlm.nih.gov/28338764/
-summary: ''
+summary: "Meta-analysis of 95 prospective cohort studies examining fruit and vegetable intake and disease risk. Found dose-response relationships with reductions in cardiovascular disease, cancer, and all-cause mortality up to 800g/day intake. Leafy greens and cruciferous vegetables showed particularly strong protective associations. Estimates suggest 5.6-7.8 million premature deaths globally may be attributable to insufficient intake."

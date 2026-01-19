@@ -14,7 +14,29 @@ keywords:
 - muscle
 - meta-analysis
 - dose-response
-hard_claims: []
+hard_claims:
+- summary: "Any resistance training associated with 15% lower all-cause mortality"
+  choice: strength_training
+  evidence_type: Meta-analysis
+  effect_size: 0.85
+  effect_ci_lower: 0.77
+  effect_ci_upper: 0.93
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Meta-analysis of 10 studies. Maximum benefit at ~60 minutes/week (27% reduction, RR 0.74, 95% CI 0.64-0.86). Benefits diminished at higher volumes. Also found 19% lower CVD mortality and 14% lower cancer mortality."
+- summary: "Optimal resistance training dose of ~60 minutes per week associated with 27% lower all-cause mortality"
+  choice: strength_training
+  evidence_type: Meta-analysis
+  effect_size: 0.74
+  effect_ci_lower: 0.64
+  effect_ci_upper: 0.86
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Non-linear dose-response analysis from 4 studies. Benefits diminish at higher training volumes."
 soft_claims: []
 journal: American Journal of Preventive Medicine
 volume: '63'
@@ -23,4 +45,4 @@ pages: 277-285
 doi: 10.1016/j.amepre.2022.03.020
 pmid: '35599175'
 url: https://pubmed.ncbi.nlm.nih.gov/35599175/
-summary: ''
+summary: "Systematic review and meta-analysis of 10 studies examining resistance training and mortality. Any resistance training associated with 15% lower all-cause mortality (RR 0.85, 95% CI 0.77-0.93), 19% lower cardiovascular mortality (RR 0.81, 95% CI 0.66-1.00), and 14% lower cancer mortality (RR 0.86, 95% CI 0.78-0.95). Dose-response analysis showed maximum benefit at ~60 minutes per week (27% reduction) with diminishing returns at higher volumes."

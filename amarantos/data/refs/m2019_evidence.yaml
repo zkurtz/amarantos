@@ -15,7 +15,11 @@ keywords:
 - noise
 - reply
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Authors contend there is no evidence that broadband noise exposure causes hearing damage"
+  choice: white_noise
+  source_type: "expert opinion"
+  notes: "Reply/comment article responding to concerns about white noise therapy for tinnitus; authors defend position that standard broadband noise does not harm hearing"
 journal: JAMA Otolaryngol Head Neck Surg
 volume: '145'
 issue: '3'
@@ -23,4 +27,4 @@ pages: 292-293
 doi: ''
 pmid: '30676625'
 url: https://pubmed.ncbi.nlm.nih.gov/30676625/
-summary: ''
+summary: 'Reply/comment article in which authors respond to earlier discussions about white noise therapy for tinnitus. The authors argue there is no evidence that broadband noise at typical therapeutic levels causes hearing damage. This is an expert opinion piece rather than original research.'

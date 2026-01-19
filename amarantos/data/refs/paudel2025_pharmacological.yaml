@@ -16,7 +16,15 @@ keywords:
 - systematic review
 - zingiber
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Ginger supplementation associated with significant reductions in inflammatory markers including CRP, high-sensitivity CRP, and TNF-alpha"
+  choice: ginger
+  source_type: "review"
+  notes: "Systematic review of meta-analyses on ginger pharmacological effects; focused on inflammation, T2DM, oxidative stress, and pregnancy-associated nausea"
+- summary: "Ginger shows anti-inflammatory, antioxidant, hypoglycemic, and anti-emetic effects based on meta-analytic evidence"
+  choice: ginger
+  source_type: "review"
+  notes: "Review of meta-analyses from 2010-2025; bioactive compounds include gingerols and shogaols"
 journal: Frontiers in Pharmacology
 volume: '16'
 issue: ''
@@ -25,4 +33,4 @@ doi: 10.3389/fphar.2025.1619655
 pmid: ''
 url:
   https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1619655/full
-summary: ''
+summary: 'Systematic review of meta-analyses examining pharmacological properties of ginger (Zingiber officinale). Found ginger supplementation significantly reduces inflammatory markers (CRP, hs-CRP, TNF-alpha). Review covers effects on inflammation, type 2 diabetes, oxidative stress, and pregnancy-associated nausea, demonstrating anti-inflammatory, antioxidant, hypoglycemic, and anti-emetic properties.'

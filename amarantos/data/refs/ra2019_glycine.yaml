@@ -21,7 +21,29 @@ keywords:
 - lifespan
 - supplement
 - supplementation
-hard_claims: []
+hard_claims:
+- summary: "8% glycine-supplemented diet extended median lifespan in male mice by approximately 4-6%"
+  choice: glycine
+  evidence_type: Randomized controlled trial
+  effect_size: 1.05
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "median lifespan"
+  population: "genetically heterogeneous mice (male)"
+  sample_size: null
+  followup_years: null
+  notes: "NIA Interventions Testing Program across 3 sites; p=0.002; treatment started at 9 months of age; reduced pulmonary adenocarcinoma deaths"
+- summary: "8% glycine-supplemented diet extended median lifespan in female mice by approximately 4-6%"
+  choice: glycine
+  evidence_type: Randomized controlled trial
+  effect_size: 1.04
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "median lifespan"
+  population: "genetically heterogeneous mice (female)"
+  sample_size: null
+  followup_years: null
+  notes: "NIA Interventions Testing Program; p=0.006; serum glycine levels sixfold higher than controls"
 soft_claims: []
 journal: Aging Cell
 volume: '18'
@@ -30,4 +52,4 @@ pages: e12953
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/
-summary: ''
+summary: 'NIA Interventions Testing Program study across 3 research sites examining glycine supplementation in genetically heterogeneous mice. 8% glycine diet (started at 9 months) extended median lifespan by approximately 4-6% in both sexes (p=0.002 males, p=0.006 females). Glycine-treated mice less likely to die from pulmonary adenocarcinoma. Effects described as modest.'

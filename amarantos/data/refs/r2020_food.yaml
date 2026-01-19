@@ -23,7 +23,15 @@ keywords:
 - systematic review
 - timing
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Time-restricted eating induces average 3% weight loss and fat mass reduction without explicit caloric restriction"
+  choice: intermittent_fasting
+  source_type: "review"
+  notes: "Systematic review of 23 studies; 80% adherence rate with 20% unintentional caloric reduction"
+- summary: "Time-restricted eating produces beneficial metabolic effects independently of weight loss through circadian alignment"
+  choice: intermittent_fasting
+  source_type: "review"
+  notes: "Effects attributed to realignment of feeding with circadian clock rather than calorie reduction alone"
 journal: Nutrients
 volume: '12'
 issue: '12'
@@ -31,4 +39,4 @@ pages: ''
 doi: ''
 pmid: '33302500'
 url: https://pubmed.ncbi.nlm.nih.gov/33302500/
-summary: ''
+summary: 'Systematic review of 23 studies (2014-2020) examining time-restricted eating effects on human health. Found 80% adherence rate, 20% unintentional caloric reduction, average 3% weight loss and fat mass reduction. Metabolic benefits occurred independently of weight loss, suggesting intrinsic effects from circadian alignment.'

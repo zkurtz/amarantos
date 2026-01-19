@@ -14,7 +14,11 @@ keywords:
 - longevity
 - periodic
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Intermittent and periodic fasting emerging as safe strategies to affect longevity with potential benefits for cancer, autoimmunity, neurodegeneration, metabolic disease, and cardiovascular conditions"
+  choice: intermittent_fasting
+  source_type: "review"
+  notes: "Review of fasting effects across organisms from yeast to humans; IF (12-48 hour fasts) and PF (2-7 day fasts monthly); mechanisms involve nutrient-sensing pathways"
 journal: Nat Aging
 volume: '1'
 issue: '1'
@@ -22,4 +26,4 @@ pages: 47-59
 doi: ''
 pmid: '35310455'
 url: https://pubmed.ncbi.nlm.nih.gov/35310455/
-summary: ''
+summary: "Narrative review examining how intermittent fasting (IF: 12-48 hour fasts repeated every 1-7 days) and periodic fasting (PF: 2-7 day fasts monthly or less) affect longevity and disease prevention. Reviews evidence from yeast to humans, identifying conserved nutrient-sensing signaling pathways that regulate cellular aging. Discusses therapeutic potential for cancer, autoimmunity, neurodegeneration, metabolic disease, and cardiovascular conditions. Both fasting and refeeding periods contribute distinct benefits."

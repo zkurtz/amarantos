@@ -18,12 +18,16 @@ keywords:
 - rheumatoid
 - surgery
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Perioperative immunosuppressant management study, not relevant to longevity interventions"
+  choice: other
+  source_type: "expert opinion"
+  notes: "Retrospective study of 88 rheumatoid arthritis patients undergoing elective hand surgery. Found no significant differences in complications whether medications were continued or discontinued. Not related to longevity."
 journal: J Hand Surg Am
 volume: '45'
 issue: '8'
 pages: 779.e1-779.e6
-doi: ''
+doi: '10.1016/j.jhsa.2020.01.007'
 pmid: '32209269'
 url: https://pubmed.ncbi.nlm.nih.gov/32209269/
-summary: ''
+summary: "Retrospective study of 88 rheumatoid arthritis patients undergoing elective hand/upper extremity surgery examining whether continuing or discontinuing immunosuppressant medications affected postoperative complications. Found no significant differences in complication rates (9% overall). Not relevant to longevity interventions."

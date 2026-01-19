@@ -22,7 +22,40 @@ keywords:
 - meta-analysis
 - mortality
 - steps
-hard_claims: []
+hard_claims:
+- summary: "Higher daily step count is associated with progressively lower all-cause mortality risk"
+  choice: walking
+  evidence_type: Meta-analysis
+  effect_size: 0.47
+  effect_ci_lower: 0.39
+  effect_ci_upper: 0.57
+  outcome: "all-cause mortality"
+  population: "adults aged 18+"
+  sample_size: 47471
+  followup_years: 7.1
+  notes: "HR 0.47 (highest vs lowest quartile of steps); Q2: HR 0.60 (0.51-0.71), Q3: HR 0.55 (0.49-0.62); 15 cohorts, 3,013 deaths"
+- summary: "Mortality benefits from walking plateau at 6,000-8,000 steps/day for older adults"
+  choice: walking
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "all-cause mortality"
+  population: "adults aged 60+"
+  sample_size: 47471
+  followup_years: 7.1
+  notes: "Progressively decreasing mortality risk until 6,000-8,000 steps/day for adults 60+; younger adults benefit until 8,000-10,000 steps/day"
+- summary: "Higher stepping intensity associated with lower mortality independent of total steps"
+  choice: walking
+  evidence_type: Meta-analysis
+  effect_size: 0.67
+  effect_ci_lower: 0.56
+  effect_ci_upper: 0.83
+  outcome: "all-cause mortality"
+  population: "adults aged 18+"
+  sample_size: 47471
+  followup_years: 7.1
+  notes: "Peak 30-minute stepping rate HR 0.67 after adjusting for total steps"
 soft_claims: []
 journal: Lancet Public Health
 volume: '7'
@@ -31,4 +64,4 @@ pages: e219-e228
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978/
-summary: ''
+summary: 'Meta-analysis of 15 international cohort studies involving 47,471 adults with 3,013 deaths over median 7.1-year follow-up examining daily steps and all-cause mortality. Found 53% lower mortality risk for highest vs lowest step quartile (HR 0.47). Optimal thresholds were 6,000-8,000 steps/day for adults 60+ and 8,000-10,000 for younger adults, challenging the popular 10,000-step guideline. Stepping intensity also independently associated with lower mortality.'

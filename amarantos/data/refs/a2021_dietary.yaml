@@ -24,7 +24,40 @@ keywords:
 - intakes
 - leafy
 - vegetables
-hard_claims: []
+hard_claims:
+- summary: "Higher green leafy vegetable intake is associated with reduced overall cardiovascular disease incidence"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.93
+  effect_ci_lower: 0.92
+  effect_ci_upper: 0.95
+  outcome: "cardiovascular disease incidence"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Pooled RR from 17 prospective cohort studies; 7% reduction in CVD incidence"
+- summary: "Green leafy vegetable consumption reduces coronary heart disease risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.92
+  effect_ci_lower: 0.90
+  effect_ci_upper: 0.95
+  outcome: "coronary heart disease"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Consistent protective effect observed in both men and women"
+- summary: "Green leafy vegetable consumption reduces stroke risk"
+  choice: vegetables
+  evidence_type: Meta-analysis
+  effect_size: 0.93
+  effect_ci_lower: 0.90
+  effect_ci_upper: 0.96
+  outcome: "stroke incidence"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Similar protective associations for cerebral infarction (RR 0.92, 95% CI: 0.88-0.96)"
 soft_claims: []
 journal: Cardiovasc J Afr
 volume: '32'
@@ -33,4 +66,4 @@ pages: 215-223
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8756059/
-summary: ''
+summary: 'Meta-analysis of 17 prospective cohort studies examining the association between green leafy vegetable (GLV) intake and cardiovascular disease incidence. Found a 7% reduction in CVD risk (RR 0.93) with higher GLV consumption, with consistent protective effects for coronary heart disease, stroke, and cerebral infarction. Benefits were similar for both men and women.'

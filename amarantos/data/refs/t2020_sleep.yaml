@@ -15,7 +15,29 @@ keywords:
 - irregularity
 - multi
 - sleep
-hard_claims: []
+hard_claims:
+- summary: "Sleep duration variability >120 minutes associated with 2.14-fold increased cardiovascular disease risk"
+  choice: optimal_sleep_duration
+  evidence_type: Prospective cohort study
+  effect_size: 2.14
+  effect_ci_lower: 0.0
+  effect_ci_upper: 0.0
+  outcome: "cardiovascular events"
+  population: "cardiovascular disease-free adults"
+  sample_size: 1992
+  followup_years: 4.9
+  notes: "111 CV events during follow-up; p trend = 0.002; independent of traditional CV risk factors"
+- summary: "Sleep timing variability >90 minutes associated with 2.11-fold increased cardiovascular disease risk"
+  choice: optimal_sleep_duration
+  evidence_type: Prospective cohort study
+  effect_size: 2.11
+  effect_ci_lower: 0.0
+  effect_ci_upper: 0.0
+  outcome: "cardiovascular events"
+  population: "cardiovascular disease-free adults"
+  sample_size: 1992
+  followup_years: 4.9
+  notes: "Multi-Ethnic Study of Atherosclerosis (MESA); 7-day wrist actigraphy measurements"
 soft_claims: []
 journal: J Am Coll Cardiol
 volume: '75'
@@ -24,4 +46,4 @@ pages: 991-999
 doi: ''
 pmid: '32138974'
 url: https://pubmed.ncbi.nlm.nih.gov/32138974/
-summary: ''
+summary: "Prospective study from the Multi-Ethnic Study of Atherosclerosis (MESA) examining 1,992 cardiovascular disease-free participants with 7-day wrist actigraphy measurements and 4.9 years follow-up. Found that irregular sleep patterns are novel CVD risk factors: sleep duration variability >120 minutes (HR 2.14) and sleep timing variability >90 minutes (HR 2.11) were associated with increased CVD risk, independent of traditional risk factors and sleep quantity/quality."

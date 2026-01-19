@@ -16,7 +16,29 @@ keywords:
 - meta-analysis
 - nutrient
 - systematic review
-hard_claims: []
+hard_claims:
+- summary: "Hydrolyzed collagen supplementation significantly improves skin hydration"
+  choice: collagen_supplements
+  evidence_type: Meta-analysis
+  effect_size: 0.63
+  effect_ci_lower: 0.38
+  effect_ci_upper: 0.88
+  outcome: "skin hydration (standardized mean difference)"
+  population: "adults in randomized controlled trials"
+  sample_size: 1721
+  followup_years: 0.0
+  notes: "26 RCTs analyzed; 18 studies on hydration; fish-derived collagen most effective; supplementation duration 2-12 weeks"
+- summary: "Hydrolyzed collagen supplementation significantly improves skin elasticity"
+  choice: collagen_supplements
+  evidence_type: Meta-analysis
+  effect_size: 0.72
+  effect_ci_lower: 0.40
+  effect_ci_upper: 1.03
+  outcome: "skin elasticity (standardized mean difference)"
+  population: "adults in randomized controlled trials"
+  sample_size: 1721
+  followup_years: 0.0
+  notes: "19 studies on elasticity; long-term supplementation (>8 weeks) produced superior results"
 soft_claims: []
 journal: Nutrients
 volume: '15'
@@ -25,4 +47,4 @@ pages: '2080'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/
-summary: ''
+summary: "Systematic review and meta-analysis of 26 randomized controlled trials with 1,721 participants examining hydrolyzed collagen effects on skin aging. Found significant improvements in skin hydration (SMD 0.63, p<0.00001) and skin elasticity (SMD 0.72, p<0.00001). Long-term supplementation (>8 weeks) and fish-derived collagen showed superior results for hydration outcomes."

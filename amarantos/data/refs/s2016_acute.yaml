@@ -23,7 +23,18 @@ keywords:
 - microbial
 - prospective
 - randomized
-hard_claims: []
+hard_claims:
+- summary: "Soy isoflavone intake improved arterial stiffness (cfPWV) in equol producers at 24 hours, equating to 11-12% reduced cardiovascular disease risk if sustained"
+  choice: isoflavones
+  evidence_type: Randomized controlled trial
+  effect_size: -0.8
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "carotid-femoral pulse wave velocity change"
+  population: "healthy men stratified by equol producer phenotype"
+  sample_size: 28
+  followup_years: null
+  notes: "Double-blind crossover trial. Effect only seen in equol producers (n=14), not in non-producers. Improvement correlated with plasma equol concentrations (R=-0.36, P=0.01)."
 soft_claims: []
 journal: Am J Clin Nutr
 volume: '103'
@@ -32,4 +43,4 @@ pages: 694-702
 doi: ''
 pmid: '26843154'
 url: https://pubmed.ncbi.nlm.nih.gov/26843154/
-summary: ''
+summary: "Double-blind randomized controlled crossover trial in 28 men examining acute vascular effects of soy isoflavones stratified by equol producer phenotype. Equol producers showed significant improvement in arterial stiffness (cfPWV) at 24 hours post-soy intake (-0.2 m/s vs +0.6 m/s placebo, P<0.01), while non-producers showed no benefit. Effect correlated with plasma equol levels."

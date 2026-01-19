@@ -16,7 +16,29 @@ keywords:
 - forest bathing
 - parks
 - environment
-hard_claims: []
+hard_claims:
+- summary: "Spending 120+ minutes weekly in nature significantly increases odds of reporting good health"
+  choice: nature_exposure
+  evidence_type: Cross-sectional study
+  effect_size: 1.59
+  effect_ci_lower: 1.31
+  effect_ci_upper: 1.92
+  outcome: "self-reported good health"
+  population: "general adult population in England"
+  sample_size: 19806
+  followup_years: null
+  notes: "Benefits plateau between 200-300 minutes per week; frequency of visits did not matter"
+- summary: "Spending 120+ minutes weekly in nature significantly increases odds of high well-being"
+  choice: nature_exposure
+  evidence_type: Cross-sectional study
+  effect_size: 1.23
+  effect_ci_lower: 1.08
+  effect_ci_upper: 1.40
+  outcome: "self-reported high well-being"
+  population: "general adult population in England"
+  sample_size: 19806
+  followup_years: null
+  notes: "Consistent across demographic groups including older adults and those with chronic health conditions"
 soft_claims: []
 journal: Scientific Reports
 volume: '9'
@@ -25,4 +47,4 @@ pages: '7730'
 doi: 10.1038/s41598-019-44097-3
 pmid: '31197192'
 url: https://pubmed.ncbi.nlm.nih.gov/31197192/
-summary: ''
+summary: 'Cross-sectional study examining nature exposure and health in 19,806 participants from the Monitor of Engagement with the Natural Environment Survey. Found that spending at least 120 minutes per week in nature was associated with significantly higher odds of good health and well-being, with benefits plateauing at 200-300 minutes. Effects were consistent across age groups and health conditions.'

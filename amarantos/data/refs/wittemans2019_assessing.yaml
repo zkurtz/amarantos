@@ -21,7 +21,18 @@ keywords:
 - diseases
 - glycine
 - metabolic
-hard_claims: []
+hard_claims:
+- summary: "Higher circulating glycine levels are genetically associated with lower coronary heart disease risk"
+  choice: glycine
+  evidence_type: Mendelian randomization
+  effect_size: 0.92
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "coronary heart disease"
+  population: "general adult population"
+  sample_size: 574066
+  followup_years: null
+  notes: "Meta-analysis of GWAS in 80,003 participants identified 27 genetic loci for glycine; genetic analysis based on 88,800 CHD cases and 485,266 controls"
 soft_claims: []
 journal: Nature Communications
 volume: '10'
@@ -30,4 +41,4 @@ pages: ''
 doi: 10.1038/s41467-019-08936-1
 pmid: ''
 url: https://www.nature.com/articles/s41467-019-08936-1
-summary: ''
+summary: 'Mendelian randomization study assessing causal association between glycine and cardio-metabolic diseases. Meta-analysis of GWAS in 80,003 participants identified 27 genetic loci. Found glycine is genetically associated with lower CHD risk (HR=0.92 per 1SD higher glycine), partially driven by blood pressure effects. Evidence for glycine-T2D association may be driven by glycine-lowering effect of insulin resistance.'

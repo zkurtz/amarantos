@@ -26,7 +26,51 @@ keywords:
 - specific
 - systematic review
 - total
-hard_claims: []
+hard_claims:
+- summary: "Higher nut consumption is associated with reduced all-cause mortality"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.78
+  effect_ci_lower: 0.72
+  effect_ci_upper: 0.84
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 819448
+  followup_years: null
+  notes: "RR 0.78 per 28g/day increase in nut intake; 22% reduced mortality risk; 20 prospective studies, 85,870 deaths"
+- summary: "Higher nut consumption is associated with reduced cardiovascular disease"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.79
+  effect_ci_lower: 0.70
+  effect_ci_upper: 0.88
+  outcome: "cardiovascular disease"
+  population: "general adult population"
+  sample_size: 819448
+  followup_years: null
+  notes: "RR 0.79 per 28g/day increase; 12 studies"
+- summary: "Higher nut consumption is associated with reduced coronary heart disease"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.71
+  effect_ci_lower: 0.63
+  effect_ci_upper: 0.80
+  outcome: "coronary heart disease"
+  population: "general adult population"
+  sample_size: 819448
+  followup_years: null
+  notes: "29% risk reduction per 28g/day; 12,331 CHD cases"
+- summary: "Higher nut consumption is associated with reduced respiratory disease mortality"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.48
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "respiratory disease mortality"
+  population: "general adult population"
+  sample_size: 819448
+  followup_years: null
+  notes: "52% risk reduction; also reduced diabetes mortality (RR 0.61)"
 soft_claims: []
 journal: BMC Medicine
 volume: '14'
@@ -35,4 +79,4 @@ pages: ''
 doi: 10.1186/s12916-016-0730-3
 pmid: ''
 url: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-016-0730-3
-summary: ''
+summary: 'Systematic review and dose-response meta-analysis of 20 prospective studies (up to 819,448 participants, 85,870 deaths) examining nut consumption and mortality/disease risk. Found 22% reduction in all-cause mortality (RR 0.78), 21% reduction in cardiovascular disease (RR 0.79), and 29% reduction in coronary heart disease (RR 0.71) per 28g/day nut intake. Also found protective associations for respiratory disease mortality (RR 0.48) and diabetes mortality (RR 0.61). Estimated 4.4 million premature deaths attributable to nut intake below 20g/day.'

@@ -20,7 +20,18 @@ keywords:
 - immune
 - improves
 - inhibition
-hard_claims: []
+hard_claims:
+- summary: "mTOR inhibitor RAD001 enhanced influenza vaccine response by approximately 20% in elderly adults"
+  choice: rapamycin
+  evidence_type: Randomized controlled trial
+  effect_size: 1.20
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "influenza vaccine response"
+  population: "elderly adults (65+)"
+  sample_size: null
+  followup_years: null
+  notes: "RAD001 reduced PD-1+ T cells, suggesting improved immune signaling; acceptable tolerability at tested doses"
 soft_claims: []
 journal: Sci Transl Med
 volume: '6'
@@ -29,4 +40,4 @@ pages: 268ra179
 doi: ''
 pmid: '25540326'
 url: https://pubmed.ncbi.nlm.nih.gov/25540326/
-summary: ''
+summary: 'Randomized controlled trial examining mTOR inhibitor RAD001 effects on immune function in elderly adults. Found RAD001 enhanced influenza vaccine response by approximately 20% and reduced percentage of PD-1+ CD4 and CD8 T cells. Results suggest mTOR inhibition may have beneficial effects on immunosenescence in the elderly.'

@@ -18,7 +18,18 @@ keywords:
 - meta-analysis
 - systematic review
 - taurine
-hard_claims: []
+hard_claims:
+- summary: "Taurine supplementation significantly reduced systolic blood pressure"
+  choice: taurine
+  evidence_type: Meta-analysis
+  effect_size: -4.0
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure reduction (mm Hg)"
+  population: "adults including healthy individuals and those with heart failure, hypertension, and diabetes"
+  sample_size: 808
+  followup_years: null
+  notes: "20 RCTs included; daily doses 0.5-6g for 5-90 days; also showed heart rate reduction (-3.6 bpm), diastolic BP reduction (-1.4 mm Hg), LVEF improvement (~5%), and improved NYHA classification"
 soft_claims: []
 journal: Nutr J
 volume: '23'
@@ -27,4 +38,4 @@ pages: '93'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11325608/
-summary: ''
+summary: 'Systematic review and meta-analysis of 20 RCTs (n=808) examining taurine supplementation effects on cardiovascular parameters. Taurine (0.5-6g daily for 5-90 days) significantly improved multiple cardiovascular measures: heart rate (-3.6 bpm), systolic BP (-4.0 mm Hg), diastolic BP (-1.4 mm Hg), LVEF (~5% increase), and NYHA functional classification. Benefits most pronounced in heart failure patients with no significant adverse effects.'

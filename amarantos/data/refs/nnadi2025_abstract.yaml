@@ -22,7 +22,11 @@ keywords:
 - supplement
 - supplementation
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Study examined effect of long-term melatonin supplementation on heart failure incidence in patients with insomnia"
+  choice: melatonin
+  source_type: "review"
+  notes: "Conference abstract; full study details not accessible"
 journal: Circulation
 volume: '152'
 issue: Suppl_3
@@ -30,4 +34,4 @@ pages: ''
 doi: 10.1161/circ.152.suppl_3.4371606
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/circ.152.suppl_3.4371606
-summary: ''
+summary: 'Conference abstract examining the effect of long-term melatonin supplementation on the incidence of heart failure in patients with insomnia. Full study details and quantitative results not available from abstract.'

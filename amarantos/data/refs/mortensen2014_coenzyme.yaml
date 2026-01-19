@@ -20,7 +20,40 @@ keywords:
 - heart
 - morbidity
 - mortality
-hard_claims: []
+hard_claims:
+- summary: "CoQ10 supplementation reduced major adverse cardiovascular events by 50% compared to placebo in chronic heart failure patients"
+  choice: coq10
+  evidence_type: Randomized controlled trial
+  effect_size: 0.50
+  effect_ci_lower: 0.32
+  effect_ci_upper: 0.80
+  outcome: "major adverse cardiovascular events"
+  population: "patients with moderate to severe chronic heart failure"
+  sample_size: 420
+  followup_years: 2.0
+  notes: "Q-SYMBIO trial; randomized double-blind; CoQ10 300mg/day; p=0.003"
+- summary: "CoQ10 supplementation reduced cardiovascular mortality by 43% in chronic heart failure patients"
+  choice: coq10
+  evidence_type: Randomized controlled trial
+  effect_size: 0.57
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "cardiovascular mortality"
+  population: "patients with moderate to severe chronic heart failure"
+  sample_size: 420
+  followup_years: 2.0
+  notes: "9% vs 16% mortality; p=0.026"
+- summary: "CoQ10 supplementation reduced all-cause mortality by 44% in chronic heart failure patients"
+  choice: coq10
+  evidence_type: Randomized controlled trial
+  effect_size: 0.56
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "all-cause mortality"
+  population: "patients with moderate to severe chronic heart failure"
+  sample_size: 420
+  followup_years: 2.0
+  notes: "10% vs 18% mortality; p=0.018"
 soft_claims: []
 journal: 'JACC: Heart Failure'
 volume: '2'
@@ -29,4 +62,4 @@ pages: 641-649
 doi: 10.1016/j.jchf.2014.06.008
 pmid: ''
 url: https://www.jacc.org/doi/10.1016/j.jchf.2014.06.008
-summary: ''
+summary: "Q-SYMBIO trial: randomized double-blind RCT of CoQ10 (300mg/day) in 420 patients with moderate to severe chronic heart failure over 2 years. Found 50% reduction in major adverse cardiovascular events (HR 0.50), 43% reduction in cardiovascular mortality, and 44% reduction in all-cause mortality. Significant improvement in NYHA functional class."

@@ -18,7 +18,29 @@ keywords:
 - meta-analysis
 - omega
 - pufas
-hard_claims: []
+hard_claims:
+- summary: "Omega-3 PUFA supplementation showed overall beneficial effect on depression symptoms"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: -0.28
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "depression symptoms"
+  population: "adults with depression"
+  sample_size: 2160
+  followup_years: null
+  notes: "Meta-analysis of 26 RCTs; SMD = -0.28, P = 0.004"
+- summary: "EPA-pure omega-3 formulations showed larger effect on depression symptoms"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: -0.50
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "depression symptoms"
+  population: "adults with depression"
+  sample_size: 2160
+  followup_years: null
+  notes: "100% EPA formulations; SMD = -0.50, P = 0.003; dosages <=1 g/day most effective"
 soft_claims: []
 journal: Translational Psychiatry
 volume: '9'
@@ -27,4 +49,4 @@ pages: ''
 doi: 10.1038/s41398-019-0515-5
 pmid: ''
 url: https://www.nature.com/articles/s41398-019-0515-5
-summary: ''
+summary: 'Meta-analysis of 26 double-blind randomized placebo-controlled trials including 2,160 participants examining omega-3 PUFAs for depression. Found overall beneficial effect (SMD = -0.28, P = 0.004) with EPA-dominant formulations (>=60% EPA) at dosages <=1 g/day showing the strongest effects. DHA-pure formulations showed no significant benefit.'

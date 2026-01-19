@@ -23,7 +23,29 @@ keywords:
 - randomized
 - safety
 - trials
-hard_claims: []
+hard_claims:
+- summary: "Coenzyme Q10 supplementation reduces all-cause mortality in heart failure patients by 36%"
+  choice: coq10
+  evidence_type: Meta-analysis
+  effect_size: 0.64
+  effect_ci_lower: 0.48
+  effect_ci_upper: 0.85
+  outcome: "all-cause mortality"
+  population: "heart failure patients"
+  sample_size: null
+  followup_years: null
+  notes: "33 RCTs included; moderate quality GRADE evidence"
+- summary: "Coenzyme Q10 supplementation reduces heart failure hospitalization by 50%"
+  choice: coq10
+  evidence_type: Meta-analysis
+  effect_size: 0.50
+  effect_ci_lower: 0.37
+  effect_ci_upper: 0.67
+  outcome: "hospitalization for heart failure"
+  population: "heart failure patients"
+  sample_size: null
+  followup_years: null
+  notes: "Also improved LVEF, 6-minute walk test, and BNP levels; moderate quality GRADE evidence"
 soft_claims: []
 journal: BMC Cardiovascular Disorders
 volume: '24'
@@ -31,6 +53,5 @@ issue: '1'
 pages: ''
 doi: 10.1186/s12872-024-04232-z
 pmid: ''
-url:
-  https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z
-summary: ''
+url: https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z
+summary: 'Meta-analysis of 33 randomized controlled trials evaluating CoQ10 efficacy and safety in heart failure. Found significant reductions in all-cause mortality (RR 0.64), heart failure hospitalization (RR 0.50), NYHA classification, and BNP levels, with improvements in LVEF and 6-minute walk test, without major adverse effects.'

@@ -26,8 +26,23 @@ keywords:
 - randomized
 - sequential
 - single
-hard_claims: []
-soft_claims: []
+hard_claims:
+- summary: "Alpha-lipoic acid showed trend toward lower 30-day mortality in critically ill COVID-19 patients"
+  choice: alpha_lipoic_acid
+  evidence_type: Randomized controlled trial
+  effect_size: 0.48
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "30-day all-cause mortality"
+  population: "critically ill COVID-19 patients"
+  sample_size: 17
+  followup_years: 0.08
+  notes: "ALA group mortality 37.5% vs placebo 77.8% (P=0.09); underpowered due to small sample; 1200mg/d IV for 7 days"
+soft_claims:
+- summary: "Alpha-lipoic acid may reduce systemic inflammatory response and improve organ function in critically ill COVID-19 patients"
+  choice: alpha_lipoic_acid
+  source_type: "expert opinion"
+  notes: "SOFA score increased less in ALA group (3.8 to 4.0) vs placebo (4.3 to 6.0); larger trials warranted"
 journal: Frontiers in Medicine
 volume: '8'
 issue: ''
@@ -35,4 +50,4 @@ pages: ''
 doi: 10.3389/fmed.2021.566609
 pmid: ''
 url: https://www.frontiersin.org/articles/10.3389/fmed.2021.566609/full
-summary: ''
+summary: 'Randomized, single-blind, active-controlled trial of 17 critically ill COVID-19 patients at JinYinTan Hospital, Wuhan. ALA (1200 mg/d IV for 7 days) showed trend toward lower 30-day mortality (37.5% vs 77.8%, P=0.09) and smaller SOFA score increase compared to placebo. Study underpowered due to small sample size; larger trials warranted.'

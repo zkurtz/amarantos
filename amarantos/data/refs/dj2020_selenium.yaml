@@ -25,7 +25,18 @@ keywords:
 - selenium
 - systematic review
 - trials
-hard_claims: []
+hard_claims:
+- summary: "Antioxidant mixtures containing selenium reduced CVD mortality by 23%"
+  choice: selenium
+  evidence_type: Meta-analysis
+  effect_size: 0.77
+  effect_ci_lower: 0.62
+  effect_ci_upper: 0.97
+  outcome: "cardiovascular disease mortality"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "43 RCTs reviewed; selenium-containing antioxidants also reduced all-cause mortality (RR 0.90, 95% CI 0.82-0.98); antioxidants without selenium showed NO CVD benefit and INCREASED all-cause mortality (RR 1.09, 95% CI 1.04-1.13); moderate-quality evidence per GRADE"
 soft_claims: []
 journal: Am J Clin Nutr
 volume: '112'
@@ -34,4 +45,4 @@ pages: 1642-1652
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7727482/
-summary: ''
+summary: 'Systematic review and meta-analysis of 43 RCTs (>=24 weeks) examining selenium and antioxidant supplementation effects on CVD and all-cause mortality. Critical finding: antioxidants WITH selenium reduced CVD mortality (RR 0.77) and all-cause mortality (RR 0.90), while antioxidants WITHOUT selenium showed no CVD benefit and increased all-cause mortality (RR 1.09). Recommends selenium inclusion in antioxidant supplements if mortality reduction is the goal.'

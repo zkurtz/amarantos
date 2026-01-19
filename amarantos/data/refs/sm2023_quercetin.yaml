@@ -22,7 +22,18 @@ keywords:
 - supplementation
 - trials
 - umbrella
-hard_claims: []
+hard_claims:
+- summary: "Quercetin supplementation reduces systolic blood pressure"
+  choice: quercetin
+  evidence_type: Meta-analysis
+  effect_size: -1.9
+  effect_ci_lower: -3.2
+  effect_ci_upper: -0.6
+  outcome: "systolic blood pressure reduction (mmHg)"
+  population: "adults in randomized controlled trials"
+  sample_size: 0
+  followup_years: 0.0
+  notes: "Umbrella review of 5 meta-analyses encompassing 18 RCTs; no effect on diastolic BP, lipids, or inflammatory markers"
 soft_claims: []
 journal: Phytother Res
 volume: '37'
@@ -31,4 +42,4 @@ pages: 5080-5091
 doi: ''
 pmid: '37654199'
 url: https://pubmed.ncbi.nlm.nih.gov/37654199/
-summary: ''
+summary: "Umbrella review analyzing 5 meta-analyses of 18 randomized controlled trials on quercetin supplementation effects on cardiometabolic outcomes. Found significant reduction in systolic blood pressure (-1.9 mmHg) and insulin levels. No significant effects on diastolic blood pressure, lipid profiles, inflammatory markers, or body weight. Evidence certainty ranged from very low to moderate."

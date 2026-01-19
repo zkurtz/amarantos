@@ -25,8 +25,23 @@ keywords:
 - mitochondrial
 - older
 - training
-hard_claims: []
-soft_claims: []
+hard_claims:
+- summary: "Metformin attenuates exercise-induced improvements in insulin sensitivity and VO2 max in older adults"
+  choice: metformin
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "insulin sensitivity and cardiorespiratory fitness"
+  population: "older adults (average age 62)"
+  sample_size: null
+  followup_years: null
+  notes: "Metformin blocked exercise-induced improvements in whole-body insulin sensitivity and VO2 max; also abrogated exercise-mediated increase in skeletal muscle mitochondrial respiration"
+soft_claims:
+- summary: "Metformin may interfere with exercise benefits, questioning its use as anti-aging therapy"
+  choice: metformin
+  source_type: "expert opinion"
+  notes: "Both groups showed decreased fat mass, HbA1c, fasting insulin, and glucose variability independent of metformin; additional investigation needed before prescribing metformin as anti-aging therapy"
 journal: Aging Cell
 volume: '18'
 issue: '1'
@@ -34,4 +49,4 @@ pages: e12880
 doi: ''
 pmid: '30548390'
 url: https://pubmed.ncbi.nlm.nih.gov/30548390/
-summary: ''
+summary: 'Randomized controlled trial examining whether metformin inhibits mitochondrial adaptations to aerobic exercise training in older adults (average age 62). Found that metformin attenuated exercise-induced improvements in insulin sensitivity, VO2 max, and skeletal muscle mitochondrial respiration. Both groups showed improvements in fat mass, HbA1c, and glucose variability independent of metformin. Results suggest caution regarding metformin as an anti-aging therapy, particularly when combined with exercise.'

@@ -21,7 +21,51 @@ keywords:
 - omega
 - regression
 - systematic review
-hard_claims: []
+hard_claims:
+- summary: "Omega-3 fatty acids associated with 6% reduced risk of cardiovascular mortality"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.94
+  effect_ci_lower: 0.89
+  effect_ci_upper: 0.99
+  outcome: "cardiovascular mortality"
+  population: "patients with established CV disease or high CV risk"
+  sample_size: 176253
+  followup_years: null
+  notes: "42 RCTs included; p=0.02; EPA monotherapy showed stronger effect (RR 0.80, CI 0.68-0.96)"
+- summary: "Omega-3 fatty acids associated with 10% reduced risk of coronary heart disease events"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.90
+  effect_ci_lower: 0.84
+  effect_ci_upper: 0.97
+  outcome: "coronary heart disease events"
+  population: "patients with established CV disease or high CV risk"
+  sample_size: 176253
+  followup_years: null
+  notes: "p=0.007; EPA monotherapy showed 24% risk reduction"
+- summary: "Omega-3 fatty acids associated with 11% reduced risk of myocardial infarction"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.89
+  effect_ci_lower: 0.82
+  effect_ci_upper: 0.97
+  outcome: "myocardial infarction"
+  population: "patients with established CV disease or high CV risk"
+  sample_size: 176253
+  followup_years: null
+  notes: "p=0.008"
+- summary: "Omega-3 fatty acids showed no significant association with all-cause mortality"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.97
+  effect_ci_lower: 0.93
+  effect_ci_upper: 1.02
+  outcome: "all-cause mortality"
+  population: "patients with established CV disease or high CV risk"
+  sample_size: 176253
+  followup_years: null
+  notes: "p=0.21; not statistically significant"
 soft_claims: []
 journal: Clinical and Translational Discovery
 volume: '5'
@@ -30,4 +74,4 @@ pages: ''
 doi: 10.1002/ctd2.70094
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1002/ctd2.70094
-summary: ''
+summary: "Systematic review and meta-analysis of 42 RCTs (176,253 participants) examining omega-3 fatty acid supplementation on cardiovascular outcomes. Found significant reductions in cardiovascular mortality (6%), CHD events (10%), and MI (11%), but no significant effect on all-cause mortality. EPA monotherapy showed stronger effects than combined EPA/DHA."

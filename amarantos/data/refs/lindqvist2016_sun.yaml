@@ -15,7 +15,18 @@ keywords:
 - cardiovascular
 - longevity
 - Sweden
-hard_claims: []
+hard_claims:
+- summary: "Women who avoided sun exposure had 0.6-2.1 years shorter life expectancy compared to those with highest sun exposure"
+  choice: moderate_sun_exposure
+  evidence_type: Prospective cohort study
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "life expectancy"
+  population: "Swedish women aged 25-64"
+  sample_size: 29518
+  followup_years: 20.0
+  notes: "Nonsmokers who avoided sun had life expectancy similar to smokers with high sun exposure"
 soft_claims: []
 journal: Journal of Internal Medicine
 volume: '280'
@@ -24,4 +35,4 @@ pages: 375-387
 doi: 10.1111/joim.12496
 pmid: '26992108'
 url: https://pubmed.ncbi.nlm.nih.gov/26992108/
-summary: ''
+summary: 'Prospective cohort study of 29,518 Swedish women aged 25-64 followed for 20 years examining sun exposure habits and mortality. Found that women who avoided sun exposure had 0.6-2.1 years shorter life expectancy, with nonsmokers who avoided sun having similar mortality to smokers in the highest sun exposure group. Reduced mortality was primarily due to lower cardiovascular and non-cancer deaths.'

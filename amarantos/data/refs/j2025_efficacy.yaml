@@ -19,7 +19,18 @@ keywords:
 - supplement
 - supplementation
 - systematic review
-hard_claims: []
+hard_claims:
+- summary: "NMN supplementation does not significantly improve glucose or lipid metabolism outcomes"
+  choice: nmn
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "glucose and lipid metabolism"
+  population: "general adult population"
+  sample_size: 513
+  followup_years: null
+  notes: "12 RCTs; NMN elevated blood NAD levels but no significant effects on fasting glucose, triglycerides, or cholesterol; high risk of bias in many studies"
 soft_claims: []
 journal: Crit Rev Food Sci Nutr
 volume: '65'
@@ -28,4 +39,4 @@ pages: 4382-4400
 doi: ''
 pmid: '39116016'
 url: https://pubmed.ncbi.nlm.nih.gov/39116016/
-summary: ''
+summary: 'Systematic review and meta-analysis of 12 RCTs involving 513 adults examining NMN supplementation effects on glucose and lipid metabolism. While NMN successfully elevated blood NAD levels, no significant improvements were found in fasting glucose, triglycerides, total cholesterol, LDL, or HDL. Authors caution about potential exaggeration of NMN benefits in the field.'

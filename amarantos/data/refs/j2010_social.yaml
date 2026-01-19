@@ -12,7 +12,29 @@ keywords:
 - mortality
 - meta-analysis
 - loneliness
-hard_claims: []
+hard_claims:
+- summary: "Strong social relationships associated with 50% increased likelihood of survival"
+  choice: strong_social_connections
+  evidence_type: Meta-analysis
+  effect_size: 1.50
+  effect_ci_lower: 1.42
+  effect_ci_upper: 1.59
+  outcome: "survival (odds ratio)"
+  population: "general adult population"
+  sample_size: 308849
+  followup_years: null
+  notes: "148 studies; effect consistent across age, sex, initial health status, cause of death, and follow-up period"
+- summary: "Complex social integration measures show strongest association with survival"
+  choice: strong_social_connections
+  evidence_type: Meta-analysis
+  effect_size: 1.91
+  effect_ci_lower: 1.63
+  effect_ci_upper: 2.23
+  outcome: "survival (odds ratio)"
+  population: "general adult population"
+  sample_size: 308849
+  followup_years: null
+  notes: "148 studies; complex measures vs binary living situation indicators"
 soft_claims: []
 journal: PLoS Med
 volume: '7'
@@ -21,4 +43,4 @@ pages: e1000316
 doi: ''
 pmid: '20668659'
 url: https://pubmed.ncbi.nlm.nih.gov/20668659/
-summary: ''
+summary: 'Meta-analysis of 148 studies involving 308,849 participants examining social relationships and mortality. Found 50% increased survival likelihood for those with strong social relationships (OR 1.50). Effect was comparable to well-established mortality risk factors and consistent across age, sex, initial health status, and cause of death.'

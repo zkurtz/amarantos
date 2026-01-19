@@ -23,7 +23,11 @@ keywords:
 - sources
 - uncertainty
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Study identifies carbon turnover processes as explaining ~70% of model spread in vegetation and soil carbon changes, with rising CO2 and nitrogen deposition increasing carbon storage"
+  choice: none
+  source_type: "research article"
+  notes: "This study is about climate science and land carbon sinks, not a health intervention. It does not relate to any longevity or health intervention choice."
 journal: Nat Commun
 volume: '13'
 issue: '1'
@@ -31,4 +35,4 @@ pages: '4781'
 doi: ''
 pmid: '35970991'
 url: https://pubmed.ncbi.nlm.nih.gov/35970991/
-summary: ''
+summary: "Environmental science study examining uncertainty in climate models regarding land carbon sink. Found that differences in carbon turnover explain approximately 70% of model disagreement in vegetation and soil carbon changes. Not related to health or longevity interventions."

@@ -15,7 +15,29 @@ keywords:
 - glucose
 - cardiovascular
 - observational
-hard_claims: []
+hard_claims:
+- summary: "Metformin-treated diabetics had longer survival than matched non-diabetic controls"
+  choice: metformin
+  evidence_type: Prospective cohort study
+  effect_size: 0.85
+  effect_ci_lower: 0.81
+  effect_ci_upper: 0.90
+  outcome: "all-cause mortality"
+  population: "type 2 diabetics vs non-diabetic controls"
+  sample_size: 78241
+  followup_years: 5.0
+  notes: "UK CPRD data; survival time ratio comparing non-diabetics to metformin users (non-diabetics had 15% shorter median survival)"
+- summary: "Sulphonylurea-treated diabetics had markedly shorter survival than metformin-treated diabetics"
+  choice: metformin
+  evidence_type: Prospective cohort study
+  effect_size: 0.62
+  effect_ci_lower: 0.58
+  effect_ci_upper: 0.66
+  outcome: "all-cause mortality"
+  population: "type 2 diabetics on sulphonylurea vs metformin"
+  sample_size: 90463
+  followup_years: 5.0
+  notes: "UK CPRD data; survival time ratio - sulphonylurea users had 38% shorter median survival than metformin users; 7498 total deaths over 503,384 person-years"
 soft_claims: []
 journal: Diabetes Obesity and Metabolism
 volume: '16'
@@ -24,4 +46,4 @@ pages: 1165-1173
 doi: 10.1111/dom.12354
 pmid: '25041462'
 url: https://pubmed.ncbi.nlm.nih.gov/25041462/
-summary: ''
+summary: "Retrospective observational study using UK Clinical Practice Research Datalink comparing 78,241 metformin-treated and 12,222 sulphonylurea-treated type 2 diabetics with 90,463 matched non-diabetic controls. Remarkably, metformin-treated diabetics had longer survival than non-diabetics (15% longer), while sulphonylurea users had 38% shorter survival than metformin users. Supports metformin as first-line therapy and raises questions about potential longevity benefits beyond glycemic control."

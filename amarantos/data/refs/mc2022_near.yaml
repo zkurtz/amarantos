@@ -26,7 +26,18 @@ keywords:
 - related
 - sleep
 - subjects
-hard_claims: []
+hard_claims:
+- summary: "High-dose near-infrared light (850nm, 6.5 J/cm2) improved mood and reduced drowsiness in winter months"
+  choice: red_light_therapy
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "mood and drowsiness"
+  population: "adults with mild sleep-related complaints"
+  sample_size: 56
+  followup_years: 0.08
+  notes: "Double-blind, placebo-controlled; 4 weeks of morning exposure; benefits only observed in winter, not summer; also reduced IFN-gamma and resting heart rate"
 soft_claims: []
 journal: Biology (Basel)
 volume: '12'
@@ -35,4 +46,4 @@ pages: '60'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9855677/
-summary: ''
+summary: "Double-blind RCT of 56 adults (ages 25-64) with mild sleep complaints testing 850nm near-infrared light at various doses over 4 weeks. High dose (6.5 J/cm2) improved mood, reduced drowsiness, lowered IFN-gamma cytokine levels, and reduced resting heart rate, but only during winter months. No effects on sleep quality or circadian rhythms."

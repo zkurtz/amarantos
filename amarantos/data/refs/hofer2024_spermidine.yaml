@@ -20,7 +20,18 @@ keywords:
 - longevity
 - mediated
 - spermidine
-hard_claims: []
+hard_claims:
+- summary: "Spermidine is required for fasting-induced autophagy and lifespan extension"
+  choice: spermidine
+  evidence_type: Mechanistic/first-principles
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "autophagy and lifespan"
+  population: "yeast, nematodes, flies, mice, humans"
+  sample_size: null
+  followup_years: null
+  notes: "Blocking spermidine synthesis eliminated fasting benefits; spermidine levels increased during fasting in 4 human cohorts; mechanism involves eIF5A hypusination"
 soft_claims: []
 journal: Nature Cell Biology
 volume: '26'
@@ -29,4 +40,4 @@ pages: 1571-1584
 doi: 10.1038/s41556-024-01468-x
 pmid: ''
 url: https://www.nature.com/articles/s41556-024-01468-x
-summary: ''
+summary: 'Mechanistic study demonstrating that spermidine is essential for fasting-mediated autophagy and longevity across multiple species. Found that spermidine levels increase during fasting in yeast, flies, mice, and humans. Genetic or pharmacological blockade of spermidine synthesis eliminated the lifespan-extending, cardioprotective, and anti-arthritic effects of fasting. Mechanism operates through eIF5A hypusination.'

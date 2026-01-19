@@ -15,7 +15,51 @@ keywords:
 - walnuts
 - CHD
 - CVD
-hard_claims: []
+hard_claims:
+- summary: "Nut consumption associated with 19% reduced risk of all-cause mortality"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.81
+  effect_ci_lower: 0.77
+  effect_ci_upper: 0.85
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 467389
+  followup_years: null
+  notes: "10 prospective cohort studies"
+- summary: "Nut consumption associated with 27% reduced risk of CVD mortality"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.73
+  effect_ci_lower: 0.68
+  effect_ci_upper: 0.78
+  outcome: "cardiovascular disease mortality"
+  population: "general adult population"
+  sample_size: 467389
+  followup_years: null
+  notes: "5 prospective cohort studies"
+- summary: "Nut consumption associated with 30% reduced risk of CHD mortality"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.70
+  effect_ci_lower: 0.64
+  effect_ci_upper: 0.76
+  outcome: "coronary heart disease mortality"
+  population: "general adult population"
+  sample_size: 467389
+  followup_years: null
+  notes: "7 prospective cohort studies"
+- summary: "Nut consumption associated with 34% reduced risk of total CHD"
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.66
+  effect_ci_lower: 0.48
+  effect_ci_upper: 0.91
+  outcome: "total coronary heart disease"
+  population: "general adult population"
+  sample_size: 467389
+  followup_years: null
+  notes: "3 prospective cohort studies; wide CI reflects heterogeneity"
 soft_claims: []
 journal: British Journal of Nutrition
 volume: '115'
@@ -24,4 +68,4 @@ pages: 212-225
 doi: 10.1017/S0007114515004316
 pmid: '26548503'
 url: https://pubmed.ncbi.nlm.nih.gov/26548503/
-summary: ''
+summary: "Systematic review and meta-analysis of 20 prospective cohort studies (467,389 participants) examining nut consumption and cardiovascular outcomes. Found nut consumption significantly associated with reduced all-cause mortality (19%), CVD mortality (27%), CHD mortality (30%), total CHD (34%), and sudden cardiac death. No significant association with stroke."

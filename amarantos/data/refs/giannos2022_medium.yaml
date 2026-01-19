@@ -25,7 +25,11 @@ keywords:
 - systematic review
 - triglycerides
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "MCT supplementation may enhance working memory in non-demented older adults, with effects more prominent in individuals with lower baseline cognitive scores"
+  choice: mct_oil
+  source_type: "review"
+  notes: "6 RCTs included; MCTs induce nutritional ketosis which may provide neuroprotection; further studies needed on optimal dose and composition"
 journal: BMC Geriatrics
 volume: '22'
 issue: '1'
@@ -33,4 +37,4 @@ pages: ''
 doi: 10.1186/s12877-022-03521-6
 pmid: ''
 url: https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-022-03521-6
-summary: ''
+summary: 'Systematic review of 6 RCTs examining medium-chain triglyceride supplementation and memory in non-demented older adults. Found MCT supplementation may enhance working memory, with effects more prominent in individuals with lower baseline scores. MCTs induce nutritional ketosis which may provide neuroprotection. Further studies needed to confirm optimal dose and composition.'

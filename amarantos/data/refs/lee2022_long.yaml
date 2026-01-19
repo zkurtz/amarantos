@@ -24,7 +24,29 @@ keywords:
 - physical activity
 - prospective
 - specific
-hard_claims: []
+hard_claims:
+- summary: "Meeting vigorous physical activity guidelines (75-149 min/wk) was associated with 19% lower all-cause mortality"
+  choice: vigorous_physical_activity
+  evidence_type: Prospective cohort study
+  effect_size: 0.81
+  effect_ci_lower: 0.76
+  effect_ci_upper: 0.87
+  outcome: "all-cause mortality"
+  population: "US adults"
+  sample_size: 116221
+  followup_years: 30.0
+  notes: "Nurses' Health Study and Health Professionals Follow-up Study; 47,596 deaths during follow-up"
+- summary: "Vigorous physical activity of 75-149 min/wk associated with 31% lower CVD mortality"
+  choice: vigorous_physical_activity
+  evidence_type: Prospective cohort study
+  effect_size: 0.69
+  effect_ci_lower: 0.60
+  effect_ci_upper: 0.78
+  outcome: "cardiovascular mortality"
+  population: "US adults"
+  sample_size: 116221
+  followup_years: 30.0
+  notes: "Combined analysis of two large prospective cohorts"
 soft_claims: []
 journal: Circulation
 volume: '146'
@@ -33,4 +55,4 @@ pages: 523-534
 doi: 10.1161/CIRCULATIONAHA.121.058162
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058162
-summary: ''
+summary: 'Prospective cohort analysis of 116,221 US adults from the Nurses Health Study and Health Professionals Follow-up Study with 30 years of follow-up. Found that meeting physical activity guidelines through either vigorous (75-149 min/wk) or moderate (150-299 min/wk) activity was associated with 19-25% lower all-cause mortality and even greater reductions in cardiovascular mortality.'

@@ -24,7 +24,11 @@ keywords:
 - pancreatic
 - suppressing
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Corrigendum to original study showing brusatol inhibits pancreatic cancer cell invasion and migration via NRF2/NF-kB/STAT3 suppression"
+  choice: brusatol
+  source_type: "review"
+  notes: "Correction to original 2022 study; brusatol is a natural compound that may enhance chemotherapy efficacy by inhibiting Nrf2 pathway"
 journal: Journal of Functional Foods
 volume: '116'
 issue: ''
@@ -32,4 +36,4 @@ pages: '106128'
 doi: 10.1016/j.jff.2024.106128
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S1098882324001011
-summary: ''
+summary: 'Corrigendum to original 2022 study on brusatol, a natural compound that inhibits pancreatic cancer cell invasion and migration by suppressing the NRF2/NF-kB/STAT3 signaling cascade. The original research demonstrated brusatol may enhance chemotherapy efficacy by targeting the Nrf2 pathway in pancreatic cancer cells.'

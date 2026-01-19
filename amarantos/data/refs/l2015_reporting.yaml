@@ -20,12 +20,16 @@ keywords:
 - research
 - reviews
 hard_claims: []
-soft_claims: []
+soft_claims:
+- summary: "Methodological assessment of Cochrane reviews on health policy, not relevant to longevity interventions"
+  choice: other
+  source_type: "review"
+  notes: "Examined 99 Cochrane reviews on health policy research. Found 39% conducted meta-analysis, none rated low quality. Study focused on research methodology, not health outcomes."
 journal: Health Policy
 volume: '119'
 issue: '4'
 pages: 503-10
-doi: ''
+doi: '10.1016/j.healthpol.2014.08.011'
 pmid: '25260911'
 url: https://pubmed.ncbi.nlm.nih.gov/25260911/
-summary: ''
+summary: "Systematic review examining 99 Cochrane reviews focused on health policy research, evaluating reporting characteristics and methodological quality using AMSTAR standards. Found 39% conducted meta-analysis, 49% were updates, and none received low quality ratings. Identified gaps in evidence for financial and governance arrangements. Not relevant to longevity interventions."

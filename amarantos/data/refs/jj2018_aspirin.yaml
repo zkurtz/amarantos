@@ -20,13 +20,35 @@ keywords:
 - elderly
 - healthy
 - survival
-hard_claims: []
+hard_claims:
+- summary: "Low-dose aspirin did not prolong disability-free survival in healthy elderly"
+  choice: low_dose_aspirin
+  evidence_type: Randomized controlled trial
+  effect_size: 1.01
+  effect_ci_lower: 0.92
+  effect_ci_upper: 1.11
+  outcome: "disability-free survival (death, dementia, or persistent physical disability)"
+  population: "healthy community-dwelling adults aged 70+ (median 74 years)"
+  sample_size: 19114
+  followup_years: 4.7
+  notes: "ASPREE trial. 100mg aspirin daily vs placebo. Primary composite endpoint showed no benefit."
+- summary: "Low-dose aspirin increased major hemorrhage risk in healthy elderly"
+  choice: low_dose_aspirin
+  evidence_type: Randomized controlled trial
+  effect_size: 1.38
+  effect_ci_lower: 1.18
+  effect_ci_upper: 1.62
+  outcome: "major hemorrhage"
+  population: "healthy community-dwelling adults aged 70+ (median 74 years)"
+  sample_size: 19114
+  followup_years: 4.7
+  notes: "ASPREE trial. 3.8% vs 2.8% major hemorrhage rates."
 soft_claims: []
 journal: N Engl J Med
 volume: '379'
 issue: '16'
 pages: 1499-1508
-doi: ''
+doi: '10.1056/NEJMoa1800722'
 pmid: '30221596'
 url: https://pubmed.ncbi.nlm.nih.gov/30221596/
-summary: ''
+summary: "ASPREE randomized controlled trial of 19,114 healthy community-dwelling adults aged 70+ (median 74 years, 56.4% women) comparing 100mg daily aspirin vs placebo over median 4.7 years. Found no benefit for disability-free survival (HR 1.01, 95% CI 0.92-1.11) but significantly increased major hemorrhage (HR 1.38, 95% CI 1.18-1.62)."

@@ -11,7 +11,18 @@ keywords:
 - exercise
 - nonexercise
 - thermogenesis
-hard_claims: []
+hard_claims:
+- summary: "NEAT (non-exercise activity thermogenesis) can vary by up to 2000 kcal/day between individuals and is a major factor in weight regulation"
+  choice: neat
+  evidence_type: Mechanistic/first-principles
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "daily energy expenditure"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Review of NEAT physiology; NEAT includes all non-exercise activities like fidgeting, standing, walking, and maintaining posture"
 soft_claims: []
 journal: American Journal of Physiology-Endocrinology and Metabolism
 volume: '286'
@@ -20,4 +31,4 @@ pages: E675-E685
 doi: 10.1152/ajpendo.00562.2003
 pmid: ''
 url: https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003
-summary: ''
+summary: 'Review article examining non-exercise activity thermogenesis (NEAT) and its role in energy balance and obesity. NEAT encompasses all energy expenditure from non-exercise activities including fidgeting, standing, walking, and posture maintenance. Inter-individual variation in NEAT can reach 2000 kcal/day and appears to be biologically determined, playing a major role in weight regulation and resistance to obesity.'

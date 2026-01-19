@@ -24,7 +24,40 @@ keywords:
 - systematic review
 - trials
 - zingiber
-hard_claims: []
+hard_claims:
+- summary: "Ginger supplementation significantly reduced circulating CRP levels"
+  choice: ginger
+  evidence_type: Meta-analysis
+  effect_size: -5.11
+  effect_ci_lower: -7.91
+  effect_ci_upper: -2.30
+  outcome: "CRP (C-reactive protein)"
+  population: "adults"
+  sample_size: 1010
+  followup_years: null
+  notes: "Meta-analysis of 16 RCTs; SMD = -5.11"
+- summary: "Ginger supplementation significantly reduced hs-CRP levels"
+  choice: ginger
+  evidence_type: Meta-analysis
+  effect_size: -0.88
+  effect_ci_lower: -1.63
+  effect_ci_upper: -0.12
+  outcome: "hs-CRP (high-sensitivity CRP)"
+  population: "adults"
+  sample_size: 1010
+  followup_years: null
+  notes: "Meta-analysis of 16 RCTs"
+- summary: "Ginger supplementation significantly reduced TNF-alpha levels"
+  choice: ginger
+  evidence_type: Meta-analysis
+  effect_size: -0.85
+  effect_ci_lower: -1.48
+  effect_ci_upper: -0.21
+  outcome: "TNF-alpha"
+  population: "adults"
+  sample_size: 1010
+  followup_years: null
+  notes: "Meta-analysis of 16 RCTs"
 soft_claims: []
 journal: Cytokine
 volume: '135'
@@ -33,4 +66,4 @@ pages: '155224'
 doi: ''
 pmid: '32763761'
 url: https://pubmed.ncbi.nlm.nih.gov/32763761/
-summary: ''
+summary: 'Systematic review and meta-analysis of 16 RCTs including 1,010 participants examining ginger supplementation effects on inflammatory markers. Found significant reductions in CRP (SMD = -5.11), hs-CRP (SMD = -0.88), and TNF-alpha (SMD = -0.85). No significant effects on IL-6 or sICAM levels.'

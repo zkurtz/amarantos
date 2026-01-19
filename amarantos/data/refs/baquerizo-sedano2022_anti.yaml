@@ -21,7 +21,18 @@ keywords:
 - sleep
 - threaten
 - weight
-hard_claims: []
+hard_claims:
+- summary: "COVID-19 confinement associated with significant increases in BMI and shift toward evening chronotype"
+  choice: circadian_rhythm
+  evidence_type: Cross-sectional study
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "body weight gain"
+  population: "university students aged 16-35"
+  sample_size: 521
+  followup_years: 0.23
+  notes: "12-week confinement period; observed reduced sunlight exposure, sleep duration, delayed meal timing, increased sedentarism and screen time"
 soft_claims: []
 journal: Clinical Nutrition
 volume: '41'
@@ -30,4 +41,4 @@ pages: 2988-2995
 doi: 10.1016/j.clnu.2021.06.019
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198
-summary: ''
+summary: "Cross-sectional study of 521 university students (16-35 years) examining effects of 12-week COVID-19 confinement on circadian rhythm synchronizers and body weight. Found reduced sunlight exposure and sleep duration, increased sedentarism and screen exposure, delayed meal and sleep timing, significant BMI increases, and shift toward evening chronotype. Demonstrates association between disrupted external circadian synchronizers and weight gain."

@@ -16,7 +16,29 @@ keywords:
 - wellbeing
 - supplements
 - meta-analysis
-hard_claims: []
+hard_claims:
+- summary: Ashwagandha supplementation significantly reduces anxiety symptoms
+  choice: ashwagandha
+  evidence_type: Meta-analysis
+  effect_size: -1.55
+  effect_ci_lower: -2.37
+  effect_ci_upper: -0.74
+  outcome: anxiety (standardized mean difference)
+  population: adults aged 25-48
+  sample_size: 1002
+  followup_years: null
+  notes: 12 RCTs; high heterogeneity (I²=93.8%); low certainty evidence
+- summary: Ashwagandha supplementation significantly reduces stress levels
+  choice: ashwagandha
+  evidence_type: Meta-analysis
+  effect_size: -1.75
+  effect_ci_lower: -2.29
+  effect_ci_upper: -1.22
+  outcome: stress (standardized mean difference)
+  population: adults aged 25-48
+  sample_size: 1002
+  followup_years: null
+  notes: 12 RCTs; high heterogeneity (I²=83.1%); optimal dose 300-600mg/day
 soft_claims: []
 journal: Phytotherapy Research
 volume: '36'
@@ -25,4 +47,7 @@ pages: 4115-4124
 doi: 10.1002/ptr.7598
 pmid: '36017529'
 url: https://pubmed.ncbi.nlm.nih.gov/36017529/
-summary: ''
+summary: Systematic review and meta-analysis of 12 RCTs with 1,002 participants examining
+  ashwagandha supplementation for anxiety and stress. Found significant reductions
+  in both outcomes compared to placebo, with optimal dosing at 300-600mg/day for
+  stress reduction. Evidence certainty rated as low due to high heterogeneity.

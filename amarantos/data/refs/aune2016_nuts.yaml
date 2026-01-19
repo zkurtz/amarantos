@@ -18,7 +18,40 @@ keywords:
 - longevity
 - CHD
 - CVD
-hard_claims: []
+hard_claims:
+- summary: 28g/day nut intake associated with 22% lower all-cause mortality
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.78
+  effect_ci_lower: 0.72
+  effect_ci_upper: 0.84
+  outcome: all-cause mortality
+  population: general adult population
+  sample_size: null
+  followup_years: null
+  notes: Dose-response meta-analysis of 20 prospective studies
+- summary: 28g/day nut intake associated with 29% lower coronary heart disease risk
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.71
+  effect_ci_lower: 0.63
+  effect_ci_upper: 0.80
+  outcome: coronary heart disease
+  population: general adult population
+  sample_size: null
+  followup_years: null
+  notes: ''
+- summary: 28g/day nut intake associated with 21% lower cardiovascular disease risk
+  choice: nuts
+  evidence_type: Meta-analysis
+  effect_size: 0.79
+  effect_ci_lower: 0.70
+  effect_ci_upper: 0.88
+  outcome: cardiovascular disease
+  population: general adult population
+  sample_size: null
+  followup_years: null
+  notes: ''
 soft_claims: []
 journal: BMC Medicine
 volume: '14'
@@ -27,4 +60,7 @@ pages: '207'
 doi: 10.1186/s12916-016-0730-3
 pmid: '27916000'
 url: https://pubmed.ncbi.nlm.nih.gov/27916000/
-summary: ''
+summary: Systematic review and dose-response meta-analysis of 20 prospective studies
+  examining nut consumption and health outcomes. Found that higher nut intake is associated
+  with reduced risk of cardiovascular disease, cancer, and all-cause mortality, with
+  benefits seen at approximately 28g (one serving) per day.

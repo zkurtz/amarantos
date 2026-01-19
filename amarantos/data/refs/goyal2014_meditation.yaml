@@ -15,7 +15,40 @@ keywords:
 - wellbeing
 - mental health
 - meta-analysis
-hard_claims: []
+hard_claims:
+- summary: Mindfulness meditation shows moderate improvement in anxiety at 8 weeks
+  choice: meditation
+  evidence_type: Meta-analysis
+  effect_size: 0.38
+  effect_ci_lower: 0.12
+  effect_ci_upper: 0.64
+  outcome: anxiety (Cohen's d)
+  population: adults with psychological stress
+  sample_size: 3515
+  followup_years: null
+  notes: 47 RCTs; effect sustained at 3-6 months (d=0.22)
+- summary: Mindfulness meditation shows moderate improvement in depression at 8 weeks
+  choice: meditation
+  evidence_type: Meta-analysis
+  effect_size: 0.30
+  effect_ci_lower: 0.00
+  effect_ci_upper: 0.59
+  outcome: depression (Cohen's d)
+  population: adults with psychological stress
+  sample_size: 3515
+  followup_years: null
+  notes: 47 RCTs; effect sustained at 3-6 months (d=0.23)
+- summary: Mindfulness meditation shows moderate improvement in pain
+  choice: meditation
+  evidence_type: Meta-analysis
+  effect_size: 0.33
+  effect_ci_lower: 0.03
+  effect_ci_upper: 0.62
+  outcome: pain (Cohen's d)
+  population: adults with psychological stress
+  sample_size: 3515
+  followup_years: null
+  notes: Not superior to active treatments like drugs or behavioral therapy
 soft_claims: []
 journal: JAMA Internal Medicine
 volume: '174'
@@ -24,4 +57,7 @@ pages: 357-368
 doi: 10.1001/jamainternmed.2013.13018
 pmid: '24395196'
 url: https://pubmed.ncbi.nlm.nih.gov/24395196/
-summary: ''
+summary: Johns Hopkins meta-analysis of 47 RCTs with 3,515 participants examining
+  meditation for psychological stress. Found moderate evidence that mindfulness
+  meditation improves anxiety, depression, and pain. However, meditation was not
+  superior to active treatments like medication or behavioral therapies.

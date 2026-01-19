@@ -18,10 +18,14 @@ keywords:
 - research
 hard_claims: []
 soft_claims:
-- summary: "Network approach conceptualizes mental disorders as causal systems of mutually reinforcing symptoms rather than discrete diagnostic entities"
+- summary: Network approach conceptualizes mental disorders as causal systems of mutually
+    reinforcing symptoms rather than discrete diagnostic entities
   choice: network_psychopathology
-  source_type: "review"
-  notes: "Comprehensive review of 363 articles from 2008-2018; proposes that disorders emerge when symptom networks become highly interconnected, creating stable states of elevated symptom activation; calls for identifying robust empirical phenomena and developing formal theories"
+  source_type: review
+  notes: Comprehensive review of 363 articles from 2008-2018; proposes that disorders
+    emerge when symptom networks become highly interconnected, creating stable states
+    of elevated symptom activation; calls for identifying robust empirical phenomena
+    and developing formal theories
 journal: Psychol Med
 volume: '50'
 issue: '3'
@@ -29,4 +33,10 @@ pages: 353-366
 doi: ''
 pmid: '31875792'
 url: https://pubmed.ncbi.nlm.nih.gov/31875792/
-summary: 'Comprehensive systematic literature review of 363 articles (2008-2018) on the network approach to psychopathology. This framework conceptualizes mental disorders as causal systems of mutually reinforcing symptoms rather than discrete entities. Disorders emerge when symptom networks become highly interconnected, creating stable states of symptom activation. Reviews applications in PTSD, depression, and anxiety research. Calls for bridging temporal scales and clarifying within-person vs between-person network structures.'
+summary: Comprehensive systematic literature review of 363 articles (2008-2018) on
+  the network approach to psychopathology. This framework conceptualizes mental disorders
+  as causal systems of mutually reinforcing symptoms rather than discrete entities.
+  Disorders emerge when symptom networks become highly interconnected, creating stable
+  states of symptom activation. Reviews applications in PTSD, depression, and anxiety
+  research. Calls for bridging temporal scales and clarifying within-person vs between-person
+  network structures.

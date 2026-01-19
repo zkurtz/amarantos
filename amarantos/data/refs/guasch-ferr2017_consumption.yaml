@@ -20,39 +20,36 @@ keywords:
 - diet
 - cohort
 hard_claims:
-- summary: "Total nut consumption (5+ servings/week vs never) associated with 14% lower risk of total cardiovascular disease"
+- summary: Total nut consumption (5+ servings/week vs never) associated with 14% lower
+    risk of total cardiovascular disease
   choice: nuts
   evidence_type: Prospective cohort study
-  effect_size: 0.86
-  effect_ci_lower: 0.79
-  effect_ci_upper: 0.93
-  outcome: "total cardiovascular disease"
-  population: "US health professionals"
+  effects:
+  - outcome: total cardiovascular disease
+    mean: 0.86
+    std: 0.03571428571428572
+  population: US health professionals
   sample_size: 210836
-  followup_years: null
-  notes: "NHS, NHSII, HPFS cohorts; 5,063,439 person-years follow-up; 14,136 CVD cases"
-- summary: "Total nut consumption (5+ servings/week vs never) associated with 20% lower risk of coronary heart disease"
+  notes: NHS, NHSII, HPFS cohorts; 5,063,439 person-years follow-up; 14,136 CVD cases
+- summary: Total nut consumption (5+ servings/week vs never) associated with 20% lower
+    risk of coronary heart disease
   choice: nuts
   evidence_type: Prospective cohort study
-  effect_size: 0.80
-  effect_ci_lower: 0.72
-  effect_ci_upper: 0.89
-  outcome: "coronary heart disease"
-  population: "US health professionals"
+  effects:
+  - outcome: coronary heart disease
+    mean: 0.8
+    std: 0.043367346938775524
+  population: US health professionals
   sample_size: 210836
-  followup_years: null
-  notes: "NHS, NHSII, HPFS cohorts; 8,390 CHD cases"
-- summary: "Walnut consumption (1+ times/week) associated with 13-19% lower risk of total cardiovascular disease"
+  notes: NHS, NHSII, HPFS cohorts; 8,390 CHD cases
+- summary: Walnut consumption (1+ times/week) associated with 13-19% lower risk of
+    total cardiovascular disease
   choice: walnuts
   evidence_type: Prospective cohort study
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "total cardiovascular disease"
-  population: "US health professionals"
+  effects: []
+  population: US health professionals
   sample_size: 210836
-  followup_years: null
-  notes: "NHS, NHSII, HPFS cohorts; also 15-23% lower CHD risk with walnut consumption"
+  notes: NHS, NHSII, HPFS cohorts; also 15-23% lower CHD risk with walnut consumption
 soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '70'
@@ -61,4 +58,8 @@ pages: 2519-2532
 doi: 10.1016/j.jacc.2017.09.035
 pmid: ''
 url: https://www.jacc.org/doi/10.1016/j.jacc.2017.09.035
-summary: 'Prospective cohort study of 210,836 participants from NHS, NHSII, and HPFS with over 5 million person-years follow-up. Found total nut consumption (5+ servings/week vs never) associated with 14% lower CVD risk (HR 0.86) and 20% lower CHD risk (HR 0.80). Walnut consumption (1+ times/week) was associated with 13-19% lower CVD and 15-23% lower CHD risk.'
+summary: Prospective cohort study of 210,836 participants from NHS, NHSII, and HPFS
+  with over 5 million person-years follow-up. Found total nut consumption (5+ servings/week
+  vs never) associated with 14% lower CVD risk (HR 0.86) and 20% lower CHD risk (HR
+  0.80). Walnut consumption (1+ times/week) was associated with 13-19% lower CVD and
+  15-23% lower CHD risk.

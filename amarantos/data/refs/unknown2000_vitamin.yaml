@@ -11,17 +11,19 @@ keywords:
 - supplementation
 - vitamin
 hard_claims:
-- summary: "Vitamin E supplementation (400 IU daily) showed no effect on cardiovascular outcomes in high-risk patients"
+- summary: Vitamin E supplementation (400 IU daily) showed no effect on cardiovascular
+    outcomes in high-risk patients
   choice: vitamin_e
   evidence_type: Randomized controlled trial
-  effect_size: 1.05
-  effect_ci_lower: 0.95
-  effect_ci_upper: 1.16
-  outcome: "composite cardiovascular events (MI, stroke, CV death)"
-  population: "high-risk patients with cardiovascular disease or diabetes"
+  effects:
+  - outcome: composite cardiovascular events (MI, stroke, CV death)
+    mean: 1.05
+    std: 0.05357142857142856
+  population: high-risk patients with cardiovascular disease or diabetes
   sample_size: 9541
   followup_years: 4.5
-  notes: "HOPE Study; 16.2% events in vitamin E group vs 15.5% in placebo; no benefit found"
+  notes: HOPE Study; 16.2% events in vitamin E group vs 15.5% in placebo; no benefit
+    found
 soft_claims: []
 journal: New England Journal of Medicine
 volume: '342'
@@ -30,4 +32,9 @@ pages: 154-160
 doi: 10.1056/NEJM200001203420302
 pmid: ''
 url: https://www.nejm.org/doi/full/10.1056/NEJM200001203420302
-summary: "HOPE Study randomized controlled trial of 9,541 high-risk patients (age 55+ with cardiovascular disease or diabetes plus one risk factor) randomized to 400 IU vitamin E daily or placebo for 4.5 years. Found no significant difference in primary composite outcome of MI, stroke, and CV death (16.2% vs 15.5%, RR 1.05). Vitamin E had no apparent effect on cardiovascular outcomes, contradicting earlier observational studies suggesting benefit."
+summary: HOPE Study randomized controlled trial of 9,541 high-risk patients (age 55+
+  with cardiovascular disease or diabetes plus one risk factor) randomized to 400
+  IU vitamin E daily or placebo for 4.5 years. Found no significant difference in
+  primary composite outcome of MI, stroke, and CV death (16.2% vs 15.5%, RR 1.05).
+  Vitamin E had no apparent effect on cardiovascular outcomes, contradicting earlier
+  observational studies suggesting benefit.

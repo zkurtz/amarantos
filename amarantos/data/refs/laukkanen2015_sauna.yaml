@@ -1,6 +1,6 @@
 id: laukkanen2015_sauna
-title: Association between sauna bathing and fatal cardiovascular and all-cause
-  mortality events
+title: Association between sauna bathing and fatal cardiovascular and all-cause mortality
+  events
 authors:
 - Laukkanen T
 - Khan H
@@ -18,28 +18,30 @@ keywords:
 - longevity
 - heat shock proteins
 hard_claims:
-- summary: "Men with 4-7 sauna sessions per week had significantly reduced risk of sudden cardiac death compared to those with 1 session per week"
+- summary: Men with 4-7 sauna sessions per week had significantly reduced risk of
+    sudden cardiac death compared to those with 1 session per week
   choice: finnish_sauna
   evidence_type: Prospective cohort study
-  effect_size: 0.37
-  effect_ci_lower: 0.18
-  effect_ci_upper: 0.75
-  outcome: "sudden cardiac death"
-  population: "middle-aged Finnish men"
+  effects:
+  - outcome: sudden cardiac death
+    mean: 0.37
+    std: 0.14540816326530615
+  population: middle-aged Finnish men
   sample_size: 2315
   followup_years: 20.7
-  notes: "Kuopio Ischemic Heart Disease Risk Factor Study; men aged 42-60 at baseline"
-- summary: "Sauna sessions lasting over 19 minutes had reduced risk of sudden cardiac death compared to sessions under 11 minutes"
+  notes: Kuopio Ischemic Heart Disease Risk Factor Study; men aged 42-60 at baseline
+- summary: Sauna sessions lasting over 19 minutes had reduced risk of sudden cardiac
+    death compared to sessions under 11 minutes
   choice: finnish_sauna
   evidence_type: Prospective cohort study
-  effect_size: 0.48
-  effect_ci_lower: 0.31
-  effect_ci_upper: 0.75
-  outcome: "sudden cardiac death"
-  population: "middle-aged Finnish men"
+  effects:
+  - outcome: sudden cardiac death
+    mean: 0.48
+    std: 0.11224489795918367
+  population: middle-aged Finnish men
   sample_size: 2315
   followup_years: 20.7
-  notes: "Duration-dependent effect; traditional Finnish sauna at 80-100C"
+  notes: Duration-dependent effect; traditional Finnish sauna at 80-100C
 soft_claims: []
 journal: JAMA Internal Medicine
 volume: '175'
@@ -48,4 +50,9 @@ pages: 542-548
 doi: 10.1001/jamainternmed.2014.8187
 pmid: '25705824'
 url: https://pubmed.ncbi.nlm.nih.gov/25705824/
-summary: 'Prospective cohort study of 2,315 middle-aged Finnish men followed for a median of 20.7 years examining the association between sauna bathing frequency/duration and cardiovascular mortality. Found that increased frequency (4-7 sessions/week vs 1/week) and longer duration (>19 min vs <11 min) of sauna bathing were associated with substantially reduced risks of sudden cardiac death, fatal coronary heart disease, and all-cause mortality.'
+summary: Prospective cohort study of 2,315 middle-aged Finnish men followed for a
+  median of 20.7 years examining the association between sauna bathing frequency/duration
+  and cardiovascular mortality. Found that increased frequency (4-7 sessions/week
+  vs 1/week) and longer duration (>19 min vs <11 min) of sauna bathing were associated
+  with substantially reduced risks of sudden cardiac death, fatal coronary heart disease,
+  and all-cause mortality.

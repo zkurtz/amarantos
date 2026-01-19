@@ -19,10 +19,10 @@ hard_claims:
 - summary: Mediterranean diet with olive oil reduced cardiovascular events by 31%
   choice: mediterranean_diet
   evidence_type: Randomized controlled trial
-  effect_size: 0.69
-  effect_ci_lower: 0.53
-  effect_ci_upper: 0.91
-  outcome: major cardiovascular events
+  effects:
+  - outcome: major cardiovascular events
+    mean: 0.69
+    std: 0.09693877551020408
   population: adults at high cardiovascular risk
   sample_size: 7447
   followup_years: 4.8
@@ -30,10 +30,10 @@ hard_claims:
 - summary: Mediterranean diet with nuts reduced cardiovascular events by 28%
   choice: mediterranean_diet
   evidence_type: Randomized controlled trial
-  effect_size: 0.72
-  effect_ci_lower: 0.54
-  effect_ci_upper: 0.95
-  outcome: major cardiovascular events
+  effects:
+  - outcome: major cardiovascular events
+    mean: 0.72
+    std: 0.10459183673469385
   population: adults at high cardiovascular risk
   sample_size: 7447
   followup_years: 4.8
@@ -48,5 +48,5 @@ pmid: '29897866'
 url: https://pubmed.ncbi.nlm.nih.gov/29897866/
 summary: Landmark PREDIMED randomized trial of 7,447 adults at high cardiovascular
   risk. Mediterranean diet supplemented with extra-virgin olive oil or nuts reduced
-  major cardiovascular events by approximately 30% compared to a low-fat control
-  diet over nearly 5 years of follow-up.
+  major cardiovascular events by approximately 30% compared to a low-fat control diet
+  over nearly 5 years of follow-up.

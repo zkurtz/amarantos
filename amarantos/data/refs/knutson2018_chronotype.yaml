@@ -14,17 +14,20 @@ keywords:
 - metabolic
 - shift work
 hard_claims:
-- summary: "Evening chronotype associated with increased all-cause mortality compared to morning types"
+- summary: Evening chronotype associated with increased all-cause mortality compared
+    to morning types
   choice: consistent_sleep_timing
   evidence_type: Prospective cohort study
-  effect_size: 1.10
-  effect_ci_lower: 1.02
-  effect_ci_upper: 1.18
-  outcome: "all-cause mortality"
-  population: "UK Biobank adults aged 38-73"
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.1
+    std: 0.04081632653061223
+  population: UK Biobank adults aged 38-73
   sample_size: 433268
   followup_years: 6.5
-  notes: "Definite evening vs definite morning types. 10,534 deaths during follow-up. Also showed elevated psychological disorder prevalence (OR 1.94, CI 1.86-2.02) in evening types."
+  notes: Definite evening vs definite morning types. 10,534 deaths during follow-up.
+    Also showed elevated psychological disorder prevalence (OR 1.94, CI 1.86-2.02)
+    in evening types.
 soft_claims: []
 journal: Chronobiology International
 volume: '35'
@@ -33,4 +36,9 @@ pages: 1178-1186
 doi: 10.1080/07420528.2018.1470531
 pmid: '29642757'
 url: https://pubmed.ncbi.nlm.nih.gov/29642757/
-summary: "Prospective cohort study of 433,268 UK Biobank adults aged 38-73 with average 6.5 years follow-up and 10,534 deaths. Found definite evening chronotype associated with 10% increased all-cause mortality risk (HR 1.10, 95% CI 1.02-1.18) compared to definite morning types. Evening types also showed elevated prevalence of psychological disorders (OR 1.94) and cardiometabolic risk factors. Suggests chronic circadian misalignment may contribute to mortality risk."
+summary: Prospective cohort study of 433,268 UK Biobank adults aged 38-73 with average
+  6.5 years follow-up and 10,534 deaths. Found definite evening chronotype associated
+  with 10% increased all-cause mortality risk (HR 1.10, 95% CI 1.02-1.18) compared
+  to definite morning types. Evening types also showed elevated prevalence of psychological
+  disorders (OR 1.94) and cardiometabolic risk factors. Suggests chronic circadian
+  misalignment may contribute to mortality risk.

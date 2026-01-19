@@ -16,39 +16,39 @@ keywords:
 - heart disease
 - RCT
 hard_claims:
-- summary: "Marine omega-3 supplementation reduces risk of myocardial infarction"
+- summary: Marine omega-3 supplementation reduces risk of myocardial infarction
   choice: omega_3_fatty_acids
   evidence_type: Meta-analysis
-  effect_size: 0.92
-  effect_ci_lower: 0.86
-  effect_ci_upper: 0.99
-  outcome: "myocardial infarction"
-  population: "general adult population"
+  effects:
+  - outcome: myocardial infarction
+    mean: 0.92
+    std: 0.03316326530612245
+  population: general adult population
   sample_size: 127477
   followup_years: 5.0
-  notes: "13 RCTs; excluding REDUCE-IT trial"
-- summary: "Marine omega-3 supplementation reduces risk of CHD death"
+  notes: 13 RCTs; excluding REDUCE-IT trial
+- summary: Marine omega-3 supplementation reduces risk of CHD death
   choice: omega_3_fatty_acids
   evidence_type: Meta-analysis
-  effect_size: 0.92
-  effect_ci_lower: 0.86
-  effect_ci_upper: 0.98
-  outcome: "CHD death"
-  population: "general adult population"
+  effects:
+  - outcome: CHD death
+    mean: 0.92
+    std: 0.030612244897959183
+  population: general adult population
   sample_size: 127477
   followup_years: 5.0
-  notes: "13 RCTs; excluding REDUCE-IT trial"
-- summary: "Marine omega-3 supplementation reduces risk of CVD death"
+  notes: 13 RCTs; excluding REDUCE-IT trial
+- summary: Marine omega-3 supplementation reduces risk of CVD death
   choice: omega_3_fatty_acids
   evidence_type: Meta-analysis
-  effect_size: 0.93
-  effect_ci_lower: 0.88
-  effect_ci_upper: 0.99
-  outcome: "CVD death"
-  population: "general adult population"
+  effects:
+  - outcome: CVD death
+    mean: 0.93
+    std: 0.028061224489795915
+  population: general adult population
   sample_size: 127477
   followup_years: 5.0
-  notes: "13 RCTs; linear dose-response relationship observed"
+  notes: 13 RCTs; linear dose-response relationship observed
 soft_claims: []
 journal: Journal of the American Heart Association
 volume: '8'
@@ -57,4 +57,8 @@ pages: e013543
 doi: 10.1161/JAHA.119.013543
 pmid: '31567003'
 url: https://pubmed.ncbi.nlm.nih.gov/31567003/
-summary: 'Meta-analysis of 13 RCTs involving 127,477 participants with mean 5-year follow-up examining marine omega-3 supplementation and cardiovascular outcomes. Found significant reductions in myocardial infarction (RR 0.92), CHD death (RR 0.92), and CVD death (RR 0.93). Risk reductions showed linear dose-response relationships with omega-3 dose.'
+summary: Meta-analysis of 13 RCTs involving 127,477 participants with mean 5-year
+  follow-up examining marine omega-3 supplementation and cardiovascular outcomes.
+  Found significant reductions in myocardial infarction (RR 0.92), CHD death (RR 0.92),
+  and CVD death (RR 0.93). Risk reductions showed linear dose-response relationships
+  with omega-3 dose.

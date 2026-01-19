@@ -1,6 +1,6 @@
 id: rodrguez-artalejo2005_health
-title: Health-Related Quality of Life as a Predictor of Hospital Readmission and
-  Death Among Patients With Heart Failure
+title: Health-Related Quality of Life as a Predictor of Hospital Readmission and Death
+  Among Patients With Heart Failure
 authors:
 - Rodríguez-Artalejo Fernando
 - Guallar-Castillón Pilar
@@ -24,17 +24,19 @@ keywords:
 - readmission
 - related
 hard_claims:
-- summary: "Worse SF-36 physical functioning scores associated with higher hospital readmission in heart failure patients"
+- summary: Worse SF-36 physical functioning scores associated with higher hospital
+    readmission in heart failure patients
   choice: quality_of_life
   evidence_type: Prospective cohort study
-  effect_size: 1.65
-  effect_ci_lower: 1.11
-  effect_ci_upper: 2.44
-  outcome: "emergency hospital readmission"
-  population: "patients hospitalized for heart failure"
+  effects:
+  - outcome: emergency hospital readmission
+    mean: 1.65
+    std: 0.33928571428571425
+  population: patients hospitalized for heart failure
   sample_size: 394
   followup_years: 0.5
-  notes: "Study of health-related quality of life as predictor of outcomes in heart failure. Results similar for mortality endpoint."
+  notes: Study of health-related quality of life as predictor of outcomes in heart
+    failure. Results similar for mortality endpoint.
 soft_claims: []
 journal: Archives of Internal Medicine
 volume: '165'
@@ -43,4 +45,9 @@ pages: '1274'
 doi: 10.1001/archinte.165.11.1274
 pmid: ''
 url: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/413032
-summary: "Prospective cohort study of 394 heart failure patients at 4 Spanish hospitals examining health-related quality of life as a predictor of hospital readmission and mortality. During 6-month median follow-up, 35% had emergency rehospitalization and 17.8% died. Worse HRQL scores on SF-36 physical functioning, general health, and mental health subscales were associated with higher readmission and mortality rates."
+summary: Prospective cohort study of 394 heart failure patients at 4 Spanish hospitals
+  examining health-related quality of life as a predictor of hospital readmission
+  and mortality. During 6-month median follow-up, 35% had emergency rehospitalization
+  and 17.8% died. Worse HRQL scores on SF-36 physical functioning, general health,
+  and mental health subscales were associated with higher readmission and mortality
+  rates.

@@ -20,24 +20,22 @@ hard_claims:
 - summary: Short sleep duration associated with 12% higher all-cause mortality
   choice: sleep
   evidence_type: Meta-analysis
-  effect_size: 1.12
-  effect_ci_lower: 1.06
-  effect_ci_upper: 1.18
-  outcome: all-cause mortality
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.12
+    std: 0.030612244897959155
   population: general adult population
   sample_size: 1381324
-  followup_years: null
   notes: Short sleep typically defined as less than 6-7 hours
 - summary: Long sleep duration associated with 30% higher all-cause mortality
   choice: sleep
   evidence_type: Meta-analysis
-  effect_size: 1.30
-  effect_ci_lower: 1.22
-  effect_ci_upper: 1.38
-  outcome: all-cause mortality
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.3
+    std: 0.04081632653061223
   population: general adult population
   sample_size: 1382999
-  followup_years: null
   notes: Long sleep typically defined as more than 8-9 hours
 soft_claims: []
 journal: Sleep
@@ -48,6 +46,6 @@ doi: 10.1093/sleep/33.5.585
 pmid: '20469800'
 url: https://pubmed.ncbi.nlm.nih.gov/20469800/
 summary: Meta-analysis of 16 prospective studies with over 1.3 million participants
-  examining sleep duration and mortality. Both short and long sleep duration are
-  independently associated with increased mortality risk, with long sleep showing
-  a stronger association (30% increase) than short sleep (12% increase).
+  examining sleep duration and mortality. Both short and long sleep duration are independently
+  associated with increased mortality risk, with long sleep showing a stronger association
+  (30% increase) than short sleep (12% increase).

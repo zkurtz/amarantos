@@ -17,17 +17,19 @@ keywords:
 - supplementation
 - systematic review
 hard_claims:
-- summary: "Creatine monohydrate supplementation significantly improved memory in adults"
+- summary: Creatine monohydrate supplementation significantly improved memory in adults
   choice: creatine_monohydrate
   evidence_type: Meta-analysis
-  effect_size: 0.31
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "memory performance (SMD)"
-  population: "adults aged 20.8-76.4 years including healthy individuals and patients with fibromyalgia, Parkinson's disease, schizophrenia"
+  effects:
+  - outcome: memory performance (SMD)
+    mean: 0.31
+    std: 0.0775
+  population: adults aged 20.8-76.4 years including healthy individuals and patients
+    with fibromyalgia, Parkinson's disease, schizophrenia
   sample_size: 492
-  followup_years: null
-  notes: "16 RCTs included; also showed significant improvements in attention time (SMD=-0.31) and processing speed time (SMD=-0.51); no significant effects on overall cognitive function or executive function"
+  notes: 16 RCTs included; also showed significant improvements in attention time
+    (SMD=-0.31) and processing speed time (SMD=-0.51); no significant effects on overall
+    cognitive function or executive function
 soft_claims: []
 journal: Front Nutr
 volume: '11'
@@ -36,4 +38,8 @@ pages: '1424972'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/
-summary: 'Systematic review and meta-analysis of 16 RCTs (n=492) examining creatine monohydrate supplementation effects on cognitive function in adults aged 20.8-76.4 years. Found significant improvements in memory (SMD=0.31), attention time (SMD=-0.31), and processing speed time (SMD=-0.51). Benefits were more pronounced in individuals with illnesses, ages 18-60, and females.'
+summary: Systematic review and meta-analysis of 16 RCTs (n=492) examining creatine
+  monohydrate supplementation effects on cognitive function in adults aged 20.8-76.4
+  years. Found significant improvements in memory (SMD=0.31), attention time (SMD=-0.31),
+  and processing speed time (SMD=-0.51). Benefits were more pronounced in individuals
+  with illnesses, ages 18-60, and females.

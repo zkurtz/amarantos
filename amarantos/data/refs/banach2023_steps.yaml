@@ -16,27 +16,20 @@ keywords:
 - physical activity
 - dose-response
 hard_claims:
-- summary: More daily steps associated with lower all-cause mortality in dose-response pattern
+- summary: More daily steps associated with lower all-cause mortality in dose-response
+    pattern
   choice: walking
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: all-cause mortality
+  effects: []
   population: general adult population
   sample_size: 226889
-  followup_years: null
   notes: Benefits seen from 2,000 steps/day; optimal around 8,000-10,000 steps
 - summary: More daily steps associated with lower cardiovascular mortality
   choice: walking
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: cardiovascular mortality
+  effects: []
   population: general adult population
   sample_size: 226889
-  followup_years: null
   notes: Dose-response relationship with diminishing returns at higher step counts
 soft_claims: []
 journal: Journal of the American College of Cardiology
@@ -46,7 +39,7 @@ pages: 1562-1575
 doi: 10.1016/j.jacc.2023.07.029
 pmid: '37768239'
 url: https://pubmed.ncbi.nlm.nih.gov/37768239/
-summary: Meta-analysis examining the relationship between daily step count and
-  mortality outcomes. Found a dose-response relationship where more steps are
-  associated with lower all-cause and cardiovascular mortality, with benefits
-  starting at modest step counts and continuing up to around 8,000-10,000 steps/day.
+summary: Meta-analysis examining the relationship between daily step count and mortality
+  outcomes. Found a dose-response relationship where more steps are associated with
+  lower all-cause and cardiovascular mortality, with benefits starting at modest step
+  counts and continuing up to around 8,000-10,000 steps/day.

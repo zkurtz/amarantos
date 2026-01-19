@@ -25,17 +25,14 @@ keywords:
 - supplement
 - trends
 hard_claims:
-- summary: "CoQ10 supplement use was associated with reduced all-cause and cardiovascular mortality"
+- summary: CoQ10 supplement use was associated with reduced all-cause and cardiovascular
+    mortality
   choice: coq10
   evidence_type: Prospective cohort study
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause and cardiovascular mortality"
-  population: "US adults"
-  sample_size: null
-  followup_years: null
-  notes: "Population-based cohort study examining trends in CoQ10 supplement use and mortality associations"
+  effects: []
+  population: US adults
+  notes: Population-based cohort study examining trends in CoQ10 supplement use and
+    mortality associations
 soft_claims: []
 journal: Molecular Nutrition &amp; Food Research
 volume: '69'
@@ -44,4 +41,6 @@ pages: ''
 doi: 10.1002/mnfr.70019
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1002/mnfr.70019
-summary: 'Population-based cohort study examining trends in Coenzyme Q10 supplement use and associations with all-cause and cardiovascular mortality in US adults. Analyzed data to determine whether CoQ10 supplementation is associated with mortality outcomes.'
+summary: Population-based cohort study examining trends in Coenzyme Q10 supplement
+  use and associations with all-cause and cardiovascular mortality in US adults. Analyzed
+  data to determine whether CoQ10 supplementation is associated with mortality outcomes.

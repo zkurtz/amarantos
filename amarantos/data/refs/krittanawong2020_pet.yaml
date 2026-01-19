@@ -16,17 +16,19 @@ keywords:
 - wellbeing
 - stress reduction
 hard_claims:
-- summary: "Pet ownership associated with lower prevalence of systemic hypertension"
+- summary: Pet ownership associated with lower prevalence of systemic hypertension
   choice: pet_ownership
   evidence_type: Cross-sectional study
-  effect_size: 0.67
-  effect_ci_lower: 0.49
-  effect_ci_upper: 0.89
-  outcome: "systemic hypertension prevalence"
-  population: "US general population (NHANES 1999-2016)"
+  effects:
+  - outcome: systemic hypertension prevalence
+    mean: 0.67
+    std: 0.10204081632653061
+  population: US general population (NHANES 1999-2016)
   sample_size: 10905
   followup_years: 0
-  notes: "Cross-sectional analysis of 10,905 NHANES participants. Pet owners had higher hemoglobin, lower LDL cholesterol, lower diabetes and stroke prevalence. No independent association with heart failure, CAD, diabetes, or stroke after adjustment."
+  notes: Cross-sectional analysis of 10,905 NHANES participants. Pet owners had higher
+    hemoglobin, lower LDL cholesterol, lower diabetes and stroke prevalence. No independent
+    association with heart failure, CAD, diabetes, or stroke after adjustment.
 soft_claims: []
 journal: American Journal of Cardiology
 volume: '125'
@@ -35,4 +37,9 @@ pages: 1158-1161
 doi: 10.1016/j.amjcard.2020.01.030
 pmid: '32093954'
 url: https://pubmed.ncbi.nlm.nih.gov/32093851/
-summary: "Cross-sectional analysis of 10,905 NHANES participants (1999-2016) examining pet ownership and cardiovascular health. Found pet ownership (cat or dog) independently associated with lower systemic hypertension prevalence (OR 0.67, 95% CI 0.49-0.89). Pet owners had higher hemoglobin, lower LDL cholesterol, and lower prevalence of diabetes and stroke, though these were not significant after multivariate adjustment. Authors note further longitudinal studies needed."
+summary: Cross-sectional analysis of 10,905 NHANES participants (1999-2016) examining
+  pet ownership and cardiovascular health. Found pet ownership (cat or dog) independently
+  associated with lower systemic hypertension prevalence (OR 0.67, 95% CI 0.49-0.89).
+  Pet owners had higher hemoglobin, lower LDL cholesterol, and lower prevalence of
+  diabetes and stroke, though these were not significant after multivariate adjustment.
+  Authors note further longitudinal studies needed.

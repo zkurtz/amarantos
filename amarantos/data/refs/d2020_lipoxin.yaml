@@ -1,6 +1,6 @@
 id: d2020_lipoxin
-title: Lipoxin A(4) impairs effective bacterial control and potentiates joint
-  inflammation and damage caused by Staphylococcus aureus infection
+title: Lipoxin A(4) impairs effective bacterial control and potentiates joint inflammation
+  and damage caused by Staphylococcus aureus infection
 authors:
 - Boff D
 - Oliveira VLS
@@ -27,17 +27,15 @@ keywords:
 - lipoxin
 - potentiates
 hard_claims:
-- summary: "Lipoxin A4 impaired bacterial control and worsened joint inflammation in S. aureus septic arthritis"
+- summary: Lipoxin A4 impaired bacterial control and worsened joint inflammation in
+    S. aureus septic arthritis
   choice: lipoxin_a4
   evidence_type: Mechanistic/first-principles
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "bacterial control and joint inflammation in septic arthritis"
-  population: "mouse model of S. aureus-induced septic arthritis"
-  sample_size: null
-  followup_years: null
-  notes: "5-lipoxygenase knockout or pharmacological blockade reduced inflammation and improved bacterial control; LXA4 suppressed dendritic cell function; suggests therapies inhibiting LXA4 may be beneficial for S. aureus arthritis"
+  effects: []
+  population: mouse model of S. aureus-induced septic arthritis
+  notes: 5-lipoxygenase knockout or pharmacological blockade reduced inflammation
+    and improved bacterial control; LXA4 suppressed dendritic cell function; suggests
+    therapies inhibiting LXA4 may be beneficial for S. aureus arthritis
 soft_claims: []
 journal: FASEB J
 volume: '34'
@@ -46,4 +44,9 @@ pages: 11498-11510
 doi: ''
 pmid: '32741032'
 url: https://pubmed.ncbi.nlm.nih.gov/32741032/
-summary: 'Mechanistic study in mice examining lipoxin A4 role in S. aureus septic arthritis. Paradoxically, LXA4 impaired bacterial control and potentiated joint inflammation. 5-lipoxygenase knockout or pharmacological blockade reduced inflammation and improved bacterial clearance. LXA4 suppressed dendritic cell function critical for fighting infection. Suggests targeting LXA4 synthesis or signaling may be therapeutic for S. aureus-induced arthritis.'
+summary: Mechanistic study in mice examining lipoxin A4 role in S. aureus septic arthritis.
+  Paradoxically, LXA4 impaired bacterial control and potentiated joint inflammation.
+  5-lipoxygenase knockout or pharmacological blockade reduced inflammation and improved
+  bacterial clearance. LXA4 suppressed dendritic cell function critical for fighting
+  infection. Suggests targeting LXA4 synthesis or signaling may be therapeutic for
+  S. aureus-induced arthritis.

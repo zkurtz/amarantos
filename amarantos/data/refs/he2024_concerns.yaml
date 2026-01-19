@@ -20,14 +20,18 @@ keywords:
 - potential
 hard_claims: []
 soft_claims:
-- summary: "Follow-up time calculations in frailty studies may be inaccurate due to incomplete mortality data between survey waves"
+- summary: Follow-up time calculations in frailty studies may be inaccurate due to
+    incomplete mortality data between survey waves
   choice: frailty_assessment
-  source_type: "expert opinion"
-  notes: "Commentary responding to concerns about ELSA data where mortality only recorded up to wave 6, though CVD status collected through wave 9"
-- summary: "Frailty index construction should follow Rockwood 2023 criteria including positive correlation with age and right-skewed distribution"
+  source_type: expert opinion
+  notes: Commentary responding to concerns about ELSA data where mortality only recorded
+    up to wave 6, though CVD status collected through wave 9
+- summary: Frailty index construction should follow Rockwood 2023 criteria including
+    positive correlation with age and right-skewed distribution
   choice: frailty_assessment
-  source_type: "expert opinion"
-  notes: "Authors note their study predated the December 2023 publication of updated FI criteria"
+  source_type: expert opinion
+  notes: Authors note their study predated the December 2023 publication of updated
+    FI criteria
 journal: European Heart Journal
 volume: '45'
 issue: '43'
@@ -35,4 +39,8 @@ pages: 4662-4662
 doi: 10.1093/eurheartj/ehae678
 pmid: ''
 url: https://academic.oup.com/eurheartj/article/46/8/749/7928425
-summary: 'Commentary addressing concerns about follow-up time calculations and frailty index evaluation in longitudinal studies. Notes that ELSA mortality data was only recorded up to wave 6 despite collecting CVD status through wave 9, potentially affecting follow-up time estimates. Discusses updated frailty index construction criteria published by Rockwood in 2023.'
+summary: Commentary addressing concerns about follow-up time calculations and frailty
+  index evaluation in longitudinal studies. Notes that ELSA mortality data was only
+  recorded up to wave 6 despite collecting CVD status through wave 9, potentially
+  affecting follow-up time estimates. Discusses updated frailty index construction
+  criteria published by Rockwood in 2023.

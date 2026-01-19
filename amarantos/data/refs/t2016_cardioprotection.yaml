@@ -1,6 +1,5 @@
 id: t2016_cardioprotection
-title: Cardioprotection and lifespan extension by the natural polyamine
-  spermidine
+title: Cardioprotection and lifespan extension by the natural polyamine spermidine
 authors:
 - Eisenberg T
 - Abdellatif M
@@ -22,17 +21,19 @@ keywords:
 - polyamine
 - spermidine
 hard_claims:
-- summary: "Dietary spermidine intake associated with approximately 40% reduction in fatal heart failure risk"
+- summary: Dietary spermidine intake associated with approximately 40% reduction in
+    fatal heart failure risk
   choice: spermidine
   evidence_type: Prospective cohort study
-  effect_size: 0.60
-  effect_ci_lower: 0.0
-  effect_ci_upper: 0.0
-  outcome: "fatal heart failure"
-  population: "Bruneck Study participants"
+  effects:
+  - outcome: fatal heart failure
+    mean: 0.6
+    std: 0.0
+  population: Bruneck Study participants
   sample_size: 0
   followup_years: 0.0
-  notes: "Human epidemiological data from Bruneck Study; also inverse associations with blood pressure; animal studies showed 10% median lifespan extension"
+  notes: Human epidemiological data from Bruneck Study; also inverse associations
+    with blood pressure; animal studies showed 10% median lifespan extension
 soft_claims: []
 journal: Nat Med
 volume: '22'
@@ -41,4 +42,9 @@ pages: 1428-1438
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5806691/
-summary: "Combined animal and human study examining spermidine effects on cardioprotection and longevity. In mice, late-in-life spermidine supplementation extended median lifespan by approximately 10% and reduced cardiac hypertrophy while preserving diastolic function. Human epidemiological data from the Bruneck Study showed dietary spermidine correlated with approximately 40% reduction in fatal heart failure risk. Mechanisms involve enhanced autophagy and mitophagy."
+summary: Combined animal and human study examining spermidine effects on cardioprotection
+  and longevity. In mice, late-in-life spermidine supplementation extended median
+  lifespan by approximately 10% and reduced cardiac hypertrophy while preserving diastolic
+  function. Human epidemiological data from the Bruneck Study showed dietary spermidine
+  correlated with approximately 40% reduction in fatal heart failure risk. Mechanisms
+  involve enhanced autophagy and mitophagy.

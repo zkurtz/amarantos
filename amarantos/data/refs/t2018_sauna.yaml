@@ -22,17 +22,19 @@ keywords:
 - sauna
 - women
 hard_claims:
-- summary: "4-7 sauna sessions per week associated with 77% lower cardiovascular mortality compared to 1 session/week"
+- summary: 4-7 sauna sessions per week associated with 77% lower cardiovascular mortality
+    compared to 1 session/week
   choice: finnish_sauna
   evidence_type: Prospective cohort study
-  effect_size: 0.23
-  effect_ci_lower: 0.08
-  effect_ci_upper: 0.65
-  outcome: "cardiovascular mortality"
-  population: "Finnish adults"
+  effects:
+  - outcome: cardiovascular mortality
+    mean: 0.23
+    std: 0.14540816326530615
+  population: Finnish adults
   sample_size: 1688
   followup_years: 15.0
-  notes: "181 cardiovascular deaths during 23,601 person-years; 2-3 sessions/week HR 0.75 (0.52-1.08)"
+  notes: 181 cardiovascular deaths during 23,601 person-years; 2-3 sessions/week HR
+    0.75 (0.52-1.08)
 soft_claims: []
 journal: BMC Med
 volume: '16'
@@ -41,4 +43,9 @@ pages: '219'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6262976/
-summary: "Prospective cohort study of 1,688 Finnish adults (867 women, 821 men, mean age 63) from the Kuopio Ischaemic Heart Disease Study with 15-year median follow-up. Found strong inverse associations between sauna bathing frequency and cardiovascular mortality: 4-7 sessions/week showed HR 0.23 compared to once weekly. Duration also mattered: mortality rates were 9.6, 7.6, and 5.1 per 1,000 person-years for <=15, 16-45, and >45 minutes weekly respectively."
+summary: 'Prospective cohort study of 1,688 Finnish adults (867 women, 821 men, mean
+  age 63) from the Kuopio Ischaemic Heart Disease Study with 15-year median follow-up.
+  Found strong inverse associations between sauna bathing frequency and cardiovascular
+  mortality: 4-7 sessions/week showed HR 0.23 compared to once weekly. Duration also
+  mattered: mortality rates were 9.6, 7.6, and 5.1 per 1,000 person-years for <=15,
+  16-45, and >45 minutes weekly respectively.'

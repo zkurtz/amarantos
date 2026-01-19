@@ -24,10 +24,13 @@ keywords:
 - uncovered
 hard_claims: []
 soft_claims:
-- summary: "Traditional fermented foods contain both beneficial microorganisms and potential risks including opportunistic pathogens and antibiotic resistance genes"
+- summary: Traditional fermented foods contain both beneficial microorganisms and
+    potential risks including opportunistic pathogens and antibiotic resistance genes
   choice: fermented_foods
-  source_type: "review"
-  notes: "Meta-analysis of 179 samples using shotgun metagenomics; analyzed microbial diversity, taxonomic composition, and metabolic pathways across different geographical regions"
+  source_type: review
+  notes: Meta-analysis of 179 samples using shotgun metagenomics; analyzed microbial
+    diversity, taxonomic composition, and metabolic pathways across different geographical
+    regions
 journal: Frontiers in Microbiology
 volume: '13'
 issue: ''
@@ -35,4 +38,8 @@ pages: ''
 doi: 10.3389/fmicb.2022.1045096
 pmid: ''
 url: https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1045096/full
-summary: 'Meta-analysis using shotgun metagenomic sequencing of 179 traditional fermented food samples from various geographical regions. Examined both potential benefits (probiotic properties, beneficial microorganisms) and risks (opportunistic pathogens, antibiotic resistance genes) of traditional fermented foods classified by fermentation raw materials, substrates, and climatic zones.'
+summary: Meta-analysis using shotgun metagenomic sequencing of 179 traditional fermented
+  food samples from various geographical regions. Examined both potential benefits
+  (probiotic properties, beneficial microorganisms) and risks (opportunistic pathogens,
+  antibiotic resistance genes) of traditional fermented foods classified by fermentation
+  raw materials, substrates, and climatic zones.

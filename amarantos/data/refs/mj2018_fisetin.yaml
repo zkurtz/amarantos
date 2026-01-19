@@ -20,22 +20,22 @@ keywords:
 - healthspan
 - mice
 hard_claims:
-- summary: "Fisetin was the most potent senolytic among ten tested flavonoids and extended median and maximum lifespan in mice when administered late in life"
+- summary: Fisetin was the most potent senolytic among ten tested flavonoids and extended
+    median and maximum lifespan in mice when administered late in life
   choice: fisetin
   evidence_type: Mechanistic/first-principles
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "lifespan extension"
-  population: "aged mice (85+ weeks, equivalent to ~75 human years)"
-  sample_size: null
-  followup_years: null
-  notes: "Animal study in progeroid Ercc1-/delta and wild-type C57BL/6 mice; reduced senescent cells (p16INK4a, p21Cip1) across multiple tissues; no adverse effects reported even at high doses; human trials underway"
+  effects: []
+  population: aged mice (85+ weeks, equivalent to ~75 human years)
+  notes: Animal study in progeroid Ercc1-/delta and wild-type C57BL/6 mice; reduced
+    senescent cells (p16INK4a, p21Cip1) across multiple tissues; no adverse effects
+    reported even at high doses; human trials underway
 soft_claims:
-- summary: "Fisetin reduced age-related pathology, oxidative stress, and inflammation while improving tissue homeostasis in aged mice"
+- summary: Fisetin reduced age-related pathology, oxidative stress, and inflammation
+    while improving tissue homeostasis in aged mice
   choice: fisetin
-  source_type: "research article"
-  notes: "Natural flavonoid found in strawberries, apples, grapes, onions; validated in human adipose tissue explants; safety profile appears favorable"
+  source_type: research article
+  notes: Natural flavonoid found in strawberries, apples, grapes, onions; validated
+    in human adipose tissue explants; safety profile appears favorable
 journal: EBioMedicine
 volume: '36'
 issue: ''
@@ -43,4 +43,8 @@ pages: 18-28
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6197652/
-summary: "Preclinical study demonstrating fisetin as the most potent senolytic among tested flavonoids. In mouse models (progeroid and naturally aged), fisetin treatment decreased senescent cell markers across multiple tissues, improved tissue homeostasis, reduced age-related pathology, and extended median and maximum lifespan when administered late in life. No adverse effects reported."
+summary: Preclinical study demonstrating fisetin as the most potent senolytic among
+  tested flavonoids. In mouse models (progeroid and naturally aged), fisetin treatment
+  decreased senescent cell markers across multiple tissues, improved tissue homeostasis,
+  reduced age-related pathology, and extended median and maximum lifespan when administered
+  late in life. No adverse effects reported.

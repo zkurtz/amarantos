@@ -1,6 +1,5 @@
 id: bhamidipati2019_underreporting
-title: On the underreporting of health-related quality of life and regulatory
-  approval
+title: On the underreporting of health-related quality of life and regulatory approval
 authors:
 - Bhamidipati D.
 - Anand S.
@@ -18,10 +17,13 @@ keywords:
 - underreporting
 hard_claims: []
 soft_claims:
-- summary: "Quality of life endpoints are frequently underreported in oncology clinical trials despite being relevant for regulatory approval"
+- summary: Quality of life endpoints are frequently underreported in oncology clinical
+    trials despite being relevant for regulatory approval
   choice: quality_of_life
-  source_type: "expert opinion"
-  notes: "Letter to editor responding to systematic review finding that 47.1% of oncology phase III trials did not include QoL among endpoints; highlights gap between trial conduct and patient-centered outcomes"
+  source_type: expert opinion
+  notes: Letter to editor responding to systematic review finding that 47.1% of oncology
+    phase III trials did not include QoL among endpoints; highlights gap between trial
+    conduct and patient-centered outcomes
 journal: Annals of Oncology
 volume: '30'
 issue: '4'
@@ -29,4 +31,8 @@ pages: 657-658
 doi: 10.1093/annonc/mdz033
 pmid: ''
 url: https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext
-summary: "Letter to the editor in Annals of Oncology discussing the underreporting of health-related quality of life (HRQoL) data in oncology clinical trials and its implications for regulatory approval. Responds to systematic review findings that nearly half of cancer phase III trials do not include QoL endpoints, despite growing recognition of patient-centered outcomes by regulatory authorities."
+summary: Letter to the editor in Annals of Oncology discussing the underreporting
+  of health-related quality of life (HRQoL) data in oncology clinical trials and its
+  implications for regulatory approval. Responds to systematic review findings that
+  nearly half of cancer phase III trials do not include QoL endpoints, despite growing
+  recognition of patient-centered outcomes by regulatory authorities.

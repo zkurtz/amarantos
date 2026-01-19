@@ -18,14 +18,19 @@ keywords:
 - caloric restriction
 hard_claims: []
 soft_claims:
-- summary: "Dietary polyamine uptake correlates with reduced cardiovascular and cancer-related mortality in human epidemiological studies"
+- summary: Dietary polyamine uptake correlates with reduced cardiovascular and cancer-related
+    mortality in human epidemiological studies
   choice: spermidine
-  source_type: "review"
-  notes: "Spermidine induces autophagy, preserves mitochondrial function, exhibits anti-inflammatory properties, and prevents stem cell senescence; functions as caloric restriction mimetic"
-- summary: "Spermidine has prominent cardioprotective and neuroprotective effects and stimulates anticancer immunosurveillance in rodent models"
+  source_type: review
+  notes: Spermidine induces autophagy, preserves mitochondrial function, exhibits
+    anti-inflammatory properties, and prevents stem cell senescence; functions as
+    caloric restriction mimetic
+- summary: Spermidine has prominent cardioprotective and neuroprotective effects and
+    stimulates anticancer immunosurveillance in rodent models
   choice: spermidine
-  source_type: "review"
-  notes: "Mechanism involves protein deacetylation and functional autophagy; spermidine already present in daily human nutrition making clinical trials feasible"
+  source_type: review
+  notes: Mechanism involves protein deacetylation and functional autophagy; spermidine
+    already present in daily human nutrition making clinical trials feasible
 journal: Science
 volume: '359'
 issue: '6374'
@@ -33,4 +38,7 @@ pages: eaan2788
 doi: 10.1126/science.aan2788
 pmid: '29371440'
 url: https://pubmed.ncbi.nlm.nih.gov/29371440/
-summary: "Comprehensive review of spermidine as a caloric restriction mimetic. Discusses cardioprotective and neuroprotective effects in rodent models, correlation of dietary polyamine intake with reduced cardiovascular and cancer mortality in epidemiological studies, and mechanisms involving autophagy induction and mitochondrial preservation."
+summary: Comprehensive review of spermidine as a caloric restriction mimetic. Discusses
+  cardioprotective and neuroprotective effects in rodent models, correlation of dietary
+  polyamine intake with reduced cardiovascular and cancer mortality in epidemiological
+  studies, and mechanisms involving autophagy induction and mitochondrial preservation.

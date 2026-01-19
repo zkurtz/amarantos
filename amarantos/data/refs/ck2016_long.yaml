@@ -21,17 +21,17 @@ keywords:
 - aging
 - mortality
 hard_claims:
-- summary: "PM2.5 exposure associated with accelerated epigenetic aging"
+- summary: PM2.5 exposure associated with accelerated epigenetic aging
   choice: air_pollution
   evidence_type: Prospective cohort study
-  effect_size: 0.33
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "extrinsic epigenetic aging (years increase per 0.97 ug/m3 PM2.5)"
-  population: "adults from KORA F4 (Germany) and Normative Aging Study (USA, men)"
-  sample_size: null
-  followup_years: null
-  notes: "P=0.04; black carbon and NOx associated with DNA methylation aging in women; inverse relationship between black carbon and telomere-based aging in men; associations may be sex-specific"
+  effects:
+  - outcome: extrinsic epigenetic aging (years increase per 0.97 ug/m3 PM2.5)
+    mean: 0.33
+    std: 0.0825
+  population: adults from KORA F4 (Germany) and Normative Aging Study (USA, men)
+  notes: P=0.04; black carbon and NOx associated with DNA methylation aging in women;
+    inverse relationship between black carbon and telomere-based aging in men; associations
+    may be sex-specific
 soft_claims: []
 journal: Oncotarget
 volume: '7'
@@ -40,4 +40,9 @@ pages: 74510-74525
 doi: ''
 pmid: '27793020'
 url: https://pubmed.ncbi.nlm.nih.gov/27793020/
-summary: 'Prospective cohort study using KORA F4 (Germany) and Normative Aging Study (USA) examining associations between long-term air pollution exposure (PM10, PM2.5, black carbon, NOx) and biological aging measures (telomere length and epigenetic markers). PM2.5 exposure of 0.97 ug/m3 correlated with 0.33-year increase in extrinsic epigenetic aging. Associations appeared sex-specific with black carbon/NOx affecting DNA methylation aging in women.'
+summary: Prospective cohort study using KORA F4 (Germany) and Normative Aging Study
+  (USA) examining associations between long-term air pollution exposure (PM10, PM2.5,
+  black carbon, NOx) and biological aging measures (telomere length and epigenetic
+  markers). PM2.5 exposure of 0.97 ug/m3 correlated with 0.33-year increase in extrinsic
+  epigenetic aging. Associations appeared sex-specific with black carbon/NOx affecting
+  DNA methylation aging in women.

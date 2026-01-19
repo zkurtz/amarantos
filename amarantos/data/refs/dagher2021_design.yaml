@@ -1,7 +1,7 @@
 id: dagher2021_design
-title: Design of a Randomized Placebo-Controlled Trial to Evaluate the
-  Anti-inflammatory and Senolytic Effects of Quercetin in Patients Undergoing
-  Coronary Artery Bypass Graft Surgery
+title: Design of a Randomized Placebo-Controlled Trial to Evaluate the Anti-inflammatory
+  and Senolytic Effects of Quercetin in Patients Undergoing Coronary Artery Bypass
+  Graft Surgery
 authors:
 - Dagher Olina
 - Mury Pauline
@@ -25,16 +25,24 @@ keywords:
 - trial
 hard_claims: []
 soft_claims:
-- summary: "Quercetin hypothesized to reduce systemic inflammation and senescence in CABG patients"
+- summary: Quercetin hypothesized to reduce systemic inflammation and senescence in
+    CABG patients
   choice: quercetin
-  source_type: "trial design"
-  notes: "Q-CABG phase II RCT design; 100 patients randomized 1:1 to 500mg quercetin twice daily or placebo, starting 2-3 days before CABG through postoperative day 7; primary endpoints: hs-CRP, hs-troponin T, angiopoietin-like 2; secondary: endothelial function assessment"
+  source_type: trial design
+  notes: 'Q-CABG phase II RCT design; 100 patients randomized 1:1 to 500mg quercetin
+    twice daily or placebo, starting 2-3 days before CABG through postoperative day
+    7; primary endpoints: hs-CRP, hs-troponin T, angiopoietin-like 2; secondary: endothelial
+    function assessment'
 journal: Frontiers in Cardiovascular Medicine
 volume: '8'
 issue: ''
 pages: ''
 doi: 10.3389/fcvm.2021.741542
 pmid: ''
-url:
-  https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.741542/full
-summary: 'Phase II randomized double-blind placebo-controlled trial design (Q-CABG) at Montreal Heart Institute. 100 patients scheduled for CABG following acute coronary syndrome randomized 1:1 to quercetin 500mg twice daily or placebo, starting 2-3 days pre-surgery through postoperative day 7. Primary endpoints: hs-CRP, hs-troponin T, and angiopoietin-like 2 (senescence marker). Secondary endpoint: endothelial function via internal mammary artery assessment.'
+url: https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.741542/full
+summary: 'Phase II randomized double-blind placebo-controlled trial design (Q-CABG)
+  at Montreal Heart Institute. 100 patients scheduled for CABG following acute coronary
+  syndrome randomized 1:1 to quercetin 500mg twice daily or placebo, starting 2-3
+  days pre-surgery through postoperative day 7. Primary endpoints: hs-CRP, hs-troponin
+  T, and angiopoietin-like 2 (senescence marker). Secondary endpoint: endothelial
+  function via internal mammary artery assessment.'

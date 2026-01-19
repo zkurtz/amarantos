@@ -17,39 +17,33 @@ keywords:
 - mortality
 - social
 hard_claims:
-- summary: "Social isolation associated with 29% increased mortality risk"
+- summary: Social isolation associated with 29% increased mortality risk
   choice: strong_social_connections
   evidence_type: Meta-analysis
-  effect_size: 1.29
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause mortality (odds ratio)"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "Effect stronger in adults younger than 65 years"
-- summary: "Loneliness associated with 26% increased mortality risk"
+  effects:
+  - outcome: all-cause mortality (odds ratio)
+    mean: 1.29
+    std: 0.3225
+  population: general adult population
+  notes: Effect stronger in adults younger than 65 years
+- summary: Loneliness associated with 26% increased mortality risk
   choice: strong_social_connections
   evidence_type: Meta-analysis
-  effect_size: 1.26
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause mortality (odds ratio)"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "No difference between objective isolation measures and perceived loneliness"
-- summary: "Living alone associated with 32% increased mortality risk"
+  effects:
+  - outcome: all-cause mortality (odds ratio)
+    mean: 1.26
+    std: 0.315
+  population: general adult population
+  notes: No difference between objective isolation measures and perceived loneliness
+- summary: Living alone associated with 32% increased mortality risk
   choice: strong_social_connections
   evidence_type: Meta-analysis
-  effect_size: 1.32
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause mortality (odds ratio)"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "Results stable across gender, follow-up length, and geographic region"
+  effects:
+  - outcome: all-cause mortality (odds ratio)
+    mean: 1.32
+    std: 0.33
+  population: general adult population
+  notes: Results stable across gender, follow-up length, and geographic region
 soft_claims: []
 journal: Perspect Psychol Sci
 volume: '10'
@@ -58,4 +52,8 @@ pages: 227-37
 doi: ''
 pmid: '25910392'
 url: https://pubmed.ncbi.nlm.nih.gov/25910392/
-summary: 'Meta-analysis examining loneliness and social isolation as mortality risk factors using studies from 1980-2014. Found social isolation (OR 1.29), loneliness (OR 1.26), and living alone (OR 1.32) all significantly increased mortality risk. Effects were more pronounced in adults under 65 and comparable to well-established mortality risk factors.'
+summary: Meta-analysis examining loneliness and social isolation as mortality risk
+  factors using studies from 1980-2014. Found social isolation (OR 1.29), loneliness
+  (OR 1.26), and living alone (OR 1.32) all significantly increased mortality risk.
+  Effects were more pronounced in adults under 65 and comparable to well-established
+  mortality risk factors.

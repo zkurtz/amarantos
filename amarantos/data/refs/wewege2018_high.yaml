@@ -1,6 +1,6 @@
 id: wewege2018_high
-title: High‐Intensity Interval Training for Patients With Cardiovascular
-  Disease—Is It Safe? A Systematic Review
+title: High‐Intensity Interval Training for Patients With Cardiovascular Disease—Is
+  It Safe? A Systematic Review
 authors:
 - Wewege Michael A.
 - Ahn Dohee
@@ -17,17 +17,18 @@ keywords:
 - systematic review
 - training
 hard_claims:
-- summary: "HIIT has a low rate of major adverse cardiovascular events in cardiac rehabilitation settings"
+- summary: HIIT has a low rate of major adverse cardiovascular events in cardiac rehabilitation
+    settings
   choice: hiit
   evidence_type: Meta-analysis
-  effect_size: 0.00006
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "major cardiovascular adverse events"
-  population: "patients with coronary artery disease or heart failure"
+  effects:
+  - outcome: major cardiovascular adverse events
+    mean: 6.0e-05
+    std: 1.5e-05
+  population: patients with coronary artery disease or heart failure
   sample_size: 1117
-  followup_years: null
-  notes: "1 major cardiovascular event per 17,083 training sessions (11,333 training hours); 23 studies included with 547 HIIT and 570 MICT participants"
+  notes: 1 major cardiovascular event per 17,083 training sessions (11,333 training
+    hours); 23 studies included with 547 HIIT and 570 MICT participants
 soft_claims: []
 journal: Journal of the American Heart Association
 volume: '7'
@@ -36,4 +37,8 @@ pages: ''
 doi: 10.1161/JAHA.118.009305
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.118.009305
-summary: 'Systematic review evaluating safety of high-intensity interval training (HIIT) for patients with cardiovascular disease in cardiac rehabilitation settings. Analyzed 23 studies with 1,117 participants (547 HIIT, 570 MICT). Found only one major cardiovascular adverse event related to HIIT, equating to 1 event per 17,083 training sessions, demonstrating relatively low risk.'
+summary: Systematic review evaluating safety of high-intensity interval training (HIIT)
+  for patients with cardiovascular disease in cardiac rehabilitation settings. Analyzed
+  23 studies with 1,117 participants (547 HIIT, 570 MICT). Found only one major cardiovascular
+  adverse event related to HIIT, equating to 1 event per 17,083 training sessions,
+  demonstrating relatively low risk.

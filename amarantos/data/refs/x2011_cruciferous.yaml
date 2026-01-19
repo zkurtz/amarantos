@@ -1,6 +1,6 @@
 id: x2011_cruciferous
-title: Cruciferous vegetable consumption is associated with a reduced risk of
-  total and cardiovascular disease mortality
+title: Cruciferous vegetable consumption is associated with a reduced risk of total
+  and cardiovascular disease mortality
 authors:
 - Zhang X
 - Shu XO
@@ -22,28 +22,32 @@ keywords:
 - total
 - vegetable
 hard_claims:
-- summary: "Highest quintile of cruciferous vegetable intake associated with 22% lower total mortality risk"
+- summary: Highest quintile of cruciferous vegetable intake associated with 22% lower
+    total mortality risk
   choice: cruciferous_vegetables
   evidence_type: Prospective cohort study
-  effect_size: 0.78
-  effect_ci_lower: 0.71
-  effect_ci_upper: 0.85
-  outcome: "all-cause mortality"
-  population: "Chinese adults"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.78
+    std: 0.03571428571428572
+  population: Chinese adults
   sample_size: 134796
   followup_years: 7.4
-  notes: "Pooled analysis from Shanghai Women's and Men's Health Studies; women followed 10.2 years, men 4.6 years"
-- summary: "Highest quintile of cruciferous vegetable intake associated with 31% lower CVD mortality risk"
+  notes: Pooled analysis from Shanghai Women's and Men's Health Studies; women followed
+    10.2 years, men 4.6 years
+- summary: Highest quintile of cruciferous vegetable intake associated with 31% lower
+    CVD mortality risk
   choice: cruciferous_vegetables
   evidence_type: Prospective cohort study
-  effect_size: 0.69
-  effect_ci_lower: 0.56
-  effect_ci_upper: 0.85
-  outcome: "cardiovascular disease mortality"
-  population: "Chinese adults"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.69
+    std: 0.07397959183673468
+  population: Chinese adults
   sample_size: 134796
   followup_years: 7.4
-  notes: "Stronger protective association for CVD mortality than total mortality; P<0.0001 for trend"
+  notes: Stronger protective association for CVD mortality than total mortality; P<0.0001
+    for trend
 soft_claims: []
 journal: Am J Clin Nutr
 volume: '94'
@@ -52,4 +56,7 @@ pages: 240-246
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3127519/
-summary: 'Prospective cohort study of 134,796 Chinese adults (73,360 women, 61,436 men) examining cruciferous vegetable intake and mortality. Found significant inverse dose-response relationships for total mortality (HR 0.78 for highest vs lowest quintile) and CVD mortality (HR 0.69), but no significant association with cancer mortality.'
+summary: Prospective cohort study of 134,796 Chinese adults (73,360 women, 61,436
+  men) examining cruciferous vegetable intake and mortality. Found significant inverse
+  dose-response relationships for total mortality (HR 0.78 for highest vs lowest quintile)
+  and CVD mortality (HR 0.69), but no significant association with cancer mortality.

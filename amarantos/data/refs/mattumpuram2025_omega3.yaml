@@ -17,28 +17,26 @@ keywords:
 - meta-analysis
 - RCT
 hard_claims:
-- summary: "Omega-3 fatty acids associated with 6% reduced risk of cardiovascular mortality"
+- summary: Omega-3 fatty acids associated with 6% reduced risk of cardiovascular mortality
   choice: omega_3_fatty_acids
   evidence_type: Meta-analysis
-  effect_size: 0.94
-  effect_ci_lower: 0.89
-  effect_ci_upper: 0.99
-  outcome: "cardiovascular mortality"
-  population: "patients with established CV disease or high CV risk"
+  effects:
+  - outcome: cardiovascular mortality
+    mean: 0.94
+    std: 0.025510204081632647
+  population: patients with established CV disease or high CV risk
   sample_size: 176253
-  followup_years: null
-  notes: "42 RCTs included; EPA monotherapy showed stronger effect (RR 0.80)"
-- summary: "Omega-3 fatty acids associated with 6% reduced risk of CVD events"
+  notes: 42 RCTs included; EPA monotherapy showed stronger effect (RR 0.80)
+- summary: Omega-3 fatty acids associated with 6% reduced risk of CVD events
   choice: omega_3_fatty_acids
   evidence_type: Meta-analysis
-  effect_size: 0.94
-  effect_ci_lower: 0.89
-  effect_ci_upper: 1.00
-  outcome: "cardiovascular disease events"
-  population: "patients with established CV disease or high CV risk"
+  effects:
+  - outcome: cardiovascular disease events
+    mean: 0.94
+    std: 0.028061224489795915
+  population: patients with established CV disease or high CV risk
   sample_size: 176253
-  followup_years: null
-  notes: "p=0.03; EPA monotherapy showed 24% reduction (RR 0.76)"
+  notes: p=0.03; EPA monotherapy showed 24% reduction (RR 0.76)
 soft_claims: []
 journal: Clinical and Translational Discovery
 volume: '5'
@@ -47,4 +45,7 @@ pages: e70094
 doi: 10.1002/ctd2.70094
 pmid: ''
 url: https://doi.org/10.1002/ctd2.70094
-summary: "Meta-analysis of 42 RCTs examining marine omega-3 fatty acids (EPA/DHA) and cardiovascular events in 176,253 participants. Found significant reductions in cardiovascular mortality and CVD events, with EPA monotherapy showing stronger benefits than combined formulations."
+summary: Meta-analysis of 42 RCTs examining marine omega-3 fatty acids (EPA/DHA) and
+  cardiovascular events in 176,253 participants. Found significant reductions in cardiovascular
+  mortality and CVD events, with EPA monotherapy showing stronger benefits than combined
+  formulations.

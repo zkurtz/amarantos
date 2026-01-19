@@ -26,61 +26,64 @@ keywords:
 - pressure
 - vegetable
 hard_claims:
-- summary: "Moderate vegetable nitrate intake associated with lower cardiovascular disease risk"
+- summary: Moderate vegetable nitrate intake associated with lower cardiovascular
+    disease risk
   choice: leafy_greens
   evidence_type: Prospective cohort study
-  effect_size: 0.85
-  effect_ci_lower: 0.82
-  effect_ci_upper: 0.89
-  outcome: "cardiovascular disease"
-  population: "Danish adults without CVD at baseline"
+  effects:
+  - outcome: cardiovascular disease
+    mean: 0.85
+    std: 0.017857142857142873
+  population: Danish adults without CVD at baseline
   sample_size: 53150
   followup_years: 23.0
-  notes: "Danish Diet, Cancer, and Health Study; moderate intake (~60mg/day or 1 cup leafy greens) vs lowest quintile; 14,088 CVD cases; 21.9% of effect mediated by systolic BP"
-- summary: "Higher vegetable nitrate intake associated with lower systolic blood pressure"
+  notes: Danish Diet, Cancer, and Health Study; moderate intake (~60mg/day or 1 cup
+    leafy greens) vs lowest quintile; 14,088 CVD cases; 21.9% of effect mediated by
+    systolic BP
+- summary: Higher vegetable nitrate intake associated with lower systolic blood pressure
   choice: leafy_greens
   evidence_type: Prospective cohort study
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "systolic blood pressure"
-  population: "Danish adults"
+  effects: []
+  population: Danish adults
   sample_size: 53150
   followup_years: 23.0
-  notes: "Highest vs lowest quintile: 2.58 mmHg lower systolic BP, 1.38 mmHg lower diastolic BP"
-- summary: "Moderate vegetable nitrate intake associated with lower ischemic heart disease risk"
+  notes: 'Highest vs lowest quintile: 2.58 mmHg lower systolic BP, 1.38 mmHg lower
+    diastolic BP'
+- summary: Moderate vegetable nitrate intake associated with lower ischemic heart
+    disease risk
   choice: leafy_greens
   evidence_type: Prospective cohort study
-  effect_size: 0.88
-  effect_ci_lower: 0.84
-  effect_ci_upper: 0.92
-  outcome: "ischemic heart disease"
-  population: "Danish adults without CVD at baseline"
+  effects:
+  - outcome: ischemic heart disease
+    mean: 0.88
+    std: 0.02040816326530614
+  population: Danish adults without CVD at baseline
   sample_size: 53150
   followup_years: 23.0
-  notes: "12% lower risk with moderate vegetable nitrate intake"
-- summary: "Moderate vegetable nitrate intake associated with lower heart failure risk"
+  notes: 12% lower risk with moderate vegetable nitrate intake
+- summary: Moderate vegetable nitrate intake associated with lower heart failure risk
   choice: leafy_greens
   evidence_type: Prospective cohort study
-  effect_size: 0.85
-  effect_ci_lower: 0.80
-  effect_ci_upper: 0.90
-  outcome: "heart failure"
-  population: "Danish adults without CVD at baseline"
+  effects:
+  - outcome: heart failure
+    mean: 0.85
+    std: 0.025510204081632647
+  population: Danish adults without CVD at baseline
   sample_size: 53150
   followup_years: 23.0
-  notes: "15% lower risk with moderate vegetable nitrate intake"
-- summary: "Moderate vegetable nitrate intake associated with lower peripheral artery disease risk"
+  notes: 15% lower risk with moderate vegetable nitrate intake
+- summary: Moderate vegetable nitrate intake associated with lower peripheral artery
+    disease risk
   choice: leafy_greens
   evidence_type: Prospective cohort study
-  effect_size: 0.74
-  effect_ci_lower: 0.68
-  effect_ci_upper: 0.81
-  outcome: "peripheral artery disease"
-  population: "Danish adults without CVD at baseline"
+  effects:
+  - outcome: peripheral artery disease
+    mean: 0.74
+    std: 0.03316326530612245
+  population: Danish adults without CVD at baseline
   sample_size: 53150
   followup_years: 23.0
-  notes: "26% lower risk with moderate vegetable nitrate intake"
+  notes: 26% lower risk with moderate vegetable nitrate intake
 soft_claims: []
 journal: European Journal of Epidemiology
 volume: '36'
@@ -89,4 +92,10 @@ pages: 813-825
 doi: 10.1007/s10654-021-00747-3
 pmid: ''
 url: https://link.springer.com/article/10.1007/s10654-021-00747-3
-summary: "Prospective cohort study from the Danish Diet, Cancer, and Health Study following 53,150 CVD-free participants for 23 years (14,088 CVD cases). Found that moderate vegetable nitrate intake (~60mg/day, equivalent to 1 cup of leafy greens) was associated with 15% lower CVD risk, with benefits plateauing at moderate intakes. Higher nitrate intake also associated with 12-26% lower risks of ischemic heart disease, heart failure, ischemic stroke, and peripheral artery disease. About 22% of effect mediated through blood pressure reduction."
+summary: Prospective cohort study from the Danish Diet, Cancer, and Health Study following
+  53,150 CVD-free participants for 23 years (14,088 CVD cases). Found that moderate
+  vegetable nitrate intake (~60mg/day, equivalent to 1 cup of leafy greens) was associated
+  with 15% lower CVD risk, with benefits plateauing at moderate intakes. Higher nitrate
+  intake also associated with 12-26% lower risks of ischemic heart disease, heart
+  failure, ischemic stroke, and peripheral artery disease. About 22% of effect mediated
+  through blood pressure reduction.

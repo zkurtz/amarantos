@@ -26,14 +26,21 @@ keywords:
 - total
 hard_claims: []
 soft_claims:
-- summary: "NEAT represents the main variable component of daily total energy expenditure; obese individuals could expend approximately 350 additional calories daily by adopting activity patterns of lean counterparts"
+- summary: NEAT represents the main variable component of daily total energy expenditure;
+    obese individuals could expend approximately 350 additional calories daily by
+    adopting activity patterns of lean counterparts
   choice: moderate_cardio
-  source_type: "review"
-  notes: "Non-exercise activity thermogenesis includes fidgeting, posture changes, household tasks; energy expenditure from NEAT larger than exercise-related thermogenesis when measured over the day"
-- summary: "Low NEAT levels associated with increased risks for metabolic syndrome, type 2 diabetes, poor glucose management, and cardiovascular disease"
+  source_type: review
+  notes: Non-exercise activity thermogenesis includes fidgeting, posture changes,
+    household tasks; energy expenditure from NEAT larger than exercise-related thermogenesis
+    when measured over the day
+- summary: Low NEAT levels associated with increased risks for metabolic syndrome,
+    type 2 diabetes, poor glucose management, and cardiovascular disease
   choice: moderate_cardio
-  source_type: "review"
-  notes: "Exercise alone cannot counteract prolonged sitting; maintaining regular movement throughout the day provides independent metabolic benefits; NEAT offers practical approach to obesity management"
+  source_type: review
+  notes: Exercise alone cannot counteract prolonged sitting; maintaining regular movement
+    throughout the day provides independent metabolic benefits; NEAT offers practical
+    approach to obesity management
 journal: J Exerc Nutrition Biochem
 volume: '22'
 issue: '2'
@@ -41,4 +48,9 @@ pages: 23-30
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/
-summary: "Review of non-exercise activity thermogenesis (NEAT) as a component of total daily energy expenditure. NEAT encompasses unplanned daily activities like fidgeting and household tasks, representing the main variable component of energy expenditure. Low NEAT associated with metabolic syndrome, diabetes, and cardiovascular disease. Obese individuals could burn ~350 extra calories daily by matching lean counterparts' activity patterns."
+summary: Review of non-exercise activity thermogenesis (NEAT) as a component of total
+  daily energy expenditure. NEAT encompasses unplanned daily activities like fidgeting
+  and household tasks, representing the main variable component of energy expenditure.
+  Low NEAT associated with metabolic syndrome, diabetes, and cardiovascular disease.
+  Obese individuals could burn ~350 extra calories daily by matching lean counterparts'
+  activity patterns.

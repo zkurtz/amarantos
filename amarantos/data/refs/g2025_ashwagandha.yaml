@@ -20,39 +20,32 @@ keywords:
 - supplements
 - systematic review
 hard_claims:
-- summary: "Ashwagandha supplementation significantly reduces anxiety symptoms as measured by Hamilton Anxiety Rating Scale"
+- summary: Ashwagandha supplementation significantly reduces anxiety symptoms as measured
+    by Hamilton Anxiety Rating Scale
   choice: ashwagandha
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "anxiety (HAM-A score)"
-  population: "adults"
+  effects: []
+  population: adults
   sample_size: 873
-  followup_years: null
-  notes: "15 RCTs; baseline HAM-A MD -1.55 (95% CI -2.45 to -0.65); 8-week HAM-A MD -3.52 (95% CI -6.00 to -1.04)"
-- summary: "Ashwagandha supplementation significantly reduces cortisol levels at 8 weeks"
+  notes: 15 RCTs; baseline HAM-A MD -1.55 (95% CI -2.45 to -0.65); 8-week HAM-A MD
+    -3.52 (95% CI -6.00 to -1.04)
+- summary: Ashwagandha supplementation significantly reduces cortisol levels at 8
+    weeks
   choice: ashwagandha
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "cortisol levels"
-  population: "adults"
+  effects: []
+  population: adults
   sample_size: 873
-  followup_years: null
-  notes: "15 RCTs; cortisol MD -2.36 (95% CI -3.26 to -1.46) at 8 weeks; p<0.0001"
-- summary: "Ashwagandha supplementation significantly reduces perceived stress at 8 weeks"
+  notes: 15 RCTs; cortisol MD -2.36 (95% CI -3.26 to -1.46) at 8 weeks; p<0.0001
+- summary: Ashwagandha supplementation significantly reduces perceived stress at 8
+    weeks
   choice: ashwagandha
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "perceived stress (PSS score)"
-  population: "adults"
+  effects: []
+  population: adults
   sample_size: 873
-  followup_years: null
-  notes: "15 RCTs; PSS MD -4.88 (95% CI -7.84 to -1.91) at 8 weeks; no significant effect on quality of life"
+  notes: 15 RCTs; PSS MD -4.88 (95% CI -7.84 to -1.91) at 8 weeks; no significant
+    effect on quality of life
 soft_claims: []
 journal: BJPsych Open
 volume: '11'
@@ -61,4 +54,8 @@ pages: S39
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12242034/
-summary: 'Meta-analysis of 15 RCTs with 873 adult participants examining ashwagandha effects on stress biomarkers. Found significant reductions in anxiety (HAM-A MD -3.52 at 8 weeks), cortisol (MD -2.36 at 8 weeks), and perceived stress (PSS MD -4.88 at 8 weeks). Quality of life was not significantly improved. Authors conclude ashwagandha is safe and effective for reducing stress and anxiety.'
+summary: Meta-analysis of 15 RCTs with 873 adult participants examining ashwagandha
+  effects on stress biomarkers. Found significant reductions in anxiety (HAM-A MD
+  -3.52 at 8 weeks), cortisol (MD -2.36 at 8 weeks), and perceived stress (PSS MD
+  -4.88 at 8 weeks). Quality of life was not significantly improved. Authors conclude
+  ashwagandha is safe and effective for reducing stress and anxiety.

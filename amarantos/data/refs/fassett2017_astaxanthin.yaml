@@ -16,10 +16,13 @@ keywords:
 - supplements
 hard_claims: []
 soft_claims:
-- summary: "Astaxanthin demonstrates antioxidant, anti-inflammatory, anti-hypertensive, anti-diabetic, and lipid-lowering properties in preclinical studies with potential cardiovascular benefits"
+- summary: Astaxanthin demonstrates antioxidant, anti-inflammatory, anti-hypertensive,
+    anti-diabetic, and lipid-lowering properties in preclinical studies with potential
+    cardiovascular benefits
   choice: astaxanthin
-  source_type: "review"
-  notes: "Strong in vitro evidence, moderate animal evidence, but weak human evidence; knowledge gaps remain for clinical applications"
+  source_type: review
+  notes: Strong in vitro evidence, moderate animal evidence, but weak human evidence;
+    knowledge gaps remain for clinical applications
 journal: Marine Drugs
 volume: '15'
 issue: '3'
@@ -27,4 +30,8 @@ pages: '72'
 doi: 10.3390/md15030072
 pmid: '27924978'
 url: https://pubmed.ncbi.nlm.nih.gov/27924978/
-summary: 'Review article examining astaxanthin as a potential therapeutic agent for cardiovascular disease. The xanthophyll carotenoid demonstrates antioxidant, anti-inflammatory, anti-hypertensive, anti-diabetic, renoprotective, lipid-lowering, and anti-atherosclerotic properties. Evidence strength varies: strong in vitro, moderate animal, but weak human evidence.'
+summary: 'Review article examining astaxanthin as a potential therapeutic agent for
+  cardiovascular disease. The xanthophyll carotenoid demonstrates antioxidant, anti-inflammatory,
+  anti-hypertensive, anti-diabetic, renoprotective, lipid-lowering, and anti-atherosclerotic
+  properties. Evidence strength varies: strong in vitro, moderate animal, but weak
+  human evidence.'

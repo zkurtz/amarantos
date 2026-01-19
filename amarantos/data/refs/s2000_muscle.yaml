@@ -20,10 +20,13 @@ keywords:
 - skeletal
 hard_claims: []
 soft_claims:
-- summary: "Mitochondrial enzyme deficiencies in skeletal muscle correlate linearly with mtDNA heteroplasmy levels, with metabolic threshold effects at severe deficiency levels"
+- summary: Mitochondrial enzyme deficiencies in skeletal muscle correlate linearly
+    with mtDNA heteroplasmy levels, with metabolic threshold effects at severe deficiency
+    levels
   choice: mitochondrial_function
-  source_type: "review"
-  notes: "Methodological study on saponin-permeabilized muscle fibers for studying metabolic consequences of enzyme deficiencies. Not an intervention study."
+  source_type: review
+  notes: Methodological study on saponin-permeabilized muscle fibers for studying
+    metabolic consequences of enzyme deficiencies. Not an intervention study.
 journal: Biochem Soc Trans
 volume: '28'
 issue: '2'
@@ -31,4 +34,8 @@ pages: 159-64
 doi: ''
 pmid: '10816119'
 url: https://pubmed.ncbi.nlm.nih.gov/10816119/
-summary: "Methodological study examining how mitochondrial enzyme deficiencies affect skeletal muscle metabolism in patients with chronic progressive external ophthalmoplegia and Kearns-Sayre syndrome. Used saponin-permeabilized muscle fibers with high-resolution respirometry to demonstrate that enzyme activity ratios decrease linearly with increasing mtDNA heteroplasmy, revealing metabolic threshold effects."
+summary: Methodological study examining how mitochondrial enzyme deficiencies affect
+  skeletal muscle metabolism in patients with chronic progressive external ophthalmoplegia
+  and Kearns-Sayre syndrome. Used saponin-permeabilized muscle fibers with high-resolution
+  respirometry to demonstrate that enzyme activity ratios decrease linearly with increasing
+  mtDNA heteroplasmy, revealing metabolic threshold effects.

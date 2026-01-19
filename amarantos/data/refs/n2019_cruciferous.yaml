@@ -24,28 +24,30 @@ keywords:
 - prospective
 - vegetable
 hard_claims:
-- summary: "Higher cruciferous vegetable intake associated with reduced all-cause mortality in men"
+- summary: Higher cruciferous vegetable intake associated with reduced all-cause mortality
+    in men
   choice: cruciferous_vegetables
   evidence_type: Prospective cohort study
-  effect_size: 0.86
-  effect_ci_lower: 0.80
-  effect_ci_upper: 0.93
-  outcome: "all-cause mortality"
-  population: "Japanese men aged 45-74"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.86
+    std: 0.03316326530612245
+  population: Japanese men aged 45-74
   sample_size: 88184
   followup_years: 16.9
-  notes: "Highest vs lowest quintile of cruciferous vegetable intake"
-- summary: "Higher cruciferous vegetable intake associated with reduced all-cause mortality in women"
+  notes: Highest vs lowest quintile of cruciferous vegetable intake
+- summary: Higher cruciferous vegetable intake associated with reduced all-cause mortality
+    in women
   choice: cruciferous_vegetables
   evidence_type: Prospective cohort study
-  effect_size: 0.89
-  effect_ci_lower: 0.81
-  effect_ci_upper: 0.98
-  outcome: "all-cause mortality"
-  population: "Japanese women aged 45-74"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.89
+    std: 0.043367346938775496
+  population: Japanese women aged 45-74
   sample_size: 88184
   followup_years: 16.9
-  notes: "Highest vs lowest quintile of cruciferous vegetable intake"
+  notes: Highest vs lowest quintile of cruciferous vegetable intake
 soft_claims: []
 journal: Clin Nutr
 volume: '38'
@@ -54,4 +56,8 @@ pages: 631-643
 doi: ''
 pmid: '29739681'
 url: https://pubmed.ncbi.nlm.nih.gov/29739681/
-summary: 'Prospective cohort study of 88,184 Japanese adults aged 45-74 followed for median 16.9 years examining cruciferous vegetable intake and mortality. Found that higher cruciferous vegetable consumption was associated with 14% reduced all-cause mortality in men (HR 0.86) and 11% reduced mortality in women (HR 0.89). Cruciferous vegetables contain isothiocyanates which reduce inflammation and oxidative stress.'
+summary: Prospective cohort study of 88,184 Japanese adults aged 45-74 followed for
+  median 16.9 years examining cruciferous vegetable intake and mortality. Found that
+  higher cruciferous vegetable consumption was associated with 14% reduced all-cause
+  mortality in men (HR 0.86) and 11% reduced mortality in women (HR 0.89). Cruciferous
+  vegetables contain isothiocyanates which reduce inflammation and oxidative stress.

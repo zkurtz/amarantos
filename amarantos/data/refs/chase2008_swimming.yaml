@@ -13,17 +13,19 @@ keywords:
 - cardiovascular
 - fitness
 hard_claims:
-- summary: "Swimmers had 53% lower all-cause mortality compared to sedentary men"
+- summary: Swimmers had 53% lower all-cause mortality compared to sedentary men
   choice: swimming
   evidence_type: Prospective cohort study
-  effect_size: 0.47
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause mortality"
-  population: "men aged 20-90 years"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.47
+    std: 0.1175
+  population: men aged 20-90 years
   sample_size: 40547
   followup_years: 13.0
-  notes: "543,330 man-years of observation with 3,386 deaths; adjusted for age, BMI, smoking, alcohol, and family history of CVD; swimmers also had 50% lower mortality vs walkers and 49% lower vs runners"
+  notes: 543,330 man-years of observation with 3,386 deaths; adjusted for age, BMI,
+    smoking, alcohol, and family history of CVD; swimmers also had 50% lower mortality
+    vs walkers and 49% lower vs runners
 soft_claims: []
 journal: International Journal of Aquatic Research and Education
 volume: '2'
@@ -32,4 +34,7 @@ pages: ''
 doi: ''
 pmid: ''
 url: https://scholarworks.bgsu.edu/ijare/vol2/iss3/3/
-summary: 'Prospective cohort study of 40,547 men aged 20-90 years followed during 1971-2003 (543,330 man-years, 3,386 deaths). After adjustment for age, BMI, smoking, alcohol, and family history of CVD, swimmers had 53% lower all-cause mortality compared to sedentary men, 50% lower than walkers, and 49% lower than runners.'
+summary: Prospective cohort study of 40,547 men aged 20-90 years followed during 1971-2003
+  (543,330 man-years, 3,386 deaths). After adjustment for age, BMI, smoking, alcohol,
+  and family history of CVD, swimmers had 53% lower all-cause mortality compared to
+  sedentary men, 50% lower than walkers, and 49% lower than runners.

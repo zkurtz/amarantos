@@ -1,6 +1,6 @@
 id: ma2013_comparison
-title: A comparison of mindfulness-based stress reduction and an active control
-  in modulation of neurogenic inflammation
+title: A comparison of mindfulness-based stress reduction and an active control in
+  modulation of neurogenic inflammation
 authors:
 - Rosenkranz MA
 - Davidson RJ
@@ -22,17 +22,16 @@ keywords:
 - reduction
 - stress
 hard_claims:
-- summary: "8-week MBSR training produced significantly smaller post-stress inflammatory response compared to active control despite equivalent stress hormone levels"
+- summary: 8-week MBSR training produced significantly smaller post-stress inflammatory
+    response compared to active control despite equivalent stress hormone levels
   choice: meditation
   evidence_type: Randomized controlled trial
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "neurogenic inflammation (TNF-alpha, IL-8)"
-  population: "healthy adults"
+  effects: []
+  population: healthy adults
   sample_size: 47
   followup_years: 0.15
-  notes: "Used Trier Social Stress Test and capsaicin-induced inflammation; MBSR reduced blister fluid inflammatory markers vs Health Enhancement Program control"
+  notes: Used Trier Social Stress Test and capsaicin-induced inflammation; MBSR reduced
+    blister fluid inflammatory markers vs Health Enhancement Program control
 soft_claims: []
 journal: Brain Behav Immun
 volume: '27'
@@ -41,4 +40,8 @@ pages: 174-84
 doi: ''
 pmid: '23092711'
 url: https://pubmed.ncbi.nlm.nih.gov/23092711/
-summary: "Randomized controlled trial comparing 8-week Mindfulness-Based Stress Reduction (MBSR) to matched active control (Health Enhancement Program) in approximately 47 healthy adults. Found MBSR produced significantly smaller post-stress inflammatory response despite equivalent stress hormone levels, suggesting specific anti-inflammatory benefits beyond general stress reduction."
+summary: Randomized controlled trial comparing 8-week Mindfulness-Based Stress Reduction
+  (MBSR) to matched active control (Health Enhancement Program) in approximately 47
+  healthy adults. Found MBSR produced significantly smaller post-stress inflammatory
+  response despite equivalent stress hormone levels, suggesting specific anti-inflammatory
+  benefits beyond general stress reduction.

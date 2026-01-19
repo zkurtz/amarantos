@@ -27,10 +27,12 @@ keywords:
 - triple
 hard_claims: []
 soft_claims:
-- summary: "This study examines cognitive-motor interference in multiple sclerosis patients using posturography but does not relate to longevity interventions."
+- summary: This study examines cognitive-motor interference in multiple sclerosis
+    patients using posturography but does not relate to longevity interventions.
   choice: other
-  source_type: "research article"
-  notes: "Retrospective analysis of dual-task posturography in MS patients and healthy controls; not relevant to longevity interventions."
+  source_type: research article
+  notes: Retrospective analysis of dual-task posturography in MS patients and healthy
+    controls; not relevant to longevity interventions.
 journal: Exploration of Neuroprotective Therapy
 volume: ''
 issue: ''
@@ -38,4 +40,8 @@ pages: 273-287
 doi: 10.37349/ent.2024.00082
 pmid: ''
 url: https://www.explorationpub.com/Journals/ent/Article/1004125
-summary: 'Retrospective analysis examining cognitive-motor interference in multiple sclerosis patients and healthy controls using single, dual, and triple task posturography. Study analyzed data from June 2016 to April 2019 across five studies conducted at two German centers (Berlin and Hamburg). Evaluated postural control under various cognitive load conditions in relapsing-remitting and progressive MS forms.'
+summary: Retrospective analysis examining cognitive-motor interference in multiple
+  sclerosis patients and healthy controls using single, dual, and triple task posturography.
+  Study analyzed data from June 2016 to April 2019 across five studies conducted at
+  two German centers (Berlin and Hamburg). Evaluated postural control under various
+  cognitive load conditions in relapsing-remitting and progressive MS forms.

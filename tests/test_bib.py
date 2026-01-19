@@ -7,8 +7,8 @@ import pytest
 
 from amarantos.core.bib import (
     REFS_DIR,
+    Claim,
     EvidenceType,
-    HardClaim,
     Reference,
     ReferenceType,
     SoftClaim,
@@ -86,14 +86,18 @@ class TestReferenceLoadSave:
 
     def test_save_and_load_roundtrip(self) -> None:
         """Test that a reference can be saved and loaded."""
-        hard_claim = HardClaim(
+        from amarantos.core.schemas import BaseEffect
+        
+        effect = BaseEffect(
+            outcome="all-cause mortality",
+            mean=0.8,
+            std=0.051  # Calculated from (0.9 - 0.7) / (2 * 1.96) ≈ 0.051
+        )
+        hard_claim = Claim(
             summary="Test hard claim",
             choice="test_choice",
             evidence_type=EvidenceType.META_ANALYSIS,
-            effect_size=0.8,
-            effect_ci_lower=0.7,
-            effect_ci_upper=0.9,
-            outcome="all-cause mortality",
+            effects=(effect,),
             population="adults",
             sample_size=10000,
         )
@@ -138,7 +142,9 @@ class TestReferenceLoadSave:
             assert loaded.summary == ref.summary
             assert len(loaded.hard_claims) == 1
             assert loaded.hard_claims[0].summary == hard_claim.summary
-            assert loaded.hard_claims[0].effect_size == hard_claim.effect_size
+            assert len(loaded.hard_claims[0].effects) == 1
+            assert loaded.hard_claims[0].effects[0].outcome == "all-cause mortality"
+            assert loaded.hard_claims[0].effects[0].mean == 0.8
             assert len(loaded.soft_claims) == 1
             assert loaded.soft_claims[0].summary == soft_claim.summary
             assert loaded.soft_claims[0].source_type == soft_claim.source_type

@@ -22,7 +22,8 @@ keywords:
 - randomized
 - severity
 - surgery
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Complementary Therapies in Medicine
 volume: '90'
 issue: ''
@@ -30,4 +31,4 @@ pages: '103169'
 doi: 10.1016/j.ctim.2025.103169
 pmid: ''
 url: https://www.sciencedirect.com/science/article/pii/S0965229925001189
-abstract: ''
+summary: ''

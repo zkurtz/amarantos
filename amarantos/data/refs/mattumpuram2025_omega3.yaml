@@ -16,7 +16,8 @@ keywords:
 - MACE
 - meta-analysis
 - RCT
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clinical and Translational Discovery
 volume: '5'
 issue: '1'
@@ -24,4 +25,4 @@ pages: e70094
 doi: 10.1002/ctd2.70094
 pmid: ''
 url: https://doi.org/10.1002/ctd2.70094
-abstract: ''
+summary: ''

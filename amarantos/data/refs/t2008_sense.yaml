@@ -20,7 +20,8 @@ keywords:
 - ohsaki
 - sense
 - worth
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Psychosom Med
 volume: '70'
 issue: '6'
@@ -28,4 +29,4 @@ pages: 709-15
 doi: ''
 pmid: '18596247'
 url: https://pubmed.ncbi.nlm.nih.gov/18596247/
-abstract: ''
+summary: ''

@@ -21,7 +21,8 @@ keywords:
 - lifespan
 - supplement
 - supplementation
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Aging Cell
 volume: '18'
 issue: '3'
@@ -29,4 +30,4 @@ pages: e12953
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6516426/
-abstract: ''
+summary: ''

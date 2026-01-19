@@ -16,7 +16,8 @@ keywords:
 - prevention
 - secondary
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Mayo Clinic Proceedings
 volume: '88'
 issue: '6'
@@ -25,4 +26,4 @@ doi: 10.1016/j.mayocp.2013.02.007
 pmid: ''
 url:
   https://www.mayoclinicproceedings.org/article/S0025-6196(13)00127-4/fulltext
-abstract: ''
+summary: ''

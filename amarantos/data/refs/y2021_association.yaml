@@ -26,7 +26,8 @@ keywords:
 - response
 - studies
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Sports Med
 volume: '51'
 issue: '7'
@@ -34,4 +35,4 @@ pages: 1439-1448
 doi: ''
 pmid: '33774807'
 url: https://pubmed.ncbi.nlm.nih.gov/33774807/
-abstract: ''
+summary: ''

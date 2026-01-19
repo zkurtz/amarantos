@@ -11,7 +11,8 @@ keywords:
 - exercise
 - nonexercise
 - thermogenesis
-claims: []
+hard_claims: []
+soft_claims: []
 journal: American Journal of Physiology-Endocrinology and Metabolism
 volume: '286'
 issue: '5'
@@ -19,4 +20,4 @@ pages: E675-E685
 doi: 10.1152/ajpendo.00562.2003
 pmid: ''
 url: https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003
-abstract: ''
+summary: ''

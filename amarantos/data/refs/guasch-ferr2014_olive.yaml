@@ -20,7 +20,8 @@ keywords:
 - mortality
 - olive
 - predimed
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BMC Medicine
 volume: '12'
 issue: '1'
@@ -28,4 +29,4 @@ pages: ''
 doi: 10.1186/1741-7015-12-78
 pmid: ''
 url: https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-12-78
-abstract: ''
+summary: ''

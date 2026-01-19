@@ -17,7 +17,8 @@ keywords:
 - selenium
 - supplement
 - supplementation
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Cochrane Database Syst Rev
 volume: '2013'
 issue: '1'
@@ -25,4 +26,4 @@ pages: CD009671
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7433291/
-abstract: ''
+summary: ''

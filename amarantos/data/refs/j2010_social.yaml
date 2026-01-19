@@ -12,7 +12,8 @@ keywords:
 - mortality
 - meta-analysis
 - loneliness
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLoS Med
 volume: '7'
 issue: '7'
@@ -20,4 +21,4 @@ pages: e1000316
 doi: ''
 pmid: '20668659'
 url: https://pubmed.ncbi.nlm.nih.gov/20668659/
-abstract: ''
+summary: ''

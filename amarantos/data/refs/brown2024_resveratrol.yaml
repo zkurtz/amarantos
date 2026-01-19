@@ -21,7 +21,8 @@ keywords:
 - resveratrol
 - systematic review
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: International Journal of Molecular Sciences
 volume: '25'
 issue: '2'
@@ -29,4 +30,4 @@ pages: '747'
 doi: 10.3390/ijms25020747
 pmid: ''
 url: https://www.mdpi.com/1422-0067/25/2/747
-abstract: ''
+summary: ''

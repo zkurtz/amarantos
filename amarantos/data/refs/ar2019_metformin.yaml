@@ -25,7 +25,8 @@ keywords:
 - mitochondrial
 - older
 - training
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Aging Cell
 volume: '18'
 issue: '1'
@@ -33,4 +34,4 @@ pages: e12880
 doi: ''
 pmid: '30548390'
 url: https://pubmed.ncbi.nlm.nih.gov/30548390/
-abstract: ''
+summary: ''

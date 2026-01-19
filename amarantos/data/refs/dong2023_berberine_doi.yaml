@@ -11,7 +11,8 @@ keywords:
 - prediabetes
 - glycemic
 - supplement
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Phytomedicine
 volume: ''
 issue: ''
@@ -19,4 +20,4 @@ pages: ''
 doi: 10.1016/j.phymed.2023.154127
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0944711323000740
-abstract: ''
+summary: ''

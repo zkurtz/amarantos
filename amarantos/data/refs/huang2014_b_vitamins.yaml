@@ -15,7 +15,8 @@ keywords:
 - mortality
 - meta-analysis
 - RCT
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLoS One
 volume: '9'
 issue: '9'
@@ -23,4 +24,4 @@ pages: e107060
 doi: 10.1371/journal.pone.0107060
 pmid: ''
 url: https://doi.org/10.1371/journal.pone.0107060
-abstract: ''
+summary: ''

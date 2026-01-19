@@ -21,7 +21,8 @@ keywords:
 - specific
 - systematic review
 - updated
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Eur J Epidemiol
 volume: '37'
 issue: '4'
@@ -29,4 +30,4 @@ pages: 321-333
 doi: ''
 pmid: '35460393'
 url: https://pubmed.ncbi.nlm.nih.gov/35460393/
-abstract: ''
+summary: ''

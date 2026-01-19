@@ -20,7 +20,8 @@ keywords:
 - pomegranate
 - pressure
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Phytother Res
 volume: '38'
 issue: '5'
@@ -28,4 +29,4 @@ pages: 2234-2248
 doi: ''
 pmid: '38410857'
 url: https://pubmed.ncbi.nlm.nih.gov/38410857/
-abstract: ''
+summary: ''

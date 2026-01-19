@@ -18,7 +18,8 @@ keywords:
 - stress
 - symptoms
 - various
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Molecules
 volume: '27'
 issue: '12'
@@ -26,4 +27,4 @@ pages: '3902'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9228580/
-abstract: ''
+summary: ''

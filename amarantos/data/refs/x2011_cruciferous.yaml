@@ -21,7 +21,8 @@ keywords:
 - reduced
 - total
 - vegetable
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Am J Clin Nutr
 volume: '94'
 issue: '1'
@@ -29,4 +30,4 @@ pages: 240-246
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3127519/
-abstract: ''
+summary: ''

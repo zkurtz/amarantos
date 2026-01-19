@@ -16,7 +16,8 @@ keywords:
 - systematic review
 - water
 - wellbeing
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLOS ONE
 volume: '20'
 issue: '1'
@@ -24,4 +25,4 @@ pages: e0317615
 doi: 10.1371/journal.pone.0317615
 pmid: ''
 url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0317615
-abstract: ''
+summary: ''

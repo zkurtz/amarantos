@@ -24,7 +24,8 @@ keywords:
 - lessons
 - management
 - pediatric
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Ital J Pediatr
 volume: '49'
 issue: '1'
@@ -32,4 +33,4 @@ pages: '15'
 doi: ''
 pmid: '36698148'
 url: https://pubmed.ncbi.nlm.nih.gov/36698148/
-abstract: ''
+summary: ''

@@ -21,7 +21,8 @@ keywords:
 - improved
 - korea
 - population
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Eur Heart J
 volume: '40'
 issue: '14'
@@ -29,4 +30,4 @@ pages: 1138-1145
 doi: ''
 pmid: '30561631'
 url: https://pubmed.ncbi.nlm.nih.gov/30561631/
-abstract: ''
+summary: ''

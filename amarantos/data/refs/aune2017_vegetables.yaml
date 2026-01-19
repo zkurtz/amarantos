@@ -17,7 +17,8 @@ keywords:
 - leafy greens
 - meta-analysis
 - longevity
-claims: []
+hard_claims: []
+soft_claims: []
 journal: International Journal of Epidemiology
 volume: '46'
 issue: '3'
@@ -25,4 +26,4 @@ pages: 1029-1056
 doi: 10.1093/ije/dyw319
 pmid: '28338764'
 url: https://pubmed.ncbi.nlm.nih.gov/28338764/
-abstract: ''
+summary: ''

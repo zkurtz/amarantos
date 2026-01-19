@@ -19,7 +19,8 @@ keywords:
 - regeneration
 - IGF-1
 - caloric restriction
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Cell Metabolism
 volume: '22'
 issue: '1'
@@ -27,4 +28,4 @@ pages: 86-99
 doi: 10.1016/j.cmet.2015.05.012
 pmid: '26094889'
 url: https://pubmed.ncbi.nlm.nih.gov/26094889/
-abstract: ''
+summary: ''

@@ -21,7 +21,8 @@ keywords:
 - nutrient
 - polyunsaturated
 - prospective
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrients
 volume: '13'
 issue: '7'
@@ -29,4 +30,4 @@ pages: '2342'
 doi: 10.3390/nu13072342
 pmid: ''
 url: https://www.mdpi.com/2072-6643/13/7/2342
-abstract: ''
+summary: ''

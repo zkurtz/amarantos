@@ -15,7 +15,8 @@ keywords:
 - Mediterranean diet
 - CVD
 - longevity
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '70'
 issue: '20'
@@ -23,4 +24,4 @@ pages: 2519-2532
 doi: 10.1016/j.jacc.2017.09.035
 pmid: '29145952'
 url: https://pubmed.ncbi.nlm.nih.gov/29145952/
-abstract: ''
+summary: ''

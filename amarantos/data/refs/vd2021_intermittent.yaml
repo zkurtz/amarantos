@@ -13,7 +13,8 @@ keywords:
 - intermittent
 - longevity
 - periodic
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nat Aging
 volume: '1'
 issue: '1'
@@ -21,4 +22,4 @@ pages: 47-59
 doi: ''
 pmid: '35310455'
 url: https://pubmed.ncbi.nlm.nih.gov/35310455/
-abstract: ''
+summary: ''

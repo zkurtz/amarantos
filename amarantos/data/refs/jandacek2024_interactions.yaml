@@ -14,7 +14,8 @@ keywords:
 - storage
 - toxin
 - weight
-claims: []
+hard_claims: []
+soft_claims: []
 journal: The Journal of Nutrition
 volume: '154'
 issue: '3'
@@ -22,4 +23,4 @@ pages: 801-803
 doi: 10.1016/j.tjnut.2024.01.018
 pmid: ''
 url: https://jn.nutrition.org/article/S0022-3166(24)00021-X/pdf
-abstract: ''
+summary: ''

@@ -23,7 +23,8 @@ keywords:
 - randomized
 - senolytic
 - trial
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Frontiers in Cardiovascular Medicine
 volume: '8'
 issue: ''
@@ -32,4 +33,4 @@ doi: 10.3389/fcvm.2021.741542
 pmid: ''
 url:
   https://www.frontiersin.org/journals/cardiovascular-medicine/articles/10.3389/fcvm.2021.741542/full
-abstract: ''
+summary: ''

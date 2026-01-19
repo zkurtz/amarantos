@@ -14,7 +14,8 @@ keywords:
 - LDL
 - inflammation
 - supplements
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Marine Drugs
 volume: '15'
 issue: '3'
@@ -22,4 +23,4 @@ pages: '72'
 doi: 10.3390/md15030072
 pmid: '27924978'
 url: https://pubmed.ncbi.nlm.nih.gov/27924978/
-abstract: ''
+summary: ''

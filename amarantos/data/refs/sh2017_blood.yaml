@@ -13,7 +13,8 @@ keywords:
 - pressure
 - response
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: J Altern Complement Med
 volume: '23'
 issue: '9'
@@ -21,4 +22,4 @@ pages: 685-695
 doi: ''
 pmid: '28384004'
 url: https://pubmed.ncbi.nlm.nih.gov/28384004/
-abstract: ''
+summary: ''

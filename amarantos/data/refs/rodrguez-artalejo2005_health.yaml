@@ -23,7 +23,8 @@ keywords:
 - quality
 - readmission
 - related
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Archives of Internal Medicine
 volume: '165'
 issue: '11'
@@ -31,4 +32,4 @@ pages: '1274'
 doi: 10.1001/archinte.165.11.1274
 pmid: ''
 url: https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/413032
-abstract: ''
+summary: ''

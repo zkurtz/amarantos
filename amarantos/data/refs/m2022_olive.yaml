@@ -18,7 +18,8 @@ keywords:
 - olive
 - prospective
 - studies
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Front Nutr
 volume: '9'
 issue: ''
@@ -26,4 +27,4 @@ pages: '1041203'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9623257/
-abstract: ''
+summary: ''

@@ -16,7 +16,8 @@ keywords:
 - interval
 - systematic review
 - training
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American Heart Association
 volume: '7'
 issue: '21'
@@ -24,4 +25,4 @@ pages: ''
 doi: 10.1161/JAHA.118.009305
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.118.009305
-abstract: ''
+summary: ''

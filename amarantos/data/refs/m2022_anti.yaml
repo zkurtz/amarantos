@@ -18,7 +18,8 @@ keywords:
 - resveratrol
 - systematic review
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Complement Ther Med
 volume: '70'
 issue: ''
@@ -26,4 +27,4 @@ pages: '102863'
 doi: ''
 pmid: '35905799'
 url: https://pubmed.ncbi.nlm.nih.gov/35905799/
-abstract: ''
+summary: ''

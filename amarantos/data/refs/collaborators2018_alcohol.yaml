@@ -11,7 +11,8 @@ keywords:
 - countries
 - global
 - territories
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Lancet
 volume: '392'
 issue: '10152'
@@ -19,4 +20,4 @@ pages: 1015-1035
 doi: ''
 pmid: '30146330'
 url: https://pubmed.ncbi.nlm.nih.gov/30146330/
-abstract: ''
+summary: ''

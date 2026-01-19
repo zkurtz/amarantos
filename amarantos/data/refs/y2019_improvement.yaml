@@ -15,7 +15,8 @@ keywords:
 - hericium
 - improvement
 - intake
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Biomed Res
 volume: '40'
 issue: '4'
@@ -23,4 +24,4 @@ pages: 125-131
 doi: ''
 pmid: '31413233'
 url: https://pubmed.ncbi.nlm.nih.gov/31413233/
-abstract: ''
+summary: ''

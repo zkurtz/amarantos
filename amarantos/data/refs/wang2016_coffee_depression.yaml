@@ -14,7 +14,8 @@ keywords:
 - mood
 - meta-analysis
 - observational
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Australian and New Zealand Journal of Psychiatry
 volume: '50'
 issue: '3'
@@ -22,4 +23,4 @@ pages: 228-242
 doi: 10.1177/0004867415603131
 pmid: '26339067'
 url: https://pubmed.ncbi.nlm.nih.gov/26339067/
-abstract: ''
+summary: ''

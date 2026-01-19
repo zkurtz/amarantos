@@ -25,7 +25,8 @@ keywords:
 - sclerosis
 - single
 - triple
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Exploration of Neuroprotective Therapy
 volume: ''
 issue: ''
@@ -33,4 +34,4 @@ pages: 273-287
 doi: 10.37349/ent.2024.00082
 pmid: ''
 url: https://www.explorationpub.com/Journals/ent/Article/1004125
-abstract: ''
+summary: ''

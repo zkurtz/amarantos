@@ -18,7 +18,8 @@ keywords:
 - supplementation
 - trials
 - updated
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American Heart Association
 volume: '8'
 issue: '19'
@@ -26,4 +27,4 @@ pages: ''
 doi: 10.1161/JAHA.119.013543
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.119.013543
-abstract: ''
+summary: ''

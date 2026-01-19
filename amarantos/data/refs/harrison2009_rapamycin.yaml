@@ -16,7 +16,8 @@ keywords:
 - longevity
 - immunosuppressant
 - healthspan
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nature
 volume: '460'
 issue: '7253'
@@ -24,4 +25,4 @@ pages: 392-395
 doi: 10.1038/nature08221
 pmid: '19587680'
 url: https://pubmed.ncbi.nlm.nih.gov/19587680/
-abstract: ''
+summary: ''

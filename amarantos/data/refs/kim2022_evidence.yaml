@@ -21,7 +21,8 @@ keywords:
 - gwangju
 - jeonnam
 - pandemic
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Epidemiology and Health
 volume: '44'
 issue: ''
@@ -29,4 +30,4 @@ pages: e2022092
 doi: 10.4178/epih.e2022092
 pmid: ''
 url: https://www.e-epih.org/journal/view.php?number=1522
-abstract: ''
+summary: ''

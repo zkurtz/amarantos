@@ -15,7 +15,8 @@ keywords:
 - moderate intensity
 - vigorous intensity
 - longevity
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Circulation
 volume: '146'
 issue: '7'
@@ -23,4 +24,4 @@ pages: 523-534
 doi: 10.1161/CIRCULATIONAHA.121.058162
 pmid: '35876019'
 url: https://pubmed.ncbi.nlm.nih.gov/35876019/
-abstract: ''
+summary: ''

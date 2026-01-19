@@ -21,7 +21,8 @@ keywords:
 - sleep
 - threaten
 - weight
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clinical Nutrition
 volume: '41'
 issue: '12'
@@ -29,4 +30,4 @@ pages: 2988-2995
 doi: 10.1016/j.clnu.2021.06.019
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198
-abstract: ''
+summary: ''

@@ -24,7 +24,8 @@ keywords:
 - randomized
 - riboside
 - trial
-claims: []
+hard_claims: []
+soft_claims: []
 journal: GeroScience
 volume: '46'
 issue: '1'
@@ -32,4 +33,4 @@ pages: 665-682
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10828186/
-abstract: ''
+summary: ''

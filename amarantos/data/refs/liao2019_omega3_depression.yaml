@@ -16,7 +16,8 @@ keywords:
 - wellbeing
 - meta-analysis
 - RCT
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Translational Psychiatry
 volume: '9'
 issue: '1'
@@ -24,4 +25,4 @@ pages: '190'
 doi: 10.1038/s41398-019-0515-5
 pmid: '31383846'
 url: https://pubmed.ncbi.nlm.nih.gov/31383846/
-abstract: ''
+summary: ''

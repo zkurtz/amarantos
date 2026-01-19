@@ -18,7 +18,8 @@ keywords:
 - meta-analysis
 - omega
 - pufas
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Translational Psychiatry
 volume: '9'
 issue: '1'
@@ -26,4 +27,4 @@ pages: ''
 doi: 10.1038/s41398-019-0515-5
 pmid: ''
 url: https://www.nature.com/articles/s41398-019-0515-5
-abstract: ''
+summary: ''

@@ -23,7 +23,8 @@ keywords:
 - mortality
 - prospective
 - vegetable
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clin Nutr
 volume: '38'
 issue: '2'
@@ -31,4 +32,4 @@ pages: 631-643
 doi: ''
 pmid: '29739681'
 url: https://pubmed.ncbi.nlm.nih.gov/29739681/
-abstract: ''
+summary: ''

@@ -16,7 +16,8 @@ keywords:
 - meta-analysis
 - nutrient
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrients
 volume: '15'
 issue: '9'
@@ -24,4 +25,4 @@ pages: '2080'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/
-abstract: ''
+summary: ''

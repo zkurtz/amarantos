@@ -16,7 +16,8 @@ keywords:
 - regulatory
 - related
 - underreporting
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Annals of Oncology
 volume: '30'
 issue: '4'
@@ -24,4 +25,4 @@ pages: 657-658
 doi: 10.1093/annonc/mdz033
 pmid: ''
 url: https://www.annalsofoncology.org/article/s0923-7534(19)31159-7/fulltext
-abstract: ''
+summary: ''

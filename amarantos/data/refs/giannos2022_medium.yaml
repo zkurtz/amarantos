@@ -24,7 +24,8 @@ keywords:
 - randomized
 - systematic review
 - triglycerides
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BMC Geriatrics
 volume: '22'
 issue: '1'
@@ -32,4 +33,4 @@ pages: ''
 doi: 10.1186/s12877-022-03521-6
 pmid: ''
 url: https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-022-03521-6
-abstract: ''
+summary: ''

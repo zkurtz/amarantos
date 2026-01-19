@@ -24,7 +24,8 @@ keywords:
 - nutrition
 - prospective
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Frontiers in Nutrition
 volume: '10'
 issue: ''
@@ -33,4 +34,4 @@ doi: 10.3389/fnut.2023.1153165
 pmid: ''
 url:
   https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1153165/full
-abstract: ''
+summary: ''

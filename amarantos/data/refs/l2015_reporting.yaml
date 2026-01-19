@@ -19,7 +19,8 @@ keywords:
 - reporting
 - research
 - reviews
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Health Policy
 volume: '119'
 issue: '4'
@@ -27,4 +28,4 @@ pages: 503-10
 doi: ''
 pmid: '25260911'
 url: https://pubmed.ncbi.nlm.nih.gov/25260911/
-abstract: ''
+summary: ''

@@ -23,7 +23,8 @@ keywords:
 - randomized
 - safety
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BMC Cardiovascular Disorders
 volume: '24'
 issue: '1'
@@ -32,4 +33,4 @@ doi: 10.1186/s12872-024-04232-z
 pmid: ''
 url:
   https://bmccardiovascdisord.biomedcentral.com/articles/10.1186/s12872-024-04232-z
-abstract: ''
+summary: ''

@@ -20,7 +20,8 @@ keywords:
 - representation
 - systematic review
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLoS One
 volume: '12'
 issue: '4'
@@ -28,4 +29,4 @@ pages: e0176145
 doi: ''
 pmid: '28426831'
 url: https://pubmed.ncbi.nlm.nih.gov/28426831/
-abstract: ''
+summary: ''

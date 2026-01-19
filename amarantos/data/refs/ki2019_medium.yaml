@@ -19,7 +19,8 @@ keywords:
 - meta-analysis
 - systematic review
 - triglycerides
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Ageing Res Rev
 volume: '58'
 issue: ''
@@ -27,4 +28,4 @@ pages: '101001'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7050425/
-abstract: ''
+summary: ''

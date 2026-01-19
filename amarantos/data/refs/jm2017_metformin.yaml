@@ -19,7 +19,8 @@ keywords:
 - mortality
 - reduces
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Ageing Res Rev
 volume: '40'
 issue: ''
@@ -27,4 +28,4 @@ pages: 31-44
 doi: ''
 pmid: '28802803'
 url: https://pubmed.ncbi.nlm.nih.gov/28802803/
-abstract: ''
+summary: ''

@@ -16,7 +16,8 @@ keywords:
 - mice
 - senescence
 - mitochondria
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Science
 volume: '380'
 issue: '6649'
@@ -24,4 +25,4 @@ pages: eabn9257
 doi: 10.1126/science.abn9257
 pmid: '37289866'
 url: https://pubmed.ncbi.nlm.nih.gov/37289866/
-abstract: ''
+summary: ''

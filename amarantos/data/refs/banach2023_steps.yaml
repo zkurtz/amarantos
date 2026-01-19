@@ -15,7 +15,8 @@ keywords:
 - exercise
 - physical activity
 - dose-response
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '82'
 issue: '16'
@@ -23,4 +24,4 @@ pages: 1562-1575
 doi: 10.1016/j.jacc.2023.07.029
 pmid: '37768239'
 url: https://pubmed.ncbi.nlm.nih.gov/37768239/
-abstract: ''
+summary: ''

@@ -15,7 +15,8 @@ keywords:
 - cardiovascular
 - longevity
 - Sweden
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of Internal Medicine
 volume: '280'
 issue: '4'
@@ -23,4 +24,4 @@ pages: 375-387
 doi: 10.1111/joim.12496
 pmid: '26992108'
 url: https://pubmed.ncbi.nlm.nih.gov/26992108/
-abstract: ''
+summary: ''

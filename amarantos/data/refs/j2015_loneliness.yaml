@@ -16,7 +16,8 @@ keywords:
 - loneliness
 - mortality
 - social
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Perspect Psychol Sci
 volume: '10'
 issue: '2'
@@ -24,4 +25,4 @@ pages: 227-37
 doi: ''
 pmid: '25910392'
 url: https://pubmed.ncbi.nlm.nih.gov/25910392/
-abstract: ''
+summary: ''

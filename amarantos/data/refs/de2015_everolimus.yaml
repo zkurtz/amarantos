@@ -25,7 +25,8 @@ keywords:
 - prostate
 - resistant
 - results
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Cancer
 volume: '121'
 issue: '21'
@@ -33,4 +34,4 @@ pages: 3853-61
 doi: ''
 pmid: '26178426'
 url: https://pubmed.ncbi.nlm.nih.gov/26178426/
-abstract: ''
+summary: ''

@@ -25,7 +25,8 @@ keywords:
 - randomized
 - response
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American Heart Association
 volume: '9'
 issue: '12'
@@ -33,4 +34,4 @@ pages: ''
 doi: 10.1161/JAHA.119.015719
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.119.015719
-abstract: ''
+summary: ''

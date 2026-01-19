@@ -25,7 +25,8 @@ keywords:
 - fasting
 - markers
 - mimicking
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Sci Transl Med
 volume: '9'
 issue: '377'
@@ -33,4 +34,4 @@ pages: ''
 doi: ''
 pmid: '28202779'
 url: https://pubmed.ncbi.nlm.nih.gov/28202779/
-abstract: ''
+summary: ''

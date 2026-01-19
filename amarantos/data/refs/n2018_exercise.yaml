@@ -24,7 +24,8 @@ keywords:
 - nutrition
 - thermogenesis
 - total
-claims: []
+hard_claims: []
+soft_claims: []
 journal: J Exerc Nutrition Biochem
 volume: '22'
 issue: '2'
@@ -32,4 +33,4 @@ pages: 23-30
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/
-abstract: ''
+summary: ''

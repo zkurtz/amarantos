@@ -25,7 +25,8 @@ keywords:
 - nitrate
 - pressure
 - vegetable
-claims: []
+hard_claims: []
+soft_claims: []
 journal: European Journal of Epidemiology
 volume: '36'
 issue: '8'
@@ -33,4 +34,4 @@ pages: 813-825
 doi: 10.1007/s10654-021-00747-3
 pmid: ''
 url: https://link.springer.com/article/10.1007/s10654-021-00747-3
-abstract: ''
+summary: ''

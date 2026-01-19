@@ -11,7 +11,8 @@ keywords:
 - researchers
 - taurine
 - unlikely
-claims: []
+hard_claims: []
+soft_claims: []
 journal: NIH News Releases
 volume: ''
 issue: ''
@@ -20,4 +21,4 @@ doi: ''
 pmid: ''
 url:
   https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker
-abstract: ''
+summary: ''

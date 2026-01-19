@@ -18,7 +18,8 @@ keywords:
 - mortality
 - cardiovascular
 - meta-analysis
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Frontiers in Nutrition
 volume: '9'
 issue: ''
@@ -27,4 +28,4 @@ doi: 10.3389/fnut.2022.798078
 pmid: ''
 url:
   https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full
-abstract: ''
+summary: ''

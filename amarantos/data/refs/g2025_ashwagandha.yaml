@@ -19,7 +19,8 @@ keywords:
 - supplement
 - supplements
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BJPsych Open
 volume: '11'
 issue: Suppl 1
@@ -27,4 +28,4 @@ pages: S39
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12242034/
-abstract: ''
+summary: ''

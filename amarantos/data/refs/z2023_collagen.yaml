@@ -26,7 +26,8 @@ keywords:
 - supplement
 - supplementation
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Br J Nutr
 volume: '129'
 issue: '5'
@@ -34,4 +35,4 @@ pages: 779-794
 doi: ''
 pmid: '35658958'
 url: https://pubmed.ncbi.nlm.nih.gov/35658958/
-abstract: ''
+summary: ''

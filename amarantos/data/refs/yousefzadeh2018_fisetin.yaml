@@ -16,7 +16,8 @@ keywords:
 - flavonoid
 - longevity
 - mice
-claims: []
+hard_claims: []
+soft_claims: []
 journal: EBioMedicine
 volume: '36'
 issue: ''
@@ -24,4 +25,4 @@ pages: 18-28
 doi: 10.1016/j.ebiom.2018.09.015
 pmid: '30279143'
 url: https://pubmed.ncbi.nlm.nih.gov/30279143/
-abstract: ''
+summary: ''

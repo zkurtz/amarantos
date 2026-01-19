@@ -15,7 +15,8 @@ keywords:
 - meta-analysis
 - oral health
 - CVD
-claims: []
+hard_claims: []
+soft_claims: []
 journal: "BMC Oral Health"
 volume: "24"
 issue: "1"
@@ -23,4 +24,4 @@ pages: "692"
 doi: ""
 pmid: "38877442"
 url: https://pubmed.ncbi.nlm.nih.gov/38877442/
-abstract: ""
+summary: ""

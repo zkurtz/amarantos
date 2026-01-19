@@ -17,7 +17,8 @@ keywords:
 - perioperative
 - rheumatoid
 - surgery
-claims: []
+hard_claims: []
+soft_claims: []
 journal: J Hand Surg Am
 volume: '45'
 issue: '8'
@@ -25,4 +26,4 @@ pages: 779.e1-779.e6
 doi: ''
 pmid: '32209269'
 url: https://pubmed.ncbi.nlm.nih.gov/32209269/
-abstract: ''
+summary: ''

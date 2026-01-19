@@ -14,7 +14,8 @@ keywords:
 - muscle
 - meta-analysis
 - dose-response
-claims: []
+hard_claims: []
+soft_claims: []
 journal: American Journal of Preventive Medicine
 volume: '63'
 issue: '2'
@@ -22,4 +23,4 @@ pages: 277-285
 doi: 10.1016/j.amepre.2022.03.020
 pmid: '35599175'
 url: https://pubmed.ncbi.nlm.nih.gov/35599175/
-abstract: ''
+summary: ''

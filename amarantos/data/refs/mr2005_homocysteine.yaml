@@ -20,7 +20,8 @@ keywords:
 - placebo
 - randomised
 - results
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLoS Med
 volume: '2'
 issue: '5'
@@ -28,4 +29,4 @@ pages: e135
 doi: ''
 pmid: '15916468'
 url: https://pubmed.ncbi.nlm.nih.gov/15916468/
-abstract: ''
+summary: ''

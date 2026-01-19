@@ -10,7 +10,8 @@ keywords:
 - supplement
 - supplementation
 - vitamin
-claims: []
+hard_claims: []
+soft_claims: []
 journal: New England Journal of Medicine
 volume: '342'
 issue: '3'
@@ -18,4 +19,4 @@ pages: 154-160
 doi: 10.1056/NEJM200001203420302
 pmid: ''
 url: https://www.nejm.org/doi/full/10.1056/NEJM200001203420302
-abstract: ''
+summary: ''

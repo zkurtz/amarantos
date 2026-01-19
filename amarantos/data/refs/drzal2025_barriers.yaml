@@ -16,7 +16,8 @@ keywords:
 - healthy
 - nutrition
 - students
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrition Research
 volume: '133'
 issue: ''
@@ -24,4 +25,4 @@ pages: 161-171
 doi: 10.1016/j.nutres.2024.06.001
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S0271531724001143
-abstract: ''
+summary: ''

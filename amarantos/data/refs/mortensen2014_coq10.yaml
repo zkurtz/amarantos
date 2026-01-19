@@ -23,7 +23,8 @@ keywords:
 - ATP
 - RCT
 - supplements
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JACC Heart Failure
 volume: '2'
 issue: '6'
@@ -31,4 +32,4 @@ pages: 641-649
 doi: 10.1016/j.jchf.2014.06.008
 pmid: '25282031'
 url: https://pubmed.ncbi.nlm.nih.gov/25282031/
-abstract: ''
+summary: ''

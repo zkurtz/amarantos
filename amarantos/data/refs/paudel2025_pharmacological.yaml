@@ -15,7 +15,8 @@ keywords:
 - properties
 - systematic review
 - zingiber
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Frontiers in Pharmacology
 volume: '16'
 issue: ''
@@ -24,4 +25,4 @@ doi: 10.3389/fphar.2025.1619655
 pmid: ''
 url:
   https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1619655/full
-abstract: ''
+summary: ''

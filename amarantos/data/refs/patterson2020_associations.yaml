@@ -22,7 +22,8 @@ keywords:
 - linked
 - mortality
 - using
-claims: []
+hard_claims: []
+soft_claims: []
 journal: The Lancet Planetary Health
 volume: '4'
 issue: '5'
@@ -31,4 +32,4 @@ doi: 10.1016/S2542-5196(20)30079-6
 pmid: ''
 url:
   https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext
-abstract: ''
+summary: ''

@@ -22,7 +22,8 @@ keywords:
 - nutrient
 - randomized
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrients
 volume: '16'
 issue: '12'
@@ -30,4 +31,4 @@ pages: ''
 doi: ''
 pmid: '38931273'
 url: https://pubmed.ncbi.nlm.nih.gov/38931273/
-abstract: ''
+summary: ''

@@ -14,7 +14,8 @@ keywords:
 - hearing
 - noise
 - reply
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JAMA Otolaryngol Head Neck Surg
 volume: '145'
 issue: '3'
@@ -22,4 +23,4 @@ pages: 292-293
 doi: ''
 pmid: '30676625'
 url: https://pubmed.ncbi.nlm.nih.gov/30676625/
-abstract: ''
+summary: ''

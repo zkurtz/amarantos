@@ -24,7 +24,8 @@ keywords:
 - systematic review
 - trials
 - zingiber
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Cytokine
 volume: '135'
 issue: ''
@@ -32,4 +33,4 @@ pages: '155224'
 doi: ''
 pmid: '32763761'
 url: https://pubmed.ncbi.nlm.nih.gov/32763761/
-abstract: ''
+summary: ''

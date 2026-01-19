@@ -19,7 +19,8 @@ keywords:
 - osteopenia
 - osteoporosis
 - retrospective
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Preventive Medicine Reports
 volume: '45'
 issue: ''
@@ -27,4 +28,4 @@ pages: '102826'
 doi: 10.1016/j.pmedr.2024.102826
 pmid: ''
 url: https://www.sciencedirect.com/science/article/pii/S2211335524002456
-abstract: ''
+summary: ''

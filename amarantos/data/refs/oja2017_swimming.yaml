@@ -15,7 +15,8 @@ keywords:
 - running
 - walking
 - longevity
-claims: []
+hard_claims: []
+soft_claims: []
 journal: British Journal of Sports Medicine
 volume: '51'
 issue: '19'
@@ -23,4 +24,4 @@ pages: 1437-1443
 doi: 10.1136/bjsports-2016-096809
 pmid: '27895075'
 url: https://pubmed.ncbi.nlm.nih.gov/27895075/
-abstract: ''
+summary: ''

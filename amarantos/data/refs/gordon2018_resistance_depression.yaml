@@ -15,7 +15,8 @@ keywords:
 - wellbeing
 - strength training
 - meta-analysis
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JAMA Psychiatry
 volume: '75'
 issue: '6'
@@ -23,4 +24,4 @@ pages: 566-576
 doi: 10.1001/jamapsychiatry.2018.0572
 pmid: '29800984'
 url: https://pubmed.ncbi.nlm.nih.gov/29800984/
-abstract: ''
+summary: ''

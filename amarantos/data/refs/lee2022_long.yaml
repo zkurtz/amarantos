@@ -24,7 +24,8 @@ keywords:
 - physical activity
 - prospective
 - specific
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Circulation
 volume: '146'
 issue: '7'
@@ -32,4 +33,4 @@ pages: 523-534
 doi: 10.1161/CIRCULATIONAHA.121.058162
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.121.058162
-abstract: ''
+summary: ''

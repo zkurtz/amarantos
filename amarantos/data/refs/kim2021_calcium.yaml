@@ -15,7 +15,8 @@ keywords:
 - meta-analysis
 - RCT
 - CVD risk
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrients
 volume: '13'
 issue: '2'
@@ -23,4 +24,4 @@ pages: '368'
 doi: 10.3390/nu13020368
 pmid: '33530332'
 url: https://pubmed.ncbi.nlm.nih.gov/33530332/
-abstract: ''
+summary: ''

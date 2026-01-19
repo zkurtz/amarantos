@@ -16,7 +16,8 @@ keywords:
 - cardiovascular
 - mortality
 - caloric restriction
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Science
 volume: '359'
 issue: '6374'
@@ -24,4 +25,4 @@ pages: eaan2788
 doi: 10.1126/science.aan2788
 pmid: '29371440'
 url: https://pubmed.ncbi.nlm.nih.gov/29371440/
-abstract: ''
+summary: ''

@@ -19,7 +19,8 @@ keywords:
 - supplement
 - supplementation
 - vitamin
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Annals of Internal Medicine
 volume: '142'
 issue: '1'
@@ -27,4 +28,4 @@ pages: 37-46
 doi: 10.7326/0003-4819-142-1-200501040-00110
 pmid: ''
 url: https://www.acpjournals.org/doi/10.7326/0003-4819-142-1-200501040-00110
-abstract: ''
+summary: ''

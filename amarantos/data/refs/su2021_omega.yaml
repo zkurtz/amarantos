@@ -22,7 +22,8 @@ keywords:
 - omega
 - outcomes
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: EClinicalMedicine
 volume: '38'
 issue: ''
@@ -30,4 +31,4 @@ pages: '100997'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/
-abstract: ''
+summary: ''

@@ -26,7 +26,8 @@ keywords:
 - rest
 - restriction
 - trial
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nat Aging
 volume: '3'
 issue: '3'
@@ -34,4 +35,4 @@ pages: 248-257
 doi: ''
 pmid: '37118425'
 url: https://pubmed.ncbi.nlm.nih.gov/37118425/
-abstract: ''
+summary: ''

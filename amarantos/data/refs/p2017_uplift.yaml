@@ -20,7 +20,8 @@ keywords:
 - mountains
 - transantarctic
 - uplift
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nat Commun
 volume: '8'
 issue: '1'
@@ -28,4 +29,4 @@ pages: '1588'
 doi: ''
 pmid: '29150611'
 url: https://pubmed.ncbi.nlm.nih.gov/29150611/
-abstract: ''
+summary: ''

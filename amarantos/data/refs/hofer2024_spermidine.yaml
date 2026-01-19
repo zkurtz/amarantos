@@ -20,7 +20,8 @@ keywords:
 - longevity
 - mediated
 - spermidine
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nature Cell Biology
 volume: '26'
 issue: '9'
@@ -28,4 +29,4 @@ pages: 1571-1584
 doi: 10.1038/s41556-024-01468-x
 pmid: ''
 url: https://www.nature.com/articles/s41556-024-01468-x
-abstract: ''
+summary: ''

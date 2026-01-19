@@ -21,7 +21,8 @@ keywords:
 - melatonin
 - supplement
 - supplementation
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Circulation
 volume: '152'
 issue: Suppl_3
@@ -29,4 +30,4 @@ pages: ''
 doi: 10.1161/circ.152.suppl_3.4371606
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/circ.152.suppl_3.4371606
-abstract: ''
+summary: ''

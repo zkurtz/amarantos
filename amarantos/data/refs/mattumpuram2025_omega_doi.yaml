@@ -21,7 +21,8 @@ keywords:
 - omega
 - regression
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clinical and Translational Discovery
 volume: '5'
 issue: '6'
@@ -29,4 +30,4 @@ pages: ''
 doi: 10.1002/ctd2.70094
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1002/ctd2.70094
-abstract: ''
+summary: ''

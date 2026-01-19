@@ -16,7 +16,8 @@ keywords:
 - meta-analysis
 - AMPK
 - LDL
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Phytomedicine
 volume: '101'
 issue: ''
@@ -24,4 +25,4 @@ pages: '154127'
 doi: 10.1016/j.phymed.2023.154127
 pmid: ''
 url: https://doi.org/10.1016/j.phymed.2023.154127
-abstract: ''
+summary: ''

@@ -19,7 +19,8 @@ keywords:
 - mortality
 - diet
 - cohort
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '70'
 issue: '20'
@@ -27,4 +28,4 @@ pages: 2519-2532
 doi: 10.1016/j.jacc.2017.09.035
 pmid: ''
 url: https://www.jacc.org/doi/10.1016/j.jacc.2017.09.035
-abstract: ''
+summary: ''

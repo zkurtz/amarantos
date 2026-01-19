@@ -23,7 +23,8 @@ keywords:
 - times
 - transit
 - weight
-claims: []
+hard_claims: []
+soft_claims: []
 journal: The Journal of Nutrition
 volume: '154'
 issue: '1'
@@ -31,4 +32,4 @@ pages: 41-48
 doi: 10.1016/j.tjnut.2023.06.005
 pmid: ''
 url: https://jn.nutrition.org/article/S0022-3166(23)00519-9/fulltext
-abstract: ''
+summary: ''

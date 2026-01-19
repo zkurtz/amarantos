@@ -21,7 +21,8 @@ keywords:
 - diseases
 - glycine
 - metabolic
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nature Communications
 volume: '10'
 issue: '1'
@@ -29,4 +30,4 @@ pages: ''
 doi: 10.1038/s41467-019-08936-1
 pmid: ''
 url: https://www.nature.com/articles/s41467-019-08936-1
-abstract: ''
+summary: ''

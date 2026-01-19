@@ -23,7 +23,8 @@ keywords:
 - randomized
 - trials
 - umbrella
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Syst Rev
 volume: '14'
 issue: ''
@@ -31,4 +32,4 @@ pages: '160'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12326686/
-abstract: ''
+summary: ''

@@ -20,7 +20,8 @@ keywords:
 - elderly
 - healthy
 - survival
-claims: []
+hard_claims: []
+soft_claims: []
 journal: N Engl J Med
 volume: '379'
 issue: '16'
@@ -28,4 +29,4 @@ pages: 1499-1508
 doi: ''
 pmid: '30221596'
 url: https://pubmed.ncbi.nlm.nih.gov/30221596/
-abstract: ''
+summary: ''

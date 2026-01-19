@@ -11,7 +11,8 @@ keywords:
 - mortality
 - diagnosis
 - radiology
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JAMA
 volume: '297'
 issue: '9'
@@ -19,4 +20,4 @@ pages: 995-7
 doi: ''
 pmid: '17341714'
 url: https://pubmed.ncbi.nlm.nih.gov/17341714/
-abstract: ''
+summary: ''

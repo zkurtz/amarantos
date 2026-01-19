@@ -18,7 +18,8 @@ keywords:
 - antioxidants
 - polyphenols
 - longevity
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Aging
 volume: '13'
 issue: '15'
@@ -26,4 +27,4 @@ pages: 19735-19749
 doi: 10.18632/aging.203302
 pmid: '34329196'
 url: https://pubmed.ncbi.nlm.nih.gov/34329196/
-abstract: ''
+summary: ''

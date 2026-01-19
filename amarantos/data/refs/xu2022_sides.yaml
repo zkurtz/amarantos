@@ -22,7 +22,8 @@ keywords:
 - sides
 - traditional
 - uncovered
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Frontiers in Microbiology
 volume: '13'
 issue: ''
@@ -31,4 +32,4 @@ doi: 10.3389/fmicb.2022.1045096
 pmid: ''
 url:
   https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1045096/full
-abstract: ''
+summary: ''

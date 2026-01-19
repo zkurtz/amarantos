@@ -23,7 +23,8 @@ keywords:
 - mortality
 - prospective
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clin Nutr
 volume: '43'
 issue: '1'
@@ -31,4 +32,4 @@ pages: 65-83
 doi: ''
 pmid: '38011755'
 url: https://pubmed.ncbi.nlm.nih.gov/38011755/
-abstract: ''
+summary: ''

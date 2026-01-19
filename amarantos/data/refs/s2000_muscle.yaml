@@ -18,7 +18,8 @@ keywords:
 - metabolic
 - muscle
 - skeletal
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Biochem Soc Trans
 volume: '28'
 issue: '2'
@@ -26,4 +27,4 @@ pages: 159-64
 doi: ''
 pmid: '10816119'
 url: https://pubmed.ncbi.nlm.nih.gov/10816119/
-abstract: ''
+summary: ''

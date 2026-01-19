@@ -19,7 +19,8 @@ keywords:
 - retrospective
 - treatment
 - treatments
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Int J Prosthodont
 volume: '29'
 issue: '4'
@@ -27,4 +28,4 @@ pages: 372-80
 doi: ''
 pmid: '27479346'
 url: https://pubmed.ncbi.nlm.nih.gov/27479346/
-abstract: ''
+summary: ''

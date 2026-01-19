@@ -21,7 +21,8 @@ keywords:
 - kessleri
 - parachlorella
 - ploidy
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Algal Research
 volume: '89'
 issue: ''
@@ -29,4 +30,4 @@ pages: '104047'
 doi: 10.1016/j.algal.2025.104047
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S2211926425003923
-abstract: ''
+summary: ''

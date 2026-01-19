@@ -24,7 +24,8 @@ keywords:
 - intakes
 - leafy
 - vegetables
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Cardiovasc J Afr
 volume: '32'
 issue: '4'
@@ -32,4 +33,4 @@ pages: 215-223
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8756059/
-abstract: ''
+summary: ''

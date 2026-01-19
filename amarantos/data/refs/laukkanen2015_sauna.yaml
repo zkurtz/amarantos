@@ -17,7 +17,8 @@ keywords:
 - Finnish
 - longevity
 - heat shock proteins
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JAMA Internal Medicine
 volume: '175'
 issue: '4'
@@ -25,4 +26,4 @@ pages: 542-548
 doi: 10.1001/jamainternmed.2014.8187
 pmid: '25705824'
 url: https://pubmed.ncbi.nlm.nih.gov/25705824/
-abstract: ''
+summary: ''

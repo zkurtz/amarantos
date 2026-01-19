@@ -25,7 +25,8 @@ keywords:
 - supplement
 - supplementation
 - umbrella
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Curr Ther Res Clin Exp
 volume: '101'
 issue: ''
@@ -33,4 +34,4 @@ pages: '100755'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11401110/
-abstract: ''
+summary: ''

@@ -23,7 +23,8 @@ keywords:
 - stress
 - supplement
 - supplementation
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Trials
 volume: '25'
 issue: ''
@@ -31,4 +32,4 @@ pages: '518'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11292897/
-abstract: ''
+summary: ''

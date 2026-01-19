@@ -11,7 +11,8 @@ keywords:
 - polar
 - risks
 - water
-claims: []
+hard_claims: []
+soft_claims: []
 journal: American Heart Association News
 volume: ''
 issue: ''
@@ -20,4 +21,4 @@ doi: ''
 pmid: ''
 url:
   https://www.heart.org/en/news/2022/12/09/youre-not-a-polar-bear-the-plunge-into-cold-water-comes-with-risks
-abstract: ''
+summary: ''

@@ -18,7 +18,8 @@ keywords:
 - dementia
 - elderly
 - activities
-claims: []
+hard_claims: []
+soft_claims: []
 journal: N Engl J Med
 volume: '348'
 issue: '25'
@@ -26,4 +27,4 @@ pages: 2508-16
 doi: ''
 pmid: '12815136'
 url: https://pubmed.ncbi.nlm.nih.gov/12815136/
-abstract: ''
+summary: ''

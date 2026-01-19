@@ -16,7 +16,8 @@ keywords:
 - wellbeing
 - supplements
 - meta-analysis
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Phytotherapy Research
 volume: '36'
 issue: '11'
@@ -24,4 +25,4 @@ pages: 4115-4124
 doi: 10.1002/ptr.7598
 pmid: '36017529'
 url: https://pubmed.ncbi.nlm.nih.gov/36017529/
-abstract: ''
+summary: ''

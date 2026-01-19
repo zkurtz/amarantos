@@ -23,7 +23,8 @@ keywords:
 - microbial
 - prospective
 - randomized
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Am J Clin Nutr
 volume: '103'
 issue: '3'
@@ -31,4 +32,4 @@ pages: 694-702
 doi: ''
 pmid: '26843154'
 url: https://pubmed.ncbi.nlm.nih.gov/26843154/
-abstract: ''
+summary: ''

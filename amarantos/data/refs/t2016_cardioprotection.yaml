@@ -21,7 +21,8 @@ keywords:
 - natural
 - polyamine
 - spermidine
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nat Med
 volume: '22'
 issue: '12'
@@ -29,4 +30,4 @@ pages: 1428-1438
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5806691/
-abstract: ''
+summary: ''

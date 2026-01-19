@@ -21,7 +21,8 @@ keywords:
 - events
 - mortality
 - relationship
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Journal of the American College of Cardiology
 volume: '82'
 issue: '15'
@@ -29,4 +30,4 @@ pages: 1483-1494
 doi: 10.1016/j.jacc.2023.07.029
 pmid: ''
 url: https://www.jacc.org/doi/10.1016/j.jacc.2023.07.029
-abstract: ''
+summary: ''

@@ -15,7 +15,8 @@ keywords:
 - PREDIMED
 - RCT
 - mortality
-claims: []
+hard_claims: []
+soft_claims: []
 journal: New England Journal of Medicine
 volume: '378'
 issue: '25'
@@ -23,4 +24,4 @@ pages: e34
 doi: 10.1056/NEJMoa1800389
 pmid: '29897866'
 url: https://pubmed.ncbi.nlm.nih.gov/29897866/
-abstract: ''
+summary: ''

@@ -24,7 +24,8 @@ keywords:
 - nutrition
 - supplement
 - trends
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Molecular Nutrition &amp; Food Research
 volume: '69'
 issue: '9'
@@ -32,4 +33,4 @@ pages: ''
 doi: 10.1002/mnfr.70019
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1002/mnfr.70019
-abstract: ''
+summary: ''

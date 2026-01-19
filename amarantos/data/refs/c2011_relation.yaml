@@ -23,7 +23,8 @@ keywords:
 - performance
 - relation
 - white
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Am J Clin Nutr
 volume: '94'
 issue: '6'
@@ -31,4 +32,4 @@ pages: 1584-1591
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3252552/
-abstract: ''
+summary: ''

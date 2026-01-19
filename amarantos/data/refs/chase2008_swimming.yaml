@@ -12,7 +12,8 @@ keywords:
 - mortality
 - cardiovascular
 - fitness
-claims: []
+hard_claims: []
+soft_claims: []
 journal: International Journal of Aquatic Research and Education
 volume: '2'
 issue: '3'
@@ -20,4 +21,4 @@ pages: ''
 doi: ''
 pmid: ''
 url: https://scholarworks.bgsu.edu/ijare/vol2/iss3/3/
-abstract: ''
+summary: ''

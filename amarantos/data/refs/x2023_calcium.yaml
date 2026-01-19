@@ -21,7 +21,8 @@ keywords:
 - supplement
 - supplements
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Curr Dev Nutr
 volume: '7'
 issue: '3'
@@ -29,4 +30,4 @@ pages: '100046'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10111600/
-abstract: ''
+summary: ''

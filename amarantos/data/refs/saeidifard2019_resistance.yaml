@@ -15,7 +15,8 @@ keywords:
 - longevity
 - meta-analysis
 - cardiovascular
-claims: []
+hard_claims: []
+soft_claims: []
 journal: European Journal of Preventive Cardiology
 volume: '26'
 issue: '15'
@@ -23,4 +24,4 @@ pages: 1647-1665
 doi: 10.1177/2047487319850718
 pmid: '31104484'
 url: https://pubmed.ncbi.nlm.nih.gov/31104484/
-abstract: ''
+summary: ''

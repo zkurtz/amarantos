@@ -13,7 +13,8 @@ keywords:
 - cardiovascular
 - metabolic
 - shift work
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Chronobiology International
 volume: '35'
 issue: '8'
@@ -21,4 +22,4 @@ pages: 1178-1186
 doi: 10.1080/07420528.2018.1470531
 pmid: '29642757'
 url: https://pubmed.ncbi.nlm.nih.gov/29642757/
-abstract: ''
+summary: ''

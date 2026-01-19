@@ -26,7 +26,8 @@ keywords:
 - restriction
 - sexual
 - sleep
-claims: []
+hard_claims: []
+soft_claims: []
 journal: JAMA Intern Med
 volume: '176'
 issue: '6'
@@ -34,4 +35,4 @@ pages: 743-52
 doi: ''
 pmid: '27136347'
 url: https://pubmed.ncbi.nlm.nih.gov/27136347/
-abstract: ''
+summary: ''

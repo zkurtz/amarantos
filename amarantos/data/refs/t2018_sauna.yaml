@@ -21,7 +21,8 @@ keywords:
 - reduced
 - sauna
 - women
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BMC Med
 volume: '16'
 issue: ''
@@ -29,4 +30,4 @@ pages: '219'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6262976/
-abstract: ''
+summary: ''

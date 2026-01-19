@@ -21,7 +21,8 @@ keywords:
 - supplement
 - supplementation
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Clin Nutr
 volume: '37'
 issue: 6 Pt A
@@ -29,4 +30,4 @@ pages: 1892-1901
 doi: ''
 pmid: '29037431'
 url: https://pubmed.ncbi.nlm.nih.gov/29037431/
-abstract: ''
+summary: ''

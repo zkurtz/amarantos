@@ -26,7 +26,8 @@ keywords:
 - specific
 - systematic review
 - total
-claims: []
+hard_claims: []
+soft_claims: []
 journal: BMC Medicine
 volume: '14'
 issue: '1'
@@ -34,4 +35,4 @@ pages: ''
 doi: 10.1186/s12916-016-0730-3
 pmid: ''
 url: https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-016-0730-3
-abstract: ''
+summary: ''

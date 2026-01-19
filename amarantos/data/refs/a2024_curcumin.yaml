@@ -18,7 +18,8 @@ keywords:
 - meta-analysis
 - randomized
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Phytother Res
 volume: '38'
 issue: '12'
@@ -26,4 +27,4 @@ pages: 6048-6061
 doi: ''
 pmid: '39478418'
 url: https://pubmed.ncbi.nlm.nih.gov/39478418/
-abstract: ''
+summary: ''

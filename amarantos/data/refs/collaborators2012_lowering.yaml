@@ -26,7 +26,8 @@ keywords:
 - therapy
 - trials
 - vascular
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Lancet
 volume: '380'
 issue: '9841'
@@ -34,4 +35,4 @@ pages: 581-90
 doi: ''
 pmid: '22607822'
 url: https://pubmed.ncbi.nlm.nih.gov/22607822/
-abstract: ''
+summary: ''

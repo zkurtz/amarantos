@@ -16,7 +16,8 @@ keywords:
 - mortality
 - potential
 - specific
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Eur J Epidemiol
 volume: '34'
 issue: '8'
@@ -24,4 +25,4 @@ pages: 731-752
 doi: ''
 pmid: '31055709'
 url: https://pubmed.ncbi.nlm.nih.gov/31055709/
-abstract: ''
+summary: ''

@@ -21,7 +21,8 @@ keywords:
 - randomized
 - systematic review
 - trials
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Pharmacol Res
 volume: '115'
 issue: ''
@@ -29,4 +30,4 @@ pages: 149-161
 doi: ''
 pmid: '27888156'
 url: https://pubmed.ncbi.nlm.nih.gov/27888156/
-abstract: ''
+summary: ''

@@ -20,7 +20,8 @@ keywords:
 - supplementation
 - trials
 - vitamins
-claims: []
+hard_claims: []
+soft_claims: []
 journal: PLoS One
 volume: '9'
 issue: '9'
@@ -28,4 +29,4 @@ pages: e107060
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4169527/
-abstract: ''
+summary: ''

@@ -26,7 +26,8 @@ keywords:
 - physical
 - supplement
 - supplementation
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Aging Cell
 volume: '24'
 issue: '8'
@@ -34,4 +35,4 @@ pages: ''
 doi: 10.1111/acel.70114
 pmid: ''
 url: https://onlinelibrary.wiley.com/doi/10.1111/acel.70114
-abstract: ''
+summary: ''

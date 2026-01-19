@@ -24,7 +24,8 @@ keywords:
 - stress
 - transcendental
 - trial
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Circ Cardiovasc Qual Outcomes
 volume: '5'
 issue: '6'
@@ -32,4 +33,4 @@ pages: 750-8
 doi: ''
 pmid: '23149426'
 url: https://pubmed.ncbi.nlm.nih.gov/23149426/
-abstract: ''
+summary: ''

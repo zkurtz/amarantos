@@ -22,7 +22,8 @@ keywords:
 - supplement
 - supplementation
 - systematic review
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Crit Rev Food Sci Nutr
 volume: '62'
 issue: '23'
@@ -30,4 +31,4 @@ pages: 6516-6533
 doi: ''
 pmid: '33764214'
 url: https://pubmed.ncbi.nlm.nih.gov/33764214/
-abstract: ''
+summary: ''

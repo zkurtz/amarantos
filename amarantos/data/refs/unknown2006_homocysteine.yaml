@@ -10,7 +10,8 @@ keywords:
 - lowering
 - vascular
 - vitamins
-claims: []
+hard_claims: []
+soft_claims: []
 journal: New England Journal of Medicine
 volume: '354'
 issue: '15'
@@ -18,4 +19,4 @@ pages: 1567-1577
 doi: 10.1056/NEJMoa060900
 pmid: ''
 url: https://www.nejm.org/doi/full/10.1056/NEJMoa060900
-abstract: ''
+summary: ''

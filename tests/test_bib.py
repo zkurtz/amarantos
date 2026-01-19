@@ -7,10 +7,11 @@ import pytest
 
 from amarantos.core.bib import (
     REFS_DIR,
-    Claim,
     EvidenceType,
+    HardClaim,
     Reference,
     ReferenceType,
+    SoftClaim,
     is_valid_url,
 )
 
@@ -85,8 +86,8 @@ class TestReferenceLoadSave:
 
     def test_save_and_load_roundtrip(self) -> None:
         """Test that a reference can be saved and loaded."""
-        claim = Claim(
-            summary="Test claim",
+        hard_claim = HardClaim(
+            summary="Test hard claim",
             choice="test_choice",
             evidence_type=EvidenceType.META_ANALYSIS,
             effect_size=0.8,
@@ -96,6 +97,12 @@ class TestReferenceLoadSave:
             population="adults",
             sample_size=10000,
         )
+        soft_claim = SoftClaim(
+            summary="Test soft claim",
+            choice="test_choice",
+            source_type="expert opinion",
+            notes="Test notes",
+        )
         ref = Reference(
             id="test_ref",
             title="Test Reference Title",
@@ -104,13 +111,15 @@ class TestReferenceLoadSave:
             reference_type=ReferenceType.META_ANALYSIS,
             url="https://pubmed.ncbi.nlm.nih.gov/12345678/",
             keywords=("longevity", "mortality", "meta-analysis"),
-            claims=(claim,),
+            soft_claims=(soft_claim,),
+            hard_claims=(hard_claim,),
             journal="Test Journal",
             volume="1",
             issue="2",
             pages="100-110",
             doi="10.1234/test",
             pmid="12345678",
+            summary="A test reference summary.",
         )
 
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -126,9 +135,13 @@ class TestReferenceLoadSave:
             assert loaded.reference_type == ref.reference_type
             assert loaded.url == ref.url
             assert loaded.keywords == ref.keywords
-            assert len(loaded.claims) == 1
-            assert loaded.claims[0].summary == claim.summary
-            assert loaded.claims[0].effect_size == claim.effect_size
+            assert loaded.summary == ref.summary
+            assert len(loaded.hard_claims) == 1
+            assert loaded.hard_claims[0].summary == hard_claim.summary
+            assert loaded.hard_claims[0].effect_size == hard_claim.effect_size
+            assert len(loaded.soft_claims) == 1
+            assert loaded.soft_claims[0].summary == soft_claim.summary
+            assert loaded.soft_claims[0].source_type == soft_claim.source_type
 
 
 class TestAllRefsValid:

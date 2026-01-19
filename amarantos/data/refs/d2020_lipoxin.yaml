@@ -26,7 +26,8 @@ keywords:
 - joint
 - lipoxin
 - potentiates
-claims: []
+hard_claims: []
+soft_claims: []
 journal: FASEB J
 volume: '34'
 issue: '9'
@@ -34,4 +35,4 @@ pages: 11498-11510
 doi: ''
 pmid: '32741032'
 url: https://pubmed.ncbi.nlm.nih.gov/32741032/
-abstract: ''
+summary: ''

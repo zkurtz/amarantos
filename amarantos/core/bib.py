@@ -67,8 +67,25 @@ def is_valid_url(url: str) -> bool:
 
 
 @attrs.frozen
-class Claim:
-    """A specific claim extracted from a reference.
+class SoftClaim:
+    """A qualitative claim from non-quantitative sources (news, expert opinion, etc.).
+
+    Attributes:
+        summary: What the source claims in plain English.
+        choice: The choice/intervention this relates to.
+        source_type: Type of source (expert opinion, news, review, etc.).
+        notes: Additional context or caveats.
+    """
+
+    summary: str
+    choice: str
+    source_type: str = ""  # e.g., "expert opinion", "news article", "review"
+    notes: str = ""
+
+
+@attrs.frozen
+class HardClaim:
+    """A quantitative claim with effect sizes from research.
 
     Attributes:
         summary: Brief description of what the claim states.
@@ -108,12 +125,13 @@ class Reference:
         year: Publication year.
         reference_type: Type of publication.
         keywords: 10-30 words sorted by relevance to longevity/wellness.
-        claims: Tuple of claims extracted from this reference.
+        soft_claims: Qualitative claims from non-quantitative sources.
+        hard_claims: Quantitative claims with effect sizes from research.
         journal: Journal name (for articles).
         doi: Digital Object Identifier.
         pmid: PubMed ID.
         url: Direct URL to the resource.
-        abstract: Optional abstract text.
+        summary: Brief plain-English summary (1-5 sentences).
     """
 
     id: str
@@ -123,14 +141,15 @@ class Reference:
     reference_type: ReferenceType = attrs.field(converter=_to_reference_type)
     url: str = attrs.field()
     keywords: tuple[str, ...] = ()
-    claims: tuple[Claim, ...] = ()
+    soft_claims: tuple[SoftClaim, ...] = ()
+    hard_claims: tuple[HardClaim, ...] = ()
     journal: str = ""
     volume: str = ""
     issue: str = ""
     pages: str = ""
     doi: str = ""
     pmid: str = ""
-    abstract: str = ""
+    summary: str = ""
 
     @url.validator  # type: ignore[attr-defined]
     def _validate_url(self, attribute: attrs.Attribute, value: str) -> None:
@@ -165,7 +184,13 @@ class Reference:
         data = dummio.yaml.load(filepath=path)
         data["authors"] = tuple(data.get("authors", []))
         data["keywords"] = tuple(data.get("keywords", []))
-        data["claims"] = tuple(Claim(**c) for c in data.get("claims", []))
+        data["soft_claims"] = tuple(SoftClaim(**c) for c in data.get("soft_claims", []))
+        data["hard_claims"] = tuple(HardClaim(**c) for c in data.get("hard_claims", []))
+        # Handle legacy 'abstract' field
+        if "abstract" in data:
+            data["summary"] = data.pop("abstract")
+        # Remove legacy 'claims' field if present
+        data.pop("claims", None)
         return cls(**data)
 
     def save(self, path: Path | None = None) -> None:
@@ -175,9 +200,10 @@ class Reference:
         data = attrs.asdict(self)
         data["authors"] = list(self.authors)
         data["keywords"] = list(self.keywords)
-        data["claims"] = [attrs.asdict(c) for c in self.claims]
+        data["soft_claims"] = [attrs.asdict(c) for c in self.soft_claims]
+        data["hard_claims"] = [attrs.asdict(c) for c in self.hard_claims]
         # Convert enums to strings
         data["reference_type"] = str(self.reference_type)
-        for claim in data["claims"]:
+        for claim in data["hard_claims"]:
             claim["evidence_type"] = str(claim["evidence_type"])
         dummio.yaml.save(data, filepath=path)

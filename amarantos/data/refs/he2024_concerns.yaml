@@ -18,7 +18,8 @@ keywords:
 - index
 - limitations
 - potential
-claims: []
+hard_claims: []
+soft_claims: []
 journal: European Heart Journal
 volume: '45'
 issue: '43'
@@ -26,4 +27,4 @@ pages: 4662-4662
 doi: 10.1093/eurheartj/ehae678
 pmid: ''
 url: https://academic.oup.com/eurheartj/article/46/8/749/7928425
-abstract: ''
+summary: ''

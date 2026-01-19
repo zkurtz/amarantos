@@ -18,7 +18,8 @@ keywords:
 - supplementation
 - systematic review
 - weight
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Front Nutr
 volume: '12'
 issue: ''
@@ -26,4 +27,4 @@ pages: '1624982'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12245695/
-abstract: ''
+summary: ''

@@ -10,7 +10,8 @@ keywords:
 - omega-3
 - nutrition
 - diet
-claims: []
+hard_claims: []
+soft_claims: []
 journal: The Nutrition Source
 volume: ''
 issue: ''
@@ -18,4 +19,4 @@ pages: ''
 doi: ''
 pmid: ''
 url: https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/
-abstract: ''
+summary: ''

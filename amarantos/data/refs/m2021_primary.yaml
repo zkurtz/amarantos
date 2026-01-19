@@ -19,7 +19,8 @@ keywords:
 - superficial
 - total
 - transpedal
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Diagn Interv Radiol
 volume: '27'
 issue: '1'
@@ -27,4 +28,4 @@ pages: 109-115
 doi: ''
 pmid: '33475509'
 url: https://pubmed.ncbi.nlm.nih.gov/33475509/
-abstract: ''
+summary: ''

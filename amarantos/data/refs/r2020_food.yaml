@@ -22,7 +22,8 @@ keywords:
 - rhythm
 - systematic review
 - timing
-claims: []
+hard_claims: []
+soft_claims: []
 journal: Nutrients
 volume: '12'
 issue: '12'
@@ -30,4 +31,4 @@ pages: ''
 doi: ''
 pmid: '33302500'
 url: https://pubmed.ncbi.nlm.nih.gov/33302500/
-abstract: ''
+summary: ''

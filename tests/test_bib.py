@@ -14,6 +14,7 @@ from amarantos.core.bib import (
     SoftClaim,
     is_valid_url,
 )
+from amarantos.core.schemas import BaseEffect
 
 
 class TestUrlValidation:
@@ -86,12 +87,11 @@ class TestReferenceLoadSave:
 
     def test_save_and_load_roundtrip(self) -> None:
         """Test that a reference can be saved and loaded."""
-        from amarantos.core.schemas import BaseEffect
-        
+        # Test CI bounds: lower=0.7, upper=0.9, mean=0.8
         effect = BaseEffect(
             outcome="all-cause mortality",
             mean=0.8,
-            std=0.051  # Calculated from (0.9 - 0.7) / (2 * 1.96) ≈ 0.051
+            std=(0.9 - 0.7) / (2 * 1.96)  # Calculate std from CI bounds
         )
         hard_claim = Claim(
             summary="Test hard claim",

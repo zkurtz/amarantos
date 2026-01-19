@@ -26,7 +26,19 @@ keywords:
 - therapy
 - trials
 - vascular
-claims: []
+hard_claims:
+- summary: "Statin therapy reduced major vascular events by 21% per 1 mmol/L LDL reduction"
+  choice: statins
+  evidence_type: Meta-analysis
+  effect_size: 0.79
+  effect_ci_lower: 0.77
+  effect_ci_upper: 0.81
+  outcome: "major vascular events"
+  population: "adults at low vascular risk (<10% 5-year risk)"
+  sample_size: 174149
+  followup_years: 5.0
+  notes: "IPD meta-analysis of 27 RCTs (22 statin vs control, 5 intensive vs less intensive); proportional reduction greater in lowest-risk groups (RR 0.62 for <5% risk); no increase in cancer incidence; ~11 fewer major vascular events per 1000 over 5 years in low-risk individuals"
+soft_claims: []
 journal: Lancet
 volume: '380'
 issue: '9841'
@@ -34,4 +46,4 @@ pages: 581-90
 doi: ''
 pmid: '22607822'
 url: https://pubmed.ncbi.nlm.nih.gov/22607822/
-abstract: ''
+summary: 'Individual participant data meta-analysis of 27 randomized trials (n=174,149) examining statin therapy for LDL cholesterol lowering. Per 1 mmol/L LDL reduction, statin therapy reduced major vascular events by 21% (RR 0.79). Benefits were proportionally greater in lowest-risk groups (RR 0.62 for <5% 5-year risk). In individuals with <10% risk, statins prevented ~11 major vascular events per 1000 over 5 years. No increased cancer incidence.'

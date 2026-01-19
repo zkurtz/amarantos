@@ -25,7 +25,30 @@ keywords:
 - randomized
 - response
 - trials
-claims: []
+hard_claims:
+- summary: "Potassium supplementation reduces systolic blood pressure by 3.9 mmHg in adults"
+  choice: potassium
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure reduction (mmHg)"
+  population: "adults, primarily hypertensive"
+  sample_size: 1764
+  followup_years: null
+  notes: "32 RCTs; SBP -3.9 mmHg (95% CI -5.2 to -2.6); U-shaped relationship with benefits peaking at ~30 mmol/d"
+- summary: "Potassium supplementation reduces diastolic blood pressure by 2.4 mmHg in adults"
+  choice: potassium
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "diastolic blood pressure reduction (mmHg)"
+  population: "adults, primarily hypertensive"
+  sample_size: 1764
+  followup_years: null
+  notes: "32 RCTs; DBP -2.4 mmHg (95% CI -3.8 to -1.1); effect more pronounced in hypertensive subjects"
+soft_claims: []
 journal: Journal of the American Heart Association
 volume: '9'
 issue: '12'
@@ -33,4 +56,4 @@ pages: ''
 doi: 10.1161/JAHA.119.015719
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/JAHA.119.015719
-abstract: ''
+summary: 'Dose-response meta-analysis of 32 RCTs with 1,764 participants examining potassium supplementation and blood pressure. Found potassium reduced systolic BP by 3.9 mmHg and diastolic BP by 2.4 mmHg. Discovered U-shaped relationship with BP benefits peaking around 30 mmol/d supplementation then diminishing at higher intakes. Effect more pronounced in hypertensive subjects.'

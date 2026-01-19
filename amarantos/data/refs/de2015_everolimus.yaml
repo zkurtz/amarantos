@@ -25,7 +25,19 @@ keywords:
 - prostate
 - resistant
 - results
-claims: []
+hard_claims:
+- summary: "Everolimus plus gefitinib showed insufficient antitumor activity in metastatic castration-resistant prostate cancer"
+  choice: rapamycin
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "disease progression in metastatic CRPC"
+  population: "patients with metastatic castration-resistant prostate cancer"
+  sample_size: 37
+  followup_years: null
+  notes: "Phase 1/2 trial; 67% discontinued before week 12 due to progression/toxicity; mTOR inhibition paradoxically activated androgen receptor signaling causing PSA rises; 35% had paradoxical PSA rise during treatment that declined upon discontinuation"
+soft_claims: []
 journal: Cancer
 volume: '121'
 issue: '21'
@@ -33,4 +45,4 @@ pages: 3853-61
 doi: ''
 pmid: '26178426'
 url: https://pubmed.ncbi.nlm.nih.gov/26178426/
-abstract: ''
+summary: 'Phase 1/2 trial of everolimus (mTOR inhibitor) plus gefitinib (EGFR inhibitor) in 37 patients with metastatic castration-resistant prostate cancer. No dose-limiting toxicities in phase 1. However, 67% of phase 2 patients discontinued before week 12 due to disease progression or toxicity. mTOR inhibition paradoxically activated androgen receptor signaling, causing PSA rises in most patients. 35% showed paradoxical PSA elevation during treatment that declined upon stopping.'

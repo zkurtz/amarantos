@@ -22,7 +22,41 @@ keywords:
 - omega
 - outcomes
 - systematic review
-claims: []
+hard_claims:
+- summary: "Omega-3 fatty acid supplementation reduces cardiovascular mortality"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.93
+  effect_ci_lower: 0.88
+  effect_ci_upper: 0.98
+  outcome: "cardiovascular mortality"
+  population: "adults in randomized controlled trials"
+  sample_size: 149051
+  followup_years: 0.0
+  notes: "38 RCTs analyzed; 1.4 fewer cases per 1,000 person-years; EPA monotherapy showed greater benefits than EPA+DHA"
+- summary: "Omega-3 fatty acid supplementation reduces non-fatal myocardial infarction"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.87
+  effect_ci_lower: 0.81
+  effect_ci_upper: 0.93
+  outcome: "non-fatal myocardial infarction"
+  population: "adults in randomized controlled trials"
+  sample_size: 149051
+  followup_years: 0.0
+  notes: "2.7 fewer cases per 1,000 person-years"
+- summary: "Omega-3 fatty acid supplementation reduces coronary heart disease events"
+  choice: omega_3_fatty_acids
+  evidence_type: Meta-analysis
+  effect_size: 0.91
+  effect_ci_lower: 0.87
+  effect_ci_upper: 0.96
+  outcome: "coronary heart disease events"
+  population: "adults in randomized controlled trials"
+  sample_size: 149051
+  followup_years: 0.0
+  notes: "Increased risk of atrial fibrillation (RR 1.26) noted as safety concern"
+soft_claims: []
 journal: EClinicalMedicine
 volume: '38'
 issue: ''
@@ -30,4 +64,4 @@ pages: '100997'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8413259/
-abstract: ''
+summary: "Systematic review and meta-analysis of 38 randomized controlled trials with 149,051 participants examining omega-3 fatty acid effects on cardiovascular outcomes. Found significant reductions in cardiovascular mortality (RR 0.93), non-fatal MI (RR 0.87), CHD events (RR 0.91), and MACE (RR 0.95). EPA monotherapy showed greater benefits than EPA+DHA combination. Safety concern: increased atrial fibrillation risk (RR 1.26)."

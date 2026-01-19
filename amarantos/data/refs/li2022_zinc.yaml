@@ -18,7 +18,30 @@ keywords:
 - mortality
 - cardiovascular
 - meta-analysis
-claims: []
+hard_claims:
+- summary: "Higher zinc intake was associated with reduced risk of type 2 diabetes"
+  choice: zinc
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "type 2 diabetes risk"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Umbrella review of multiple meta-analyses examining zinc intake and health outcomes"
+- summary: "Zinc supplementation reduced markers of glycemic control in diabetic patients"
+  choice: zinc
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "glycemic markers"
+  population: "diabetic patients"
+  sample_size: null
+  followup_years: null
+  notes: "Umbrella review synthesizing evidence from multiple meta-analyses"
+soft_claims: []
 journal: Frontiers in Nutrition
 volume: '9'
 issue: ''
@@ -27,4 +50,4 @@ doi: 10.3389/fnut.2022.798078
 pmid: ''
 url:
   https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2022.798078/full
-abstract: ''
+summary: 'Umbrella review synthesizing evidence from multiple meta-analyses on zinc intake and health outcomes. Examined associations between zinc supplementation/dietary intake and various health endpoints including diabetes, cardiovascular disease, and mortality. Found evidence supporting beneficial effects of zinc on glycemic control and diabetes risk.'

@@ -19,7 +19,30 @@ keywords:
 - regeneration
 - IGF-1
 - caloric restriction
-claims: []
+hard_claims:
+- summary: "Periodic fasting-mimicking diet extended median lifespan in mice"
+  choice: fasting_mimicking_diet
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "median lifespan"
+  population: "middle-aged mice"
+  sample_size: null
+  followup_years: null
+  notes: "Bi-monthly 4-day FMD cycles starting at middle age; also reduced cancer incidence, lowered visceral fat, improved cognitive performance"
+- summary: "Fasting-mimicking diet reduced biomarkers for aging, diabetes, cardiovascular disease, and cancer in humans"
+  choice: fasting_mimicking_diet
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "aging biomarkers"
+  population: "healthy adults"
+  sample_size: null
+  followup_years: 0.25
+  notes: "Pilot human trial with 5-day FMD monthly for 3 months; decreased glucose, improved body composition, increased mesenchymal stem/progenitor cells, lowered IGF-1"
+soft_claims: []
 journal: Cell Metabolism
 volume: '22'
 issue: '1'
@@ -27,4 +50,4 @@ pages: 86-99
 doi: 10.1016/j.cmet.2015.05.012
 pmid: '26094889'
 url: https://pubmed.ncbi.nlm.nih.gov/26094889/
-abstract: ''
+summary: "Randomized controlled trial examining effects of periodic fasting-mimicking diet (FMD) in yeast, mice, and humans. In mice, bi-monthly 4-day FMD cycles extended median lifespan, lowered visceral fat, reduced cancer incidence, and improved motor coordination and cognitive function. FMD triggered organ shrinkage followed by regeneration upon refeeding, with elevated stem/progenitor cells. Pilot human trial (5-day FMD monthly for 3 months) showed decreased risk factors for aging, diabetes, CVD, and cancer without major adverse effects."

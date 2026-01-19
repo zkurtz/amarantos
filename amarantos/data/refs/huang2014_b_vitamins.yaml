@@ -15,7 +15,41 @@ keywords:
 - mortality
 - meta-analysis
 - RCT
-claims: []
+hard_claims:
+- summary: "B vitamin supplementation has no significant effect on major adverse cardiovascular events"
+  choice: b_vitamins_complex
+  evidence_type: Meta-analysis
+  effect_size: 0.98
+  effect_ci_lower: 0.93
+  effect_ci_upper: 1.03
+  outcome: "major adverse cardiovascular events"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: null
+  notes: "24 RCTs (12 primary prevention, 12 secondary prevention); 10,917 MACE events"
+- summary: "B vitamin supplementation has no significant effect on all-cause mortality"
+  choice: b_vitamins_complex
+  evidence_type: Meta-analysis
+  effect_size: 1.01
+  effect_ci_lower: 0.97
+  effect_ci_upper: 1.05
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: null
+  notes: "24 RCTs; 7,203 deaths observed"
+- summary: "B vitamin supplementation has no significant effect on stroke incidence"
+  choice: b_vitamins_complex
+  evidence_type: Meta-analysis
+  effect_size: 0.94
+  effect_ci_lower: 0.85
+  effect_ci_upper: 1.03
+  outcome: "stroke"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: null
+  notes: "18 RCTs; 2,465 strokes observed"
+soft_claims: []
 journal: PLoS One
 volume: '9'
 issue: '9'
@@ -23,4 +57,4 @@ pages: e107060
 doi: 10.1371/journal.pone.0107060
 pmid: ''
 url: https://doi.org/10.1371/journal.pone.0107060
-abstract: ''
+summary: 'Meta-analysis of 24 RCTs involving 57,952 participants examining B vitamin supplementation and cardiovascular outcomes. Found no significant effects on major adverse cardiovascular events (RR 0.98), all-cause mortality (RR 1.01), cardiac death (RR 0.96), MI (RR 0.99), or stroke (RR 0.94). Concluded B vitamins do not reduce cardiovascular risk in primary or secondary prevention.'

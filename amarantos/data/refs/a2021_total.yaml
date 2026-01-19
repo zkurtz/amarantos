@@ -21,7 +21,30 @@ keywords:
 - prospective
 - supplement
 - systematic review
-claims: []
+hard_claims:
+- summary: Higher dietary magnesium intake associated with 13% lower all-cause mortality
+  choice: magnesium
+  evidence_type: Meta-analysis
+  effect_size: 0.87
+  effect_ci_lower: 0.79
+  effect_ci_upper: 0.97
+  outcome: all-cause mortality
+  population: general adult population
+  sample_size: 1100000
+  followup_years: null
+  notes: Per 100mg/day increase; 19 prospective cohort studies; 52,000 deaths
+- summary: Higher dietary magnesium intake associated with 20% lower cancer mortality
+  choice: magnesium
+  evidence_type: Meta-analysis
+  effect_size: 0.80
+  effect_ci_lower: 0.67
+  effect_ci_upper: 0.97
+  outcome: cancer mortality
+  population: general adult population
+  sample_size: 1100000
+  followup_years: null
+  notes: Per 100mg/day increase
+soft_claims: []
 journal: Adv Nutr
 volume: '12'
 issue: '4'
@@ -29,4 +52,7 @@ pages: 1196-1210
 doi: ''
 pmid: '33684200'
 url: https://pubmed.ncbi.nlm.nih.gov/33684200/
-abstract: ''
+summary: Dose-response meta-analysis of 19 prospective cohort studies with over 1.1
+  million participants examining magnesium intake and mortality. Found that higher
+  dietary magnesium is associated with reduced all-cause and cancer mortality, but
+  supplemental magnesium showed no significant associations.

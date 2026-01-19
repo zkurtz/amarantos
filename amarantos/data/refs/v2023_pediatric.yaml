@@ -24,7 +24,12 @@ keywords:
 - lessons
 - management
 - pediatric
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "SIGENP provides guidance on pediatric gastroenterology management adaptations during COVID-19 pandemic"
+  choice: general_health_guidance
+  source_type: "expert opinion"
+  notes: "Italian Society guidelines covering IBD management, endoscopy protocols, and novel hepatitis identification; not related to longevity interventions"
 journal: Ital J Pediatr
 volume: '49'
 issue: '1'
@@ -32,4 +37,4 @@ pages: '15'
 doi: ''
 pmid: '36698148'
 url: https://pubmed.ncbi.nlm.nih.gov/36698148/
-abstract: ''
+summary: "Expert guidance document from the Italian Society of Pediatric Gastroenterology, Hepatology and Nutrition (SIGENP) on COVID-19 pandemic impacts on pediatric GI and hepatic disease management. Addresses inflammatory bowel disease diagnosis and treatment modifications, digestive endoscopy timing and protocols, and novel hepatitis identification. This is a clinical practice guidance document, not a longevity-focused intervention study."

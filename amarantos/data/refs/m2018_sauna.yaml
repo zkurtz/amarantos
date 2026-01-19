@@ -18,7 +18,30 @@ keywords:
 - cardiovascular
 - mortality
 - Finland
-claims: []
+hard_claims:
+- summary: "Infrared sauna therapy reduced BNP levels in heart failure patients"
+  choice: finnish_sauna
+  evidence_type: Meta-analysis
+  effect_size: -124.62
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "BNP (B-type natriuretic peptide)"
+  population: "heart failure patients"
+  sample_size: 491
+  followup_years: null
+  notes: "7 studies pooled; infrared sauna (Waon therapy) at 60C for 15 min, 5x weekly for 2-4 weeks; moderate evidence quality"
+- summary: "Infrared sauna therapy improved ejection fraction in heart failure patients"
+  choice: finnish_sauna
+  evidence_type: Meta-analysis
+  effect_size: 1.45
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "ejection fraction improvement (%)"
+  population: "heart failure patients"
+  sample_size: 491
+  followup_years: null
+  notes: "9 studies reviewed, 7 pooled for meta-analysis; moderate evidence quality"
+soft_claims: []
 journal: Clin Cardiol
 volume: '41'
 issue: '11'
@@ -26,4 +49,4 @@ pages: 1491-1501
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6489706/
-abstract: ''
+summary: 'Systematic review and meta-analysis of 9 studies (7 pooled, 491 patients) examining sauna bathing effects on heart failure. Found infrared sauna therapy (Waon therapy at 60C for 15 min, 5x weekly) improved cardiac function markers including reduced BNP (-124.62 pg/mL) and improved ejection fraction (+1.45%). Evidence quality rated as moderate.'

@@ -20,7 +20,19 @@ keywords:
 - mortality
 - olive
 - predimed
-claims: []
+hard_claims:
+- summary: "Higher extra-virgin olive oil consumption associated with 39% lower risk of major cardiovascular events"
+  choice: olive_oil_extra_virgin
+  evidence_type: Prospective cohort study
+  effect_size: 0.61
+  effect_ci_lower: 0.44
+  effect_ci_upper: 0.85
+  outcome: "major cardiovascular events"
+  population: "adults at high cardiovascular risk"
+  sample_size: 7216
+  followup_years: 4.8
+  notes: "PREDIMED study; randomized to Mediterranean diet with EVOO/nuts or control low-fat diet; participants aged 55-80"
+soft_claims: []
 journal: BMC Medicine
 volume: '12'
 issue: '1'
@@ -28,4 +40,4 @@ pages: ''
 doi: 10.1186/1741-7015-12-78
 pmid: ''
 url: https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-12-78
-abstract: ''
+summary: 'Prospective cohort analysis within the PREDIMED trial of 7,216 men and women (55-80 years) at high cardiovascular risk followed for median 4.8 years. Higher extra-virgin olive oil consumption was associated with 39% lower risk of major cardiovascular events (HR 0.61, 95% CI 0.44-0.85). Non-significant inverse association found for overall mortality.'

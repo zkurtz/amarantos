@@ -23,7 +23,41 @@ keywords:
 - randomized
 - trials
 - umbrella
-claims: []
+hard_claims:
+- summary: "Photobiomodulation shows moderate effect for burning mouth syndrome pain reduction"
+  choice: red_light_therapy
+  evidence_type: Meta-analysis
+  effect_size: -0.92
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "burning mouth syndrome pain"
+  population: "patients with burning mouth syndrome"
+  sample_size: 9000
+  followup_years: null
+  notes: "Umbrella review of 15 meta-analyses covering 204 RCTs; moderate certainty evidence"
+- summary: "Photobiomodulation improves knee osteoarthritis disability"
+  choice: red_light_therapy
+  evidence_type: Meta-analysis
+  effect_size: 0.65
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "knee osteoarthritis disability"
+  population: "patients with knee osteoarthritis"
+  sample_size: 9000
+  followup_years: null
+  notes: "Moderate certainty evidence; 65.7% of assessed outcomes showed no significant effects overall"
+- summary: "Photobiomodulation shows large effect for androgenetic alopecia hair density"
+  choice: red_light_therapy
+  evidence_type: Meta-analysis
+  effect_size: 1.32
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "hair density in androgenetic alopecia"
+  population: "patients with androgenetic alopecia"
+  sample_size: 9000
+  followup_years: null
+  notes: "Moderate certainty evidence; also showed benefit for fibromyalgia fatigue (ES 1.25) and age-related cognitive impairment (ES 0.49)"
+soft_claims: []
 journal: Syst Rev
 volume: '14'
 issue: ''
@@ -31,4 +65,4 @@ pages: '160'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12326686/
-abstract: ''
+summary: 'Umbrella review analyzing 15 meta-analyses covering 204 RCTs with over 9,000 participants across 35 health endpoints. Found PBM showed significant therapeutic effects for 9 conditions with moderate certainty evidence including burning mouth syndrome, knee osteoarthritis, fibromyalgia fatigue, androgenetic alopecia, and age-related cognitive impairment. No outcomes supported by high-certainty evidence.'

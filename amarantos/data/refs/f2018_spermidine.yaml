@@ -17,7 +17,12 @@ keywords:
 - physiological
 - spermidine
 - vitamin
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "Higher dietary spermidine intake associated with reduced incidence of cancer, cardiovascular diseases, and improved survival in prospective cohort studies"
+  choice: spermidine
+  source_type: "review"
+  notes: "Two cohorts (829 and 1770 participants) with 13-15 year follow-up; spermidine activates autophagy via EP300 inhibition with potency equivalent to rapamycin"
 journal: Autophagy
 volume: '15'
 issue: '1'
@@ -25,4 +30,4 @@ pages: 165-168
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6287690/
-abstract: ''
+summary: 'Commentary/review discussing spermidine as a physiological autophagy inducer with anti-aging properties. Epidemiological evidence from two cohorts (829 participants/15 years and 1770 participants/13 years) showed individuals with high dietary spermidine intake had reduced cancer and cardiovascular disease incidence and improved survival. Spermidine levels decline with aging, and healthy centenarians maintain blood levels similar to younger individuals.'

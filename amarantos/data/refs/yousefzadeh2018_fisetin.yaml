@@ -16,7 +16,23 @@ keywords:
 - flavonoid
 - longevity
 - mice
-claims: []
+hard_claims:
+- summary: "Late-life fisetin administration extended median and maximum lifespan in wild-type mice"
+  choice: fisetin
+  evidence_type: Mechanistic/first-principles
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "lifespan extension"
+  population: "wild-type mice"
+  sample_size: null
+  followup_years: null
+  notes: "Fisetin identified as most potent senolytic among 10 flavonoids tested; hit-and-run mechanism allows intermittent dosing"
+soft_claims:
+- summary: "Fisetin is a potent senolytic that reduces senescence markers across multiple tissues and may translate to humans"
+  choice: fisetin
+  source_type: "expert opinion"
+  notes: "Results confirmed in human adipose tissue explants; late-life intervention was sufficient to yield potent health benefit"
 journal: EBioMedicine
 volume: '36'
 issue: ''
@@ -24,4 +40,4 @@ pages: 18-28
 doi: 10.1016/j.ebiom.2018.09.015
 pmid: '30279143'
 url: https://pubmed.ncbi.nlm.nih.gov/30279143/
-abstract: ''
+summary: 'Preclinical study identifying fisetin as the most potent senolytic among 10 flavonoids tested. Demonstrated that fisetin selectively eliminates senescent cells via a hit-and-run mechanism, reduces senescence markers across multiple tissues in aged mice, and extends median and maximum lifespan when administered late in life. Results validated in human adipose tissue explants.'

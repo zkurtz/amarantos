@@ -15,7 +15,19 @@ keywords:
 - meta-analysis
 - environment
 - parks
-claims: []
+hard_claims:
+- summary: "Higher residential greenness (per 0.1 NDVI increment) associated with 4% lower all-cause mortality"
+  choice: nature_exposure
+  evidence_type: Meta-analysis
+  effect_size: 0.96
+  effect_ci_lower: 0.94
+  effect_ci_upper: 0.97
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 8324652
+  followup_years: null
+  notes: "Meta-analysis of 9 cohort studies from 7 countries. Green space measured using NDVI within 500m residential buffer. 7 of 9 studies showed significant inverse associations."
+soft_claims: []
 journal: Lancet Planetary Health
 volume: '3'
 issue: '11'
@@ -23,4 +35,4 @@ pages: e469-e477
 doi: 10.1016/S2542-5196(19)30215-3
 pmid: '30695701'
 url: https://pubmed.ncbi.nlm.nih.gov/30695701/
-abstract: ''
+summary: "Systematic review and meta-analysis of 9 longitudinal cohort studies examining green space exposure and all-cause mortality in over 8.3 million individuals from 7 countries. Found a statistically significant inverse association between residential greenness (measured by NDVI within 500m buffer) and mortality risk (HR 0.96 per 0.1 NDVI increment, 95% CI 0.94-0.97)."

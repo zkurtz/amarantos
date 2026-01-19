@@ -13,7 +13,30 @@ keywords:
 - blood pressure
 - cholesterol
 - meta-analysis
-claims: []
+hard_claims:
+- summary: "Garlic supplementation significantly reduces systolic blood pressure compared to placebo"
+  choice: garlic
+  evidence_type: Meta-analysis
+  effect_size: -3.75
+  effect_ci_lower: -5.04
+  effect_ci_upper: -2.45
+  outcome: "systolic blood pressure (mmHg)"
+  population: "general adult population"
+  sample_size: 735
+  followup_years: null
+  notes: "17 RCTs analyzed; effect more pronounced in hypertensive patients (-4.4 mmHg)"
+- summary: "Garlic supplementation significantly reduces diastolic blood pressure compared to placebo"
+  choice: garlic
+  evidence_type: Meta-analysis
+  effect_size: -3.39
+  effect_ci_lower: -4.14
+  effect_ci_upper: -2.65
+  outcome: "diastolic blood pressure (mmHg)"
+  population: "general adult population"
+  sample_size: 799
+  followup_years: null
+  notes: "17 RCTs analyzed; no significant effect in normotensive patients"
+soft_claims: []
 journal: J Clin Hypertens (Greenwich)
 volume: '17'
 issue: '3'
@@ -21,4 +44,4 @@ pages: 223-231
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8031974/
-abstract: ''
+summary: 'Meta-analysis of 17 RCTs examining garlic supplementation effects on blood pressure. Found significant reductions in both systolic (-3.75 mmHg) and diastolic (-3.39 mmHg) blood pressure, with effects most pronounced in hypertensive patients. No significant effects observed in normotensive individuals.'

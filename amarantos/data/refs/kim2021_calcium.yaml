@@ -15,7 +15,30 @@ keywords:
 - meta-analysis
 - RCT
 - CVD risk
-claims: []
+hard_claims:
+- summary: "Calcium supplements increased cardiovascular disease risk by 15%"
+  choice: calcium
+  evidence_type: Meta-analysis
+  effect_size: 1.15
+  effect_ci_lower: 1.06
+  effect_ci_upper: 1.25
+  outcome: "cardiovascular disease"
+  population: "healthy postmenopausal women"
+  sample_size: 43178
+  followup_years: 0
+  notes: "13 double-blind placebo-controlled RCTs. Also increased CHD risk by 16% (RR 1.16, CI 1.05-1.28)."
+- summary: "Calcium supplements increased coronary heart disease risk by 16%"
+  choice: calcium
+  evidence_type: Meta-analysis
+  effect_size: 1.16
+  effect_ci_lower: 1.05
+  effect_ci_upper: 1.28
+  outcome: "coronary heart disease"
+  population: "healthy postmenopausal women"
+  sample_size: 43178
+  followup_years: 0
+  notes: "Dietary calcium 700-1000 mg/day or supplementary calcium 1000 mg/day significantly increased CVD and CHD risk."
+soft_claims: []
 journal: Nutrients
 volume: '13'
 issue: '2'
@@ -23,4 +46,4 @@ pages: '368'
 doi: 10.3390/nu13020368
 pmid: '33530332'
 url: https://pubmed.ncbi.nlm.nih.gov/33530332/
-abstract: ''
+summary: "Meta-analysis of 13 double-blind, placebo-controlled RCTs involving 43,178 participants examining calcium supplementation and cardiovascular disease risk. Found calcium supplements significantly increased CVD risk by 15% (RR 1.15, 95% CI 1.06-1.25) and coronary heart disease risk by 16% (RR 1.16, 95% CI 1.05-1.28). Results particularly pronounced in healthy postmenopausal women. Suggests caution regarding routine calcium supplementation."

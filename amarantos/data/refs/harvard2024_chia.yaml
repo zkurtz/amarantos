@@ -10,7 +10,20 @@ keywords:
 - omega-3
 - nutrition
 - diet
-claims: []
+hard_claims: []
+soft_claims:
+- summary: Chia seeds are the richest plant source of omega-3 fatty acids
+  choice: chia_seeds
+  source_type: expert review
+  notes: 60% of oil content from ALA omega-3s; complete protein with all 9 essential amino acids
+- summary: Health claims about chia seeds reducing appetite and weight lack strong evidence
+  choice: chia_seeds
+  source_type: expert review
+  notes: Controlled trials have not shown specific cardiovascular benefits
+- summary: Dry chia seeds can cause esophageal blockage
+  choice: chia_seeds
+  source_type: expert review
+  notes: Should be eaten pre-soaked in liquid; caution for those with dysphagia
 journal: The Nutrition Source
 volume: ''
 issue: ''
@@ -18,4 +31,6 @@ pages: ''
 doi: ''
 pmid: ''
 url: https://nutritionsource.hsph.harvard.edu/food-features/chia-seeds/
-abstract: ''
+summary: Harvard nutrition resource on chia seeds. Notes they are nutrient-dense
+  with high omega-3 and fiber content, but controlled trials have not demonstrated
+  specific cardiovascular benefits. Warns about choking hazard when consumed dry.

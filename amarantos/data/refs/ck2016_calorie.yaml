@@ -26,7 +26,19 @@ keywords:
 - restriction
 - sexual
 - sleep
-claims: []
+hard_claims:
+- summary: "25% caloric restriction for 2 years improved mood, quality of life, and sleep in healthy nonobese adults"
+  choice: caloric_restriction
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "health-related quality of life"
+  population: "healthy nonobese adults (BMI 22.0-28.0), mean age 37.9 years, 69.7% women"
+  sample_size: 218
+  followup_years: 2.0
+  notes: "CALERIE 2 trial; CR group lost 7.6 kg vs 0.4 kg in controls; CR improved mood (Beck Depression Inventory), reduced tension, improved general health perception, enhanced sexual drive and relationship quality, and improved sleep duration at 12 months; no negative effects on QOL observed"
+soft_claims: []
 journal: JAMA Intern Med
 volume: '176'
 issue: '6'
@@ -34,4 +46,4 @@ pages: 743-52
 doi: ''
 pmid: '27136347'
 url: https://pubmed.ncbi.nlm.nih.gov/27136347/
-abstract: ''
+summary: 'Randomized controlled trial (CALERIE 2) of 218 healthy nonobese adults (mean age 37.9 years, BMI 22-28) randomized 2:1 to 25% caloric restriction vs ad libitum eating for 2 years. CR group achieved significant weight loss (7.6 kg vs 0.4 kg) and showed improved mood, reduced tension, better general health perception, enhanced sexual function, and improved sleep. No negative effects on quality of life were observed.'

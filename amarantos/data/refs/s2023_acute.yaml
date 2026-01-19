@@ -19,7 +19,19 @@ keywords:
 - supplement
 - supplementation
 - young
-claims: []
+hard_claims:
+- summary: "Lion's Mane supplementation improved reaction time on Stroop task at 60 minutes post-dose compared to placebo"
+  choice: lions_mane
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "Stroop task reaction time"
+  population: "healthy young adults aged 18-45"
+  sample_size: 41
+  followup_years: null
+  notes: "Double-blind pilot study. Acute improvement in reaction time (737.70 to 688.05 msec, P=0.005). Trend toward chronic stress reduction at 28 days (P=0.051). Study likely underpowered."
+soft_claims: []
 journal: Nutrients
 volume: '15'
 issue: '22'
@@ -27,4 +39,4 @@ pages: '4842'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10675414/
-abstract: ''
+summary: "Double-blind, placebo-controlled pilot trial in 41 healthy young adults examining acute (60 min) and chronic (28 day) effects of Lion's Mane mushroom on cognition, stress, and mood. Acute supplementation significantly improved Stroop task reaction time (P=0.005). Trend toward reduced subjective stress at 28 days (P=0.051). Authors note study was likely underpowered."

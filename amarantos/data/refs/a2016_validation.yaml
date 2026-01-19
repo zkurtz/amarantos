@@ -19,7 +19,12 @@ keywords:
 - transplant
 - validation
 - warning
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "This study validates a Pediatric Early Warning Score but does not relate to longevity interventions; included for reference only."
+  choice: other
+  source_type: "research article"
+  notes: "This study is about pediatric clinical outcomes and PICU transfers, not relevant to longevity interventions."
 journal: Pediatr Crit Care Med
 volume: '17'
 issue: '4'
@@ -27,4 +32,4 @@ pages: e146-53
 doi: ''
 pmid: '26914628'
 url: https://pubmed.ncbi.nlm.nih.gov/26914628/
-abstract: ''
+summary: 'Retrospective matched case-control study validating a Pediatric Early Warning Score (PEWS) in hospitalized pediatric oncology and hematopoietic stem cell transplant patients. Compared 110 unplanned PICU transfers with 220 matched controls, finding PEWS demonstrated strong predictive accuracy (AUC 0.96) for identifying clinical deterioration up to 24 hours before PICU admission.'

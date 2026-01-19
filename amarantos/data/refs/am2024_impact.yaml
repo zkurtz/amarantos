@@ -25,7 +25,30 @@ keywords:
 - supplement
 - supplementation
 - umbrella
-claims: []
+hard_claims:
+- summary: "Magnesium supplementation significantly reduces systolic blood pressure"
+  choice: magnesium
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure reduction"
+  population: "general adult population"
+  sample_size: 8610
+  followup_years: null
+  notes: "Overall SBP reduction: -1.25 mmHg (95% CI: -1.98 to -0.51, P=0.001); at doses >=400mg/day: -6.38 mmHg"
+- summary: "Magnesium supplementation significantly reduces diastolic blood pressure"
+  choice: magnesium
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "diastolic blood pressure reduction"
+  population: "general adult population"
+  sample_size: 8610
+  followup_years: null
+  notes: "Overall DBP reduction: -1.40 mmHg (95% CI: -2.04 to -0.75, P<0.001); at doses >=400mg/day: -3.71 mmHg"
+soft_claims: []
 journal: Curr Ther Res Clin Exp
 volume: '101'
 issue: ''
@@ -33,4 +56,4 @@ pages: '100755'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11401110/
-abstract: ''
+summary: 'Umbrella meta-analysis synthesizing 10 meta-analyses involving 8,610 participants examining magnesium supplementation effects on blood pressure. Found modest but significant reductions in both systolic (-1.25 mmHg) and diastolic (-1.40 mmHg) blood pressure. Higher doses (>=400mg/day) showed more substantial effects (-6.38 mmHg SBP, -3.71 mmHg DBP). Suggests magnesium may be useful as adjunctive therapy with antihypertensive medications.'

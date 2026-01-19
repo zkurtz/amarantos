@@ -19,7 +19,19 @@ keywords:
 - supplement
 - supplementation
 - vitamin
-claims: []
+hard_claims:
+- summary: "High-dosage vitamin E supplementation (400 IU/day or more) may increase all-cause mortality"
+  choice: vitamin_e
+  evidence_type: Meta-analysis
+  effect_size: 1.04
+  effect_ci_lower: 1.01
+  effect_ci_upper: 1.07
+  outcome: "all-cause mortality"
+  population: "adults with chronic diseases"
+  sample_size: 135967
+  followup_years: null
+  notes: "19 RCTs; dosages ranged 16.5-2000 IU/day (median 400 IU/day); dose-response relationship showing increased mortality at higher doses; findings may not generalize to healthy adults"
+soft_claims: []
 journal: Annals of Internal Medicine
 volume: '142'
 issue: '1'
@@ -27,4 +39,4 @@ pages: 37-46
 doi: 10.7326/0003-4819-142-1-200501040-00110
 pmid: ''
 url: https://www.acpjournals.org/doi/10.7326/0003-4819-142-1-200501040-00110
-abstract: ''
+summary: "Meta-analysis of 19 RCTs (135,967 participants) examining dose-response relationship between vitamin E supplementation and all-cause mortality. Found high-dosage vitamin E (400 IU/day or more) may increase mortality risk. Trials involved adults with chronic diseases; findings may not apply to healthy adults. Benefits or harms of lower doses were unclear."

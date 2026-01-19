@@ -21,7 +21,52 @@ keywords:
 - supplement
 - supplementation
 - trials
-claims: []
+hard_claims:
+- summary: "Chlorella supplementation significantly reduces total cholesterol"
+  choice: chlorella
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "total cholesterol reduction"
+  population: "general adult population"
+  sample_size: 797
+  followup_years: null
+  notes: "Total cholesterol decreased by 9.09 mg/dl (95% CI: -12.91 to -5.26, P<0.001); 19 RCTs"
+- summary: "Chlorella supplementation significantly reduces LDL cholesterol"
+  choice: chlorella
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "LDL cholesterol reduction"
+  population: "general adult population"
+  sample_size: 797
+  followup_years: null
+  notes: "LDL reduced by 8.32 mg/dl (95% CI: -12.22 to -4.42, P<0.001)"
+- summary: "Chlorella supplementation significantly reduces systolic blood pressure"
+  choice: chlorella
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure reduction"
+  population: "general adult population"
+  sample_size: 797
+  followup_years: null
+  notes: "SBP lowered by 4.51 mmHg (95% CI: -6.53 to -2.48, P<0.001)"
+- summary: "Chlorella supplementation significantly reduces fasting blood glucose"
+  choice: chlorella
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "fasting blood glucose reduction"
+  population: "general adult population"
+  sample_size: 797
+  followup_years: null
+  notes: "FBG reduced by 4.23 mg/dl (95% CI: -8.29 to -0.17, P=0.041); best results with doses >4g/day for 8+ weeks"
+soft_claims: []
 journal: Clin Nutr
 volume: '37'
 issue: 6 Pt A
@@ -29,4 +74,4 @@ pages: 1892-1901
 doi: ''
 pmid: '29037431'
 url: https://pubmed.ncbi.nlm.nih.gov/29037431/
-abstract: ''
+summary: 'Meta-analysis of 19 randomized controlled trials involving 797 subjects examining chlorella supplementation effects on cardiovascular risk factors. Found significant reductions in total cholesterol (-9.09 mg/dl), LDL cholesterol (-8.32 mg/dl), systolic blood pressure (-4.51 mmHg), diastolic blood pressure (-1.64 mmHg), and fasting blood glucose (-4.23 mg/dl). No significant effects on triglycerides, HDL, or BMI. Best results with doses exceeding 4g/day for 8+ weeks.'

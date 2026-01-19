@@ -16,7 +16,30 @@ keywords:
 - potassium
 - cohort
 - longevity
-claims: []
+hard_claims:
+- summary: "Higher avocado consumption (2+ servings/week) associated with 16% reduced cardiovascular disease risk"
+  choice: avocado
+  evidence_type: Prospective cohort study
+  effect_size: 0.84
+  effect_ci_lower: 0.75
+  effect_ci_upper: 0.95
+  outcome: "cardiovascular disease"
+  population: "US adults (Nurses' Health Study and Health Professionals Follow-up Study)"
+  sample_size: 110487
+  followup_years: 30.0
+  notes: "68,786 women and 41,701 men; 14,274 incident CVD cases"
+- summary: "Higher avocado consumption associated with 21% reduced coronary heart disease risk"
+  choice: avocado
+  evidence_type: Prospective cohort study
+  effect_size: 0.79
+  effect_ci_lower: 0.68
+  effect_ci_upper: 0.91
+  outcome: "coronary heart disease"
+  population: "US adults (Nurses' Health Study and Health Professionals Follow-up Study)"
+  sample_size: 110487
+  followup_years: 30.0
+  notes: "9,185 incident CHD events documented"
+soft_claims: []
 journal: Journal of the American Heart Association
 volume: '11'
 issue: '7'
@@ -24,4 +47,4 @@ pages: e024014
 doi: 10.1161/JAHA.121.024014
 pmid: '35352568'
 url: https://pubmed.ncbi.nlm.nih.gov/35352568/
-abstract: ''
+summary: 'Prospective cohort study of 110,487 US adults (68,786 women, 41,701 men) followed for 30 years. Higher avocado consumption (2+ servings/week) associated with 16% lower CVD risk (HR 0.84) and 21% lower coronary heart disease risk (HR 0.79). Replacing margarine, butter, eggs, or processed meats with avocado linked to 16-22% lower CVD risk.'

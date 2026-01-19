@@ -15,7 +15,19 @@ keywords:
 - wellbeing
 - strength training
 - meta-analysis
-claims: []
+hard_claims:
+- summary: "Resistance exercise training associated with significant reduction in depressive symptoms with moderate effect size"
+  choice: strength_training
+  evidence_type: Meta-analysis
+  effect_size: 0.66
+  effect_ci_lower: 0.48
+  effect_ci_upper: 0.83
+  outcome: "depressive symptoms"
+  population: "adults across diverse health status"
+  sample_size: 1877
+  followup_years: null
+  notes: "33 RCTs (947 RET, 930 control); NNT=4; effect independent of health status, exercise volume, or strength improvements; blinded trials showed smaller effects"
+soft_claims: []
 journal: JAMA Psychiatry
 volume: '75'
 issue: '6'
@@ -23,4 +35,4 @@ pages: 566-576
 doi: 10.1001/jamapsychiatry.2018.0572
 pmid: '29800984'
 url: https://pubmed.ncbi.nlm.nih.gov/29800984/
-abstract: ''
+summary: 'Meta-analysis of 33 RCTs with 1,877 participants (947 RET, 930 control) examining resistance exercise training and depressive symptoms. Found moderate effect size (d=0.66, 95% CI 0.48-0.83) with NNT of 4. Effects were independent of health status, exercise volume, and strength improvements. Blinded trials showed smaller effects, suggesting potential bias in unblinded studies.'

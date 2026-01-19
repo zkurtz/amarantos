@@ -20,7 +20,30 @@ keywords:
 - ohsaki
 - sense
 - worth
-claims: []
+hard_claims:
+- summary: "Lack of ikigai (sense of life worth living) associated with 50% increased all-cause mortality"
+  choice: sense_of_purpose
+  evidence_type: Prospective cohort study
+  effect_size: 1.5
+  effect_ci_lower: 1.3
+  effect_ci_upper: 1.7
+  outcome: "all-cause mortality"
+  population: "Japanese adults"
+  sample_size: 43391
+  followup_years: 7.0
+  notes: "3,048 deaths during follow-up; Ohsaki Study in Japan"
+- summary: "Lack of ikigai associated with 60% increased cardiovascular disease mortality"
+  choice: sense_of_purpose
+  evidence_type: Prospective cohort study
+  effect_size: 1.6
+  effect_ci_lower: 1.3
+  effect_ci_upper: 2.0
+  outcome: "cardiovascular disease mortality"
+  population: "Japanese adults"
+  sample_size: 43391
+  followup_years: 7.0
+  notes: "No significant association with cancer mortality (HR 1.3, 1.0-1.6)"
+soft_claims: []
 journal: Psychosom Med
 volume: '70'
 issue: '6'
@@ -28,4 +51,4 @@ pages: 709-15
 doi: ''
 pmid: '18596247'
 url: https://pubmed.ncbi.nlm.nih.gov/18596247/
-abstract: ''
+summary: "Prospective cohort study (Ohsaki Study) of 43,391 Japanese adults followed for 7 years examining the relationship between ikigai (sense of life worth living) and mortality. Found that individuals lacking ikigai had significantly elevated all-cause mortality (HR 1.5) and cardiovascular mortality (HR 1.6). No significant association was found with cancer mortality. 3,048 participants died during follow-up."

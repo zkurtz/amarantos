@@ -21,7 +21,12 @@ keywords:
 - kessleri
 - parachlorella
 - ploidy
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "Study characterizes internal ploidy and heritable chromosome fragmentation in Parachlorella kessleri algae"
+  choice: basic_research
+  source_type: "review"
+  notes: "Basic algal biology research; not directly related to longevity interventions"
 journal: Algal Research
 volume: '89'
 issue: ''
@@ -29,4 +34,4 @@ pages: '104047'
 doi: 10.1016/j.algal.2025.104047
 pmid: ''
 url: https://www.sciencedirect.com/science/article/abs/pii/S2211926425003923
-abstract: ''
+summary: 'Laboratory study examining internal ploidy and heritable chromosome fragmentation in the green alga Parachlorella kessleri. This is basic algal biology research investigating cellular and genetic mechanisms in algae, not directly related to human longevity interventions.'

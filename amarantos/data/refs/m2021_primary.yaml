@@ -19,7 +19,19 @@ keywords:
 - superficial
 - total
 - transpedal
-claims: []
+hard_claims:
+- summary: "Retrograde transpedal approach achieved 78% primary patency rate at 1 year for SFA chronic total occlusions"
+  choice: peripheral_revascularization
+  evidence_type: Case-control study
+  effect_size: 0.78
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "primary patency rate"
+  population: "patients with chronic total occlusions of superficial femoral artery"
+  sample_size: 23
+  followup_years: 1.3
+  notes: "Re-route technique achieved 100% success in 7 patients; mean follow-up 15.3 months"
+soft_claims: []
 journal: Diagn Interv Radiol
 volume: '27'
 issue: '1'
@@ -27,4 +39,4 @@ pages: 109-115
 doi: ''
 pmid: '33475509'
 url: https://pubmed.ncbi.nlm.nih.gov/33475509/
-abstract: ''
+summary: 'Case series of 23 patients (25 SFAs) treated with retrograde transpedal approach for chronic total occlusions of the superficial femoral artery. The novel re-route technique for re-entry achieved 100% success rate in 7 patients. Overall primary patency rate was 78% at mean follow-up of 15.3 months. Authors conclude this is a safe and successful technique with low complication risk.'

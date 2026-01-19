@@ -22,7 +22,19 @@ keywords:
 - randomized
 - severity
 - surgery
-claims: []
+hard_claims:
+- summary: "Aromatherapy with peppermint, ginger, and lavender significantly reduced postoperative nausea severity"
+  choice: aromatherapy
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "postoperative nausea severity"
+  population: "patients undergoing oral surgery under general anaesthesia"
+  sample_size: 57
+  followup_years: null
+  notes: "Single-blind RCT; 182 randomized, 57 with nausea received intervention; significant improvement in patient satisfaction (p<0.001); no adverse events"
+soft_claims: []
 journal: Complementary Therapies in Medicine
 volume: '90'
 issue: ''
@@ -30,4 +42,4 @@ pages: '103169'
 doi: 10.1016/j.ctim.2025.103169
 pmid: ''
 url: https://www.sciencedirect.com/science/article/pii/S0965229925001189
-abstract: ''
+summary: 'Single-blind randomized controlled trial at Hokkaido University examining aromatherapy for postoperative nausea after oral surgery. 182 patients randomized; 57 with nausea received either aromatherapy (peppermint, ginger, lavender at 1% dilution) or placebo. Aromatherapy significantly reduced nausea severity (p<0.001) and improved patient satisfaction. No adverse events observed.'

@@ -20,7 +20,63 @@ keywords:
 - supplementation
 - trials
 - vitamins
-claims: []
+hard_claims:
+- summary: "B vitamin supplementation had no effect on major adverse cardiovascular events"
+  choice: b_vitamins
+  evidence_type: Meta-analysis
+  effect_size: 0.98
+  effect_ci_lower: 0.93
+  effect_ci_upper: 1.03
+  outcome: "major adverse cardiovascular events"
+  population: "general adult population"
+  sample_size: 56925
+  followup_years: 4.0
+  notes: "Cumulative meta-analysis of 24 RCTs; 10,917 events; p=0.37; includes both primary and secondary prevention"
+- summary: "B vitamin supplementation had no effect on total mortality"
+  choice: b_vitamins
+  evidence_type: Meta-analysis
+  effect_size: 1.01
+  effect_ci_lower: 0.97
+  effect_ci_upper: 1.05
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: 4.0
+  notes: "24 RCTs; p=0.77"
+- summary: "B vitamin supplementation had no effect on cardiac death"
+  choice: b_vitamins
+  evidence_type: Meta-analysis
+  effect_size: 0.96
+  effect_ci_lower: 0.90
+  effect_ci_upper: 1.02
+  outcome: "cardiac death"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: 4.0
+  notes: "24 RCTs; p=0.21"
+- summary: "B vitamin supplementation had no effect on myocardial infarction"
+  choice: b_vitamins
+  evidence_type: Meta-analysis
+  effect_size: 0.99
+  effect_ci_lower: 0.93
+  effect_ci_upper: 1.06
+  outcome: "myocardial infarction"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: 4.0
+  notes: "24 RCTs; p=0.82"
+- summary: "B vitamin supplementation had no effect on stroke"
+  choice: b_vitamins
+  evidence_type: Meta-analysis
+  effect_size: 0.94
+  effect_ci_lower: 0.85
+  effect_ci_upper: 1.03
+  outcome: "stroke"
+  population: "general adult population"
+  sample_size: 57952
+  followup_years: 4.0
+  notes: "24 RCTs; p=0.18"
+soft_claims: []
 journal: PLoS One
 volume: '9'
 issue: '9'
@@ -28,4 +84,4 @@ pages: e107060
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4169527/
-abstract: ''
+summary: "Cumulative meta-analysis of 24 randomized controlled trials (57,952 participants, follow-up 0.7-7.3 years) examining B vitamin supplementation and cardiovascular outcomes. Found no significant effect on major adverse cardiovascular events (MACE), total mortality, cardiac death, myocardial infarction, or stroke. Authors conclude routine B vitamin supplementation for cardiovascular prevention lacks clinical justification."

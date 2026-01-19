@@ -21,7 +21,30 @@ keywords:
 - randomized
 - systematic review
 - trials
-claims: []
+hard_claims:
+- summary: "Pomegranate juice consumption significantly reduces systolic blood pressure"
+  choice: pomegranate
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure reduction"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Weighted mean difference: -4.96 mmHg (95% CI: -7.67 to -2.25, p<0.001) from 8 RCTs"
+- summary: "Pomegranate juice consumption significantly reduces diastolic blood pressure"
+  choice: pomegranate
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "diastolic blood pressure reduction"
+  population: "general adult population"
+  sample_size: null
+  followup_years: null
+  notes: "Weighted mean difference: -2.01 mmHg (95% CI: -3.71 to -0.31, p=0.021) from 8 RCTs"
+soft_claims: []
 journal: Pharmacol Res
 volume: '115'
 issue: ''
@@ -29,4 +52,4 @@ pages: 149-161
 doi: ''
 pmid: '27888156'
 url: https://pubmed.ncbi.nlm.nih.gov/27888156/
-abstract: ''
+summary: 'Systematic review and meta-analysis of 8 randomized placebo-controlled trials examining pomegranate juice effects on blood pressure. Found significant reductions in both systolic (-4.96 mmHg) and diastolic (-2.01 mmHg) blood pressure across different durations and doses, supporting pomegranate juice as a heart-healthy dietary intervention.'

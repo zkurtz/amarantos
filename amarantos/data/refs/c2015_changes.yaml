@@ -21,7 +21,19 @@ keywords:
 - randomized
 - response
 - walking
-claims: []
+hard_claims:
+- summary: "Lunchtime walking improved enthusiasm, relaxation, and reduced nervousness at work"
+  choice: walking
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "work affect and mood"
+  population: "physically inactive employees, mean age 47.68 years, 93% female"
+  sample_size: 56
+  followup_years: 0.19
+  notes: "Three 30-minute group-led lunchtime walks weekly over 10 weeks; ecological momentary assessment via mobile phones; UK university employees"
+soft_claims: []
 journal: Scand J Med Sci Sports
 volume: '25'
 issue: '6'
@@ -29,4 +41,4 @@ pages: 778-87
 doi: ''
 pmid: '25559067'
 url: https://pubmed.ncbi.nlm.nih.gov/25559067/
-abstract: ''
+summary: "Randomized controlled trial comparing immediate vs delayed treatment groups in 56 physically inactive employees (mean age 47.68, 93% female) from a UK university. Intervention consisted of three 30-minute group-led lunchtime walks weekly over 10 weeks. Used ecological momentary assessment via mobile phones to capture real-time mood changes. Found improvements in enthusiasm, relaxation, and reduced nervousness at work, suggesting brief physical activity breaks during work hours positively influence employee mood."

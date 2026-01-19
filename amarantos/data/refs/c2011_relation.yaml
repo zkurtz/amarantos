@@ -23,7 +23,41 @@ keywords:
 - performance
 - relation
 - white
-claims: []
+hard_claims:
+- summary: "Higher concurrent dietary choline intake associated with better verbal memory performance"
+  choice: choline
+  evidence_type: Prospective cohort study
+  effect_size: 0.60
+  effect_ci_lower: 0.29
+  effect_ci_upper: 0.91
+  outcome: "verbal memory"
+  population: "dementia-free adults, mean age 60.9 years"
+  sample_size: 1391
+  followup_years: 7.0
+  notes: "Framingham Offspring Cohort; regression coefficient for concurrent choline intake; p<0.01"
+- summary: "Higher concurrent dietary choline intake associated with better visual memory performance"
+  choice: choline
+  evidence_type: Prospective cohort study
+  effect_size: 0.66
+  effect_ci_lower: 0.19
+  effect_ci_upper: 1.13
+  outcome: "visual memory"
+  population: "dementia-free adults, mean age 60.9 years"
+  sample_size: 1391
+  followup_years: 7.0
+  notes: "Framingham Offspring Cohort; regression coefficient; p<0.01"
+- summary: "Higher remote dietary choline intake associated with reduced white-matter hyperintensity volume"
+  choice: choline
+  evidence_type: Prospective cohort study
+  effect_size: 0.56
+  effect_ci_lower: 0.34
+  effect_ci_upper: 0.92
+  outcome: "white-matter hyperintensity"
+  population: "dementia-free adults, mean age 60.9 years"
+  sample_size: 1391
+  followup_years: 7.0
+  notes: "Framingham Offspring Cohort; OR for presence of large white-matter hyperintensity; p=0.01; remote intake measured 7 years prior"
+soft_claims: []
 journal: Am J Clin Nutr
 volume: '94'
 issue: '6'
@@ -31,4 +65,4 @@ pages: 1584-1591
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3252552/
-abstract: ''
+summary: "Prospective cohort study from the Framingham Offspring Cohort examining 1,391 dementia-free participants (mean age 60.9 years). Found higher concurrent dietary choline intake associated with better verbal and visual memory performance. Higher remote choline intake (measured 7 years prior) was associated with reduced white-matter hyperintensity volume on brain MRI. Verbal learning and executive function showed no significant associations with choline intake."

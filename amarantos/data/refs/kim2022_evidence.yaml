@@ -21,7 +21,12 @@ keywords:
 - gwangju
 - jeonnam
 - pandemic
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "Study on COVID-19 pandemic effects on colorectal cancer diagnosis timing, not relevant to longevity interventions"
+  choice: other
+  source_type: "expert opinion"
+  notes: "Regional study in Korea examining whether COVID-19 pandemic caused delays in colorectal cancer diagnosis. Not related to longevity or mortality interventions."
 journal: Epidemiology and Health
 volume: '44'
 issue: ''
@@ -29,4 +34,4 @@ pages: e2022092
 doi: 10.4178/epih.e2022092
 pmid: ''
 url: https://www.e-epih.org/journal/view.php?number=1522
-abstract: ''
+summary: "Regional study examining whether the COVID-19 pandemic caused delays in colorectal cancer diagnosis in Gwangju and Jeonnam, Korea. Found no evidence of diagnostic delays. Not relevant to longevity interventions."

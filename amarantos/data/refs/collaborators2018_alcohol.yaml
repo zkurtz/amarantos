@@ -11,7 +11,30 @@ keywords:
 - countries
 - global
 - territories
-claims: []
+hard_claims:
+- summary: Zero alcohol consumption minimizes health harm
+  choice: alcohol
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: health burden minimization
+  population: global adult population
+  sample_size: null
+  followup_years: null
+  notes: Level that minimized harm was 0 standard drinks/week (95% UI 0.0-0.8)
+- summary: Alcohol was 7th leading risk factor for death and disability globally in 2016
+  choice: alcohol
+  evidence_type: Cross-sectional study
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: death and disability-adjusted life years
+  population: global population 195 countries
+  sample_size: null
+  followup_years: null
+  notes: 2.2% female deaths, 6.8% male deaths attributable to alcohol
+soft_claims: []
 journal: Lancet
 volume: '392'
 issue: '10152'
@@ -19,4 +42,8 @@ pages: 1015-1035
 doi: ''
 pmid: '30146330'
 url: https://pubmed.ncbi.nlm.nih.gov/30146330/
-abstract: ''
+summary: Comprehensive Global Burden of Disease analysis of alcohol use across 195
+  countries from 1990-2016. Found that the level of alcohol consumption that minimizes
+  health harm is zero drinks per week, contradicting earlier claims of protective
+  effects from moderate drinking. Alcohol was the leading risk factor for death
+  among 15-49 year olds globally.

@@ -11,7 +11,12 @@ keywords:
 - researchers
 - taurine
 - unlikely
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "NIH researchers concluded that taurine is unlikely to be a reliable biomarker for aging"
+  choice: taurine
+  source_type: "expert opinion"
+  notes: "NIH news release discussing research findings on taurine as aging biomarker"
 journal: NIH News Releases
 volume: ''
 issue: ''
@@ -20,4 +25,4 @@ doi: ''
 pmid: ''
 url:
   https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker
-abstract: ''
+summary: 'NIH news release reporting that researchers have concluded taurine is unlikely to be a good biomarker for aging. This challenges earlier suggestions that taurine levels might be useful indicators of biological aging.'

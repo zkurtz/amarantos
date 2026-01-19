@@ -24,7 +24,19 @@ keywords:
 - stress
 - transcendental
 - trial
-claims: []
+hard_claims:
+- summary: "Transcendental Meditation reduced risk of all-cause mortality, myocardial infarction, or stroke by 48% compared to health education control"
+  choice: meditation
+  evidence_type: Randomized controlled trial
+  effect_size: 0.52
+  effect_ci_lower: 0.29
+  effect_ci_upper: 0.92
+  outcome: "composite of all-cause mortality, myocardial infarction, or stroke"
+  population: "Black men and women with coronary heart disease"
+  sample_size: 201
+  followup_years: 5.4
+  notes: "Secondary prevention trial. Also showed 4.9 mmHg reduction in systolic blood pressure and significant reductions in anger expression."
+soft_claims: []
 journal: Circ Cardiovasc Qual Outcomes
 volume: '5'
 issue: '6'
@@ -32,4 +44,4 @@ pages: 750-8
 doi: ''
 pmid: '23149426'
 url: https://pubmed.ncbi.nlm.nih.gov/23149426/
-abstract: ''
+summary: "Randomized controlled trial comparing Transcendental Meditation to health education in 201 Black men and women with coronary heart disease over 5.4 years. The TM group showed a 48% reduction in the composite endpoint of all-cause mortality, myocardial infarction, or stroke (HR 0.52, 95% CI 0.29-0.92). Also demonstrated significant reductions in systolic blood pressure."

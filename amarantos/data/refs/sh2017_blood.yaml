@@ -13,7 +13,19 @@ keywords:
 - pressure
 - response
 - systematic review
-claims: []
+hard_claims:
+- summary: "Meditation and yoga practices decreased both systolic and diastolic blood pressure in hypertensive patients"
+  choice: meditation
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "blood pressure reduction"
+  population: "adults with hypertension"
+  sample_size: null
+  followup_years: null
+  notes: "Meta-analysis of 13 studies (7 meditation, 6 yoga). Meditation more effective for those over 60 years; yoga more effective for those under 60. Authors suggest these may be safe alternatives to pharmacotherapy in some cases."
+soft_claims: []
 journal: J Altern Complement Med
 volume: '23'
 issue: '9'
@@ -21,4 +33,4 @@ pages: 685-695
 doi: ''
 pmid: '28384004'
 url: https://pubmed.ncbi.nlm.nih.gov/28384004/
-abstract: ''
+summary: "Systematic review and meta-analysis of 13 studies (7 meditation, 6 yoga) examining effects on blood pressure in hypertensive patients. Both practices significantly decreased systolic and diastolic blood pressure. Age-related differences noted: meditation more effective for those over 60, yoga more effective for those under 60. Authors conclude these represent safe alternatives to pharmacotherapy in some cases."

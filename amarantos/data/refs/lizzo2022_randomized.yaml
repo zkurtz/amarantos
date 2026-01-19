@@ -26,7 +26,30 @@ keywords:
 - supplement
 - supplementation
 - trial
-claims: []
+hard_claims:
+- summary: "Glycine plus N-acetylcysteine (GlyNAC) supplementation increased glutathione levels in older adults"
+  choice: glycine_nac
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "glutathione levels"
+  population: "healthy older adults"
+  sample_size: null
+  followup_years: null
+  notes: "RCT examining GlyNAC supplementation effects on glutathione redox status"
+- summary: "GlyNAC supplementation reduced markers of oxidative damage in older adults"
+  choice: glycine_nac
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "oxidative stress markers"
+  population: "healthy older adults"
+  sample_size: null
+  followup_years: null
+  notes: "RCT examining effects on oxidative damage biomarkers"
+soft_claims: []
 journal: Frontiers in Aging
 volume: '3'
 issue: ''
@@ -35,4 +58,4 @@ doi: 10.3389/fragi.2022.852569
 pmid: ''
 url:
   https://www.frontiersin.org/journals/aging/articles/10.3389/fragi.2022.852569/full
-abstract: ''
+summary: 'Randomized controlled clinical trial in healthy older adults examining the efficacy of glycine and N-acetylcysteine (GlyNAC) supplementation on glutathione redox status and oxidative damage. Found that GlyNAC supplementation improved glutathione levels and reduced markers of oxidative stress.'

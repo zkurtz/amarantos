@@ -15,7 +15,19 @@ keywords:
 - hericium
 - improvement
 - intake
-claims: []
+hard_claims:
+- summary: "Oral intake of Hericium erinaceus significantly improved cognitive functions over 12 weeks"
+  choice: lions_mane
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "cognitive function (MMSE score)"
+  population: "middle-aged and elderly adults"
+  sample_size: null
+  followup_years: 0.23
+  notes: "12-week double-blind RCT; also prevented cognitive deterioration; safe and convenient method proposed for dementia prevention"
+soft_claims: []
 journal: Biomed Res
 volume: '40'
 issue: '4'
@@ -23,4 +35,4 @@ pages: 125-131
 doi: ''
 pmid: '31413233'
 url: https://pubmed.ncbi.nlm.nih.gov/31413233/
-abstract: ''
+summary: 'Randomized, double-blind, placebo-controlled trial examining Hericium erinaceus (Lion''s mane) mushroom supplementation and cognitive function over 12 weeks in middle-aged and elderly participants. Found oral intake significantly improved cognitive functions measured by MMSE, Benton visual retention test, and verbal paired-associate learning test. Proposed mechanism involves hericenones acting on brain neural networks.'

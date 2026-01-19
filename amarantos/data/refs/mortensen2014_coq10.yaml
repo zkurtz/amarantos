@@ -23,7 +23,30 @@ keywords:
 - ATP
 - RCT
 - supplements
-claims: []
+hard_claims:
+- summary: "CoQ10 supplementation reduced major adverse cardiovascular events by 50% in chronic heart failure patients"
+  choice: coq10
+  evidence_type: Randomized controlled trial
+  effect_size: 0.50
+  effect_ci_lower: 0.32
+  effect_ci_upper: 0.80
+  outcome: "major adverse cardiovascular events"
+  population: "patients with moderate to severe chronic heart failure"
+  sample_size: 420
+  followup_years: 2.0
+  notes: "Q-SYMBIO trial; 300mg/day CoQ10; p=0.003; also reduced hospital admissions (p=0.033)"
+- summary: "CoQ10 supplementation reduced all-cause mortality by 44% in chronic heart failure patients"
+  choice: coq10
+  evidence_type: Randomized controlled trial
+  effect_size: 0.56
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "all-cause mortality"
+  population: "patients with moderate to severe chronic heart failure"
+  sample_size: 420
+  followup_years: 2.0
+  notes: "10% vs 18% mortality; p=0.018; no significant short-term changes at 16 weeks"
+soft_claims: []
 journal: JACC Heart Failure
 volume: '2'
 issue: '6'
@@ -31,4 +54,4 @@ pages: 641-649
 doi: 10.1016/j.jchf.2014.06.008
 pmid: '25282031'
 url: https://pubmed.ncbi.nlm.nih.gov/25282031/
-abstract: ''
+summary: "Q-SYMBIO trial: randomized double-blind placebo-controlled trial of CoQ10 supplementation in 420 chronic heart failure patients over 2 years. Long-term CoQ10 (300mg/day) reduced major adverse cardiovascular events by 50%, all-cause mortality by 44%, cardiovascular mortality by 43%, and hospital admissions. Safe and well-tolerated."

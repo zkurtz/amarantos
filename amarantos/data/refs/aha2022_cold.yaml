@@ -11,7 +11,20 @@ keywords:
 - polar
 - risks
 - water
-claims: []
+hard_claims: []
+soft_claims:
+- summary: Cold water immersion poses cardiovascular risks including cardiac arrest
+  choice: cold_exposure
+  source_type: expert opinion
+  notes: American Heart Association warning about sudden cold water immersion
+- summary: Cold shock response can cause dangerous heart rhythm changes
+  choice: cold_exposure
+  source_type: expert opinion
+  notes: Risk particularly elevated for those with underlying heart conditions
+- summary: Gradual adaptation to cold water is safer than sudden immersion
+  choice: cold_exposure
+  source_type: expert opinion
+  notes: Recommends acclimatization and supervision for cold water activities
 journal: American Heart Association News
 volume: ''
 issue: ''
@@ -20,4 +33,7 @@ doi: ''
 pmid: ''
 url:
   https://www.heart.org/en/news/2022/12/09/youre-not-a-polar-bear-the-plunge-into-cold-water-comes-with-risks
-abstract: ''
+summary: American Heart Association article warning about risks of cold water
+  immersion. Cold shock can trigger dangerous cardiovascular responses including
+  arrhythmias. Recommends gradual adaptation and caution, especially for those
+  with heart conditions.

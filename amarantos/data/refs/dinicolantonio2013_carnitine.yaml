@@ -16,7 +16,19 @@ keywords:
 - prevention
 - secondary
 - systematic review
-claims: []
+hard_claims:
+- summary: "L-carnitine reduced all-cause mortality by 27% in acute myocardial infarction patients"
+  choice: l_carnitine
+  evidence_type: Meta-analysis
+  effect_size: 0.73
+  effect_ci_lower: 0.54
+  effect_ci_upper: 0.99
+  outcome: "all-cause mortality"
+  population: "patients with acute myocardial infarction"
+  sample_size: 3629
+  followup_years: null
+  notes: "13 controlled trials; also showed 65% reduction in ventricular arrhythmias (RR 0.35, 95% CI 0.21-0.58, P<0.0001) and 40% reduction in angina development (RR 0.60, 95% CI 0.50-0.72, P<0.00001); no significant effect on heart failure or reinfarction"
+soft_claims: []
 journal: Mayo Clinic Proceedings
 volume: '88'
 issue: '6'
@@ -25,4 +37,4 @@ doi: 10.1016/j.mayocp.2013.02.007
 pmid: ''
 url:
   https://www.mayoclinicproceedings.org/article/S0025-6196(13)00127-4/fulltext
-abstract: ''
+summary: 'Systematic review and meta-analysis of 13 controlled trials (n=3,629) examining L-carnitine in acute myocardial infarction secondary prevention. L-carnitine associated with 27% reduction in all-cause mortality (OR 0.73, 95% CI 0.54-0.99), 65% reduction in ventricular arrhythmias (RR 0.35), and 40% reduction in anginal symptoms (RR 0.60). No significant reduction in heart failure or reinfarction rates.'

@@ -17,12 +17,35 @@ keywords:
 - selenium
 - supplement
 - supplementation
-claims: []
+hard_claims:
+- summary: "Selenium supplementation showed no significant effect on all-cause mortality"
+  choice: selenium
+  evidence_type: Meta-analysis
+  effect_size: 0.97
+  effect_ci_lower: 0.88
+  effect_ci_upper: 1.08
+  outcome: "all-cause mortality"
+  population: "general adult population"
+  sample_size: 19715
+  followup_years: 0
+  notes: "Cochrane review of 12 RCTs. No significant effects on CVD mortality (RR 0.97, CI 0.79-1.2) or CVD events (RR 1.03, CI 0.95-1.11)."
+- summary: "Selenium supplementation showed no significant effect on cardiovascular disease events"
+  choice: selenium
+  evidence_type: Meta-analysis
+  effect_size: 1.03
+  effect_ci_lower: 0.95
+  effect_ci_upper: 1.11
+  outcome: "all cardiovascular disease events"
+  population: "general adult population"
+  sample_size: 19715
+  followup_years: 0
+  notes: "Small non-significant increased diabetes risk (RR 1.06). Increased alopecia (RR 1.28) and dermatitis (RR 1.17)."
+soft_claims: []
 journal: Cochrane Database Syst Rev
 volume: '2013'
 issue: '1'
 pages: CD009671
-doi: ''
-pmid: ''
+doi: '10.1002/14651858.CD009671.pub2'
+pmid: '23440843'
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7433291/
-abstract: ''
+summary: "Cochrane systematic review of 12 randomized controlled trials involving 19,715 participants examining selenium supplementation for primary prevention of cardiovascular disease. Found no significant effects on all-cause mortality (RR 0.97), CVD mortality (RR 0.97), or CVD events (RR 1.03). Noted small increased risks of alopecia and dermatitis. Concluded that evidence does not support selenium supplements for CVD prevention, especially in populations with adequate selenium status."

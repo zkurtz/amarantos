@@ -22,7 +22,41 @@ keywords:
 - nutrient
 - randomized
 - trials
-claims: []
+hard_claims:
+- summary: "Cocoa consumption reduces total cholesterol by 8.35 mg/dL"
+  choice: cacao_flavanols
+  evidence_type: Meta-analysis
+  effect_size: -8.35
+  effect_ci_lower: -14.01
+  effect_ci_upper: -2.69
+  outcome: "total cholesterol reduction (mg/dL)"
+  population: "adults in randomized controlled trials"
+  sample_size: 1986
+  followup_years: 0.0
+  notes: "31 RCTs analyzed; cocoa extract or >=70% dark chocolate consumed for >=4 weeks"
+- summary: "Cocoa consumption reduces LDL cholesterol by 9.47 mg/dL"
+  choice: cacao_flavanols
+  evidence_type: Meta-analysis
+  effect_size: -9.47
+  effect_ci_lower: -13.75
+  effect_ci_upper: -5.20
+  outcome: "LDL cholesterol reduction (mg/dL)"
+  population: "adults in randomized controlled trials"
+  sample_size: 1986
+  followup_years: 0.0
+  notes: "No significant effects on triglycerides, HDL, body weight, BMI, or HbA1c"
+- summary: "Cocoa consumption reduces systolic blood pressure by 2.52 mmHg"
+  choice: cacao_flavanols
+  evidence_type: Meta-analysis
+  effect_size: -2.52
+  effect_ci_lower: -4.17
+  effect_ci_upper: -0.88
+  outcome: "systolic blood pressure reduction (mmHg)"
+  population: "adults in randomized controlled trials"
+  sample_size: 1986
+  followup_years: 0.0
+  notes: "Diastolic BP also reduced by 1.58 mmHg (-2.54 to -0.62)"
+soft_claims: []
 journal: Nutrients
 volume: '16'
 issue: '12'
@@ -30,4 +64,4 @@ pages: ''
 doi: ''
 pmid: '38931273'
 url: https://pubmed.ncbi.nlm.nih.gov/38931273/
-abstract: ''
+summary: "Meta-analysis of 31 randomized controlled trials with 1,986 participants examining cocoa consumption effects on cardiometabolic risk markers. Found significant reductions in total cholesterol (-8.35 mg/dL), LDL cholesterol (-9.47 mg/dL), fasting blood glucose (-4.91 mg/dL), systolic BP (-2.52 mmHg), and diastolic BP (-1.58 mmHg). No significant effects on body weight, BMI, triglycerides, HDL, or HbA1c. Studies used cocoa extract or >=70% dark chocolate for >=4 weeks."

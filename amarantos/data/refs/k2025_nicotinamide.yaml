@@ -18,12 +18,35 @@ keywords:
 - riboside
 - skeletal
 - systematic review
-claims: []
+hard_claims:
+- summary: "NMN and NR supplementation showed no significant effect on skeletal muscle mass index"
+  choice: nad_precursors
+  evidence_type: Meta-analysis
+  effect_size: -0.42
+  effect_ci_lower: -0.99
+  effect_ci_upper: 0.14
+  outcome: "skeletal muscle index"
+  population: "adults aged 60+ years (mean age 60.9-83 years)"
+  sample_size: 0
+  followup_years: 0
+  notes: "10 RCTs (6 NMN, 4 NR studies). Dosages 250-2000 mg/day for 3-24 weeks. No significant effects on handgrip strength or gait speed either."
+- summary: "NMN and NR supplementation showed no significant effect on gait speed"
+  choice: nad_precursors
+  evidence_type: Meta-analysis
+  effect_size: -0.01
+  effect_ci_lower: -0.08
+  effect_ci_upper: 0.06
+  outcome: "gait speed"
+  population: "adults aged 60+ years"
+  sample_size: 0
+  followup_years: 0
+  notes: "NR showed mixed results: improved walking distance only in peripheral artery disease patients, but worsened physical performance in those with mild cognitive impairment."
+soft_claims: []
 journal: J Cachexia Sarcopenia Muscle
 volume: '16'
 issue: '3'
 pages: e13799
-doi: ''
+doi: '10.1002/jcsm.13799'
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12022230/
-abstract: ''
+summary: "Systematic review and meta-analysis of 10 randomized controlled trials (6 NMN, 4 NR) examining effects of nicotinamide mononucleotide and riboside supplementation on skeletal muscle outcomes in adults aged 60+. Dosages ranged 250-2000 mg/day for 3-24 weeks. Found no significant effects on skeletal muscle index (MD -0.42), handgrip strength, or gait speed (MD -0.01). Concluded current evidence does not support NMN/NR supplementation for preserving muscle mass and function in older adults."

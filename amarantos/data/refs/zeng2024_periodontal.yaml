@@ -15,7 +15,30 @@ keywords:
 - meta-analysis
 - oral health
 - CVD
-claims: []
+hard_claims:
+- summary: "Non-surgical periodontal therapy significantly reduces C-reactive protein levels"
+  choice: comprehensive_oral_hygiene
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "C-reactive protein"
+  population: "patients with periodontitis"
+  sample_size: null
+  followup_years: null
+  notes: "21 RCTs analyzed; moderate certainty evidence; also reduced IL-6 and systolic blood pressure"
+- summary: "Non-surgical periodontal therapy significantly reduces systolic blood pressure"
+  choice: comprehensive_oral_hygiene
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "systolic blood pressure"
+  population: "patients with periodontitis"
+  sample_size: null
+  followup_years: null
+  notes: "No significant effects on lipid profiles (LDL, HDL, TC, TG) or diastolic blood pressure"
+soft_claims: []
 journal: "BMC Oral Health"
 volume: "24"
 issue: "1"
@@ -23,4 +46,4 @@ pages: "692"
 doi: ""
 pmid: "38877442"
 url: https://pubmed.ncbi.nlm.nih.gov/38877442/
-abstract: ""
+summary: 'Systematic review and meta-analysis of 21 RCTs examining non-surgical periodontal therapy effects on CVD risk markers. Found significant reductions in CRP, IL-6, and systolic blood pressure (moderate certainty evidence). No significant effects on lipid profiles (LDL, HDL, TC, TG), IL-1B, TNF-a, diastolic blood pressure, or flow-mediated dilatation.'

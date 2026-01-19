@@ -21,7 +21,19 @@ keywords:
 - supplementation
 - systematic review
 - trials
-claims: []
+hard_claims:
+- summary: "Melatonin supplementation significantly improves sleep quality as measured by Pittsburgh Sleep Quality Index"
+  choice: melatonin
+  evidence_type: Meta-analysis
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "sleep quality (PSQI weighted mean difference)"
+  population: "adults with various health conditions"
+  sample_size: null
+  followup_years: null
+  notes: "23 RCTs; WMD -1.24 (95% CI -1.77 to -0.71); strongest effects in respiratory diseases (WMD -2.20) and metabolic disorders (WMD -2.74)"
+soft_claims: []
 journal: J Neurol
 volume: '269'
 issue: '1'
@@ -29,4 +41,4 @@ pages: 205-216
 doi: ''
 pmid: '33417003'
 url: https://pubmed.ncbi.nlm.nih.gov/33417003/
-abstract: ''
+summary: 'Systematic review and meta-analysis of 23 RCTs examining melatonin supplementation and sleep quality measured by PSQI. Found significant improvement in sleep quality (WMD -1.24, 95% CI -1.77 to -0.71). Effects were strongest in adults with respiratory diseases (WMD -2.20) and metabolic disorders (WMD -2.74), but not significant in those with mental or neurodegenerative conditions.'

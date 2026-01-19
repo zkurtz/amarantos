@@ -14,7 +14,16 @@ keywords:
 - saunas
 - summary
 - treatment
-claims: []
+hard_claims: []
+soft_claims:
+- summary: "Far-infrared sauna therapy shows moderate evidence for benefits in congestive heart failure patients"
+  choice: infrared_sauna
+  source_type: "review"
+  notes: "Review of 9 studies; improvements in NYHA class, ejection fraction, walking distance; limited by small sample sizes"
+- summary: "Far-infrared sauna therapy shows fair evidence for blood pressure reduction"
+  choice: infrared_sauna
+  source_type: "review"
+  notes: "Systolic BP reductions of approximately 10-15 mm Hg observed; improved endothelial function in at-risk populations"
 journal: Can Fam Physician
 volume: '55'
 issue: '7'
@@ -22,4 +31,4 @@ pages: 691-696
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2718593/
-abstract: ''
+summary: 'Review of 9 peer-reviewed studies examining far-infrared sauna therapy for cardiovascular risk factors. Found moderate evidence for benefits in congestive heart failure (improved ejection fraction, walking distance) and fair evidence for blood pressure reduction (10-15 mm Hg systolic). No evidence for cholesterol reduction. Limited by small sample sizes and single research group.'

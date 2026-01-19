@@ -24,7 +24,19 @@ keywords:
 - randomized
 - riboside
 - trial
-claims: []
+hard_claims:
+- summary: "Nicotinamide riboside supplementation (1g/day) increased blood NAD+ concentrations by 139% compared to placebo in older adults with MCI"
+  choice: nad_precursors
+  evidence_type: Randomized controlled trial
+  effect_size: null
+  effect_ci_lower: null
+  effect_ci_upper: null
+  outcome: "blood NAD+ levels"
+  population: "older adults (65+) with mild cognitive impairment"
+  sample_size: 20
+  followup_years: 0.19
+  notes: "10-week double-blind pilot study; well-tolerated; cognitive measures remained stable with no significant between-group differences; cerebral blood flow decreased in default mode network regions"
+soft_claims: []
 journal: GeroScience
 volume: '46'
 issue: '1'
@@ -32,4 +44,4 @@ pages: 665-682
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10828186/
-abstract: ''
+summary: "Randomized, double-blind, placebo-controlled pilot study of nicotinamide riboside (NR) in 20 older adults (65+) with mild cognitive impairment over 10 weeks. NR significantly increased blood NAD+ levels by 139% and was well-tolerated. Cognitive measures remained stable with no significant between-group differences. Modest trends suggested potential epigenetic aging reduction."

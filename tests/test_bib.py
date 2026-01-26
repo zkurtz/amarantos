@@ -91,7 +91,7 @@ class TestReferenceLoadSave:
         effect = BaseEffect(
             outcome="all-cause mortality",
             mean=0.8,
-            std=(0.9 - 0.7) / (2 * 1.96)  # Calculate std from CI bounds
+            std=(0.9 - 0.7) / (2 * 1.96),  # Calculate std from CI bounds
         )
         hard_claim = Claim(
             summary="Test hard claim",

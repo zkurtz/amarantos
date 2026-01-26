@@ -27,28 +27,26 @@ keywords:
 - supplementation
 - systematic review
 hard_claims:
-- summary: "Collagen peptide supplementation reduced systolic blood pressure by 5 mmHg"
+- summary: Collagen peptide supplementation reduced systolic blood pressure by 5 mmHg
   choice: collagen_peptides
   evidence_type: Meta-analysis
-  effect_size: -5.04
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "systolic blood pressure"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "12 RCTs; also reduced LDL cholesterol by 4.09 mg/dl"
-- summary: "Collagen peptide supplementation reduced fat mass by approximately 1.2 kg"
+  effects:
+  - outcome: systolic blood pressure
+    mean: -5.04
+    std: 1.26
+  population: general adult population
+  notes: 12 RCTs; also reduced LDL cholesterol by 4.09 mg/dl
+- summary: Collagen peptide supplementation reduced fat mass by approximately 1.2
+    kg
   choice: collagen_peptides
   evidence_type: Meta-analysis
-  effect_size: -1.21
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "fat mass"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "Also increased fat-free mass by 1.49% of body mass; no effect on glycemic markers"
+  effects:
+  - outcome: fat mass
+    mean: -1.21
+    std: 0.3025
+  population: general adult population
+  notes: Also increased fat-free mass by 1.49% of body mass; no effect on glycemic
+    markers
 soft_claims: []
 journal: Br J Nutr
 volume: '129'
@@ -57,4 +55,8 @@ pages: 779-794
 doi: ''
 pmid: '35658958'
 url: https://pubmed.ncbi.nlm.nih.gov/35658958/
-summary: 'Systematic review and meta-analysis of 12 randomized, placebo-controlled trials examining collagen peptide supplementation effects on cardiovascular markers. Found reductions in systolic blood pressure (-5.04 mmHg), LDL cholesterol (-4.09 mg/dl), and fat mass (-1.21 kg), with increased fat-free mass (+1.49%). No significant effects on glycemic markers.'
+summary: Systematic review and meta-analysis of 12 randomized, placebo-controlled
+  trials examining collagen peptide supplementation effects on cardiovascular markers.
+  Found reductions in systolic blood pressure (-5.04 mmHg), LDL cholesterol (-4.09
+  mg/dl), and fat mass (-1.21 kg), with increased fat-free mass (+1.49%). No significant
+  effects on glycemic markers.

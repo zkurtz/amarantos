@@ -1,6 +1,6 @@
 id: s2024_fasting
-title: Fasting-mimicking diet causes hepatic and blood markers changes
-  indicating reduced biological age and disease risk
+title: Fasting-mimicking diet causes hepatic and blood markers changes indicating
+  reduced biological age and disease risk
 authors:
 - Brandhorst S
 - Levine ME
@@ -27,17 +27,20 @@ keywords:
 - mimicking
 - reduced
 hard_claims:
-- summary: "Three cycles of fasting-mimicking diet reduced biological age by median 2.5 years independent of weight loss"
+- summary: Three cycles of fasting-mimicking diet reduced biological age by median
+    2.5 years independent of weight loss
   choice: intermittent_fasting
   evidence_type: Randomized controlled trial
-  effect_size: -2.5
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "biological age reduction (years)"
-  population: "overweight and pre-diabetic adults"
+  effects:
+  - outcome: biological age reduction (years)
+    mean: -2.5
+    std: 0.625
+  population: overweight and pre-diabetic adults
   sample_size: 68
-  followup_years: null
-  notes: "Analysis of two clinical trials (NCT02158897, NCT04150159). Also showed reduced insulin resistance, lower hepatic fat, improved glucose in pre-diabetics, and younger immune profile (increased lymphoid-to-myeloid ratio). Exploratory secondary analysis."
+  notes: Analysis of two clinical trials (NCT02158897, NCT04150159). Also showed reduced
+    insulin resistance, lower hepatic fat, improved glucose in pre-diabetics, and
+    younger immune profile (increased lymphoid-to-myeloid ratio). Exploratory secondary
+    analysis.
 soft_claims: []
 journal: Nat Commun
 volume: '15'
@@ -46,4 +49,9 @@ pages: '1309'
 doi: ''
 pmid: '38378685'
 url: https://pubmed.ncbi.nlm.nih.gov/38378685/
-summary: "Randomized controlled trial analyzing blood samples from two clinical trials examining fasting-mimicking diet effects. Three FMD cycles in 52 participants (vs 16 controls) associated with reduced insulin resistance, lower hepatic fat, improved glucose levels in pre-diabetics, and a median 2.5-year reduction in biological age independent of weight loss. Increased lymphoid-to-myeloid ratio indicated younger immune system status."
+summary: Randomized controlled trial analyzing blood samples from two clinical trials
+  examining fasting-mimicking diet effects. Three FMD cycles in 52 participants (vs
+  16 controls) associated with reduced insulin resistance, lower hepatic fat, improved
+  glucose levels in pre-diabetics, and a median 2.5-year reduction in biological age
+  independent of weight loss. Increased lymphoid-to-myeloid ratio indicated younger
+  immune system status.

@@ -13,10 +13,12 @@ keywords:
 - radiology
 hard_claims: []
 soft_claims:
-- summary: "Editorial raises concerns about unclear or conflicting evidence regarding CT screening effectiveness for lung cancer"
+- summary: Editorial raises concerns about unclear or conflicting evidence regarding
+    CT screening effectiveness for lung cancer
   choice: ct_screening
-  source_type: "expert opinion"
-  notes: "Commentary on Bach et al. study examining outcomes from CT-based screening programs; title suggests authors were critical of evidence quality"
+  source_type: expert opinion
+  notes: Commentary on Bach et al. study examining outcomes from CT-based screening
+    programs; title suggests authors were critical of evidence quality
 journal: JAMA
 volume: '297'
 issue: '9'
@@ -24,4 +26,7 @@ pages: 995-7
 doi: ''
 pmid: '17341714'
 url: https://pubmed.ncbi.nlm.nih.gov/17341714/
-summary: 'Editorial commentary in JAMA responding to research on CT screening for lung cancer. The title "spiraling into confusion?" suggests the authors raised concerns about unclear or conflicting evidence regarding CT screening effectiveness or implementation for lung malignancies.'
+summary: Editorial commentary in JAMA responding to research on CT screening for lung
+  cancer. The title "spiraling into confusion?" suggests the authors raised concerns
+  about unclear or conflicting evidence regarding CT screening effectiveness or implementation
+  for lung malignancies.

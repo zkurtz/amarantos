@@ -1,6 +1,5 @@
 id: harrison2009_rapamycin
-title: Rapamycin fed late in life extends lifespan in genetically heterogeneous
-  mice
+title: Rapamycin fed late in life extends lifespan in genetically heterogeneous mice
 authors:
 - Harrison DE
 - Strong R
@@ -20,24 +19,20 @@ hard_claims:
 - summary: Rapamycin extends median lifespan by 14% in female mice
   choice: rapamycin
   evidence_type: Randomized controlled trial
-  effect_size: 1.14
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: median lifespan extension
+  effects:
+  - outcome: median lifespan extension
+    mean: 1.14
+    std: 0.285
   population: genetically heterogeneous female mice
-  sample_size: null
-  followup_years: null
   notes: Treatment started at 600 days of age; tested across 3 independent sites
 - summary: Rapamycin extends median lifespan by 9% in male mice
   choice: rapamycin
   evidence_type: Randomized controlled trial
-  effect_size: 1.09
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: median lifespan extension
+  effects:
+  - outcome: median lifespan extension
+    mean: 1.09
+    std: 0.2725
   population: genetically heterogeneous male mice
-  sample_size: null
-  followup_years: null
   notes: Treatment started at 600 days of age; tested across 3 independent sites
 soft_claims: []
 journal: Nature
@@ -47,7 +42,7 @@ pages: 392-395
 doi: 10.1038/nature08221
 pmid: '19587680'
 url: https://pubmed.ncbi.nlm.nih.gov/19587680/
-summary: Landmark study demonstrating that rapamycin, an mTOR inhibitor, extends
-  lifespan in mice even when treatment begins late in life (600 days). Female mice
-  showed 14% lifespan extension and males showed 9% extension. Study was replicated
-  across three independent test sites using genetically heterogeneous mice.
+summary: Landmark study demonstrating that rapamycin, an mTOR inhibitor, extends lifespan
+  in mice even when treatment begins late in life (600 days). Female mice showed 14%
+  lifespan extension and males showed 9% extension. Study was replicated across three
+  independent test sites using genetically heterogeneous mice.

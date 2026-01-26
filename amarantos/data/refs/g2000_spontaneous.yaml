@@ -16,10 +16,13 @@ keywords:
 - spontaneous
 hard_claims: []
 soft_claims:
-- summary: "Cardiac rhabdomyomas in infants can spontaneously regress without surgical intervention, supporting medical follow-up as preferred treatment for asymptomatic cases"
+- summary: Cardiac rhabdomyomas in infants can spontaneously regress without surgical
+    intervention, supporting medical follow-up as preferred treatment for asymptomatic
+    cases
   choice: watchful_waiting
-  source_type: "Case report"
-  notes: "Rhabdomyomas are the most common primary cardiac tumors in childhood; surgical resection indicated only for symptomatic tumors causing hemodynamic compromise"
+  source_type: Case report
+  notes: Rhabdomyomas are the most common primary cardiac tumors in childhood; surgical
+    resection indicated only for symptomatic tumors causing hemodynamic compromise
 journal: Images Paediatr Cardiol
 volume: '2'
 issue: '4'
@@ -27,4 +30,8 @@ pages: 4-10
 doi: ''
 pmid: '22368587'
 url: https://pubmed.ncbi.nlm.nih.gov/22368587/
-summary: 'Case report of a newborn presenting with a large cardiac rhabdomyoma causing moderate subaortic stenosis. Follow-up showed spontaneous regression of the tumor. Authors conclude medical follow-up should be preferred treatment for asymptomatic cases, as rhabdomyomas are the most common primary cardiac tumors in childhood and may resolve naturally.'
+summary: Case report of a newborn presenting with a large cardiac rhabdomyoma causing
+  moderate subaortic stenosis. Follow-up showed spontaneous regression of the tumor.
+  Authors conclude medical follow-up should be preferred treatment for asymptomatic
+  cases, as rhabdomyomas are the most common primary cardiac tumors in childhood and
+  may resolve naturally.

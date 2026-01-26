@@ -1,7 +1,7 @@
 id: j2014_fructose
-title: The effects of fructose-containing sugars on weight, body composition and
-  cardiometabolic risk factors when consumed at up to the 90th percentile
-  population consumption level for fructose
+title: The effects of fructose-containing sugars on weight, body composition and cardiometabolic
+  risk factors when consumed at up to the 90th percentile population consumption level
+  for fructose
 authors:
 - Lowndes J
 - Sinnett S
@@ -21,17 +21,15 @@ keywords:
 - sugars
 - weight
 hard_claims:
-- summary: "Fructose-containing sugars at 90th percentile consumption level do not raise blood pressure"
+- summary: Fructose-containing sugars at 90th percentile consumption level do not
+    raise blood pressure
   choice: sugar_intake
   evidence_type: Randomized controlled trial
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "blood pressure"
-  population: "overweight or obese adults aged 20-60"
+  effects: []
+  population: overweight or obese adults aged 20-60
   sample_size: 355
-  followup_years: null
-  notes: "10-week eucaloric diet with sucrose or HFCS at 8%, 18%, or 30% of daily calories; modest increases in triglycerides and slight decreases in HDL observed"
+  notes: 10-week eucaloric diet with sucrose or HFCS at 8%, 18%, or 30% of daily calories;
+    modest increases in triglycerides and slight decreases in HDL observed
 soft_claims: []
 journal: Nutrients
 volume: '6'
@@ -40,4 +38,8 @@ pages: 3153-68
 doi: ''
 pmid: '25111121'
 url: https://pubmed.ncbi.nlm.nih.gov/25111121/
-summary: 'Randomized controlled trial of 355 overweight/obese adults aged 20-60 examining fructose-containing sugars at various consumption levels (8-30% of calories). Over 10 weeks, found no significant effects on blood pressure. Modest changes in lipids observed: triglycerides increased (104 to 114 mg/dL), HDL decreased slightly (53 to 52 mg/dL). Total cholesterol and LDL unchanged.'
+summary: 'Randomized controlled trial of 355 overweight/obese adults aged 20-60 examining
+  fructose-containing sugars at various consumption levels (8-30% of calories). Over
+  10 weeks, found no significant effects on blood pressure. Modest changes in lipids
+  observed: triglycerides increased (104 to 114 mg/dL), HDL decreased slightly (53
+  to 52 mg/dL). Total cholesterol and LDL unchanged.'

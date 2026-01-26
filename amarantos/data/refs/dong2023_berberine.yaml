@@ -17,17 +17,19 @@ keywords:
 - AMPK
 - LDL
 hard_claims:
-- summary: "Berberine improved multiple metabolic markers including glucose, HbA1c, and lipids"
+- summary: Berberine improved multiple metabolic markers including glucose, HbA1c,
+    and lipids
   choice: berberine
   evidence_type: Meta-analysis
-  effect_size: -0.82
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "fasting plasma glucose reduction (mmol/L)"
-  population: "patients with metabolic disorders including prediabetes and type 2 diabetes"
+  effects:
+  - outcome: fasting plasma glucose reduction (mmol/L)
+    mean: -0.82
+    std: 0.205
+  population: patients with metabolic disorders including prediabetes and type 2 diabetes
   sample_size: 3048
-  followup_years: null
-  notes: "37 RCTs; also reduced HbA1c (-0.63%), 2hPBG (-1.16 mmol/L); mechanism involves AMPK activation; LDL-lowering effects also documented; effects baseline-dependent with stronger effects in those with higher baseline glucose/HbA1c"
+  notes: 37 RCTs; also reduced HbA1c (-0.63%), 2hPBG (-1.16 mmol/L); mechanism involves
+    AMPK activation; LDL-lowering effects also documented; effects baseline-dependent
+    with stronger effects in those with higher baseline glucose/HbA1c
 soft_claims: []
 journal: Phytomedicine
 volume: '101'
@@ -36,4 +38,9 @@ pages: '154127'
 doi: 10.1016/j.phymed.2023.154127
 pmid: ''
 url: https://doi.org/10.1016/j.phymed.2023.154127
-summary: 'Systematic review and meta-analysis of 37 RCTs (n=3,048) examining berberine effects on metabolic markers in prediabetes and type 2 diabetes. Berberine significantly reduced fasting plasma glucose (WMD -0.82 mmol/L), HbA1c (-0.63%), and 2-hour postprandial glucose (-1.16 mmol/L). Effects mediated via AMPK activation. Glucose-lowering effects correlated with baseline FPG and HbA1c levels. Safe with no increased hypoglycemia risk.'
+summary: Systematic review and meta-analysis of 37 RCTs (n=3,048) examining berberine
+  effects on metabolic markers in prediabetes and type 2 diabetes. Berberine significantly
+  reduced fasting plasma glucose (WMD -0.82 mmol/L), HbA1c (-0.63%), and 2-hour postprandial
+  glucose (-1.16 mmol/L). Effects mediated via AMPK activation. Glucose-lowering effects
+  correlated with baseline FPG and HbA1c levels. Safe with no increased hypoglycemia
+  risk.

@@ -1,6 +1,6 @@
 id: jensen2024_associations
-title: Associations Between Physical Activity and Gastrointestinal Transit Times
-  in People with Normal Weight, Overweight, and Obesity
+title: Associations Between Physical Activity and Gastrointestinal Transit Times in
+  People with Normal Weight, Overweight, and Obesity
 authors:
 - Jensen Marie M.
 - Pedersen Hanne E.
@@ -24,17 +24,19 @@ keywords:
 - transit
 - weight
 hard_claims:
-- summary: "High light-intensity physical activity associated with 25.5% more rapid colonic transit time"
+- summary: High light-intensity physical activity associated with 25.5% more rapid
+    colonic transit time
   choice: physical_activity
   evidence_type: Cross-sectional study
-  effect_size: 0.745
-  effect_ci_lower: 0.573
-  effect_ci_upper: 0.969
-  outcome: "colonic transit time"
-  population: "adults with normal weight, overweight, and obesity"
+  effects:
+  - outcome: colonic transit time
+    mean: 0.745
+    std: 0.10102040816326531
+  population: adults with normal weight, overweight, and obesity
   sample_size: 50
   followup_years: 0
-  notes: "Per additional hour of high light-intensity activity. Also found 16.2% more rapid whole gut transit time."
+  notes: Per additional hour of high light-intensity activity. Also found 16.2% more
+    rapid whole gut transit time.
 soft_claims: []
 journal: The Journal of Nutrition
 volume: '154'
@@ -43,4 +45,8 @@ pages: 41-48
 doi: 10.1016/j.tjnut.2023.06.005
 pmid: '37315794'
 url: https://jn.nutrition.org/article/S0022-3166(23)00519-9/fulltext
-summary: "Cross-sectional study of 50 adults (median age 56.5, median BMI 32.1) examining associations between accelerometer-measured physical activity and gastrointestinal transit times using wireless motility capsules. Found that high light-intensity physical activity was associated with more rapid colonic and whole gut transit times, independent of age, sex, and body fat."
+summary: Cross-sectional study of 50 adults (median age 56.5, median BMI 32.1) examining
+  associations between accelerometer-measured physical activity and gastrointestinal
+  transit times using wireless motility capsules. Found that high light-intensity
+  physical activity was associated with more rapid colonic and whole gut transit times,
+  independent of age, sex, and body fat.

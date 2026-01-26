@@ -1,6 +1,6 @@
 id: aune2016_nuts
-title: Nut consumption and risk of cardiovascular disease, total cancer,
-  all-cause and cause-specific mortality
+title: Nut consumption and risk of cardiovascular disease, total cancer, all-cause
+  and cause-specific mortality
 authors:
 - Aune D
 - Keum N
@@ -22,36 +22,28 @@ hard_claims:
 - summary: 28g/day nut intake associated with 22% lower all-cause mortality
   choice: nuts
   evidence_type: Meta-analysis
-  effect_size: 0.78
-  effect_ci_lower: 0.72
-  effect_ci_upper: 0.84
-  outcome: all-cause mortality
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.78
+    std: 0.030612244897959183
   population: general adult population
-  sample_size: null
-  followup_years: null
   notes: Dose-response meta-analysis of 20 prospective studies
 - summary: 28g/day nut intake associated with 29% lower coronary heart disease risk
   choice: nuts
   evidence_type: Meta-analysis
-  effect_size: 0.71
-  effect_ci_lower: 0.63
-  effect_ci_upper: 0.80
-  outcome: coronary heart disease
+  effects:
+  - outcome: coronary heart disease
+    mean: 0.71
+    std: 0.043367346938775524
   population: general adult population
-  sample_size: null
-  followup_years: null
-  notes: ''
 - summary: 28g/day nut intake associated with 21% lower cardiovascular disease risk
   choice: nuts
   evidence_type: Meta-analysis
-  effect_size: 0.79
-  effect_ci_lower: 0.70
-  effect_ci_upper: 0.88
-  outcome: cardiovascular disease
+  effects:
+  - outcome: cardiovascular disease
+    mean: 0.79
+    std: 0.04591836734693879
   population: general adult population
-  sample_size: null
-  followup_years: null
-  notes: ''
 soft_claims: []
 journal: BMC Medicine
 volume: '14'

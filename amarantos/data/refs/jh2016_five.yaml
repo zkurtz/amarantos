@@ -21,10 +21,12 @@ keywords:
 - treatments
 hard_claims: []
 soft_claims:
-- summary: "Retrospective analysis of dental implant treatments in private practice, not relevant to longevity interventions"
+- summary: Retrospective analysis of dental implant treatments in private practice,
+    not relevant to longevity interventions
   choice: other
-  source_type: "expert opinion"
-  notes: "Study focused on dental implant restorations (5,491 cases). Not related to longevity or mortality outcomes."
+  source_type: expert opinion
+  notes: Study focused on dental implant restorations (5,491 cases). Not related to
+    longevity or mortality outcomes.
 journal: Int J Prosthodont
 volume: '29'
 issue: '4'
@@ -32,4 +34,7 @@ pages: 372-80
 doi: ''
 pmid: '27479346'
 url: https://pubmed.ncbi.nlm.nih.gov/27479346/
-summary: "Five-year retrospective analysis of 5,491 implant-supported restorations placed in private practice in Victoria, Australia between 2005-2009. Examined restoration types, materials, and retention methods among 34 practitioners. Not relevant to longevity interventions."
+summary: Five-year retrospective analysis of 5,491 implant-supported restorations
+  placed in private practice in Victoria, Australia between 2005-2009. Examined restoration
+  types, materials, and retention methods among 34 practitioners. Not relevant to
+  longevity interventions.

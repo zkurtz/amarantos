@@ -25,28 +25,29 @@ keywords:
 - systematic review
 - trials
 hard_claims:
-- summary: "Quercetin supplementation reduced systolic blood pressure by 3.04 mmHg"
+- summary: Quercetin supplementation reduced systolic blood pressure by 3.04 mmHg
   choice: quercetin
   evidence_type: Meta-analysis
-  effect_size: -3.04
-  effect_ci_lower: -5.75
-  effect_ci_upper: -0.33
-  outcome: "systolic blood pressure (mmHg)"
-  population: "general adult population"
+  effects:
+  - outcome: systolic blood pressure (mmHg)
+    mean: -3.04
+    std: 1.3826530612244898
+  population: general adult population
   sample_size: 587
-  followup_years: null
-  notes: "Meta-analysis of 7 RCTs (9 treatment arms). Doses >=500 mg/day showed larger effect (-4.45 mmHg, 95% CI -7.70 to -1.21). Doses <500 mg/day showed no significant effect."
-- summary: "Quercetin supplementation reduced diastolic blood pressure by 2.63 mmHg"
+  notes: Meta-analysis of 7 RCTs (9 treatment arms). Doses >=500 mg/day showed larger
+    effect (-4.45 mmHg, 95% CI -7.70 to -1.21). Doses <500 mg/day showed no significant
+    effect.
+- summary: Quercetin supplementation reduced diastolic blood pressure by 2.63 mmHg
   choice: quercetin
   evidence_type: Meta-analysis
-  effect_size: -2.63
-  effect_ci_lower: -3.26
-  effect_ci_upper: -2.01
-  outcome: "diastolic blood pressure (mmHg)"
-  population: "general adult population"
+  effects:
+  - outcome: diastolic blood pressure (mmHg)
+    mean: -2.63
+    std: 0.31887755102040816
+  population: general adult population
   sample_size: 587
-  followup_years: null
-  notes: "Meta-analysis of 7 RCTs (9 treatment arms). Doses >=500 mg/day showed larger effect (-2.98 mmHg, 95% CI -3.64 to -2.31)."
+  notes: Meta-analysis of 7 RCTs (9 treatment arms). Doses >=500 mg/day showed larger
+    effect (-2.98 mmHg, 95% CI -3.64 to -2.31).
 soft_claims: []
 journal: Journal of the American Heart Association
 volume: '5'
@@ -55,4 +56,8 @@ pages: ''
 doi: 10.1161/jaha.115.002713
 pmid: ''
 url: https://www.ahajournals.org/doi/10.1161/jaha.115.002713
-summary: "Systematic review and meta-analysis of 7 RCTs (587 patients, 9 treatment arms) examining quercetin effects on blood pressure. Quercetin significantly reduced both systolic BP (WMD -3.04 mmHg, 95% CI -5.75 to -0.33, P=0.028) and diastolic BP (WMD -2.63 mmHg, 95% CI -3.26 to -2.01, P<0.001). Effect was dose-dependent, with doses >=500 mg/day showing greater reductions."
+summary: Systematic review and meta-analysis of 7 RCTs (587 patients, 9 treatment
+  arms) examining quercetin effects on blood pressure. Quercetin significantly reduced
+  both systolic BP (WMD -3.04 mmHg, 95% CI -5.75 to -0.33, P=0.028) and diastolic
+  BP (WMD -2.63 mmHg, 95% CI -3.26 to -2.01, P<0.001). Effect was dose-dependent,
+  with doses >=500 mg/day showing greater reductions.

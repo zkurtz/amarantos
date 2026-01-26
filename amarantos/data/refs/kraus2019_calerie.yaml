@@ -16,17 +16,20 @@ keywords:
 - RCT
 - healthspan
 hard_claims:
-- summary: "Two years of caloric restriction significantly reduced multiple cardiometabolic risk factors"
+- summary: Two years of caloric restriction significantly reduced multiple cardiometabolic
+    risk factors
   choice: caloric_restriction
   evidence_type: Randomized controlled trial
-  effect_size: 0.0
-  effect_ci_lower: 0.0
-  effect_ci_upper: 0.0
-  outcome: "cardiometabolic risk factors"
-  population: "healthy non-obese adults aged 21-50 (BMI 22.0-27.9)"
+  effects:
+  - outcome: cardiometabolic risk factors
+    mean: 0.0
+    std: 0.0
+  population: healthy non-obese adults aged 21-50 (BMI 22.0-27.9)
   sample_size: 218
   followup_years: 2.0
-  notes: "CALERIE phase 2 trial. CR group achieved 11.9% calorie reduction, lost 7.5kg (71% fat mass). Significant improvements in LDL cholesterol, blood pressure, C-reactive protein, and insulin sensitivity."
+  notes: CALERIE phase 2 trial. CR group achieved 11.9% calorie reduction, lost 7.5kg
+    (71% fat mass). Significant improvements in LDL cholesterol, blood pressure, C-reactive
+    protein, and insulin sensitivity.
 soft_claims: []
 journal: Lancet Diabetes and Endocrinology
 volume: '7'
@@ -35,4 +38,10 @@ pages: 673-683
 doi: 10.1016/S2213-8587(19)30151-2
 pmid: '31303390'
 url: https://pubmed.ncbi.nlm.nih.gov/31303390/
-summary: "CALERIE phase 2 multicenter RCT of 218 healthy non-obese adults (ages 21-50, BMI 22.0-27.9) randomized to 25% caloric restriction (n=143) or ad libitum control (n=75) for 2 years. CR group achieved 11.9% calorie reduction and sustained 7.5kg weight loss (71% fat mass). Showed significant improvements in LDL cholesterol, total cholesterol/HDL ratio, blood pressure, C-reactive protein, metabolic syndrome score, and insulin sensitivity, suggesting potential long-term cardiovascular benefits even in healthy populations."
+summary: CALERIE phase 2 multicenter RCT of 218 healthy non-obese adults (ages 21-50,
+  BMI 22.0-27.9) randomized to 25% caloric restriction (n=143) or ad libitum control
+  (n=75) for 2 years. CR group achieved 11.9% calorie reduction and sustained 7.5kg
+  weight loss (71% fat mass). Showed significant improvements in LDL cholesterol,
+  total cholesterol/HDL ratio, blood pressure, C-reactive protein, metabolic syndrome
+  score, and insulin sensitivity, suggesting potential long-term cardiovascular benefits
+  even in healthy populations.

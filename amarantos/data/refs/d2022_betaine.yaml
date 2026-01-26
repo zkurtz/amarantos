@@ -23,17 +23,18 @@ keywords:
 - supplementation
 - systematic review
 hard_claims:
-- summary: "Betaine supplementation reduced homocysteine levels"
+- summary: Betaine supplementation reduced homocysteine levels
   choice: betaine_tmg
   evidence_type: Meta-analysis
-  effect_size: -1.30
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "homocysteine reduction (micromol/L)"
-  population: "adults"
-  sample_size: null
-  followup_years: null
-  notes: "Doses <=4g/day lowered homocysteine without adverse lipid effects; higher doses (>=4g/day) increased total cholesterol (+14.12 mg/dl), LDL (+10.26 mg/dl); no effect on triglycerides, HDL, fasting glucose, CRP, liver enzymes, or blood pressure"
+  effects:
+  - outcome: homocysteine reduction (micromol/L)
+    mean: -1.3
+    std: 0.325
+  population: adults
+  notes: Doses <=4g/day lowered homocysteine without adverse lipid effects; higher
+    doses (>=4g/day) increased total cholesterol (+14.12 mg/dl), LDL (+10.26 mg/dl);
+    no effect on triglycerides, HDL, fasting glucose, CRP, liver enzymes, or blood
+    pressure
 soft_claims: []
 journal: Crit Rev Food Sci Nutr
 volume: '62'
@@ -42,4 +43,9 @@ pages: 6516-6533
 doi: ''
 pmid: '33764214'
 url: https://pubmed.ncbi.nlm.nih.gov/33764214/
-summary: 'Systematic review and meta-analysis examining betaine supplementation effects on cardiovascular markers. Betaine significantly increased plasma betaine concentration (+82.14 umol/L) and reduced homocysteine (-1.30 umol/L). However, doses >=4g/day increased total cholesterol (+14.12 mg/dl) and LDL (+10.26 mg/dl). Doses <=4g/day recommended for homocysteine-lowering benefits without adverse lipid effects. No significant effects on triglycerides, HDL, glucose, CRP, or blood pressure.'
+summary: Systematic review and meta-analysis examining betaine supplementation effects
+  on cardiovascular markers. Betaine significantly increased plasma betaine concentration
+  (+82.14 umol/L) and reduced homocysteine (-1.30 umol/L). However, doses >=4g/day
+  increased total cholesterol (+14.12 mg/dl) and LDL (+10.26 mg/dl). Doses <=4g/day
+  recommended for homocysteine-lowering benefits without adverse lipid effects. No
+  significant effects on triglycerides, HDL, glucose, CRP, or blood pressure.

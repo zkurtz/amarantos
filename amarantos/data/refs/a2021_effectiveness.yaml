@@ -21,28 +21,22 @@ keywords:
 - versus
 - weight
 hard_claims:
-- summary: "Intermittent fasting shows comparable effectiveness to continuous energy restriction for weight loss"
+- summary: Intermittent fasting shows comparable effectiveness to continuous energy
+    restriction for weight loss
   choice: intermittent_fasting
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "weight loss"
-  population: "overweight and obese adults"
-  sample_size: null
-  followup_years: null
-  notes: "IF diets showed higher weight loss in 4 studies compared to CER; 18 RCTs analyzed"
-- summary: "Intermittent fasting may improve body composition similarly to continuous energy restriction"
+  effects: []
+  population: overweight and obese adults
+  notes: IF diets showed higher weight loss in 4 studies compared to CER; 18 RCTs
+    analyzed
+- summary: Intermittent fasting may improve body composition similarly to continuous
+    energy restriction
   choice: intermittent_fasting
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "fat mass reduction"
-  population: "overweight and obese adults"
-  sample_size: null
-  followup_years: null
-  notes: "Fat mass tended to decrease more with IF in 5 studies; lean mass losses comparable between approaches"
+  effects: []
+  population: overweight and obese adults
+  notes: Fat mass tended to decrease more with IF in 5 studies; lean mass losses comparable
+    between approaches
 soft_claims: []
 journal: Eur J Clin Nutr
 volume: '75'
@@ -51,4 +45,9 @@ pages: 1024-1039
 doi: ''
 pmid: '33293678'
 url: https://pubmed.ncbi.nlm.nih.gov/33293678/
-summary: 'Meta-analysis of 18 randomized clinical trials comparing intermittent fasting (IF) versus continuous energy restriction (CER) in overweight and obese adults. Evaluated effects on anthropometric measurements, body composition, and lipid profiles. Found IF may provide comparable or slightly better results for weight loss, fat mass reduction, and lipid profile improvement compared to CER, though adherence results were inconclusive.'
+summary: Meta-analysis of 18 randomized clinical trials comparing intermittent fasting
+  (IF) versus continuous energy restriction (CER) in overweight and obese adults.
+  Evaluated effects on anthropometric measurements, body composition, and lipid profiles.
+  Found IF may provide comparable or slightly better results for weight loss, fat
+  mass reduction, and lipid profile improvement compared to CER, though adherence
+  results were inconclusive.

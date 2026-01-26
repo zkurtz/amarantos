@@ -8,6 +8,8 @@ from typing import Self
 import attrs
 import dummio.yaml
 
+from amarantos.core.schemas import BaseEffect
+
 # URL validation pattern (basic but catches obvious errors)
 _URL_PATTERN = re.compile(
     r"^https?://"  # http:// or https://
@@ -84,17 +86,14 @@ class SoftClaim:
 
 
 @attrs.frozen
-class HardClaim:
+class Claim:
     """A quantitative claim with effect sizes from research.
 
     Attributes:
         summary: Brief description of what the claim states.
         choice: The choice/intervention this claim relates to (e.g., "running").
         evidence_type: How the evidence was gathered.
-        effect_size: Point estimate (e.g., hazard ratio, relative risk).
-        effect_ci_lower: Lower bound of confidence interval.
-        effect_ci_upper: Upper bound of confidence interval.
-        outcome: What is being measured (e.g., "all-cause mortality").
+        effects: List of effect estimates for different outcomes.
         population: Who was studied (e.g., "adults 40-70 years").
         sample_size: Number of participants.
         followup_years: Duration of follow-up for longitudinal studies.
@@ -104,10 +103,7 @@ class HardClaim:
     summary: str
     choice: str
     evidence_type: EvidenceType = attrs.field(converter=_to_evidence_type)
-    effect_size: float | None = None
-    effect_ci_lower: float | None = None
-    effect_ci_upper: float | None = None
-    outcome: str = ""
+    effects: tuple[BaseEffect, ...] = ()
     population: str = ""
     sample_size: int | None = None
     followup_years: float | None = None
@@ -142,7 +138,7 @@ class Reference:
     url: str = attrs.field()
     keywords: tuple[str, ...] = ()
     soft_claims: tuple[SoftClaim, ...] = ()
-    hard_claims: tuple[HardClaim, ...] = ()
+    hard_claims: tuple[Claim, ...] = ()
     journal: str = ""
     volume: str = ""
     issue: str = ""
@@ -185,7 +181,15 @@ class Reference:
         data["authors"] = tuple(data.get("authors", []))
         data["keywords"] = tuple(data.get("keywords", []))
         data["soft_claims"] = tuple(SoftClaim(**c) for c in data.get("soft_claims", []))
-        data["hard_claims"] = tuple(HardClaim(**c) for c in data.get("hard_claims", []))
+
+        # Parse hard_claims
+        hard_claims = []
+        for claim_dict in data.get("hard_claims", []):
+            assert "effects" in claim_dict, f"Claim missing 'effects' key in {path}"
+            claim_dict["effects"] = tuple(BaseEffect(**e) for e in claim_dict["effects"])
+            hard_claims.append(Claim(**claim_dict))
+        data["hard_claims"] = tuple(hard_claims)
+
         # Handle legacy 'abstract' field
         if "abstract" in data:
             data["summary"] = data.pop("abstract")

@@ -19,39 +19,30 @@ keywords:
 - randomized
 - trials
 hard_claims:
-- summary: "Curcumin supplementation significantly reduces fasting blood sugar"
+- summary: Curcumin supplementation significantly reduces fasting blood sugar
   choice: curcumin_turmeric
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "fasting blood sugar"
-  population: "general adult population"
+  effects: []
+  population: general adult population
   sample_size: 7216
-  followup_years: null
-  notes: "High credibility evidence from 103 RCTs; also significantly reduces C-reactive protein, improves HDL, and reduces weight"
-- summary: "Curcumin supplementation reduces inflammatory markers (CRP)"
+  notes: High credibility evidence from 103 RCTs; also significantly reduces C-reactive
+    protein, improves HDL, and reduces weight
+- summary: Curcumin supplementation reduces inflammatory markers (CRP)
   choice: curcumin_turmeric
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "C-reactive protein reduction"
-  population: "general adult population"
+  effects: []
+  population: general adult population
   sample_size: 7216
-  followup_years: null
-  notes: "High credibility evidence for CRP reduction; 55% of 42 outcomes showed statistically significant effects"
-- summary: "Curcumin supplementation improves lipid profiles (HDL cholesterol)"
+  notes: High credibility evidence for CRP reduction; 55% of 42 outcomes showed statistically
+    significant effects
+- summary: Curcumin supplementation improves lipid profiles (HDL cholesterol)
   choice: curcumin_turmeric
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "HDL cholesterol improvement"
-  population: "general adult population"
+  effects: []
+  population: general adult population
   sample_size: 7216
-  followup_years: null
-  notes: "High credibility evidence for HDL improvement; moderate credibility for BMI, waist circumference, insulin resistance"
+  notes: High credibility evidence for HDL improvement; moderate credibility for BMI,
+    waist circumference, insulin resistance
 soft_claims: []
 journal: Phytother Res
 volume: '38'
@@ -60,4 +51,8 @@ pages: 6048-6061
 doi: ''
 pmid: '39478418'
 url: https://pubmed.ncbi.nlm.nih.gov/39478418/
-summary: 'Comprehensive systematic review and meta-analysis of 103 randomized controlled trials involving 7,216 participants examining curcumin effects across 42 health outcomes. Found high credibility evidence for benefits on fasting blood sugar, CRP, HDL cholesterol, and weight. Approximately 55% of outcomes showed statistically significant effects. Authors note need for larger, longer-term RCTs.'
+summary: Comprehensive systematic review and meta-analysis of 103 randomized controlled
+  trials involving 7,216 participants examining curcumin effects across 42 health
+  outcomes. Found high credibility evidence for benefits on fasting blood sugar, CRP,
+  HDL cholesterol, and weight. Approximately 55% of outcomes showed statistically
+  significant effects. Authors note need for larger, longer-term RCTs.

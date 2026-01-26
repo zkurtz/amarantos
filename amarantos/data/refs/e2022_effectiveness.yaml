@@ -1,7 +1,7 @@
 id: e2022_effectiveness
-title: The Effectiveness of Rhodiola rosea L. Preparations in Alleviating
-  Various Aspects of Life-Stress Symptoms and Stress-Induced
-  Conditions—Encouraging Clinical Evidence
+title: The Effectiveness of Rhodiola rosea L. Preparations in Alleviating Various
+  Aspects of Life-Stress Symptoms and Stress-Induced Conditions—Encouraging Clinical
+  Evidence
 authors:
 - Ivanova Stojcheva E
 - Quintela JC
@@ -20,10 +20,12 @@ keywords:
 - various
 hard_claims: []
 soft_claims:
-- summary: "Rhodiola rosea demonstrates adaptogenic properties, improving fatigue, depression, anxiety, and physical performance across multiple clinical trials"
+- summary: Rhodiola rosea demonstrates adaptogenic properties, improving fatigue,
+    depression, anxiety, and physical performance across multiple clinical trials
   choice: rhodiola
-  source_type: "review"
-  notes: "170-680 mg daily dosing; improvements seen in Hamilton Depression Rating scores, Hamilton Anxiety Rating Scale, and endurance parameters"
+  source_type: review
+  notes: 170-680 mg daily dosing; improvements seen in Hamilton Depression Rating
+    scores, Hamilton Anxiety Rating Scale, and endurance parameters
 journal: Molecules
 volume: '27'
 issue: '12'
@@ -31,4 +33,8 @@ pages: '3902'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9228580/
-summary: 'Narrative review examining clinical evidence for Rhodiola rosea preparations in managing stress-induced conditions. The plant demonstrates adaptogenic properties enhancing resilience to physical and mental stressors. Clinical trials showed improvements in fatigue among physicians, burnout symptoms, depression ratings, and anxiety in generalized anxiety disorder patients.'
+summary: Narrative review examining clinical evidence for Rhodiola rosea preparations
+  in managing stress-induced conditions. The plant demonstrates adaptogenic properties
+  enhancing resilience to physical and mental stressors. Clinical trials showed improvements
+  in fatigue among physicians, burnout symptoms, depression ratings, and anxiety in
+  generalized anxiety disorder patients.

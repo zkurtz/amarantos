@@ -19,39 +19,40 @@ keywords:
 - systematic review
 - weight
 hard_claims:
-- summary: "Spirulina supplementation significantly reduced body weight in overweight/obese adults"
+- summary: Spirulina supplementation significantly reduced body weight in overweight/obese
+    adults
   choice: spirulina
   evidence_type: Meta-analysis
-  effect_size: -0.30
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "body weight"
-  population: "overweight and obese adults"
+  effects:
+  - outcome: body weight
+    mean: -0.3
+    std: 0.075
+  population: overweight and obese adults
   sample_size: 1035
-  followup_years: null
-  notes: "23 studies; powdered spirulina outperformed tablets/capsules; 2-3g daily for 7-8 weeks optimal"
-- summary: "Spirulina supplementation significantly reduced diastolic blood pressure"
+  notes: 23 studies; powdered spirulina outperformed tablets/capsules; 2-3g daily
+    for 7-8 weeks optimal
+- summary: Spirulina supplementation significantly reduced diastolic blood pressure
   choice: spirulina
   evidence_type: Meta-analysis
-  effect_size: -0.73
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "diastolic blood pressure"
-  population: "overweight and obese adults"
+  effects:
+  - outcome: diastolic blood pressure
+    mean: -0.73
+    std: 0.1825
+  population: overweight and obese adults
   sample_size: 1035
-  followup_years: null
-  notes: "Also improved lipid profiles (reduced TC, TG, LDL-C; raised HDL-C); greater benefits in T2D or hypertensive patients"
-- summary: "Spirulina combined with exercise enhanced HDL-C improvements"
+  notes: Also improved lipid profiles (reduced TC, TG, LDL-C; raised HDL-C); greater
+    benefits in T2D or hypertensive patients
+- summary: Spirulina combined with exercise enhanced HDL-C improvements
   choice: spirulina
   evidence_type: Meta-analysis
-  effect_size: 1.08
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "HDL cholesterol"
-  population: "overweight and obese adults"
+  effects:
+  - outcome: HDL cholesterol
+    mean: 1.08
+    std: 0.27
+  population: overweight and obese adults
   sample_size: 1035
-  followup_years: null
-  notes: "Combined with exercise also further reduced LDL-C (ES -0.81); no additional benefit for body weight or BMI"
+  notes: Combined with exercise also further reduced LDL-C (ES -0.81); no additional
+    benefit for body weight or BMI
 soft_claims: []
 journal: Front Nutr
 volume: '12'
@@ -60,4 +61,8 @@ pages: '1624982'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12245695/
-summary: 'Systematic review and meta-analysis of 23 studies (1,035 participants) examining spirulina supplementation effects on cardiometabolic health in overweight/obese adults. Found spirulina alone reduced body weight, improved lipid profiles, and lowered diastolic blood pressure. Combination with exercise enhanced HDL-C and LDL-C improvements. Optimal dosing: 2-3g powdered spirulina daily for 7-8 weeks.'
+summary: 'Systematic review and meta-analysis of 23 studies (1,035 participants) examining
+  spirulina supplementation effects on cardiometabolic health in overweight/obese
+  adults. Found spirulina alone reduced body weight, improved lipid profiles, and
+  lowered diastolic blood pressure. Combination with exercise enhanced HDL-C and LDL-C
+  improvements. Optimal dosing: 2-3g powdered spirulina daily for 7-8 weeks.'

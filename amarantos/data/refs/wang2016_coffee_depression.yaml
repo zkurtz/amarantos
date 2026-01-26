@@ -15,28 +15,30 @@ keywords:
 - meta-analysis
 - observational
 hard_claims:
-- summary: "Coffee consumption associated with 24% reduced risk of depression"
+- summary: Coffee consumption associated with 24% reduced risk of depression
   choice: coffee
   evidence_type: Meta-analysis
-  effect_size: 0.757
-  effect_ci_lower: 0.624
-  effect_ci_upper: 0.917
-  outcome: "depression risk"
-  population: "general adult population"
+  effects:
+  - outcome: depression risk
+    mean: 0.757
+    std: 0.07474489795918368
+  population: general adult population
   sample_size: 330677
   followup_years: 0.0
-  notes: "7 observational studies; linear dose-response with 8% risk reduction per cup/day (RR 0.92)"
-- summary: "Caffeine consumption associated with 28% reduced risk of depression"
+  notes: 7 observational studies; linear dose-response with 8% risk reduction per
+    cup/day (RR 0.92)
+- summary: Caffeine consumption associated with 28% reduced risk of depression
   choice: coffee
   evidence_type: Meta-analysis
-  effect_size: 0.721
-  effect_ci_lower: 0.522
-  effect_ci_upper: 0.997
-  outcome: "depression risk"
-  population: "general adult population"
+  effects:
+  - outcome: depression risk
+    mean: 0.721
+    std: 0.1211734693877551
+  population: general adult population
   sample_size: 38223
   followup_years: 0.0
-  notes: "8 observational studies; nonlinear relationship with significant benefit at 68-509 mg/day"
+  notes: 8 observational studies; nonlinear relationship with significant benefit
+    at 68-509 mg/day
 soft_claims: []
 journal: Australian and New Zealand Journal of Psychiatry
 volume: '50'
@@ -45,4 +47,9 @@ pages: 228-242
 doi: 10.1177/0004867415603131
 pmid: '26339067'
 url: https://pubmed.ncbi.nlm.nih.gov/26339067/
-summary: "Meta-analysis of 11 observational studies examining coffee/caffeine consumption and depression risk. Coffee analysis (7 studies, 330,677 participants) found 24% reduced depression risk (RR 0.757); linear dose-response showed 8% risk reduction per cup/day. Caffeine analysis (8 studies, 38,223 participants) found 28% reduced depression risk (RR 0.721) with nonlinear relationship showing significant benefit at 68-509 mg/day consumption."
+summary: Meta-analysis of 11 observational studies examining coffee/caffeine consumption
+  and depression risk. Coffee analysis (7 studies, 330,677 participants) found 24%
+  reduced depression risk (RR 0.757); linear dose-response showed 8% risk reduction
+  per cup/day. Caffeine analysis (8 studies, 38,223 participants) found 28% reduced
+  depression risk (RR 0.721) with nonlinear relationship showing significant benefit
+  at 68-509 mg/day consumption.

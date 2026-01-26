@@ -17,17 +17,16 @@ keywords:
 - senescence
 - mitochondria
 hard_claims:
-- summary: "Taurine supplementation extended lifespan and healthspan in mice by addressing multiple hallmarks of aging"
+- summary: Taurine supplementation extended lifespan and healthspan in mice by addressing
+    multiple hallmarks of aging
   choice: taurine
   evidence_type: Mechanistic/first-principles
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "lifespan and healthspan extension"
-  population: "mice, monkeys, worms; human observational data"
-  sample_size: null
-  followup_years: null
-  notes: "Taurine levels decline with age across species. Supplementation reduced cellular senescence, protected against telomerase deficiency, suppressed mitochondrial dysfunction, decreased DNA damage, and attenuated inflammaging. Lower taurine correlated with age-related diseases in humans. Exercise increased taurine levels."
+  effects: []
+  population: mice, monkeys, worms; human observational data
+  notes: Taurine levels decline with age across species. Supplementation reduced cellular
+    senescence, protected against telomerase deficiency, suppressed mitochondrial
+    dysfunction, decreased DNA damage, and attenuated inflammaging. Lower taurine
+    correlated with age-related diseases in humans. Exercise increased taurine levels.
 soft_claims: []
 journal: Science
 volume: '380'
@@ -36,4 +35,9 @@ pages: eabn9257
 doi: 10.1126/science.abn9257
 pmid: '37289866'
 url: https://pubmed.ncbi.nlm.nih.gov/37289866/
-summary: "Mechanistic study demonstrating that circulating taurine levels decline with age across mice, primates, and humans. Taurine supplementation reversed this decline and extended both lifespan and healthspan in mice by reducing cellular senescence, protecting against telomerase deficiency, suppressing mitochondrial dysfunction, decreasing DNA damage, and attenuating inflammaging. Lower taurine correlated with age-related diseases in humans; exercise increased taurine concentrations."
+summary: Mechanistic study demonstrating that circulating taurine levels decline with
+  age across mice, primates, and humans. Taurine supplementation reversed this decline
+  and extended both lifespan and healthspan in mice by reducing cellular senescence,
+  protecting against telomerase deficiency, suppressing mitochondrial dysfunction,
+  decreasing DNA damage, and attenuating inflammaging. Lower taurine correlated with
+  age-related diseases in humans; exercise increased taurine concentrations.

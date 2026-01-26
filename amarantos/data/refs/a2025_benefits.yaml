@@ -16,22 +16,22 @@ keywords:
 - supplement
 - systematic review
 hard_claims:
-- summary: "Lion's mane supplementation improves cognitive function measured by MMSE scores"
+- summary: Lion's mane supplementation improves cognitive function measured by MMSE
+    scores
   choice: lions_mane
   evidence_type: Meta-analysis
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "cognitive function (MMSE)"
-  population: "general adult population"
-  sample_size: null
-  followup_years: null
-  notes: "Combined weighted mean increase of 1.17 in MMSE scores in intervention group across trials; 26 studies (5 RCTs, 15 lab studies, 3 pilot trials)"
+  effects: []
+  population: general adult population
+  notes: Combined weighted mean increase of 1.17 in MMSE scores in intervention group
+    across trials; 26 studies (5 RCTs, 15 lab studies, 3 pilot trials)
 soft_claims:
-- summary: "Lion's mane may improve gut microbiota composition by increasing beneficial bacteria"
+- summary: Lion's mane may improve gut microbiota composition by increasing beneficial
+    bacteria
   choice: lions_mane
-  source_type: "review"
-  notes: "7-day supplementation increased short-chain fatty acid-producing bacteria; side effects include stomach discomfort, diarrhea, headaches, and rare allergic reactions"
+  source_type: review
+  notes: 7-day supplementation increased short-chain fatty acid-producing bacteria;
+    side effects include stomach discomfort, diarrhea, headaches, and rare allergic
+    reactions
 journal: Front Nutr
 volume: '12'
 issue: ''
@@ -39,4 +39,9 @@ pages: '1641246'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12434001/
-summary: 'Systematic review of 26 studies (5 RCTs, 15 laboratory studies, 3 pilot trials, 1 cohort study, 1 case report) examining Hericium erinaceus (Lion''s Mane) effects on cognitive function, cancer cells, gut microbiota, and mental health. Found modest cognitive improvements (MMSE increase of 1.17) and beneficial gut microbiota changes. Common side effects include stomach discomfort, diarrhea, and headaches. Authors note incomplete reporting prevented meta-analysis.'
+summary: Systematic review of 26 studies (5 RCTs, 15 laboratory studies, 3 pilot trials,
+  1 cohort study, 1 case report) examining Hericium erinaceus (Lion's Mane) effects
+  on cognitive function, cancer cells, gut microbiota, and mental health. Found modest
+  cognitive improvements (MMSE increase of 1.17) and beneficial gut microbiota changes.
+  Common side effects include stomach discomfort, diarrhea, and headaches. Authors
+  note incomplete reporting prevented meta-analysis.

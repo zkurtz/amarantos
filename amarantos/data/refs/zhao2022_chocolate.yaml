@@ -19,28 +19,31 @@ keywords:
 - polyphenols
 - longevity
 hard_claims:
-- summary: "Moderate chocolate consumption (0.5-1 serving/week) associated with 16% lower all-cause mortality"
+- summary: Moderate chocolate consumption (0.5-1 serving/week) associated with 16%
+    lower all-cause mortality
   choice: dark_chocolate
   evidence_type: Prospective cohort study
-  effect_size: 0.84
-  effect_ci_lower: 0.79
-  effect_ci_upper: 0.90
-  outcome: "all-cause mortality"
-  population: "US adults aged 55-74"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.84
+    std: 0.028061224489795915
+  population: US adults aged 55-74
   sample_size: 91891
   followup_years: 13.5
-  notes: "Post hoc analysis of PLCO trial; 19,586 deaths; nonlinear relationship with lowest risk at ~0.7 servings/week"
-- summary: "Any chocolate consumption associated with lower all-cause mortality risk"
+  notes: Post hoc analysis of PLCO trial; 19,586 deaths; nonlinear relationship with
+    lowest risk at ~0.7 servings/week
+- summary: Any chocolate consumption associated with lower all-cause mortality risk
   choice: dark_chocolate
   evidence_type: Prospective cohort study
-  effect_size: 0.87
-  effect_ci_lower: 0.82
-  effect_ci_upper: 0.93
-  outcome: "all-cause mortality"
-  population: "US adults aged 55-74"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.87
+    std: 0.028061224489795943
+  population: US adults aged 55-74
   sample_size: 91891
   followup_years: 13.5
-  notes: "Trend toward lower mortality significant across all consumption levels (>0 to >2 servings/week)"
+  notes: Trend toward lower mortality significant across all consumption levels (>0
+    to >2 servings/week)
 soft_claims: []
 journal: Aging
 volume: '13'
@@ -49,4 +52,8 @@ pages: 19735-19749
 doi: 10.18632/aging.203302
 pmid: '34329196'
 url: https://pubmed.ncbi.nlm.nih.gov/34329196/
-summary: 'Post hoc analysis of PLCO cancer screening trial examining chocolate consumption and mortality in 91,891 US adults aged 55-74 over 13.5 years (19,586 deaths). Found nonlinear inverse relationship with lowest mortality risk at approximately 0.7 servings weekly. Enhanced protective associations for CVD and Alzheimer''s disease mortality, especially among never-smokers.'
+summary: Post hoc analysis of PLCO cancer screening trial examining chocolate consumption
+  and mortality in 91,891 US adults aged 55-74 over 13.5 years (19,586 deaths). Found
+  nonlinear inverse relationship with lowest mortality risk at approximately 0.7 servings
+  weekly. Enhanced protective associations for CVD and Alzheimer's disease mortality,
+  especially among never-smokers.

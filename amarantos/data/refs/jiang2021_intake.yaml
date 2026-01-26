@@ -22,28 +22,30 @@ keywords:
 - polyunsaturated
 - prospective
 hard_claims:
-- summary: "Fish consumption inversely associated with cardiovascular disease mortality"
+- summary: Fish consumption inversely associated with cardiovascular disease mortality
   choice: fish_omega3
   evidence_type: Meta-analysis
-  effect_size: 0.91
-  effect_ci_lower: 0.85
-  effect_ci_upper: 0.98
-  outcome: "cardiovascular disease mortality"
-  population: "general adult population"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.91
+    std: 0.03316326530612245
+  population: general adult population
   sample_size: 2027512
   followup_years: 0
-  notes: "25 prospective cohort studies with 103,734 CVD deaths. Dose-response: 4% risk reduction per 20g daily fish increase."
-- summary: "Marine n-3 PUFA intake inversely associated with cardiovascular disease mortality"
+  notes: '25 prospective cohort studies with 103,734 CVD deaths. Dose-response: 4%
+    risk reduction per 20g daily fish increase.'
+- summary: Marine n-3 PUFA intake inversely associated with cardiovascular disease
+    mortality
   choice: fish_omega3
   evidence_type: Meta-analysis
-  effect_size: 0.87
-  effect_ci_lower: 0.85
-  effect_ci_upper: 0.89
-  outcome: "cardiovascular disease mortality"
-  population: "general adult population"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.87
+    std: 0.01020408163265307
+  population: general adult population
   sample_size: 2027512
   followup_years: 0
-  notes: "Dose-response: 4% risk reduction per 80mg daily n-3 PUFA increase."
+  notes: 'Dose-response: 4% risk reduction per 80mg daily n-3 PUFA increase.'
 soft_claims: []
 journal: Nutrients
 volume: '13'
@@ -52,4 +54,8 @@ pages: '2342'
 doi: 10.3390/nu13072342
 pmid: '34371852'
 url: https://www.mdpi.com/2072-6643/13/7/2342
-summary: "Meta-analysis of 25 prospective cohort studies including 2,027,512 participants and 103,734 CVD deaths. Found that both fish consumption (RR=0.91) and marine n-3 PUFA intake (RR=0.87) were inversely associated with cardiovascular disease mortality risk, with dose-response relationships showing 4% risk reduction per 20g fish or 80mg n-3 PUFA daily increase."
+summary: Meta-analysis of 25 prospective cohort studies including 2,027,512 participants
+  and 103,734 CVD deaths. Found that both fish consumption (RR=0.91) and marine n-3
+  PUFA intake (RR=0.87) were inversely associated with cardiovascular disease mortality
+  risk, with dose-response relationships showing 4% risk reduction per 20g fish or
+  80mg n-3 PUFA daily increase.

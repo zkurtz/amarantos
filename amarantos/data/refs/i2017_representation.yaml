@@ -22,14 +22,18 @@ keywords:
 - trials
 hard_claims: []
 soft_claims:
-- summary: "Over one-third of major cerebrovascular disease trials explicitly exclude patients with kidney disease"
+- summary: Over one-third of major cerebrovascular disease trials explicitly exclude
+    patients with kidney disease
   choice: clinical_trial_design
-  source_type: "review"
-  notes: "135 RCTs analyzed involving nearly 195,000 participants; 48 trials (35.6%) excluded kidney disease patients"
-- summary: "Only 3% of cerebrovascular trials reported baseline renal function data and none performed subgroup analyses by renal function"
+  source_type: review
+  notes: 135 RCTs analyzed involving nearly 195,000 participants; 48 trials (35.6%)
+    excluded kidney disease patients
+- summary: Only 3% of cerebrovascular trials reported baseline renal function data
+    and none performed subgroup analyses by renal function
   choice: clinical_trial_design
-  source_type: "review"
-  notes: "Industry-funded trials had higher exclusion rates (42-48%) compared to academic/government-funded trials (21%)"
+  source_type: review
+  notes: Industry-funded trials had higher exclusion rates (42-48%) compared to academic/government-funded
+    trials (21%)
 journal: PLoS One
 volume: '12'
 issue: '4'
@@ -37,4 +41,8 @@ pages: e0176145
 doi: ''
 pmid: '28426831'
 url: https://pubmed.ncbi.nlm.nih.gov/28426831/
-summary: 'Systematic review of 135 cerebrovascular disease RCTs examining representation of kidney disease patients. Found 35.6% of trials explicitly excluded kidney disease patients, with higher exclusion rates in industry-funded trials. Only 3% reported baseline renal function and no trials performed subgroup analyses by kidney function status. Calls for purposeful efforts to increase kidney disease patient inclusion.'
+summary: Systematic review of 135 cerebrovascular disease RCTs examining representation
+  of kidney disease patients. Found 35.6% of trials explicitly excluded kidney disease
+  patients, with higher exclusion rates in industry-funded trials. Only 3% reported
+  baseline renal function and no trials performed subgroup analyses by kidney function
+  status. Calls for purposeful efforts to increase kidney disease patient inclusion.

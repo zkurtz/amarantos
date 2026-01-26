@@ -20,34 +20,42 @@ keywords:
 - reduces
 - systematic review
 hard_claims:
-- summary: "Diabetics on metformin had lower all-cause mortality than non-diabetics"
+- summary: Diabetics on metformin had lower all-cause mortality than non-diabetics
   choice: metformin
   evidence_type: Meta-analysis
-  effect_size: 0.93
-  effect_ci_lower: 0.88
-  effect_ci_upper: 0.99
-  outcome: "all-cause mortality"
-  population: "diabetics on metformin vs non-diabetics"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.93
+    std: 0.028061224489795915
+  population: diabetics on metformin vs non-diabetics
   sample_size: 0
   followup_years: 0
-  notes: "Systematic review of 53 studies. Suggests geroprotective effects independent of glycemic control."
-- summary: "Metformin users had lower all-cause mortality compared to non-metformin diabetes therapies"
+  notes: Systematic review of 53 studies. Suggests geroprotective effects independent
+    of glycemic control.
+- summary: Metformin users had lower all-cause mortality compared to non-metformin
+    diabetes therapies
   choice: metformin
   evidence_type: Meta-analysis
-  effect_size: 0.72
-  effect_ci_lower: 0.0
-  effect_ci_upper: 0.0
-  outcome: "all-cause mortality"
-  population: "diabetics on metformin vs other diabetes treatments"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.72
+    std: 0.0
+  population: diabetics on metformin vs other diabetes treatments
   sample_size: 0
   followup_years: 0
-  notes: "vs insulin: HR=0.68; vs sulphonylureas: HR=0.80. Also reduced cancer incidence (RR=0.94) and CVD (HR=0.76-0.78)."
+  notes: 'vs insulin: HR=0.68; vs sulphonylureas: HR=0.80. Also reduced cancer incidence
+    (RR=0.94) and CVD (HR=0.76-0.78).'
 soft_claims: []
 journal: Ageing Res Rev
 volume: '40'
 issue: ''
 pages: 31-44
-doi: '10.1016/j.arr.2017.08.003'
+doi: 10.1016/j.arr.2017.08.003
 pmid: '28802803'
 url: https://pubmed.ncbi.nlm.nih.gov/28802803/
-summary: "Systematic review and meta-analysis of 53 studies examining metformin's effects on aging-related outcomes independent of glucose control. Found diabetics on metformin had lower all-cause mortality than non-diabetics (HR=0.93), and substantially better survival compared to other diabetes treatments (vs non-metformin: HR=0.72, vs insulin: HR=0.68, vs sulphonylureas: HR=0.80). Also showed reduced cancer incidence and cardiovascular disease risk."
+summary: 'Systematic review and meta-analysis of 53 studies examining metformin''s
+  effects on aging-related outcomes independent of glucose control. Found diabetics
+  on metformin had lower all-cause mortality than non-diabetics (HR=0.93), and substantially
+  better survival compared to other diabetes treatments (vs non-metformin: HR=0.72,
+  vs insulin: HR=0.68, vs sulphonylureas: HR=0.80). Also showed reduced cancer incidence
+  and cardiovascular disease risk.'

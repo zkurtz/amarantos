@@ -1,6 +1,6 @@
 id: we2019_physical
-title: Physical Activity, All-Cause and Cardiovascular Mortality, and
-  Cardiovascular Disease
+title: Physical Activity, All-Cause and Cardiovascular Mortality, and Cardiovascular
+  Disease
 authors:
 - Kraus WE
 - Powell KE
@@ -22,28 +22,29 @@ keywords:
 - physical
 - physical activity
 hard_claims:
-- summary: "Meeting physical activity guidelines reduces all-cause mortality risk by approximately 25% compared to inactive individuals"
+- summary: Meeting physical activity guidelines reduces all-cause mortality risk by
+    approximately 25% compared to inactive individuals
   choice: moderate_cardio
   evidence_type: Meta-analysis
-  effect_size: 0.75
-  effect_ci_lower: 0.60
-  effect_ci_upper: 0.82
-  outcome: "all-cause mortality"
-  population: "general adult population"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.75
+    std: 0.05612244897959183
+  population: general adult population
   sample_size: 3900000
-  followup_years: null
-  notes: "Umbrella review of 13 reviews; approximately 70% of mortality benefit achieved at 8.25 MET-hours weekly (150 min moderate activity)"
-- summary: "Physical activity meeting guidelines reduces CVD mortality risk by 40-41% compared to inactive individuals"
+  notes: Umbrella review of 13 reviews; approximately 70% of mortality benefit achieved
+    at 8.25 MET-hours weekly (150 min moderate activity)
+- summary: Physical activity meeting guidelines reduces CVD mortality risk by 40-41%
+    compared to inactive individuals
   choice: moderate_cardio
   evidence_type: Meta-analysis
-  effect_size: 0.60
-  effect_ci_lower: 0.59
-  effect_ci_upper: 0.60
-  outcome: "cardiovascular disease mortality"
-  population: "general adult population"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.6
+    std: 0.0025510204081632677
+  population: general adult population
   sample_size: 3900000
-  followup_years: null
-  notes: "Six reviews found consistent inverse dose-response pattern for CVD mortality"
+  notes: Six reviews found consistent inverse dose-response pattern for CVD mortality
 soft_claims: []
 journal: Med Sci Sports Exerc
 volume: '51'
@@ -52,4 +53,8 @@ pages: 1270-1281
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6527136/
-summary: 'Systematic umbrella review examining relationships between physical activity and mortality outcomes. Included 13 reviews on all-cause mortality, 6 on CVD mortality, and 10 on incident CVD, encompassing studies with up to 3.9 million participants. Found consistent inverse dose-response relationships with no evidence of harm at extreme volumes up to 4-10 times guideline recommendations.'
+summary: Systematic umbrella review examining relationships between physical activity
+  and mortality outcomes. Included 13 reviews on all-cause mortality, 6 on CVD mortality,
+  and 10 on incident CVD, encompassing studies with up to 3.9 million participants.
+  Found consistent inverse dose-response relationships with no evidence of harm at
+  extreme volumes up to 4-10 times guideline recommendations.

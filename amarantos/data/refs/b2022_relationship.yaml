@@ -1,6 +1,6 @@
 id: b2022_relationship
-title: Relationship between chocolate consumption and overall and cause-specific
-  mortality, systematic review and updated meta-analysis
+title: Relationship between chocolate consumption and overall and cause-specific mortality,
+  systematic review and updated meta-analysis
 authors:
 - Zhao B
 - Gan L
@@ -22,39 +22,40 @@ keywords:
 - systematic review
 - updated
 hard_claims:
-- summary: "Higher chocolate consumption associated with lower all-cause mortality"
+- summary: Higher chocolate consumption associated with lower all-cause mortality
   choice: chocolate
   evidence_type: Meta-analysis
-  effect_size: 0.98
-  effect_ci_lower: 0.97
-  effect_ci_upper: 0.99
-  outcome: "all-cause mortality"
-  population: "general adult population"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.98
+    std: 0.005102040816326535
+  population: general adult population
   sample_size: 908390
   followup_years: 15.0
-  notes: "Per 5g/day increase; pooled analysis of 21 cohort studies with 65,407 events"
-- summary: "Higher chocolate consumption associated with lower cardiovascular disease mortality"
+  notes: Per 5g/day increase; pooled analysis of 21 cohort studies with 65,407 events
+- summary: Higher chocolate consumption associated with lower cardiovascular disease
+    mortality
   choice: chocolate
   evidence_type: Meta-analysis
-  effect_size: 0.87
-  effect_ci_lower: 0.82
-  effect_ci_upper: 0.93
-  outcome: "cardiovascular disease mortality"
-  population: "adult men"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.87
+    std: 0.028061224489795943
+  population: adult men
   sample_size: 27111
   followup_years: 15.0
-  notes: "Primary ATBC study; 13% CVD mortality risk reduction"
-- summary: "Higher chocolate consumption associated with lower cancer mortality"
+  notes: Primary ATBC study; 13% CVD mortality risk reduction
+- summary: Higher chocolate consumption associated with lower cancer mortality
   choice: chocolate
   evidence_type: Meta-analysis
-  effect_size: 0.88
-  effect_ci_lower: 0.82
-  effect_ci_upper: 0.94
-  outcome: "cancer mortality"
-  population: "adult men"
+  effects:
+  - outcome: cancer mortality
+    mean: 0.88
+    std: 0.030612244897959183
+  population: adult men
   sample_size: 27111
   followup_years: 15.0
-  notes: "Primary ATBC study; 12% cancer mortality risk reduction"
+  notes: Primary ATBC study; 12% cancer mortality risk reduction
 soft_claims: []
 journal: Eur J Epidemiol
 volume: '37'
@@ -63,4 +64,9 @@ pages: 321-333
 doi: ''
 pmid: '35460393'
 url: https://pubmed.ncbi.nlm.nih.gov/35460393/
-summary: "Systematic review and meta-analysis of 21 prospective cohort studies examining chocolate consumption and mortality. The primary study followed 27,111 men from the ATBC cohort. Meta-analysis of 908,390 participants found moderate chocolate consumption associated with lower cardiovascular disease, cancer, and all-cause mortality. Mediation analysis suggested 4.3% of protective effect operates through blood pressure reduction."
+summary: Systematic review and meta-analysis of 21 prospective cohort studies examining
+  chocolate consumption and mortality. The primary study followed 27,111 men from
+  the ATBC cohort. Meta-analysis of 908,390 participants found moderate chocolate
+  consumption associated with lower cardiovascular disease, cancer, and all-cause
+  mortality. Mediation analysis suggested 4.3% of protective effect operates through
+  blood pressure reduction.

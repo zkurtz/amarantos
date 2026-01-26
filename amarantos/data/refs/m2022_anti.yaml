@@ -19,28 +19,27 @@ keywords:
 - systematic review
 - trials
 hard_claims:
-- summary: "Resveratrol supplementation significantly reduced serum CRP levels in CVD patients"
+- summary: Resveratrol supplementation significantly reduced serum CRP levels in CVD
+    patients
   choice: resveratrol
   evidence_type: Meta-analysis
-  effect_size: -0.63
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "CRP (C-reactive protein)"
-  population: "patients with cardiovascular disease"
-  sample_size: null
-  followup_years: null
-  notes: "Meta-analysis of 6 RCTs; mean difference = -0.63, p = 0.01"
-- summary: "Resveratrol supplementation significantly reduced TNF-alpha levels in CVD patients"
+  effects:
+  - outcome: CRP (C-reactive protein)
+    mean: -0.63
+    std: 0.1575
+  population: patients with cardiovascular disease
+  notes: Meta-analysis of 6 RCTs; mean difference = -0.63, p = 0.01
+- summary: Resveratrol supplementation significantly reduced TNF-alpha levels in CVD
+    patients
   choice: resveratrol
   evidence_type: Meta-analysis
-  effect_size: -0.55
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "TNF-alpha"
-  population: "patients with cardiovascular disease"
-  sample_size: null
-  followup_years: null
-  notes: "Meta-analysis of 6 RCTs; mean difference = -0.55, p = 0.02; no significant effect on IL-6"
+  effects:
+  - outcome: TNF-alpha
+    mean: -0.55
+    std: 0.1375
+  population: patients with cardiovascular disease
+  notes: Meta-analysis of 6 RCTs; mean difference = -0.55, p = 0.02; no significant
+    effect on IL-6
 soft_claims: []
 journal: Complement Ther Med
 volume: '70'
@@ -49,4 +48,7 @@ pages: '102863'
 doi: ''
 pmid: '35905799'
 url: https://pubmed.ncbi.nlm.nih.gov/35905799/
-summary: 'Systematic review and meta-analysis of 6 RCTs examining resveratrol supplementation effects on inflammatory markers in cardiovascular disease patients. Found significant reductions in CRP (mean difference = -0.63, p = 0.01) and TNF-alpha (mean difference = -0.55, p = 0.02). No significant effect on IL-6 levels.'
+summary: Systematic review and meta-analysis of 6 RCTs examining resveratrol supplementation
+  effects on inflammatory markers in cardiovascular disease patients. Found significant
+  reductions in CRP (mean difference = -0.63, p = 0.01) and TNF-alpha (mean difference
+  = -0.55, p = 0.02). No significant effect on IL-6 levels.

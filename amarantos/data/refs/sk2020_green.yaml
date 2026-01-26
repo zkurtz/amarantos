@@ -15,28 +15,28 @@ keywords:
 - evidence
 - green
 hard_claims:
-- summary: "Green tea consumption associated with reduced cardiovascular disease mortality"
+- summary: Green tea consumption associated with reduced cardiovascular disease mortality
   choice: green_tea
   evidence_type: Meta-analysis
-  effect_size: 0.72
-  effect_ci_lower: 0.58
-  effect_ci_upper: 0.89
-  outcome: "cardiovascular disease mortality"
-  population: "general adult population"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.72
+    std: 0.07908163265306124
+  population: general adult population
   sample_size: 0
   followup_years: 0.0
-  notes: "Review of 82 meta-analyses; highest vs lowest consumption comparison"
-- summary: "Green tea consumption associated with reduced stroke incidence"
+  notes: Review of 82 meta-analyses; highest vs lowest consumption comparison
+- summary: Green tea consumption associated with reduced stroke incidence
   choice: green_tea
   evidence_type: Meta-analysis
-  effect_size: 0.75
-  effect_ci_lower: 0.64
-  effect_ci_upper: 0.83
-  outcome: "stroke incidence"
-  population: "general adult population"
+  effects:
+  - outcome: stroke incidence
+    mean: 0.75
+    std: 0.048469387755102025
+  population: general adult population
   sample_size: 0
   followup_years: 0.0
-  notes: "17-36% risk reduction across multiple meta-analyses"
+  notes: 17-36% risk reduction across multiple meta-analyses
 soft_claims: []
 journal: Eur J Clin Nutr
 volume: '75'
@@ -45,4 +45,8 @@ pages: 865-876
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8189915/
-summary: "Review of epidemiological evidence from 82 meta-analyses on green tea consumption and health outcomes. Found inverse associations between green tea intake and cardiovascular disease mortality (RR 0.72), stroke incidence (17-36% reduction), and several cancers. Mixed results for diabetes prevention. Study population includes general adults from observational studies."
+summary: Review of epidemiological evidence from 82 meta-analyses on green tea consumption
+  and health outcomes. Found inverse associations between green tea intake and cardiovascular
+  disease mortality (RR 0.72), stroke incidence (17-36% reduction), and several cancers.
+  Mixed results for diabetes prevention. Study population includes general adults
+  from observational studies.

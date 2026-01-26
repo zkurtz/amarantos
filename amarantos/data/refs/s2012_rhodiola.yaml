@@ -16,10 +16,13 @@ keywords:
 - systematic review
 hard_claims: []
 soft_claims:
-- summary: "Limited evidence suggests Rhodiola rosea may reduce physical and mental fatigue, but methodological flaws prevent definitive conclusions"
+- summary: Limited evidence suggests Rhodiola rosea may reduce physical and mental
+    fatigue, but methodological flaws prevent definitive conclusions
   choice: rhodiola_rosea
-  source_type: "review"
-  notes: "Systematic review of 11 studies (10 RCTs, 1 CCT). Evidence contradictory with high risk of bias. 5 adverse events in 446 participants (mild headaches, insomnia). No meta-analysis possible due to inconsistent outcome reporting."
+  source_type: review
+  notes: Systematic review of 11 studies (10 RCTs, 1 CCT). Evidence contradictory
+    with high risk of bias. 5 adverse events in 446 participants (mild headaches,
+    insomnia). No meta-analysis possible due to inconsistent outcome reporting.
 journal: BMC Complement Altern Med
 volume: '12'
 issue: ''
@@ -27,4 +30,8 @@ pages: '70'
 doi: ''
 pmid: ''
 url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3541197/
-summary: "Systematic review of 11 clinical trials (10 RCTs, 1 CCT) examining Rhodiola rosea for physical and mental fatigue. Of studies on physical fatigue, 2 of 6 showed efficacy; for mental fatigue, 3 of 5 showed positive effects. All studies had high risk of bias or reporting flaws. Safety profile favorable with only 5 mild adverse events among 446 participants."
+summary: Systematic review of 11 clinical trials (10 RCTs, 1 CCT) examining Rhodiola
+  rosea for physical and mental fatigue. Of studies on physical fatigue, 2 of 6 showed
+  efficacy; for mental fatigue, 3 of 5 showed positive effects. All studies had high
+  risk of bias or reporting flaws. Safety profile favorable with only 5 mild adverse
+  events among 446 participants.

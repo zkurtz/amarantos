@@ -16,17 +16,19 @@ keywords:
 - meta-analysis
 - cardiovascular
 hard_claims:
-- summary: "Resistance training alone associated with 21% lower all-cause mortality"
+- summary: Resistance training alone associated with 21% lower all-cause mortality
   choice: strength_training
   evidence_type: Meta-analysis
-  effect_size: 0.79
-  effect_ci_lower: 0.69
-  effect_ci_upper: 0.91
-  outcome: "all-cause mortality"
-  population: "general adult population"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.79
+    std: 0.05612244897959186
+  population: general adult population
   sample_size: 370256
   followup_years: 8.85
-  notes: "Meta-analysis of 11 studies (1 RCT, 10 cohort studies). Combined with aerobic exercise showed 40% lower mortality (HR 0.60, 95% CI 0.49-0.72). Borderline association with cardiovascular mortality (HR 0.83, 95% CI 0.67-1.03)."
+  notes: Meta-analysis of 11 studies (1 RCT, 10 cohort studies). Combined with aerobic
+    exercise showed 40% lower mortality (HR 0.60, 95% CI 0.49-0.72). Borderline association
+    with cardiovascular mortality (HR 0.83, 95% CI 0.67-1.03).
 soft_claims: []
 journal: European Journal of Preventive Cardiology
 volume: '26'
@@ -35,4 +37,8 @@ pages: 1647-1665
 doi: 10.1177/2047487319850718
 pmid: '31104484'
 url: https://pubmed.ncbi.nlm.nih.gov/31104484/
-summary: "Systematic review and meta-analysis of 11 studies (370,256 participants, 8.85 years average follow-up) examining resistance training and mortality. Resistance training alone associated with 21% lower all-cause mortality (HR 0.79, 95% CI 0.69-0.91). Combined with aerobic exercise showed 40% reduction (HR 0.60). Borderline association with reduced cardiovascular mortality."
+summary: Systematic review and meta-analysis of 11 studies (370,256 participants,
+  8.85 years average follow-up) examining resistance training and mortality. Resistance
+  training alone associated with 21% lower all-cause mortality (HR 0.79, 95% CI 0.69-0.91).
+  Combined with aerobic exercise showed 40% reduction (HR 0.60). Borderline association
+  with reduced cardiovascular mortality.

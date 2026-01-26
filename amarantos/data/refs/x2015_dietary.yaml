@@ -24,28 +24,28 @@ keywords:
 - response
 - studies
 hard_claims:
-- summary: "Higher heme iron intake associated with 7% increased CVD risk per 1 mg/day"
+- summary: Higher heme iron intake associated with 7% increased CVD risk per 1 mg/day
   choice: heme_iron
   evidence_type: Meta-analysis
-  effect_size: 1.07
-  effect_ci_lower: 1.01
-  effect_ci_upper: 1.14
-  outcome: "cardiovascular disease"
-  population: "general adult population"
+  effects:
+  - outcome: cardiovascular disease
+    mean: 1.07
+    std: 0.03316326530612242
+  population: general adult population
   sample_size: 252164
-  followup_years: null
-  notes: "13 prospective cohort studies with 15,040 CVD cases; curvilinear dose-response relationship detected"
-- summary: "Heme iron intake associated with 19% increased risk of non-fatal CVD"
+  notes: 13 prospective cohort studies with 15,040 CVD cases; curvilinear dose-response
+    relationship detected
+- summary: Heme iron intake associated with 19% increased risk of non-fatal CVD
   choice: heme_iron
   evidence_type: Meta-analysis
-  effect_size: 1.19
-  effect_ci_lower: 1.07
-  effect_ci_upper: 1.33
-  outcome: "non-fatal cardiovascular disease"
-  population: "general adult population"
+  effects:
+  - outcome: non-fatal cardiovascular disease
+    mean: 1.19
+    std: 0.0663265306122449
+  population: general adult population
   sample_size: 252164
-  followup_years: null
-  notes: "Stronger association for non-fatal CVD cases; American populations showed RR of 1.31"
+  notes: Stronger association for non-fatal CVD cases; American populations showed
+    RR of 1.31
 soft_claims: []
 journal: Nutr Metab Cardiovasc Dis
 volume: '25'
@@ -54,4 +54,7 @@ pages: 24-35
 doi: ''
 pmid: '25439662'
 url: https://pubmed.ncbi.nlm.nih.gov/25439662/
-summary: 'Dose-response meta-analysis of 13 prospective cohort studies (252,164 participants, 15,040 CVD cases) examining dietary iron intake and CVD risk. Found heme iron specifically increases CVD risk (RR 1.07 per 1 mg/day), while non-heme iron (RR 0.98) and total dietary iron (RR 1.00) showed no significant association.'
+summary: Dose-response meta-analysis of 13 prospective cohort studies (252,164 participants,
+  15,040 CVD cases) examining dietary iron intake and CVD risk. Found heme iron specifically
+  increases CVD risk (RR 1.07 per 1 mg/day), while non-heme iron (RR 0.98) and total
+  dietary iron (RR 1.00) showed no significant association.

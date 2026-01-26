@@ -13,17 +13,19 @@ keywords:
 - cardiovascular
 - meta-analysis
 hard_claims:
-- summary: "Dog ownership associated with 24% reduction in all-cause mortality"
+- summary: Dog ownership associated with 24% reduction in all-cause mortality
   choice: pet_ownership
   evidence_type: Meta-analysis
-  effect_size: 0.76
-  effect_ci_lower: 0.67
-  effect_ci_upper: 0.86
-  outcome: "all-cause mortality"
-  population: "general adult population"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.76
+    std: 0.048469387755102025
+  population: general adult population
   sample_size: 3837005
   followup_years: 10.1
-  notes: "10 studies included; 530,515 events; also showed 31% reduction in cardiovascular mortality (RR 0.69, 95% CI 0.67-0.71); in CVD survivors, dog ownership showed RR 0.35 (95% CI 0.17-0.69); analyses not adjusted for all confounders"
+  notes: 10 studies included; 530,515 events; also showed 31% reduction in cardiovascular
+    mortality (RR 0.69, 95% CI 0.67-0.71); in CVD survivors, dog ownership showed
+    RR 0.35 (95% CI 0.17-0.69); analyses not adjusted for all confounders
 soft_claims: []
 journal: Circ Cardiovasc Qual Outcomes
 volume: '12'
@@ -32,4 +34,9 @@ pages: e005554
 doi: ''
 pmid: '31592726'
 url: https://pubmed.ncbi.nlm.nih.gov/31592726/
-summary: 'Meta-analysis of 10 observational studies (n=3,837,005 participants, 530,515 events, mean follow-up 10.1 years) examining dog ownership and mortality. Dog ownership associated with 24% reduction in all-cause mortality (RR 0.76, 95% CI 0.67-0.86) and 31% reduction in cardiovascular mortality (RR 0.69). In prior CVD patients, dog ownership showed even stronger protection (RR 0.35). Results possibly driven by cardiovascular mortality reduction.'
+summary: Meta-analysis of 10 observational studies (n=3,837,005 participants, 530,515
+  events, mean follow-up 10.1 years) examining dog ownership and mortality. Dog ownership
+  associated with 24% reduction in all-cause mortality (RR 0.76, 95% CI 0.67-0.86)
+  and 31% reduction in cardiovascular mortality (RR 0.69). In prior CVD patients,
+  dog ownership showed even stronger protection (RR 0.35). Results possibly driven
+  by cardiovascular mortality reduction.

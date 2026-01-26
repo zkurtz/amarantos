@@ -23,50 +23,55 @@ keywords:
 - mortality
 - using
 hard_claims:
-- summary: "Cycling to work associated with 20% reduced all-cause mortality compared to driving"
+- summary: Cycling to work associated with 20% reduced all-cause mortality compared
+    to driving
   choice: cycling
   evidence_type: Prospective cohort study
-  effect_size: 0.80
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "all-cause mortality"
-  population: "commuters in England and Wales aged 16+"
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.8
+    std: 0.2
+  population: commuters in England and Wales aged 16+
   sample_size: 300000
   followup_years: 25.0
-  notes: "ONS Longitudinal Study linked Census data 1991-2011; adjusted for multiple confounders"
-- summary: "Cycling to work associated with 24% reduced cardiovascular disease mortality compared to driving"
+  notes: ONS Longitudinal Study linked Census data 1991-2011; adjusted for multiple
+    confounders
+- summary: Cycling to work associated with 24% reduced cardiovascular disease mortality
+    compared to driving
   choice: cycling
   evidence_type: Prospective cohort study
-  effect_size: 0.76
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "cardiovascular disease mortality"
-  population: "commuters in England and Wales aged 16+"
+  effects:
+  - outcome: cardiovascular disease mortality
+    mean: 0.76
+    std: 0.19
+  population: commuters in England and Wales aged 16+
   sample_size: 300000
   followup_years: 25.0
-  notes: "Includes heart attack and stroke"
-- summary: "Cycling to work associated with 16% reduced cancer mortality compared to driving"
+  notes: Includes heart attack and stroke
+- summary: Cycling to work associated with 16% reduced cancer mortality compared to
+    driving
   choice: cycling
   evidence_type: Prospective cohort study
-  effect_size: 0.84
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "cancer mortality"
-  population: "commuters in England and Wales aged 16+"
+  effects:
+  - outcome: cancer mortality
+    mean: 0.84
+    std: 0.21
+  population: commuters in England and Wales aged 16+
   sample_size: 300000
   followup_years: 25.0
-  notes: "Also 11% reduced cancer incidence"
-- summary: "Walking to work associated with 7% reduced cancer incidence compared to driving"
+  notes: Also 11% reduced cancer incidence
+- summary: Walking to work associated with 7% reduced cancer incidence compared to
+    driving
   choice: walking
   evidence_type: Prospective cohort study
-  effect_size: 0.93
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "cancer incidence"
-  population: "commuters in England and Wales aged 16+"
+  effects:
+  - outcome: cancer incidence
+    mean: 0.93
+    std: 0.2325
+  population: commuters in England and Wales aged 16+
   sample_size: 300000
   followup_years: 25.0
-  notes: "Walking showed weaker associations than cycling for most outcomes"
+  notes: Walking showed weaker associations than cycling for most outcomes
 soft_claims: []
 journal: The Lancet Planetary Health
 volume: '4'
@@ -74,6 +79,9 @@ issue: '5'
 pages: e186-e194
 doi: 10.1016/S2542-5196(20)30079-6
 pmid: ''
-url:
-  https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext
-summary: 'Prospective cohort study of over 300,000 commuters in England and Wales using linked Census data over 25 years (1991-2011). Cycling to work associated with 20% reduced all-cause mortality, 24% reduced cardiovascular mortality, and 16% reduced cancer mortality compared to driving. Walking showed weaker associations. Rail commuters also showed benefits, likely due to active travel to transit.'
+url: https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30079-6/fulltext
+summary: Prospective cohort study of over 300,000 commuters in England and Wales using
+  linked Census data over 25 years (1991-2011). Cycling to work associated with 20%
+  reduced all-cause mortality, 24% reduced cardiovascular mortality, and 16% reduced
+  cancer mortality compared to driving. Walking showed weaker associations. Rail commuters
+  also showed benefits, likely due to active travel to transit.

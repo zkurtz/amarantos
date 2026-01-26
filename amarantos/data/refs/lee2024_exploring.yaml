@@ -26,17 +26,14 @@ keywords:
 - quercetin
 - senolytic
 hard_claims:
-- summary: "Dasatinib plus quercetin (D+Q) senolytic intervention did not significantly reduce epigenetic age as measured by DNA methylation clocks"
+- summary: Dasatinib plus quercetin (D+Q) senolytic intervention did not significantly
+    reduce epigenetic age as measured by DNA methylation clocks
   choice: senolytics
   evidence_type: Prospective cohort study
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "epigenetic age (DNA methylation clocks)"
-  population: "adults taking senolytic supplements"
-  sample_size: null
-  followup_years: null
-  notes: "Longitudinal study examining effects of D+Q and fisetin on various epigenetic clocks; exploratory study design"
+  effects: []
+  population: adults taking senolytic supplements
+  notes: Longitudinal study examining effects of D+Q and fisetin on various epigenetic
+    clocks; exploratory study design
 soft_claims: []
 journal: Aging
 volume: '16'
@@ -45,4 +42,7 @@ pages: 3088-3106
 doi: 10.18632/aging.205581
 pmid: ''
 url: https://www.aging-us.com/article/205581/text
-summary: 'Longitudinal study exploring the effects of senolytic interventions (dasatinib plus quercetin and fisetin) on DNA methylation clocks. Examined multiple epigenetic aging markers over time in participants taking these compounds. Study provides early data on whether senolytics can affect biological aging measures.'
+summary: Longitudinal study exploring the effects of senolytic interventions (dasatinib
+  plus quercetin and fisetin) on DNA methylation clocks. Examined multiple epigenetic
+  aging markers over time in participants taking these compounds. Study provides early
+  data on whether senolytics can affect biological aging measures.

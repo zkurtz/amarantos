@@ -1,6 +1,6 @@
 id: r2023_long
-title: Effect of long-term caloric restriction on DNA methylation measures of
-  biological aging in healthy adults from the CALERIE trial
+title: Effect of long-term caloric restriction on DNA methylation measures of biological
+  aging in healthy adults from the CALERIE trial
 authors:
 - Waziry R
 - Ryan CP
@@ -27,17 +27,16 @@ keywords:
 - restriction
 - trial
 hard_claims:
-- summary: "25% caloric restriction slowed pace of biological aging measured by DunedinPACE DNA methylation algorithm"
+- summary: 25% caloric restriction slowed pace of biological aging measured by DunedinPACE
+    DNA methylation algorithm
   choice: caloric_restriction
   evidence_type: Randomized controlled trial
-  effect_size: null
-  effect_ci_lower: null
-  effect_ci_upper: null
-  outcome: "pace of biological aging (DunedinPACE)"
-  population: "healthy adults without obesity"
+  effects: []
+  population: healthy adults without obesity
   sample_size: 220
   followup_years: 2.0
-  notes: "CALERIE trial; treatment effects described as small; no significant changes in PhenoAge or GrimAge clocks"
+  notes: CALERIE trial; treatment effects described as small; no significant changes
+    in PhenoAge or GrimAge clocks
 soft_claims: []
 journal: Nat Aging
 volume: '3'
@@ -46,4 +45,8 @@ pages: 248-257
 doi: ''
 pmid: '37118425'
 url: https://pubmed.ncbi.nlm.nih.gov/37118425/
-summary: 'Randomized controlled trial (CALERIE) of 220 healthy adults randomized to 25% caloric restriction or ad libitum eating for 2 years. Found caloric restriction slowed pace of biological aging as measured by DunedinPACE DNA methylation algorithm, though effects were small. No significant changes in PhenoAge or GrimAge biological age clocks.'
+summary: Randomized controlled trial (CALERIE) of 220 healthy adults randomized to
+  25% caloric restriction or ad libitum eating for 2 years. Found caloric restriction
+  slowed pace of biological aging as measured by DunedinPACE DNA methylation algorithm,
+  though effects were small. No significant changes in PhenoAge or GrimAge biological
+  age clocks.

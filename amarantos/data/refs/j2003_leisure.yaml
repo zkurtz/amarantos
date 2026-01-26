@@ -19,17 +19,18 @@ keywords:
 - elderly
 - activities
 hard_claims:
-- summary: "Cognitive leisure activities associated with reduced dementia risk"
+- summary: Cognitive leisure activities associated with reduced dementia risk
   choice: cognitive_engagement
   evidence_type: Prospective cohort study
-  effect_size: 0.93
-  effect_ci_lower: 0.90
-  effect_ci_upper: 0.97
-  outcome: "dementia incidence (hazard ratio per 1-point increment)"
-  population: "community-dwelling adults over age 75"
+  effects:
+  - outcome: dementia incidence (hazard ratio per 1-point increment)
+    mean: 0.93
+    std: 0.017857142857142846
+  population: community-dwelling adults over age 75
   sample_size: 469
   followup_years: 5.1
-  notes: "Reading, board games, musical instruments, and dancing were protective; physical activity showed no significant effect (HR 1.00)"
+  notes: Reading, board games, musical instruments, and dancing were protective; physical
+    activity showed no significant effect (HR 1.00)
 soft_claims: []
 journal: N Engl J Med
 volume: '348'
@@ -38,4 +39,8 @@ pages: 2508-16
 doi: ''
 pmid: '12815136'
 url: https://pubmed.ncbi.nlm.nih.gov/12815136/
-summary: 'Prospective cohort study of 469 community-dwelling adults over age 75 with median 5.1-year follow-up. Found cognitive leisure activities (reading, board games, musical instruments, dancing) associated with reduced dementia risk (HR 0.93 per 1-point increment). Physical activity alone showed no significant protective effect. 124 dementia cases observed.'
+summary: Prospective cohort study of 469 community-dwelling adults over age 75 with
+  median 5.1-year follow-up. Found cognitive leisure activities (reading, board games,
+  musical instruments, dancing) associated with reduced dementia risk (HR 0.93 per
+  1-point increment). Physical activity alone showed no significant protective effect.
+  124 dementia cases observed.

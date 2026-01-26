@@ -38,16 +38,56 @@ def _to_outcome(value: Outcome | str) -> Outcome:
 
 
 @attrs.frozen
-class Effect:
-    """A Gaussian-distributed health effect estimate.
+class BaseEffect:
+    """A Gaussian-distributed health effect estimate (base class).
 
     Attributes:
-        outcome: The health outcome being measured.
+        outcome: The health outcome being measured (string).
+        mean: The mean effect estimate.
+        std: The standard deviation of the effect estimate.
+    """
+
+    outcome: str
+    mean: float
+    std: float
+
+    @property
+    def ci_lower(self) -> float:
+        """Lower bound of 95% confidence interval."""
+        return self.mean - Z_95 * self.std
+
+    @property
+    def ci_upper(self) -> float:
+        """Upper bound of 95% confidence interval."""
+        return self.mean + Z_95 * self.std
+
+    @property
+    def is_beneficial(self) -> bool:
+        """Effect is beneficial if upper bound < 1.0."""
+        return self.ci_upper < 1.0
+
+    @property
+    def is_harmful(self) -> bool:
+        """Effect is harmful if lower bound > 1.0."""
+        return self.ci_lower > 1.0
+
+    @property
+    def is_uncertain(self) -> bool:
+        """Effect is uncertain if CI crosses 1.0."""
+        return self.ci_lower < 1.0 < self.ci_upper
+
+
+@attrs.frozen
+class Effect:
+    """A Gaussian-distributed health effect estimate with evidence.
+
+    Attributes:
+        outcome: The health outcome being measured (Outcome enum).
+        mean: The mean effect estimate.
+        std: The standard deviation of the effect estimate.
         evidence: A summary of the evidence supporting this effect. Open-ended, but ideally includes things such as
             the nature of the studies, sample sizes, and any relevant statistical measures, or first-principles
             reasoning.
-        mean: The mean effect estimate.
-        std: The standard deviation of the effect estimate.
     """
 
     outcome: Outcome = attrs.field(converter=_to_outcome)

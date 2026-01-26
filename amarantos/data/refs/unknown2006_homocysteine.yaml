@@ -11,17 +11,19 @@ keywords:
 - vascular
 - vitamins
 hard_claims:
-- summary: "Folic acid and B vitamin supplementation did not reduce major cardiovascular events despite lowering homocysteine"
+- summary: Folic acid and B vitamin supplementation did not reduce major cardiovascular
+    events despite lowering homocysteine
   choice: b_vitamins_complex
   evidence_type: Randomized controlled trial
-  effect_size: 0.95
-  effect_ci_lower: 0.0
-  effect_ci_upper: 0.0
-  outcome: "composite cardiovascular events (CV death, MI, stroke)"
-  population: "high-risk patients with vascular disease"
+  effects:
+  - outcome: composite cardiovascular events (CV death, MI, stroke)
+    mean: 0.95
+    std: 0.0
+  population: high-risk patients with vascular disease
   sample_size: 5522
   followup_years: 5.0
-  notes: "HOPE-2 trial; 2.5mg folic acid + 50mg B6 + 1mg B12 daily; homocysteine decreased 2.4 umol/L; 18.8% vs 19.8% events (p=0.41)"
+  notes: HOPE-2 trial; 2.5mg folic acid + 50mg B6 + 1mg B12 daily; homocysteine decreased
+    2.4 umol/L; 18.8% vs 19.8% events (p=0.41)
 soft_claims: []
 journal: New England Journal of Medicine
 volume: '354'
@@ -30,4 +32,9 @@ pages: 1567-1577
 doi: 10.1056/NEJMoa060900
 pmid: ''
 url: https://www.nejm.org/doi/full/10.1056/NEJMoa060900
-summary: "HOPE-2 randomized controlled trial of 5,522 patients aged 55+ with vascular disease or diabetes, randomized to daily folic acid (2.5mg) + vitamin B6 (50mg) + vitamin B12 (1mg) or placebo for 5 years. Despite effectively lowering homocysteine levels (decreased 2.4 umol/L in treatment vs increased 0.8 umol/L in placebo), no significant reduction in major cardiovascular events (18.8% vs 19.8%, RR 0.95, p=0.41). Results do not support B vitamin supplementation for cardiovascular prevention."
+summary: HOPE-2 randomized controlled trial of 5,522 patients aged 55+ with vascular
+  disease or diabetes, randomized to daily folic acid (2.5mg) + vitamin B6 (50mg)
+  + vitamin B12 (1mg) or placebo for 5 years. Despite effectively lowering homocysteine
+  levels (decreased 2.4 umol/L in treatment vs increased 0.8 umol/L in placebo), no
+  significant reduction in major cardiovascular events (18.8% vs 19.8%, RR 0.95, p=0.41).
+  Results do not support B vitamin supplementation for cardiovascular prevention.

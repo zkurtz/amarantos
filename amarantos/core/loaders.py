@@ -2,6 +2,7 @@
 
 from click import ClickException, confirm, echo, prompt
 
+from amarantos.core.bib import REFS_DIR, Reference
 from amarantos.core.schemas import CHOICES_DIR, Choice
 
 
@@ -57,3 +58,15 @@ def find_choice_by_name(name: str) -> Choice:
         return candidates[selection - 1]
 
     raise ClickException("Invalid selection")
+
+
+def load_all_references() -> list[Reference]:
+    """Load all reference YAML files."""
+    paths = sorted(REFS_DIR.glob("*.yaml"))
+    return [Reference.load(path) for path in paths]
+
+
+def load_reference_index() -> dict[str, Reference]:
+    """Load all references indexed by ID for fast lookup."""
+    refs = load_all_references()
+    return {ref.id: ref for ref in refs}

@@ -24,6 +24,9 @@ effects:
     all-cause mortality, 500 steps = 7% lower CVD mortality. Optimal at
     8,763 steps (HR 0.40). (https://www.jacc.org/doi/10.1016/j.jacc.2023.07.029).
     Associative evidence; highly consistent.
+  ref_ids:
+    - ae2022_daily
+    - banach2023_steps
 - outcome: Years of delayed aging
   mean: 1.5
   std: 0.6

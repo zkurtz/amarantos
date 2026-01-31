@@ -1,4 +1,4 @@
-from amarantos.core.loaders import load_all_choices
+from amarantos.core.loaders import load_all_choices, load_all_references, load_reference_index
 from amarantos.core.schemas import Outcome
 
 
@@ -83,3 +83,36 @@ def test_no_duplicate_choice_names():
             seen_names[choice.name] = choice.name
 
     assert not duplicates, "Found duplicate choice names:\n" + "\n".join(duplicates)
+
+
+def test_effect_ref_ids_is_tuple():
+    """Test that effect.ref_ids is always a tuple (even when empty)."""
+    choices = load_all_choices()
+    assert len(choices) > 0
+
+    for choice in choices:
+        for effect in choice.effects:
+            assert isinstance(
+                effect.ref_ids, tuple
+            ), f"Effect ref_ids in {choice.name} is {type(effect.ref_ids).__name__}, expected tuple"
+
+
+def test_load_all_references():
+    """Test loading all reference YAML files."""
+    refs = load_all_references()
+    assert len(refs) > 0, "No references were loaded"
+
+    for ref in refs:
+        assert ref.id, "Reference missing id"
+        assert ref.title, f"Reference {ref.id} missing title"
+        assert ref.year, f"Reference {ref.id} missing year"
+
+
+def test_load_reference_index():
+    """Test that reference index maps id to reference."""
+    index = load_reference_index()
+    assert len(index) > 0, "Reference index is empty"
+
+    # All keys should be strings matching the reference's id
+    for ref_id, ref in index.items():
+        assert ref_id == ref.id, f"Index key {ref_id} doesn't match reference id {ref.id}"

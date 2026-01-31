@@ -88,12 +88,14 @@ class Effect:
         evidence: A summary of the evidence supporting this effect. Open-ended, but ideally includes things such as
             the nature of the studies, sample sizes, and any relevant statistical measures, or first-principles
             reasoning.
+        ref_ids: Tuple of Reference IDs (e.g., "ae2022_daily") that support this effect.
     """
 
     outcome: Outcome = attrs.field(converter=_to_outcome)
     mean: float
     std: float
     evidence: str = ""
+    ref_ids: tuple[str, ...] = ()
 
     @property
     def ci_lower(self) -> float:
@@ -165,7 +167,16 @@ class Choice:
     def load(cls, path: Path) -> "Choice":
         """Load a choice from a YAML file."""
         data = dummio.yaml.load(filepath=path)
-        data["effects"] = tuple(Effect(**e) for e in data["effects"])
+        data["effects"] = tuple(
+            Effect(
+                outcome=e["outcome"],
+                mean=e["mean"],
+                std=e["std"],
+                evidence=e.get("evidence", ""),
+                ref_ids=tuple(e.get("ref_ids", [])),
+            )
+            for e in data["effects"]
+        )
         data["specification"] = Specification(**data["specification"])
         data.pop("literature", None)  # Remove legacy field if present
         data.pop("annual_cost", None)  # Remove legacy field if present
@@ -182,7 +193,9 @@ class Choice:
         if self.summary:
             data["summary"] = self.summary
         data["specification"] = attrs.asdict(self.specification)
-        data["effects"] = [{**attrs.asdict(e), "outcome": str(e.outcome)} for e in self.effects]
+        data["effects"] = [
+            {**attrs.asdict(e), "outcome": str(e.outcome), "ref_ids": list(e.ref_ids)} for e in self.effects
+        ]
         dummio.yaml.save(data, filepath=path)
 
 

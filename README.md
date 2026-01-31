@@ -8,27 +8,31 @@ Tips and tools for personal wellness and longevity. *Amarantos* (ἀμάραντ
 
 ## CLI Commands
 
+The tool can be invoked using either `amarantos` or the shorter alias `amos`:
+
 ```bash
 # Rank all choices by 30th percentile lifespan impact
 amarantos
+# or
+amos
 
 # Filter by domain
-amarantos --domain exercise
+amos --domain exercise
 
 # Show only top/bottom 5
-amarantos -n 5
+amos -n 5
 
 # Show top 3 from each domain
-amarantos --maxd 3
+amos --maxd 3
 
 # Describe a specific choice
-amarantos describe cycling
+amos describe cycling
 ```
 
 ### Example
 
 ```
-$ amarantos --maxd 1
+$ amos --maxd 1
 
 Choice                                    P30 (years)       $/year   hours/year
 ------------------------------------------------------------------------------

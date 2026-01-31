@@ -39,7 +39,7 @@ def test_validate_evidence_linkage():
 
     assert isinstance(result, ValidationResult)
     assert result.total_effects >= 0
-    assert result.effects_with_refs >= 0
+    assert result.effects_with_refs >= 1  # walking.yaml has ref_ids
     assert result.effects_with_refs <= result.total_effects
     assert 0.0 <= result.coverage <= 100.0
     assert isinstance(result.missing_refs, frozenset)

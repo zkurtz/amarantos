@@ -42,30 +42,20 @@ def validate_evidence_linkage() -> ValidationResult:
     choices = load_all_choices()
     ref_index = load_reference_index()
 
-    total_effects = 0
-    effects_with_refs = 0
-    missing_refs: set[str] = set()
-    choices_without_refs: list[str] = []
+    all_effects = [(choice, effect) for choice in choices for effect in choice.effects]
+    all_ref_ids = [ref_id for _, effect in all_effects for ref_id in effect.ref_ids]
 
-    for choice in choices:
-        choice_has_refs = False
-        for effect in choice.effects:
-            total_effects += 1
-            if effect.ref_ids:
-                effects_with_refs += 1
-                choice_has_refs = True
-                for ref_id in effect.ref_ids:
-                    if ref_id not in ref_index:
-                        missing_refs.add(ref_id)
+    effects_with_refs = sum(1 for _, effect in all_effects if effect.ref_ids)
+    missing_refs = frozenset(ref_id for ref_id in all_ref_ids if ref_id not in ref_index)
 
-        if not choice_has_refs:
-            choices_without_refs.append(choice.name)
+    choices_with_refs = {choice.name for choice, effect in all_effects if effect.ref_ids}
+    choices_without_refs = tuple(sorted(c.name for c in choices if c.name not in choices_with_refs))
 
     return ValidationResult(
-        total_effects=total_effects,
+        total_effects=len(all_effects),
         effects_with_refs=effects_with_refs,
-        missing_refs=frozenset(missing_refs),
-        choices_without_refs=tuple(sorted(choices_without_refs)),
+        missing_refs=missing_refs,
+        choices_without_refs=choices_without_refs,
     )
 
 

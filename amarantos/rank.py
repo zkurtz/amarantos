@@ -5,10 +5,10 @@ import textwrap
 import click
 from click import echo, secho, style
 
-from amarantos.core.bib import Reference
+from amarantos.core.bib import EvidenceType, Reference
 from amarantos.core.loaders import find_choice_by_name, load_all_choices, load_reference_index
 from amarantos.core.schemas import Choice, Effect, Outcome
-from amarantos.core.validation import validate_evidence_linkage
+from amarantos.core.validation import get_evidence_type_distribution, validate_evidence_linkage
 
 # 30th percentile z-score for normal distribution
 Z_30 = -0.524
@@ -48,16 +48,44 @@ def percentile_30(effect: Effect) -> float:
     default=None,
     help="Show only top N choices from each domain",
 )
+@click.option(
+    "--show-evidence",
+    is_flag=True,
+    default=False,
+    help="Show evidence type summary for each choice",
+)
 @click.pass_context
 def main(
     ctx: click.Context,
     num_top_bottom: int | None,
     domain: str | None,
     maxd: int | None,
+    show_evidence: bool,
 ) -> None:
     """Amarantos: Rank and explore wellness choices."""
     if ctx.invoked_subcommand is None:
-        ctx.invoke(rank, num_top_bottom=num_top_bottom, domain=domain, maxd=maxd)
+        ctx.invoke(rank, num_top_bottom=num_top_bottom, domain=domain, maxd=maxd, show_evidence=show_evidence)
+
+
+def _format_evidence_summary(choice: Choice, ref_index: dict[str, Reference]) -> str:
+    """Format evidence type summary for a choice (e.g., '2 Meta, 1 RCT')."""
+    dist = get_evidence_type_distribution(choice, ref_index)
+    if not dist:
+        return "-"
+    # Short names for evidence types
+    short_names = {
+        EvidenceType.META_ANALYSIS: "Meta",
+        EvidenceType.RCT: "RCT",
+        EvidenceType.COHORT: "Cohort",
+        EvidenceType.CASE_CONTROL: "Case",
+        EvidenceType.CROSS_SECTIONAL: "Cross",
+        EvidenceType.NATURAL_EXPERIMENT: "NatExp",
+        EvidenceType.MENDELIAN_RANDOMIZATION: "MR",
+        EvidenceType.MECHANISTIC: "Mech",
+        EvidenceType.EXPERT_OPINION: "Expert",
+    }
+    parts = [f"{count} {short_names.get(et, str(et)[:6])}" for et, count in dist.most_common()]
+    return ", ".join(parts)
 
 
 @main.command()
@@ -81,9 +109,21 @@ def main(
     default=None,
     help="Show only top N choices from each domain",
 )
-def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> None:
+@click.option(
+    "--show-evidence",
+    is_flag=True,
+    default=False,
+    help="Show evidence type summary for each choice",
+)
+def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None, show_evidence: bool) -> None:
     """Rank wellness choices by 30th percentile lifespan impact."""
     choices = load_all_choices(domain)
+    ref_index: dict[str, Reference] = {}
+    if show_evidence:
+        ref_index = load_reference_index()
+
+    # Build choice lookup for evidence display
+    choice_lookup: dict[str, Choice] = {c.name: c for c in choices}
 
     results: list[tuple[str, str, float, float, float]] = []
     for choice in choices:
@@ -116,21 +156,31 @@ def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> No
 
     # Header
     echo()
-    echo(f"{'Choice':<40} {'P30 (years)':>12} {'$/year':>12} {'hours/year':>12}")
-    echo("-" * 78)
+    if show_evidence:
+        echo(f"{'Choice':<30} {'P30 (years)':>12} {'$/year':>10} {'h/year':>8}  {'Evidence':<20}")
+        echo("-" * 84)
+    else:
+        echo(f"{'Choice':<40} {'P30 (years)':>12} {'$/year':>12} {'hours/year':>12}")
+        echo("-" * 78)
+
+    def format_row(name: str, p30: float, cost_usd: float, cost_h: float) -> str:
+        if show_evidence:
+            evidence = _format_evidence_summary(choice_lookup[name], ref_index)
+            return f"{name:<30} {p30:>+12.2f} {cost_usd:>10.0f} {cost_h:>8.0f}  {evidence:<20}"
+        return f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}"
 
     if num_top_bottom is None:
         for name, _, p30, cost_usd, cost_h in results:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
+            echo(format_row(name, p30, cost_usd, cost_h))
     else:
         echo(f"TOP {num_top_bottom}:")
         for name, _, p30, cost_usd, cost_h in results[:num_top_bottom]:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
+            echo(format_row(name, p30, cost_usd, cost_h))
 
         echo()
         echo(f"BOTTOM {num_top_bottom}:")
         for name, _, p30, cost_usd, cost_h in results[-num_top_bottom:]:
-            echo(f"{name:<40} {p30:>+12.2f} {cost_usd:>12.0f} {cost_h:>12.0f}")
+            echo(format_row(name, p30, cost_usd, cost_h))
 
     echo()
     echo("P30: conservative (30th percentile) estimate of the *average* years of life extension")

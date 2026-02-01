@@ -1,24 +1,26 @@
 domain: exercise
 name: Stretching/Flexibility
-summary: "Includes yoga, tai chi, and dedicated stretching. Observational studies
-  show\n13% lower all-cause mortality with regular practice."
+summary: |-
+  Includes yoga, tai chi, and dedicated stretching. Observational studies show
+  13% lower all-cause mortality with regular practice.
 specification:
   duration_h: 0.3
   weekly_freq: 4
   annual_cost_h: 80
   annual_cost_usd: 100
-  description: "Recommended: 3+ sessions/week. Includes yoga, tai chi, and dedicated
-    stretching. Observational studies show\n13% lower all-cause mortality with regular
-    practice. Improves range of motion,\nbalance, and reduces fall risk. Yoga/tai
-    chi have additional mind-body benefits\nfor stress reduction. May improve arterial
-    stiffness. Complements cardio and\nresistance training. Evidence quality low-moderate."
+  description: |-
+    Recommended: 3+ sessions/week. Includes yoga, tai chi, and dedicated stretching. Observational studies show
+    13% lower all-cause mortality with regular practice. Improves range of motion,
+    balance, and reduces fall risk. Yoga/tai chi have additional mind-body benefits
+    for stress reduction. May improve arterial stiffness. Complements cardio and
+    resistance training. Evidence quality low-moderate.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.90
+  mean: 0.9
   std: 0.06
   evidence: |
     Observational study: regular flexibility training HR 0.87 (95% CI:
-    0.79-0.95) for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/25559067/).
+    0.79-0.95) for all-cause mortality. ([@c2015_changes]).
     Yoga and tai chi meta-analyses show improved BP and CVD risk factors.
     May reduce arterial stiffness. Associative evidence; limited direct
     mortality studies.

@@ -19,9 +19,8 @@ effects:
   evidence: |
     NHANES cohort: blueberry consumers vs non: HR 0.79 (95% CI: 0.66-0.95)
     for all-cause mortality. Meta-analysis of anthocyanin intake: RR 0.89
-    for CVD, 32% lower MI risk. Cassidy 2013
-    (https://jn.nutrition.org/article/S0022-3166(24)00021-X/pdf). Associative
-    evidence; healthy user bias possible.
+    for CVD, 32% lower MI risk. Cassidy 2013 [@jandacek2024_interactions].
+    Associative evidence; healthy user bias possible.
 - outcome: Years of delayed aging
   mean: 1.0
   std: 0.8

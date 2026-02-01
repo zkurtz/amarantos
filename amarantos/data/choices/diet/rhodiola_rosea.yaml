@@ -1,22 +1,24 @@
 domain: diet
 name: Rhodiola Rosea
-summary: "Adaptogenic herb approved by EMA for stress-related symptoms. Systematic
-  review\nof 11 RCTs suggests benefits for physical/mental fatigue, but methodological\n\
-  flaws limit conclusions."
+summary: |-
+  Adaptogenic herb approved by EMA for stress-related symptoms. Systematic review
+  of 11 RCTs suggests benefits for physical/mental fatigue, but methodological
+  flaws limit conclusions.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 200-600mg/day. Adaptogenic herb approved by EMA for stress-related
-    symptoms. Systematic review\nof 11 RCTs suggests benefits for physical/mental
-    fatigue, but methodological\nflaws limit conclusions. May improve attention and
-    reduce burnout. Effects via\nmodulating neurotransmitters (dopamine, serotonin).
-    No mortality data. Evidence\nquality low; heterogeneous study designs."
+  description: |-
+    Recommended: 200-600mg/day. Adaptogenic herb approved by EMA for stress-related symptoms. Systematic review
+    of 11 RCTs suggests benefits for physical/mental fatigue, but methodological
+    flaws limit conclusions. May improve attention and reduce burnout. Effects via
+    modulating neurotransmitters (dopamine, serotonin). No mortality data. Evidence
+    quality low; heterogeneous study designs.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
-  std: 0.10
+  std: 0.1
   evidence: |
     No mortality or cardiovascular studies. Adaptogenic mechanisms may
     reduce stress-related health impacts indirectly. Purely speculative
@@ -32,7 +34,7 @@ effects:
   std: 0.4
   evidence: |
     Systematic review of 11 RCTs suggests benefits for fatigue and stress.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC3541197/). RCT: improved
+    ([@s2012_rhodiola]). RCT: improved
     attention and reduced burnout scores.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC9228580/). Methodological
+    ([@e2022_effectiveness]). Methodological
     limitations. Moderate positive effect possible.

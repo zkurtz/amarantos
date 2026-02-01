@@ -5,7 +5,8 @@ import textwrap
 import click
 from click import echo, secho, style
 
-from amarantos.core.loaders import find_choice_by_name, load_all_choices
+from amarantos.core.bib import Reference, render_citations
+from amarantos.core.loaders import find_choice_by_name, load_all_choices, load_reference_index
 from amarantos.core.schemas import Choice, Effect, Outcome
 
 # 30th percentile z-score for normal distribution
@@ -137,10 +138,19 @@ def rank(num_top_bottom: int | None, domain: str | None, maxd: int | None) -> No
 
 @main.command()
 @click.argument("name")
-def describe(name: str) -> None:
+@click.option(
+    "--show-sources",
+    is_flag=True,
+    default=False,
+    help="Show linked reference sources for each effect",
+)
+def describe(name: str, show_sources: bool) -> None:
     """Display detailed information about a choice."""
     choice = find_choice_by_name(name)
     spec = choice.specification
+
+    # Load references for citation rendering and source display
+    ref_index: dict[str, Reference] = load_reference_index()
 
     echo()
     secho(f"  {choice.name}", fg="bright_white", bold=True)
@@ -177,14 +187,31 @@ def describe(name: str) -> None:
 
         if effect.evidence:
             echo()
+            rendered = render_citations(effect.evidence.strip(), ref_index)
             wrapped = textwrap.fill(
-                effect.evidence.strip(),
+                rendered,
                 width=70,
                 initial_indent="      ",
                 subsequent_indent="      ",
             )
             echo(style("      Evidence:", fg="bright_black"))
             echo(style(wrapped, fg="bright_black"))
+
+        # Show linked sources if requested
+        if show_sources and effect.ref_ids:
+            echo()
+            echo(style("      Sources:", fg="cyan"))
+            for ref_id in effect.ref_ids:
+                ref = ref_index.get(ref_id)
+                if ref:
+                    # Format: [id] Authors (year). Title...
+                    authors_short = ref.authors[0] if ref.authors else "Unknown"
+                    title_short = ref.title[:60] + "..." if len(ref.title) > 60 else ref.title
+                    echo(style(f"        [{ref_id}] {authors_short} ({ref.year}). {title_short}", fg="cyan"))
+                    if ref.url:
+                        echo(style(f"          URL: {ref.url}", fg="bright_black"))
+                else:
+                    echo(style(f"        [{ref_id}] (reference not found)", fg="red"))
 
     echo()
 

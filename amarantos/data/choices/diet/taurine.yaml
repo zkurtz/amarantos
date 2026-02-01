@@ -1,27 +1,29 @@
 domain: diet
 name: Taurine
-summary: "Sulfur amino acid with strong 2023 Science paper showing lifespan extension\n\
-  in mice/monkeys and healthspan benefits. Meta-analyses show reduced BP, fasting\n\
-  glucose, and TG in humans."
+summary: |-
+  Sulfur amino acid with strong 2023 Science paper showing lifespan extension
+  in mice/monkeys and healthspan benefits. Meta-analyses show reduced BP, fasting
+  glucose, and TG in humans.
 specification:
   duration_h: 0.001
   weekly_freq: 7
   annual_cost_h: 5
   annual_cost_usd: 60
-  description: "Recommended: 500-3000mg/day. Sulfur amino acid with strong 2023 Science
-    paper showing lifespan extension\nin mice/monkeys and healthspan benefits. Meta-analyses
-    show reduced BP, fasting\nglucose, and TG in humans. 2025 NIH study questions
-    taurine as aging biomarker.\nDeclines with age; supplementation may restore levels.
-    Found in meat, fish,\ndairy. Evidence quality moderate; human longevity data pending."
+  description: |-
+    Recommended: 500-3000mg/day. Sulfur amino acid with strong 2023 Science paper showing lifespan extension
+    in mice/monkeys and healthspan benefits. Meta-analyses show reduced BP, fasting
+    glucose, and TG in humans. 2025 NIH study questions taurine as aging biomarker.
+    Declines with age; supplementation may restore levels. Found in meat, fish,
+    dairy. Evidence quality moderate; human longevity data pending.
 effects:
 - outcome: Relative mortality risk
   mean: 0.94
   std: 0.08
   evidence: |
     No mortality RCTs. 2023 Science: taurine supplementation extended lifespan
-    in mice and healthspan in monkeys. (https://www.science.org/doi/10.1126/science.abn9257).
+    in mice and healthspan in monkeys. ([@singh2023_taurine_doi]).
     2024 meta-analysis of 25 RCTs: reduced BP, FBG, TG in humans.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC11325608/). Promising but human
+    ([@cc2024_insights]). Promising but human
     longevity trials needed. Extrapolated estimate.
 - outcome: Years of delayed aging
   mean: 0.5
@@ -30,7 +32,7 @@ effects:
     2023 Science: reduced cellular senescence, protected telomeres, improved
     mitochondrial function in animals. Extended C. elegans lifespan 10-23%.
     2025 NIH study: taurine unlikely to be good aging biomarker in humans.
-    (https://www.nih.gov/news-events/news-releases/nih-researchers-conclude-taurine-unlikely-be-good-aging-biomarker).
+    ([@nih2024_taurine]).
     High uncertainty.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.1

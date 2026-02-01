@@ -1,18 +1,20 @@
 domain: diet
 name: Probiotics
-summary: "Live microorganisms that modulate gut microbiome. Meta-analyses show reduced\n\
-  body weight, BMI, waist circumference, and improved lipid profiles in\noverweight/obese."
+summary: |-
+  Live microorganisms that modulate gut microbiome. Meta-analyses show reduced
+  body weight, BMI, waist circumference, and improved lipid profiles in
+  overweight/obese.
 specification:
   duration_h: 0.001
   weekly_freq: 7
   annual_cost_h: 5
   annual_cost_usd: 200
-  description: "Recommended: daily, ≥10¹⁰ CFU. Live microorganisms that modulate gut
-    microbiome. Meta-analyses show reduced\nbody weight, BMI, waist circumference,
-    and improved lipid profiles in\noverweight/obese. May lower BP, glucose, and inflammatory
-    markers (TNF-α). No\ndirect mortality RCTs. Benefits most pronounced in those
-    with elevated baseline\ncardiometabolic risk. Strain-specific effects. Evidence
-    quality moderate."
+  description: |-
+    Recommended: daily, ≥10¹⁰ CFU. Live microorganisms that modulate gut microbiome. Meta-analyses show reduced
+    body weight, BMI, waist circumference, and improved lipid profiles in
+    overweight/obese. May lower BP, glucose, and inflammatory markers (TNF-α). No
+    direct mortality RCTs. Benefits most pronounced in those with elevated baseline
+    cardiometabolic risk. Strain-specific effects. Evidence quality moderate.
 effects:
 - outcome: Relative mortality risk
   mean: 0.96
@@ -20,7 +22,7 @@ effects:
   evidence: |
     No mortality RCTs. Meta-analysis of 26 RCTs (n=1,720) in overweight/obese:
     reduced weight (-0.7kg), BMI, waist circumference, TNF-α, insulin, TC, LDL.
-    (https://www.sciencedirect.com/science/article/abs/pii/S0261561421003198).
+    ([@baquerizo-sedano2022_anti]).
     Effects require ≥10¹⁰ CFU for ≥8 weeks. Theoretical CVD benefit via risk
     factor improvement; extrapolated estimate.
 - outcome: Years of delayed aging

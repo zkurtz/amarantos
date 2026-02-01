@@ -1,18 +1,20 @@
 domain: sleep
 name: Optimized Sleep Environment
-summary: "Sleep environment optimization includes temperature (17-19°C/63-67°F optimal),\n\
-  darkness (melatonin suppression from light), and noise (<35dB). Light exposure\n\
-  at night associated with obesity and depression in large cohorts."
+summary: |-
+  Sleep environment optimization includes temperature (17-19°C/63-67°F optimal),
+  darkness (melatonin suppression from light), and noise (<35dB). Light exposure
+  at night associated with obesity and depression in large cohorts.
 specification:
   duration_h: 0.0
   weekly_freq: 7
   annual_cost_h: 10
   annual_cost_usd: 500
-  description: "Recommended: dark, cool, quiet. Sleep environment optimization includes
-    temperature (17-19°C/63-67°F optimal),\ndarkness (melatonin suppression from light),
-    and noise (<35dB). Light exposure\nat night associated with obesity and depression
-    in large cohorts. Cool\ntemperatures improve sleep quality. Evidence primarily
-    mechanistic and from\nsleep quality studies; limited direct mortality data."
+  description: |-
+    Recommended: dark, cool, quiet. Sleep environment optimization includes temperature (17-19°C/63-67°F optimal),
+    darkness (melatonin suppression from light), and noise (<35dB). Light exposure
+    at night associated with obesity and depression in large cohorts. Cool
+    temperatures improve sleep quality. Evidence primarily mechanistic and from
+    sleep quality studies; limited direct mortality data.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
@@ -20,7 +22,7 @@ effects:
   evidence: |
     No direct mortality RCTs for sleep environment. UK Biobank: light
     exposure at night associated with obesity, depression, and CVD risk
-    factors. (https://pubmed.ncbi.nlm.nih.gov/35970991/). Effect on
+    factors. ([@m2022_process]). Effect on
     mortality mediated through sleep quality and metabolic health.
     Indirect evidence; centered at null with uncertainty.
 - outcome: Years of delayed aging

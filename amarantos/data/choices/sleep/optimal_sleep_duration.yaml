@@ -1,17 +1,19 @@
 domain: sleep
 name: Optimal Sleep Duration
-summary: "Sleep duration shows U-shaped mortality relationship. Meta-analyses consistently\n\
-  find 7-8 hours optimal for adults."
+summary: |-
+  Sleep duration shows U-shaped mortality relationship. Meta-analyses consistently
+  find 7-8 hours optimal for adults.
 specification:
   duration_h: 0.0
   weekly_freq: 7
   annual_cost_h: 0
   annual_cost_usd: 0
-  description: "Recommended: 7-8 hours/night. Sleep duration shows U-shaped mortality
-    relationship. Meta-analyses consistently\nfind 7-8 hours optimal for adults. UK
-    Biobank (n=498,277): both short (<6h) and\nlong (>8h) sleep associated with higher
-    mortality. Short sleep HR 1.12, long\nsleep HR 1.30. Affects CVD, metabolic health,
-    cognitive function. Evidence\nquality high from large prospective cohorts."
+  description: |-
+    Recommended: 7-8 hours/night. Sleep duration shows U-shaped mortality relationship. Meta-analyses consistently
+    find 7-8 hours optimal for adults. UK Biobank (n=498,277): both short (<6h) and
+    long (>8h) sleep associated with higher mortality. Short sleep HR 1.12, long
+    sleep HR 1.30. Affects CVD, metabolic health, cognitive function. Evidence
+    quality high from large prospective cohorts.
 effects:
 - outcome: Relative mortality risk
   mean: 0.88
@@ -19,7 +21,7 @@ effects:
   evidence: |
     Meta-analysis of 1.3M participants: U-shaped curve with nadir at 7h.
     Short sleep (<6h) HR 1.12 (95% CI: 1.06-1.18), long sleep (>8h) HR 1.30
-    (95% CI: 1.22-1.38). (https://pubmed.ncbi.nlm.nih.gov/20469800/). UK
+    (95% CI: 1.22-1.38). ([@cappuccio2010_sleep]). UK
     Biobank (n=498,277): similar findings. Note: long sleep may be marker
     of illness rather than causal. Strong associative evidence.
 - outcome: Years of delayed aging

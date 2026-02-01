@@ -18,12 +18,11 @@ effects:
   mean: 0.55
   std: 0.05
   evidence: |
-    Paluch 2022 meta-analysis (15 cohorts): ~50% lower mortality at 10,000
-    vs <4,000 steps. (https://pmc.ncbi.nlm.nih.gov/articles/PMC9289978/).
-    2023 meta-analysis (n=226,889): each 1,000-step increase = 15% lower
-    all-cause mortality, 500 steps = 7% lower CVD mortality. Optimal at
-    8,763 steps (HR 0.40). (https://www.jacc.org/doi/10.1016/j.jacc.2023.07.029).
-    Associative evidence; highly consistent.
+    Meta-analysis (15 cohorts) [@ae2022_daily]: ~50% lower mortality at 10,000
+    vs <4,000 steps. 2023 meta-analysis (n=226,889) [@banach2023_steps]: each
+    1,000-step increase = 15% lower all-cause mortality, 500 steps = 7% lower
+    CVD mortality. Optimal at 8,763 steps (HR 0.40). Associative evidence;
+    highly consistent.
 - outcome: Years of delayed aging
   mean: 1.5
   std: 0.6

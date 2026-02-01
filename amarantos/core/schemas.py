@@ -13,6 +13,9 @@ CHOICES_DIR = DATA_DIR / "choices"
 # 95% CI uses 1.96 standard deviations
 Z_95 = 1.96
 
+# Pattern to match [@ref_id] citations in evidence text
+_CITATION_PATTERN = re.compile(r"\[@([\w_-]+)\]")
+
 
 def _name_to_filename(name: str) -> str:
     """Convert a choice name to a valid filename."""
@@ -87,13 +90,20 @@ class Effect:
         std: The standard deviation of the effect estimate.
         evidence: A summary of the evidence supporting this effect. Open-ended, but ideally includes things such as
             the nature of the studies, sample sizes, and any relevant statistical measures, or first-principles
-            reasoning.
+            reasoning. Use [@ref_id] citations to reference bibliography entries.
     """
 
     outcome: Outcome = attrs.field(converter=_to_outcome)
     mean: float
     std: float
     evidence: str = ""
+
+    @property
+    def ref_ids(self) -> tuple[str, ...]:
+        """Extract ref_ids from [@ref_id] citations in evidence text."""
+        if not self.evidence:
+            return ()
+        return tuple(_CITATION_PATTERN.findall(self.evidence))
 
     @property
     def ci_lower(self) -> float:
@@ -165,7 +175,15 @@ class Choice:
     def load(cls, path: Path) -> "Choice":
         """Load a choice from a YAML file."""
         data = dummio.yaml.load(filepath=path)
-        data["effects"] = tuple(Effect(**e) for e in data["effects"])
+        data["effects"] = tuple(
+            Effect(
+                outcome=e["outcome"],
+                mean=e["mean"],
+                std=e["std"],
+                evidence=e.get("evidence", ""),
+            )
+            for e in data["effects"]
+        )
         data["specification"] = Specification(**data["specification"])
         data.pop("literature", None)  # Remove legacy field if present
         data.pop("annual_cost", None)  # Remove legacy field if present

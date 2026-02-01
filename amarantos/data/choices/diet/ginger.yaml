@@ -1,26 +1,28 @@
 domain: diet
 name: Ginger
-summary: "Root with anti-inflammatory and antioxidant properties. Meta-analyses show\n\
-  significant reduction in CRP, TNF-α, and oxidative stress markers."
+summary: |-
+  Root with anti-inflammatory and antioxidant properties. Meta-analyses show
+  significant reduction in CRP, TNF-α, and oxidative stress markers.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 1-3g/day. Root with anti-inflammatory and antioxidant
-    properties. Meta-analyses show\nsignificant reduction in CRP, TNF-α, and oxidative
-    stress markers. Improves\nlipid profile and glycemic control. Effects more pronounced
-    with >80 days\nsupplementation. No mortality RCTs. Evidence quality moderate for
-    inflammatory\nmarkers; high heterogeneity in studies."
+  description: |-
+    Recommended: 1-3g/day. Root with anti-inflammatory and antioxidant properties. Meta-analyses show
+    significant reduction in CRP, TNF-α, and oxidative stress markers. Improves
+    lipid profile and glycemic control. Effects more pronounced with >80 days
+    supplementation. No mortality RCTs. Evidence quality moderate for inflammatory
+    markers; high heterogeneity in studies.
 effects:
 - outcome: Relative mortality risk
   mean: 0.96
   std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis shows ginger reduces CRP, TNF-α, and
-    IL-6 significantly. (https://pubmed.ncbi.nlm.nih.gov/32763761/). Umbrella
+    IL-6 significantly. ([@m2020_ginger]). Umbrella
     review confirms benefits for inflammatory indices, BP, lipids, and
-    glycemic control. (https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1619655/full).
+    glycemic control. ([@paudel2025_pharmacological]).
     Theoretical CVD benefit via inflammation reduction. Extrapolated estimate.
 - outcome: Years of delayed aging
   mean: 0.2

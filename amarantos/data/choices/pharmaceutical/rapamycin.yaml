@@ -1,25 +1,26 @@
 domain: pharmaceutical
 name: Rapamycin
-summary: "mTOR inhibitor with most robust lifespan extension in animal models (9-14%\n\
-  in mice). Used in transplant medicine."
+summary: |-
+  mTOR inhibitor with most robust lifespan extension in animal models (9-14%
+  in mice). Used in transplant medicine.
 specification:
   duration_h: 0.001
   weekly_freq: 1
   annual_cost_h: 2
   annual_cost_usd: 500
-  description: "Recommended: low-dose, intermittent. mTOR inhibitor with most robust
-    lifespan extension in animal models (9-14%\nin mice). Used in transplant medicine.
-    Low-dose/intermittent protocols\nstudied for longevity. CAUTION: immunosuppressant,
-    off-label use, limited\nhuman longevity data. Pearl trial (n=150) and RAAR trial
-    ongoing. Evidence\nquality low for longevity; extrapolated from animals and transplant
-    data."
+  description: |-
+    Recommended: low-dose, intermittent. mTOR inhibitor with most robust lifespan extension in animal models (9-14%
+    in mice). Used in transplant medicine. Low-dose/intermittent protocols
+    studied for longevity. CAUTION: immunosuppressant, off-label use, limited
+    human longevity data. Pearl trial (n=150) and RAAR trial ongoing. Evidence
+    quality low for longevity; extrapolated from animals and transplant data.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.90
+  mean: 0.9
   std: 0.18
   evidence: |
     No human longevity RCTs completed. Mouse studies: 9-14% lifespan
-    extension even when started late-life. (https://pubmed.ncbi.nlm.nih.gov/19587680/).
+    extension even when started late-life. ([@harrison2009_rapamycin]).
     Transplant patients on rapalogs have mixed mortality (high-dose).
     CAUTION: immunosuppression at high doses. Highly speculative for
     healthy humans. Large uncertainty.
@@ -29,7 +30,7 @@ effects:
   evidence: |
     mTOR inhibition slows aging in multiple model organisms. Rapalogs
     improve immune function in elderly in short trials.
-    (https://pubmed.ncbi.nlm.nih.gov/25540326/). Most consistent
+    ([@jb2014_mtor]). Most consistent
     pharmacological lifespan extension in animals. Promising but very
     uncertain in humans.
 - outcome: Subjective wellbeing - number of just-noticeable differences

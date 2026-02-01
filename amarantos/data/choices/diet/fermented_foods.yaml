@@ -1,17 +1,20 @@
 domain: diet
 name: Fermented Foods
-summary: "Yogurt, kefir, kimchi, sauerkraut, miso provide live microbes and bioactive\n\
-  compounds. Associated with improved gut microbiome diversity and metabolic\nhealth."
+summary: |-
+  Yogurt, kefir, kimchi, sauerkraut, miso provide live microbes and bioactive
+  compounds. Associated with improved gut microbiome diversity and metabolic
+  health.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: daily consumption. Yogurt, kefir, kimchi, sauerkraut,
-    miso provide live microbes and bioactive\ncompounds. Associated with improved
-    gut microbiome diversity and metabolic\nhealth. Limited direct mortality studies.
-    Fermented dairy shows strongest\nsafety profile. May reduce CVD risk, improve
-    metabolic markers. Evidence\nquality low-moderate; research field evolving."
+  description: |-
+    Recommended: daily consumption. Yogurt, kefir, kimchi, sauerkraut, miso provide live microbes and bioactive
+    compounds. Associated with improved gut microbiome diversity and metabolic
+    health. Limited direct mortality studies. Fermented dairy shows strongest
+    safety profile. May reduce CVD risk, improve metabolic markers. Evidence
+    quality low-moderate; research field evolving.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
@@ -22,7 +25,7 @@ effects:
     modulation linked to reduced CVD risk and improved metabolic health.
     Meta-analysis shows fermented dairy safest due to beneficial bacteria
     and low pathogen content.
-    (https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2022.1045096/full).
+    ([@xu2022_sides]).
     Extrapolated estimate with high uncertainty.
 - outcome: Years of delayed aging
   mean: 0.3

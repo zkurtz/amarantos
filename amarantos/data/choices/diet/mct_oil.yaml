@@ -1,18 +1,20 @@
 domain: diet
 name: MCT Oil
-summary: "Medium-chain triglycerides rapidly converted to ketones, providing alternative\n\
-  brain fuel. Meta-analysis shows mild ketosis and possible cognitive improvement\n\
-  in MCI/AD patients."
+summary: |-
+  Medium-chain triglycerides rapidly converted to ketones, providing alternative
+  brain fuel. Meta-analysis shows mild ketosis and possible cognitive improvement
+  in MCI/AD patients.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 15-30mL/day. Medium-chain triglycerides rapidly converted
-    to ketones, providing alternative\nbrain fuel. Meta-analysis shows mild ketosis
-    and possible cognitive improvement\nin MCI/AD patients. May enhance working memory
-    in older adults. No mortality\ndata. GI side effects common. May increase triglycerides
-    in some. Evidence\nquality low for cognition; no CVD data."
+  description: |-
+    Recommended: 15-30mL/day. Medium-chain triglycerides rapidly converted to ketones, providing alternative
+    brain fuel. Meta-analysis shows mild ketosis and possible cognitive improvement
+    in MCI/AD patients. May enhance working memory in older adults. No mortality
+    data. GI side effects common. May increase triglycerides in some. Evidence
+    quality low for cognition; no CVD data.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
@@ -27,9 +29,9 @@ effects:
   std: 0.7
   evidence: |
     May support brain energy metabolism in aging. Meta-analysis shows
-    cognitive benefits in MCI/AD. (https://pmc.ncbi.nlm.nih.gov/articles/PMC7050425/).
+    cognitive benefits in MCI/AD. ([@ki2019_medium]).
     2022 review: may enhance working memory in non-demented older adults.
-    (https://bmcgeriatr.biomedcentral.com/articles/10.1186/s12877-022-03521-6).
+    ([@giannos2022_medium]).
     Speculative for healthy aging.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.0

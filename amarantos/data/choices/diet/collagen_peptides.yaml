@@ -1,24 +1,26 @@
 domain: diet
 name: Collagen Peptides
-summary: "Hydrolyzed collagen improves skin elasticity, joint health, and bone density\n\
-  in RCTs. Meta-analyses show modest LDL reduction (-4mg/dL) and BP reduction\n(-5mmHg)."
+summary: |-
+  Hydrolyzed collagen improves skin elasticity, joint health, and bone density
+  in RCTs. Meta-analyses show modest LDL reduction (-4mg/dL) and BP reduction
+  (-5mmHg).
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 5-15g/day. Hydrolyzed collagen improves skin elasticity,
-    joint health, and bone density\nin RCTs. Meta-analyses show modest LDL reduction
-    (-4mg/dL) and BP reduction\n(-5mmHg). May increase fat-free mass. No mortality
-    studies. Benefits most\nevident after 3+ months. Evidence quality moderate for
-    joints/skin."
+  description: |-
+    Recommended: 5-15g/day. Hydrolyzed collagen improves skin elasticity, joint health, and bone density
+    in RCTs. Meta-analyses show modest LDL reduction (-4mg/dL) and BP reduction
+    (-5mmHg). May increase fat-free mass. No mortality studies. Benefits most
+    evident after 3+ months. Evidence quality moderate for joints/skin.
 effects:
 - outcome: Relative mortality risk
   mean: 0.98
   std: 0.08
   evidence: |
     No mortality RCTs. Meta-analysis of RCTs shows reduced LDL (-4mg/dL) and
-    SBP (-5mmHg). (https://pubmed.ncbi.nlm.nih.gov/35658958/). Theoretical
+    SBP (-5mmHg). ([@z2023_collagen]). Theoretical
     CVD benefit via lipid/BP improvements. Extrapolated estimate with high
     uncertainty.
 - outcome: Years of delayed aging
@@ -26,7 +28,7 @@ effects:
   std: 0.5
   evidence: |
     Improves skin hydration and elasticity in RCTs.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC10180699/). Supports joint and
+    ([@sy2023_oral]). Supports joint and
     bone health. No epigenetic clock studies. May slow visible aging markers.
     Speculative for biological aging.
 - outcome: Subjective wellbeing - number of just-noticeable differences

@@ -1,17 +1,19 @@
 domain: diet
 name: Curcumin/Turmeric
-summary: "Polyphenol with potent anti-inflammatory effects. Meta-analysis of 103 RCTs\n\
-  shows significant effects on 55% of outcomes tested."
+summary: |-
+  Polyphenol with potent anti-inflammatory effects. Meta-analysis of 103 RCTs
+  shows significant effects on 55% of outcomes tested.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 500-2000mg/day. Polyphenol with potent anti-inflammatory
-    effects. Meta-analysis of 103 RCTs\nshows significant effects on 55% of outcomes
-    tested. Reduces CRP, IL-6, TNF-α.\nImproves lipid profile and glycemic markers.
-    No mortality RCTs. Bioavailability\nenhanced with piperine or lipid formulations.
-    Evidence quality moderate;\nsurrogate markers improved but hard endpoints lacking."
+  description: |-
+    Recommended: 500-2000mg/day. Polyphenol with potent anti-inflammatory effects. Meta-analysis of 103 RCTs
+    shows significant effects on 55% of outcomes tested. Reduces CRP, IL-6, TNF-α.
+    Improves lipid profile and glycemic markers. No mortality RCTs. Bioavailability
+    enhanced with piperine or lipid formulations. Evidence quality moderate;
+    surrogate markers improved but hard endpoints lacking.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
@@ -19,7 +21,7 @@ effects:
   evidence: |
     No mortality RCTs. 2024 comprehensive meta-analysis of 103 RCTs (n=7,216)
     shows significant effects on FBS, CRP, HDL, and weight with high credibility.
-    (https://pubmed.ncbi.nlm.nih.gov/39478418/). Reduces inflammatory markers
+    ([@a2024_curcumin]). Reduces inflammatory markers
     and improves ASCVD risk factors. Theoretical CVD benefit. Extrapolated
     estimate.
 - outcome: Years of delayed aging

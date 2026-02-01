@@ -1,26 +1,27 @@
 domain: fasting
 name: Time-Restricted Eating
-summary: "Limiting food intake to 8-10 hour daily window, typically aligning with\n\
-  circadian rhythms. Meta-analysis of 19 RCTs: modest weight loss (1-3 kg),\nimproved
-  insulin sensitivity."
+summary: |-
+  Limiting food intake to 8-10 hour daily window, typically aligning with
+  circadian rhythms. Meta-analysis of 19 RCTs: modest weight loss (1-3 kg),
+  improved insulin sensitivity.
 specification:
   duration_h: 0.0
   weekly_freq: 7
   annual_cost_h: 0
   annual_cost_usd: 0
-  description: "Recommended: 8-10 hour eating window. Limiting food intake to 8-10
-    hour daily window, typically aligning with\ncircadian rhythms. Meta-analysis of
-    19 RCTs: modest weight loss (1-3 kg),\nimproved insulin sensitivity. No mortality
-    RCTs. Benefits may overlap with\ncaloric restriction. Earlier eating window (eTRE)
-    shows better metabolic\noutcomes. Evidence quality moderate; mostly short-term
-    studies."
+  description: |-
+    Recommended: 8-10 hour eating window. Limiting food intake to 8-10 hour daily window, typically aligning with
+    circadian rhythms. Meta-analysis of 19 RCTs: modest weight loss (1-3 kg),
+    improved insulin sensitivity. No mortality RCTs. Benefits may overlap with
+    caloric restriction. Earlier eating window (eTRE) shows better metabolic
+    outcomes. Evidence quality moderate; mostly short-term studies.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
-  std: 0.10
+  std: 0.1
   evidence: |
     No mortality RCTs. Meta-analysis of 19 RCTs: improves insulin sensitivity,
-    reduces BP, promotes weight loss. (https://pubmed.ncbi.nlm.nih.gov/33302500/).
+    reduces BP, promotes weight loss. ([@r2020_food]).
     NHANES observational data: eating window <8h associated with higher CVD
     mortality (contradictory; confounding likely). Effect on mortality unclear.
 - outcome: Years of delayed aging

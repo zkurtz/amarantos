@@ -1,26 +1,28 @@
 domain: diet
 name: Dark Chocolate
-summary: "High-cacao chocolate provides flavanols with cardiovascular benefits. Meta-\n\
-  analysis of 21 cohorts (n=908,390): 13% lower CVD mortality, 16% lower heart\ndisease
-  mortality at highest intake."
+summary: |-
+  High-cacao chocolate provides flavanols with cardiovascular benefits. Meta-
+  analysis of 21 cohorts (n=908,390): 13% lower CVD mortality, 16% lower heart
+  disease mortality at highest intake.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 20-30g/day, >70% cacao. High-cacao chocolate provides
-    flavanols with cardiovascular benefits. Meta-\nanalysis of 21 cohorts (n=908,390):
-    13% lower CVD mortality, 16% lower heart\ndisease mortality at highest intake.
-    Optimal at <100g/week; higher intake may\nnegate benefits due to sugar. Mendelian
-    randomization supports hypertension\nreduction. Evidence quality moderate."
+  description: |-
+    Recommended: 20-30g/day, >70% cacao. High-cacao chocolate provides flavanols with cardiovascular benefits. Meta-
+    analysis of 21 cohorts (n=908,390): 13% lower CVD mortality, 16% lower heart
+    disease mortality at highest intake. Optimal at <100g/week; higher intake may
+    negate benefits due to sugar. Mendelian randomization supports hypertension
+    reduction. Evidence quality moderate.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.90
+  mean: 0.9
   std: 0.04
   evidence: |
     Zhao 2022 updated meta-analysis of 21 cohorts (n=908,390): 13% lower CVD
     mortality, 16% lower heart disease mortality, 12% lower cancer mortality
-    for highest vs lowest consumption. (https://pubmed.ncbi.nlm.nih.gov/35460393/).
+    for highest vs lowest consumption. ([@b2022_relationship]).
     Post-MI cohort: 66% reduction in cardiac mortality for 2x/week consumption.
     Associative evidence; dose-response non-linear.
 - outcome: Years of delayed aging

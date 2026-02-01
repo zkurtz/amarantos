@@ -1,17 +1,19 @@
 domain: exercise
 name: Swimming
-summary: "Full-body cardio with minimal joint impact. UK cohort (n=80K): 28% lower
-  all-\ncause mortality, 41% lower CVD mortality vs non-swimmers."
+summary: |-
+  Full-body cardio with minimal joint impact. UK cohort (n=80K): 28% lower all-
+  cause mortality, 41% lower CVD mortality vs non-swimmers.
 specification:
   duration_h: 0.75
   weekly_freq: 3
   annual_cost_h: 140
   annual_cost_usd: 600
-  description: "Recommended: 2+ times/week. Full-body cardio with minimal joint impact.
-    UK cohort (n=80K): 28% lower all-\ncause mortality, 41% lower CVD mortality vs
-    non-swimmers. Compared to sedentary,\nswimming HR 0.66 for all-cause, 0.48 for
-    CVD mortality in older adults. Suitable\nfor all ages, joint conditions, and rehabilitation.
-    Improves lipid profile and\nBP. Evidence quality moderate-high."
+  description: |-
+    Recommended: 2+ times/week. Full-body cardio with minimal joint impact. UK cohort (n=80K): 28% lower all-
+    cause mortality, 41% lower CVD mortality vs non-swimmers. Compared to sedentary,
+    swimming HR 0.66 for all-cause, 0.48 for CVD mortality in older adults. Suitable
+    for all ages, joint conditions, and rehabilitation. Improves lipid profile and
+    BP. Evidence quality moderate-high.
 effects:
 - outcome: Relative mortality risk
   mean: 0.72
@@ -19,9 +21,9 @@ effects:
   evidence: |
     UK cohort (n=80,306): swimming HR 0.72 (95% CI: 0.65-0.80) for all-cause
     mortality, HR 0.59 (95% CI: 0.46-0.75) for CVD mortality.
-    (https://pubmed.ncbi.nlm.nih.gov/27895075/). Swimmers had 53% lower
+    ([@oja2017_swimming]). Swimmers had 53% lower
     all-cause mortality vs sedentary, 49% lower vs runners.
-    (https://scholarworks.bgsu.edu/ijare/vol2/iss3/3/). Associative evidence.
+    ([@chase2008_swimming]). Associative evidence.
 - outcome: Years of delayed aging
   mean: 1.5
   std: 0.6

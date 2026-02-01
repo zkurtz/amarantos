@@ -1,26 +1,28 @@
 domain: pharmaceutical
 name: Metformin
-summary: "First-line diabetes medication studied for longevity. UK observational:\n\
-  diabetics on metformin had lower mortality than non-diabetic controls."
+summary: |-
+  First-line diabetes medication studied for longevity. UK observational:
+  diabetics on metformin had lower mortality than non-diabetic controls.
 specification:
   duration_h: 0.001
   weekly_freq: 7
   annual_cost_h: 5
   annual_cost_usd: 100
-  description: "Recommended: off-label longevity use. First-line diabetes medication
-    studied for longevity. UK observational:\ndiabetics on metformin had lower mortality
-    than non-diabetic controls.\nTAME trial ongoing for primary prevention. Activates
-    AMPK, mimics caloric\nrestriction. May blunt exercise benefits. CAUTION: prescription
-    drug with\nGI side effects. Evidence quality low for non-diabetics; extrapolated."
+  description: |-
+    Recommended: off-label longevity use. First-line diabetes medication studied for longevity. UK observational:
+    diabetics on metformin had lower mortality than non-diabetic controls.
+    TAME trial ongoing for primary prevention. Activates AMPK, mimics caloric
+    restriction. May blunt exercise benefits. CAUTION: prescription drug with
+    GI side effects. Evidence quality low for non-diabetics; extrapolated.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.90
+  mean: 0.9
   std: 0.12
   evidence: |
     UK CPRD study: diabetics on metformin had 15% lower mortality than
-    matched non-diabetic controls. (https://pubmed.ncbi.nlm.nih.gov/25041462/).
+    matched non-diabetic controls. ([@bannister2014_metformin]).
     Meta-analysis in diabetics: reduced all-cause mortality vs other
-    treatments (HR 0.72). (https://pubmed.ncbi.nlm.nih.gov/28802803/). TAME trial
+    treatments (HR 0.72). ([@jm2017_metformin]). TAME trial
     for non-diabetics ongoing. Extrapolated; uncertain in healthy adults.
 - outcome: Years of delayed aging
   mean: 0.8
@@ -29,7 +31,7 @@ effects:
     Activates AMPK, reduces IGF-1, mimics caloric restriction pathways.
     C. elegans and mouse studies show lifespan extension. Human biomarker
     studies show improved aging markers. CAUTION: may blunt exercise
-    adaptations. (https://pubmed.ncbi.nlm.nih.gov/30548390/). Promising
+    adaptations. ([@ar2019_metformin]). Promising
     mechanistic basis; human aging data limited.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: -0.2

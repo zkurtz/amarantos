@@ -1,26 +1,28 @@
 domain: mind
 name: Cognitive Training
-summary: "Includes computerized brain training, learning new languages, musical\n\
-  instruments, or complex skills. Meta-analyses: limited transfer to\nreal-world cognition
-  from brain games."
+summary: |-
+  Includes computerized brain training, learning new languages, musical
+  instruments, or complex skills. Meta-analyses: limited transfer to
+  real-world cognition from brain games.
 specification:
   duration_h: 0.33
   weekly_freq: 5
   annual_cost_h: 100
   annual_cost_usd: 200
-  description: "Recommended: brain training, learning new skills. Includes computerized
-    brain training, learning new languages, musical\ninstruments, or complex skills.
-    Meta-analyses: limited transfer to\nreal-world cognition from brain games. However,
-    education and cognitive\nengagement associated with lower dementia risk in observational
-    studies.\nLearning complex skills may be more beneficial than narrow training.\n\
-    Evidence quality low-moderate; transfer effects debated."
+  description: |-
+    Recommended: brain training, learning new skills. Includes computerized brain training, learning new languages, musical
+    instruments, or complex skills. Meta-analyses: limited transfer to
+    real-world cognition from brain games. However, education and cognitive
+    engagement associated with lower dementia risk in observational studies.
+    Learning complex skills may be more beneficial than narrow training.
+    Evidence quality low-moderate; transfer effects debated.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
   std: 0.08
   evidence: |
     ACTIVE trial: cognitive training associated with reduced dementia
-    incidence at 10 years (HR 0.71). (https://pubmed.ncbi.nlm.nih.gov/28426831/).
+    incidence at 10 years (HR 0.71). ([@i2017_representation]).
     Higher education associated with lower mortality. Cognitive engagement
     may reduce dementia-related mortality. Indirect evidence.
 - outcome: Years of delayed aging
@@ -30,7 +32,7 @@ effects:
     Cognitive reserve hypothesis: higher lifetime cognitive engagement
     delays dementia symptoms. NEJM study: cognitively stimulating leisure
     activities associated with reduced dementia risk.
-    (https://pubmed.ncbi.nlm.nih.gov/12815136/). Associative evidence.
+    ([@j2003_leisure]). Associative evidence.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.3
   std: 0.3

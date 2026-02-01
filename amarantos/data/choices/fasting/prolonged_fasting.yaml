@@ -1,19 +1,20 @@
 domain: fasting
 name: Prolonged Fasting
-summary: "Extended fasting periods of 3-5 days, typically water-only, done periodically\n\
-  (1-4x/year). Profoundly activates autophagy and stem cell regeneration in\nanimal
-  models."
+summary: |-
+  Extended fasting periods of 3-5 days, typically water-only, done periodically
+  (1-4x/year). Profoundly activates autophagy and stem cell regeneration in
+  animal models.
 specification:
   duration_h: 0.0
   weekly_freq: 0.08
   annual_cost_h: 0
   annual_cost_usd: 0
-  description: "Recommended: 3-5 day water fast, periodic. Extended fasting periods
-    of 3-5 days, typically water-only, done periodically\n(1-4x/year). Profoundly
-    activates autophagy and stem cell regeneration in\nanimal models. Fasting-mimicking
-    diet (FMD) RCTs show improved biomarkers.\nCAUTION: medical supervision recommended.
-    Limited human longevity data.\nEvidence quality low; mostly mechanistic and FMD
-    surrogate data."
+  description: |-
+    Recommended: 3-5 day water fast, periodic. Extended fasting periods of 3-5 days, typically water-only, done periodically
+    (1-4x/year). Profoundly activates autophagy and stem cell regeneration in
+    animal models. Fasting-mimicking diet (FMD) RCTs show improved biomarkers.
+    CAUTION: medical supervision recommended. Limited human longevity data.
+    Evidence quality low; mostly mechanistic and FMD surrogate data.
 effects:
 - outcome: Relative mortality risk
   mean: 0.92
@@ -21,7 +22,7 @@ effects:
   evidence: |
     No mortality RCTs for prolonged fasting. FMD trial (n=100): improved
     CVD risk factors, reduced IGF-1, lower inflammation markers.
-    (https://pubmed.ncbi.nlm.nih.gov/28202779/). CAUTION: risks include
+    ([@m2017_fasting]). CAUTION: risks include
     electrolyte imbalance, refeeding syndrome if not done properly.
     Speculative mortality benefit with notable risks.
 - outcome: Years of delayed aging
@@ -30,7 +31,7 @@ effects:
   evidence: |
     Strongest autophagy activation of fasting interventions. Animal studies:
     periodic prolonged fasting extends lifespan. FMD reduces biological
-    age by ~2.5 years in humans. (https://pubmed.ncbi.nlm.nih.gov/38378685/).
+    age by ~2.5 years in humans. ([@s2024_fasting]).
     Promising but limited human data. High uncertainty.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.0

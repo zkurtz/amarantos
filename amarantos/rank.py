@@ -8,7 +8,7 @@ from click import echo, secho, style
 from amarantos.core.bib import EvidenceType, Reference
 from amarantos.core.loaders import find_choice_by_name, load_all_choices, load_reference_index
 from amarantos.core.schemas import Choice, Effect, Outcome
-from amarantos.core.validation import get_evidence_type_distribution, validate_evidence_linkage
+from amarantos.core.validation import get_evidence_type_distribution
 
 # 30th percentile z-score for normal distribution
 Z_30 = -0.524
@@ -264,27 +264,6 @@ def describe(name: str, show_sources: bool) -> None:
                         echo(style(f"          URL: {ref.url}", fg="bright_black"))
                 else:
                     echo(style(f"        [{ref_id}] (reference not found)", fg="red"))
-
-    echo()
-
-
-@main.command()
-def validate() -> None:
-    """Validate evidence linkage between effects and references."""
-    result = validate_evidence_linkage()
-
-    echo()
-    secho("  Evidence Linkage Validation", fg="yellow", bold=True)
-    echo()
-    echo(f"    Total effects:      {result.total_effects:>6}")
-    echo(f"    With references:    {result.effects_with_refs:>6}")
-    echo(f"    Coverage:           {result.coverage:>5.1f}%")
-
-    if result.missing_refs:
-        echo()
-        secho("  Missing References", fg="red", bold=True)
-        for ref_id in sorted(result.missing_refs):
-            echo(f"    - {ref_id}")
 
     echo()
 

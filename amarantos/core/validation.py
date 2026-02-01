@@ -68,14 +68,16 @@ def get_evidence_type_distribution(choice: Choice, ref_index: dict[str, Referenc
 
     Returns:
         Counter mapping EvidenceType to count of claims.
+
+    Raises:
+        KeyError: If a ref_id in an effect is not found in ref_index.
     """
     counts: Counter[EvidenceType] = Counter()
 
     for effect in choice.effects:
         for ref_id in effect.ref_ids:
-            ref = ref_index.get(ref_id)
-            if ref:
-                for claim in ref.hard_claims:
-                    counts[claim.evidence_type] += 1
+            ref = ref_index[ref_id]  # Raises KeyError if missing
+            for claim in ref.hard_claims:
+                counts[claim.evidence_type] += 1
 
     return counts

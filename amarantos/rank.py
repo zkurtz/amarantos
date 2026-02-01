@@ -5,7 +5,7 @@ import textwrap
 import click
 from click import echo, secho, style
 
-from amarantos.core.bib import Reference
+from amarantos.core.bib import Reference, render_citations
 from amarantos.core.loaders import find_choice_by_name, load_all_choices, load_reference_index
 from amarantos.core.schemas import Choice, Effect, Outcome
 
@@ -149,10 +149,8 @@ def describe(name: str, show_sources: bool) -> None:
     choice = find_choice_by_name(name)
     spec = choice.specification
 
-    # Load references if needed
-    ref_index: dict[str, Reference] = {}
-    if show_sources:
-        ref_index = load_reference_index()
+    # Load references for citation rendering and source display
+    ref_index: dict[str, Reference] = load_reference_index()
 
     echo()
     secho(f"  {choice.name}", fg="bright_white", bold=True)
@@ -189,8 +187,9 @@ def describe(name: str, show_sources: bool) -> None:
 
         if effect.evidence:
             echo()
+            rendered = render_citations(effect.evidence.strip(), ref_index)
             wrapped = textwrap.fill(
-                effect.evidence.strip(),
+                rendered,
                 width=70,
                 initial_indent="      ",
                 subsequent_indent="      ",

@@ -85,16 +85,21 @@ def test_no_duplicate_choice_names():
     assert not duplicates, "Found duplicate choice names:\n" + "\n".join(duplicates)
 
 
-def test_effect_ref_ids_is_tuple():
-    """Test that effect.ref_ids is always a tuple (even when empty)."""
+def test_effect_ref_ids_parsed_from_evidence():
+    """Test that effect.ref_ids is parsed from [@ref_id] citations in evidence text."""
     choices = load_all_choices()
     assert len(choices) > 0
 
     for choice in choices:
         for effect in choice.effects:
+            # ref_ids is always a tuple
             assert isinstance(
                 effect.ref_ids, tuple
             ), f"Effect ref_ids in {choice.name} is {type(effect.ref_ids).__name__}, expected tuple"
+
+            # If evidence contains [@something], ref_ids should capture it
+            if "[@" in effect.evidence:
+                assert len(effect.ref_ids) > 0, f"Effect in {choice.name} has citations but empty ref_ids"
 
 
 def test_load_all_references():

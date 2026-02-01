@@ -8,7 +8,7 @@ from typing import Self
 import attrs
 import dummio.yaml
 
-from amarantos.core.schemas import BaseEffect
+from amarantos.core.schemas import _CITATION_PATTERN, BaseEffect
 
 # URL validation pattern (basic but catches obvious errors)
 _URL_PATTERN = re.compile(
@@ -211,3 +211,18 @@ class Reference:
         for claim in data["hard_claims"]:
             claim["evidence_type"] = str(claim["evidence_type"])
         dummio.yaml.save(data, filepath=path)
+
+
+def render_citations(text: str, ref_index: dict[str, "Reference"]) -> str:
+    """Replace [@ref_id] with 'Author (Year)' in text."""
+
+    def replace(match: re.Match) -> str:
+        ref_id = match.group(1)
+        ref = ref_index.get(ref_id)
+        if ref:
+            # Author format is "Lastname Initials" (e.g., "Paluch AE")
+            author = ref.authors[0].split()[0] if ref.authors else "Unknown"
+            return f"{author} ({ref.year})"
+        return match.group(0)  # Leave as-is if not found
+
+    return _CITATION_PATTERN.sub(replace, text)

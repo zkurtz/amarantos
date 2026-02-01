@@ -13,6 +13,9 @@ CHOICES_DIR = DATA_DIR / "choices"
 # 95% CI uses 1.96 standard deviations
 Z_95 = 1.96
 
+# Pattern to match [@ref_id] citations in evidence text
+_CITATION_PATTERN = re.compile(r"\[@([\w_-]+)\]")
+
 
 def _name_to_filename(name: str) -> str:
     """Convert a choice name to a valid filename."""
@@ -87,15 +90,20 @@ class Effect:
         std: The standard deviation of the effect estimate.
         evidence: A summary of the evidence supporting this effect. Open-ended, but ideally includes things such as
             the nature of the studies, sample sizes, and any relevant statistical measures, or first-principles
-            reasoning.
-        ref_ids: Tuple of Reference IDs (e.g., "ae2022_daily") that support this effect.
+            reasoning. Use [@ref_id] citations to reference bibliography entries.
     """
 
     outcome: Outcome = attrs.field(converter=_to_outcome)
     mean: float
     std: float
     evidence: str = ""
-    ref_ids: tuple[str, ...] = ()
+
+    @property
+    def ref_ids(self) -> tuple[str, ...]:
+        """Extract ref_ids from [@ref_id] citations in evidence text."""
+        if not self.evidence:
+            return ()
+        return tuple(_CITATION_PATTERN.findall(self.evidence))
 
     @property
     def ci_lower(self) -> float:
@@ -173,7 +181,6 @@ class Choice:
                 mean=e["mean"],
                 std=e["std"],
                 evidence=e.get("evidence", ""),
-                ref_ids=tuple(e.get("ref_ids", [])),
             )
             for e in data["effects"]
         )
@@ -193,9 +200,7 @@ class Choice:
         if self.summary:
             data["summary"] = self.summary
         data["specification"] = attrs.asdict(self.specification)
-        data["effects"] = [
-            {**attrs.asdict(e), "outcome": str(e.outcome), "ref_ids": list(e.ref_ids)} for e in self.effects
-        ]
+        data["effects"] = [{**attrs.asdict(e), "outcome": str(e.outcome)} for e in self.effects]
         dummio.yaml.save(data, filepath=path)
 
 

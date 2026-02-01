@@ -1,10 +1,10 @@
-"""Tests for evidence linkage validation."""
+"""Tests for evidence linkage between choices and references."""
 
 from amarantos.core.loaders import load_all_choices, load_reference_index
 
 
-def test_evidence_linkage_coverage():
-    """Validate that effects reference existing refs and at least one is linked."""
+def test_all_citations_resolve_to_existing_refs():
+    """All [@ref_id] citations in evidence text must resolve to existing references."""
     choices = load_all_choices()
     ref_index = load_reference_index()
 

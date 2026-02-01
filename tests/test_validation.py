@@ -1,46 +1,21 @@
-"""Tests for evidence validation module."""
+"""Tests for evidence linkage validation."""
 
-from amarantos.core.validation import ValidationResult, validate_evidence_linkage
-
-
-def test_validation_result_coverage():
-    """Test ValidationResult coverage calculation."""
-    # 0 effects = 0% coverage
-    result = ValidationResult(
-        total_effects=0,
-        effects_with_refs=0,
-        missing_refs=frozenset(),
-        choices_without_refs=(),
-    )
-    assert result.coverage == 0.0
-
-    # 5/10 effects = 50% coverage
-    result = ValidationResult(
-        total_effects=10,
-        effects_with_refs=5,
-        missing_refs=frozenset(),
-        choices_without_refs=(),
-    )
-    assert result.coverage == 50.0
-
-    # All effects = 100% coverage
-    result = ValidationResult(
-        total_effects=10,
-        effects_with_refs=10,
-        missing_refs=frozenset(),
-        choices_without_refs=(),
-    )
-    assert result.coverage == 100.0
+from amarantos.core.loaders import load_all_choices, load_reference_index
 
 
-def test_validate_evidence_linkage():
-    """Test validate_evidence_linkage returns valid result."""
-    result = validate_evidence_linkage()
+def test_evidence_linkage_coverage():
+    """Validate that effects reference existing refs and at least one is linked."""
+    choices = load_all_choices()
+    ref_index = load_reference_index()
 
-    assert isinstance(result, ValidationResult)
-    assert result.total_effects >= 0
-    assert result.effects_with_refs >= 1  # walking.yaml has ref_ids
-    assert result.effects_with_refs <= result.total_effects
-    assert 0.0 <= result.coverage <= 100.0
-    assert isinstance(result.missing_refs, frozenset)
-    assert isinstance(result.choices_without_refs, tuple)
+    all_effects = [(choice, effect) for choice in choices for effect in choice.effects]
+    all_ref_ids = [ref_id for _, effect in all_effects for ref_id in effect.ref_ids]
+
+    effects_with_refs = sum(1 for _, effect in all_effects if effect.ref_ids)
+    missing_refs = [ref_id for ref_id in all_ref_ids if ref_id not in ref_index]
+
+    # At least one effect has ref_ids (walking.yaml)
+    assert effects_with_refs >= 1, "Expected at least one effect with ref_ids"
+
+    # All referenced ref_ids must exist
+    assert not missing_refs, f"Missing references: {missing_refs}"

@@ -1,18 +1,19 @@
 domain: fasting
 name: Caloric Restriction
-summary: "Sustained caloric restriction without malnutrition. CALERIE trial: 15%\n\
-  reduction improved cardiometabolic markers, reduced oxidative stress."
+summary: |-
+  Sustained caloric restriction without malnutrition. CALERIE trial: 15%
+  reduction improved cardiometabolic markers, reduced oxidative stress.
 specification:
   duration_h: 0.0
   weekly_freq: 7
   annual_cost_h: 0
   annual_cost_usd: -500
-  description: "Recommended: 15-25% below maintenance. Sustained caloric restriction
-    without malnutrition. CALERIE trial: 15%\nreduction improved cardiometabolic markers,
-    reduced oxidative stress. Strong\nlifespan extension in animal models (20-50%).
-    Human lifespan data limited to\nobservational (Okinawa). CAUTION: muscle loss,
-    reduced bone density, cold\nintolerance. Evidence quality moderate for biomarkers;
-    limited for longevity."
+  description: |-
+    Recommended: 15-25% below maintenance. Sustained caloric restriction without malnutrition. CALERIE trial: 15%
+    reduction improved cardiometabolic markers, reduced oxidative stress. Strong
+    lifespan extension in animal models (20-50%). Human lifespan data limited to
+    observational (Okinawa). CAUTION: muscle loss, reduced bone density, cold
+    intolerance. Evidence quality moderate for biomarkers; limited for longevity.
 effects:
 - outcome: Relative mortality risk
   mean: 0.85
@@ -20,7 +21,7 @@ effects:
   evidence: |
     CALERIE trial (n=218, 2 years): 15% CR improved cardiometabolic markers,
     reduced inflammation (CRP), oxidative stress.
-    (https://pubmed.ncbi.nlm.nih.gov/31303390/). Animal CR extends lifespan
+    ([@kraus2019_calerie]). Animal CR extends lifespan
     20-50%. Okinawan centenarians historically ate ~80% of typical calories.
     Strong mechanistic basis; limited human mortality data.
 - outcome: Years of delayed aging
@@ -28,7 +29,7 @@ effects:
   std: 0.8
   evidence: |
     CALERIE: CR slowed biological aging (~2-3% pace of aging reduction).
-    (https://pubmed.ncbi.nlm.nih.gov/37118425/). Strong evidence in animal
+    ([@r2023_long]). Strong evidence in animal
     models for slowed aging. Best-studied longevity intervention.
     Moderate-high confidence for aging delay.
 - outcome: Subjective wellbeing - number of just-noticeable differences
@@ -36,6 +37,6 @@ effects:
   std: 0.4
   evidence: |
     CALERIE: sustained CR group reported improved mood and quality of life
-    despite chronic mild hunger. (https://pubmed.ncbi.nlm.nih.gov/27136347/).
+    despite chronic mild hunger. ([@ck2016_calorie]).
     Requires strong motivation. Long-term adherence difficult. Cold
     intolerance and reduced energy common. Mixed individual effects.

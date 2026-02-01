@@ -1,28 +1,30 @@
 domain: diet
 name: Nuts
-summary: "Among the most evidence-backed foods for CVD and mortality. Meta-analysis
-  of\n20 cohorts: 22% lower all-cause mortality, 27% lower CVD mortality, 30% lower\n\
-  CHD mortality per 28g/day."
+summary: |-
+  Among the most evidence-backed foods for CVD and mortality. Meta-analysis of
+  20 cohorts: 22% lower all-cause mortality, 27% lower CVD mortality, 30% lower
+  CHD mortality per 28g/day.
 specification:
   duration_h: 0.02
   weekly_freq: 7
   annual_cost_h: 10
   annual_cost_usd: 300
-  description: "Recommended: 28g/day. Among the most evidence-backed foods for CVD
-    and mortality. Meta-analysis of\n20 cohorts: 22% lower all-cause mortality, 27%
-    lower CVD mortality, 30% lower\nCHD mortality per 28g/day. PREDIMED RCT: 28% lower
-    major CVD events, 47%\nlower CVD mortality with walnuts. Rich in unsaturated fats,
-    fiber, polyphenols.\nEvidence quality high."
+  description: |-
+    Recommended: 28g/day. Among the most evidence-backed foods for CVD and mortality. Meta-analysis of
+    20 cohorts: 22% lower all-cause mortality, 27% lower CVD mortality, 30% lower
+    CHD mortality per 28g/day. PREDIMED RCT: 28% lower major CVD events, 47%
+    lower CVD mortality with walnuts. Rich in unsaturated fats, fiber, polyphenols.
+    Evidence quality high.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.80
+  mean: 0.8
   std: 0.04
   evidence: |
     Dose-response meta-analysis: per 28g/day nuts: RR 0.78 (95% CI: 0.72-0.84)
     for all-cause mortality, RR 0.71 for CHD.
-    (https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-016-0730-3).
+    ([@aune2016_consumption]).
     PREDIMED: 39% lower CVD mortality with walnuts >3x/week.
-    (https://www.jacc.org/doi/10.1016/j.jacc.2017.09.035). Causal and
+    ([@guasch-ferr2017_consumption]). Causal and
     associative evidence; highly consistent.
 - outcome: Years of delayed aging
   mean: 1.0

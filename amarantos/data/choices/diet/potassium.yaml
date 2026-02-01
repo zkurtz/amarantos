@@ -1,17 +1,19 @@
 domain: diet
 name: Potassium
-summary: "Essential mineral; most adults under-consume. Meta-analysis: reduces SBP
-  by\n3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP)."
+summary: |-
+  Essential mineral; most adults under-consume. Meta-analysis: reduces SBP by
+  3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP).
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 3500-4700mg/day from food. Essential mineral; most adults
-    under-consume. Meta-analysis: reduces SBP by\n3.5mmHg, DBP by 2mmHg; greater effect
-    in hypertensives (-7mmHg SBP). 24%\nlower stroke risk with higher intake. U-shaped
-    relationship suggests optimal\nrange; excessive intake may increase BP. WHO recommends
-    ≥3.5g/day. Dietary\nsources preferred. Evidence quality high."
+  description: |-
+    Recommended: 3500-4700mg/day from food. Essential mineral; most adults under-consume. Meta-analysis: reduces SBP by
+    3.5mmHg, DBP by 2mmHg; greater effect in hypertensives (-7mmHg SBP). 24%
+    lower stroke risk with higher intake. U-shaped relationship suggests optimal
+    range; excessive intake may increase BP. WHO recommends ≥3.5g/day. Dietary
+    sources preferred. Evidence quality high.
 effects:
 - outcome: Relative mortality risk
   mean: 0.92
@@ -19,10 +21,10 @@ effects:
   evidence: |
     Systematic review and meta-analysis: higher potassium intake associated
     with 24% lower stroke risk (RR 0.76). CVD risk reduction NS in some
-    analyses. (https://pubmed.ncbi.nlm.nih.gov/23558164/). Salt substitute
+    analyses. ([@nj2013_increased]). Salt substitute
     trial showed reduced CV mortality with potassium-enriched salt. U-shaped
     dose-response suggests optimal intake range.
-    (https://www.ahajournals.org/doi/10.1161/JAHA.119.015719). Dietary
+    ([@filippini2020_potassium]). Dietary
     sources preferred.
 - outcome: Years of delayed aging
   mean: 0.3

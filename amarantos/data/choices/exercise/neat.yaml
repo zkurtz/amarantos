@@ -1,29 +1,31 @@
 domain: exercise
 name: NEAT
-summary: "Non-exercise activity thermogenesis: energy from daily activities excluding\n\
-  formal exercise. Standing increases expenditure 10-20% above sitting; walking\n\
-  100-200%."
+summary: |-
+  Non-exercise activity thermogenesis: energy from daily activities excluding
+  formal exercise. Standing increases expenditure 10-20% above sitting; walking
+  100-200%.
 specification:
   duration_h: 0.0
   weekly_freq: 7
   annual_cost_h: 0
   annual_cost_usd: 0
-  description: "Recommended: standing, fidgeting, daily movement. Non-exercise activity
-    thermogenesis: energy from daily activities excluding\nformal exercise. Standing
-    increases expenditure 10-20% above sitting; walking\n100-200%. NEAT ranges from
-    15% to 50% of total daily expenditure. Sedentary\nbehavior independently associated
-    with CVD mortality even with exercise.\nStanding/walking improves insulin sensitivity
-    better than equivalent cycling.\nEvidence quality moderate."
+  description: |-
+    Recommended: standing, fidgeting, daily movement. Non-exercise activity thermogenesis: energy from daily activities excluding
+    formal exercise. Standing increases expenditure 10-20% above sitting; walking
+    100-200%. NEAT ranges from 15% to 50% of total daily expenditure. Sedentary
+    behavior independently associated with CVD mortality even with exercise.
+    Standing/walking improves insulin sensitivity better than equivalent cycling.
+    Evidence quality moderate.
 effects:
 - outcome: Relative mortality risk
   mean: 0.82
   std: 0.06
   evidence: |
     Canadian cohort: dose-response between sitting time and all-cause/CVD
-    mortality independent of exercise. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6058072/).
+    mortality independent of exercise. ([@n2018_exercise]).
     Standing/walking of longer duration improves insulin action and lipids
     more than equivalent-energy cycling.
-    (https://journals.physiology.org/doi/full/10.1152/ajpendo.00562.2003).
+    ([@levine2004_nonexercise]).
     Reducing sedentary time associated with reduced metabolic syndrome, CVD
     events, and mortality. Associative evidence.
 - outcome: Years of delayed aging

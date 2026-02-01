@@ -1,25 +1,27 @@
 domain: diet
 name: Melatonin
-summary: "Hormone regulating circadian rhythm. Meta-analysis shows improved sleep
-  quality\n(PSQI -1.24)."
+summary: |-
+  Hormone regulating circadian rhythm. Meta-analysis shows improved sleep quality
+  (PSQI -1.24).
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 0.5-3mg/day, short-term. Hormone regulating circadian
-    rhythm. Meta-analysis shows improved sleep quality\n(PSQI -1.24). CAUTION: 2025
-    AHA study found long-term use in insomnia associated\nwith 89% higher HF risk
-    and 2x mortality (may reflect underlying conditions\nrather than causation). Short-term
-    use appears safe; long-term safety uncertain.\nEvidence quality low for safety."
+  description: |-
+    Recommended: 0.5-3mg/day, short-term. Hormone regulating circadian rhythm. Meta-analysis shows improved sleep quality
+    (PSQI -1.24). CAUTION: 2025 AHA study found long-term use in insomnia associated
+    with 89% higher HF risk and 2x mortality (may reflect underlying conditions
+    rather than causation). Short-term use appears safe; long-term safety uncertain.
+    Evidence quality low for safety.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
-  std: 0.10
+  std: 0.1
   evidence: |
     2025 AHA study (n=130,828): long-term melatonin users had HR 2.09 for
     all-cause mortality vs matched controls. HF incidence HR 1.89.
-    (https://www.ahajournals.org/doi/10.1161/circ.152.suppl_3.4371606).
+    ([@nnadi2025_abstract]).
     Authors note association may reflect underlying conditions, not causation.
     Not peer-reviewed. Short-term likely safe; long-term uncertain. Estimate
     reflects uncertainty.
@@ -35,5 +37,5 @@ effects:
   std: 0.3
   evidence: |
     Meta-analysis of 23 RCTs shows improved sleep quality (PSQI -1.24).
-    (https://pubmed.ncbi.nlm.nih.gov/33417003/). Better sleep improves
+    ([@g2022_melatonin]). Better sleep improves
     daytime functioning. Short-term benefit likely.

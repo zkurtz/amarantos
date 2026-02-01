@@ -1,18 +1,19 @@
 domain: exercise
 name: HIIT
-summary: "High-intensity interval training with alternating high/low intensity periods.
-  Meta-analyses show 1.35 mL/kg/min greater VO2peak improvement vs moderate\ncardio."
+summary: |-
+  High-intensity interval training with alternating high/low intensity periods. Meta-analyses show 1.35 mL/kg/min greater VO2peak improvement vs moderate
+  cardio.
 specification:
   duration_h: 0.4
   weekly_freq: 2.5
   annual_cost_h: 60
   annual_cost_usd: 200
-  description: "Recommended: 20-30min, 2-3x/week. High-intensity interval training
-    with alternating high/low intensity periods.\nMeta-analyses show 1.35 mL/kg/min
-    greater VO2peak improvement vs moderate\ncardio. Each MET improvement associated
-    with 8-17% lower all-cause mortality.\nGeneration 100: 37-49% lower mortality
-    (NS) vs guidelines/MICT. Safe in cardiac\nrehab patients. Time-efficient. Evidence
-    quality moderate-high."
+  description: |-
+    Recommended: 20-30min, 2-3x/week. High-intensity interval training with alternating high/low intensity periods.
+    Meta-analyses show 1.35 mL/kg/min greater VO2peak improvement vs moderate
+    cardio. Each MET improvement associated with 8-17% lower all-cause mortality.
+    Generation 100: 37-49% lower mortality (NS) vs guidelines/MICT. Safe in cardiac
+    rehab patients. Time-efficient. Evidence quality moderate-high.
 effects:
 - outcome: Relative mortality risk
   mean: 0.72
@@ -21,7 +22,7 @@ effects:
     No direct mortality RCTs. Generation 100 study: 37% lower all-cause
     mortality vs guidelines, 49% lower vs MICT (NS). Each MET fitness
     improvement: 8-17% lower all-cause mortality.
-    (https://www.ahajournals.org/doi/10.1161/JAHA.118.009305). HIIT vs MICT
+    ([@wewege2018_high]). HIIT vs MICT
     meta-analysis: 1.15-1.78 mL/kg/min greater VO2peak improvement.
     Extrapolated from fitness improvements.
 - outcome: Years of delayed aging

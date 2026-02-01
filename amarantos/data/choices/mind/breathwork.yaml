@@ -5,16 +5,17 @@ specification:
   weekly_freq: 7
   annual_cost_h: 60
   annual_cost_usd: 0
-  description: "Recommended: slow breathing, box breathing. Deliberate breathing techniques
-    including slow breathing (5-6 breaths/min),\nbox breathing, and resonance breathing.
-    Activates parasympathetic nervous\nsystem, reduces HRV, lowers BP. Meta-analysis:
-    reduces anxiety comparable\nto relaxation techniques. Less studied than meditation.
-    Evidence quality\nlow-moderate; mostly small studies."
+  description: |-
+    Recommended: slow breathing, box breathing. Deliberate breathing techniques including slow breathing (5-6 breaths/min),
+    box breathing, and resonance breathing. Activates parasympathetic nervous
+    system, reduces HRV, lowers BP. Meta-analysis: reduces anxiety comparable
+    to relaxation techniques. Less studied than meditation. Evidence quality
+    low-moderate; mostly small studies.
 effects:
 - outcome: Relative mortality risk
   evidence: |
     No direct mortality studies. Slow breathing reduces blood pressure
-    by 3-4 mmHg in meta-analysis. (https://pubmed.ncbi.nlm.nih.gov/31875792/).
+    by 3-4 mmHg in meta-analysis. ([@dj2020_network]).
     Improves HRV, a marker of autonomic health. Effect on mortality
     extrapolated from physiological improvements. Highly speculative.
   mean: 0.98
@@ -29,11 +30,12 @@ effects:
 - outcome: Subjective wellbeing - number of just-noticeable differences
   evidence: |
     Meta-analysis: slow breathing reduces anxiety with moderate effect
-    (d=0.35). (https://pubmed.ncbi.nlm.nih.gov/32209269/). Acute stress
+    (d=0.35). ([@km2020_management]). Acute stress
     reduction well-documented. Can be practiced anywhere. Small-moderate
     positive effect.
   mean: 0.3
   std: 0.3
-summary: "Deliberate breathing techniques including slow breathing (5-6 breaths/min),\n\
-  box breathing, and resonance breathing. Activates parasympathetic nervous\nsystem,
-  reduces HRV, lowers BP."
+summary: |-
+  Deliberate breathing techniques including slow breathing (5-6 breaths/min),
+  box breathing, and resonance breathing. Activates parasympathetic nervous
+  system, reduces HRV, lowers BP.

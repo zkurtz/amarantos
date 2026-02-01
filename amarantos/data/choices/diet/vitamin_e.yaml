@@ -1,18 +1,19 @@
 domain: diet
 name: Vitamin E
-summary: "Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found\n\
-  high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality."
+summary: |-
+  Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found
+  high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: avoid high-dose supplementation. Fat-soluble antioxidant.
-    CAUTION: Meta-analysis of 19 RCTs (n=136K) found\nhigh-dose (≥400 IU/day) supplementation
-    may INCREASE all-cause mortality.\nHOPE trial: no CVD prevention, may increase
-    heart failure. Large RCTs show\nno benefit for cancer or CVD. Dietary sources
-    (nuts, seeds, oils) sufficient\nfor most. Supplementation not recommended. Evidence
-    quality high for harm."
+  description: |-
+    Recommended: avoid high-dose supplementation. Fat-soluble antioxidant. CAUTION: Meta-analysis of 19 RCTs (n=136K) found
+    high-dose (≥400 IU/day) supplementation may INCREASE all-cause mortality.
+    HOPE trial: no CVD prevention, may increase heart failure. Large RCTs show
+    no benefit for cancer or CVD. Dietary sources (nuts, seeds, oils) sufficient
+    for most. Supplementation not recommended. Evidence quality high for harm.
 effects:
 - outcome: Relative mortality risk
   mean: 1.02
@@ -20,9 +21,9 @@ effects:
   evidence: |
     Meta-analysis of 19 RCTs (n=135,967): high-dose (≥400 IU/day) associated
     with increased all-cause mortality in dose-dependent manner.
-    (https://www.acpjournals.org/doi/10.7326/0003-4819-142-1-200501040-00110).
+    ([@miller2005_high]).
     HOPE trial: no CVD benefit, may increase heart failure risk.
-    (https://www.nejm.org/doi/full/10.1056/NEJM200001203420302). Do not
+    ([@unknown2000_vitamin]). Do not
     supplement with high doses.
 - outcome: Years of delayed aging
   mean: 0.0

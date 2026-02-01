@@ -7,12 +7,12 @@ specification:
   weekly_freq: 7
   annual_cost_h: 200
   annual_cost_usd: 0
-  description: "Recommended: ikigai, meaningful work/activities. Having a sense of
-    purpose, meaning, or reason for living (ikigai in Japanese).\nProspective studies:
-    strong purpose associated with 20% lower mortality.\nJapanese cohort (n=43,000):
-    lacking ikigai associated with higher CVD\nmortality. Mechanisms may include better
-    health behaviors, stress resilience,\nand social engagement. Evidence quality
-    moderate; associative."
+  description: |-
+    Recommended: ikigai, meaningful work/activities. Having a sense of purpose, meaning, or reason for living (ikigai in Japanese).
+    Prospective studies: strong purpose associated with 20% lower mortality.
+    Japanese cohort (n=43,000): lacking ikigai associated with higher CVD
+    mortality. Mechanisms may include better health behaviors, stress resilience,
+    and social engagement. Evidence quality moderate; associative.
 effects:
 - outcome: Relative mortality risk
   mean: 0.83
@@ -20,9 +20,9 @@ effects:
   evidence: |
     Meta-analysis of 10 prospective studies (n=136,265): high purpose in
     life HR 0.83 (95% CI: 0.75-0.91) for all-cause mortality.
-    (https://pubmed.ncbi.nlm.nih.gov/26630073/). Japanese cohort
+    ([@r2016_purpose]). Japanese cohort
     (n=43,391): lacking ikigai associated with higher CVD and external
-    cause mortality. (https://pubmed.ncbi.nlm.nih.gov/18596247/).
+    cause mortality. ([@t2008_sense]).
     Consistent associative evidence.
 - outcome: Years of delayed aging
   mean: 0.8

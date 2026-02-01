@@ -1,28 +1,29 @@
 domain: social
 name: Strong Social Connections
-summary: "Quality social relationships and community ties. Meta-analysis of 148 studies\n\
-  (n=308,849): strong relationships associated with 50% reduced mortality risk,\n\
-  comparable to smoking cessation."
+summary: |-
+  Quality social relationships and community ties. Meta-analysis of 148 studies
+  (n=308,849): strong relationships associated with 50% reduced mortality risk,
+  comparable to smoking cessation.
 specification:
   duration_h: 2.0
   weekly_freq: 3
   annual_cost_h: 350
   annual_cost_usd: 500
-  description: "Recommended: regular meaningful relationships. Quality social relationships
-    and community ties. Meta-analysis of 148 studies\n(n=308,849): strong relationships
-    associated with 50% reduced mortality risk,\ncomparable to smoking cessation.
-    Loneliness as harmful as smoking 15 cig/day.\nMechanisms include stress buffering,
-    health behaviors, inflammation. Evidence\nquality high from large meta-analyses;
-    associative but highly consistent."
+  description: |-
+    Recommended: regular meaningful relationships. Quality social relationships and community ties. Meta-analysis of 148 studies
+    (n=308,849): strong relationships associated with 50% reduced mortality risk,
+    comparable to smoking cessation. Loneliness as harmful as smoking 15 cig/day.
+    Mechanisms include stress buffering, health behaviors, inflammation. Evidence
+    quality high from large meta-analyses; associative but highly consistent.
 effects:
 - outcome: Relative mortality risk
-  mean: 0.70
+  mean: 0.7
   std: 0.08
   evidence: |
     Meta-analysis of 148 studies (n=308,849): OR 1.50 for survival with
-    strong vs weak relationships. (https://pubmed.ncbi.nlm.nih.gov/20668659/).
+    strong vs weak relationships. ([@j2010_social]).
     Loneliness meta-analysis (n=3.4M): HR 1.26 for all-cause mortality.
-    (https://pubmed.ncbi.nlm.nih.gov/25910392/). Effect size comparable
+    ([@j2015_loneliness]). Effect size comparable
     to smoking cessation. Highly consistent associative evidence.
 - outcome: Years of delayed aging
   mean: 1.5

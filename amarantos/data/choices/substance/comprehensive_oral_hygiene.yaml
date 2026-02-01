@@ -1,27 +1,28 @@
 domain: substance
 name: Comprehensive Oral Hygiene
-summary: "Periodontal disease linked to systemic inflammation and CVD. Meta-analyses:\n\
-  periodontal disease associated with 20-40% higher CVD risk."
+summary: |-
+  Periodontal disease linked to systemic inflammation and CVD. Meta-analyses:
+  periodontal disease associated with 20-40% higher CVD risk.
 specification:
   duration_h: 0.1
   weekly_freq: 14
   annual_cost_h: 80
   annual_cost_usd: 150
-  description: "Recommended: brushing 2x/day, flossing. Periodontal disease linked
-    to systemic inflammation and CVD. Meta-analyses:\nperiodontal disease associated
-    with 20-40% higher CVD risk. Regular brushing\n(2x/day) associated with lower
-    CVD events. Oral bacteria can enter bloodstream.\nFlossing evidence weaker but
-    supports gum health. Simple, low-cost intervention.\nEvidence quality moderate;
-    associative."
+  description: |-
+    Recommended: brushing 2x/day, flossing. Periodontal disease linked to systemic inflammation and CVD. Meta-analyses:
+    periodontal disease associated with 20-40% higher CVD risk. Regular brushing
+    (2x/day) associated with lower CVD events. Oral bacteria can enter bloodstream.
+    Flossing evidence weaker but supports gum health. Simple, low-cost intervention.
+    Evidence quality moderate; associative.
 effects:
 - outcome: Relative mortality risk
   mean: 0.92
   std: 0.06
   evidence: |
     Korean cohort (n=247,696): brushing 3x/day associated with 10% lower
-    CVD events. (https://pubmed.ncbi.nlm.nih.gov/30561631/). Meta-analysis:
+    CVD events. ([@sy2019_improved]). Meta-analysis:
     periodontal disease HR 1.20-1.40 for CVD.
-    (https://pubmed.ncbi.nlm.nih.gov/38877442/). Tooth loss associated with
+    ([@zeng2024_periodontal]). Tooth loss associated with
     higher mortality. Good oral hygiene may reduce systemic inflammation.
     Associative; confounding with SES and health behaviors.
 - outcome: Years of delayed aging

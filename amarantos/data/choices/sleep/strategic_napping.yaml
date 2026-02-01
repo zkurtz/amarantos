@@ -1,25 +1,26 @@
 domain: sleep
 name: Strategic Napping
-summary: "Napping shows complex dose-response. Meta-analysis: naps >60min associated\n\
-  with 30% higher mortality, likely marker of poor nocturnal sleep or illness."
+summary: |-
+  Napping shows complex dose-response. Meta-analysis: naps >60min associated
+  with 30% higher mortality, likely marker of poor nocturnal sleep or illness.
 specification:
   duration_h: 0.4
   weekly_freq: 5
   annual_cost_h: 100
   annual_cost_usd: 0
-  description: "Recommended: <30min, early afternoon. Napping shows complex dose-response.
-    Meta-analysis: naps >60min associated\nwith 30% higher mortality, likely marker
-    of poor nocturnal sleep or illness.\nShort naps (<30min) may be neutral or slightly
-    beneficial. Afternoon timing\naligns with circadian dip. Benefits may depend on
-    context (siesta cultures,\nsleep debt). Evidence quality low-moderate; confounding
-    concerns."
+  description: |-
+    Recommended: <30min, early afternoon. Napping shows complex dose-response. Meta-analysis: naps >60min associated
+    with 30% higher mortality, likely marker of poor nocturnal sleep or illness.
+    Short naps (<30min) may be neutral or slightly beneficial. Afternoon timing
+    aligns with circadian dip. Benefits may depend on context (siesta cultures,
+    sleep debt). Evidence quality low-moderate; confounding concerns.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
   std: 0.08
   evidence: |
     Meta-analysis (n=313,651): napping >60min HR 1.30 (95% CI: 1.10-1.54)
-    for all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/32741032/).
+    for all-cause mortality. ([@d2020_lipoxin]).
     Short naps (<30min) showed no significant mortality association.
     Long naps may indicate underlying health issues or poor nocturnal
     sleep. Associative evidence with significant confounding concerns.

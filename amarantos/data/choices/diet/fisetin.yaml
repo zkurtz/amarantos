@@ -1,17 +1,19 @@
 domain: diet
 name: Fisetin
-summary: "Flavonoid senolytic found in strawberries. Extended lifespan 10% in mice
-  by\nclearing senescent cells."
+summary: |-
+  Flavonoid senolytic found in strawberries. Extended lifespan 10% in mice by
+  clearing senescent cells.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: intermittent dosing, dose TBD. Flavonoid senolytic found
-    in strawberries. Extended lifespan 10% in mice by\nclearing senescent cells. Human
-    trials (AFFIRM-LITE) ongoing. 2025 mouse study\nshowed improved grip strength
-    and reduced frailty. Low bioavailability limits\ntranslation. No human mortality
-    data. Evidence quality very low; highly\nspeculative but mechanistically promising."
+  description: |-
+    Recommended: intermittent dosing, dose TBD. Flavonoid senolytic found in strawberries. Extended lifespan 10% in mice by
+    clearing senescent cells. Human trials (AFFIRM-LITE) ongoing. 2025 mouse study
+    showed improved grip strength and reduced frailty. Low bioavailability limits
+    translation. No human mortality data. Evidence quality very low; highly
+    speculative but mechanistically promising.
 effects:
 - outcome: Relative mortality risk
   mean: 0.95
@@ -19,9 +21,9 @@ effects:
   evidence: |
     No human mortality data. Mouse studies: fisetin extended median and
     maximum lifespan, improved tissue homeostasis.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC6197652/). 2025 study: reduced
+    ([@mj2018_fisetin]). 2025 study: reduced
     frailty markers and improved physical function in old mice.
-    (https://onlinelibrary.wiley.com/doi/10.1111/acel.70114). Human trials
+    ([@murray2025_intermittent]). Human trials
     ongoing. Highly speculative estimate based on animal data.
 - outcome: Years of delayed aging
   mean: 1.0
@@ -29,7 +31,7 @@ effects:
   evidence: |
     Most potent senolytic among 10 flavonoids tested. Clears senescent cells
     and reduces SASP markers. DQ+Fisetin trials examining epigenetic clocks.
-    (https://www.aging-us.com/article/205581/text). Strong mechanistic
+    ([@lee2024_exploring]). Strong mechanistic
     rationale but limited human data. Speculative.
 - outcome: Subjective wellbeing - number of just-noticeable differences
   mean: 0.0

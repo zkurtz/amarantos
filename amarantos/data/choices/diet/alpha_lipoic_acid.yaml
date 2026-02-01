@@ -1,16 +1,17 @@
 domain: diet
 name: Alpha Lipoic Acid
-summary: Antioxidant with modest benefits for glycemic control and diabetic
-  neuropathy. No mortality data from large trials.
+summary: Antioxidant with modest benefits for glycemic control and diabetic neuropathy.
+  No mortality data from large trials.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 300-600mg/day. Antioxidant with modest benefits for glycemic
-    control and diabetic neuropathy.\nNo mortality data from large trials. Small weight
-    loss effect (~1.3kg). May\nreduce inflammatory markers. Generally well-tolerated.
-    Evidence quality is low\nto moderate."
+  description: |-
+    Recommended: 300-600mg/day. Antioxidant with modest benefits for glycemic control and diabetic neuropathy.
+    No mortality data from large trials. Small weight loss effect (~1.3kg). May
+    reduce inflammatory markers. Generally well-tolerated. Evidence quality is low
+    to moderate.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
@@ -18,8 +19,7 @@ effects:
   evidence: |
     No large-scale mortality trials. One small COVID-19 RCT (n=17) showed
     non-significant trend toward lower 30-day mortality (37.5% vs 77.8%, p=0.09).
-    Cannot draw conclusions from this. Zhong 2021
-    (https://www.frontiersin.org/articles/10.3389/fmed.2021.566609/full).
+    Cannot draw conclusions from this. Zhong 2021 [@zhong2022_randomized].
     Centered at null with large uncertainty.
 - outcome: Years of delayed aging
   mean: 0.0
@@ -34,6 +34,5 @@ effects:
   std: 0.2
   evidence: |
     Improves diabetic neuropathy symptoms (pain, burning). Meta-analysis of
-    9 RCTs shows benefit for neuropathy. Soliman 2024
-    (https://www.explorationpub.com/Journals/ent/Article/1004125). Indirect
+    9 RCTs shows benefit for neuropathy. Soliman 2024 [@althoff2024_cognitive]. Indirect
     wellbeing benefit through symptom relief in diabetics only.

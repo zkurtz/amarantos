@@ -1,17 +1,19 @@
 domain: diet
 name: Olive Oil, Extra Virgin
-summary: "Cornerstone of Mediterranean diet. Meta-analysis of 13 cohorts: 15% lower
-  CVD\nrisk, 17% lower all-cause mortality for highest intake."
+summary: |-
+  Cornerstone of Mediterranean diet. Meta-analysis of 13 cohorts: 15% lower CVD
+  risk, 17% lower all-cause mortality for highest intake.
 specification:
   duration_h: 0.02
   weekly_freq: 7
   annual_cost_h: 10
   annual_cost_usd: 200
-  description: "Recommended: >7g/day. Cornerstone of Mediterranean diet. Meta-analysis
-    of 13 cohorts: 15% lower CVD\nrisk, 17% lower all-cause mortality for highest
-    intake. PREDIMED RCT: 31%\nlower CVD, 48% lower CVD mortality with EVOO. Each
-    10g/day reduces CVD risk\nby 10%. Benefits plateau around 20g/day. Rich in polyphenols
-    and oleic acid.\nEvidence quality high."
+  description: |-
+    Recommended: >7g/day. Cornerstone of Mediterranean diet. Meta-analysis of 13 cohorts: 15% lower CVD
+    risk, 17% lower all-cause mortality for highest intake. PREDIMED RCT: 31%
+    lower CVD, 48% lower CVD mortality with EVOO. Each 10g/day reduces CVD risk
+    by 10%. Benefits plateau around 20g/day. Rich in polyphenols and oleic acid.
+    Evidence quality high.
 effects:
 - outcome: Relative mortality risk
   mean: 0.85
@@ -19,9 +21,9 @@ effects:
   evidence: |
     2022 meta-analysis of 13 cohorts: RR 0.85 for CVD, RR 0.83 for all-cause
     mortality with higher consumption.
-    (https://pmc.ncbi.nlm.nih.gov/articles/PMC9623257/). PREDIMED: HR 0.52
+    ([@m2022_olive]). PREDIMED: HR 0.52
     for CVD mortality with highest tertile consumption.
-    (https://bmcmedicine.biomedcentral.com/articles/10.1186/1741-7015-12-78).
+    ([@guasch-ferr2014_olive]).
     Causal (RCT) and associative evidence.
 - outcome: Years of delayed aging
   mean: 0.8

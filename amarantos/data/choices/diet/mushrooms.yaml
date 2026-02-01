@@ -1,17 +1,19 @@
 domain: diet
 name: Mushrooms
-summary: "Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis
-  of\ncohorts (n=602K): 6% lower all-cause mortality with consumption."
+summary: |-
+  Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis of
+  cohorts (n=602K): 6% lower all-cause mortality with consumption.
 specification:
   duration_h: 0.5
   weekly_freq: 3
   annual_cost_h: 100
   annual_cost_usd: 100
-  description: "Recommended: 18g+/day. Contain ergothioneine (unique antioxidant)
-    and beta-glucans. Meta-analysis of\ncohorts (n=602K): 6% lower all-cause mortality
-    with consumption. 34% lower\ncancer risk in meta-analysis of 17 studies. Benefits
-    for breast cancer most\nconsistent. Ergothioneine associated with 14% lower CVD
-    mortality. Evidence\nquality moderate for mortality; cancer evidence has limitations."
+  description: |-
+    Recommended: 18g+/day. Contain ergothioneine (unique antioxidant) and beta-glucans. Meta-analysis of
+    cohorts (n=602K): 6% lower all-cause mortality with consumption. 34% lower
+    cancer risk in meta-analysis of 17 studies. Benefits for breast cancer most
+    consistent. Ergothioneine associated with 14% lower CVD mortality. Evidence
+    quality moderate for mortality; cancer evidence has limitations.
 effects:
 - outcome: Relative mortality risk
   mean: 0.92
@@ -19,7 +21,7 @@ effects:
   evidence: |
     Meta-analysis of prospective cohorts (n=601,893): mushroom consumption
     associated with RR 0.94 (95% CI: 0.91-0.98) for all-cause mortality.
-    (https://nutritionj.biomedcentral.com/articles/10.1186/s12937-021-00738-w).
+    ([@ba2021_prospective]).
     NHANES: HR 0.84 (95% CI: 0.74-0.95) for mushroom consumers.
     Ergothioneine metabolite associated with HR 0.86 for mortality.
     Associative evidence.

@@ -1,17 +1,19 @@
 domain: pharmaceutical
 name: Hormone Replacement Therapy
-summary: "Estrogen/progesterone for menopause or testosterone for low-T. WHI trial\n\
-  complicated: timing matters (younger initiation safer)."
+summary: |-
+  Estrogen/progesterone for menopause or testosterone for low-T. WHI trial
+  complicated: timing matters (younger initiation safer).
 specification:
   duration_h: 0.01
   weekly_freq: 7
   annual_cost_h: 10
   annual_cost_usd: 1200
-  description: "Recommended: menopause/andropause. Estrogen/progesterone for menopause
-    or testosterone for low-T. WHI trial\ncomplicated: timing matters (younger initiation
-    safer). May improve quality\nof life and bone health. Testosterone may improve
-    body composition and\nvitality. CAUTION: cancer, CVD risks depend on timing, formulation,
-    and\nindividual factors. Evidence quality moderate-high but complex."
+  description: |-
+    Recommended: menopause/andropause. Estrogen/progesterone for menopause or testosterone for low-T. WHI trial
+    complicated: timing matters (younger initiation safer). May improve quality
+    of life and bone health. Testosterone may improve body composition and
+    vitality. CAUTION: cancer, CVD risks depend on timing, formulation, and
+    individual factors. Evidence quality moderate-high but complex.
 effects:
 - outcome: Relative mortality risk
   mean: 0.92
@@ -19,7 +21,7 @@ effects:
   evidence: |
     WHI reanalysis: HRT initiated <10 years post-menopause HR 0.70 for
     mortality; >20 years post-menopause HR 1.17.
-    (https://pubmed.ncbi.nlm.nih.gov/17341714/). KEEPS and ELITE trials
+    ([@wc2007_screening]). KEEPS and ELITE trials
     support timing hypothesis. Testosterone: TRAVERSE trial showed CVD
     safety but no mortality data. Complex; individual risk assessment needed.
 - outcome: Years of delayed aging
@@ -36,5 +38,5 @@ effects:
   evidence: |
     HRT dramatically improves menopausal symptoms (hot flashes, sleep,
     mood). Testosterone improves energy, libido, mood in low-T men.
-    (https://pubmed.ncbi.nlm.nih.gov/26914628/). Significant QoL
+    ([@a2016_validation]). Significant QoL
     improvement for symptomatic individuals. Moderate-large positive effect.

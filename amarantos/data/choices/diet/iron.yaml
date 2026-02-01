@@ -1,17 +1,19 @@
 domain: diet
 name: Iron
-summary: "Essential mineral; both deficiency and excess harmful. In heart failure
-  with\niron deficiency, IV iron reduces hospitalizations but not mortality."
+summary: |-
+  Essential mineral; both deficiency and excess harmful. In heart failure with
+  iron deficiency, IV iron reduces hospitalizations but not mortality.
 specification:
   duration_h: 0.001
   weekly_freq: 7
   annual_cost_h: 5
   annual_cost_usd: 30
-  description: "Recommended: adequate, not excess. Essential mineral; both deficiency
-    and excess harmful. In heart failure with\niron deficiency, IV iron reduces hospitalizations
-    but not mortality. Excess\niron (ferritin >300) associated with increased CVD
-    and cancer risk via\noxidative stress. Heme iron intake associated with 7% increased
-    CVD risk per\n1mg/day. Optimal: maintain adequate without excess."
+  description: |-
+    Recommended: adequate, not excess. Essential mineral; both deficiency and excess harmful. In heart failure with
+    iron deficiency, IV iron reduces hospitalizations but not mortality. Excess
+    iron (ferritin >300) associated with increased CVD and cancer risk via
+    oxidative stress. Heme iron intake associated with 7% increased CVD risk per
+    1mg/day. Optimal: maintain adequate without excess.
 effects:
 - outcome: Relative mortality risk
   mean: 1.0
@@ -19,9 +21,9 @@ effects:
   evidence: |
     2025 Nature Medicine meta-analysis of 6 RCTs (n=7,175) in HF: IV iron
     reduced HF hospitalizations (RR 0.72) but not mortality (RR 0.90 NS).
-    (https://www.nature.com/articles/s41591-025-03671-1). Heme iron dose-
+    ([@anker2025_intravenous]). Heme iron dose-
     response meta-analysis: RR 1.07 per 1mg/day for CVD.
-    (https://pubmed.ncbi.nlm.nih.gov/25439662/). Excess iron increases
+    ([@x2015_dietary]). Excess iron increases
     cancer risk. Centered at null; both deficiency and excess harmful.
 - outcome: Years of delayed aging
   mean: 0.0

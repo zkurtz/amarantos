@@ -1,26 +1,28 @@
 domain: pharmaceutical
 name: Statins
-summary: "HMG-CoA reductase inhibitors for cholesterol reduction. Strong evidence
-  for\nsecondary prevention."
+summary: |-
+  HMG-CoA reductase inhibitors for cholesterol reduction. Strong evidence for
+  secondary prevention.
 specification:
   duration_h: 0.001
   weekly_freq: 7
   annual_cost_h: 5
   annual_cost_usd: 200
-  description: "Recommended: primary prevention in elevated risk. HMG-CoA reductase
-    inhibitors for cholesterol reduction. Strong evidence for\nsecondary prevention.
-    Primary prevention: meta-analyses show 14% all-cause\nmortality reduction in elevated
-    CVD risk. Benefits depend on baseline risk.\nSide effects: myalgias (mostly nocebo),
-    rare rhabdomyolysis. Evidence quality\nhigh; among best-studied medications."
+  description: |-
+    Recommended: primary prevention in elevated risk. HMG-CoA reductase inhibitors for cholesterol reduction. Strong evidence for
+    secondary prevention. Primary prevention: meta-analyses show 14% all-cause
+    mortality reduction in elevated CVD risk. Benefits depend on baseline risk.
+    Side effects: myalgias (mostly nocebo), rare rhabdomyolysis. Evidence quality
+    high; among best-studied medications.
 effects:
 - outcome: Relative mortality risk
   mean: 0.88
   std: 0.05
   evidence: |
     CTT meta-analysis (26 trials, n=170,000): per 1 mmol/L LDL reduction,
-    10% lower all-cause mortality. (https://pubmed.ncbi.nlm.nih.gov/22607822/).
+    10% lower all-cause mortality. ([@collaborators2012_lowering]).
     Primary prevention meta-analysis: HR 0.86 for all-cause mortality in
-    elevated risk individuals. (https://pubmed.ncbi.nlm.nih.gov/22368587/).
+    elevated risk individuals. ([@g2000_spontaneous]).
     Benefits proportional to baseline CVD risk. High-quality causal evidence.
 - outcome: Years of delayed aging
   mean: 0.4

@@ -6,26 +6,23 @@ Amarantos is a solid **information system** - clean data model, good test covera
 
 Key gaps between vision and reality:
 - "Evolves with user" → User schema exists but is never used
-- "Evidence-first" → Bibliography disconnected from ranking; evidence quality not surfaced
 - "Adapting to circumstances" → Same output for everyone regardless of age, constraints, goals
+
+## Completed Work
+
+- [x] Priority 1 (Evidence Integration): refs linked to choices via `[@ref_id]` citations
+- [x] `--show-sources` flag on describe command
+- [x] HardClaim → Claim refactor with effects list (#32)
+- [x] 207 references with structured hard_claims
+- [x] `amos` CLI alias (#35)
+- [x] Test coverage for evidence linkage (85%+ citation coverage)
+- [x] `ref_ids` computed property on Effect extracts citations from evidence text
 
 ## Recommended Priorities
 
-### Priority 1: Evidence Integration
+### Priority 1: Personalization Foundation
 
-**Why first**: This is foundational. Without trustworthy evidence linkage, personalization and filtering are built on sand.
-
-**Concrete steps**:
-1. Add `ref_ids: list[str]` field to `Effect` class linking to Reference IDs
-2. Create validation script ensuring every choice effect cites ≥1 reference
-3. Add `--show-sources` flag to `describe` command
-4. Surface evidence type distribution in rank output (e.g., "3 RCTs, 2 cohorts")
-
-**Success metric**: Every effect traceable to specific references; users can see evidence quality.
-
-### Priority 2: Personalization Foundation
-
-**Why second**: The User schema already exists. Small effort to activate it.
+**Why first**: The User schema already exists. Small effort to activate it.
 
 **Concrete steps**:
 1. Add `amarantos profile` command to create/edit `~/.amarantos/profile.yaml`
@@ -35,9 +32,9 @@ Key gaps between vision and reality:
 
 **Success metric**: Two people with different ages see different rankings.
 
-### Priority 3: Constraint Filtering
+### Priority 2: Constraint Filtering
 
-**Why third**: High practical value, relatively easy to implement.
+**Why second**: High practical value, relatively easy to implement.
 
 **Concrete steps**:
 1. Add `--max-cost` and `--max-hours` flags to rank command
@@ -46,9 +43,9 @@ Key gaps between vision and reality:
 
 **Success metric**: Users can get recommendations that fit their actual lifestyle constraints.
 
-### Priority 4: Data Model Hardening
+### Priority 3: Data Model Hardening
 
-**Why fourth**: Important but less urgent. Current data mostly works.
+**Why third**: Important but less urgent. Current data mostly works.
 
 **Concrete steps**:
 1. Add validators: `std >= 0`, `mean > 0` for mortality ratios, reasonable bounds
@@ -57,6 +54,17 @@ Key gaps between vision and reality:
 4. Add structured `Interaction` schema for contraindications
 
 **Success metric**: Invalid data fails loudly at load time.
+
+### Priority 4: Ref Aggregation
+
+**Why fourth**: The 207-reference bibliography contains structured `hard_claims` that are currently unused. These could be aggregated to compute or validate choice effects.
+
+**Concrete steps**:
+1. Add `amarantos refs` command to list references with claim counts
+2. Create mapping from ref claims to choice effects for validation
+3. Consider making refs the source of truth, with choice effects computed from claims
+
+**Success metric**: Every choice effect can be traced back to specific ref claims.
 
 ### Deferred: CLI Polish
 
@@ -73,7 +81,7 @@ Lower priority. Do incrementally as other work proceeds:
 
 ## Quick Wins (< 1 hour each)
 
-1. Add `amarantos stats` command showing domain counts, coverage metrics
+1. ~~Add `amarantos stats` command showing domain counts, coverage metrics~~ ✓ Done
 2. Add `amarantos domains` listing all domains with choice counts
 3. Add `--json` flag for machine-readable output
 4. Add bounds validation to Effect fields

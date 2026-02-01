@@ -6,7 +6,12 @@ import click
 from click import echo, secho, style
 
 from amarantos.core.bib import Reference, render_citations
-from amarantos.core.loaders import find_choice_by_name, load_all_choices, load_reference_index
+from amarantos.core.loaders import (
+    find_choice_by_name,
+    load_all_choices,
+    load_all_references,
+    load_reference_index,
+)
 from amarantos.core.schemas import Choice, Effect, Outcome
 
 # 30th percentile z-score for normal distribution
@@ -213,6 +218,46 @@ def describe(name: str, show_sources: bool) -> None:
                 else:
                     echo(style(f"        [{ref_id}] (reference not found)", fg="red"))
 
+    echo()
+
+
+@main.command()
+def stats() -> None:
+    """Show dataset statistics and coverage metrics."""
+    choices = load_all_choices()
+    refs = load_all_references()
+
+    # Count choices by domain
+    domain_counts: dict[str, int] = {}
+    for choice in choices:
+        domain_counts[choice.domain] = domain_counts.get(choice.domain, 0) + 1
+
+    # Calculate citation coverage
+    total_effects = 0
+    effects_with_refs = 0
+    for choice in choices:
+        for effect in choice.effects:
+            total_effects += 1
+            if effect.ref_ids:
+                effects_with_refs += 1
+
+    coverage_pct = (effects_with_refs / total_effects * 100) if total_effects > 0 else 0
+
+    # Display output
+    echo()
+    secho("  Dataset Statistics", fg="bright_white", bold=True)
+    echo()
+    echo(f"    Total choices:    {len(choices)}")
+    echo(f"    Total references: {len(refs)}")
+    echo()
+
+    secho("  Choices by Domain", fg="yellow", bold=True)
+    for domain in sorted(domain_counts.keys()):
+        echo(f"    {domain:<20} {domain_counts[domain]:>3}")
+    echo()
+
+    secho("  Citation Coverage", fg="yellow", bold=True)
+    echo(f"    Effects with citations: {effects_with_refs}/{total_effects} ({coverage_pct:.1f}%)")
     echo()
 
 

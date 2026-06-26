@@ -1,0 +1,66 @@
+domain: diet
+name: Avoid Ultra-Processed Foods
+summary: |-
+  Reducing ultra-processed food (UPF) consumption is associated with substantially
+  lower all-cause and cardiovascular mortality. A 2024 umbrella review of 45
+  meta-analyses found 21% higher all-cause mortality and 50% higher CVD mortality
+  in the highest vs. lowest UPF consumers. The NOVA classification defines UPF as
+  industrial formulations using ingredients rarely found in home kitchens
+  (e.g., hydrogenated oils, high-fructose corn syrup, isolated protein, additives).
+specification:
+  duration_h: 0.25
+  weekly_freq: 7
+  annual_cost_h: 91
+  annual_cost_usd: 500
+  description: |-
+    Recommended: keep UPF to <10% of daily caloric intake (vs. ~57% in average
+    US adult). This threshold approximates the lowest quintile of UPF consumers
+    in cohort studies showing the strongest mortality benefit; it is a practical
+    guideline, not a precise clinical cut-off. Ultra-processed foods are defined
+    by the NOVA classification (Group 4): industrial formulations containing
+    additives not normally used in home cooking—such as emulsifiers, artificial
+    flavors, flavor enhancers, modified starches, and preservatives—that are
+    indicative of extensive industrial processing. Practical avoidance strategies
+    include cooking from whole ingredients, choosing minimally processed snacks
+    (nuts, fruit), and reading ingredient labels for additives. Higher cost and
+    preparation time reflect home cooking vs. convenience foods; actual net cost
+    varies by existing diet. Some individuals experience savings by avoiding
+    costly packaged foods.
+effects:
+- outcome: Relative mortality risk
+  evidence: |
+    Umbrella review of 45 unique meta-analyses ([@lane2024_ultra]):
+    highest vs. lowest UPF consumption: RR ~1.21 for all-cause mortality,
+    RR ~1.50 for CVD mortality. Dose-response evident. Prospective cohort
+    study n=44,551 (NutriNet-Santé): each 10% increase in UPF → HR 1.14
+    for all-cause mortality ([@schnabel2019_association]).
+    Prospective cohort n=105,159: each 10% UPF increase → HR 1.12 for CVD
+    ([@srour2019_ultra]). Associations robust after adjusting for nutritional
+    quality markers, suggesting effects beyond individual nutrients. Causal
+    mechanisms hypothesized include additives, food structure disruption,
+    contamination from packaging, and displacement of beneficial whole foods.
+    Observational; healthy user bias possible but associations are large and
+    consistent.
+  mean: 0.88
+  std: 0.04
+- outcome: Years of delayed aging
+  evidence: |
+    No direct epigenetic clock RCTs for UPF reduction specifically. Indirect
+    extrapolation from mortality reduction: ~12% lower all-cause mortality
+    from significantly reducing UPF corresponds to roughly 1-2 years under
+    Gompertz assumptions. UPF consumption is associated with accelerated
+    biological aging via inflammation, oxidative stress, and gut dysbiosis.
+    Estimate is speculative with high uncertainty.
+  mean: 1.2
+  std: 1.0
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Umbrella review ([@lane2024_ultra]) found 48-53% higher risk of anxiety
+    and depression with high UPF consumption. Associative; reverse causation
+    possible (poor mental health may increase UPF reliance). Gut-brain axis
+    effects plausible via microbiome disruption. Elimination of highly
+    palatable, hyperpalatable UPF may cause short-term cravings but
+    long-term mood improvement is reported anecdotally and in some trials.
+    Net estimate is positive but uncertain.
+  mean: 0.4
+  std: 0.4

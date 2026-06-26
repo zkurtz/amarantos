@@ -1,0 +1,53 @@
+id: srour2019_ultra
+title: 'Ultra-processed food intake and risk of cardiovascular disease: prospective
+  cohort study'
+authors:
+- Srour B
+- Fezeu LK
+- Kesse-Guyot E
+- Allès B
+- Méjean C
+- Andrianasolo RM
+- Chazelas E
+- Deschasaux M
+- Hercberg S
+- Galan P
+- et al.
+year: 2019
+reference_type: Journal article
+keywords:
+- cardiovascular
+- cohort
+- disease
+- food
+- intake
+- prospective
+- risk
+- ultra-processed
+hard_claims:
+- summary: Each 10% increase in UPF consumption associated with 12% higher cardiovascular
+    disease risk
+  choice: upf_avoidance
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: cardiovascular disease risk
+    mean: 1.12
+    std: 0.030612244897959185
+  population: French adults (NutriNet-Santé cohort)
+  sample_size: 105159
+  notes: Association robust after adjusting for nutritional quality (saturated fat,
+    sodium, sugar, fiber content)
+soft_claims: []
+journal: BMJ
+volume: '365'
+issue: ''
+pages: l1451
+doi: 10.1136/bmj.l1451
+pmid: '31142457'
+url: https://pubmed.ncbi.nlm.nih.gov/31142457/
+summary: Prospective cohort study of 105,159 participants (NutriNet-Santé) examining
+  ultra-processed food intake and cardiovascular disease risk. Each 10 percentage-point
+  increase in UPF consumption was associated with significantly higher risks of overall
+  CVD (HR 1.12), coronary heart disease (HR 1.13), and cerebrovascular disease (HR
+  1.11). Association remained after adjusting for nutritional quality, suggesting effects
+  beyond simple nutrient composition.

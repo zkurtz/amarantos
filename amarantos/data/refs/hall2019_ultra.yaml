@@ -1,0 +1,67 @@
+id: hall2019_ultra
+title: 'Ultra-Processed Diets Cause Excess Calorie Intake and Weight Gain: An Inpatient
+  Randomized Controlled Trial of Ad Libitum Food Intake'
+authors:
+- Hall KD
+- Ayuketah A
+- Brychta R
+- Cai H
+- Cassimatis T
+- Chen KY
+- Chung ST
+- Costa E
+- Courville A
+- Darcey V
+- et al.
+year: 2019
+reference_type: Journal article
+keywords:
+- ad libitum
+- calorie intake
+- inpatient
+- metabolic ward
+- nova
+- randomized controlled trial
+- ultra-processed
+- weight gain
+hard_claims:
+- summary: Ad libitum ultra-processed diet caused ~500 kcal/day excess intake vs minimally
+    processed diet matched for energy density, macronutrients, sugar, sodium, and fiber
+  choice: upf_avoidance
+  evidence_type: Randomized controlled trial
+  effects:
+  - outcome: excess daily energy intake (kcal)
+    mean: 508.0
+    std: 110.0
+  population: weight-stable adults (BMI 27 ± 1.5)
+  sample_size: 20
+  followup_years: 0.077
+  notes: 4-week inpatient crossover (2 weeks per diet) at NIH Clinical Center; first
+    causal-design evidence that ultra-processing per se drives overconsumption beyond
+    nutrient composition
+- summary: Body weight increased ~0.9 kg on the ultra-processed arm and decreased ~0.9
+    kg on the unprocessed arm over 2 weeks
+  choice: upf_avoidance
+  evidence_type: Randomized controlled trial
+  effects:
+  - outcome: 2-week body weight change (kg)
+    mean: 0.9
+    std: 0.3
+  population: weight-stable adults (BMI 27 ± 1.5)
+  sample_size: 20
+  notes: Weight change tracked energy-intake difference; demonstrates causal link from
+    UPF to weight, not merely correlation
+soft_claims: []
+journal: Cell Metabolism
+volume: '30'
+issue: '1'
+pages: 67-77.e3
+doi: 10.1016/j.cmet.2019.05.008
+pmid: '31105044'
+url: https://pubmed.ncbi.nlm.nih.gov/31105044/
+summary: Landmark inpatient crossover RCT (n=20) at the NIH Clinical Center comparing
+  ad libitum intake on ultra-processed vs minimally processed diets matched for presented
+  calories, energy density, macronutrients, sugar, sodium, and fiber. Participants
+  consumed ~508 kcal/day more on the ultra-processed arm and gained ~0.9 kg over 2
+  weeks, vs losing ~0.9 kg on the unprocessed arm. First experimental evidence that
+  ultra-processing itself, independent of nutrient composition, increases energy intake.

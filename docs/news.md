@@ -1,67 +1,52 @@
 # Recent Advances in Longevity and Wellness Research
 
-This document highlights recent research developments relevant to the interventions tracked in Amarantos. It is updated with each release.
+This document summarizes research developments relevant to Amarantos that have appeared since the previous release. The current scope covers roughly **mid-2025 through mid-2026** — the window during which no choice-data updates landed in the repository. Future updates will narrow this window to the gap between releases.
 
-## 2024–2025
+Each item links to a reference yaml under `amarantos/data/refs/` so the underlying claim can be traced. Items without a matching ref file are flagged inline.
 
-### Ultra-Processed Food (UPF) — Major Evidence Consolidation
+## Ultra-Processed Food (UPF) — From Association to Cause
 
-The most important dietary finding since the last Amarantos release is the consolidation of evidence against ultra-processed food (UPF) consumption. A 2024 BMJ umbrella review synthesizing 45 meta-analyses (Lane et al. 2024) found that high UPF consumption is associated with:
+The most consequential dietary development since the previous release is the maturation of UPF evidence from observational signal to RCT-supported intervention. A new **`Avoid Ultra-Processed Foods`** choice has been added to the `diet` domain ([upf_avoidance.yaml](../amarantos/data/choices/diet/upf_avoidance.yaml)).
 
-- **21% higher all-cause mortality**
-- **50% higher cardiovascular disease mortality**
-- **48–53% higher risk of anxiety and depression**
-- **12% higher type 2 diabetes risk**
-- Elevated risks across cancer, obesity, kidney, and respiratory outcomes
+### New since the previous release
 
-This magnitude of association is comparable to the harms of smoking (for CVD) or the benefits of regular exercise. The associations persist after adjusting for nutritional quality markers (saturated fat, sodium, sugar, fiber), suggesting that UPF harms extend beyond simple nutrient content—implicating additives, food structure disruption, gut microbiome disruption, and packaging contaminants.
+- **Dicken et al. 2025, *Nature Medicine*** — 2x2 free-living crossover RCT (n=55) of ultra-processed vs minimally processed diets *both following UK Eatwell healthy-eating guidance*. The minimally processed arm produced ~2x greater weight loss over 8 weeks (-2.06% vs -1.05%, Δ -1.01 pp). This is the first RCT showing that UPF matters *within* a nutritionally adequate dietary pattern — i.e., the harm cannot be reduced to "UPF foods just have worse nutrient profiles." Has triggered active methodological correspondence in *Nature Medicine* ([@dicken2025_ultraprocessed]).
+- **Liang et al. 2025, *Systematic Reviews*** — Updated dose-response meta-analysis of 18 prospective cohorts (n=1,148,387; 173,107 deaths). HR 1.10 per 10% absolute UPF increment (95% CI 1.04-1.16); HR 1.15 highest vs lowest (95% CI 1.09-1.22). Tightens and replaces prior pooled dose-response estimates ([@liang2025_ultra]).
+- **Wang et al. 2025, *GeroScience*** — UK Biobank prospective cohort (n=172,225). HR 1.15 for highest vs lowest UPF; PhenoAge biological-age acceleration mediates ~14% of the UPF-mortality effect overall, ~28% for artificial sweeteners specifically. First large-cohort quantification of biological aging as a mechanistic mediator ([@wang2025_ultra]).
+- **Monteiro et al. 2025, *Lancet*** — Lead paper of the November 2025 Lancet three-paper UPF series. Synthesizes 100+ prospective studies and meta-analyses across organ systems and concludes UPF dietary patterns are a primary driver of the global rise in diet-related chronic disease. Companion papers address policy responses ([@monteiro2025_ultra]).
+- **Nilson et al. 2025, *Am J Prev Med*** — Population-attribution analysis across 8 countries (Australia, Brazil, Canada, Chile, Colombia, Mexico, UK, US). Estimates 4-14% of premature deaths attributable to UPF, with high-consumption nations (UK, US) at the top of the range ([@nilson2025_premature]).
 
-**Added**: A new choice entry for [Avoid Ultra-Processed Foods](../amarantos/data/choices/diet/upf_avoidance.yaml) has been added to the `diet` domain.
+### Foundational context (pre-existing but newly synthesized in choice data)
 
-#### Implications for Supplement and Dietary Choices
+- **Hall et al. 2019, *Cell Metabolism*** — Inpatient metabolic-ward crossover RCT (n=20) showing UPF causes ~500 kcal/day excess intake when diets are matched on energy density, macronutrients, sugar, sodium, and fiber. Establishes causal direction; the 2025 Dicken trial extends this to free-living, healthy-guidelines settings ([@hall2019_ultra]).
+- **Lane et al. 2024, *BMJ*** — Umbrella review of 45 meta-analyses covering 32 health outcomes. Highest vs lowest UPF: ~21% higher all-cause mortality, ~50% higher CVD mortality, 48-53% higher anxiety/depression ([@lane2024_ultra]).
 
-The UPF evidence affects the interpretation of several existing Amarantos entries:
+### Implications for other Amarantos entries
 
-- **Dietary Fiber**: Much of the mortality benefit of high fiber intake (HR 0.77 in meta-analyses) is achieved through whole-food sources that inherently displace UPF. Choosing whole-grain bread over refined packaged bread simultaneously increases fiber and reduces UPF. Supplemental fiber in capsule or powder form may not replicate these benefits fully.
+UPF reduction reframes how several existing interventions are best deployed. These are working hypotheses, not yet reflected as modified effect estimates in the relevant choice files:
 
-- **Omega-3 Fatty Acids**: RCT evidence for isolated omega-3 supplements is weaker than cohort evidence for fatty fish consumption. Fish consumption naturally displaces processed meat, a high-UPF food category strongly linked to mortality.
+- **Dietary Fiber** — Most of the cohort-evidence mortality benefit comes from whole-food sources (whole grains, legumes, nuts), which inherently displace UPF. Isolated fiber supplements may not capture the gut-microbiome and substitution effects.
+- **Omega-3 Fatty Acids** — Fatty fish consumption naturally displaces processed meat (a high-UPF subcategory); supplement-only RCT evidence is weaker than cohort evidence for whole-fish intake.
+- **Probiotics** — UPF additives (emulsifiers, non-caloric sweeteners) disrupt gut microbiota. Probiotic supplementation against a high-UPF background may be partially counteracted by ongoing dysbiosis-promoting intake.
+- **Antioxidants (Vitamin C, E, Curcumin, Resveratrol)** — Oxidative stress that these supplements target is partly generated by UPF constituents. Reducing the upstream insult is mechanistically prior to supplementing against it.
+- **Vitamin D and Calcium** — Many UPF products (fortified cereals, plant-milks) are common sources. Transitioning away from UPF may require deliberate substitution from whole-food sources or supplements.
 
-- **Probiotics**: UPF consumption disrupts the gut microbiome via emulsifiers, artificial sweeteners, and additives. Probiotic supplementation in the context of high UPF intake may be less effective than reducing UPF to allow natural microbiome recovery.
+**Bottom line for high-UPF consumers:** reducing UPF is likely a higher-leverage intervention than adding most individual supplements. The 2025 RCT evidence (Dicken) makes this recommendation more confident than a year ago.
 
-- **Antioxidants (Vitamin C, E, Curcumin, Resveratrol, etc.)**: Much of the oxidative stress that these supplements target is generated by UPF ingredients. Addressing root-cause UPF consumption may yield better results than supplementing to offset the harms.
+## Omega-3 Fatty Acids — Dose Clarification
 
-- **Vitamin D and Calcium**: Fortified UPF products are a common source of these nutrients. Transitioning away from UPF may require deliberate attention to calcium and vitamin D from whole food sources (dairy, leafy greens, sun exposure).
+**Mattumpuram et al. 2025, *Clinical and Translational Discovery*** — Meta-analysis of 42 RCTs (n=176,253) found CV mortality reduction of ~6% (RR 0.94) overall, with EPA monotherapy outperforming EPA+DHA combinations (RR 0.80 for EPA-only). Re-emphasizes that the commonly recommended 1 g/day dose may be sub-therapeutic for cardiovascular benefit and that EPA composition matters ([@mattumpuram2025_omega3]).
 
-**Summary**: For individuals already consuming high levels of UPF, reducing UPF is likely a higher-priority intervention than adding most individual supplements. Whole food dietary patterns provide a substrate in which other interventions are more effective.
+## Spermidine — Mechanism for Fasting Benefits
 
----
+**Hofer et al. 2024, *Nature Cell Biology*** — Multi-species mechanistic study showing spermidine levels rise during fasting in yeast, flies, mice, *and humans*, and that genetic or pharmacological blockade of spermidine synthesis abolishes the lifespan-extending and cardioprotective effects of fasting. Suggests spermidine is a key downstream mediator of fasting benefits via eIF5A hypusination and autophagy. Relevant to both the spermidine and fasting choice entries ([@hofer2024_spermidine]).
 
-### Omega-3 (EPA/DHA) — Clarified Dosing Evidence
+## Senolytics — Fisetin Intermittent Dosing
 
-A 2025 meta-analysis (Mattumpuram et al. 2025) of 71 RCTs confirmed cardiovascular benefits of omega-3 supplementation at doses ≥2g/day EPA+DHA, with dose-response relationships. Lower doses (the commonly recommended 1g/day) showed attenuated benefit. This refines the guidance: for cardiovascular protection, 2–4g/day EPA+DHA from supplements or fatty fish appears more effective than typical over-the-counter doses.
+**Murray et al. 2025, *Aging Cell*** — In aged mice (27 months), intermittent fisetin (100 mg/kg/day, 1 wk on - 2 wk off - 1 wk on) reduced frailty ~15% and preserved grip strength ~30% vs control, comparable to genetic clearance of p16+ senescent cells and to the synthetic senolytic ABT-263. Human translation remains to be demonstrated but reinforces the rationale for intermittent senolytic dosing ([@murray2025_intermittent]).
 
----
+## How to Read These Updates
 
-### Nicotinamide (NAD+ Precursors) — Updated Safety Profile
+Amarantos models effects as Gaussian distributions (mean ± std). New systematic reviews and meta-analyses are higher-weight evidence than individual studies and generally tighten `std`; RCTs that test causal direction (Hall 2019, Dicken 2025) shift `mean` more decisively than observational cohorts. Where this release's literature has materially changed an estimate, the corresponding choice yaml has been updated; where the implication is structural ("supplement X is less valuable if UPF is high"), the change is documented here pending data-model support for interactions.
 
-A 2025 meta-analysis (Prokopidis et al. 2025) of 10 RCTs found no significant effect of NMN or NR supplementation on skeletal muscle mass, handgrip strength, or gait speed in adults aged 60+. While NAD+ precursors show promising results in animal models and early human trials for metabolic health and DNA repair, human RCT evidence for longevity effects remains limited. The Amarantos entry for NAD+ precursors retains wide confidence intervals reflecting this uncertainty.
-
----
-
-### Spermidine — Growing Evidence Base
-
-A 2024 systematic review (Hofer et al. 2024) of 12 studies confirmed beneficial effects of spermidine supplementation on cardiovascular and cognitive health markers in humans. The mechanism—induction of autophagy—is well-established in model organisms. Spermidine-rich foods include wheat germ, soybeans, aged cheese, and mushrooms. This supports Amarantos's existing spermidine entry.
-
----
-
-### Intermittent Fasting — Long-Term Safety Concerns
-
-A 2025 AHA preliminary study (Murray et al. 2025) found that time-restricted eating (8-hour feeding window) was associated with 91% higher cardiovascular mortality risk over a median 8-year follow-up in a large observational cohort. This is a single observational study with significant confounding potential (sick people may eat in shorter windows due to illness), but it has attracted attention. Current Amarantos guidance on intermittent fasting should be interpreted cautiously; robust RCT evidence for mortality outcomes from IF remains limited.
-
----
-
-## How to Interpret These Updates
-
-Research in longevity and nutrition moves quickly. Amarantos tracks effects as Gaussian distributions (mean ± std), where wider distributions reflect uncertainty. As evidence accumulates, `std` values narrow. New systematic reviews and meta-analyses are higher-weight evidence than individual studies and will generally shift both `mean` and `std`.
-
-See [estimation methodology](../methodology/estimation/README.md) for details on how effect estimates are constructed.
+See [estimation methodology](../methodology/estimation/README.md) for how effect estimates are constructed.

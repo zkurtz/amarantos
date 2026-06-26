@@ -1,0 +1,70 @@
+id: dicken2025_ultraprocessed
+title: Ultraprocessed or minimally processed diets following healthy dietary guidelines
+  on weight and cardiometabolic health - a randomized, crossover trial
+authors:
+- Dicken SJ
+- Jassil FC
+- Brown A
+- Kalis M
+- Stanley C
+- Ranson C
+- Hamer M
+- van Tulleken C
+- Hall KD
+- Fisher A
+- Makaronidis J
+- Batterham RL
+year: 2025
+reference_type: Journal article
+keywords:
+- crossover trial
+- eatwell
+- free-living
+- minimally processed
+- nova
+- randomized controlled trial
+- ultra-processed
+- weight loss
+hard_claims:
+- summary: At 8 weeks, minimally processed diet led to ~2x greater weight loss than
+    ultra-processed diet, with both arms following UK Eatwell healthy-eating guidance
+  choice: upf_avoidance
+  evidence_type: Randomized controlled trial
+  effects:
+  - outcome: 8-week percent weight change difference (MPF minus UPF)
+    mean: -1.01
+    std: 0.44
+  population: adults with overweight/obesity (BMI 25-39.9) consuming ≥50% kcal from
+    UPF
+  sample_size: 55
+  followup_years: 0.15
+  notes: 2x2 crossover with 4-week washout; both diets were ad libitum and nutritionally
+    aligned with UK Eatwell Guide; demonstrates that ultra-processing matters even
+    within nutritionally adequate dietary patterns
+- summary: Cardiometabolic markers showed mixed but generally favorable effects on
+    minimally processed diet (triglycerides decreased more) vs ultra-processed (LDL
+    decreased more on UPF)
+  choice: upf_avoidance
+  evidence_type: Randomized controlled trial
+  effects: []
+  population: adults with overweight/obesity (BMI 25-39.9)
+  sample_size: 55
+  notes: Cardiometabolic results not uniformly favoring MPF; LDL-C reduction was greater
+    on UPF arm, possibly reflecting fat-substitute formulations; weight loss was the
+    primary outcome
+soft_claims: []
+journal: Nature Medicine
+volume: '31'
+issue: '10'
+pages: ''
+doi: 10.1038/s41591-025-03842-0
+pmid: ''
+url: https://www.nature.com/articles/s41591-025-03842-0
+summary: First free-living randomized crossover trial (n=55) to compare ultra-processed
+  vs minimally processed diets when both follow national healthy-eating guidance (UK
+  Eatwell Guide). Over 8 weeks of ad libitum eating, the minimally processed arm
+  produced ~1 percentage-point greater weight loss (-2.06% vs -1.05%), about twice
+  the magnitude on MPF. The trial extends Hall 2019 by showing that ultra-processing
+  matters even within a nutritionally adequate dietary pattern, though cardiometabolic
+  effects were mixed. Has generated active methodological debate (see correspondence
+  in Nature Medicine).

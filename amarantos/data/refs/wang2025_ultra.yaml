@@ -1,0 +1,56 @@
+id: wang2025_ultra
+title: Ultra-processed foods, biological ageing, and all-cause mortality risk - a
+  prospective cohort study using 172,225 participants from UK Biobank
+authors:
+- Wang Y
+- Qi T
+- Wu X
+- et al.
+year: 2025
+reference_type: Journal article
+keywords:
+- all-cause mortality
+- biological aging
+- cohort
+- nova
+- phenoage
+- prospective
+- uk biobank
+- ultra-processed
+hard_claims:
+- summary: Highest vs lowest UPF intake (>8 vs ≤3.5 servings/day) associated with 15%
+    higher all-cause mortality in UK Biobank
+  choice: upf_avoidance
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.15
+    std: 0.0408
+  population: UK Biobank adults (median age ~56, 11.7 yr follow-up)
+  sample_size: 172225
+  notes: 10,383 deaths; harmful subgroups included plant-based UPF, artificial sweeteners,
+    UPF beverages; breakfast cereals showed inverse association
+- summary: PhenoAge acceleration mediates ~14% of the UPF-mortality association overall,
+    rising to ~28% for artificial sweeteners specifically
+  choice: upf_avoidance
+  evidence_type: Prospective cohort study
+  effects: []
+  population: UK Biobank adults
+  sample_size: 172225
+  notes: First large-cohort evidence quantifying biological ageing as a mediator of
+    UPF-mortality link; supports the mechanism that UPF accelerates aging beyond simple
+    cardiometabolic risk factors
+soft_claims: []
+journal: GeroScience
+volume: '47'
+issue: '5'
+pages: 6599-6612
+doi: 10.1007/s11357-025-01810-7
+pmid: '40719960'
+url: https://pubmed.ncbi.nlm.nih.gov/40719960/
+summary: Prospective cohort analysis (n=172,225) from UK Biobank linking UPF intake
+  to all-cause mortality with biological-aging mediation analysis. Highest vs lowest
+  UPF consumers had 15% higher mortality (HR 1.15). PhenoAge acceleration mediated
+  ~14% of the total UPF-mortality effect (artificial sweeteners ~28%; UPF beverages
+  ~8%; plant-based UPF ~14%). Provides mechanistic support that UPF accelerates biological
+  aging.

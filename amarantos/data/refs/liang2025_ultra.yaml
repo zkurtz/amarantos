@@ -1,0 +1,57 @@
+id: liang2025_ultra
+title: Ultra-processed foods and risk of all-cause mortality - an updated systematic
+  review and dose-response meta-analysis of prospective cohort studies
+authors:
+- Liang S
+- Zhou Y
+- Zhang Q
+- Yu S
+- Wu S
+year: 2025
+reference_type: Meta-analysis
+keywords:
+- all-cause mortality
+- cohort
+- dose-response
+- meta-analysis
+- nova
+- systematic review
+- ultra-processed
+hard_claims:
+- summary: Highest vs lowest UPF consumption associated with 15% higher all-cause mortality
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.15
+    std: 0.0331
+  population: general adult population
+  sample_size: 1148387
+  notes: 18 prospective cohorts pooled; 173,107 deaths; I²=83%; sex-stratified analysis
+    showed larger effect in males
+- summary: Each 10% absolute increase in dietary UPF associated with 10% higher all-cause
+    mortality (dose-response)
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: all-cause mortality per 10% UPF increment
+    mean: 1.10
+    std: 0.0306
+  population: general adult population
+  sample_size: 1148387
+  notes: Linear dose-response (P<0.001); replaces and updates prior 2022 dose-response
+    pooled estimate
+soft_claims: []
+journal: Systematic Reviews
+volume: '14'
+issue: '1'
+pages: '52'
+doi: 10.1186/s13643-025-02800-8
+pmid: '40033461'
+url: https://pubmed.ncbi.nlm.nih.gov/40033461/
+summary: Most recent (March 2025) systematic review and dose-response meta-analysis
+  of 18 prospective cohort studies (n=1,148,387; 173,107 deaths) examining UPF and
+  all-cause mortality. Highest vs lowest contrast yielded HR 1.15 (95% CI 1.09-1.22);
+  linear dose-response of HR 1.10 per 10% UPF increment (95% CI 1.04-1.16). Confirms
+  and tightens prior estimates from Lane 2024 umbrella review. Sex-stratified analysis
+  suggests larger effect in males.

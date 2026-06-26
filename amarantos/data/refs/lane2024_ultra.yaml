@@ -1,0 +1,73 @@
+id: lane2024_ultra
+title: 'Ultra-processed food exposure and adverse health outcomes: an umbrella review
+  of epidemiological meta-analyses'
+authors:
+- Lane MM
+- Gamage E
+- Du S
+- Ashtree DN
+- McGuinness AJ
+- Gauci S
+- Baker P
+- Lawrence M
+- Rebholz CM
+- Srour B
+- et al.
+year: 2024
+reference_type: Journal article
+keywords:
+- adverse
+- epidemiological
+- exposure
+- food
+- health
+- meta-analysis
+- outcomes
+- processed
+- review
+- ultra-processed
+hard_claims:
+- summary: High UPF consumption associated with 50% higher risk of cardiovascular
+    disease mortality
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: cardiovascular mortality
+    mean: 1.5
+    std: 0.15306122448979592
+  population: general adult population
+  notes: Umbrella review of 45 unique meta-analyses; also found 12% higher risk of
+    type 2 diabetes and 21% higher all-cause mortality risk
+- summary: High UPF consumption associated with 21% higher all-cause mortality risk
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.21
+    std: 0.05357142857142856
+  population: general adult population
+  notes: Consistent across multiple meta-analyses; dose-response relationship evident
+- summary: High UPF consumption associated with 48-53% higher risk of anxiety and
+    depression
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: depression and anxiety
+    mean: 1.5
+    std: 0.1020408163265306
+  population: general adult population
+  notes: Mental health outcomes among the most consistent across studies
+soft_claims: []
+journal: BMJ
+volume: '384'
+issue: ''
+pages: e077310
+doi: 10.1136/bmj-2023-077310
+pmid: '38418082'
+url: https://pubmed.ncbi.nlm.nih.gov/38418082/
+summary: Umbrella review synthesizing 45 unique meta-analyses of prospective studies
+  examining ultra-processed food (UPF) consumption and health outcomes. High UPF intake
+  was directly associated with 50% higher cardiovascular disease mortality risk, 21%
+  higher all-cause mortality, 40-66% higher anxiety and depression risk, 12% higher
+  type 2 diabetes risk, and adverse outcomes across multiple organ systems. Evidence
+  was most convincing for mortality, CVD events, and mental health outcomes.

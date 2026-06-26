@@ -1,0 +1,65 @@
+id: monteiro2025_ultra
+title: Ultra-processed foods and human health - the main thesis and the evidence
+authors:
+- Monteiro CA
+- Louzada MLC
+- Steele-Martinez E
+- Cannon G
+- Andrade GC
+- Baker P
+- Bes-Rastrollo M
+- Bonaccio M
+- Gearhardt AN
+- Khandpur N
+- Levy RB
+- Machado PP
+- Moubarac JC
+- Rezende LFM
+- Rivera JA
+- Scrinis G
+- Srour B
+- Swinburn B
+- Touvier M
+- et al.
+year: 2025
+reference_type: Review article
+keywords:
+- chronic disease
+- diet displacement
+- lancet series
+- nova
+- public health
+- review
+- ultra-processed
+hard_claims:
+- summary: Synthesis of over 100 prospective studies and meta-analyses concludes a
+    UPF-dominant dietary pattern is a key driver of the global rise in diet-related
+    chronic disease
+  choice: upf_avoidance
+  evidence_type: Expert opinion
+  effects: []
+  population: global
+  notes: Paper 1 of the Lancet 2025 Series on UPF; combines narrative and systematic
+    review with original meta-analyses; positions UPF as a primary public-health priority
+    rather than a single nutrient question
+soft_claims:
+- summary: UPF dietary patterns harm every major organ system through nutrient imbalance,
+    hyperpalatability-driven overeating, loss of phytochemicals, and additive/contaminant
+    exposure
+  choice: upf_avoidance
+  source_type: review article
+  notes: Authors propose three core hypotheses (displacement, diet-quality deterioration,
+    chronic-disease risk), each supported by current evidence base
+journal: Lancet
+volume: '406'
+issue: '10520'
+pages: 2667-2684
+doi: 10.1016/S0140-6736(25)01565-X
+pmid: '41270766'
+url: https://pubmed.ncbi.nlm.nih.gov/41270766/
+summary: Lead paper of the November 2025 Lancet three-paper series on ultra-processed
+  foods. Combines narrative review, systematic synthesis of 100+ prospective studies
+  and meta-analyses, and original analyses to argue three propositions - UPF displacement
+  of traditional diets, resulting diet-quality deterioration, and chronic-disease
+  risk across organ systems. Frames UPF as a global public-health priority. Companion
+  papers address policy responses.

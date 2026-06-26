@@ -1,0 +1,53 @@
+id: nilson2025_premature
+title: Premature Mortality Attributable to Ultraprocessed Food Consumption in 8 Countries
+authors:
+- Nilson EAF
+- Delpino FM
+- Batis C
+- et al.
+year: 2025
+reference_type: Meta-analysis
+keywords:
+- attribution
+- countries
+- meta-analysis
+- mortality
+- population attributable fraction
+- premature mortality
+- ultra-processed
+hard_claims:
+- summary: Each 10% absolute increase in dietary UPF associated with 3% higher risk
+    of all-cause mortality in pooled dose-response analysis
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: all-cause mortality per 10% UPF increment
+    mean: 1.03
+    std: 0.0051
+  population: general adult population
+  notes: Note this dose-response estimate is smaller than Liang 2025 (HR 1.10 per 10%)
+    because Nilson uses a different study set and modeling approach; both are
+    consistent with positive linear association
+- summary: Attributable premature deaths from UPF range from 4% (Colombia) to 14%
+    (UK and US) across 8 countries
+  choice: upf_avoidance
+  evidence_type: Meta-analysis
+  effects: []
+  population: adults in Australia, Brazil, Canada, Chile, Colombia, Mexico, UK, US
+  notes: Population attributable fractions calculated by combining dose-response
+    risk with country-level UPF consumption distributions; quantifies population-scale
+    burden, not individual choice effect
+soft_claims: []
+journal: American Journal of Preventive Medicine
+volume: '68'
+issue: '6'
+pages: 1091-1099
+doi: 10.1016/j.amepre.2025.02.018
+pmid: '40293384'
+url: https://pubmed.ncbi.nlm.nih.gov/40293384/
+summary: Cross-national analysis estimating premature mortality attributable to UPF
+  in 8 countries (Australia, Brazil, Canada, Chile, Colombia, Mexico, UK, US). A
+  dose-response meta-analysis estimated HR 1.03 per 10% UPF increment, applied to
+  country-level intake to compute population attributable fractions. Attributable
+  premature deaths range from 4% (Colombia) to 14% (UK and US). Establishes the
+  population-level burden of UPF consumption.

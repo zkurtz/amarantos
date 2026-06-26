@@ -1,0 +1,77 @@
+domain: diet
+name: Avoid Ultra-Processed Foods
+summary: |-
+  Reducing ultra-processed food (UPF) consumption is associated with substantially
+  lower all-cause and cardiovascular mortality. A 2025 dose-response meta-analysis
+  of 18 cohorts (n=1.15M) found HR 1.10 per 10% UPF increment for all-cause mortality;
+  a 2025 free-living RCT in adults with overweight/obesity (n=55) found ~2x greater
+  weight loss on a minimally processed vs ultra-processed diet matched to UK Eatwell
+  Guide healthy-eating standards. NOVA Group 4 (industrial formulations with additives
+  rarely used in home kitchens) is the operative definition.
+specification:
+  duration_h: 0.25
+  weekly_freq: 7
+  annual_cost_h: 91
+  annual_cost_usd: 500
+  description: |-
+    Recommended: keep UPF to <10% of daily caloric intake (vs. ~57% in average
+    US adult). This threshold approximates the lowest quintile of UPF consumers
+    in cohort studies showing the strongest mortality benefit; it is a practical
+    target, not a precise clinical cut-off. Ultra-processed foods are defined
+    by the NOVA classification (Group 4): industrial formulations containing
+    additives not normally used in home cooking—such as emulsifiers, artificial
+    flavors, flavor enhancers, non-caloric sweeteners, modified starches, and
+    preservatives—indicative of extensive industrial processing. Practical
+    strategies include cooking from whole ingredients, choosing minimally
+    processed snacks (nuts, fruit), and reading ingredient labels for additives.
+    Higher cost and time estimates reflect home cooking vs. convenience foods;
+    actual net cost varies by baseline diet and many households see savings.
+effects:
+- outcome: Relative mortality risk
+  evidence: |
+    Dose-response meta-analysis of 18 cohorts (n=1,148,387; 173,107 deaths):
+    HR 1.10 per 10% absolute increase in UPF; HR 1.15 highest vs lowest quintile
+    ([@liang2025_ultra]). Umbrella review of 45 meta-analyses also found
+    RR ~1.21 all-cause and RR ~1.50 CVD mortality for highest vs lowest UPF
+    ([@lane2024_ultra]). NutriNet-Santé cohort (n=44,551): HR 1.14 per 10%
+    UPF for all-cause mortality ([@schnabel2019_association]). NutriNet-Santé
+    CVD analysis (n=105,159): HR 1.12 per 10% UPF for CVD
+    ([@srour2019_ultra]). UK Biobank (n=172,225): HR 1.15 highest vs lowest;
+    ~14% of the effect mediated by PhenoAge biological-age acceleration
+    ([@wang2025_ultra]). Population-attribution analysis across 8 countries
+    estimates 4-14% of premature deaths attributable to UPF
+    ([@nilson2025_premature]). Hall 2019 inpatient RCT (n=20) provides causal
+    evidence that UPF drives ~500 kcal/day overconsumption when diets are
+    matched on macronutrients, sugar, sodium, and fiber ([@hall2019_ultra]).
+    Dicken 2025 outpatient crossover RCT (n=55) found ~2x greater weight loss
+    on minimally vs ultra-processed diets both following UK Eatwell guidance
+    ([@dicken2025_ultraprocessed]). Lancet 2025 series consolidates the
+    evidence base ([@monteiro2025_ultra]). Associations are large, replicated,
+    and supported by two causal-design RCTs; remaining uncertainty is mainly
+    about magnitude, not direction.
+  mean: 0.88
+  std: 0.03
+- outcome: Years of delayed aging
+  evidence: |
+    UK Biobank (n=172,225) found PhenoAge acceleration mediates ~14% of the
+    UPF-mortality association, providing the first large-scale evidence that
+    UPF accelerates biological aging beyond standard cardiometabolic risk
+    ([@wang2025_ultra]). No direct epigenetic-clock RCTs for UPF reduction
+    specifically. Indirect extrapolation: a 10-15% mortality reduction from
+    sustained UPF avoidance corresponds to roughly 1-2 years under Gompertz
+    assumptions. Hypothesized mechanisms include chronic inflammation,
+    oxidative stress, and gut dysbiosis. Uncertainty is wide.
+  mean: 1.2
+  std: 0.9
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Umbrella review found 48-53% higher risk of anxiety and depression with
+    high UPF consumption ([@lane2024_ultra]). Associative; reverse causation
+    possible (poor mental health may increase UPF reliance). Gut-brain axis
+    effects plausible via microbiome disruption from emulsifiers and additives.
+    Dicken 2025 RCT reported greater weight loss and palatability ratings
+    similar between arms ([@dicken2025_ultraprocessed]), suggesting whole-food
+    diets are sustainable. Elimination may cause short-term cravings but
+    long-term mood improvement reported. Net estimate positive but uncertain.
+  mean: 0.4
+  std: 0.4

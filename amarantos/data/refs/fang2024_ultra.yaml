@@ -1,0 +1,68 @@
+id: fang2024_ultra
+title: Association of ultra-processed food consumption with all cause and cause specific
+  mortality - population based cohort study
+authors:
+- Fang Z
+- Rossato SL
+- Hang D
+- Khandpur N
+- Wang K
+- Lo CH
+- Willett WC
+- Giovannucci EL
+- Song M
+year: 2024
+reference_type: Journal article
+keywords:
+- all-cause mortality
+- cohort
+- diet quality
+- health professionals follow-up study
+- nova
+- nurses health study
+- subtypes
+- ultra-processed
+hard_claims:
+- summary: Highest vs lowest quarter of UPF consumption associated with only 4% higher
+    all-cause mortality over 30+ years of follow-up in the Harvard cohorts
+  choice: avoid_ultra_processed_foods
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.04
+    std: 0.0153
+  population: US female nurses (NHS) and male health professionals (HPFS) free of
+    cancer, CVD, and diabetes at baseline
+  sample_size: 114064
+  followup_years: 32
+  notes: 48,193 deaths; 95% CI 1.01-1.07; null associations for cancer and CVD mortality;
+    excess driven by other causes (HR 1.09, 1.05-1.13); the longest-follow-up UPF-mortality
+    cohorts published and a materially smaller estimate than NutriNet-Sante or UK Biobank
+- summary: No consistent UPF-mortality association within strata of overall diet quality
+    (AHEI-2010), while better diet quality predicted lower mortality within every UPF
+    stratum
+  choice: avoid_ultra_processed_foods
+  evidence_type: Prospective cohort study
+  effects: []
+  population: US female nurses (NHS) and male health professionals (HPFS)
+  sample_size: 114064
+  notes: Suggests overall diet quality dominates UPF share per se. Subtype analysis
+    concentrated risk in meat/poultry/seafood ready-to-eat products (HR 1.06-1.43),
+    sugar- and artificially-sweetened beverages (HR 1.09, 1.07-1.12), and dairy-based
+    desserts (HR 1.07); ultra-processed breakfast foods showed only HR 1.04
+soft_claims: []
+journal: BMJ
+volume: '385'
+issue: ''
+pages: e078476
+doi: 10.1136/bmj-2023-078476
+pmid: '38719536'
+url: https://pubmed.ncbi.nlm.nih.gov/38719536/
+summary: Population-based cohort study of 74,563 women (Nurses' Health Study) and
+  39,501 men (Health Professionals Follow-up Study) followed ~30+ years with 48,193
+  deaths. Highest vs lowest quarter of UPF intake showed HR 1.04 (95% CI 1.01-1.07)
+  for all-cause mortality, null for cancer and CVD mortality, and no consistent
+  association within strata of overall diet quality (AHEI-2010). Risk concentrated
+  in meat/poultry/seafood ready-to-eat products and sweetened beverages. The strongest
+  published counterweight to larger UPF-mortality estimates from shorter-follow-up
+  cohorts, indicating overall diet quality dominates UPF share per se.

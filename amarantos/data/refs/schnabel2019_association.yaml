@@ -1,0 +1,52 @@
+id: schnabel2019_association
+title: 'Association Between Ultraprocessed Food Consumption and Risk of Mortality
+  Among Middle-aged Adults in France'
+authors:
+- Schnabel L
+- Kesse-Guyot E
+- Allès B
+- Touvier M
+- Srour B
+- Hercberg S
+- Buscail C
+- Julia C
+year: 2019
+reference_type: Journal article
+keywords:
+- adults
+- association
+- food
+- france
+- middle-aged
+- mortality
+- nutrinet
+- risk
+- ultra-processed
+hard_claims:
+- summary: Each 10% increase in UPF consumption associated with 14% higher all-cause
+    mortality risk
+  choice: avoid_ultra_processed_foods
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: all-cause mortality
+    mean: 1.14
+    std: 0.0587
+  population: French middle-aged adults (NutriNet-Santé cohort)
+  sample_size: 44551
+  notes: 95% CI 1.04-1.27 (std transcribed as CI width / 3.92); only 602 deaths over
+    a median 7.1 years of follow-up, hence the wide interval; adjusted for socioeconomic,
+    lifestyle, and dietary factors; consistent dose-response relationship
+soft_claims: []
+journal: JAMA Intern Med
+volume: '179'
+issue: '4'
+pages: 490-498
+doi: 10.1001/jamainternmed.2018.7289
+pmid: '30742202'
+url: https://pubmed.ncbi.nlm.nih.gov/30742202/
+summary: Prospective cohort study of 44,551 French adults (NutriNet-Santé cohort)
+  examining the association between ultra-processed food consumption and mortality.
+  Each 10 percentage-point increase in UPF consumption was associated with a 14% higher
+  risk of all-cause mortality (HR 1.14, 95% CI 1.04-1.27). Association remained after
+  adjustment for sociodemographic and lifestyle factors, nutritional quality, and diet
+  composition.

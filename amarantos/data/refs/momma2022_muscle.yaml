@@ -1,0 +1,56 @@
+id: momma2022_muscle
+title: Muscle-strengthening activities are associated with lower risk and mortality
+  in major non-communicable diseases - a systematic review and meta-analysis of cohort
+  studies
+authors:
+- Momma H
+- Kawakami R
+- Honda T
+- Sawada SS
+year: 2022
+reference_type: Meta-analysis
+keywords:
+- all-cause mortality
+- cohort
+- dose-response
+- j-shaped
+- meta-analysis
+- muscle-strengthening
+- resistance training
+- strength
+hard_claims:
+- summary: Muscle-strengthening activities associated with 15% lower all-cause mortality,
+    with 10-17% lower risk across all-cause mortality, CVD, total cancer, diabetes,
+    and lung cancer
+  choice: calisthenics
+  evidence_type: Meta-analysis
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.85
+    std: 0.0281
+  population: general adult population (16 prospective cohort studies)
+  notes: Pooled RR 0.85 (95% CI 0.80-0.91; std transcribed as CI width / 3.92); independent
+    of aerobic activity; no association for colon, kidney, bladder, or pancreatic cancers
+- summary: J-shaped dose-response with maximum risk reduction (~10-20%) at approximately
+    30-60 min/week of muscle-strengthening activity; benefit unclear at higher volumes
+  choice: calisthenics
+  evidence_type: Meta-analysis
+  effects: []
+  population: general adult population
+  notes: J-shape held for all-cause mortality, CVD, and total cancer; L-shaped for
+    diabetes (large reduction up to 60 min/week); implies 60-90 min/week sits at or
+    slightly past the observed optimum and more is not demonstrably better
+soft_claims: []
+journal: British Journal of Sports Medicine
+volume: '56'
+issue: '13'
+pages: 755-763
+doi: 10.1136/bjsports-2021-105061
+pmid: '35228201'
+url: https://pubmed.ncbi.nlm.nih.gov/35228201/
+summary: Systematic review and meta-analysis of 16 prospective cohort studies quantifying
+  associations between muscle-strengthening activities and mortality/major non-communicable
+  diseases, independent of aerobic activity. Found 10-17% lower risk of all-cause mortality,
+  CVD, total cancer, diabetes, and lung cancer. J-shaped dose-response with maximum
+  risk reduction at ~30-60 min/week for mortality, CVD, and cancer; influence of higher
+  volumes unclear.

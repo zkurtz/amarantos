@@ -1,0 +1,44 @@
+id: kotarsky2018_calisthenics
+title: Effect of Progressive Calisthenic Push-up Training on Muscle Strength and Thickness
+authors:
+- Kotarsky CJ
+- Christensen BK
+- Miller JS
+- Hackney KJ
+year: 2018
+reference_type: Journal article
+keywords:
+- 1rm
+- bench press
+- bodyweight
+- calisthenics
+- progressive overload
+- push-up
+- randomized controlled trial
+- strength
+hard_claims:
+- summary: Progressive calisthenic push-up training produced 1RM bench press strength
+    gains comparable to traditional bench press training over 4 weeks
+  choice: calisthenics
+  evidence_type: Randomized controlled trial
+  effects: []
+  population: healthy, moderately trained men (mean age 23)
+  sample_size: 23
+  followup_years: 0.077
+  notes: Both groups significantly increased 1RM (p<0.001); push-up progression capacity
+    increased more in the calisthenics group; no significant muscle-thickness change
+    in either group over the short 4-week window; supports treating progressive-variation
+    bodyweight training as equivalent resistance exposure to external loading
+soft_claims: []
+journal: Journal of Strength and Conditioning Research
+volume: '32'
+issue: '3'
+pages: 651-659
+doi: 10.1519/JSC.0000000000002345
+pmid: '29466268'
+url: https://pubmed.ncbi.nlm.nih.gov/29466268/
+summary: Small randomized trial (n=23) comparing progressive calisthenic push-up training
+  against traditional bench press training, 3 days/week for 4 weeks. Both groups improved
+  1RM bench press significantly with no between-group difference, and the calisthenics
+  group improved push-up progression capacity more. First trial evidence that progressively
+  scaled calisthenics can match free-weight training for upper-body strength gains.

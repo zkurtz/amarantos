@@ -1,0 +1,79 @@
+domain: exercise
+name: Calisthenics (2-3x/week, 30 min)
+summary: |-
+  Medium/high-intensity bodyweight resistance training. Muscle-strengthening
+  activity is associated with ~15% lower all-cause mortality (pooled RR 0.85),
+  with a J-shaped dose-response peaking at 30-60 min/week—so this protocol sits
+  at the observed optimum. Own-bodyweight strength exercise specifically shows
+  mortality associations similar to gym-based training, and trial evidence shows
+  progressive calisthenics matches free weights for strength gains. Strong RCT
+  evidence for mood benefits carries over from resistance training broadly.
+specification:
+  duration_h: 0.5
+  weekly_freq: 2.5
+  annual_cost_h: 70
+  annual_cost_usd: 50
+  description: |-
+    Recommended: 2-3 sessions/week, ~30 min, medium-to-high intensity, covering
+    push, pull, squat/hinge, and core movement patterns with progressive
+    variations (e.g., push-up -> decline -> archer; row -> pull-up) so
+    resistance keeps rising as strength improves—progression standards
+    substitute for added load. The 60-90 min/week total sits at the J-curve
+    optimum for muscle-strengthening activity: maximum observed benefit at
+    ~30-60 min/week, with no demonstrated additional mortality benefit at
+    higher volumes. Minimal equipment (a pull-up bar; optional rings or
+    parallettes) and no gym commute, which improves adherence. Treat as an
+    alternative to gym-based strength training, not an addition: the mortality
+    evidence measures "muscle-strengthening activity" as one exposure and finds
+    similar associations for own-bodyweight and gym-based formats.
+effects:
+- outcome: Relative mortality risk
+  evidence: |
+    Meta-analysis of 16 prospective cohorts: muscle-strengthening activities
+    associated with 10-17% lower all-cause mortality, CVD, total cancer, and
+    diabetes; pooled all-cause RR 0.85 (0.80-0.91), independent of aerobic
+    activity; J-shaped dose-response with maximum reduction at ~30-60 min/week
+    and unclear benefit at higher volumes ([@momma2022_muscle]). Pooled
+    analysis of 11 British cohorts (n=80,306): any strength-promoting exercise
+    HR 0.77 (0.69-0.87) for all-cause and 0.69 for cancer mortality;
+    own-body-weight exercises showed associations similar to gym-based
+    training—the most calisthenics-specific mortality evidence available
+    ([@stamatakis2018_strength]). Consistent with resistance-training
+    meta-analyses: any RT RR 0.85, ~60 min/week optimum RR 0.74
+    ([@shailendra2022_resistance]); RT alone HR 0.79
+    ([@saeidifard2019_resistance]). A small RCT showing progressive
+    calisthenics matches bench-press training for strength gains supports
+    treating bodyweight work as equivalent resistance exposure
+    ([@kotarsky2018_calisthenics]). All mortality evidence is observational;
+    healthy-user bias and reverse causation (frail people don't train) likely
+    inflate the associations, so the mean anchors on the pooled
+    muscle-strengthening estimate rather than the more favorable
+    strength-specific figures, with std widened accordingly. Not additive
+    with Strength Training or Resistance Bands—cohort "muscle-strengthening
+    activity" exposure is the same construct across all three.
+  mean: 0.85
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    No epigenetic-clock or biological-age studies of calisthenics
+    specifically. Resistance training preserves muscle mass, bone density,
+    and functional capacity—primary determinants of late-life disability and
+    frailty. Extrapolated from the ~15% mortality association under Gompertz
+    assumptions (~1.5 years at face value), discounted for the
+    observational-to-causal gap, and kept below the Strength Training entry
+    to reflect thinner modality-specific evidence. Uncertainty is wide.
+  mean: 1.3
+  std: 1.0
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    JAMA Psychiatry meta-analysis of 33 RCTs (n=1,877): resistance exercise
+    training reduced depressive symptoms with SMD 0.66 vs control—causal
+    evidence, with effects independent of strength gains, across modalities
+    including bodyweight formats ([@gordon2018_resistance_depression]).
+    Mapped below the rubric's 1:1 SMD-to-JND rule because many trials
+    enrolled symptomatic samples and the general-population effect is likely
+    smaller. Skill progression (first pull-up, harder push-up variations)
+    plausibly adds mastery and self-efficacy benefits beyond gym-based RT.
+    Moderate confidence.
+  mean: 0.5
+  std: 0.3

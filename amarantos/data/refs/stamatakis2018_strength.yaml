@@ -1,0 +1,80 @@
+id: stamatakis2018_strength
+title: Does Strength-Promoting Exercise Confer Unique Health Benefits? A Pooled Analysis
+  of Data on 11 Population Cohorts With All-Cause, Cancer, and Cardiovascular Mortality
+  Endpoints
+authors:
+- Stamatakis E
+- Lee IM
+- Bennie J
+- Freeston J
+- Hamer M
+- O'Donovan G
+- Ding D
+- Bauman A
+- Mavros Y
+year: 2018
+reference_type: Journal article
+keywords:
+- all-cause mortality
+- bodyweight exercise
+- calisthenics
+- cancer mortality
+- cohort
+- pooled analysis
+- strength-promoting exercise
+hard_claims:
+- summary: Participation in any strength-promoting exercise associated with 23% lower
+    all-cause mortality and 31% lower cancer mortality
+  choice: calisthenics
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: all-cause mortality
+    mean: 0.77
+    std: 0.0459
+  - outcome: cancer mortality
+    mean: 0.69
+    std: 0.0765
+  population: adults >=30 years, Health Survey for England and Scottish Health Survey
+    1994-2008
+  sample_size: 80306
+  followup_years: 9.2
+  notes: All-cause HR 0.77 (95% CI 0.69-0.87), cancer HR 0.69 (0.56-0.86); stds transcribed
+    as CI width / 3.92; 5,763 deaths over 736,463 person-years; first 24 months and
+    prevalent disease excluded; no significant CVD mortality association
+- summary: Meeting the strength-exercise guideline alone (>=2 sessions/week) associated
+    with 21% lower all-cause mortality, comparable to meeting the aerobic guideline
+    alone (16%)
+  choice: calisthenics
+  evidence_type: Prospective cohort study
+  effects:
+  - outcome: all-cause mortality (guideline adherence only)
+    mean: 0.79
+    std: 0.0714
+  population: adults >=30 years
+  sample_size: 80306
+  notes: SPE-guideline-only HR 0.79 (0.66-0.94) vs aerobic-guideline-only HR 0.84
+    (0.78-0.90); adherence to both HR 0.71 (0.57-0.87)
+- summary: Own-body-weight strength exercises (calisthenics) showed mortality associations
+    similar to gym-based strength training
+  choice: calisthenics
+  evidence_type: Prospective cohort study
+  effects: []
+  population: adults >=30 years
+  sample_size: 80306
+  notes: The study separately classified gym-based and own-body-weight strength activities
+    and found comparable favorable associations, making this the most direct mortality
+    evidence available for equipment-free calisthenics
+soft_claims: []
+journal: American Journal of Epidemiology
+volume: '187'
+issue: '5'
+pages: 1102-1112
+doi: 10.1093/aje/kwx345
+pmid: '29099919'
+url: https://pubmed.ncbi.nlm.nih.gov/29099919/
+summary: Pooled analysis of 11 British population cohorts (n=80,306; 5,763 deaths)
+  examining strength-promoting exercise, including own-body-weight activities, and
+  mortality. Any strength-promoting exercise was associated with lower all-cause (HR
+  0.77) and cancer (HR 0.69) mortality; own-body-weight exercises showed associations
+  similar to gym-based training. Meeting the strength guideline alone was comparable
+  to meeting the aerobic guideline alone.

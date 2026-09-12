@@ -27,7 +27,7 @@ keywords:
 hard_claims:
 - summary: Ad libitum ultra-processed diet caused ~500 kcal/day excess intake vs minimally
     processed diet matched for energy density, macronutrients, sugar, sodium, and fiber
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Randomized controlled trial
   effects:
   - outcome: excess daily energy intake (kcal)
@@ -41,7 +41,7 @@ hard_claims:
     nutrient composition
 - summary: Body weight increased ~0.9 kg on the ultra-processed arm and decreased ~0.9
     kg on the unprocessed arm over 2 weeks
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Randomized controlled trial
   effects:
   - outcome: 2-week body weight change (kg)

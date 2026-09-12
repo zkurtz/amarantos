@@ -19,7 +19,7 @@ keywords:
 - ultra-processed
 hard_claims:
 - summary: Highest vs lowest UPF consumption associated with 15% higher all-cause mortality
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
   - outcome: all-cause mortality
@@ -31,7 +31,7 @@ hard_claims:
     showed larger effect in males
 - summary: Each 10% absolute increase in dietary UPF associated with 10% higher all-cause
     mortality (dose-response)
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
   - outcome: all-cause mortality per 10% UPF increment

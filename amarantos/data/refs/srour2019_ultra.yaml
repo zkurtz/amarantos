@@ -27,16 +27,16 @@ keywords:
 hard_claims:
 - summary: Each 10% increase in UPF consumption associated with 12% higher cardiovascular
     disease risk
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Prospective cohort study
   effects:
   - outcome: cardiovascular disease risk
     mean: 1.12
-    std: 0.030612244897959185
+    std: 0.0383
   population: French adults (NutriNet-Santé cohort)
   sample_size: 105159
-  notes: Association robust after adjusting for nutritional quality (saturated fat,
-    sodium, sugar, fiber content)
+  notes: 95% CI 1.05-1.20 (std transcribed as CI width / 3.92); association robust
+    after adjusting for nutritional quality (saturated fat, sodium, sugar, fiber content)
 soft_claims: []
 journal: BMJ
 volume: '365'

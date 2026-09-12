@@ -6,7 +6,7 @@ Each item links to a reference yaml under `amarantos/data/refs/` so the underlyi
 
 ## Ultra-Processed Food (UPF) — From Association to Cause
 
-The most consequential dietary development since the previous release is the maturation of UPF evidence from observational signal to RCT-supported intervention. A new **`Avoid Ultra-Processed Foods`** choice has been added to the `diet` domain ([upf_avoidance.yaml](../amarantos/data/choices/diet/upf_avoidance.yaml)).
+The most consequential dietary development since the previous release is the maturation of UPF evidence from observational signal to RCT-supported intervention. A new **`Avoid Ultra-Processed Foods (<10% kcal)`** choice has been added to the `diet` domain ([avoid_ultra_processed_foods.yaml](../amarantos/data/choices/diet/avoid_ultra_processed_foods.yaml)).
 
 ### New since the previous release
 
@@ -19,7 +19,8 @@ The most consequential dietary development since the previous release is the mat
 ### Foundational context (pre-existing but newly synthesized in choice data)
 
 - **Hall et al. 2019, *Cell Metabolism*** — Inpatient metabolic-ward crossover RCT (n=20) showing UPF causes ~500 kcal/day excess intake when diets are matched on energy density, macronutrients, sugar, sodium, and fiber. Establishes causal direction; the 2025 Dicken trial extends this to free-living, healthy-guidelines settings ([@hall2019_ultra]).
-- **Lane et al. 2024, *BMJ*** — Umbrella review of 45 meta-analyses covering 32 health outcomes. Highest vs lowest UPF: ~21% higher all-cause mortality, ~50% higher CVD mortality, 48-53% higher anxiety/depression ([@lane2024_ultra]).
+- **Lane et al. 2024, *BMJ*** — Umbrella review of 45 meta-analyses covering 32 health outcomes. Highest vs lowest UPF: ~21% higher all-cause mortality (class II, GRADE low), ~50% higher CVD mortality (class I, GRADE very low), anxiety OR 1.48 and combined common mental disorders OR 1.53; depressive outcomes specifically were smaller (HR 1.22) ([@lane2024_ultra]).
+- **Fang et al. 2024, *BMJ*** — The key counterweight: Harvard NHS/HPFS cohorts (n=114,064; 48,193 deaths; 30+ years of follow-up) found only HR 1.04 (1.01-1.07) for highest vs lowest quarter, null associations for cancer and CVD mortality, and no consistent UPF-mortality association within strata of overall diet quality (AHEI-2010). Subtype analysis concentrated risk in meat/poultry/seafood ready-to-eat products and sweetened beverages. Suggests overall diet quality dominates UPF share per se, and motivates the conservative effect estimates in the choice file ([@fang2024_ultra]).
 
 ### Implications for other Amarantos entries
 
@@ -35,11 +36,11 @@ UPF reduction reframes how several existing interventions are best deployed. The
 
 ## Omega-3 Fatty Acids — Dose Clarification
 
-**Mattumpuram et al. 2025, *Clinical and Translational Discovery*** — Meta-analysis of 42 RCTs (n=176,253) found CV mortality reduction of ~6% (RR 0.94) overall, with EPA monotherapy outperforming EPA+DHA combinations (RR 0.80 for EPA-only). Re-emphasizes that the commonly recommended 1 g/day dose may be sub-therapeutic for cardiovascular benefit and that EPA composition matters ([@mattumpuram2025_omega3]).
+**Mattumpuram et al. 2025, *Clinical and Translational Discovery*** — Meta-analysis of 42 RCTs (n=176,253) found CV mortality reduction of ~6% (RR 0.94) overall, with EPA monotherapy outperforming EPA+DHA combinations (RR 0.80 for CV mortality, RR 0.76 for CVD events with EPA-only). The formulation finding suggests EPA composition matters more than previously assumed ([@mattumpuram2025_omega3]).
 
 ## Spermidine — Mechanism for Fasting Benefits
 
-**Hofer et al. 2024, *Nature Cell Biology*** — Multi-species mechanistic study showing spermidine levels rise during fasting in yeast, flies, mice, *and humans*, and that genetic or pharmacological blockade of spermidine synthesis abolishes the lifespan-extending and cardioprotective effects of fasting. Suggests spermidine is a key downstream mediator of fasting benefits via eIF5A hypusination and autophagy. Relevant to both the spermidine and fasting choice entries ([@hofer2024_spermidine]).
+**Hofer et al. 2024, *Nature Cell Biology*** *(published September 2024, before this window; included as newly synthesized mechanistic context)* — Multi-species mechanistic study showing spermidine levels rise during fasting in yeast, flies, mice, *and humans*, and that genetic or pharmacological blockade of spermidine synthesis abolishes the lifespan-extending and cardioprotective effects of fasting. Suggests spermidine is a key downstream mediator of fasting benefits via eIF5A hypusination and autophagy. Relevant to both the spermidine and fasting choice entries ([@hofer2024_spermidine]).
 
 ## Senolytics — Fisetin Intermittent Dosing
 

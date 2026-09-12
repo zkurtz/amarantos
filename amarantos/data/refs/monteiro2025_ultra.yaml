@@ -35,7 +35,7 @@ hard_claims:
 - summary: Synthesis of over 100 prospective studies and meta-analyses concludes a
     UPF-dominant dietary pattern is a key driver of the global rise in diet-related
     chronic disease
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Expert opinion
   effects: []
   population: global
@@ -46,7 +46,7 @@ soft_claims:
 - summary: UPF dietary patterns harm every major organ system through nutrient imbalance,
     hyperpalatability-driven overeating, loss of phytochemicals, and additive/contaminant
     exposure
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   source_type: review article
   notes: Authors propose three core hypotheses (displacement, diet-quality deterioration,
     chronic-disease risk), each supported by current evidence base

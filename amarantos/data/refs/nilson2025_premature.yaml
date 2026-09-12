@@ -18,7 +18,7 @@ keywords:
 hard_claims:
 - summary: Each 10% absolute increase in dietary UPF associated with 3% higher risk
     of all-cause mortality in pooled dose-response analysis
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
   - outcome: all-cause mortality per 10% UPF increment
@@ -30,7 +30,7 @@ hard_claims:
     consistent with positive linear association
 - summary: Attributable premature deaths from UPF range from 4% (Colombia) to 14%
     (UK and US) across 8 countries
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects: []
   population: adults in Australia, Brazil, Canada, Chile, Colombia, Mexico, UK, US

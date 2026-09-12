@@ -1,0 +1,98 @@
+domain: diet
+name: Avoid Ultra-Processed Foods (<10% kcal)
+summary: |-
+  Reducing ultra-processed food (UPF) intake is associated with lower all-cause
+  and cardiovascular mortality (highest vs lowest consumers HR 1.15-1.21 in
+  pooled cohorts), with RCT evidence that ultra-processing per se drives excess
+  energy intake and weight gain. Mortality evidence is observational and largely
+  attenuates under diet-quality adjustment in the longest-running cohorts, so
+  estimates here anchor on the conservative end. The harm signal concentrates in
+  processed meats, sweetened beverages, and ready-to-eat products.
+specification:
+  duration_h: 0.6
+  weekly_freq: 7
+  annual_cost_h: 250
+  annual_cost_usd: 500
+  description: |-
+    Recommended: keep UPF to <10% of daily caloric intake (vs. ~57% in average
+    US adult). This threshold approximates the lowest quintile of UPF consumers
+    in cohort studies showing the strongest mortality benefit; it is a practical
+    target, not a precise clinical cut-off. Ultra-processed foods are defined
+    by the NOVA classification (Group 4): industrial formulations containing
+    additives not normally used in home cooking—such as emulsifiers, artificial
+    flavors, flavor enhancers, non-caloric sweeteners, modified starches, and
+    preservatives—indicative of extensive industrial processing. Not all NOVA
+    Group 4 foods carry equal risk: cohort subtype analyses concentrate the
+    mortality signal in processed meats and other ready-to-eat meat/poultry/
+    seafood products, sugar- and artificially-sweetened beverages, and
+    ready-to-eat snacks and desserts, while wholegrain UPF products such as
+    breakfast cereals and packaged wholegrain breads show neutral-to-inverse
+    associations—prioritize cuts accordingly. Practical strategies include
+    cooking from whole ingredients, choosing minimally processed snacks (nuts,
+    fruit), and reading ingredient labels for additives. Time estimate reflects
+    a substantial shift toward home cooking (roughly 30-45 extra minutes/day
+    including shopping, preparation, and cleanup); dollar cost varies by
+    baseline diet and some households see savings.
+effects:
+- outcome: Relative mortality risk
+  evidence: |
+    Dose-response meta-analysis of 18 cohorts (n=1,148,387; 173,107 deaths):
+    HR 1.10 per 10% absolute increase in UPF; HR 1.15 highest vs lowest quintile
+    ([@liang2025_ultra]). Umbrella review of 45 meta-analyses: RR 1.21
+    (1.15-1.27) all-cause (class II, GRADE low) and RR 1.50 (1.37-1.63) CVD
+    mortality (class I, GRADE very low), highest vs lowest ([@lane2024_ultra]).
+    NutriNet-Sante: HR 1.14 per 10% for all-cause mortality
+    ([@schnabel2019_association]) and HR 1.12 per 10% for CVD
+    ([@srour2019_ultra]). UK Biobank (n=172,225): HR 1.15 highest vs lowest;
+    ~14% mediated by PhenoAge biological-age acceleration ([@wang2025_ultra]).
+    Counterweight: Harvard NHS/HPFS cohorts (n=114,064; 48,193 deaths; 30+ yr
+    follow-up) found only HR 1.04 (1.01-1.07) highest vs lowest quarter, null
+    associations for cancer and CVD mortality, and no consistent association
+    within strata of overall diet quality ([@fang2024_ultra])—suggesting much
+    of the pooled signal reflects overall diet quality and residual
+    confounding. Nilson's pooled dose-response slope is likewise smaller
+    (HR 1.03 per 10%) ([@nilson2025_premature]). Causal evidence exists for
+    energy intake and weight, not mortality: Hall 2019 inpatient RCT showed
+    ~500 kcal/day overconsumption on matched diets ([@hall2019_ultra]) and
+    Dicken 2025 free-living crossover RCT showed ~2x greater weight loss on
+    the minimally processed arm ([@dicken2025_ultraprocessed]); the Lancet
+    2025 series consolidates the evidence base ([@monteiro2025_ultra]). The
+    mean anchors on the highest-vs-lowest cohort contrast rather than
+    compounding per-10% slopes across the specified 57%->10% change (linearity
+    over that range is unsupported and confounding inflates the slopes),
+    discounted toward the null for Fang 2024; std is sized so the interval
+    approaches no-effect, reflecting purely observational mortality evidence.
+    Note: not additive with whole-food entries (fiber, nuts, leafy greens,
+    fatty fish)—low-UPF cohort contrasts embed the same whole-food dietary
+    variance those entries already claim.
+  mean: 0.9
+  std: 0.06
+- outcome: Years of delayed aging
+  evidence: |
+    UK Biobank (n=172,225) found PhenoAge acceleration mediates ~14% of the
+    UPF-mortality association, the first large-scale evidence linking UPF to
+    accelerated biological aging beyond standard cardiometabolic risk
+    ([@wang2025_ultra]). No epigenetic-clock RCTs for UPF reduction exist.
+    Indirect extrapolation: the ~10% mortality reduction estimated above
+    corresponds to roughly 1 year under Gompertz assumptions, discounted for
+    the observational-to-causal gap to stay consistent with how comparable
+    diet entries (e.g., fiber) convert mortality to delayed aging.
+    Hypothesized mechanisms include chronic inflammation, oxidative stress,
+    and gut dysbiosis. Uncertainty is wide.
+  mean: 0.9
+  std: 0.9
+- outcome: Subjective wellbeing - number of just-noticeable differences
+  evidence: |
+    Umbrella review: prevalent anxiety OR 1.48 (1.37-1.59) and combined common
+    mental disorders OR 1.53 (1.43-1.63); depressive outcomes specifically
+    HR 1.22 (1.16-1.28) ([@lane2024_ultra]). Associative; reverse causation
+    plausible (poor mental health may increase UPF reliance). These are risk
+    ratios rather than standardized mean differences, so mapping to
+    just-noticeable differences is indirect; the mean assumes only a modest
+    fraction of consumers experience a noticeable mood shift. Gut-brain axis
+    effects plausible via microbiome disruption from emulsifiers and
+    additives. Dicken 2025 RCT found similar palatability ratings across arms,
+    suggesting whole-food diets are sustainable without hedonic cost
+    ([@dicken2025_ultraprocessed]). Net estimate positive but uncertain.
+  mean: 0.2
+  std: 0.4

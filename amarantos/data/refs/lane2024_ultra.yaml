@@ -29,34 +29,46 @@ keywords:
 hard_claims:
 - summary: High UPF consumption associated with 50% higher risk of cardiovascular
     disease mortality
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
   - outcome: cardiovascular mortality
     mean: 1.5
-    std: 0.15306122448979592
+    std: 0.0663
   population: general adult population
-  notes: Umbrella review of 45 unique meta-analyses; also found 12% higher risk of
-    type 2 diabetes and 21% higher all-cause mortality risk
+  notes: 95% CI 1.37-1.63 (std transcribed as CI width / 3.92); class I (convincing)
+    evidence classification but GRADE certainty very low; umbrella review of 45 unique
+    meta-analyses; also found 12% higher risk of type 2 diabetes
 - summary: High UPF consumption associated with 21% higher all-cause mortality risk
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
   - outcome: all-cause mortality
     mean: 1.21
-    std: 0.05357142857142856
+    std: 0.0306
   population: general adult population
-  notes: Consistent across multiple meta-analyses; dose-response relationship evident
-- summary: High UPF consumption associated with 48-53% higher risk of anxiety and
-    depression
-  choice: upf_avoidance
+  notes: 95% CI 1.15-1.27 (std transcribed as CI width / 3.92); class II (highly
+    suggestive) evidence classification, GRADE certainty low; consistent across
+    multiple meta-analyses; dose-response relationship evident
+- summary: High UPF consumption associated with higher risk of anxiety (OR 1.48),
+    combined common mental disorders (OR 1.53), and depressive outcomes (HR 1.22)
+  choice: avoid_ultra_processed_foods
   evidence_type: Meta-analysis
   effects:
-  - outcome: depression and anxiety
-    mean: 1.5
-    std: 0.1020408163265306
+  - outcome: prevalent anxiety (odds ratio)
+    mean: 1.48
+    std: 0.0561
+  - outcome: combined common mental disorders (odds ratio)
+    mean: 1.53
+    std: 0.051
+  - outcome: incident depressive outcomes (hazard ratio)
+    mean: 1.22
+    std: 0.0306
   population: general adult population
-  notes: Mental health outcomes among the most consistent across studies
+  notes: Anxiety 95% CI 1.37-1.59 and common mental disorders 1.43-1.63 are class I
+    prevalence odds ratios (GRADE low); depressive outcomes 1.16-1.28 are class II
+    incident hazard ratios (GRADE low); the widely quoted ~1.5 figures refer to anxiety
+    and combined mental disorders, not depression specifically
 soft_claims: []
 journal: BMJ
 volume: '384'
@@ -68,6 +80,7 @@ url: https://pubmed.ncbi.nlm.nih.gov/38418082/
 summary: Umbrella review synthesizing 45 unique meta-analyses of prospective studies
   examining ultra-processed food (UPF) consumption and health outcomes. High UPF intake
   was directly associated with 50% higher cardiovascular disease mortality risk, 21%
-  higher all-cause mortality, 40-66% higher anxiety and depression risk, 12% higher
+  higher all-cause mortality, 48% higher prevalent anxiety, 53% higher combined common
+  mental disorders (depressive outcomes specifically 22% higher), 12% higher
   type 2 diabetes risk, and adverse outcomes across multiple organ systems. Evidence
   was most convincing for mortality, CVD events, and mental health outcomes.

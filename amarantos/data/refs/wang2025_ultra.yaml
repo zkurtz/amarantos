@@ -20,7 +20,7 @@ keywords:
 hard_claims:
 - summary: Highest vs lowest UPF intake (>8 vs ≤3.5 servings/day) associated with 15%
     higher all-cause mortality in UK Biobank
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Prospective cohort study
   effects:
   - outcome: all-cause mortality
@@ -32,7 +32,7 @@ hard_claims:
     UPF beverages; breakfast cereals showed inverse association
 - summary: PhenoAge acceleration mediates ~14% of the UPF-mortality association overall,
     rising to ~28% for artificial sweeteners specifically
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Prospective cohort study
   effects: []
   population: UK Biobank adults

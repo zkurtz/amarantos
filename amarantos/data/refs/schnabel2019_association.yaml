@@ -25,24 +25,25 @@ keywords:
 hard_claims:
 - summary: Each 10% increase in UPF consumption associated with 14% higher all-cause
     mortality risk
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Prospective cohort study
   effects:
   - outcome: all-cause mortality
     mean: 1.14
-    std: 0.036224489795918366
+    std: 0.0587
   population: French middle-aged adults (NutriNet-Santé cohort)
   sample_size: 44551
-  notes: Adjusted for socioeconomic, lifestyle, and dietary factors; consistent dose-response
-    relationship
+  notes: 95% CI 1.04-1.27 (std transcribed as CI width / 3.92); only 602 deaths over
+    a median 7.1 years of follow-up, hence the wide interval; adjusted for socioeconomic,
+    lifestyle, and dietary factors; consistent dose-response relationship
 soft_claims: []
 journal: JAMA Intern Med
 volume: '179'
 issue: '4'
 pages: 490-498
 doi: 10.1001/jamainternmed.2018.7289
-pmid: '30742205'
-url: https://pubmed.ncbi.nlm.nih.gov/30742205/
+pmid: '30742202'
+url: https://pubmed.ncbi.nlm.nih.gov/30742202/
 summary: Prospective cohort study of 44,551 French adults (NutriNet-Santé cohort)
   examining the association between ultra-processed food consumption and mortality.
   Each 10 percentage-point increase in UPF consumption was associated with a 14% higher

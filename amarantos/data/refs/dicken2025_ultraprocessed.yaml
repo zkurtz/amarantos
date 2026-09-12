@@ -28,7 +28,7 @@ keywords:
 hard_claims:
 - summary: At 8 weeks, minimally processed diet led to ~2x greater weight loss than
     ultra-processed diet, with both arms following UK Eatwell healthy-eating guidance
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Randomized controlled trial
   effects:
   - outcome: 8-week percent weight change difference (MPF minus UPF)
@@ -44,7 +44,7 @@ hard_claims:
 - summary: Cardiometabolic markers showed mixed but generally favorable effects on
     minimally processed diet (triglycerides decreased more) vs ultra-processed (LDL
     decreased more on UPF)
-  choice: upf_avoidance
+  choice: avoid_ultra_processed_foods
   evidence_type: Randomized controlled trial
   effects: []
   population: adults with overweight/obesity (BMI 25-39.9)
